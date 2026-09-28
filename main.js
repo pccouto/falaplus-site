@@ -1,6 +1,6 @@
 // Static site: no dependencies, tracking, forms or background video downloads.
 // Public Play Store installation is not available yet (confirmed 28/09/2026).
-const CONTACT_EMAIL = 'gpccouto@gmail.com'
+const CONTACT_EMAIL = 'apoio@falamais.pt'
 const ACCESS_SUBJECT = 'Fala+ — acesso aos testes'
 const ACCESS_BODY = 'Olá! Gostaria de receber informações sobre o acesso aos testes da Fala+.\n\nPretendo utilizar a app: em família / na escola / em sessões.\n\nObrigado.'
 
