@@ -9,3 +9,4 @@ Página que apresenta a app Fala+ e permite pedir acesso à fase de testes.
 - Demonstrações: um único leitor com oito jogos, controlos nativos e carregamento após interação. Vídeos param ao sair da área visível ou colocar a página em segundo plano.
 - Navegação móvel: Menu acessível por teclado, fecha com Escape e ao escolher uma secção. Sem JavaScript, a navegação e o vídeo inicial continuam disponíveis.
 - Tipos de letra: Baloo 2 e Nunito (licença SIL OFL, ver `assets/fonts/`).
+- Política de privacidade: `privacy-policy.html` e `privacy-policy-en.html` (28/09/2026). São cópias do repositório `falaplus-legal`, cujo endereço continua registado na Play Console. Qualquer alteração tem de ser feita nos dois sítios até a Play Console passar a apontar para `https://falamais.pt/privacy-policy.html`.

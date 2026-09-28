@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Fala+</title>
+<meta name="description" content="Política de privacidade da app Fala+: que dados recolhemos, o que fica só no aparelho, e como pedir a eliminação dos teus dados.">
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --text: #1e2433;
+    --muted: #5b6478;
+    --accent: #7c3aed;
+    --accent-soft: #efe9fe;
+    --teal: #0f8a72;
+    --border: #e3e6f0;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 90px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.65;
+    padding: 0 16px 64px;
+  }
+  h1, h2 {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header.top {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 18px 0 14px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+    z-index: 5;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand .mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--teal));
+    display: grid; place-items: center;
+    color: #fff; font-weight: 800; font-family: 'Fraunces', serif; font-size: 18px;
+    flex-shrink: 0;
+  }
+  .brand .name { font-weight: 800; font-size: 17px; }
+  .brand .sub { color: var(--muted); font-size: 13px; }
+  .updated { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+  h1.title {
+    font-size: clamp(28px, 6vw, 38px);
+    margin: 28px 0 8px;
+    font-weight: 700;
+  }
+  .lede { color: var(--muted); font-size: 15.5px; max-width: 58ch; margin: 0 0 28px; }
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-bottom: 36px;
+  }
+  nav.toc p { margin: 0 0 8px; font-weight: 700; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  nav.toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+  nav.toc li { margin-bottom: 6px; font-size: 14px; }
+  nav.toc a { color: var(--text); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); }
+  section { margin-bottom: 34px; scroll-margin-top: 90px; }
+  h2 {
+    font-size: 21px;
+    display: flex; align-items: baseline; gap: 10px;
+    margin: 0 0 12px;
+  }
+  h2 .num { color: var(--accent); font-variant-numeric: tabular-nums; font-size: 16px; font-weight: 700; }
+  p { margin: 0 0 14px; font-size: 15.5px; }
+  ul, ol { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; font-size: 15.5px; }
+  strong { font-weight: 700; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin: 14px 0; }
+  .card p:last-child { margin-bottom: 0; }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 16px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 700; }
+  .badge.teal { background: #0f8a7229; color: var(--teal); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 14.5px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 700; font-size: 12.5px; text-transform: uppercase; letter-spacing: .03em; }
+  a.link { color: var(--accent); font-weight: 600; }
+  footer { border-top: 1px solid var(--border); margin-top: 40px; padding-top: 20px; color: var(--muted); font-size: 13.5px; }
+  @media (max-width: 520px) { nav.toc ol { columns: 1; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Public+Sans:wght@400;600;700;800&display=swap">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">F+</span>
+      <div>
+        <div class="name">Fala+</div>
+        <div class="sub">Política de Privacidade</div>
+      </div>
+      <a class="link" style="margin-left:auto;font-size:14px" href="privacy-policy-en.html" hreflang="en">English</a>
+    </div>
+  </header>
+
+  <h1 class="title">Política de Privacidade</h1>
+  <p class="lede">Esta página explica que dados a aplicação Fala+ recolhe, para que servem, e como podes contactar-nos sobre eles. Escrevemo-la para ser lida por um pai, uma mãe ou um terapeuta — não só por um advogado.</p>
+  <p class="updated">Última atualização: 21 de setembro de 2026 (v6) · Responsável: Paulo Couto</p>
+
+  <div class="badge-row">
+    <span class="badge">🚫 Sem publicidade</span>
+    <span class="badge teal">🔒 Sem conta, nada sai do aparelho</span>
+    <span class="badge">👨‍👩‍👧 Feita para crianças</span>
+  </div>
+
+  <nav class="toc" aria-label="Índice">
+    <p>Índice</p>
+    <ol>
+      <li><a href="#quem-somos">Quem somos</a></li>
+      <li><a href="#dados">Que dados recolhemos</a></li>
+      <li><a href="#dispositivo">Dados que nunca saem do aparelho</a></li>
+      <li><a href="#criancas">Crianças e Área Adulto</a></li>
+      <li><a href="#terceiros">Serviços de terceiros</a></li>
+      <li><a href="#publicidade">Publicidade e rastreio</a></li>
+      <li><a href="#compras">Compras e subscrições</a></li>
+      <li><a href="#seguranca">Segurança</a></li>
+      <li><a href="#direitos">Os teus direitos</a></li>
+      <li><a href="#eliminar">Como eliminar os teus dados</a></li>
+      <li><a href="#alteracoes">Alterações a esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="quem-somos">
+    <h2><span class="num">01</span> Quem somos</h2>
+    <p>A Fala+ é desenvolvida e mantida por <strong>Paulo Couto</strong>, com sede em Portugal. Para qualquer questão sobre privacidade ou dados pessoais, contacta <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a>.</p>
+  </section>
+
+  <section id="dados">
+    <h2><span class="num">02</span> Que dados recolhemos</h2>
+    <p>A Fala+ funciona sem conta. Criar uma conta (Área Adulto → Conta e Backup) é sempre opcional e serve para não perderes o progresso e a personalização do quadro de Comunicar se mudares de aparelho.</p>
+    <table>
+      <tr><th>Se não crias conta</th><th>Se crias conta (Conta e Backup)</th></tr>
+      <tr>
+        <td>Nada é enviado para os nossos servidores. Todo o progresso e personalização ficam só no aparelho.</td>
+        <td>Através do Google, Microsoft ou email/palavra-passe (Firebase Authentication), guardamos o teu email, nome e foto de perfil (se o fornecedor de login os disponibilizar) para identificar a conta. Sincronizamos também, por cada perfil de criança: <strong>nome, data de nascimento, fase de comunicação, nível, passos completos, desbloqueios, estrelas e itens de mascote conquistados, prémios/medalhas e tempo de utilização</strong>, e ainda o <strong>histórico de aprendizagem</strong> e as <strong>preferências do adulto</strong>, descritos abaixo.</td>
+      </tr>
+    </table>
+    <div class="card">
+      <p><strong>Quadro de Comunicar:</strong> se tiveres conta, as fotografias, gravações de voz e cartões/palavras personalizadas que adicionares especificamente ao quadro de Comunicar (Menu Comunicar) também são sincronizados com a tua conta, para os teres disponíveis se mudares de aparelho. Só existem se o adulto as criar.</p>
+    </div>
+    <div class="card">
+      <p><strong>Gravações de voz (menu Voz):</strong> se tiveres conta, as gravações que o adulto faz da sua própria voz a dizer palavras, e a indicação de que cada uma pode ser usada nos jogos, também são guardadas na conta, para as recuperares se mudares de aparelho ou saíres da conta. Só existem se o adulto as gravar.</p>
+    </div>
+    <div class="card">
+      <p><strong>Histórico de aprendizagem:</strong> se tiveres conta, guardamos por cada perfil as palavras e atividades que a criança trabalhou (dia, jogo ou atividade, palavra, língua, resultado e número de vezes), as palavras que lhe foram mostradas, os melhores tempos e o registo de estrelas. Serve para recuperares o percurso e para o relatório semanal. <strong>Não inclui o nome da criança</strong> e não contém fotografias nem gravações.</p>
+    </div>
+    <div class="card">
+      <p><strong>Preferências do adulto:</strong> se tiveres conta, guardamos por cada perfil as definições da app (por exemplo, velocidade e origem da voz, modo sensorial, opções do quadro de Comunicar, favoritos, ícones ocultos e tutoriais já vistos). O PIN da Área Adulto, o idioma e o volume não são enviados.</p>
+    </div>
+  </section>
+
+  <section id="dispositivo">
+    <h2><span class="num">03</span> Dados que ficam sempre só no aparelho</h2>
+    <p>Estes dados nunca são enviados para os nossos servidores, mesmo com conta criada:</p>
+    <ul>
+      <li>Fotografias usadas para personalizar ícones e jogos (fora do quadro de Comunicar)</li>
+      <li>O PIN da Área Adulto, o idioma e o volume</li>
+      <li>Todos os dados de quem não cria conta</li>
+    </ul>
+    <p>Se desinstalares a aplicação, ou usares "Reiniciar" em Área Adulto, estes dados apagam-se permanentemente do aparelho e não existe cópia nossa nalgum servidor. Se tiveres conta, "Sair da conta" guarda primeiro tudo o que é sincronizado na conta e só depois apaga os dados do aparelho; ao entrares de novo recuperas o que estava guardado.</p>
+  </section>
+
+  <section id="criancas">
+    <h2><span class="num">04</span> Crianças e Área Adulto</h2>
+    <p>A Fala+ é feita para ser usada por crianças <strong>com um adulto por perto</strong>. Não pedimos diretamente nenhum dado pessoal à criança — o nome e a data de nascimento de cada perfil são introduzidos pelo adulto responsável, e servem apenas para adaptar a app à idade/fase de comunicação da criança dentro do próprio aparelho.</p>
+    <p>Todas as ações sensíveis (criar conta, gerir perfis, comprar uma subscrição, alterar definições) vivem dentro de uma área protegida por um PIN criado pelo adulto ("Área Adulto"), precisamente para que só um adulto as possa realizar.</p>
+  </section>
+
+  <section id="terceiros">
+    <h2><span class="num">05</span> Serviços de terceiros</h2>
+    <p>Usamos o <strong>Firebase</strong> (Google) para autenticação de conta e para sincronizar o que está descrito na secção 2, quando o utilizador opta por criar conta. Consulta a <a class="link" href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade da Google</a> para saberes como a Google trata esses dados enquanto fornecedor deste serviço.</p>
+    <p>A app também tem uma opção de <strong>estatísticas de utilização (Firebase Analytics)</strong>, desligada por defeito — só é ativada se a ligares manualmente em Área Adulto → Conta e Backup. Quando ativa, envia ecrãs visitados, escolhas de menus/jogos e duração das sessões; nunca envia fotografias, gravações de voz, nome ou fase de comunicação da criança.</p>
+    <p>Não integramos nenhuma rede de publicidade, nenhum SDK de terceiros com fins publicitários, nem partilhamos dados com ninguém para fins de marketing.</p>
+  </section>
+
+  <section id="publicidade">
+    <h2><span class="num">06</span> Publicidade e rastreio</h2>
+    <div class="card">
+      <p><strong>A Fala+ não mostra publicidade em nenhum plano</strong> — gratuito ou pago. É uma decisão de produto deliberada: nunca queremos colocar uma criança numa situação de clique involuntário num anúncio.</p>
+    </div>
+  </section>
+
+  <section id="compras">
+    <h2><span class="num">07</span> Compras e subscrições</h2>
+    <p>A Fala+ oferece uma subscrição opcional (<strong>Fala+ Premium</strong>) que desbloqueia conteúdo adicional. As compras são processadas inteiramente pela <strong>Google Play Billing</strong> — não recebemos nem guardamos dados do teu cartão ou método de pagamento; isso fica só entre ti e a Google. A subscrição é mensal, renova automaticamente e pode ser cancelada a qualquer momento na Google Play. Para que o Premium fique associado à tua conta, enviamos à Google Play um identificador da conta Fala+ em forma ofuscada; o Premium só fica ativo com a conta Google que fez a compra e deixa de estar ativo no aparelho quando sais da conta (volta a ficar ao entrares com essa conta). A app guarda, no aparelho, a informação de que a subscrição está ativa.</p>
+  </section>
+
+  <section id="seguranca">
+    <h2><span class="num">08</span> Segurança</h2>
+    <p>Os dados de conta sincronizados são guardados através da infraestrutura do Firebase (Google Cloud), com as proteções padrão desse serviço. Os dados guardados só no aparelho (por exemplo, o PIN e as fotografias de personalização fora do quadro de Comunicar) dependem da segurança do próprio dispositivo — recomendamos manter o teu telemóvel/tablet protegido por PIN ou biometria.</p>
+  </section>
+
+  <section id="direitos">
+    <h2><span class="num">09</span> Os teus direitos</h2>
+    <p>Se criaste conta, tens o direito de aceder, corrigir ou eliminar os teus dados a qualquer momento, e de retirar o consentimento para a sincronização. Para exercer qualquer um destes direitos, contacta-nos em <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a> — respondemos o mais rápido possível.</p>
+  </section>
+
+  <section id="eliminar">
+    <h2><span class="num">10</span> Como eliminar os teus dados — Fala+</h2>
+    <p>Estes passos aplicam-se à app <strong>Fala+</strong>, de Paulo Couto.</p>
+    <ol>
+      <li><strong>Apagar um perfil de criança</strong> (e tudo o que lhe pertence, incluindo fotos, vozes e cartões personalizados guardados no aparelho): abre a Fala+ → Área Adulto → Perfis → toca no ícone de eliminar junto ao perfil → confirma. <em>Efeito: imediato e permanente no aparelho. Se tiveres conta iniciada, o perfil é também apagado da conta (dados do perfil, progresso, histórico de aprendizagem, gravações de voz e o quadro de Comunicar desse perfil). Se estiveres sem internet, o pedido fica guardado e é concluído assim que houver ligação, por isso não desinstales a app antes disso.</em></li>
+      <li><strong>Apagar só o progresso de um perfil</strong>, mantendo o nome e a data de nascimento: Área Adulto → Perfis → "Reiniciar Perfil" → confirma. <em>Efeito: imediato e permanente — apaga estrelas, medalhas, mascotes, histórico de aprendizagem e o progresso sincronizado na cloud (se houver conta). Mantêm-se o nome, a data de nascimento, as adaptações escolhidas pelo adulto, as gravações de voz e os cartões do Comunicar; para os apagar também, usa "Apagar um perfil de criança" acima ou "Reiniciar cartões" no editor do Comunicar.</em></li>
+      <li><strong>Apagar a conta e todos os dados na cloud</strong> (email, progresso, histórico de aprendizagem, preferências, gravações de voz e personalização do quadro de Comunicar sincronizados no Firebase): Área Adulto → Conta e Backup → sair da conta; depois envia um pedido para <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a> com o email da conta a eliminar. <em>Efeito: eliminamos o email, o identificador de conta, o progresso sincronizado, o histórico de aprendizagem, as preferências, as gravações de voz e as fotos/vozes/cartões do quadro de Comunicar guardados no Firebase, no prazo de 30 dias após o pedido. Fotografias de personalização fora do quadro de Comunicar nunca chegaram a sair do aparelho, por isso não existem nos nossos servidores em momento algum.</em></li>
+    </ol>
+  </section>
+
+  <section id="alteracoes">
+    <h2><span class="num">11</span> Alterações a esta política</h2>
+    <p>Se esta política mudar de forma relevante, atualizamos a data no topo desta página. Recomendamos reveres esta página de vez em quando.</p>
+  </section>
+
+  <section id="contacto">
+    <h2><span class="num">12</span> Contacto</h2>
+    <p>Dúvidas, pedidos ou preocupações sobre privacidade: <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a></p>
+  </section>
+
+  <footer>Fala+ — aplicação de comunicação e aprendizagem para crianças.</footer>
+</div>
+</body>
+</html>
