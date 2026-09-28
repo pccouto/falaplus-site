@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fala+ · Aprender a comunicar a brincar</title>
-  <meta name="description" content="A Fala+ é uma app para Android que ajuda crianças a comunicar a brincar: 48 jogos, 48 atividades para brincar, um quadro de comunicação e vozes em português de Portugal. Para famílias, terapeutas da fala e educadores.">
-  <meta name="theme-color" content="#6d4ce8">
+  <title>Fala+ · Pequenas descobertas. Mais comunicação.</title>
+  <meta name="description" content="Comunicar, descobrir palavras e aprender a brincar. Conheça a Fala+, a app Android com jogos, comunicação por imagens e vozes em português de Portugal. Peça acesso aos testes.">
+  <meta name="theme-color" content="#fcfaf6">
+  <link rel="canonical" href="https://falamais.pt/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Fala+ · Aprender a comunicar a brincar">
-  <meta property="og:description" content="Jogos, quadro de comunicação e vozes em português de Portugal, numa app para Android.">
-  <meta property="og:image" content="https://pccouto.github.io/falaplus-site/assets/img/og-image.png">
+  <meta property="og:title" content="Fala+ · Aprender a comunicar, a brincar">
+  <meta property="og:description" content="Um mundo de palavras, jogos e descobertas, ao ritmo de cada criança. App Android em fase de testes.">
+  <meta property="og:image" content="https://falamais.pt/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://pccouto.github.io/falaplus-site/">
+  <meta property="og:url" content="https://falamais.pt/">
   <meta property="og:locale" content="pt_PT">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="assets/img/favicon-48.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/baloo2-variable.ttf" as="font" type="font/ttf" crossorigin>
@@ -22,269 +24,114 @@
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-speech" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 1-8 8H5l-4 3V11a9 9 0 0 1 18-4M7 10h6m-6 4h4"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M8 6h8c3 0 4 2 5 6l1 5c.5 3-2 4-4 2l-3-3H9l-3 3c-2 2-4.5 1-4-2l1-5c1-4 2-6 5-6Z"/><path d="M7 9v6m-3-3h6m7-2h.01m2 3h.01"/></symbol>
+    <symbol id="i-path" viewBox="0 0 24 24"><path d="M5 21v-6h7V9h7V3M16 3h6v6"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 8-2 6-6 2 2-6Z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20 4c-3-2-6 0-8 2-2-2-5-4-8-2-5 4 0 9 8 16C20 13 25 8 20 4Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="13" rx="4"/><path d="M5 10a7 7 0 0 0 14 0m-7 7v5m-4 0h8"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="12" rx="3"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v3"/></symbol>
+  </svg>
 
   <header class="site-header">
     <div class="wrap header-row">
-      <a class="brand" href="#topo" aria-label="Fala+ — início">
-        <span class="brand-word">Fala<img class="brand-logo" src="assets/img/fala-plus-logo.png" alt="+" width="40" height="40"></span>
-      </a>
-      <nav class="site-nav" aria-label="Secções">
-        <a href="#jogos">Jogos</a>
-        <a href="#para-quem">Para quem</a>
-        <a href="#planos">Planos</a>
-        <a href="#perguntas">Perguntas</a>
+      <a class="brand" href="#topo" aria-label="Fala+ — início">Fala<img src="assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
+        <a href="#a-app">A app</a><a href="#jogos">Os jogos</a><a href="#para-quem">Para quem</a><a href="#planos">Planos</a><a href="#perguntas">Dúvidas</a>
       </nav>
-      <a class="btn btn-small" data-play-link href="#instalar">Instalar</a>
+      <a class="button button-small header-cta" href="#experimentar">Pedir acesso <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
     </div>
   </header>
 
   <main id="conteudo">
-    <!-- HERO -->
     <section class="hero" id="topo">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">App para Android · Português de Portugal</p>
-          <h1>Aprender a comunicar, <span class="accent">a brincar.</span></h1>
-          <p class="lead">A Fala+ junta 48 jogos, 48 atividades para brincar livremente, um quadro de comunicação e vozes em português de Portugal para ajudar cada criança a dar os primeiros passos na comunicação — em casa, na escola ou na terapia da fala.</p>
-          <div class="cta-row" id="instalar">
-            <a class="btn btn-play" data-play-link href="https://play.google.com/store/apps/details?id=pt.falaplus.app">
-              <svg viewBox="0 0 24 24" aria-hidden="true" width="26" height="26"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z"/></svg>
-              <span><small>Disponível no</small>Google Play</span>
-            </a>
-            <a class="btn btn-ghost" href="#jogos">Ver os jogos</a>
-          </div>
-          <ul class="hero-facts" aria-label="Destaques">
-            <li><strong>48</strong> jogos</li>
-            <li><strong>Sem</strong> publicidade</li>
-            <li><strong>Grátis</strong> para começar</li>
-          </ul>
+          <p class="availability"><span aria-hidden="true"></span>Em fase de testes · Para Android</p>
+          <h1>Um mundo para<br>comunicar.<br><span class="word-highlight">A brincar.</span></h1>
+          <p class="lead">Há muitas formas de dizer o que se sente. A Fala+ junta imagens, palavras, voz e jogos para acompanhar as descobertas de cada criança.</p>
+          <div class="cta-row"><a class="button" href="#experimentar">Quero experimentar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="text-link" href="#jogos"><span class="play-mark" aria-hidden="true">▶</span> Ver a app em ação</a></div>
+          <p class="hero-caption">Em casa, na escola e nas sessões de terapia da fala.</p>
         </div>
-
-        <div class="hero-visual" aria-hidden="true">
-          <div class="phone">
-            <img src="assets/img/screen-atividades.webp" alt="" width="540" height="1200">
-          </div>
-          <div class="float-card float-video">
-            <video muted loop playsinline preload="none" poster="assets/video/guitar-icon-demo-poster.jpg" data-autoplay>
-              <source src="assets/video/guitar-icon-demo.mp4" type="video/mp4">
-            </video>
-            <span>Guitarra Icon</span>
-          </div>
-          <div class="float-card float-badge">⭐ Muito bem!</div>
+        <div class="hero-visual">
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <svg class="hero-spark spark-one icon" aria-hidden="true"><use href="#i-spark"/></svg>
+          <svg class="hero-spark spark-two icon" aria-hidden="true"><use href="#i-spark"/></svg>
+          <div class="phone hero-phone"><img src="assets/img/screen-atividades.webp" alt="Na Fala+, a criança pode escolher Caminhada, Jogos ou Percurso Guiado." width="540" height="1200" fetchpriority="high"></div>
+          <div class="floating-note note-voice"><span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg></span><div><strong>Palavras com voz</strong><span>Português de Portugal</span></div></div>
+          <div class="floating-note note-discover"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg><div><strong>Cada descoberta conta.</strong><span>Ao ritmo de cada criança.</span></div></div>
+          <div class="hero-mini"><img src="assets/video/bubble-pop-demo-poster.jpg" alt="Jogo Bolhas de Sabão na Fala+" width="180" height="320" loading="eager"><span>Aprender é descobrir <svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg></span></div>
         </div>
       </div>
     </section>
 
-    <!-- PILARES -->
-    <section class="pillars" aria-label="O que a Fala+ inclui">
-      <div class="wrap pillar-grid">
-        <div class="pillar"><span class="pillar-icon" aria-hidden="true">🎮</span><div><strong>Jogos com palavras reais</strong><span>Cada jogo trabalha vocabulário do dia a dia.</span></div></div>
-        <div class="pillar"><span class="pillar-icon" aria-hidden="true">💬</span><div><strong>Quadro de comunicação</strong><span>Escolher, pedir e partilhar com imagens e voz.</span></div></div>
-        <div class="pillar"><span class="pillar-icon" aria-hidden="true">🗣️</span><div><strong>Vozes em português de Portugal</strong><span>Gravadas e claras, mesmo em aparelhos sem voz instalada.</span></div></div>
-        <div class="pillar"><span class="pillar-icon" aria-hidden="true">👨‍👩‍👧</span><div><strong>Um perfil por criança</strong><span>Progresso, estrelas e mascote de cada uma.</span></div></div>
-      </div>
-    </section>
+    <div class="trust-strip"><div class="wrap trust-grid"><p><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg>Vozes em português de Portugal</p><p><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Sem publicidade</p><p><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg>Para telemóveis e tablets Android</p></div></div>
 
-    <!-- FUNCIONALIDADES -->
-    <section class="section" id="funcionalidades">
+    <section class="section" id="a-app">
       <div class="wrap">
-        <p class="eyebrow center">Tudo numa só app</p>
-        <h2 class="center">Brincar é a melhor forma de aprender</h2>
-        <p class="section-lead center">A criança sente que está a jogar. Por trás, cada jogo repete palavras, trabalha a atenção e celebra cada conquista.</p>
+        <div class="section-heading"><div><p class="eyebrow">Conheça a Fala+</p><h2>Pequenos passos.<br>Novas possibilidades.</h2></div><p>Para pedir, partilhar, explorar e aprender. Diferentes formas de usar a app, com espaço para escolher o que faz sentido em cada momento.</p></div>
         <div class="feature-grid">
-          <article class="feature tone-blue">
-            <span class="feature-icon" aria-hidden="true">🪜</span>
-            <h3>Caminhada, nível a nível</h3>
-            <p>Um percurso de 100 níveis, com um caminho para quem já sabe ler e outro para quem ainda não sabe. A dificuldade acompanha os resultados de cada criança.</p>
-          </article>
-          <article class="feature tone-green">
-            <span class="feature-icon" aria-hidden="true">💬</span>
-            <h3>Comunicar</h3>
-            <p>Um quadro de comunicação com 250 cartões para escolher, pedir e partilhar — com imagens, frases e voz.</p>
-          </article>
-          <article class="feature tone-pink">
-            <span class="feature-icon" aria-hidden="true">🪁</span>
-            <h3>Brincar livre</h3>
-            <p>15 instrumentos, 19 efeitos mágicos e 12 atividades de pintura, um cacto falante que repete o que a criança diz e a Voz Mágica.</p>
-          </article>
-          <article class="feature tone-amber">
-            <span class="feature-icon" aria-hidden="true">🏆</span>
-            <h3>Progresso que se vê</h3>
-            <p>Estrelas, medalhas, missões e mascotes para desbloquear. A criança vê o que já conquistou.</p>
-          </article>
-          <article class="feature tone-purple">
-            <span class="feature-icon" aria-hidden="true">🎙️</span>
-            <h3>A voz de quem a criança conhece</h3>
-            <p>O adulto pode gravar a própria voz e tirar fotografias para as palavras, tornando tudo mais familiar.</p>
-          </article>
-          <article class="feature tone-teal">
-            <span class="feature-icon" aria-hidden="true">🌙</span>
-            <h3>Modo calmo</h3>
-            <p>Menos movimento e sons mais suaves, para crianças mais sensíveis a estímulos.</p>
-          </article>
+          <article class="feature feature-communicate"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-speech"/></svg></span><p class="feature-label">Comunicar</p><h3>Uma imagem.<br>Uma palavra. Uma intenção.</h3><p>Escolher o que se quer dizer, construir uma frase e ouvi-la em voz alta. Um quadro de comunicação com imagens para pedir e partilhar.</p><div class="phrase-example" aria-label="Exemplo de frase: Eu quero água"><span><svg class="phrase-symbol" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="10" r="6"/><path d="M9 35V27a11 11 0 0 1 22 0v8Z"/></svg>Eu</span><span><svg class="phrase-symbol" viewBox="0 0 40 40" aria-hidden="true"><path d="M10 23 20 7l10 16h-6v11h-8V23Z"/></svg>quero</span><span><svg class="phrase-symbol" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 4S8 18 8 26a12 12 0 0 0 24 0C32 18 20 4 20 4Z"/></svg>água</span><span class="phrase-sound" aria-hidden="true">♪</span></div><small>Uma forma de transformar escolhas em comunicação.</small></article>
+          <article class="feature feature-walk"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-path"/></svg></span><p class="feature-label">Caminhada</p><h3>Um passo de cada vez.</h3><p>Um percurso por níveis que acompanha a criança, com caminhos para quem já sabe ler e para quem ainda está a descobrir as palavras.</p><div class="path-art" aria-hidden="true"><span>1</span><i></i><span>2</span><i></i><span>★</span></div></article>
+          <article class="feature feature-games"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-game"/></svg></span><p class="feature-label">Jogos</p><h3>Aprender pede mais uma jogada.</h3><p>Memória, cores, palavras e muitos desafios. Jogos que convidam a voltar e a experimentar outra vez.</p><a class="text-link" href="#jogos">Descobrir os jogos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></article>
+          <article class="feature feature-guided"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-compass"/></svg></span><p class="feature-label">Percurso Guiado</p><h3>Um caminho escolhido em conjunto.</h3><p>O adulto define o percurso de atividades. A criança descobre os desafios que foram escolhidos para ela.</p></article>
+          <article class="feature feature-play"><span class="feature-icon"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg></span><p class="feature-label">Brincar</p><h3>Às vezes, basta explorar.</h3><p>Tocar instrumentos, brincar com a voz, lançar confettis ou descobrir o Cacto Falante. Espaço para a curiosidade e a imaginação.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- JOGOS EM VÍDEO -->
-    <section class="section section-tint" id="jogos">
-      <div class="wrap">
-        <p class="eyebrow center">48 jogos</p>
-        <h2 class="center">Veja alguns jogos em ação</h2>
-        <p class="section-lead center">Vídeos reais da app. Cada jogo usa as palavras e imagens que a criança está a aprender — mais de 1000 palavras em 25 temas.</p>
-        <div class="game-grid">
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/bubble-pop-demo-poster.jpg" data-autoplay><source src="assets/video/bubble-pop-demo.mp4" type="video/mp4"></video><figcaption><strong>Bolhas de Sabão</strong><span>Rebenta a bolha pedida</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/feed-monster-demo-poster.jpg" data-autoplay><source src="assets/video/feed-monster-demo.mp4" type="video/mp4"></video><figcaption><strong>Alimentar os Monstros</strong><span>Segue os tubos e dá a comida</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/guitar-icon-demo-poster.jpg" data-autoplay><source src="assets/video/guitar-icon-demo.mp4" type="video/mp4"></video><figcaption><strong>Guitarra Icon</strong><span>Toca quando a nota chegar</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/memory-match-demo-poster.jpg" data-autoplay><source src="assets/video/memory-match-demo.mp4" type="video/mp4"></video><figcaption><strong>Jogo da Memória</strong><span>Vira as cartas e junta pares</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/plinko-demo-poster.jpg" data-autoplay><source src="assets/video/plinko-demo.mp4" type="video/mp4"></video><figcaption><strong>Plinko Mágico</strong><span>Enche os recipientes da imagem</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/darts-demo-poster.jpg" data-autoplay><source src="assets/video/darts-demo.mp4" type="video/mp4"></video><figcaption><strong>Dardos</strong><span>Para os ponteiros e acerta no alvo</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/tap-to-paint-demo-poster.jpg" data-autoplay><source src="assets/video/tap-to-paint-demo.mp4" type="video/mp4"></video><figcaption><strong>Cores</strong><span>Ouve a cor e pinta</span></figcaption></figure>
-          <figure class="game-card"><video muted loop playsinline preload="none" poster="assets/video/crocodile-whack-demo-poster.jpg" data-autoplay><source src="assets/video/crocodile-whack-demo.mp4" type="video/mp4"></video><figcaption><strong>Martela o Crocodilo</strong><span>Acerta no crocodilo certo</span></figcaption></figure>
+    <section class="section demo-section" id="jogos">
+      <div class="wrap demo-layout">
+        <div class="demo-screen">
+          <span class="demo-sticker">É mesmo a app!</span>
+          <video id="game-preview" controls muted loop playsinline preload="none" poster="assets/video/bubble-pop-demo-poster.jpg" aria-label="Demonstração do jogo Bolhas de Sabão"><source src="assets/video/bubble-pop-demo.mp4" type="video/mp4"><p>O seu navegador não suporta vídeo. <a href="assets/video/bubble-pop-demo.mp4">Abrir demonstração</a>.</p></video>
+          <p id="demo-caption">Bolhas de Sabão · Rebenta a bolha pedida.</p>
+        </div>
+        <div class="demo-copy"><p class="eyebrow">Um olhar por dentro</p><h2>Menos explicações.<br>Mais «quero jogar!»</h2><p class="demo-lead">Veja os jogos em ação. Escolha uma demonstração e descubra como as palavras fazem parte da brincadeira.</p>
+          <div class="demo-picker" role="group" aria-label="Escolher demonstração">
+            <button type="button" class="demo-choice" aria-pressed="true" data-demo="bubble-pop" data-title="Bolhas de Sabão" data-description="Rebenta a bolha pedida."><img src="assets/video/bubble-pop-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Bolhas de Sabão<small>Ouvir e descobrir</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="feed-monster" data-title="Alimentar os Monstros" data-description="Segue os tubos e dá a comida."><img src="assets/video/feed-monster-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Os Monstros<small>Escolher e alimentar</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="guitar-icon" data-title="Guitarra Icon" data-description="Toca quando a nota chegar."><img src="assets/video/guitar-icon-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Guitarra Icon<small>Ritmo e atenção</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="memory-match" data-title="Jogo da Memória" data-description="Vira as cartas e junta pares."><img src="assets/video/memory-match-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Jogo da Memória<small>Encontrar os pares</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="plinko" data-title="Plinko Mágico" data-description="Enche os recipientes da imagem."><img src="assets/video/plinko-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Plinko Mágico<small>Lançar e explorar</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="darts" data-title="Dardos" data-description="Para os ponteiros e acerta no alvo."><img src="assets/video/darts-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Dardos<small>Apontar e acertar</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="tap-to-paint" data-title="Cores" data-description="Ouve a cor e pinta."><img src="assets/video/tap-to-paint-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Cores<small>Ouvir e pintar</small></span></button>
+            <button type="button" class="demo-choice" aria-pressed="false" data-demo="crocodile-whack" data-title="Martela o Crocodilo" data-description="Acerta no crocodilo certo."><img src="assets/video/crocodile-whack-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>O Crocodilo<small>Observar e reagir</small></span></button>
+          </div><p class="demo-note" id="demo-status" role="status">Vídeos reais da Fala+. Carregue em reproduzir para começar.</p>
+          <noscript><p>Use os controlos do vídeo para ver Bolhas de Sabão. A seleção dos outros jogos precisa de JavaScript.</p></noscript>
         </div>
       </div>
     </section>
 
-    <!-- PARA QUEM -->
-    <section class="section" id="para-quem">
-      <div class="wrap">
-        <p class="eyebrow center">Para quem</p>
-        <h2 class="center">Feita para quem acompanha a criança</h2>
-        <div class="audience-grid">
-          <article class="audience">
-            <span class="audience-icon" aria-hidden="true">🏡</span>
-            <h3>Famílias</h3>
-            <p>Um momento de brincadeira com propósito, todos os dias. A criança joga ao seu ritmo e a família vê o progresso.</p>
-          </article>
-          <article class="audience">
-            <span class="audience-icon" aria-hidden="true">🩺</span>
-            <h3>Terapeutas da fala</h3>
-            <p>Um complemento às sessões: vários perfis, estatísticas por jogo e um relatório semanal em PDF para partilhar com a família.</p>
-          </article>
-          <article class="audience">
-            <span class="audience-icon" aria-hidden="true">🏫</span>
-            <h3>Educadores</h3>
-            <p>Mais de 1000 palavras organizadas em 25 temas — emoções, rotinas, escola, números e muito mais — para trabalhar em grupo ou individualmente.</p>
-          </article>
-        </div>
-        <div class="adult-strip">
-          <img src="assets/img/screen-adulto.webp" alt="Ecrã da Área Adulto, protegida por PIN" width="540" height="1200" loading="lazy">
-          <div>
-            <h3>Área Adulto protegida por PIN</h3>
-            <ul class="check-list">
-              <li>Perfis para cada criança</li>
-              <li>Estatísticas de tempo, jogos e palavras</li>
-              <li>Vozes e fotografias personalizadas</li>
-              <li>Música, sons e modo calmo ajustáveis</li>
-              <li>Cópia de segurança do progresso na conta</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="section" id="para-quem"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">Uma criança. Uma equipa.</p><h2>Quem acompanha<br>também faz parte.</h2></div><p>A mesma app em diferentes momentos do dia. Com ferramentas para quem brinca, ensina e acompanha.</p></div>
+      <div class="audience-grid"><article><span class="audience-number">01 / Em casa</span><h3>Para as famílias.</h3><p>Partilhar uma brincadeira, dar voz a um pedido e acompanhar as pequenas conquistas do dia a dia.</p></article><article><span class="audience-number">02 / Nas sessões</span><h3>Para terapeutas da fala.</h3><p>Escolher atividades, acompanhar diferentes perfis e consultar o relatório semanal em PDF para apoiar a análise e a partilha.</p></article><article><span class="audience-number">03 / Na escola</span><h3>Para educadores.</h3><p>Explorar palavras e imagens sobre emoções, rotinas, escola e outros temas familiares à criança.</p></article></div>
+      <div class="care-panel"><div class="care-visual"><img src="assets/img/screen-adulto.webp" width="540" height="1200" alt="Ecrã real de acesso à Área Adulto, protegido por PIN" loading="lazy"><span class="care-badge"><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg> O adulto acompanha.</span></div><div class="care-copy"><p class="eyebrow">Familiar para a criança. Útil para o adulto.</p><h2>À sua maneira.<br>Ao ritmo dela.</h2><ul class="care-list"><li><strong>A voz de quem conhece</strong><span>Grave vozes e use fotografias para tornar as palavras mais familiares.</span></li><li><strong>Espaço para um ritmo mais calmo</strong><span>Ajuste sons, música e movimento no modo calmo.</span></li><li><strong>Um perfil, um percurso</strong><span>Acompanhe o progresso, as palavras e as conquistas de cada criança.</span></li><li><strong>Definições na Área Adulto</strong><span>Acesso protegido por PIN para gerir a experiência.</span></li></ul></div></div>
+    </div></section>
 
-    <!-- COMO COMEÇAR -->
-    <section class="section section-tint" id="como-comecar">
-      <div class="wrap">
-        <p class="eyebrow center">Como começar</p>
-        <h2 class="center">Pronto a brincar em três passos</h2>
-        <ol class="steps">
-          <li><span class="step-num">1</span><h3>Instale a app</h3><p>Gratuita no Google Play, para telemóveis e tablets Android.</p></li>
-          <li><span class="step-num">2</span><h3>Crie o perfil</h3><p>Com o nome, a data de nascimento e se já sabe ler, a app adapta-se a ela.</p></li>
-          <li><span class="step-num">3</span><h3>Brinque</h3><p>A criança escolhe, joga e ganha estrelas. O adulto acompanha.</p></li>
-        </ol>
-      </div>
-    </section>
+    <section class="section plans-section" id="planos"><div class="wrap">
+      <div class="center-heading"><p class="eyebrow">Os planos da Fala+</p><h2>Começar a descobrir.<br>Ter espaço para continuar.</h2><p>A app tem um plano gratuito e uma opção Premium.<br>Durante os testes, confirme connosco as condições de acesso.</p></div>
+      <div class="plan-grid"><article class="plan"><p class="plan-kicker">Para começar</p><h3>Gratuito</h3><p class="plan-intro">As primeiras descobertas, sem publicidade.</p><ul class="check-list"><li>Comunicar sem limites</li><li>Caminhada até ao nível 5</li><li>5 atividades do Brincar, 3 minutos por dia cada</li><li>Até 3 perfis</li></ul><a href="#experimentar" class="button button-outline">Pedir acesso aos testes <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></article><article class="plan plan-premium"><span class="premium-tag">Mais para explorar</span><p class="plan-kicker">Para continuar</p><h3>Premium <span aria-hidden="true">✦</span></h3><p class="plan-intro">Uma experiência completa para descobrir mais.</p><ul class="check-list"><li>Todos os jogos à escolha</li><li>Caminhada completa e Percurso Guiado</li><li>Brincar sem limite de tempo</li><li>Perfis ilimitados</li><li>Relatório semanal em PDF</li></ul><p class="plan-note">Preço e subscrição apresentados no Google Play quando disponíveis.</p><a href="#experimentar" class="button">Saber mais sobre o acesso <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></article></div>
+    </div></section>
 
-    <!-- PLANOS -->
-    <section class="section" id="planos">
-      <div class="wrap">
-        <p class="eyebrow center">Planos</p>
-        <h2 class="center">Comece grátis</h2>
-        <div class="plan-grid">
-          <article class="plan">
-            <h3>Gratuito</h3>
-            <p class="plan-price">0 €</p>
-            <ul class="check-list">
-              <li>Comunicar sem limites</li>
-              <li>Caminhada até ao nível 5</li>
-              <li>Brincar: 5 atividades para experimentar, 3 minutos por dia cada</li>
-              <li>Até 3 perfis</li>
-              <li>Sem publicidade</li>
-            </ul>
-          </article>
-          <article class="plan plan-premium">
-            <span class="plan-tag">Tudo desbloqueado</span>
-            <h3>Premium</h3>
-            <p class="plan-price">Subscrição</p>
-            <ul class="check-list">
-              <li>48 jogos à escolha</li>
-              <li>Caminhada completa (100 níveis) e Percurso Guiado</li>
-              <li>Brincar completo, sem limite de tempo</li>
-              <li>Perfis ilimitados</li>
-              <li>Relatório semanal em PDF</li>
-            </ul>
-            <p class="plan-note">Preço e subscrição geridos pelo Google Play.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="section" id="perguntas"><div class="wrap faq-layout"><div><p class="eyebrow">Antes de começar</p><h2>Uma ajuda<br>para as dúvidas.</h2><p>Não encontrou a resposta?<br><a href="mailto:gpccouto@gmail.com" class="text-link">Fale connosco <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></p></div><div class="faq-list">
+      <details><summary>Como posso experimentar a Fala+?</summary><p>A app está disponível apenas em testes. <a href="#experimentar">Peça acesso por email</a> para receber informações sobre a participação e a instalação no Android.</p></details>
+      <details><summary>Funciona em telemóvel e tablet?</summary><p>Sim, em dispositivos Android. A Fala+ ainda não está disponível para iPhone ou iPad.</p></details>
+      <details><summary>E se a criança ainda não souber ler?</summary><p>A Caminhada tem percursos para quem já sabe ler e para quem ainda não sabe. As imagens e as instruções faladas acompanham a experiência.</p></details>
+      <details><summary>A Fala+ substitui a terapia da fala?</summary><p>Não. É uma ferramenta complementar para brincar e explorar a comunicação, em casa, na escola ou entre sessões. Não substitui avaliação ou acompanhamento profissional.</p></details>
+      <details><summary>A app tem publicidade?</summary><p>Não. A Fala+ não mostra publicidade em nenhum dos planos.</p></details>
+      <details><summary>Posso usar a minha voz e fotografias?</summary><p>Sim. Na Área Adulto pode personalizar palavras com gravações e fotografias, tornando a experiência mais próxima do dia a dia da criança.</p></details>
+      <details><summary>Onde posso consultar a informação sobre os dados?</summary><p>Consulte a <a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html">política de privacidade</a>, onde também encontra informação sobre a eliminação da conta e dos dados.</p></details>
+    </div></div></section>
 
-    <!-- PERGUNTAS -->
-    <section class="section section-tint" id="perguntas">
-      <div class="wrap narrow">
-        <p class="eyebrow center">Perguntas frequentes</p>
-        <h2 class="center">Tem dúvidas?</h2>
-        <details>
-          <summary>A Fala+ substitui a terapia da fala?</summary>
-          <p>Não. A Fala+ é um complemento para brincar e treinar em casa, na escola ou entre sessões. O acompanhamento por um terapeuta da fala continua a ser essencial.</p>
-        </details>
-        <details>
-          <summary>Funciona em iPhone ou iPad?</summary>
-          <p>Por agora a Fala+ está disponível apenas para Android, em telemóveis e tablets.</p>
-        </details>
-        <details>
-          <summary>Serve para crianças que ainda não sabem ler?</summary>
-          <p>Sim. Ao criar o perfil indica-se se a criança já sabe ler, e a Caminhada adapta-se. As instruções são sempre ditas em voz alta.</p>
-        </details>
-        <details>
-          <summary>Tem publicidade?</summary>
-          <p>Não. A Fala+ não mostra anúncios, em nenhum plano.</p>
-        </details>
-        <details>
-          <summary>Posso experimentar antes de pagar?</summary>
-          <p>Sim. O plano gratuito inclui o quadro de comunicação sem limites, os primeiros níveis da Caminhada e 5 atividades do Brincar para experimentar, 3 minutos por dia cada.</p>
-        </details>
-        <details>
-          <summary>Que dados são guardados?</summary>
-          <p>Explicamos tudo na <a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html">política de privacidade</a>, incluindo como apagar a conta e os dados.</p>
-        </details>
-      </div>
-    </section>
-
-    <!-- CTA FINAL -->
-    <section class="final-cta">
-      <div class="wrap final-cta-inner">
-        <img src="assets/img/app-icon.png" alt="" width="96" height="96" loading="lazy">
-        <h2>Pronto para brincar?</h2>
-        <p>Instale a Fala+ e comece hoje, gratuitamente.</p>
-        <a class="btn btn-play" data-play-link href="https://play.google.com/store/apps/details?id=pt.falaplus.app">
-          <svg viewBox="0 0 24 24" aria-hidden="true" width="26" height="26"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19h14a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z"/></svg>
-          <span><small>Disponível no</small>Google Play</span>
-        </a>
-      </div>
-    </section>
+    <section class="access-section" id="experimentar"><div class="wrap access-panel"><div><p class="availability availability-light"><span aria-hidden="true"></span>Fase de testes · Android</p><h2>A próxima descoberta<br>pode começar aqui.</h2><p>Quer conhecer a Fala+ com uma criança, na escola ou nas sessões? Peça informações para participar nos testes.</p><a class="button button-yellow" data-access-link href="mailto:gpccouto@gmail.com?subject=Fala%2B%20%E2%80%94%20acesso%20aos%20testes">Pedir acesso aos testes <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><small>Abre a sua aplicação de email. Pode também escrever para <a href="mailto:gpccouto@gmail.com">gpccouto@gmail.com</a>.</small></div><div class="access-art" aria-hidden="true"><div class="access-icon-wrap"><img src="assets/img/app-icon.png" width="220" height="220" alt="" loading="lazy"></div><span>Mais formas de comunicar.<br>Mais motivos para brincar.</span></div></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap footer-row">
-      <span>© <span data-year>2026</span> Fala+</span>
-      <nav aria-label="Ligações legais">
-        <a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html">Política de privacidade</a>
-        <a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html#eliminar">Apagar dados</a>
-        <a data-contact-link href="mailto:gpccouto@gmail.com">Contacto</a>
-      </nav>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#topo" aria-label="Fala+ — voltar ao início">Fala<img src="assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Pequenas descobertas.<br>Mais comunicação.</p><nav aria-label="Ligações legais e contacto"><a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html">Política de privacidade</a><a href="https://pccouto.github.io/falaplus-legal/privacy-policy.html#eliminar">Apagar dados</a><a href="mailto:gpccouto@gmail.com">Contacto</a></nav></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Fala+</span><span>Feita para descobrir. Pensada para acompanhar.</span><a href="#topo">Voltar ao topo ↑</a></div></footer>
 </body>
 </html>
