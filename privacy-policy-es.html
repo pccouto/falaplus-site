@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Habla+</title>
+<meta name="description" content="Política de privacidad de la app Habla+: qué datos recogemos, qué se queda en el dispositivo y cómo pedir que se eliminen tus datos.">
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --text: #1e2433;
+    --muted: #5b6478;
+    --accent: #7c3aed;
+    --accent-soft: #efe9fe;
+    --teal: #0f8a72;
+    --border: #e3e6f0;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 90px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.65;
+    padding: 0 16px 64px;
+  }
+  h1, h2 {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header.top {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 18px 0 14px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+    z-index: 5;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand .mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--teal));
+    display: grid; place-items: center;
+    color: #fff; font-weight: 800; font-family: 'Fraunces', serif; font-size: 18px;
+    flex-shrink: 0;
+  }
+  .brand .name { font-weight: 800; font-size: 17px; }
+  .brand .sub { color: var(--muted); font-size: 13px; }
+  .updated { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+  h1.title {
+    font-size: clamp(28px, 6vw, 38px);
+    margin: 28px 0 8px;
+    font-weight: 700;
+  }
+  .lede { color: var(--muted); font-size: 15.5px; max-width: 58ch; margin: 0 0 28px; }
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-bottom: 36px;
+  }
+  nav.toc p { margin: 0 0 8px; font-weight: 700; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  nav.toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+  nav.toc li { margin-bottom: 6px; font-size: 14px; }
+  nav.toc a { color: var(--text); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); }
+  section { margin-bottom: 34px; scroll-margin-top: 90px; }
+  h2 {
+    font-size: 21px;
+    display: flex; align-items: baseline; gap: 10px;
+    margin: 0 0 12px;
+  }
+  h2 .num { color: var(--accent); font-variant-numeric: tabular-nums; font-size: 16px; font-weight: 700; }
+  p { margin: 0 0 14px; font-size: 15.5px; }
+  ul, ol { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; font-size: 15.5px; }
+  strong { font-weight: 700; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin: 14px 0; }
+  .card p:last-child { margin-bottom: 0; }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 16px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 700; }
+  .badge.teal { background: #0f8a7229; color: var(--teal); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 14.5px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 700; font-size: 12.5px; text-transform: uppercase; letter-spacing: .03em; }
+  a.link { color: var(--accent); font-weight: 600; }
+  footer { border-top: 1px solid var(--border); margin-top: 40px; padding-top: 20px; color: var(--muted); font-size: 13.5px; }
+  @media (max-width: 520px) { nav.toc ol { columns: 1; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Public+Sans:wght@400;600;700;800&display=swap">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/favicon-48.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">F+</span>
+      <div>
+        <div class="name">Habla+</div>
+        <div class="sub">Política de privacidad</div>
+      </div>
+      <span style="margin-left:auto;font-size:14px;display:flex;gap:14px"><a class="link" href="privacy-policy.html" hreflang="pt-PT">Português</a><a class="link" href="privacy-policy-en.html" hreflang="en">English</a></span>
+    </div>
+  </header>
+
+  <h1 class="title">Política de privacidad</h1>
+  <p class="lede">Esta página explica qué datos recoge la app Habla+ (llamada Fala+ en portugués y Talk+ en inglés), para qué sirven y cómo puedes contactar con nosotros sobre ellos. La escribimos para que la lea una madre, un padre, un cuidador o un terapeuta, no solo un abogado.</p>
+  <p class="updated">Última actualización: 6 de octubre de 2026 (v7) · Responsable: Paulo Couto</p>
+
+  <div class="badge-row">
+    <span class="badge">🚫 Sin publicidad</span>
+    <span class="badge teal">🔒 Sin cuenta, nada sale del dispositivo</span>
+    <span class="badge">👨‍👩‍👧 Hecha para niños</span>
+  </div>
+
+  <nav class="toc" aria-label="Índice">
+    <p>Índice</p>
+    <ol>
+      <li><a href="#quienes-somos">Quiénes somos</a></li>
+      <li><a href="#datos">Qué datos recogemos</a></li>
+      <li><a href="#dispositivo">Datos que nunca salen del dispositivo</a></li>
+      <li><a href="#ninos">Niños y Área de Adultos</a></li>
+      <li><a href="#terceros">Servicios de terceros</a></li>
+      <li><a href="#publicidad">Publicidad y seguimiento</a></li>
+      <li><a href="#compras">Compras y suscripciones</a></li>
+      <li><a href="#seguridad">Seguridad</a></li>
+      <li><a href="#derechos">Tus derechos</a></li>
+      <li><a href="#eliminar">Cómo eliminar tus datos</a></li>
+      <li><a href="#cambios">Cambios en esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="quienes-somos">
+    <h2><span class="num">01</span> Quiénes somos</h2>
+    <p>Habla+ está desarrollada y mantenida por <strong>Paulo Couto</strong>, con sede en Portugal. Para cualquier pregunta sobre privacidad o datos personales, escribe a <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a>.</p>
+  </section>
+
+  <section id="datos">
+    <h2><span class="num">02</span> Qué datos recogemos</h2>
+    <p>Habla+ funciona sin cuenta. Crear una cuenta (Área de Adultos → Cuenta y Copia de seguridad) es siempre opcional y sirve para no perder el progreso ni la personalización del tablero de Comunicar si cambias de dispositivo.</p>
+    <table>
+      <tr><th>Si no creas una cuenta</th><th>Si creas una cuenta (Cuenta y Copia de seguridad)</th></tr>
+      <tr>
+        <td>No se envía nada a nuestros servidores. Todo el progreso y la personalización se quedan solo en el dispositivo.</td>
+        <td>A través de Google, Microsoft o email y contraseña (Firebase Authentication), guardamos tu email, nombre y foto de perfil (si el proveedor de inicio de sesión los facilita) para identificar la cuenta. De cada perfil infantil también sincronizamos: <strong>nombre, fecha de nacimiento, etapa de comunicación, nivel, pasos completados, desbloqueos, estrellas y objetos de mascota conseguidos, premios y medallas, y tiempo de uso</strong>, además del <strong>historial de aprendizaje</strong> y las <strong>preferencias del adulto</strong> que se describen más abajo.</td>
+      </tr>
+    </table>
+    <div class="card">
+      <p><strong>Tablero de Comunicar:</strong> si tienes cuenta, las fotos, grabaciones de voz y tarjetas o palabras personalizadas que añadas específicamente al tablero de Comunicar (menú Comunicar) también se sincronizan con tu cuenta, para que las tengas si cambias de dispositivo. Solo existen si un adulto las crea.</p>
+    </div>
+    <div class="card">
+      <p><strong>Grabaciones de voz (menú Voz):</strong> si tienes cuenta, las grabaciones que un adulto hace con su propia voz diciendo palabras, y la indicación de que cada una se puede usar en los juegos, también se guardan en la cuenta, para que las recuperes si cambias de dispositivo o cierras sesión. Solo existen si un adulto las graba.</p>
+    </div>
+    <div class="card">
+      <p><strong>Historial de aprendizaje:</strong> si tienes cuenta, guardamos para cada perfil las palabras y actividades que el niño o la niña ha trabajado (día, juego o actividad, palabra, idioma, resultado y número de veces), las palabras que se le han mostrado, los mejores tiempos y el registro de estrellas. Sirve para recuperar el recorrido y para el informe semanal. <strong>No incluye el nombre del niño o la niña</strong> ni contiene fotos ni grabaciones.</p>
+    </div>
+    <div class="card">
+      <p><strong>Preferencias del adulto:</strong> si tienes cuenta, guardamos para cada perfil los ajustes de la app (por ejemplo, la velocidad y el origen de la voz, el modo sensorial, las opciones del tablero de Comunicar, los favoritos, los iconos ocultos y los tutoriales ya vistos). El PIN del Área de Adultos, el idioma y el volumen no se envían.</p>
+    </div>
+  </section>
+
+  <section id="dispositivo">
+    <h2><span class="num">03</span> Datos que se quedan siempre en el dispositivo</h2>
+    <p>Estos datos nunca se envían a nuestros servidores, aunque tengas cuenta:</p>
+    <ul>
+      <li>Las fotos usadas para personalizar iconos y juegos (fuera del tablero de Comunicar)</li>
+      <li>El PIN del Área de Adultos, el idioma y el volumen</li>
+      <li>Todos los datos de quien no crea una cuenta</li>
+    </ul>
+    <p>Si desinstalas la app, o usas "Reiniciar" en el Área de Adultos, estos datos se borran para siempre del dispositivo y no existe ninguna copia en nuestros servidores. Si tienes cuenta, "Cerrar sesión" guarda primero en la cuenta todo lo que se sincroniza y solo después borra los datos del dispositivo; al volver a iniciar sesión recuperas lo que estaba guardado.</p>
+  </section>
+
+  <section id="ninos">
+    <h2><span class="num">04</span> Niños y Área de Adultos</h2>
+    <p>Habla+ está pensada para que la usen niños y niñas <strong>con un adulto cerca</strong>. No pedimos directamente ningún dato personal al niño o la niña: el nombre y la fecha de nacimiento de cada perfil los introduce el adulto responsable, y solo sirven para adaptar la app a la edad y a la etapa de comunicación dentro del propio dispositivo.</p>
+    <p>Todas las acciones sensibles (crear una cuenta, gestionar perfiles, comprar una suscripción, cambiar ajustes) están dentro de un área protegida por un PIN creado por el adulto (el "Área de Adultos"), precisamente para que solo un adulto pueda hacerlas.</p>
+  </section>
+
+  <section id="terceros">
+    <h2><span class="num">05</span> Servicios de terceros</h2>
+    <p>Usamos <strong>Firebase</strong> (Google) para la autenticación de la cuenta y para sincronizar lo que se describe en la sección 2, cuando el usuario decide crear una cuenta. Consulta la <a class="link" href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener">Política de Privacidad de Google</a> para saber cómo trata Google esos datos como proveedor de este servicio.</p>
+    <p>La app también tiene una opción de <strong>estadísticas de uso (Firebase Analytics)</strong>, desactivada por defecto: solo se activa si la enciendes manualmente en Área de Adultos → Cuenta y Copia de seguridad. Cuando está activa, envía las pantallas visitadas, las elecciones de menús y juegos y la duración de las sesiones; nunca envía fotos, grabaciones de voz, ni el nombre o la etapa de comunicación del niño o la niña.</p>
+    <p><strong>Formulario de contacto del sitio web (falamais.pt):</strong> si nos escribes con el formulario del sitio, el nombre, el email, el asunto y el mensaje que indiques se envían a través del servicio <strong>Web3Forms</strong>, que los reenvía a nuestro email (apoio@falamais.pt). Usamos estos datos solo para responderte y nunca los combinamos con los datos de la app. Según el propio servicio, Web3Forms puede guardar los mensajes durante un periodo limitado (hasta 30 días en el plan gratuito) antes de borrarlos automáticamente; consulta el <a class="link" href="https://web3forms.com/dpa" target="_blank" rel="noopener">acuerdo de tratamiento de datos de Web3Forms</a>. Guardamos el mensaje en nuestro correo solo mientras sea útil para la conversación y lo borramos si nos lo pides.</p>
+    <p>No integramos ninguna red de publicidad ni ningún SDK de terceros con fines publicitarios, y no compartimos datos con nadie con fines de marketing.</p>
+  </section>
+
+  <section id="publicidad">
+    <h2><span class="num">06</span> Publicidad y seguimiento</h2>
+    <div class="card">
+      <p><strong>Habla+ no muestra publicidad en ningún plan</strong>, ni gratuito ni de pago. Es una decisión deliberada: nunca queremos que un niño o una niña toque un anuncio sin querer.</p>
+    </div>
+  </section>
+
+  <section id="compras">
+    <h2><span class="num">07</span> Compras y suscripciones</h2>
+    <p>Habla+ ofrece una suscripción opcional (<strong>Habla+ Premium</strong>) que desbloquea contenido adicional. Las compras las procesa íntegramente <strong>Google Play Billing</strong>: no recibimos ni guardamos los datos de tu tarjeta ni de tu método de pago, que quedan solo entre tú y Google. La suscripción es mensual, se renueva automáticamente y puedes cancelarla en cualquier momento en Google Play. Para asociar Premium a tu cuenta, enviamos a Google Play un identificador ofuscado de la cuenta de Habla+; Premium solo está activo con la cuenta de Google que hizo la compra y deja de estar activo en el dispositivo cuando cierras sesión (vuelve al iniciar sesión con esa cuenta). La app guarda en el dispositivo la información de que la suscripción está activa.</p>
+  </section>
+
+  <section id="seguridad">
+    <h2><span class="num">08</span> Seguridad</h2>
+    <p>Los datos sincronizados de la cuenta se guardan en la infraestructura de Firebase (Google Cloud), con las protecciones estándar de ese servicio. Los datos que se guardan solo en el dispositivo (por ejemplo, el PIN y las fotos de personalización fuera del tablero de Comunicar) dependen de la seguridad del propio dispositivo: te recomendamos proteger el móvil o la tableta con un PIN o con biometría.</p>
+  </section>
+
+  <section id="derechos">
+    <h2><span class="num">09</span> Tus derechos</h2>
+    <p>Si has creado una cuenta, tienes derecho a acceder a tus datos, corregirlos o eliminarlos en cualquier momento, y a retirar tu consentimiento para la sincronización. Para ejercer cualquiera de estos derechos, escríbenos a <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a>; respondemos lo antes posible.</p>
+  </section>
+
+  <section id="eliminar">
+    <h2><span class="num">10</span> Cómo eliminar tus datos — Habla+</h2>
+    <p>Estos pasos se aplican a la app <strong>Habla+</strong> (Fala+), de Paulo Couto.</p>
+    <ol>
+      <li><strong>Eliminar un perfil infantil</strong> (y todo lo que le pertenece, incluidas las fotos, voces y tarjetas personalizadas guardadas en el dispositivo): abre Habla+ → Área de Adultos → Perfiles → toca el icono de eliminar junto al perfil → confirma. <em>Efecto: inmediato y permanente en el dispositivo. Si has iniciado sesión, el perfil también se elimina de la cuenta (datos del perfil, progreso, historial de aprendizaje, grabaciones de voz y el tablero de Comunicar de ese perfil). Si no tienes conexión, la petición se guarda y se completa en cuanto haya conexión, así que no desinstales la app antes.</em></li>
+      <li><strong>Eliminar solo el progreso de un perfil</strong>, conservando el nombre y la fecha de nacimiento: Área de Adultos → Perfiles → "Reiniciar Perfil" → confirma. <em>Efecto: inmediato y permanente; borra estrellas, medallas, mascotas, historial de aprendizaje y el progreso sincronizado en la nube (si hay cuenta). Se conservan el nombre, la fecha de nacimiento, las adaptaciones elegidas por el adulto, las grabaciones de voz y las tarjetas de Comunicar; para borrarlas también, usa "Eliminar un perfil infantil" o "Reiniciar tarjetas" en el editor de Comunicar.</em></li>
+      <li><strong>Eliminar la cuenta y todos los datos en la nube</strong> (email, progreso, historial de aprendizaje, preferencias, grabaciones de voz y personalización del tablero de Comunicar sincronizados en Firebase): Área de Adultos → Cuenta y Copia de seguridad → "Eliminar cuenta y datos" → confirma tu identidad (contraseña o nuevo inicio de sesión con Google) → "Sí, eliminarlo todo". Si ya no tienes acceso a la app, envía la petición a <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a> desde el email de la cuenta que quieres eliminar. <em>Efecto: desde la app, la eliminación es inmediata: borramos el email, el identificador de la cuenta, el progreso sincronizado, el historial de aprendizaje, las preferencias, las grabaciones de voz y las fotos, voces y tarjetas del tablero de Comunicar guardadas en Firebase, y también los datos de ese dispositivo. Por email, hacemos lo mismo en un plazo de 30 días desde la petición. Las fotos de personalización fuera del tablero de Comunicar nunca salieron del dispositivo, así que no existen en nuestros servidores en ningún momento.</em></li>
+    </ol>
+  </section>
+
+  <section id="cambios">
+    <h2><span class="num">11</span> Cambios en esta política</h2>
+    <p>Si esta política cambia de forma relevante, actualizamos la fecha al principio de esta página. Te recomendamos revisarla de vez en cuando.</p>
+  </section>
+
+  <section id="contacto">
+    <h2><span class="num">12</span> Contacto</h2>
+    <p>Dudas, peticiones o preocupaciones sobre privacidad: <a class="link" href="mailto:apoio@falamais.pt">apoio@falamais.pt</a></p>
+  </section>
+
+  <footer>Habla+ — app de comunicación y aprendizaje para niños.</footer>
+</div>
+</body>
+</html>
