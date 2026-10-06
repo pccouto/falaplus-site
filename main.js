@@ -50,8 +50,8 @@ document.querySelectorAll('[data-year]').forEach(node => { node.textContent = ne
 // (e.g. "Pedir acesso aos testes").
 const contactForm = document.querySelector('#contact-form')
 document.querySelectorAll('[data-contact-topic]').forEach(link => link.addEventListener('click', () => {
-  const topic = contactForm?.querySelector('[name="topic"]')
-  if (topic) topic.value = link.dataset.contactTopic
+  const topic = contactForm?.querySelector(`[name="topic"][value="${link.dataset.contactTopic}"]`)
+  if (topic) topic.checked = true
 }))
 
 const menuToggle = document.querySelector('.menu-toggle')
@@ -73,7 +73,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (!event.target.closest('.site-header')) closeMenu()
 })
-const desktop = matchMedia('(min-width: 821px)')
+const desktop = matchMedia('(min-width: 1101px)')
 desktop.addEventListener('change', () => { if (desktop.matches) closeMenu() })
 
 const video = document.querySelector('#game-preview')
@@ -134,8 +134,7 @@ if (contactForm) {
     const data = new FormData(contactForm)
     const name = data.get('name').trim()
     const email = data.get('email').trim()
-    const topicSelect = contactForm.querySelector('[name="topic"]')
-    const topic = topicSelect.options[topicSelect.selectedIndex].text
+    const topic = contactForm.querySelector('[name="topic"]:checked').closest('label').textContent.trim()
     const message = data.get('message').trim()
     // Hidden field that only robots fill in: pretend it worked, send nothing.
     if (data.get('botcheck')) { setStatus(TEXT.sent(email), 'success'); contactForm.reset(); return }
