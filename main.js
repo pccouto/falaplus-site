@@ -149,20 +149,20 @@ if (contactForm) {
     submit.disabled = true
     setStatus(TEXT.sending)
     try {
-      const response = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
-          subject: `Site ${TEXT.brand} (${LANG.toUpperCase()}) — ${topic}`,
-          from_name: `Site ${TEXT.brand}`,
-          name,
-          email,
-          topic,
-          language: LANG.toUpperCase(),
-          message,
-        }),
-      })
+      // Plain form data (no JSON content type): a "simple" CORS request, so
+      // the browser does not send the preflight Web3Forms rejects.
+      const payload = new FormData()
+      Object.entries({
+        access_key: WEB3FORMS_KEY,
+        subject: `Site ${TEXT.brand} (${LANG.toUpperCase()}) — ${topic}`,
+        from_name: `Site ${TEXT.brand}`,
+        name,
+        email,
+        topic,
+        language: LANG.toUpperCase(),
+        message,
+      }).forEach(([key, value]) => payload.append(key, value))
+      const response = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: payload })
       const result = await response.json().catch(() => ({}))
       if (!response.ok || !result.success) throw new Error(result.message || String(response.status))
       setStatus(TEXT.sent(email), 'success')
