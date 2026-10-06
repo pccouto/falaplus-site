@@ -6,7 +6,7 @@
 // and the Spanish one (/es/, app name Habla+).
 const CONTACT_EMAIL = 'apoio@falamais.pt'
 // Public access key from web3forms.com (made for apoio@falamais.pt). Empty = email-app fallback.
-const WEB3FORMS_KEY = ''
+const WEB3FORMS_KEY = '5b7206fa-93ca-4310-a50e-ca59aa0bca00'
 const LANG = document.documentElement.lang.slice(0, 2)
 const TEXT = LANG === 'es'
   ? {
