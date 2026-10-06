@@ -1,9 +1,19 @@
 // Static site: no dependencies, tracking, forms or background video downloads.
 // Public Play Store installation is not available yet (confirmed 28/09/2026).
-// Shared by the Portuguese page (/) and the English one (/en/, app name Talk+).
+// Shared by the Portuguese page (/), the English one (/en/, app name Talk+)
+// and the Spanish one (/es/, app name Habla+).
 const CONTACT_EMAIL = 'apoio@falamais.pt'
-const EN = document.documentElement.lang.startsWith('en')
-const TEXT = EN
+const LANG = document.documentElement.lang.slice(0, 2)
+const TEXT = LANG === 'es'
+  ? {
+      accessSubject: 'Habla+ — acceso a las pruebas',
+      accessBody: '¡Hola! Me gustaría recibir información sobre el acceso a las pruebas de Habla+.\n\nQuiero usar la app: en familia / en la escuela / en sesiones.\n\nGracias.',
+      demoLabel: title => `Demostración del juego ${title}`,
+      selected: title => `${title} seleccionado. Usa los controles para reproducir o pausar.`,
+      pressPlay: title => `${title} seleccionado. Pulsa reproducir para empezar.`,
+      videoError: 'No se pudo cargar el vídeo. Elige otro juego o inténtalo de nuevo.',
+    }
+  : LANG === 'en'
   ? {
       accessSubject: 'Talk+ — test access',
       accessBody: 'Hello! I would like to receive information about joining the Talk+ tests.\n\nI plan to use the app: with my family / at school / in sessions.\n\nThank you.',
