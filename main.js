@@ -67,6 +67,7 @@ menuToggle.addEventListener('click', () => {
   navigation.classList.toggle('is-open', open)
 })
 navigation.addEventListener('click', event => { if (event.target.closest('a')) closeMenu() })
+document.querySelector('.header-contact').addEventListener('click', () => closeMenu())
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') closeMenu(true)
 })
