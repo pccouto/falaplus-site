@@ -1,6 +1,6 @@
 # Fala+ — site de apresentação
 
-Página que apresenta a app Fala+ e permite pedir acesso à fase de testes.
+Página que apresenta a app Fala+ e recolhe emails para avisar do lançamento no Google Play (desde 08/10/2026 já não recruta testadores).
 
 - Sem build: abrir `index.html` no browser para ver localmente.
 - Publicação: GitHub Pages, branch `main`, pasta raiz, com domínio principal `https://falamais.pt/` definido em `CNAME`.

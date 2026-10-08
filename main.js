@@ -13,6 +13,7 @@ const TEXT = LANG === 'es'
       brand: 'Habla+',
       sending: 'Enviando…',
       sent: email => `¡Gracias! Hemos recibido tu mensaje y responderemos a ${email} lo antes posible.`,
+      launchSent: email => `¡Gracias! Te avisaremos en ${email} cuando Habla+ llegue a Google Play.`,
       failed: `No se pudo enviar ahora. Inténtalo de nuevo o escribe a ${CONTACT_EMAIL}.`,
       mailApp: 'Se abrirá tu aplicación de email con el mensaje preparado. Solo tienes que enviarlo.',
       demoLabel: title => `Demostración del juego ${title}`,
@@ -25,6 +26,7 @@ const TEXT = LANG === 'es'
       brand: 'Talk+',
       sending: 'Sending…',
       sent: email => `Thank you! We have received your message and will reply to ${email} as soon as possible.`,
+      launchSent: email => `Thank you! We will let you know at ${email} when Talk+ reaches Google Play.`,
       failed: `The message could not be sent right now. Please try again or write to ${CONTACT_EMAIL}.`,
       mailApp: 'Your email app will open with the message ready. You just need to send it.',
       demoLabel: title => `Demo of the ${title} game`,
@@ -36,6 +38,7 @@ const TEXT = LANG === 'es'
       brand: 'Fala+',
       sending: 'A enviar…',
       sent: email => `Obrigado! Recebemos a sua mensagem e vamos responder para ${email} o mais rápido possível.`,
+      launchSent: email => `Obrigado! Avisamos para ${email} quando a Fala+ chegar ao Google Play.`,
       failed: `Não foi possível enviar agora. Tente de novo ou escreva para ${CONTACT_EMAIL}.`,
       mailApp: 'A sua aplicação de email vai abrir com a mensagem preparada. Só tem de a enviar.',
       demoLabel: title => `Demonstração do jogo ${title}`,
@@ -47,7 +50,7 @@ const TEXT = LANG === 'es'
 document.documentElement.classList.add('js')
 document.querySelectorAll('[data-year]').forEach(node => { node.textContent = new Date().getFullYear() })
 // Links that open the contact form with a subject already chosen
-// (e.g. "Pedir acesso aos testes").
+// (e.g. "Avisem-me do lançamento").
 const contactForm = document.querySelector('#contact-form')
 document.querySelectorAll('[data-contact-topic]').forEach(link => link.addEventListener('click', () => {
   const topic = contactForm?.querySelector(`[name="topic"][value="${link.dataset.contactTopic}"]`)
@@ -135,10 +138,12 @@ if (contactForm) {
     const data = new FormData(contactForm)
     const name = data.get('name').trim()
     const email = data.get('email').trim()
-    const topic = contactForm.querySelector('[name="topic"]:checked').closest('label').textContent.trim()
+    const topicInput = contactForm.querySelector('[name="topic"]:checked')
+    const topic = topicInput.closest('label').textContent.trim()
+    const sentText = topicInput.value === 'launch' ? TEXT.launchSent : TEXT.sent
     const message = data.get('message').trim()
     // Hidden field that only robots fill in: pretend it worked, send nothing.
-    if (data.get('botcheck')) { setStatus(TEXT.sent(email), 'success'); contactForm.reset(); return }
+    if (data.get('botcheck')) { setStatus(sentText(email), 'success'); contactForm.reset(); return }
 
     if (!WEB3FORMS_KEY) {
       const body = `${message}\n\n— ${name} (${email})`
@@ -161,12 +166,12 @@ if (contactForm) {
         email,
         topic,
         language: LANG.toUpperCase(),
-        message,
+        message: message || '—',
       }).forEach(([key, value]) => payload.append(key, value))
       const response = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: payload })
       const result = await response.json().catch(() => ({}))
       if (!response.ok || !result.success) throw new Error(result.message || String(response.status))
-      setStatus(TEXT.sent(email), 'success')
+      setStatus(sentText(email), 'success')
       contactForm.reset()
     } catch {
       setStatus(TEXT.failed, 'error')
