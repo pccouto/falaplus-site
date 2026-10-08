@@ -40,12 +40,9 @@ button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:
 @media(max-width:780px){.header-tools{order:5;width:100%;justify-content:center;padding:6px 0 4px}.js .header-tools{display:none}.js .site-nav.is-open~.header-tools{display:flex}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.button:hover,.button:active{transform:none}}
 
-/* Header call-to-action pulses gently to draw the eye (Paulo, 2026-10-08); the
-   reduced-motion rule above switches the animation off. */
-.header-cta{position:relative;animation:cta-pulse 2.4s ease-in-out infinite}
-@keyframes cta-pulse{0%{box-shadow:0 0 0 0 rgba(124,92,252,.55);transform:scale(1)}50%{transform:scale(1.04)}70%{box-shadow:0 0 0 14px rgba(124,92,252,0)}100%{box-shadow:0 0 0 0 rgba(124,92,252,0);transform:scale(1)}}
-/* Phones: keep the single header row (logo · menu · CTA). The Menu label is
-   visually hidden (icon only; screen readers still read it) and the CTA text wraps
-   onto two short lines. */
-@media(max-width:540px){.header-row{flex-wrap:nowrap}.header-row:has(.site-nav.is-open){flex-wrap:wrap}.menu-toggle>span:not(.menu-lines){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.js .menu-toggle{margin-left:auto}.header-cta{white-space:normal;text-align:center;line-height:1.2;width:min-content;min-width:132px;max-width:150px;padding:6px 12px;font-size:.7rem;flex-shrink:0}}
+/* Header call-to-action: golden button that pulses gently to draw the eye
+   (Paulo, 2026-10-09); off under prefers-reduced-motion. */
+.header-cta{position:relative;background:linear-gradient(180deg,#ffd75e,#f5b81c);color:#342044;border-color:#e0a10f;animation:cta-pulse 2.4s ease-in-out infinite}
+.header-cta:hover{background:linear-gradient(180deg,#ffe28a,#f8c43c)}
+@keyframes cta-pulse{0%{box-shadow:0 0 0 0 rgba(245,184,28,.65);transform:scale(1)}50%{transform:scale(1.05)}70%{box-shadow:0 0 0 14px rgba(245,184,28,0)}100%{box-shadow:0 0 0 0 rgba(245,184,28,0);transform:scale(1)}}
 @media(prefers-reduced-motion:reduce){.header-cta{animation:none}}
