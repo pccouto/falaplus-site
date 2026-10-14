@@ -51,7 +51,7 @@ export default {
       '<strong>Celebrad los intentos</strong>, no solo los aciertos. Leer no tiene prisa.',
     ] },
     { p: 'Recomendamos que el niño use estos juegos acompañado por un adulto disponible, para conversar sobre sonidos, palabras e historias. Acepta que participe señalando, con gestos o imágenes, sin apresurar la lectura ni exigir respuestas.' },
-    { h2: 'Juegos de lectura en Habla+', id: 'jogos-fala-mais', toc: 'Los juegos de Habla+' },
+    { h2: 'Juegos de lectura en Fala+', id: 'jogos-fala-mais', toc: 'Los juegos de Fala+' },
     { table: {
       head: ['Juego', 'Cómo se juega', 'Qué pide'],
       rows: [

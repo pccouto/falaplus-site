@@ -49,7 +49,7 @@ export default {
       '<strong>Elige palabras del día a día</strong> que le interesen: comida, animales, familia, juguetes, acciones.',
     ] },
     { p: 'Recomendamos que el niño juegue acompañado por un adulto disponible: un familiar, un educador, un terapeuta u otra persona de confianza. La presencia del adulto no es una condición para jugar ni convierte el juego en una valoración. Más ideas en [[brincadeiras-para-estimular-a-fala|Actividades para estimular el lenguaje]].' },
-    { h2: 'Juegos de palabras en Habla+', id: 'jogos-fala-mais', toc: 'Los juegos de Habla+' },
+    { h2: 'Juegos de palabras en Fala+', id: 'jogos-fala-mais', toc: 'Los juegos de Fala+' },
     { table: {
       head: ['Juego', 'Cómo se juega', 'Qué pide'],
       rows: [

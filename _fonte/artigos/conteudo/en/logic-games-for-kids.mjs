@@ -37,7 +37,7 @@ export default {
     { h2: 'Tangram', id: 'tangram' },
     { p: '<strong>Tangram</strong> is a puzzle of Chinese origin with <strong>seven pieces</strong> (five triangles, a square and a parallelogram) that together make hundreds of <strong>tangram shapes</strong>: animals, people, boats. Children practise mental rotation, shape analysis and planning.' },
     { p: '<strong>Tip:</strong> start with figures that show the outline of each piece, then move on to those that show only the silhouette.' },
-    { h2: 'Logic games and puzzles in Talk+', id: 'jogos-fala-mais', toc: 'Talk+ games' },
+    { h2: 'Logic games and puzzles in Fala+', id: 'jogos-fala-mais', toc: 'Fala+ games' },
     { table: {
       head: ['Game', 'How it is played', 'What it asks for'],
       rows: [
@@ -64,7 +64,7 @@ export default {
       '<strong>Know when to stop:</strong> a puzzle can wait until tomorrow.',
     ] },
     { bridge: {
-      title: 'Thinking and trying again, in Talk+',
+      title: 'Thinking and trying again, in Fala+',
       intro: 'What we have seen about helping a child with a logic challenge has a parallel in the app:',
       items: [
         ['Help without solving it for the child.', 'Several puzzles have a Hint button for when the child gets stuck, without solving everything for them.'],

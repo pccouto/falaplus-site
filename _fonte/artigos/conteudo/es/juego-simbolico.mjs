@@ -3,7 +3,7 @@ export default {
   slug: 'juego-simbolico',
   short: 'El juego simbólico',
   date: '2026-10-14',
-  titleTag: 'El juego simbólico: qué dice la ciencia · Habla+',
+  titleTag: 'El juego simbólico: qué dice la ciencia · Fala+',
   description: 'El juego simbólico y el lenguaje: qué muestra la investigación, cómo acompañar al niño y qué mitos conviene evitar.',
   keywords: ['juego simbólico', 'juego de imitación', 'juego simbólico y lenguaje', 'juego de roles', 'juego de fantasía', 'juego simbólico edad', 'juego simbólico ejemplos', 'importancia del juego simbólico'],
   h1: 'El <span class="word-highlight">juego simbólico</span>: qué dice la ciencia',
@@ -60,7 +60,7 @@ export default {
       items: [
         ['Poner voz a los personajes.', 'En el Cactus Parlante, el niño dice una frase y el cactus la repite con una voz divertida: puede ser la voz de un personaje de la historia.'],
         ['El juego simbólico también se hace con imágenes.', 'En Comunicar, el niño puede juntar tarjetas para decir lo que quiere el muñeco: «yo quiero agua».'],
-        ['Jugar sin acierto ni error.', 'En Jugar libre de Habla+ no hay puntos: sonidos, música y colores para explorar libremente.'],
+        ['Jugar sin acierto ni error.', 'En Jugar libre de Fala+ no hay puntos: sonidos, música y colores para explorar libremente.'],
       ],
     } },
   ],

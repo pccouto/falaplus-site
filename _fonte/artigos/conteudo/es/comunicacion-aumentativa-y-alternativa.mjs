@@ -3,7 +3,7 @@ export default {
   slug: 'comunicacion-aumentativa-y-alternativa',
   short: 'Comunicación aumentativa y alternativa',
   date: '2026-10-14',
-  titleTag: 'Comunicación aumentativa y alternativa (CAA) · Habla+',
+  titleTag: 'Comunicación aumentativa y alternativa (CAA) · Fala+',
   description: 'Qué es la comunicación aumentativa y alternativa (CAA), para quién es, los mitos más comunes y cómo usar imágenes y voz para que el niño se comunique.',
   keywords: ['comunicación aumentativa y alternativa', 'CAA', 'SAAC', 'tablero de comunicación', 'pictogramas', 'comunicación con imágenes', 'CAA autismo', 'tablero de comunicación con pictogramas', 'pictogramas autismo', 'ejemplos de CAA', 'app de CAA'],
   h1: 'Comunicación aumentativa y alternativa (CAA): qué es y cómo <span class="word-highlight">ayuda</span>',
@@ -50,7 +50,7 @@ export default {
     { p: 'La elección del sistema de CAA más adecuado para cada niño debe hacerse con un logopeda.' },
     { bridge: {
       title: 'Comunicar como apoyo a la CAA',
-      intro: 'Comunicar, en Habla+, es un tablero de comunicación con imágenes y voz. Así se relaciona con las buenas prácticas descritas arriba:',
+      intro: 'Comunicar, en Fala+, es un tablero de comunicación con imágenes y voz. Así se relaciona con las buenas prácticas descritas arriba:',
       items: [
         ['Modelar: el adulto también toca las imágenes.', 'Cada tarjeta dice la palabra en voz alta, así que el adulto puede mostrar cómo comunicarse mientras habla.'],
         ['Ir más allá de las peticiones.', 'El niño junta varias tarjetas en una frase y la oye en voz alta, para pedir, comentar o compartir.'],

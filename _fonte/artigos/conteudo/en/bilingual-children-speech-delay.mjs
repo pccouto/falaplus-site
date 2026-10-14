@@ -3,7 +3,7 @@ export default {
   slug: 'bilingual-children-speech-delay',
   short: 'Bilingual children and speech delay',
   date: '2026-10-14',
-  titleTag: 'Does bilingualism cause speech delay? The research · Talk+',
+  titleTag: 'Does bilingualism cause speech delay? The research · Fala+',
   description: 'Does speaking two languages at home delay a child’s speech? No. What research says, how bilingual children should be assessed and how to support them.',
   keywords: ['bilingual child speech delay', 'does bilingualism cause speech delay', 'two languages at home', 'raising a bilingual child', 'bilingual toddler not talking', 'mixing languages'],
   h1: 'Bilingual children and speech delay: do <span class="word-highlight">two languages</span> hold a child back?',
@@ -60,7 +60,7 @@ export default {
       title: 'Playing in the languages of home',
       intro: 'What we have seen about growing up with several languages has a parallel in specific parts of the app:',
       items: [
-        ['Keep enjoyable contact with each language.', 'Talk+ is available in Portuguese, English and Spanish; the language is chosen in the settings.'],
+        ['Keep enjoyable contact with each language.', 'Fala+ is available in Portuguese, English and Spanish; the language is chosen in the settings.'],
         ['The family language matters.', 'In the Adult Area, families can record their own voices on the Communicate cards, for example in the home language.'],
         ['Vocabulary in varied contexts.', 'The same everyday words appear with pictures and voice in different games: a reason to say them in both languages.'],
       ],

@@ -3,7 +3,7 @@ export default {
   slug: 'augmentative-and-alternative-communication',
   short: 'Augmentative and alternative communication',
   date: '2026-10-14',
-  titleTag: 'Augmentative and alternative communication (AAC) · Talk+',
+  titleTag: 'Augmentative and alternative communication (AAC) · Fala+',
   description: 'What augmentative and alternative communication (AAC) is, who it is for, common myths and how pictures and voice help a child communicate.',
   keywords: ['augmentative and alternative communication', 'AAC', 'communication board', 'picture communication', 'AAC for autism', 'AAC app', 'AAC device', 'AAC examples', 'communication board for autism', 'nonverbal autism communication'],
   h1: 'Augmentative and alternative communication (AAC): what it is and how it <span class="word-highlight">helps</span>',
@@ -50,7 +50,7 @@ export default {
     { p: 'Choosing the right AAC system for each child should be done with a speech and language therapist.' },
     { bridge: {
       title: 'Communicate as support for AAC',
-      intro: 'Communicate in Talk+ is a communication board with pictures and voice. This is how it relates to the good practices described above:',
+      intro: 'Communicate in Fala+ is a communication board with pictures and voice. This is how it relates to the good practices described above:',
       items: [
         ['Modelling: the adult taps the pictures too.', 'Each card says the word aloud, so the adult can show how to communicate while talking.'],
         ['Going beyond requests.', 'The child puts several cards together into a sentence and hears it aloud, to ask, comment or share.'],

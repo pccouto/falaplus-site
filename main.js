@@ -2,18 +2,18 @@
 // contact form posts to Web3Forms (WEB3FORMS_KEY below); without a key it
 // falls back to opening the visitor's email app with the message prepared.
 // Public Play Store installation is not available yet (confirmed 28/09/2026).
-// Shared by the Portuguese page (/), the English one (/en/, app name Talk+)
-// and the Spanish one (/es/, app name Habla+).
+// Shared by the Portuguese page (/), the English one (/en/, app name Fala+)
+// and the Spanish one (/es/, app name Fala+).
 const CONTACT_EMAIL = 'apoio@falamais.pt'
 // Public access key from web3forms.com (made for apoio@falamais.pt). Empty = email-app fallback.
 const WEB3FORMS_KEY = '5b7206fa-93ca-4310-a50e-ca59aa0bca00'
 const LANG = document.documentElement.lang.slice(0, 2)
 const TEXT = LANG === 'es'
   ? {
-      brand: 'Habla+',
+        brand: 'Fala+',
       sending: 'Enviando…',
       sent: email => `¡Gracias! Hemos recibido tu mensaje y responderemos a ${email} lo antes posible.`,
-      launchSent: email => `¡Gracias! Te avisaremos en ${email} cuando Habla+ llegue a Google Play.`,
+      launchSent: email => `¡Gracias! Te avisaremos en ${email} cuando Fala+ llegue a Google Play.`,
       failed: `No se pudo enviar ahora. Inténtalo de nuevo o escribe a ${CONTACT_EMAIL}.`,
       mailApp: 'Se abrirá tu aplicación de email con el mensaje preparado. Solo tienes que enviarlo.',
       demoLabel: title => `Demostración del juego ${title}`,
@@ -23,10 +23,10 @@ const TEXT = LANG === 'es'
     }
   : LANG === 'en'
   ? {
-      brand: 'Talk+',
+      brand: 'Fala+',
       sending: 'Sending…',
       sent: email => `Thank you! We have received your message and will reply to ${email} as soon as possible.`,
-      launchSent: email => `Thank you! We will let you know at ${email} when Talk+ reaches Google Play.`,
+      launchSent: email => `Thank you! We will let you know at ${email} when Fala+ reaches Google Play.`,
       failed: `The message could not be sent right now. Please try again or write to ${CONTACT_EMAIL}.`,
       mailApp: 'Your email app will open with the message ready. You just need to send it.',
       demoLabel: title => `Demo of the ${title} game`,
@@ -146,7 +146,7 @@ if (contactForm) {
     const sentText = topicInput.value === 'launch' ? TEXT.launchSent : TEXT.sent
     const message = data.get('message').trim()
     // Hidden field that only robots fill in: pretend it worked, send nothing.
-    if (data.get('botcheck')) { setStatus(sentText(email), 'success'); contactForm.reset(); return }
+    if (data.get('botcheck')) return
 
     if (!WEB3FORMS_KEY) {
       const body = `${message}\n\n— ${name} (${email})`
@@ -178,6 +178,49 @@ if (contactForm) {
       contactForm.reset()
     } catch {
       setStatus(TEXT.failed, 'error')
+    } finally {
+      submit.disabled = false
+    }
+  })
+}
+
+const launchForm = document.querySelector('#launch-form')
+if (launchForm) {
+  const status = launchForm.querySelector('.form-status')
+  const submit = launchForm.querySelector('button[type="submit"]')
+  const messages = LANG === 'es'
+    ? { sending: 'Enviando…', sent: 'Gracias. Hemos recibido tu solicitud y te escribiremos sobre las novedades de Fala+.', failed: `No se pudo enviar ahora. Inténtalo de nuevo o escribe a ${CONTACT_EMAIL}.` }
+    : LANG === 'en'
+    ? { sending: 'Sending…', sent: 'Thank you. We received your request and will email you about Fala+ news.', failed: `We could not send this right now. Please try again or email ${CONTACT_EMAIL}.` }
+    : { sending: 'A enviar…', sent: 'Obrigado. Recebemos o pedido e enviaremos novidades da Fala+ por email.', failed: `Não foi possível enviar agora. Tente novamente ou escreva para ${CONTACT_EMAIL}.` }
+  launchForm.addEventListener('submit', async event => {
+    event.preventDefault()
+    if (!launchForm.reportValidity()) return
+    const data = new FormData(launchForm)
+    if (data.get('botcheck')) return
+    submit.disabled = true
+    status.textContent = messages.sending
+    status.className = 'form-status'
+    try {
+      const payload = new FormData()
+      Object.entries({
+        access_key: WEB3FORMS_KEY,
+        subject: `Fala+ — novidades (${LANG.toUpperCase()})`,
+        from_name: 'Site Fala+',
+        email: data.get('email').trim(),
+        language: LANG.toUpperCase(),
+        consent: 'Consented to receive Fala+ launch news by email',
+        message: 'Pedido de inscrição nas novidades da Fala+',
+      }).forEach(([key, value]) => payload.append(key, value))
+      const response = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: payload })
+      const result = await response.json().catch(() => ({}))
+      if (!response.ok || !result.success) throw new Error(result.message || String(response.status))
+      status.textContent = messages.sent
+      status.className = 'form-status is-success'
+      launchForm.reset()
+    } catch {
+      status.textContent = messages.failed
+      status.className = 'form-status is-error'
     } finally {
       submit.disabled = false
     }

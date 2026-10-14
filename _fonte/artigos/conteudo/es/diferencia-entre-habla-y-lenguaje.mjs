@@ -3,7 +3,7 @@ export default {
   slug: 'diferencia-entre-habla-y-lenguaje',
   short: 'Habla, lenguaje y comunicación',
   date: '2026-10-14',
-  titleTag: 'Diferencia entre habla y lenguaje (y comunicación) · Habla+',
+  titleTag: 'Diferencia entre habla y lenguaje (y comunicación) · Fala+',
   description: 'Habla, lenguaje y comunicación no son lo mismo. Entiende la diferencia, qué son el lenguaje receptivo y el expresivo y por qué cambia la forma de ayudar.',
   keywords: ['diferencia entre habla y lenguaje', 'qué es el lenguaje', 'lenguaje receptivo y expresivo', 'trastorno del lenguaje', 'TDL', 'comunicación infantil'],
   h1: 'Habla, lenguaje y comunicación: <span class="word-highlight">¿cuál es la diferencia?</span>',
