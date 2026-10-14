@@ -3,7 +3,7 @@ export default {
   slug: 'pretend-play',
   short: 'Pretend play',
   date: '2026-10-14',
-  titleTag: 'Pretend play: what the research says · Fala+',
+  titleTag: 'Pretend play: what the research says · Talk+',
   description: 'Pretend play, or symbolic play, and language: what research shows, how to support the child and which myths to avoid.',
   keywords: ['pretend play', 'symbolic play', 'pretend play and language development', 'imaginative play', 'make-believe play', 'pretend play age', 'symbolic play examples', 'symbolic play vs pretend play'],
   h1: '<span class="word-highlight">Pretend play</span>: what research says about symbolic play',
@@ -60,7 +60,7 @@ export default {
       items: [
         ['Give voices to the characters.', 'In Talking Cactus, the child says a sentence and the cactus repeats it in a funny voice: it can be the voice of a character in the story.'],
         ['Pretend play can also use pictures.', 'In Communicate, the child can put cards together to say what the doll wants: «I want water».'],
-        ['Play with no right or wrong.', 'In the Fala+ Play area there are no points: sounds, music and colours to explore freely.'],
+        ['Play with no right or wrong.', 'In the Talk+ Play area there are no points: sounds, music and colours to explore freely.'],
       ],
     } },
   ],

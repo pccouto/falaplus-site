@@ -110,7 +110,7 @@ function header(L, lang, langLinks) {
       <a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
       <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
       <nav id="site-nav" class="site-nav" aria-label="${L.mainNav}">
-        ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.gamesPath}">${L.gamesTab}</a><a href="${L.aboutPath}">${L.aboutTab}</a><a href="${L.base}" aria-current="page">${L.articlesTab}</a>
+        ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
       </nav>
       <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
       <a class="button button-small header-cta" href="${L.home}${L.contactAnchor}">${L.cta} ${arrow}</a>
@@ -118,14 +118,14 @@ function header(L, lang, langLinks) {
   </header>`
 }
 
-const footer = L => `<footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>${L.footerTagline}</p><nav aria-label="${L.footerNav}"><a href="${L.gamesPath}">${L.gamesTab}</a><a href="${L.aboutPath}">${L.aboutTab}</a><a href="${L.base}">${L.articlesTab}</a><a href="${L.privacy[0]}">${L.privacy[1]}</a><a href="${L.home}${L.contactAnchor}">${L.contact}</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="${L.instagramAria}">Instagram</a>${L.otherLangs.map(([h, hl, t]) => `<a href="${h}" hreflang="${hl}" lang="${hl}">${t}</a>`).join('')}</nav></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> ${L.brand}</span><span>${L.footerBottom}</span><a href="#conteudo">${L.backTop}</a></div></footer>`
+const footer = L => `<footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>${L.footerTagline}</p><nav aria-label="${L.footerNav}"><a href="${L.base}">${L.articlesTab}</a><a href="${L.privacy[0]}">${L.privacy[1]}</a><a href="${L.home}${L.contactAnchor}">${L.contact}</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="${L.instagramAria}">Instagram</a>${L.otherLangs.map(([h, hl, t]) => `<a href="${h}" hreflang="${hl}" lang="${hl}">${t}</a>`).join('')}</nav></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> ${L.brand}</span><span>${L.footerBottom}</span><a href="#conteudo">${L.backTop}</a></div></footer>`
 
 const cta = L => `<section class="access-section"><div class="wrap access-panel article-cta">
       <div>
         <p class="availability availability-light"><span aria-hidden="true"></span>${L.ctaBadge}</p>
         <h2>${L.ctaTitle}</h2>
         <p>${L.ctaText}</p>
-        <a class="button button-yellow" href="${L.home}${L.newsAnchor}">${L.ctaButton} ${arrow}</a>
+        <a class="button button-yellow" href="${L.home}${L.contactAnchor}">${L.ctaButton} ${arrow}</a>
       </div>
       <img src="/assets/img/app-icon.png" alt="${L.iconAlt}" width="150" height="150" loading="lazy">
     </div></section>`
@@ -151,7 +151,7 @@ function buildArticle(lang, a) {
     '@graph': [
       {
         '@type': 'Article', '@id': `${url}#artigo`, headline: strip(a.h1), description: a.description, inLanguage: L.htmlLang,
-        datePublished: a.date, ...(a.reviewed || a.updated ? { dateModified: a.reviewed || a.updated } : {}), image: `${SITE}/assets/img/og-image.png`, mainEntityOfPage: url,
+        datePublished: a.date, dateModified: a.updated || a.date, image: `${SITE}/assets/img/og-image.png`, mainEntityOfPage: url,
         articleSection: themeName, keywords: a.keywords.join(', '),
         author: { '@type': 'Organization', name: L.brand, url: SITE + L.home },
         publisher: { '@type': 'Organization', name: L.brand, url: SITE + L.home, logo: { '@type': 'ImageObject', url: `${SITE}/assets/img/favicon-512.png` } },
@@ -213,7 +213,7 @@ function buildArticle(lang, a) {
 ${related.length ? `
         <nav class="related" aria-label="${L.related}"><p class="related-title">${L.related}</p><ul>${related.map(id => `<li><a href="${pathOf(lang, id)}">${entry(id)[lang].title}</a></li>`).join('')}</ul></nav>
 ` : ''}
-        <p class="article-updated">${L.published(longDate(L, a.date), a.reviewed || a.updated ? longDate(L, a.reviewed || a.updated) : '')}</p>
+        <p class="article-updated">${L.published(longDate(L, a.date), longDate(L, a.updated || a.date))}</p>
       </article>
 
       <nav class="article-toc" aria-label="${L.tocTitle}">
@@ -284,7 +284,6 @@ ${sections}
 }
 
 const built = []
-const contentModified = new Map()
 for (const lang of LANGS) {
   const dir = join(HERE, 'conteudo', lang)
   if (!existsSync(dir)) continue
@@ -294,7 +293,6 @@ for (const lang of LANGS) {
     if (!isLive(lang, a.id)) { console.log(`skip (not live): ${lang}/${a.slug}`); continue }
     const r = buildArticle(lang, a)
     built.push(SITE + r.path)
-    contentModified.set(SITE + r.path, a.reviewed || a.updated || a.date)
     console.log(`${r.path} (${r.minutes} min)`)
   }
   buildIndex(lang)
@@ -308,10 +306,8 @@ writeFileSync(join(HERE, 'urls.txt'), built.join('\n') + '\n')
 const sitemapPath = join(ROOT, 'sitemap.xml')
 const today = new Date().toISOString().slice(0, 10)
 const isArticleUrl = line => LANGS.some(k => line.includes(`<loc>${SITE}${UI[k].base}`))
-const oldSitemap = readFileSync(sitemapPath, 'utf8')
-const oldLastmod = new Map([...oldSitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>(?:<lastmod>([^<]+)<\/lastmod>)?/g)].map(([, url, date]) => [url, date]))
-const kept = oldSitemap.split(/\r?\n/).filter(line => !isArticleUrl(line))
+const kept = readFileSync(sitemapPath, 'utf8').split(/\r?\n/).filter(line => !isArticleUrl(line))
 const at = kept.findIndex(line => line.includes('privacy-policy'))
-kept.splice(at, 0, ...built.map(u => `  <url><loc>${u}</loc><lastmod>${contentModified.get(u) || oldLastmod.get(u) || today}</lastmod></url>`))
+kept.splice(at, 0, ...built.map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`))
 writeFileSync(sitemapPath, kept.join('\n'))
 console.log(`${built.length} páginas · lista em _fonte/artigos/urls.txt`)

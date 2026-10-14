@@ -3,7 +3,7 @@ export default {
   slug: 'bilinguismo-y-retraso-del-habla',
   short: 'Bilingüismo y retraso del habla',
   date: '2026-10-14',
-  titleTag: '¿El bilingüismo retrasa el habla? Qué dice la ciencia · Fala+',
+  titleTag: '¿El bilingüismo retrasa el habla? Qué dice la ciencia · Habla+',
   description: '¿Hablar dos idiomas en casa retrasa el habla del niño? No. Qué dice la investigación, cómo valorar a un niño bilingüe y cómo apoyarlo.',
   keywords: ['bilingüismo y retraso del habla', 'niño bilingüe habla tarde', 'dos idiomas en casa', 'educación bilingüe', 'niño bilingüe no habla', 'mezclar idiomas'],
   h1: 'Bilingüismo y retraso del habla: ¿<span class="word-highlight">dos idiomas</span> retrasan al niño?',
@@ -60,7 +60,7 @@ export default {
       title: 'Jugar en los idiomas de casa',
       intro: 'Lo que hemos visto sobre crecer con varios idiomas tiene paralelo en partes concretas de la app:',
       items: [
-        ['Mantener un contacto agradable con cada idioma.', 'Fala+ está disponible en portugués, inglés y español; el idioma se elige en los ajustes.'],
+        ['Mantener un contacto agradable con cada idioma.', 'Habla+ está disponible en portugués, inglés y español; el idioma se elige en los ajustes.'],
         ['El idioma de la familia tiene valor.', 'En el Área del Adulto, la familia puede grabar su voz en las tarjetas de Comunicar, por ejemplo en el idioma de casa.'],
         ['Vocabulario en contextos variados.', 'Las mismas palabras del día a día aparecen con imagen y voz en juegos distintos: un pretexto para decirlas en los dos idiomas.'],
       ],

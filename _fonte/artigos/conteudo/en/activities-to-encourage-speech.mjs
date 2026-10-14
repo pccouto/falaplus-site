@@ -3,7 +3,7 @@ export default {
   slug: 'activities-to-encourage-speech',
   short: 'Activities to encourage speech',
   date: '2026-10-14',
-  titleTag: 'Activities to encourage speech: 12 play ideas · Fala+',
+  titleTag: 'Activities to encourage speech: 12 play ideas · Talk+',
   description: 'How to encourage a child’s speech through play: 12 simple activities to do at home and 5 golden rules for talking without pressure.',
   keywords: ['activities to encourage speech', 'how to encourage speech', 'speech and language activities at home', 'how to encourage a toddler to talk', 'games to encourage speech', 'activities to encourage speech in 2 year olds', 'how to encourage speech in toddlers', 'how to encourage speech in babies', 'how to encourage an autistic child to talk'],
   h1: 'Activities to encourage speech: <span class="word-highlight">12 play ideas</span> for home',
@@ -67,7 +67,7 @@ export default {
       ],
     } },
     { bridge: {
-      title: 'Activities that also fit in Fala+',
+      title: 'Activities that also fit in Talk+',
       intro: 'Some of the ideas in this article have a direct parallel in the app. They work best with an adult alongside:',
       items: [
         ['Activity 8: animal and car sounds.', 'In Play, children hear real animal sounds and can tap «Listen again» to imitate them together.'],

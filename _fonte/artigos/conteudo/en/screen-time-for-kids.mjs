@@ -3,8 +3,7 @@ export default {
   slug: 'screen-time-for-kids',
   short: 'Screen time for kids',
   date: '2026-10-14',
-  reviewed: '2026-10-15',
-  titleTag: 'Screen time for kids: guidelines by age and apps · Fala+',
+  titleTag: 'Screen time for kids: guidelines by age and apps · Talk+',
   description: 'How much screen time is recommended by age, what research says and how to choose educational apps for kids. A practical guide, without alarmism.',
   keywords: ['screen time for kids', 'screen time recommendations by age', 'educational apps for kids', 'screens and child development', 'how to choose an app for kids'],
   h1: 'Screen time for kids: <span class="word-highlight">how much, how</span> and with whom',
@@ -37,9 +36,6 @@ export default {
       ['When', 'Screens before bed can disrupt sleep.'],
     ] },
     { p: 'It also matters not to blame a language difficulty on a single cause: if you are worried about speech, see [[atraso-na-fala|Speech delay]]. And remember that a digital game, even an interactive one, <strong>is not the same as free play</strong> with objects and people: see [[importancia-do-brincar|The importance of play]].' },
-    { h2: 'What new guidance did the AAP publish in 2026?', id: 'aap-2026', toc: 'AAP guidance in 2026' },
-    { p: 'In January 2026, the AAP published its policy statement <em>Digital Ecosystems, Children, and Adolescents</em>. It considers the child, caregivers, platform design and wider social context. The AAP’s 5 Cs offer a way for families to talk about media use: Child, Content, Calm, Crowding Out and Communication. Content quality, how an app is designed and adult participation all matter.' },
-    { p: 'The 2026 statement does not remove the age-specific recommendations from the WHO (2019) or the AAP (2016) shown above. An educational app still counts as screen use and is not automatically exempt from those recommendations. Fala+ can be a shared activity, but it is not a clinically proven therapeutic intervention.' },
     { h2: 'How to choose an educational app for kids', id: 'escolher', toc: 'How to choose an app' },
     { ol: [
       '<strong>A clear, honest goal.</strong> Be wary of promises like «develops the brain» or «gets your child talking».',
@@ -62,7 +58,7 @@ export default {
       title: 'Quality screen time, alongside the child',
       intro: 'We designed the app with the criteria above in mind, without promising results:',
       items: [
-        ['No ads aimed at children.', 'Fala+ shows no ads on any plan.'],
+        ['No ads aimed at children.', 'Talk+ shows no ads on any plan.'],
         ['Few stimuli and respect for the child’s pace.', 'Calm mode reduces visual stimulation, and game difficulty adjusts to performance.'],
         ['Protected adult settings.', 'The Adult Area is protected by a PIN.'],
         ['Playing alongside and linking to the real world.', 'Every word has a picture and a voice: a reason to comment and look for the same things off the screen.'],
@@ -80,7 +76,6 @@ export default {
   sources: [
     'World Health Organization (2019). <a href="https://www.who.int/publications/i/item/9789241550536" rel="noopener" target="_blank">Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age</a>.',
     'AAP Council on Communications and Media (2016). Media and Young Minds. <em>Pediatrics</em>, 138(5), e20162591. <a href="https://doi.org/10.1542/peds.2016-2591" rel="noopener" target="_blank">doi:10.1542/peds.2016-2591</a>',
-    'American Academy of Pediatrics, Council on Communications and Media (2026). Digital Ecosystems, Children, and Adolescents: Policy Statement. <em>Pediatrics</em>, 157(2), e2025075320. <a href="https://doi.org/10.1542/peds.2025-075320" rel="noopener" target="_blank">doi:10.1542/peds.2025-075320</a>',
     'Yogman, M. et al. (2018). The Power of Play: A Pediatric Role in Enhancing Development in Young Children. <em>Pediatrics</em>, 142(3). <a href="https://doi.org/10.1542/peds.2018-2058" rel="noopener" target="_blank">doi:10.1542/peds.2018-2058</a>',
   ],
   related: ['importancia-do-brincar', 'beneficios-dos-jogos-educativos', 'brincadeiras-para-estimular-a-fala'],

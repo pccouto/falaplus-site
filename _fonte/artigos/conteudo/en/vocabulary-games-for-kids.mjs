@@ -49,7 +49,7 @@ export default {
       '<strong>Choose everyday words</strong> the child cares about: food, animals, family, toys, actions.',
     ] },
     { p: 'We recommend that children play with an available adult: a family member, educator, therapist or another trusted person. An adult’s presence is not a condition for playing, and it does not turn the game into an assessment. More ideas in [[brincadeiras-para-estimular-a-fala|Activities to encourage speech]].' },
-    { h2: 'Word games in Fala+', id: 'jogos-fala-mais', toc: 'Fala+ games' },
+    { h2: 'Word games in Talk+', id: 'jogos-fala-mais', toc: 'Talk+ games' },
     { table: {
       head: ['Game', 'How it is played', 'What it asks for'],
       rows: [

@@ -2,7 +2,6 @@ export default {
   slug: 'tempo-de-ecra-criancas',
   short: 'Tempo de ecrã nas crianças',
   date: '2026-10-14',
-  reviewed: '2026-10-15',
   titleTag: 'Tempo de ecrã nas crianças: recomendações e apps · Fala+',
   description: 'Quanto tempo de ecrã é recomendado por idade, o que diz a investigação e como escolher apps educativas para crianças. Guia prático e sem alarmismo.',
   keywords: ['tempo de ecrã crianças', 'tempo de ecrã recomendado por idade', 'apps educativas para crianças', 'ecrãs e desenvolvimento infantil', 'como escolher uma app para crianças'],
@@ -36,9 +35,6 @@ export default {
       ['Quando', 'Ecrãs antes de dormir podem atrapalhar o sono.'],
     ] },
     { p: 'Também é importante não atribuir uma dificuldade de linguagem a uma causa única: se houver preocupação com a fala, veja [[atraso-na-fala|Atraso na fala]]. E lembre-se de que um jogo digital, mesmo interativo, <strong>não equivale ao brincar livre</strong> com objetos e pessoas: veja [[importancia-do-brincar|A importância do brincar]].' },
-    { h2: 'Que orientações novas publicou a AAP em 2026?', id: 'aap-2026', toc: 'Orientações da AAP em 2026' },
-    { p: 'Em janeiro de 2026, a AAP publicou a declaração <em>Digital Ecosystems, Children, and Adolescents</em>. A abordagem considera a criança, os cuidadores, o desenho das plataformas e o contexto social. Para conversar sobre o uso dos media em família, a AAP propõe os 5 C: criança, conteúdo, calma, o que os media estão a substituir e comunicação. A qualidade do conteúdo, a forma como a aplicação foi desenhada e a participação dos adultos fazem parte dessa análise.' },
-    { p: 'A declaração de 2026 não elimina as recomendações específicas por idade da OMS (2019) ou da AAP (2016) apresentadas acima. Uma aplicação educativa continua a contar como utilização de ecrã; não fica automaticamente isenta dessas recomendações. A Fala+ pode ser uma atividade partilhada, mas não é uma intervenção terapêutica clinicamente comprovada.' },
     { h2: 'Como escolher uma app educativa para crianças', id: 'escolher', toc: 'Como escolher uma app' },
     { ol: [
       '<strong>Objetivo claro e honesto.</strong> Desconfie de promessas como «desenvolve o cérebro» ou «faz a criança falar».',
@@ -79,7 +75,6 @@ export default {
   sources: [
     'Organização Mundial da Saúde (2019). <a href="https://www.who.int/publications/i/item/9789241550536" rel="noopener" target="_blank">Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age</a>.',
     'AAP Council on Communications and Media (2016). Media and Young Minds. <em>Pediatrics</em>, 138(5), e20162591. <a href="https://doi.org/10.1542/peds.2016-2591" rel="noopener" target="_blank">doi:10.1542/peds.2016-2591</a>',
-    'American Academy of Pediatrics, Council on Communications and Media (2026). Digital Ecosystems, Children, and Adolescents: Policy Statement. <em>Pediatrics</em>, 157(2), e2025075320. <a href="https://doi.org/10.1542/peds.2025-075320" rel="noopener" target="_blank">doi:10.1542/peds.2025-075320</a>',
     'Yogman, M. et al. (2018). The Power of Play: A Pediatric Role in Enhancing Development in Young Children. <em>Pediatrics</em>, 142(3). <a href="https://doi.org/10.1542/peds.2018-2058" rel="noopener" target="_blank">doi:10.1542/peds.2018-2058</a>',
   ],
   related: ['importancia-do-brincar', 'beneficios-dos-jogos-educativos', 'brincadeiras-para-estimular-a-fala'],

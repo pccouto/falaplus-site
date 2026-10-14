@@ -3,7 +3,7 @@ export default {
   slug: 'actividades-para-estimular-el-lenguaje',
   short: 'Actividades para estimular el lenguaje',
   date: '2026-10-14',
-  titleTag: 'Actividades para estimular el lenguaje: 12 ideas · Fala+',
+  titleTag: 'Actividades para estimular el lenguaje: 12 ideas · Habla+',
   description: 'Cómo estimular el habla del niño jugando: 12 actividades sencillas para hacer en casa y 5 reglas para conversar sin presionar.',
   keywords: ['actividades para estimular el lenguaje', 'cómo estimular el habla', 'juegos para estimular el lenguaje', 'estimular el lenguaje en casa', 'juegos para estimular el habla', 'actividades para estimular el lenguaje en niños de 2 a 3 años', 'cómo estimular el lenguaje de un bebé', 'cómo estimular el lenguaje de un niño autista'],
   h1: 'Actividades para estimular el lenguaje: <span class="word-highlight">12 ideas</span> para hacer en casa',
@@ -67,7 +67,7 @@ export default {
       ],
     } },
     { bridge: {
-      title: 'Actividades que también caben en Fala+',
+      title: 'Actividades que también caben en Habla+',
       intro: 'Algunas ideas de este artículo tienen un paralelo directo en la app. Funcionan mejor con un adulto al lado:',
       items: [
         ['Actividad 8: sonidos de animales y coches.', 'En Jugar libre, el niño escucha sonidos reales de animales y puede tocar «Escuchar otra vez» para imitarlos juntos.'],

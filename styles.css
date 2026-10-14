@@ -48,9 +48,3 @@ button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:
 @media(prefers-reduced-motion:reduce){.header-cta{animation:none}}
 /* Six nav links (Artigos added 2026-10-14): tighten spacing just above the menu breakpoint. */
 @media(min-width:1101px) and (max-width:1240px){.header-row{gap:18px}.site-nav{gap:17px}.header-cta{white-space:nowrap}}
-:root { scroll-behavior: smooth; }
-.hero-highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr)); gap:.6rem; list-style:none; padding:0; margin:1.1rem 0; }
-.hero-highlights li { background:#fff; border:1px solid #e4d9ed; border-radius:1rem; padding:.7rem .85rem; color:#34245f; font-size:.96rem; font-weight:700; line-height:1.4; }
-.hero-highlights li::before { content:'✓'; color:#28764d; margin-right:.45rem; }
-:focus-visible { outline:3px solid #32216e; outline-offset:3px; }
-@media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior:auto!important; animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; } }

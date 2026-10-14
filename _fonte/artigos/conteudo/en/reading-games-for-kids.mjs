@@ -51,7 +51,7 @@ export default {
       '<strong>Celebrate attempts</strong>, not just correct answers. Reading needs no rush.',
     ] },
     { p: 'We recommend that children use these games with an available adult, to talk about sounds, words and stories. Let the child take part by pointing, gesturing or using pictures, without rushing reading or demanding answers.' },
-    { h2: 'Reading games in Fala+', id: 'jogos-fala-mais', toc: 'Fala+ games' },
+    { h2: 'Reading games in Talk+', id: 'jogos-fala-mais', toc: 'Talk+ games' },
     { table: {
       head: ['Game', 'How it is played', 'What it asks for'],
       rows: [

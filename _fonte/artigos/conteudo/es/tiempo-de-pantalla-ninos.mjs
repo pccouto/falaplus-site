@@ -3,8 +3,7 @@ export default {
   slug: 'tiempo-de-pantalla-ninos',
   short: 'Tiempo de pantalla en niños',
   date: '2026-10-14',
-  reviewed: '2026-10-15',
-  titleTag: 'Tiempo de pantalla en niños: recomendaciones y apps · Fala+',
+  titleTag: 'Tiempo de pantalla en niños: recomendaciones y apps · Habla+',
   description: 'Cuánto tiempo de pantalla se recomienda por edad, qué dice la investigación y cómo elegir apps educativas para niños. Guía práctica y sin alarmismo.',
   keywords: ['tiempo de pantalla en niños', 'tiempo de pantalla recomendado por edad', 'apps educativas para niños', 'pantallas y desarrollo infantil', 'cómo elegir una app para niños'],
   h1: 'Tiempo de pantalla en niños: <span class="word-highlight">cuánto, cómo</span> y con quién',
@@ -37,9 +36,6 @@ export default {
       ['Cuándo', 'Las pantallas antes de dormir pueden alterar el sueño.'],
     ] },
     { p: 'También importa no atribuir una dificultad de lenguaje a una sola causa: si te preocupa el habla, consulta [[atraso-na-fala|Retraso del habla]]. Y recuerda que un juego digital, aunque sea interactivo, <strong>no equivale al juego libre</strong> con objetos y personas: consulta [[importancia-do-brincar|La importancia del juego]].' },
-    { h2: '¿Qué nuevas orientaciones publicó la AAP en 2026?', id: 'aap-2026', toc: 'Orientaciones de la AAP en 2026' },
-    { p: 'En enero de 2026, la AAP publicó la declaración <em>Digital Ecosystems, Children, and Adolescents</em>. La propuesta tiene en cuenta al niño o la niña, las personas cuidadoras, el diseño de las plataformas y el contexto social. Para conversar en familia sobre el uso de los medios, la AAP propone las 5 C: Child (niño), Content (contenido), Calm (calma), Crowding Out (qué desplazan los medios) y Communication (comunicación). La calidad del contenido, el diseño de la app y la participación adulta forman parte de esa reflexión.' },
-    { p: 'La declaración de 2026 no elimina las recomendaciones por edad de la OMS (2019) ni de la AAP (2016) que aparecen arriba. Una app educativa sigue contando como uso de pantalla y no está exenta automáticamente de esas recomendaciones. Fala+ puede ser una actividad compartida, pero no es una intervención terapéutica clínicamente probada.' },
     { h2: 'Cómo elegir una app educativa para niños', id: 'escolher', toc: 'Cómo elegir una app' },
     { ol: [
       '<strong>Un objetivo claro y honesto.</strong> Desconfía de promesas como «desarrolla el cerebro» o «hace hablar al niño».',
@@ -62,7 +58,7 @@ export default {
       title: 'Pantalla de calidad, al lado del niño',
       intro: 'Diseñamos la app con los criterios que hemos descrito, sin prometer resultados:',
       items: [
-        ['Sin publicidad dirigida al niño.', 'Fala+ no muestra publicidad en ninguno de sus planes.'],
+        ['Sin publicidad dirigida al niño.', 'Habla+ no muestra publicidad en ninguno de sus planes.'],
         ['Pocos estímulos y respeto por el ritmo.', 'El modo tranquilo reduce los estímulos visuales, y la dificultad de los juegos se ajusta al desempeño.'],
         ['Ajustes del adulto protegidos.', 'El Área del Adulto está protegida con un PIN.'],
         ['Jugar al lado y conectar con el mundo real.', 'Cada palabra tiene imagen y voz: un pretexto para comentar y buscar las mismas cosas fuera de la pantalla.'],
@@ -80,7 +76,6 @@ export default {
   sources: [
     'Organización Mundial de la Salud (2019). <a href="https://www.who.int/publications/i/item/9789241550536" rel="noopener" target="_blank">Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age</a>.',
     'AAP Council on Communications and Media (2016). Media and Young Minds. <em>Pediatrics</em>, 138(5), e20162591. <a href="https://doi.org/10.1542/peds.2016-2591" rel="noopener" target="_blank">doi:10.1542/peds.2016-2591</a>',
-    'American Academy of Pediatrics, Council on Communications and Media (2026). Digital Ecosystems, Children, and Adolescents: Policy Statement. <em>Pediatrics</em>, 157(2), e2025075320. <a href="https://doi.org/10.1542/peds.2025-075320" rel="noopener" target="_blank">doi:10.1542/peds.2025-075320</a>',
     'Yogman, M. et al. (2018). The Power of Play: A Pediatric Role in Enhancing Development in Young Children. <em>Pediatrics</em>, 142(3). <a href="https://doi.org/10.1542/peds.2018-2058" rel="noopener" target="_blank">doi:10.1542/peds.2018-2058</a>',
   ],
   related: ['importancia-do-brincar', 'beneficios-dos-jogos-educativos', 'brincadeiras-para-estimular-a-fala'],

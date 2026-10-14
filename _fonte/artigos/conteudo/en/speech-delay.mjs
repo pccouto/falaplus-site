@@ -79,7 +79,7 @@ export default {
     { p: 'You will find more ideas in [[brincadeiras-para-estimular-a-fala|Activities to encourage speech]]. If the child communicates mainly without words, [[comunicacao-aumentativa-e-alternativa|augmentative and alternative communication]] can help straight away and does not stop speech.' },
     { bridge: {
       title: 'While you wait for an assessment',
-      intro: 'Some suggestions in this article can be put into practice with Fala+, always as a complement and never as a substitute for an assessment:',
+      intro: 'Some suggestions in this article can be put into practice with Talk+, always as a complement and never as a substitute for an assessment:',
       items: [
         ['Use pictures to help the child choose and ask.', 'Communicate has picture-and-voice cards organised by topic, with no limits on the free plan.'],
         ['Value sounds and attempts, without asking them to repeat.', 'In Magic Voice, the child hears the word and then «speaks, sings or makes a sound». There is no right or wrong, and the voice is not saved.'],

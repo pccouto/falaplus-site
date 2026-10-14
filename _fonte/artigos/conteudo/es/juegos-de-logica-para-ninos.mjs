@@ -37,7 +37,7 @@ export default {
     { h2: 'Tangram', id: 'tangram' },
     { p: 'El <strong>Tangram</strong> es un puzle de origen chino con <strong>siete piezas</strong> (cinco triángulos, un cuadrado y un paralelogramo) que, juntas, forman cientos de <strong>figuras de tangram</strong>: animales, personas, barcos. El niño practica la rotación mental, el análisis de formas y la planificación.' },
     { p: '<strong>Consejo:</strong> empieza por figuras que muestran el contorno de cada pieza y pasa después a las que solo muestran la silueta.' },
-    { h2: 'Juegos de lógica y puzles en Fala+', id: 'jogos-fala-mais', toc: 'Los juegos de Fala+' },
+    { h2: 'Juegos de lógica y puzles en Habla+', id: 'jogos-fala-mais', toc: 'Los juegos de Habla+' },
     { table: {
       head: ['Juego', 'Cómo se juega', 'Qué pide'],
       rows: [
@@ -64,7 +64,7 @@ export default {
       '<strong>Sabe parar:</strong> un puzle puede quedarse para mañana.',
     ] },
     { bridge: {
-      title: 'Pensar y volver a intentarlo, en Fala+',
+      title: 'Pensar y volver a intentarlo, en Habla+',
       intro: 'Lo que hemos visto sobre cómo ayudar a un niño en un reto de lógica tiene paralelo en la app:',
       items: [
         ['Ayudar sin resolverlo por el niño.', 'Varios puzles tienen un botón de Pista para cuando el niño se atasca, sin resolverlo todo por él.'],

@@ -26,7 +26,7 @@ export default {
     { h2: '¿Un juego de memoria mejora la memoria?', id: 'melhora', toc: '¿Mejora la memoria?' },
     { p: 'Mejorar <strong>en el juego</strong> es muy probable: el niño aprende estrategias y gana práctica. Pero la investigación es prudente con la <strong>transferencia</strong>: ser mejor en un juego de memoria no significa, por sí solo, tener mejor memoria en la escuela o en el día a día. Lo que se practica tiende a quedarse cerca de la tarea.' },
     { p: 'El valor de estos juegos está en el <strong>reto</strong>, el <strong>placer de conseguirlo</strong> y la práctica de estrategias, como buscar con método o decir «el pato estaba en la esquina», y no en la promesa de «potenciar» el cerebro.' },
-    { h2: 'Juegos de memoria y atención en Fala+', id: 'jogos-fala-mais', toc: 'Los juegos de Fala+' },
+    { h2: 'Juegos de memoria y atención en Habla+', id: 'jogos-fala-mais', toc: 'Los juegos de Habla+' },
     { table: {
       head: ['Juego', 'Cómo se juega', 'Qué pide'],
       rows: [
@@ -50,7 +50,7 @@ export default {
       '<strong>Ajustad la dificultad:</strong> empezad con pocas cartas y aumentad poco a poco.',
     ] },
     { bridge: {
-      title: 'Jugar a la memoria con Fala+',
+      title: 'Jugar a la memoria con Habla+',
       intro: 'Las sugerencias para jugar en familia encajan así en la app:',
       items: [
         ['Decir los nombres en voz alta.', 'Cada imagen tiene nombre y voz, así que la memoria visual se une de forma natural a las palabras.'],

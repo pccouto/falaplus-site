@@ -3,7 +3,7 @@ export default {
   slug: 'memory-games-for-kids',
   short: 'Memory games for kids',
   date: '2026-10-14',
-  titleTag: 'Memory games for kids: attention and sequences · Fala+',
+  titleTag: 'Memory games for kids: attention and sequences · Talk+',
   description: 'Memory and attention games for kids: matching pairs, sequences, patterns and cups. What they practise and how to play together.',
   keywords: ['memory games for kids', 'attention and concentration games', 'memory match game', 'sequence games for kids', 'pattern games for kids', 'memory games for toddlers', 'concentration games for kids', 'matching games for kids'],
   h1: '<span class="word-highlight">Memory</span> games for kids: what they practise and how to play',
@@ -26,7 +26,7 @@ export default {
     { h2: 'Does a memory game improve memory?', id: 'melhora', toc: 'Does it improve memory?' },
     { p: 'Getting better <strong>at the game</strong> is very likely: the child learns strategies and gains practice. But research is cautious about <strong>transfer</strong>: being better at a memory game does not, on its own, mean a better memory at school or in daily life. What is practised tends to stay close to the task.' },
     { p: 'The value of these games lies in the <strong>challenge</strong>, the <strong>joy of succeeding</strong> and practising strategies, such as searching methodically or saying «the duck was in the corner», not in a promise to «boost» the brain.' },
-    { h2: 'Memory and attention games in Fala+', id: 'jogos-fala-mais', toc: 'Fala+ games' },
+    { h2: 'Memory and attention games in Talk+', id: 'jogos-fala-mais', toc: 'Talk+ games' },
     { table: {
       head: ['Game', 'How it is played', 'What it asks for'],
       rows: [
@@ -50,7 +50,7 @@ export default {
       '<strong>Adjust the difficulty:</strong> start with a few cards and add more gradually.',
     ] },
     { bridge: {
-      title: 'Playing memory games with Fala+',
+      title: 'Playing memory games with Talk+',
       intro: 'The suggestions for playing together fit into the app like this:',
       items: [
         ['Say the names aloud.', 'Every picture has a name and a voice, so visual memory links naturally to words.'],

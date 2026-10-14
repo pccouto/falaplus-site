@@ -79,7 +79,7 @@ export default {
     { p: 'Hay más ideas en [[brincadeiras-para-estimular-a-fala|Actividades para estimular el lenguaje]]. Si el niño se comunica sobre todo sin palabras, la [[comunicacao-aumentativa-e-alternativa|comunicación aumentativa y alternativa]] puede ayudar desde ya y no impide el habla.' },
     { bridge: {
       title: 'Mientras esperas la valoración',
-      intro: 'Algunas sugerencias de este artículo pueden ponerse en práctica con Fala+, siempre como complemento y nunca como sustituto de la valoración:',
+      intro: 'Algunas sugerencias de este artículo pueden ponerse en práctica con Habla+, siempre como complemento y nunca como sustituto de la valoración:',
       items: [
         ['Usar imágenes para ayudarle a elegir y a pedir.', 'Comunicar tiene tarjetas con imagen y voz, organizadas por temas, y está disponible sin límites en el plan gratuito.'],
         ['Valorar sonidos e intentos, sin pedir que repita.', 'En la Voz Mágica, el niño escucha la palabra y después «habla, canta o hace un sonido». No hay acierto ni error, y la voz no se guarda.'],
