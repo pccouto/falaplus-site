@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Desenvolvimento da linguagem infantil: guia · Fala+',
   description: 'Como se desenvolvem a fala e a linguagem na criança, o que ajuda no dia a dia e quando procurar avaliação. Um guia claro e baseado em evidência.',
-  keywords: ['desenvolvimento da linguagem infantil', 'desenvolvimento da fala', 'quando a criança começa a falar', 'linguagem recetiva e expressiva', 'estimular a linguagem'],
+  keywords: ['desenvolvimento da linguagem infantil', 'desenvolvimento da fala', 'quando a criança começa a falar', 'linguagem recetiva e expressiva', 'estimular a linguagem', 'desenvolvimento da fala por idade', 'marcos do desenvolvimento da linguagem', 'com que idade a criança começa a falar'],
   h1: 'Desenvolvimento da <span class="word-highlight">linguagem</span> infantil: o que saber e como acompanhar',
   lead: 'Quando surgem as primeiras palavras? É normal compreender tudo e falar pouco? Explicamos como a criança aprende a comunicar, o que o adulto pode fazer no dia a dia e quando faz sentido procurar uma avaliação.',
   blocks: [
@@ -27,8 +27,9 @@ export default {
     { h2: 'Compreender vem antes de falar?', id: 'compreender', toc: 'Compreender e falar' },
     { p: 'Na maioria das crianças, a <strong>linguagem recetiva</strong> (compreender) avança à frente da <strong>linguagem expressiva</strong> (dizer). Muitas crianças seguem instruções simples, reconhecem nomes de objetos e pessoas e reagem a perguntas antes de conseguirem responder com palavras.' },
     { p: 'Ainda assim, cada perfil é diferente. Compreender bem não exclui uma dificuldade de linguagem, e falar pouco não significa compreender pouco. Por isso, uma avaliação olha para os dois lados e não apenas para o número de palavras.' },
-    { h2: 'Quando começa a criança a falar?', id: 'quando', toc: 'Quando começa a falar' },
-    { p: 'Há uma grande variação entre crianças. Os marcos do desenvolvimento servem para <strong>vigiar</strong>, não para diagnosticar. Em Portugal, o médico de família ou o pediatra acompanha estes marcos nas consultas de saúde infantil, segundo a Norma n.º 002/2019 da Direção-Geral da Saúde.' },
+    { h2: 'Com que idade a criança começa a falar?', id: 'quando', toc: 'Quando começa a falar' },
+    { p: 'Há uma grande variação entre crianças. Os <strong>marcos do desenvolvimento da linguagem</strong> servem para <strong>vigiar</strong>, não para diagnosticar. Em Portugal, o médico de família ou o pediatra acompanha estes marcos nas consultas de saúde infantil, segundo a Norma n.º 002/2019 da Direção-Geral da Saúde.' },
+    { p: 'Uma referência usada na investigação: por volta dos 2 anos, considera-se que uma criança <strong>fala tarde</strong> quando usa menos de cerca de 50 palavras ou ainda não junta duas palavras. É um critério para decidir quando falar com um profissional, não um diagnóstico.' },
     { p: 'Os sinais a que vale a pena estar atento estão explicados no artigo [[atraso-na-fala|Atraso na fala: sinais de alerta e quando procurar ajuda]].' },
     { h2: 'O que ajuda o desenvolvimento da linguagem?', id: 'ajuda', toc: 'O que ajuda' },
     { p: 'A investigação destaca as <strong>interações responsivas</strong>: momentos em que o adulto presta atenção ao que interessa à criança e responde ao que ela comunica. Algumas práticas simples:' },
@@ -89,6 +90,7 @@ export default {
   faqTitle: 'Perguntas frequentes sobre o desenvolvimento da linguagem',
   faq: [
     ['Qual é a diferença entre linguagem recetiva e expressiva?', 'A recetiva é a capacidade de compreender o que se ouve ou vê; a expressiva é a capacidade de transmitir ideias por palavras, gestos, sinais ou imagens.'],
+    ['Quantas palavras deve dizer uma criança de 2 anos?', 'Não há um número certo para todas as crianças. Como referência, a investigação considera que uma criança de cerca de 2 anos fala tarde quando usa menos de 50 palavras ou ainda não junta duas palavras. É um critério de vigilância, não um diagnóstico: se houver dúvida, fale com o médico de família ou o pediatra.'],
     ['Os ecrãs atrasam a fala?', 'Não se deve atribuir uma dificuldade a uma causa única. O que importa é o conteúdo, o tempo, se há um adulto a acompanhar e se o ecrã ocupa o lugar do sono, do movimento e da conversa.'],
     ['A quem devo recorrer se estiver preocupado?', 'Ao médico de família ou ao pediatra, que pode pedir uma avaliação da audição e encaminhar para terapia da fala. A perda de palavras ou de competências que a criança já tinha deve ser avaliada com rapidez.'],
     ['Uma lista de sinais na internet serve para diagnosticar?', 'Não. Nenhuma lista, artigo ou aplicação faz um diagnóstico. Serve apenas para ajudar a decidir quando falar com um profissional.'],

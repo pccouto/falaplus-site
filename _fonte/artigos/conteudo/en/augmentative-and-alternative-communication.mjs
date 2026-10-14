@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Augmentative and alternative communication (AAC) · Talk+',
   description: 'What augmentative and alternative communication (AAC) is, who it is for, common myths and how pictures and voice help a child communicate.',
-  keywords: ['augmentative and alternative communication', 'AAC', 'communication board', 'picture communication', 'AAC for autism', 'AAC app'],
+  keywords: ['augmentative and alternative communication', 'AAC', 'communication board', 'picture communication', 'AAC for autism', 'AAC app', 'AAC device', 'AAC examples', 'communication board for autism', 'nonverbal autism communication'],
   h1: 'Augmentative and alternative communication (AAC): what it is and how it <span class="word-highlight">helps</span>',
   lead: 'Not every child communicates mainly through speech. Some use gestures, signs, pictures or a tablet that speaks for them. Find out what AAC is, who it is for and why it does not stop a child from talking.',
   blocks: [
@@ -16,7 +16,7 @@ export default {
       'The available research does not suggest that AAC stops speech.',
       'There are no prerequisites: nobody needs to «be ready» to start.',
     ] },
-    { h2: 'What is AAC?', id: 'o-que-e', toc: 'What AAC is' },
+    { h2: 'What is AAC? Examples', id: 'o-que-e', toc: 'What AAC is' },
     { p: 'It is any form of communication beyond speech. It falls into two broad groups:' },
     { cards: [
       ['Unaided', 'Gestures, facial expressions, signs and sign language.'],
@@ -62,6 +62,8 @@ export default {
   faqTitle: 'Frequently asked questions about augmentative and alternative communication',
   faq: [
     ['Is AAC only for autistic children?', 'No. It is useful for anyone whose speech does not meet all their communication needs, temporarily or permanently.'],
+    ['What are some examples of AAC?', 'Unaided: gestures, facial expressions, signs and sign language. Aided: communication boards, picture cards and books, letter boards and devices or apps that speak messages aloud. Many people combine several forms.'],
+    ['Can a communication board help autistic children?', 'It can help many autistic children with little spoken language to ask, choose and share, and research does not suggest that AAC stops speech. Every child is different, so a speech and language therapist helps choose the system and vocabulary.'],
     ['Does AAC replace speech therapy?', 'No. AAC is a way of communicating; speech and language therapy assesses, chooses and teaches the right system, among other goals.'],
     ['How old does a child need to be to use AAC?', 'There is no minimum age. Babies and young children can also benefit from gestures and pictures.'],
     ['Does a paper communication board work?', 'Yes. Paper and apps have different advantages: paper never runs out of battery; an app gives messages a voice and allows much more vocabulary.'],

@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Benefits of educational games for kids · Talk+',
   description: 'What are the benefits of educational games for children? What each type of game asks for, what it can practise and what no game can promise.',
-  keywords: ['benefits of educational games', 'educational games for kids', 'learning games for children', 'learning through play', 'games for child development'],
+  keywords: ['benefits of educational games', 'educational games for kids', 'learning games for children', 'learning through play', 'games for child development', 'educational games for 3 year olds', 'educational games without ads'],
   h1: 'Benefits of educational games: what children <span class="word-highlight">practise</span> when they play',
   lead: 'Educational games are often presented as the answer to everything. The reality is more interesting, and more honest: each game asks different things of a child and so offers different opportunities.',
   blocks: [
@@ -86,7 +86,8 @@ export default {
   faq: [
     ['Are educational games better than toys?', 'They are neither better nor worse, just different. Free play with objects and people is still essential.'],
     ['Can a young child play on their own?', 'We recommend playing with an available adult, mainly to share the experience and create chances to talk. An adult’s presence is not a condition for accessing the game and does not turn the activity into an assessment.'],
-    ['How can I tell if a game is suitable?', 'The child understands the goal, enjoys it, gets it right some of the time and wants to try again. Be wary of games with ads or that promise health outcomes.'],
+    ['How can I tell if a game is suitable?', 'The child understands the goal, enjoys it, gets it right some of the time and wants to try again. Choose games with no ads, and be wary of any that promise health outcomes.'],
+    ['What are good educational games for 3-year-olds?', 'Short games with few options at a time, clear pictures and voice, where the child understands the goal without reading. Hearing a name and choosing the picture, finding pairs with a few cards or simple puzzles are good starting points. Play alongside the child.'],
   ],
   note: 'A game score is not an assessment. If you are worried about a child’s development, talk to their doctor or paediatrician.',
   sources: [

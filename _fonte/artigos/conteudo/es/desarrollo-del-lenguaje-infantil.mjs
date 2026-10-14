@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Desarrollo del lenguaje infantil: guía · Habla+',
   description: 'Cómo se desarrollan el habla y el lenguaje en los niños, qué ayuda en el día a día y cuándo pedir una valoración. Una guía clara y basada en la evidencia.',
-  keywords: ['desarrollo del lenguaje infantil', 'desarrollo del habla', 'cuándo empiezan a hablar los niños', 'lenguaje receptivo y expresivo', 'estimular el lenguaje'],
+  keywords: ['desarrollo del lenguaje infantil', 'desarrollo del habla', 'cuándo empiezan a hablar los niños', 'lenguaje receptivo y expresivo', 'estimular el lenguaje', 'etapas del desarrollo del lenguaje', 'hitos del desarrollo del lenguaje', 'a qué edad empieza a hablar un niño', 'cuántas palabras debe decir un niño de 2 años'],
   h1: 'Desarrollo del <span class="word-highlight">lenguaje</span> infantil: qué saber y cómo acompañar',
   lead: '¿Cuándo llegan las primeras palabras? ¿Es normal entenderlo todo y hablar poco? Explicamos cómo aprenden los niños a comunicarse, qué puede hacer el adulto en el día a día y cuándo tiene sentido pedir una valoración.',
   blocks: [
@@ -27,8 +27,9 @@ export default {
     { h2: '¿Comprender llega antes que hablar?', id: 'compreender', toc: 'Comprender y hablar' },
     { p: 'En la mayoría de los niños, el <strong>lenguaje receptivo</strong> (comprender) va por delante del <strong>lenguaje expresivo</strong> (decir). Muchos niños siguen instrucciones sencillas, reconocen nombres de objetos y personas y reaccionan a preguntas antes de poder responder con palabras.' },
     { p: 'Aun así, cada perfil es distinto. Comprender bien no descarta una dificultad de lenguaje, y hablar poco no significa comprender poco. Por eso una valoración mira ambos lados y no solo el número de palabras.' },
-    { h2: '¿Cuándo empiezan a hablar los niños?', id: 'quando', toc: 'Cuándo empiezan a hablar' },
-    { p: 'Hay una gran variación entre niños. Los hitos del desarrollo sirven para <strong>vigilar</strong>, no para diagnosticar. En la mayoría de los países, el desarrollo se revisa en las consultas habituales de pediatría o del niño sano.' },
+    { h2: '¿A qué edad empieza a hablar un niño?', id: 'quando', toc: 'Cuándo empiezan a hablar' },
+    { p: 'Hay una gran variación entre niños. Los <strong>hitos del desarrollo del lenguaje</strong> sirven para <strong>vigilar</strong>, no para diagnosticar. En la mayoría de los países, el desarrollo se revisa en las consultas habituales de pediatría o del niño sano.' },
+    { p: 'Una referencia usada en la investigación: hacia los 2 años, se considera que un niño <strong>habla tarde</strong> cuando usa menos de unas 50 palabras o todavía no junta dos palabras. Es un criterio para decidir cuándo hablar con un profesional, no un diagnóstico.' },
     { p: 'Las señales a las que conviene estar atento se explican en [[atraso-na-fala|Retraso del habla: señales de alerta y cuándo pedir ayuda]].' },
     { h2: '¿Qué ayuda al desarrollo del lenguaje?', id: 'ajuda', toc: 'Qué ayuda' },
     { p: 'La investigación destaca las <strong>interacciones receptivas</strong>: momentos en los que el adulto presta atención a lo que interesa al niño y responde a lo que comunica. Algunas prácticas sencillas:' },
@@ -77,6 +78,7 @@ export default {
   faqTitle: 'Preguntas frecuentes sobre el desarrollo del lenguaje',
   faq: [
     ['¿Qué diferencia hay entre lenguaje receptivo y expresivo?', 'El receptivo es la capacidad de comprender lo que se oye o se ve; el expresivo es la capacidad de transmitir ideas con palabras, gestos, signos o imágenes.'],
+    ['¿Cuántas palabras debe decir un niño de 2 años?', 'No hay una cifra válida para todos los niños. Como referencia, la investigación considera que un niño de unos 2 años habla tarde cuando usa menos de 50 palabras o todavía no junta dos palabras. Es un criterio de vigilancia, no un diagnóstico: si tienes dudas, habla con el pediatra.'],
     ['¿Las pantallas retrasan el habla?', 'No se debe atribuir una dificultad a una sola causa. Lo que importa es el contenido, el tiempo, si hay un adulto acompañando y si la pantalla ocupa el lugar del sueño, el movimiento y la conversación.'],
     ['¿A quién acudo si estoy preocupado?', 'Al pediatra o médico de familia, que puede pedir una prueba de audición y derivar a logopedia. La pérdida de palabras o habilidades que el niño ya tenía debe valorarse con rapidez.'],
     ['¿Una lista de señales en internet sirve para diagnosticar?', 'No. Ninguna lista, artículo o aplicación hace un diagnóstico. Solo ayuda a decidir cuándo hablar con un profesional.'],

@@ -5,11 +5,11 @@ export default {
   date: '2026-10-14',
   titleTag: 'Jogos de memória para crianças: atenção e sequências',
   description: 'Jogos de memória e de atenção para crianças: jogo da memória, sequências, padrões e copos. O que praticam e como jogar em família.',
-  keywords: ['jogos de memória para crianças', 'jogos de atenção e concentração', 'jogo da memória', 'jogos de sequências', 'jogos de padrões para crianças'],
+  keywords: ['jogos de memória para crianças', 'jogos de atenção e concentração', 'jogo da memória', 'jogos de sequências', 'jogos de padrões para crianças', 'jogos de concentração para crianças', 'jogo da memória para crianças de 4 anos'],
   h1: 'Jogos de <span class="word-highlight">memória</span> para crianças: o que praticam e como jogar',
   lead: 'Virar cartas e encontrar pares, repetir sequências de luzes, descobrir o que desapareceu. Os jogos de memória são divertidos e desafiantes, mas o que praticam exatamente?',
   blocks: [
-    { intro: 'O clássico <strong>jogo da memória</strong> é jogado há gerações, e hoje há muitas variações. Neste artigo explicamos o que os <strong>jogos de memória para crianças</strong> pedem, o que se pode esperar deles e como jogar em família.' },
+    { intro: 'O clássico <strong>jogo da memória</strong> é jogado há gerações, e hoje há muitas variações. Neste artigo explicamos o que os <strong>jogos de memória para crianças</strong> e os <strong>jogos de atenção e concentração</strong> pedem, o que se pode esperar deles e como jogar em família.' },
     { summary: [
       'Os jogos de memória pedem sobretudo memória visual, memória de sequências e atenção.',
       'A criança melhora no jogo; isso não significa, por si só, melhor memória na escola.',
@@ -71,6 +71,7 @@ export default {
   faqTitle: 'Perguntas frequentes sobre jogos de memória',
   faq: [
     ['A partir de que idade se pode jogar ao jogo da memória?', 'Versões com poucos pares podem ser jogadas desde cedo, com ajuda. O importante é ajustar o número de cartas para a criança conseguir acertar.'],
+    ['Que jogos de concentração são bons para crianças?', 'Jogos em que é preciso procurar, seguir ou repetir, como encontrar pares, seguir a ordem das luzes ou descobrir o que falta. O ideal é começar fácil, jogar pouco tempo de cada vez e aumentar a dificuldade aos poucos.'],
     ['Os jogos de memória ajudam crianças com dificuldades de atenção?', 'Podem ser uma atividade agradável e desafiante, mas não são um tratamento. Se houver preocupação com a atenção, fale com um profissional.'],
     ['Jogo da memória em cartas ou no tablet?', 'Os dois têm vantagens. As cartas facilitam jogar a dois; a versão digital ajusta a dificuldade e diz o nome das imagens.'],
   ],

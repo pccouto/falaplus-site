@@ -5,11 +5,11 @@ export default {
   date: '2026-10-14',
   titleTag: 'Juegos de memoria para niños: atención y secuencias',
   description: 'Juegos de memoria y atención para niños: parejas, secuencias, patrones y vasos. Qué practican y cómo jugar en familia.',
-  keywords: ['juegos de memoria para niños', 'juegos de atención y concentración', 'juego de memoria de parejas', 'juegos de secuencias', 'juegos de patrones para niños'],
+  keywords: ['juegos de memoria para niños', 'juegos de atención y concentración', 'juego de memoria de parejas', 'juegos de secuencias', 'juegos de patrones para niños', 'juegos de memoria para niños de 3 a 6 años', 'juegos de atención para niños', 'juegos de concentración para niños'],
   h1: 'Juegos de <span class="word-highlight">memoria</span> para niños: qué practican y cómo jugar',
   lead: 'Dar la vuelta a cartas para encontrar parejas, repetir secuencias de luces, descubrir qué ha desaparecido. Los juegos de memoria son divertidos y retadores, pero ¿qué practican exactamente?',
   blocks: [
-    { intro: 'El clásico <strong>juego de memoria de parejas</strong> se juega desde hace generaciones, y hoy existen muchas variantes. En este artículo explicamos qué piden los <strong>juegos de memoria para niños</strong>, qué se puede esperar de ellos y cómo jugar en familia.' },
+    { intro: 'El clásico <strong>juego de memoria de parejas</strong> se juega desde hace generaciones, y hoy existen muchas variantes. En este artículo explicamos qué piden los <strong>juegos de memoria para niños</strong> y los <strong>juegos de atención y concentración</strong>, qué se puede esperar de ellos y cómo jugar en familia.' },
     { summary: [
       'Los juegos de memoria piden sobre todo memoria visual, memoria de secuencias y atención.',
       'El niño mejora en el juego; eso no significa, por sí solo, mejor memoria en la escuela.',
@@ -62,6 +62,7 @@ export default {
   faqTitle: 'Preguntas frecuentes sobre los juegos de memoria',
   faq: [
     ['¿A partir de qué edad se puede jugar al juego de memoria?', 'Las versiones con pocas parejas pueden jugarse desde pequeños, con ayuda. Lo importante es ajustar el número de cartas para que el niño pueda acertar.'],
+    ['¿Qué juegos de concentración son buenos para niños?', 'Juegos en los que hay que buscar, seguir o repetir, como encontrar parejas, seguir el orden de las luces o descubrir qué falta. Lo ideal es empezar fácil, jugar poco tiempo cada vez y aumentar la dificultad poco a poco.'],
     ['¿Los juegos de memoria ayudan a niños con dificultades de atención?', 'Pueden ser una actividad agradable y retadora, pero no son un tratamiento. Si te preocupa la atención, habla con un profesional.'],
     ['¿Juego de memoria con cartas o en la tablet?', 'Los dos tienen ventajas. Las cartas facilitan jugar en pareja; la versión digital ajusta la dificultad y dice el nombre de las imágenes.'],
   ],

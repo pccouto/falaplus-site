@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Atraso na fala: sinais de alerta e quando procurar ajuda',
   description: 'Atraso na fala ou atraso de linguagem? Que sinais observar, que mitos evitar e quando procurar avaliação da audição e terapia da fala.',
-  keywords: ['atraso na fala', 'criança não fala', 'atraso de linguagem', 'sinais de alerta', 'quando procurar terapeuta da fala', 'criança de 2 anos não fala'],
+  keywords: ['atraso na fala', 'criança não fala', 'atraso de linguagem', 'sinais de alerta', 'quando procurar terapeuta da fala', 'criança de 2 anos não fala', 'atraso na fala 2 anos', 'atraso na fala pode ser autismo', 'bebé não fala só aponta'],
   h1: 'Atraso na fala: <span class="word-highlight">sinais de alerta</span> e quando procurar ajuda',
   lead: '«A criança tem quase dois anos e diz poucas palavras. É atraso na fala?» Há crianças que começam a falar mais tarde e recuperam, e outras que precisam de apoio. Saiba o que observar e quando falar com um profissional.',
   blocks: [
@@ -28,7 +28,7 @@ export default {
     { h2: 'Falar tarde é sempre um problema?', id: 'falar-tarde', toc: 'Falar tarde' },
     { p: 'Não. Muitas crianças que começam a falar tarde acabam por recuperar. Mas <strong>não é possível saber com certeza, num único momento, quem vai recuperar e quem vai precisar de apoio</strong>. Por isso, a abordagem recomendada é avaliar e acompanhar.' },
     { p: 'Também se sabe que, quando as dificuldades de linguagem persistem para além dos primeiros anos, tendem a acompanhar a criança na escola. Uma revisão Cochrane de 2026 encontrou essa associação com a linguagem e a leitura ao longo do tempo, o que reforça a importância de não adiar a avaliação.' },
-    { h2: 'Sinais a que vale a pena estar atento', id: 'sinais', toc: 'Sinais de alerta' },
+    { h2: 'Atraso na fala aos 2 anos: a que sinais estar atento?', id: 'sinais', toc: 'Sinais de alerta' },
     { p: 'Na investigação, é frequente considerar que uma criança de cerca de 2 anos <strong>fala tarde</strong> quando usa menos de 50 palavras ou ainda não junta duas palavras («mais água», «papá foi»). Outros sinais pedem atenção, sobretudo quando aparecem juntos:' },
     { ul: [
       'a criança <strong>compreende pouco</strong> do que lhe dizem;',
@@ -98,7 +98,9 @@ export default {
   ],
   faqTitle: 'Perguntas frequentes sobre o atraso na fala',
   faq: [
-    ['A criança tem 2 anos e não fala. É normal?', 'Há variação entre crianças, mas uma criança de 2 anos que quase não usa palavras ou não junta palavras deve ser avaliada. Falar com o médico de família ou o pediatra é o primeiro passo.'],
+    ['É normal uma criança de 2 anos não falar?', 'Há variação entre crianças, mas uma criança de 2 anos que quase não usa palavras ou não junta palavras deve ser avaliada. Falar com o médico de família ou o pediatra é o primeiro passo.'],
+    ['Atraso na fala pode ser autismo?', 'Um atraso na fala, sozinho, não diagnostica autismo. Algumas crianças autistas falam tarde, outras falam dentro do tempo esperado, e muitas crianças que falam tarde não são autistas. Só uma avaliação que olhe também para a compreensão, os gestos, a partilha de atenção e a audição pode esclarecer. Perder palavras ou competências que já tinha pede avaliação rápida.'],
+    ['O bebé não fala, só aponta. É preocupante?', 'Apontar é comunicação verdadeira: mostra que a criança quer pedir e partilhar. Responda dizendo o nome do que ela aponta («Queres a bola!»), sem exigir que repita. Se, por volta dos 2 anos, continuar a usar muito poucas palavras, fale com o médico de família ou o pediatra.'],
     ['Qual é a diferença entre atraso de fala e atraso de linguagem?', 'O atraso de fala refere-se à produção dos sons; o atraso de linguagem refere-se ao vocabulário, às frases e à compreensão. Podem existir em separado ou juntos.'],
     ['Uma app pode resolver um atraso na fala?', 'Não. Uma app pode ser um recurso para brincar e conversar com o adulto, mas não substitui a avaliação nem a terapia da fala.'],
     ['Devo esperar até aos 3 anos?', 'Não é uma regra segura. A avaliação e o apoio não precisam de esperar por um diagnóstico definitivo.'],

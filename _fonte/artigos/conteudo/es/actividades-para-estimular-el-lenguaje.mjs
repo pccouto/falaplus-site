@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Actividades para estimular el lenguaje: 12 ideas · Habla+',
   description: 'Cómo estimular el habla del niño jugando: 12 actividades sencillas para hacer en casa y 5 reglas para conversar sin presionar.',
-  keywords: ['actividades para estimular el lenguaje', 'cómo estimular el habla', 'juegos para estimular el lenguaje', 'estimular el lenguaje en casa', 'juegos para estimular el habla'],
+  keywords: ['actividades para estimular el lenguaje', 'cómo estimular el habla', 'juegos para estimular el lenguaje', 'estimular el lenguaje en casa', 'juegos para estimular el habla', 'actividades para estimular el lenguaje en niños de 2 a 3 años', 'cómo estimular el lenguaje de un bebé', 'cómo estimular el lenguaje de un niño autista'],
   h1: 'Actividades para estimular el lenguaje: <span class="word-highlight">12 ideas</span> para hacer en casa',
   lead: 'No necesitas materiales especiales. Los momentos más ricos para el lenguaje suelen ser los más sencillos: un adulto atento, un juego que le guste al niño y tiempo para conversar.',
   blocks: [
@@ -39,8 +39,18 @@ export default {
       ['11. Escondite de juguetes', '«¿Dónde está el osito? ¿Debajo de la mesa? ¿Dentro de la caja?»'],
       ['12. Fotos de la familia', 'Mirar fotos y hablar de quién sale ayuda a contar lo que pasó.'],
     ] },
+    { h2: '¿Qué actividades para cada edad?', id: 'idades', toc: 'Por edad' },
+    { p: 'Todas las ideas sirven para varias edades. Como punto de partida, siempre ajustado a los intereses del niño y no a la edad en el papel:' },
+    { table: {
+      head: ['Edad', 'Buenas actividades para empezar'],
+      rows: [
+        ['Bebés, hacia el año', 'pompas de jabón (1), canciones con gestos (4), libros para señalar (5), ahora yo, ahora tú (6), sonidos de animales y coches (8)'],
+        ['Niños de 2 a 3 años', 'bolsa misteriosa (2), elecciones (7), rutinas que hablan (10), escondite de juguetes (11)'],
+        ['Niños de 3 años o más', 'cocinita de juguete (3), marionetas (9), fotos de la familia (12) e inventar historias juntos'],
+      ],
+    } },
     { h2: '¿Y los juegos en la tablet?', id: 'tablet', toc: '¿Y la tablet?' },
-    { p: 'Un juego que dice el nombre de las cosas y enseña la imagen puede ser un buen pretexto para conversar, <strong>si hay un adulto jugando al lado</strong>: nombrar, comentar y reír con el niño. Por sí solo, un juego de elegir imágenes practica sobre todo la comprensión y la atención; no practica el habla del propio niño. Consulta [[beneficios-dos-jogos-educativos|Beneficios de los juegos educativos]].' },
+    { p: 'Un juego que dice el nombre de las cosas y enseña la imagen puede ser un buen pretexto para conversar, <strong>si hay un adulto jugando al lado</strong>: nombrar, comentar y reír con el niño. Por sí solo, un juego de elegir imágenes practica sobre todo la comprensión y la atención; no practica el habla del propio niño. Si usas una app, elige una <strong>sin anuncios</strong>: hay menos interrupciones y menos distracciones. Consulta [[beneficios-dos-jogos-educativos|Beneficios de los juegos educativos]].' },
     { h2: 'Qué evitar', id: 'evitar' },
     { evidence: {
       yesTitle: 'Prueba',
@@ -71,6 +81,7 @@ export default {
   faq: [
     ['¿Cuánto tiempo al día debo dedicar a estas actividades?', 'Más que sesiones largas, cuentan los momentos cortos a lo largo del día, en las rutinas y en el juego.'],
     ['El niño no me imita. ¿Qué hago?', 'Prueba a imitarlo tú a él. Copiar los sonidos y las acciones del niño suele despertar su interés e iniciar el intercambio.'],
+    ['¿Cómo estimular el lenguaje de un niño autista?', 'Se aplican los mismos principios: seguir sus intereses, responder a cualquier forma de comunicación y dar tiempo. Los gestos, las imágenes y la CAA son comunicación válida y no impiden el habla. Cada niño autista tiene un perfil distinto, por eso la orientación de un logopeda ayuda a elegir objetivos y apoyos. Consulta [[comunicacao-aumentativa-e-alternativa|Comunicación aumentativa y alternativa]].'],
     ['¿Estas actividades sustituyen la logopedia?', 'No. Son ideas para el día a día. Si te preocupa el habla, habla con su pediatra. Consulta también [[atraso-na-fala|Retraso del habla]].'],
   ],
   sources: [

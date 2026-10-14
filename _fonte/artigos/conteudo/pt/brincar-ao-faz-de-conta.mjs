@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Brincar ao faz-de-conta: o que diz a ciência · Fala+',
   description: 'O brincar simbólico ou faz-de-conta e a linguagem: o que mostra a investigação, como acompanhar a criança e que mitos evitar.',
-  keywords: ['brincar ao faz-de-conta', 'brincar simbólico', 'jogo simbólico', 'faz de conta e linguagem', 'brincadeira de faz de conta'],
+  keywords: ['brincar ao faz-de-conta', 'brincar simbólico', 'jogo simbólico', 'faz de conta e linguagem', 'brincadeira de faz de conta', 'jogo simbólico idade', 'jogo simbólico exemplos'],
   h1: 'Brincar ao <span class="word-highlight">faz-de-conta</span>: o que diz a ciência sobre o jogo simbólico',
   lead: 'Uma caixa vira um carro, uma colher vira um telefone e o urso tem febre e precisa de ir ao médico. Saiba o que a investigação sabe, e o que ainda não sabe, sobre esta forma de brincar.',
   blocks: [
@@ -16,7 +16,7 @@ export default {
       'É um contexto rico para conversar, sobretudo com um adulto que segue a história da criança.',
       'Um tipo de brincadeira, por si só, não diagnostica nada.',
     ] },
-    { h2: 'O que é o brincar simbólico?', id: 'o-que-e', toc: 'O que é' },
+    { h2: 'O que é o jogo simbólico? Exemplos', id: 'o-que-e', toc: 'O que é' },
     { cards: [
       ['Objetos que viram outros', 'Um bloco que é um telemóvel, uma caixa que é um barco.'],
       ['Ações a fingir', 'Beber de um copo vazio, dar sopa a um boneco.'],
@@ -75,7 +75,7 @@ export default {
   ],
   faqTitle: 'Perguntas frequentes sobre o faz-de-conta',
   faq: [
-    ['Com que idade começa o faz-de-conta?', 'As primeiras ações simbólicas simples, como fingir beber ou dar de comer a um boneco, costumam surgir no segundo ano de vida, com grande variação entre crianças.'],
+    ['Com que idade começa o jogo simbólico (faz-de-conta)?', 'As primeiras ações simbólicas simples, como fingir beber ou dar de comer a um boneco, costumam surgir no segundo ano de vida, com grande variação entre crianças.'],
     ['Que brinquedos ajudam o faz-de-conta?', 'Cozinhas, bonecos, animais e veículos e, sobretudo, objetos simples que podem ser «qualquer coisa», como caixas e panos.'],
     ['Os jogos digitais são faz-de-conta?', 'Em geral não. Um jogo com regras e objetivos definidos é uma experiência diferente do faz-de-conta livre, em que é a criança que inventa a história.'],
   ],

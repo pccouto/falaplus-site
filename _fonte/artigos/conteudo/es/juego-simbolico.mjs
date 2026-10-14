@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'El juego simbólico: qué dice la ciencia · Habla+',
   description: 'El juego simbólico y el lenguaje: qué muestra la investigación, cómo acompañar al niño y qué mitos conviene evitar.',
-  keywords: ['juego simbólico', 'juego de imitación', 'juego simbólico y lenguaje', 'juego de roles', 'juego de fantasía'],
+  keywords: ['juego simbólico', 'juego de imitación', 'juego simbólico y lenguaje', 'juego de roles', 'juego de fantasía', 'juego simbólico edad', 'juego simbólico ejemplos', 'importancia del juego simbólico'],
   h1: 'El <span class="word-highlight">juego simbólico</span>: qué dice la ciencia',
   lead: 'Una caja se convierte en coche, una cuchara en teléfono y el osito tiene fiebre y necesita ir al médico. Descubre qué sabe la investigación, y qué no sabe todavía, sobre esta forma de jugar.',
   blocks: [
@@ -16,7 +16,7 @@ export default {
       'Es un contexto rico para conversar, sobre todo con un adulto que sigue la historia del niño.',
       'Un tipo de juego, por sí solo, no diagnostica nada.',
     ] },
-    { h2: '¿Qué es el juego simbólico?', id: 'o-que-e', toc: 'Qué es' },
+    { h2: '¿Qué es el juego simbólico? Ejemplos', id: 'o-que-e', toc: 'Qué es' },
     { cards: [
       ['Objetos que se convierten en otros', 'Un bloque que es un móvil, una caja que es un barco.'],
       ['Acciones fingidas', 'Beber de un vaso vacío, darle sopa a un muñeco.'],
@@ -67,6 +67,7 @@ export default {
   faqTitle: 'Preguntas frecuentes sobre el juego simbólico',
   faq: [
     ['¿A qué edad empieza el juego simbólico?', 'Las primeras acciones simbólicas sencillas, como fingir beber o dar de comer a un muñeco, suelen aparecer en el segundo año de vida, con gran variación entre niños.'],
+    ['¿Juego simbólico y juego de roles son lo mismo?', 'Están muy relacionados. En el juego de roles el niño hace de otra persona (el médico, el cocinero), que es una de las formas del juego simbólico. El juego simbólico incluye también usar objetos como si fueran otros y fingir acciones.'],
     ['¿Qué juguetes favorecen el juego simbólico?', 'Cocinitas, muñecos, animales y vehículos y, sobre todo, objetos sencillos que pueden ser «cualquier cosa», como cajas y telas.'],
     ['¿Los juegos digitales son juego simbólico?', 'Por lo general, no. Un juego con reglas y objetivos definidos es una experiencia distinta del juego simbólico libre, en el que es el niño quien inventa la historia.'],
   ],

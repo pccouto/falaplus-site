@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Jogos de lógica para crianças: Torre de Hanói e Tangram',
   description: 'Jogos de lógica e puzzles para crianças: Torre de Hanói, Tangram, puzzles deslizantes e labirintos. O que praticam e como ajudar sem dar a resposta.',
-  keywords: ['jogos de lógica para crianças', 'torre de hanói para crianças', 'tangram', 'puzzles para crianças', 'raciocínio espacial', 'jogos de raciocínio'],
+  keywords: ['jogos de lógica para crianças', 'torre de hanói para crianças', 'tangram', 'puzzles para crianças', 'raciocínio espacial', 'jogos de raciocínio', 'torre de hanói para que serve', 'como resolver a torre de hanói', 'tangram figuras', 'jogos de lógica e raciocínio'],
   h1: 'Jogos de <span class="word-highlight">lógica</span> para crianças: Torre de Hanói, Tangram e outros puzzles',
   lead: 'Mover discos sem pôr um grande em cima de um pequeno. Formar um gato com sete peças. Os jogos de lógica são desafios de pensar, planear e tentar outra vez.',
   blocks: [
@@ -35,7 +35,7 @@ export default {
     { p: 'Com 3 discos, a solução mais curta tem 7 movimentos; com 4 discos, já são 15. Para crianças, começar com 2 ou 3 discos é o ideal.' },
     { p: '<strong>Dica para o adulto:</strong> em vez de mostrar a jogada, pergunte «onde é que o disco pequenino pode ir agora?».' },
     { h2: 'Tangram', id: 'tangram' },
-    { p: 'O <strong>Tangram</strong> é um puzzle de origem chinesa com <strong>sete peças</strong> (cinco triângulos, um quadrado e um paralelogramo) que, juntas, formam centenas de figuras: animais, pessoas, barcos. A criança pratica a rotação mental, a análise de formas e o planeamento.' },
+    { p: 'O <strong>Tangram</strong> é um puzzle de origem chinesa com <strong>sete peças</strong> (cinco triângulos, um quadrado e um paralelogramo) que, juntas, formam centenas de <strong>figuras de tangram</strong>: animais, pessoas, barcos. A criança pratica a rotação mental, a análise de formas e o planeamento.' },
     { p: '<strong>Dica:</strong> comece por figuras que mostram o contorno de cada peça e passe depois às que mostram só a silhueta.' },
     { h2: 'Jogos de lógica e puzzles na Fala+', id: 'jogos-fala-mais', toc: 'Os jogos da Fala+' },
     { table: {
@@ -85,6 +85,8 @@ export default {
   faqTitle: 'Perguntas frequentes sobre jogos de lógica',
   faq: [
     ['Com que idade se pode jogar à Torre de Hanói?', 'Com 2 ou 3 discos, crianças em idade pré-escolar já conseguem perceber as regras com ajuda. Mais discos ficam para mais tarde.'],
+    ['Para que serve a Torre de Hanói?', 'É um desafio de planeamento: pede para pensar antes de mexer, cumprir duas regras ao mesmo tempo e prever as próximas jogadas. Para a criança, é sobretudo um puzzle divertido, não um teste.'],
+    ['Como se resolve a Torre de Hanói?', 'Com 3 discos bastam 7 movimentos. Uma dica: o disco mais pequeno move-se de duas em duas jogadas, sempre no mesmo sentido; nas outras jogadas, só há um movimento possível. Com mais discos, repete-se a mesma ideia.'],
     ['Os jogos de lógica aumentam a inteligência?', 'Não há evidência de que um jogo, por si só, aumente a inteligência. Dão prática de planeamento e raciocínio espacial naquele tipo de tarefa e são excelentes desafios.'],
     ['Puzzles físicos ou digitais?', 'Os físicos permitem manipular as peças e jogar a dois; os digitais ajustam a dificuldade e dão ajudas. Combinar os dois é ótimo.'],
   ],

@@ -6,7 +6,7 @@ export default {
   titleTag: 'La importancia del juego en el desarrollo infantil · Habla+',
   description: '¿Por qué es importante jugar? Qué dice la ciencia sobre el juego y el desarrollo infantil, los tipos de juego y el papel del adulto.',
   ogDescription: 'Qué dice la investigación sobre el juego, los tipos de juego y el papel del adulto. Una guía de Habla+ para familias, educadores y terapeutas.',
-  keywords: ['importancia del juego', 'el juego en el desarrollo infantil', 'beneficios del juego', 'tipos de juego', 'derecho al juego', 'juego libre'],
+  keywords: ['importancia del juego', 'el juego en el desarrollo infantil', 'beneficios del juego', 'tipos de juego', 'derecho al juego', 'juego libre', 'importancia del juego en el desarrollo infantil', 'importancia del juego en la primera infancia', 'importancia del juego libre'],
   h1: 'La importancia del <span class="word-highlight">juego</span> en el desarrollo infantil',
   lead: 'Jugar es un derecho, un placer y una forma de descubrir el mundo. Descubre qué dice la investigación, qué tipos de juego existen y cómo puede participar el adulto sin quitarle al niño el mando del juego.',
   blocks: [
@@ -76,6 +76,7 @@ export default {
   ],
   faqTitle: 'Preguntas frecuentes sobre la importancia del juego',
   faq: [
+    ['¿Por qué es importante el juego en el desarrollo infantil?', 'Jugar da placer y ofrece ocasiones para comunicarse, pensar, moverse y relacionarse. En la primera infancia, jugar con adultos atentos se considera una parte central de un desarrollo saludable. La investigación encuentra relaciones con el lenguaje y la autorregulación, pero no promete efectos garantizados.'],
     ['¿Cuánto tiempo al día debe jugar un niño?', 'No hay una cifra exacta que valga para todos. Lo importante es que haya tiempo libre cada día para juegos que elija el niño, incluido el juego al aire libre, con movimiento y con otras personas.'],
     ['¿Es malo que el niño juegue siempre a lo mismo?', 'No. La repetición es una forma habitual de jugar y de dominar una actividad. Un tipo de juego, por sí solo, no confirma ni descarta ninguna dificultad. Si hay otras preocupaciones sobre el desarrollo, habla con un profesional.'],
     ['¿Son mejores los juguetes educativos?', 'No necesariamente. Los juguetes sencillos y abiertos, como bloques, cajas o telas, permiten muchos juegos distintos. A menudo, lo más valioso es un adulto disponible para jugar.'],

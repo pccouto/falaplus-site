@@ -6,7 +6,7 @@ export default {
   titleTag: 'A importância do brincar no desenvolvimento infantil · Fala+',
   description: 'Porque é importante brincar? O que a ciência diz sobre o brincar e o desenvolvimento infantil, os tipos de brincadeira e o papel do adulto.',
   ogDescription: 'O que a investigação diz sobre o brincar, os tipos de brincadeira e o papel do adulto. Um guia da Fala+ para famílias, educadores e terapeutas.',
-  keywords: ['importância do brincar', 'brincar e desenvolvimento infantil', 'benefícios do brincar', 'tipos de brincadeira', 'direito de brincar', 'brincar livre'],
+  keywords: ['importância do brincar', 'brincar e desenvolvimento infantil', 'benefícios do brincar', 'tipos de brincadeira', 'direito de brincar', 'brincar livre', 'importância do brincar na primeira infância', 'porque brincar faz bem'],
   h1: 'A importância do <span class="word-highlight">brincar</span> no desenvolvimento infantil',
   lead: 'Brincar é um direito, um prazer e uma forma de descobrir o mundo. Veja o que a investigação diz, que tipos de brincadeira existem e como o adulto pode participar sem tirar à criança o comando do jogo.',
   blocks: [
@@ -76,6 +76,7 @@ export default {
   ],
   faqTitle: 'Perguntas frequentes sobre a importância do brincar',
   faq: [
+    ['Porque é que brincar faz bem às crianças?', 'Brincar dá prazer e oferece oportunidades para comunicar, pensar, mexer o corpo e relacionar-se. Na primeira infância, brincar com adultos atentos é considerado parte central de um desenvolvimento saudável. A investigação encontra associações com a linguagem e a autorregulação, mas não promete efeitos garantidos.'],
     ['Quanto tempo por dia deve uma criança brincar?', 'Não há um número exato que sirva para todas as crianças. O importante é haver tempo livre todos os dias para brincadeiras escolhidas pela criança, incluindo brincar ao ar livre, com movimento e com outras pessoas.'],
     ['É mau a criança brincar sempre ao mesmo?', 'Não. A repetição é uma forma comum de brincar e de dominar uma atividade. Um tipo de brincadeira, sozinho, não confirma nem exclui nenhuma dificuldade. Se houver outras preocupações com o desenvolvimento, fale com um profissional.'],
     ['Os brinquedos educativos são melhores?', 'Não necessariamente. Brinquedos simples e abertos, como blocos, caixas ou panos, permitem muitas brincadeiras diferentes. Muitas vezes, o mais valioso é um adulto disponível para brincar.'],

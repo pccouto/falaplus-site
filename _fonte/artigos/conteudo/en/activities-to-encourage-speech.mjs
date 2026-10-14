@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Activities to encourage speech: 12 play ideas · Talk+',
   description: 'How to encourage a child’s speech through play: 12 simple activities to do at home and 5 golden rules for talking without pressure.',
-  keywords: ['activities to encourage speech', 'how to encourage speech', 'speech and language activities at home', 'how to encourage a toddler to talk', 'games to encourage speech'],
+  keywords: ['activities to encourage speech', 'how to encourage speech', 'speech and language activities at home', 'how to encourage a toddler to talk', 'games to encourage speech', 'activities to encourage speech in 2 year olds', 'how to encourage speech in toddlers', 'how to encourage speech in babies', 'how to encourage an autistic child to talk'],
   h1: 'Activities to encourage speech: <span class="word-highlight">12 play ideas</span> for home',
   lead: 'You do not need special materials. The richest moments for language are often the simplest: an attentive adult, a game the child enjoys and time to talk.',
   blocks: [
@@ -39,8 +39,18 @@ export default {
       ['11. Hide-and-seek with toys', '«Where’s teddy? Under the table? Inside the box?»'],
       ['12. Family photos', 'Looking at photos and talking about who is in them helps children tell what happened.'],
     ] },
+    { h2: 'Which activities for which age?', id: 'idades', toc: 'By age' },
+    { p: 'Every idea works across several ages. As a starting point, always adjusted to the child’s interests rather than their age on paper:' },
+    { table: {
+      head: ['Age', 'Good activities to start with'],
+      rows: [
+        ['Babies, around 1 year', 'bubbles (1), action songs (4), books to point at (5), my turn, your turn (6), animal and car sounds (8)'],
+        ['Toddlers, around 2 years', 'mystery bag (2), choices (7), talking routines (10), hide-and-seek with toys (11)'],
+        ['3 years and older', 'pretend kitchen (3), puppets (9), family photos (12) and making up stories together'],
+      ],
+    } },
     { h2: 'What about tablet games?', id: 'tablet', toc: 'What about tablets?' },
-    { p: 'A game that says the names of things and shows the picture can be a good reason to talk, <strong>if an adult plays alongside</strong>: naming, commenting and laughing with the child. On their own, picture-choosing games mostly practise understanding and attention; they do not practise the child’s own speech. See [[beneficios-dos-jogos-educativos|Benefits of educational games]].' },
+    { p: 'A game that says the names of things and shows the picture can be a good reason to talk, <strong>if an adult plays alongside</strong>: naming, commenting and laughing with the child. On their own, picture-choosing games mostly practise understanding and attention; they do not practise the child’s own speech. If you use an app, choose one with <strong>no ads</strong>: fewer interruptions and fewer distractions. See [[beneficios-dos-jogos-educativos|Benefits of educational games]].' },
     { h2: 'What to avoid', id: 'evitar' },
     { evidence: {
       yesTitle: 'Try',
@@ -71,6 +81,7 @@ export default {
   faq: [
     ['How much time a day should I spend on these activities?', 'Rather than long sessions, what counts is many short moments throughout the day, in routines and in play.'],
     ['The child does not copy me. What should I do?', 'Try copying them instead. Imitating the child’s sounds and actions often sparks interest and starts the exchange.'],
+    ['How can I encourage an autistic child to talk?', 'The same principles apply: follow the child’s interests, respond to any form of communication and give time. Gestures, pictures and AAC are valid communication and do not stop speech. Every autistic child has a different profile, so guidance from a speech and language therapist helps choose goals and supports. See [[comunicacao-aumentativa-e-alternativa|Augmentative and alternative communication]].'],
     ['Do these activities replace speech therapy?', 'No. They are everyday ideas. If you are worried about speech, talk to the child’s doctor. See also [[atraso-na-fala|Speech delay]].'],
   ],
   sources: [

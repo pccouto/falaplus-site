@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Beneficios de los juegos educativos para niños · Habla+',
   description: '¿Qué beneficios tienen los juegos educativos para niños? Qué pide cada tipo de juego, qué puede practicar y qué no puede prometer ningún juego.',
-  keywords: ['beneficios de los juegos educativos', 'juegos educativos para niños', 'juegos didácticos', 'aprender jugando', 'juegos para el desarrollo infantil'],
+  keywords: ['beneficios de los juegos educativos', 'juegos educativos para niños', 'juegos didácticos', 'aprender jugando', 'juegos para el desarrollo infantil', 'juegos educativos para niños de 3 años', 'juegos sin anuncios para niños'],
   h1: 'Beneficios de los juegos educativos: qué <span class="word-highlight">practica</span> el niño cuando juega',
   lead: 'Los juegos educativos se presentan a menudo como la solución para todo. La realidad es más interesante, y más honesta: cada juego pide cosas distintas al niño y, por eso, ofrece oportunidades distintas.',
   blocks: [
@@ -86,7 +86,8 @@ export default {
   faq: [
     ['¿Son mejores los juegos educativos que los juguetes?', 'No son mejores ni peores, son distintos. El juego libre con objetos y personas sigue siendo esencial.'],
     ['¿Puede un niño pequeño jugar solo?', 'Recomendamos que juegue acompañado por un adulto disponible, sobre todo para compartir la experiencia y crear ocasiones de conversación. La presencia del adulto no es una condición para acceder al juego y no convierte la actividad en una valoración.'],
-    ['¿Cómo sé si un juego es adecuado?', 'El niño entiende el objetivo, se divierte, acierta algunas veces y quiere volver a intentarlo. Desconfía de los juegos con publicidad o que prometen resultados de salud.'],
+    ['¿Cómo sé si un juego es adecuado?', 'El niño entiende el objetivo, se divierte, acierta algunas veces y quiere volver a intentarlo. Elige juegos sin anuncios y desconfía de los que prometen resultados de salud.'],
+    ['¿Qué juegos educativos son buenos para niños de 3 años?', 'Juegos cortos, con pocas opciones a la vez, imágenes claras y voz, en los que el niño entienda el objetivo sin saber leer. Oír un nombre y elegir la imagen, encontrar parejas con pocas cartas o hacer puzles sencillos son buenos puntos de partida. Juega a su lado.'],
   ],
   note: 'La puntuación de un juego no es una valoración. Si te preocupa el desarrollo del niño o de la niña, habla con su pediatra o médico de familia.',
   sources: [

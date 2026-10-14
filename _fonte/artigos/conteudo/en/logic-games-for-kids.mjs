@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Logic games for kids: Tower of Hanoi and Tangram',
   description: 'Logic games and puzzles for kids: Tower of Hanoi, Tangram, sliding puzzles and mazes. What they practise and how to help without giving the answer.',
-  keywords: ['logic games for kids', 'tower of hanoi for kids', 'tangram', 'puzzles for kids', 'spatial reasoning', 'reasoning games'],
+  keywords: ['logic games for kids', 'tower of hanoi for kids', 'tangram', 'puzzles for kids', 'spatial reasoning', 'reasoning games', 'tower of hanoi solution', 'tower of hanoi benefits', 'tangram shapes', 'logic puzzles for kids'],
   h1: '<span class="word-highlight">Logic</span> games for kids: Tower of Hanoi, Tangram and other puzzles',
   lead: 'Moving discs without putting a big one on a small one. Making a cat out of seven pieces. Logic games are challenges in thinking, planning and trying again.',
   blocks: [
@@ -35,7 +35,7 @@ export default {
     { p: 'With 3 discs, the shortest solution takes 7 moves; with 4 discs, it takes 15. For children, starting with 2 or 3 discs is ideal.' },
     { p: '<strong>Tip for adults:</strong> instead of showing the move, ask «where can the little disc go now?».' },
     { h2: 'Tangram', id: 'tangram' },
-    { p: '<strong>Tangram</strong> is a puzzle of Chinese origin with <strong>seven pieces</strong> (five triangles, a square and a parallelogram) that together make hundreds of figures: animals, people, boats. Children practise mental rotation, shape analysis and planning.' },
+    { p: '<strong>Tangram</strong> is a puzzle of Chinese origin with <strong>seven pieces</strong> (five triangles, a square and a parallelogram) that together make hundreds of <strong>tangram shapes</strong>: animals, people, boats. Children practise mental rotation, shape analysis and planning.' },
     { p: '<strong>Tip:</strong> start with figures that show the outline of each piece, then move on to those that show only the silhouette.' },
     { h2: 'Logic games and puzzles in Talk+', id: 'jogos-fala-mais', toc: 'Talk+ games' },
     { table: {
@@ -76,6 +76,8 @@ export default {
   faqTitle: 'Frequently asked questions about logic games',
   faq: [
     ['At what age can children play the Tower of Hanoi?', 'With 2 or 3 discs, preschool children can understand the rules with help. More discs can come later.'],
+    ['What are the benefits of the Tower of Hanoi?', 'It is a planning challenge: it asks the child to think before moving, keep two rules in mind at once and predict the next moves. For the child, it is above all a fun puzzle, not a test.'],
+    ['How do you solve the Tower of Hanoi?', 'With 3 discs, the shortest solution takes 7 moves. A tip: the smallest disc moves every other turn, always in the same direction; on the other turns, only one move is possible. With more discs, the same idea repeats.'],
     ['Do logic games increase intelligence?', 'There is no evidence that a game, on its own, increases intelligence. They give practice in planning and spatial reasoning in that kind of task and are excellent challenges.'],
     ['Physical or digital puzzles?', 'Physical puzzles let children handle the pieces and play together; digital ones adjust the difficulty and give hints. Combining both is great.'],
   ],

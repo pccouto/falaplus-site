@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Comunicación aumentativa y alternativa (CAA) · Habla+',
   description: 'Qué es la comunicación aumentativa y alternativa (CAA), para quién es, los mitos más comunes y cómo usar imágenes y voz para que el niño se comunique.',
-  keywords: ['comunicación aumentativa y alternativa', 'CAA', 'SAAC', 'tablero de comunicación', 'pictogramas', 'comunicación con imágenes', 'CAA autismo'],
+  keywords: ['comunicación aumentativa y alternativa', 'CAA', 'SAAC', 'tablero de comunicación', 'pictogramas', 'comunicación con imágenes', 'CAA autismo', 'tablero de comunicación con pictogramas', 'pictogramas autismo', 'ejemplos de CAA', 'app de CAA'],
   h1: 'Comunicación aumentativa y alternativa (CAA): qué es y cómo <span class="word-highlight">ayuda</span>',
   lead: 'No todos los niños se comunican sobre todo con el habla. Algunos usan gestos, signos, imágenes o una tablet que dice las palabras por ellos. Descubre qué es la CAA, para quién es y por qué no impide que el niño hable.',
   blocks: [
@@ -16,7 +16,7 @@ export default {
       'La investigación disponible no indica que la CAA impida el habla.',
       'No hay requisitos previos: no hace falta «estar preparado» para empezar.',
     ] },
-    { h2: '¿Qué es la CAA?', id: 'o-que-e', toc: 'Qué es la CAA' },
+    { h2: '¿Qué es la CAA? Ejemplos', id: 'o-que-e', toc: 'Qué es la CAA' },
     { p: 'Es cualquier forma de comunicación más allá del habla. Se divide en dos grandes grupos:' },
     { cards: [
       ['Sin ayuda externa', 'Gestos, expresiones faciales, signos y lengua de signos.'],
@@ -62,6 +62,8 @@ export default {
   faqTitle: 'Preguntas frecuentes sobre la comunicación aumentativa y alternativa',
   faq: [
     ['¿La CAA es solo para niños autistas?', 'No. Es útil para cualquier persona cuyo habla no cubra todas sus necesidades de comunicación, de forma temporal o permanente.'],
+    ['¿Qué ejemplos de CAA existen?', 'Sin ayuda externa: gestos, expresiones faciales, signos y lengua de signos. Con ayuda externa: tableros de comunicación con pictogramas, tarjetas y cuadernos de imágenes, tableros de letras y aplicaciones que dicen los mensajes en voz alta. Muchas personas combinan varias formas.'],
+    ['¿Un tablero de comunicación ayuda a los niños autistas?', 'Puede ayudar a muchos niños autistas con poco lenguaje oral a pedir, elegir y compartir, y la investigación no indica que la CAA impida el habla. Cada niño es diferente, por eso el logopeda ayuda a elegir el sistema y el vocabulario.'],
     ['¿La CAA sustituye la logopedia?', 'No. La CAA es una forma de comunicarse; la logopedia valora, elige y enseña a usar el sistema adecuado, entre otros objetivos.'],
     ['¿Qué edad hace falta para usar CAA?', 'No hay edad mínima. Los bebés y los niños pequeños también pueden beneficiarse de gestos e imágenes.'],
     ['¿Sirve un tablero de comunicación en papel?', 'Sí. El papel y las aplicaciones tienen ventajas distintas: el papel nunca se queda sin batería; una aplicación da voz a los mensajes y permite tener mucho más vocabulario.'],

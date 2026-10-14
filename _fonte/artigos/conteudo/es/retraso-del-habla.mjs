@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Retraso del habla: señales de alerta y cuándo pedir ayuda',
   description: '¿Retraso del habla o del lenguaje? Qué señales observar, qué mitos evitar y cuándo pedir una prueba de audición y una valoración de logopedia.',
-  keywords: ['retraso del habla', 'el niño no habla', 'retraso del lenguaje', 'señales de alerta del habla', 'cuándo ir al logopeda', 'niño de 2 años que no habla'],
+  keywords: ['retraso del habla', 'el niño no habla', 'retraso del lenguaje', 'señales de alerta del habla', 'cuándo ir al logopeda', 'niño de 2 años que no habla', 'retraso del habla 2 años', 'retraso del habla o autismo', 'hablante tardío', 'niño que no habla pero entiende todo'],
   h1: 'Retraso del habla: <span class="word-highlight">señales de alerta</span> y cuándo pedir ayuda',
   lead: '«Tiene casi dos años y dice muy pocas palabras. ¿Es un retraso del habla?» Hay niños que empiezan a hablar más tarde y se ponen al día, y otros que necesitan apoyo. Descubre qué observar y cuándo hablar con un profesional.',
   blocks: [
@@ -28,7 +28,7 @@ export default {
     { h2: '¿Hablar tarde es siempre un problema?', id: 'falar-tarde', toc: 'Hablar tarde' },
     { p: 'No. Muchos niños que empiezan a hablar tarde acaban poniéndose al día. Pero <strong>no es posible saber con certeza, en un único momento, quién se pondrá al día y quién necesitará apoyo</strong>. Por eso se recomienda valorar y hacer seguimiento.' },
     { p: 'También se sabe que, cuando las dificultades de lenguaje persisten más allá de los primeros años, tienden a acompañar al niño en la escuela. Una revisión Cochrane de 2026 encontró esa asociación con el lenguaje y la lectura a lo largo del tiempo, lo que refuerza la importancia de no aplazar la valoración.' },
-    { h2: 'Señales a las que conviene estar atento', id: 'sinais', toc: 'Señales de alerta' },
+    { h2: 'Retraso del habla a los 2 años: ¿a qué señales estar atento?', id: 'sinais', toc: 'Señales de alerta' },
     { p: 'En la investigación, es habitual considerar que un niño de unos 2 años <strong>habla tarde</strong> cuando usa menos de 50 palabras o todavía no junta dos palabras («más agua», «papá fue»). Otras señales piden atención, sobre todo cuando aparecen juntas:' },
     { ul: [
       'el niño <strong>comprende poco</strong> de lo que se le dice;',
@@ -89,7 +89,9 @@ export default {
   ],
   faqTitle: 'Preguntas frecuentes sobre el retraso del habla',
   faq: [
-    ['Un niño de 2 años todavía no habla. ¿Es normal?', 'Hay variación entre niños, pero un niño de 2 años que casi no usa palabras o no junta palabras debe ser valorado. Hablar con el pediatra es el primer paso.'],
+    ['¿Es normal que un niño de 2 años no hable?', 'Hay variación entre niños, pero un niño de 2 años que casi no usa palabras o no junta palabras debe ser valorado. Hablar con el pediatra es el primer paso.'],
+    ['¿Un retraso del habla puede ser autismo?', 'Un retraso del habla, por sí solo, no significa que el niño sea autista. Algunos niños autistas hablan tarde, otros hablan dentro del tiempo esperado, y muchos niños que hablan tarde no son autistas. Solo una valoración que tenga en cuenta también la comprensión, los gestos, la atención compartida y la audición puede aclararlo. Perder palabras o habilidades que ya tenía requiere una valoración rápida.'],
+    ['¿Y si el niño entiende todo pero no habla?', 'Comprender bien es una buena señal, pero no descarta una dificultad para expresarse o con los sonidos del habla. Si hacia los 2 años sigue usando muy pocas palabras o no junta palabras, habla con el pediatra. Mientras tanto, responde a sus gestos y a lo que señala como comunicación de verdad.'],
     ['¿Qué diferencia hay entre retraso del habla y retraso del lenguaje?', 'El retraso del habla se refiere a la producción de los sonidos; el retraso del lenguaje, al vocabulario, las frases y la comprensión. Pueden darse por separado o a la vez.'],
     ['¿Una app puede resolver un retraso del habla?', 'No. Una app puede ser un recurso para jugar y conversar con el adulto, pero no sustituye la valoración ni la logopedia.'],
     ['¿Debo esperar a los 3 años?', 'No es una regla segura. La valoración y el apoyo no tienen que esperar a un diagnóstico definitivo.'],

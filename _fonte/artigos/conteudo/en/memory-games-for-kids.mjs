@@ -5,11 +5,11 @@ export default {
   date: '2026-10-14',
   titleTag: 'Memory games for kids: attention and sequences · Talk+',
   description: 'Memory and attention games for kids: matching pairs, sequences, patterns and cups. What they practise and how to play together.',
-  keywords: ['memory games for kids', 'attention and concentration games', 'memory match game', 'sequence games for kids', 'pattern games for kids'],
+  keywords: ['memory games for kids', 'attention and concentration games', 'memory match game', 'sequence games for kids', 'pattern games for kids', 'memory games for toddlers', 'concentration games for kids', 'matching games for kids'],
   h1: '<span class="word-highlight">Memory</span> games for kids: what they practise and how to play',
   lead: 'Flipping cards to find pairs, repeating light sequences, spotting what disappeared. Memory games are fun and challenging, but what exactly do they practise?',
   blocks: [
-    { intro: 'The classic <strong>memory match game</strong> has been played for generations, and today there are many variations. In this article we explain what <strong>memory games for kids</strong> ask for, what to expect from them and how to play together.' },
+    { intro: 'The classic <strong>memory match game</strong> has been played for generations, and today there are many variations. In this article we explain what <strong>memory games for kids</strong> and <strong>concentration games</strong> ask for, what to expect from them and how to play together.' },
     { summary: [
       'Memory games mainly call for visual memory, sequence memory and attention.',
       'Children get better at the game; that does not, on its own, mean better memory at school.',
@@ -62,6 +62,7 @@ export default {
   faqTitle: 'Frequently asked questions about memory games',
   faq: [
     ['From what age can children play the memory match game?', 'Versions with a few pairs can be played from an early age, with help. What matters is adjusting the number of cards so the child can succeed.'],
+    ['What are good concentration games for kids?', 'Games where the child has to look, follow or repeat, such as finding pairs, following the order of lights or spotting what is missing. Start easy, play for short spells and increase the difficulty gradually.'],
     ['Do memory games help children with attention difficulties?', 'They can be an enjoyable and challenging activity, but they are not a treatment. If you are worried about attention, talk to a professional.'],
     ['Memory game with cards or on a tablet?', 'Both have advantages. Cards make it easy to play together; the digital version adjusts the difficulty and says the names of the pictures.'],
   ],

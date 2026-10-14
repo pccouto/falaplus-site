@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Speech delay: warning signs and when to seek help',
   description: 'Speech delay or language delay? Which signs to watch for, which myths to avoid and when to seek a hearing test and a speech therapy assessment.',
-  keywords: ['speech delay', 'toddler not talking', 'language delay', 'speech delay signs', 'when to see a speech therapist', '2 year old not talking'],
+  keywords: ['speech delay', 'toddler not talking', 'language delay', 'speech delay signs', 'when to see a speech therapist', '2 year old not talking', 'speech delay in 2 year old', 'speech delay vs autism', 'late talker', '2 year old not talking but understands'],
   h1: 'Speech delay: <span class="word-highlight">warning signs</span> and when to seek help',
   lead: '«They’re nearly two and say very few words. Is it a speech delay?» Some children start talking later and catch up; others need support. Find out what to look for and when to talk to a professional.',
   blocks: [
@@ -28,7 +28,7 @@ export default {
     { h2: 'Is talking late always a problem?', id: 'falar-tarde', toc: 'Talking late' },
     { p: 'No. Many children who start talking late do catch up. But <strong>nobody can know for sure, at a single point in time, who will catch up and who will need support</strong>. That is why the recommended approach is to assess and monitor.' },
     { p: 'We also know that when language difficulties persist beyond the early years, they tend to stay with the child at school. A 2026 Cochrane review found this association with language and reading over time, which supports not delaying an assessment.' },
-    { h2: 'Signs worth watching for', id: 'sinais', toc: 'Warning signs' },
+    { h2: 'Speech delay in a 2-year-old: what signs to watch for?', id: 'sinais', toc: 'Warning signs' },
     { p: 'In research, a child of around 2 is often considered a <strong>late talker</strong> when they use fewer than 50 words or do not yet put two words together («more juice», «daddy gone»). Other signs call for attention, especially when they appear together:' },
     { ul: [
       'the child <strong>understands little</strong> of what is said to them;',
@@ -89,7 +89,9 @@ export default {
   ],
   faqTitle: 'Frequently asked questions about speech delay',
   faq: [
-    ['A 2-year-old is not talking yet. Is that normal?', 'Children vary, but a 2-year-old who uses hardly any words or does not combine words should be assessed. Talking to the family doctor or paediatrician is the first step.'],
+    ['Is it normal for a 2-year-old not to talk?', 'Children vary, but a 2-year-old who uses hardly any words or does not combine words should be assessed. Talking to the family doctor or paediatrician is the first step.'],
+    ['Is it a speech delay or autism?', 'A speech delay on its own does not mean a child is autistic. Some autistic children talk late, others talk within the expected time, and many children who talk late are not autistic. Only an assessment that also looks at understanding, gestures, shared attention and hearing can clarify it. Losing words or skills the child already had calls for a prompt assessment.'],
+    ['A 2-year-old understands everything but is not talking. Should I worry?', 'Understanding well is a good sign, but it does not rule out a difficulty with expressing or with speech sounds. If, at around 2, the child still uses very few words or does not combine words, talk to the family doctor or paediatrician. Meanwhile, respond to gestures and pointing as real communication.'],
     ['What is the difference between a speech delay and a language delay?', 'A speech delay concerns producing sounds; a language delay concerns vocabulary, sentences and understanding. They can occur separately or together.'],
     ['Can an app fix a speech delay?', 'No. An app can be a resource for playing and talking with an adult, but it does not replace an assessment or speech therapy.'],
     ['Should I wait until age 3?', 'That is not a safe rule. Assessment and support do not need to wait for a definite diagnosis.'],

@@ -6,7 +6,7 @@ export default {
   titleTag: 'The importance of play in child development · Talk+',
   description: 'Why is play important? What research says about play and child development, the different kinds of play and the role of adults.',
   ogDescription: 'What research says about play, the kinds of play and the adult’s role. A Talk+ guide for families, educators and therapists.',
-  keywords: ['importance of play', 'play and child development', 'benefits of play', 'types of play', 'right to play', 'free play'],
+  keywords: ['importance of play', 'play and child development', 'benefits of play', 'types of play', 'right to play', 'free play', 'importance of play in child development', 'importance of play in early childhood', 'importance of play in early years'],
   h1: 'The importance of <span class="word-highlight">play</span> in child development',
   lead: 'Play is a right, a pleasure and a way of discovering the world. Find out what research says, what kinds of play exist and how adults can join in without taking control of the game.',
   blocks: [
@@ -76,6 +76,7 @@ export default {
   ],
   faqTitle: 'Frequently asked questions about the importance of play',
   faq: [
+    ['Why is play important in child development?', 'Play is enjoyable and offers chances to communicate, think, move and build relationships. In early childhood, play with attentive adults is considered a central part of healthy development. Research finds links with language and self-regulation, but does not promise guaranteed effects.'],
     ['How much time a day should a child play?', 'There is no single number that suits every child. What matters is free time every day for play the child chooses, including outdoor play, movement and play with other people.'],
     ['Is it bad if a child always plays the same game?', 'No. Repetition is a common way of playing and of mastering an activity. A type of play, on its own, neither confirms nor rules out any difficulty. If you have other concerns about development, talk to a professional.'],
     ['Are educational toys better?', 'Not necessarily. Simple, open-ended toys such as blocks, boxes or cloths allow many different games. Often, the most valuable thing is an adult who is available to play.'],

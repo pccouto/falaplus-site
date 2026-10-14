@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Language development in children: a guide · Talk+',
   description: 'How speech and language develop in children, what helps every day and when to seek an assessment. A clear, evidence-based guide.',
-  keywords: ['language development in children', 'speech development', 'when do children start talking', 'receptive and expressive language', 'encourage language development'],
+  keywords: ['language development in children', 'speech development', 'when do children start talking', 'receptive and expressive language', 'encourage language development', 'language development stages', 'language development milestones', 'when do babies start talking', 'how many words should a 2 year old say'],
   h1: '<span class="word-highlight">Language</span> development in children: what to know and how to help',
   lead: 'When do first words appear? Is it normal to understand everything but say little? We explain how children learn to communicate, what adults can do every day and when it makes sense to seek an assessment.',
   blocks: [
@@ -27,8 +27,9 @@ export default {
     { h2: 'Does understanding come before talking?', id: 'compreender', toc: 'Understanding and talking' },
     { p: 'In most children, <strong>receptive language</strong> (understanding) runs ahead of <strong>expressive language</strong> (saying). Many children follow simple instructions, recognise the names of objects and people and react to questions before they can answer in words.' },
     { p: 'Even so, every profile is different. Understanding well does not rule out a language difficulty, and saying little does not mean understanding little. That is why an assessment looks at both sides, not just the number of words.' },
-    { h2: 'When do children start talking?', id: 'quando', toc: 'When children start talking' },
-    { p: 'Children vary a great deal. Developmental milestones are used to <strong>monitor</strong>, not to diagnose. In most countries, a child’s development is checked at routine health visits with the family doctor, paediatrician or health visitor.' },
+    { h2: 'When do babies and toddlers start talking?', id: 'quando', toc: 'When children start talking' },
+    { p: 'Children vary a great deal. <strong>Language development milestones</strong> are used to <strong>monitor</strong>, not to diagnose. In most countries, a child’s development is checked at routine health visits with the family doctor, paediatrician or health visitor.' },
+    { p: 'One reference used in research: at around 2, a child is often considered a <strong>late talker</strong> when they use fewer than about 50 words or do not yet put two words together. It is a guide for deciding when to talk to a professional, not a diagnosis.' },
     { p: 'The signs worth watching for are explained in [[atraso-na-fala|Speech delay: warning signs and when to seek help]].' },
     { h2: 'What helps language development?', id: 'ajuda', toc: 'What helps' },
     { p: 'Research highlights <strong>responsive interactions</strong>: moments when the adult pays attention to what interests the child and responds to what they communicate. Some simple practices:' },
@@ -77,6 +78,7 @@ export default {
   faqTitle: 'Frequently asked questions about language development',
   faq: [
     ['What is the difference between receptive and expressive language?', 'Receptive language is the ability to understand what is heard or seen; expressive language is the ability to share ideas through words, gestures, signs or pictures.'],
+    ['How many words should a 2-year-old say?', 'There is no single number for every child. As a reference, research considers a child of around 2 to be a late talker when they use fewer than 50 words or do not yet combine two words. It is a monitoring guide, not a diagnosis: if in doubt, talk to the family doctor or paediatrician.'],
     ['Do screens delay speech?', 'A difficulty should not be blamed on a single cause. What matters is the content, the time, whether an adult is involved and whether the screen takes the place of sleep, movement and conversation.'],
     ['Who should I talk to if I am worried?', 'The child’s doctor or paediatrician, who can arrange a hearing test and a referral to a speech and language therapist. Losing words or skills the child already had should be assessed quickly.'],
     ['Can a list of signs on the internet diagnose a child?', 'No. No list, article or app makes a diagnosis. It only helps you decide when to talk to a professional.'],

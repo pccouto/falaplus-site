@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Benefícios dos jogos educativos para crianças · Fala+',
   description: 'Que benefícios têm os jogos educativos para crianças? O que cada tipo de jogo pede, o que pode praticar e o que nenhum jogo consegue prometer.',
-  keywords: ['benefícios dos jogos educativos', 'jogos educativos para crianças', 'jogos didáticos', 'aprender a brincar', 'jogos para estimular a criança'],
+  keywords: ['benefícios dos jogos educativos', 'jogos educativos para crianças', 'jogos didáticos', 'aprender a brincar', 'jogos para estimular a criança', 'jogos educativos para crianças de 3 anos', 'jogos educativos em português', 'jogos educativos sem anúncios'],
   h1: 'Benefícios dos jogos educativos: o que a criança <span class="word-highlight">pratica</span> quando joga',
   lead: 'Os jogos educativos são muitas vezes apresentados como solução para tudo. A realidade é mais interessante, e mais honesta: cada jogo pede coisas diferentes à criança e, por isso, oferece oportunidades diferentes.',
   blocks: [
@@ -98,7 +98,8 @@ export default {
   faq: [
     ['Os jogos educativos são melhores do que os brinquedos?', 'Não são melhores nem piores, são diferentes. O brincar livre com objetos e pessoas continua a ser essencial.'],
     ['Uma criança pequena pode jogar sozinha?', 'Recomendamos que pratique acompanhada por um adulto disponível, sobretudo para partilhar a experiência e criar oportunidades de conversa. A presença do adulto não é uma condição para aceder ao jogo e não transforma a atividade numa avaliação.'],
-    ['Como sei se um jogo é adequado?', 'A criança percebe o objetivo, diverte-se, consegue acertar algumas vezes e quer tentar outra vez. Desconfie de jogos com publicidade ou que prometem resultados de saúde.'],
+    ['Como sei se um jogo é adequado?', 'A criança percebe o objetivo, diverte-se, consegue acertar algumas vezes e quer tentar outra vez. Prefira jogos sem anúncios e desconfie dos que prometem resultados de saúde.'],
+    ['Que jogos educativos são bons para uma criança de 3 anos?', 'Jogos curtos, com poucas opções de cada vez, imagens claras e voz, em que a criança perceba o objetivo sem saber ler. Ouvir um nome e escolher a imagem, encontrar pares com poucas cartas ou montar puzzles simples são bons pontos de partida. Prefira jogos em português e jogue ao lado da criança.'],
   ],
   note: 'A pontuação de um jogo não é uma avaliação. Se tiver preocupações com o desenvolvimento da criança, fale com o médico de família ou o pediatra.',
   sources: [

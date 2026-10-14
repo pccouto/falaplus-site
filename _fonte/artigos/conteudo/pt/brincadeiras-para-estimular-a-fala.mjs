@@ -6,7 +6,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Brincadeiras para estimular a fala: 12 ideias · Fala+',
   description: 'Como estimular a fala da criança a brincar: 12 brincadeiras simples para fazer em casa e 5 regras para conversar sem pressionar.',
-  keywords: ['brincadeiras para estimular a fala', 'como estimular a fala', 'atividades para estimular a linguagem', 'estimular a fala em casa', 'jogos para estimular a fala'],
+  keywords: ['brincadeiras para estimular a fala', 'como estimular a fala', 'atividades para estimular a linguagem', 'estimular a fala em casa', 'jogos para estimular a fala', 'como estimular a fala de uma criança de 2 anos', 'estimular a fala do bebé', 'como estimular a fala de uma criança autista'],
   h1: 'Brincadeiras para estimular a fala: <span class="word-highlight">12 ideias</span> para fazer em casa',
   lead: 'Não precisa de materiais especiais. Os momentos mais ricos para a linguagem costumam ser os mais simples: um adulto atento, uma brincadeira de que a criança gosta e tempo para conversar.',
   blocks: [
@@ -40,8 +40,18 @@ export default {
       ['11. Esconde-esconde de brinquedos', '«Onde está o urso? Debaixo da mesa? Dentro da caixa?»'],
       ['12. Fotografias da família', 'Ver fotos e falar de quem aparece ajuda a contar acontecimentos.'],
     ] },
+    { h2: 'Que brincadeiras para cada idade?', id: 'idades', toc: 'Por idade' },
+    { p: 'Todas as ideias servem em várias idades. Como ponto de partida, sempre ajustado ao interesse da criança e não à idade no papel:' },
+    { table: {
+      head: ['Idade', 'Boas brincadeiras para começar'],
+      rows: [
+        ['Bebé, por volta de 1 ano', 'bolas de sabão (1), canções com gestos (4), livros para apontar (5), agora eu, agora tu (6), sons de animais e de carros (8)'],
+        ['Criança de 2 anos', 'caixa misteriosa (2), escolhas (7), rotinas que falam (10), esconde-esconde de brinquedos (11)'],
+        ['Criança de 3 anos ou mais', 'cozinha a fingir (3), fantoches (9), fotografias da família (12) e inventar histórias juntos'],
+      ],
+    } },
     { h2: 'E os jogos no tablet?', id: 'tablet', toc: 'E os jogos no tablet?' },
-    { p: 'Um jogo que diz o nome das coisas e mostra a imagem pode ser um bom pretexto para conversar, <strong>se houver um adulto a jogar ao lado</strong>: nomear, comentar e rir com a criança. Sozinho, um jogo de escolher imagens pratica sobretudo a compreensão e a atenção; não pratica a fala da própria criança. Veja [[beneficios-dos-jogos-educativos|Benefícios dos jogos educativos]].' },
+    { p: 'Um jogo que diz o nome das coisas e mostra a imagem pode ser um bom pretexto para conversar, <strong>se houver um adulto a jogar ao lado</strong>: nomear, comentar e rir com a criança. Sozinho, um jogo de escolher imagens pratica sobretudo a compreensão e a atenção; não pratica a fala da própria criança. Se usar uma app, prefira uma <strong>sem anúncios</strong>: há menos interrupções e menos distrações. Veja [[beneficios-dos-jogos-educativos|Benefícios dos jogos educativos]].' },
     { h2: 'O que evitar', id: 'evitar' },
     { evidence: {
       yesTitle: 'Experimente',
@@ -84,6 +94,7 @@ export default {
   faq: [
     ['Quanto tempo por dia devo fazer estas brincadeiras?', 'Mais do que sessões longas, contam os pequenos momentos ao longo do dia, nas rotinas e no brincar.'],
     ['A criança não me imita. O que faço?', 'Experimente imitá-la a ela. Copiar os sons e as ações da criança costuma despertar o interesse e iniciar a troca.'],
+    ['Como estimular a fala de uma criança autista?', 'Os mesmos princípios aplicam-se: seguir o interesse da criança, responder a qualquer forma de comunicação e dar tempo. Gestos, imagens e CAA são comunicação válida e não impedem a fala. Cada criança autista tem um perfil diferente, por isso a orientação de um terapeuta da fala ajuda a escolher objetivos e apoios. Veja [[comunicacao-aumentativa-e-alternativa|Comunicação aumentativa e alternativa]].'],
     ['Estas atividades substituem a terapia da fala?', 'Não. São ideias para o dia a dia. Se houver preocupação com a fala, fale com o médico de família ou o pediatra. Veja também [[atraso-na-fala|Atraso na fala]].'],
   ],
   sources: [

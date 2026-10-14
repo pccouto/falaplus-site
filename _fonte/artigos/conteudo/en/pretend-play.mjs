@@ -5,7 +5,7 @@ export default {
   date: '2026-10-14',
   titleTag: 'Pretend play: what the research says · Talk+',
   description: 'Pretend play, or symbolic play, and language: what research shows, how to support the child and which myths to avoid.',
-  keywords: ['pretend play', 'symbolic play', 'pretend play and language development', 'imaginative play', 'make-believe play'],
+  keywords: ['pretend play', 'symbolic play', 'pretend play and language development', 'imaginative play', 'make-believe play', 'pretend play age', 'symbolic play examples', 'symbolic play vs pretend play'],
   h1: '<span class="word-highlight">Pretend play</span>: what research says about symbolic play',
   lead: 'A box becomes a car, a spoon becomes a phone and teddy has a temperature and needs the doctor. Find out what research knows, and does not yet know, about this way of playing.',
   blocks: [
@@ -16,7 +16,7 @@ export default {
       'It is a rich setting for conversation, especially with an adult who follows the child’s story.',
       'A type of play, on its own, does not diagnose anything.',
     ] },
-    { h2: 'What is symbolic play?', id: 'o-que-e', toc: 'What it is' },
+    { h2: 'What is symbolic play? Examples', id: 'o-que-e', toc: 'What it is' },
     { cards: [
       ['Objects that become others', 'A block that is a phone, a box that is a boat.'],
       ['Pretend actions', 'Drinking from an empty cup, feeding soup to a doll.'],
@@ -67,6 +67,7 @@ export default {
   faqTitle: 'Frequently asked questions about pretend play',
   faq: [
     ['At what age does pretend play start?', 'The first simple symbolic actions, such as pretending to drink or feeding a doll, usually appear in the second year of life, with wide variation between children.'],
+    ['Is symbolic play the same as pretend play?', 'In everyday use, yes: both describe pretending that an object, an action or a role stands for something else. You may also see «imaginative play» or «make-believe».'],
     ['Which toys support pretend play?', 'Kitchens, dolls, animals and vehicles and, above all, simple objects that can be «anything», such as boxes and cloths.'],
     ['Are digital games pretend play?', 'Generally not. A game with set rules and goals is a different experience from free pretend play, where the child invents the story.'],
   ],
