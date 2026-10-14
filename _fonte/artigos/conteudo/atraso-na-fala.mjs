@@ -1,0 +1,114 @@
+export default {
+  slug: 'atraso-na-fala',
+  theme: 'fala',
+  short: 'Atraso na fala',
+  date: '2026-10-14',
+  titleTag: 'Atraso na fala: sinais de alerta e quando procurar ajuda',
+  description: 'Atraso na fala ou atraso de linguagem? Que sinais observar, que mitos evitar e quando procurar avaliação da audição e terapia da fala.',
+  keywords: ['atraso na fala', 'criança não fala', 'atraso de linguagem', 'sinais de alerta', 'quando procurar terapeuta da fala', 'criança de 2 anos não fala'],
+  h1: 'Atraso na fala: <span class="word-highlight">sinais de alerta</span> e quando procurar ajuda',
+  lead: '«A criança tem quase dois anos e diz poucas palavras. É atraso na fala?» Há crianças que começam a falar mais tarde e recuperam, e outras que precisam de apoio. Saiba o que observar e quando falar com um profissional.',
+  blocks: [
+    { intro: 'O <strong>atraso na fala</strong> é uma das maiores preocupações de quem acompanha crianças pequenas. A resposta honesta é que depende de muitos fatores. Neste artigo explicamos o que significa «atraso na fala», que <strong>sinais de alerta</strong> justificam falar com um profissional e que mitos convém deixar de lado.' },
+    { summary: [
+      '«Atraso na fala» pode querer dizer coisas diferentes: sons, palavras, compreensão ou comunicação.',
+      'Muitas crianças que falam tarde recuperam, mas não é possível saber com certeza quem vai recuperar.',
+      'Perante uma preocupação, o caminho é avaliar e acompanhar, não «esperar para ver».',
+      'Perder palavras ou competências que a criança já tinha pede avaliação rápida.',
+    ] },
+    { h2: 'O que é, afinal, um «atraso na fala»?', id: 'o-que-e', toc: 'O que é' },
+    { p: 'No dia a dia, «atraso na fala» é usado para quase tudo. Os profissionais preferem dizer exatamente o que está afetado:' },
+    { cards: [
+      ['Fala', 'A produção dos sons: a criança troca ou omite sons e é difícil de perceber.'],
+      ['Linguagem expressiva', 'Poucas palavras ou frases curtas para a idade.'],
+      ['Linguagem recetiva', 'Dificuldade em compreender o que lhe dizem.'],
+      ['Comunicação social', 'Usa pouco os gestos, o olhar ou a partilha de interesse.'],
+    ] },
+    { p: 'A distinção importa porque cada situação tem explicações e apoios diferentes. Uma criança pode ter mais do que uma destas dificuldades.' },
+    { h2: 'Falar tarde é sempre um problema?', id: 'falar-tarde', toc: 'Falar tarde' },
+    { p: 'Não. Muitas crianças que começam a falar tarde acabam por recuperar. Mas <strong>não é possível saber com certeza, num único momento, quem vai recuperar e quem vai precisar de apoio</strong>. Por isso, a abordagem recomendada é avaliar e acompanhar.' },
+    { p: 'Também se sabe que, quando as dificuldades de linguagem persistem para além dos primeiros anos, tendem a acompanhar a criança na escola. Uma revisão Cochrane de 2026 encontrou essa associação com a linguagem e a leitura ao longo do tempo, o que reforça a importância de não adiar a avaliação.' },
+    { h2: 'Sinais a que vale a pena estar atento', id: 'sinais', toc: 'Sinais de alerta' },
+    { p: 'Na investigação, é frequente considerar que uma criança de cerca de 2 anos <strong>fala tarde</strong> quando usa menos de 50 palavras ou ainda não junta duas palavras («mais água», «papá foi»). Outros sinais pedem atenção, sobretudo quando aparecem juntos:' },
+    { ul: [
+      'a criança <strong>compreende pouco</strong> do que lhe dizem;',
+      'usa <strong>poucos gestos</strong>, como apontar, acenar ou mostrar;',
+      'mostra <strong>pouco interesse em partilhar</strong> atenção ou interagir;',
+      'há <strong>familiares</strong> com dificuldades de linguagem ou de leitura.',
+    ] },
+    { alert: {
+      title: 'Procure avaliação rápida, em qualquer idade, se:',
+      items: [
+        'a criança <strong>perdeu palavras ou competências</strong> que já tinha;',
+        'não reage a sons ou à voz, ou há suspeita de problemas de audição;',
+        'há dificuldades em engolir ou respirar, ou mudanças súbitas.',
+      ],
+    } },
+    { h2: 'A quem recorrer?', id: 'a-quem', toc: 'A quem recorrer' },
+    { ol: [
+      '<strong>Médico de família ou pediatra</strong>, que avalia o desenvolvimento global e encaminha.',
+      '<strong>Avaliação da audição.</strong> Um rastreio auditivo normal ao nascer não exclui problemas de audição que surjam mais tarde.',
+      '<strong>Terapeuta da fala</strong>, que avalia a compreensão, a expressão, os sons da fala e a comunicação, e orienta a família.',
+    ] },
+    { p: 'Não é preciso ter um diagnóstico para começar a receber orientação ou apoio.' },
+    { h2: 'Mitos que atrasam a ajuda', id: 'mitos' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'Falar não é uma questão de vontade.',
+        'Aprender duas línguas não causa perturbações da linguagem.',
+        'Um atraso na fala, sozinho, não diagnostica autismo nem outra condição.',
+        'Compreender bem não exclui uma dificuldade expressiva ou de sons.',
+      ],
+      no: [
+        '«Vai falar quando quiser.»',
+        '«É preguiça ou birra.»',
+        '«É por ter duas línguas em casa.»',
+        '«Espere até aos 3 anos.»',
+      ],
+    } },
+    { h2: 'O que pode fazer em casa enquanto espera', id: 'em-casa', toc: 'Em casa, enquanto espera' },
+    { ul: [
+      'comentar o que a criança está a fazer, com frases curtas;',
+      'dar tempo para ela responder, sem exigir que repita;',
+      'valorizar gestos, sons e apontar como comunicação verdadeira;',
+      'brincar a jogos de «agora eu, agora tu»;',
+      'usar imagens para ajudar a criança a escolher e a pedir.',
+    ] },
+    { p: 'Há mais ideias em [[brincadeiras-para-estimular-a-fala|Brincadeiras para estimular a fala]]. Se a criança comunica sobretudo sem palavras, a [[comunicacao-aumentativa-e-alternativa|comunicação aumentativa e alternativa]] pode ajudar desde já e não impede a fala.' },
+    { bridge: {
+      "title": "Enquanto espera pela avaliação",
+      "intro": "Algumas sugestões deste artigo podem ser postas em prática com a Fala+, sempre como complemento e nunca como substituto da avaliação:",
+      "items": [
+            [
+                  "Usar imagens para ajudar a criança a escolher e a pedir.",
+                  "O Comunicar tem cartões com imagem e voz, organizados por temas, e está disponível sem limites no plano gratuito."
+            ],
+            [
+                  "Valorizar sons e tentativas, sem exigir que repita.",
+                  "Na Voz Mágica, a criança ouve a palavra e depois «fala, canta ou faz um som». Não há certo ou errado, e a voz não é guardada."
+            ],
+            [
+                  "Falar com o terapeuta da fala.",
+                  "O relatório semanal (Premium) resume o tempo de uso, as palavras trabalhadas e o uso do Comunicar, com espaço para notas, para apoiar a conversa com quem acompanha a criança. Não é uma avaliação."
+            ]
+      ]
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre o atraso na fala',
+  faq: [
+    ['A criança tem 2 anos e não fala. É normal?', 'Há variação entre crianças, mas uma criança de 2 anos que quase não usa palavras ou não junta palavras deve ser avaliada. Falar com o médico de família ou o pediatra é o primeiro passo.'],
+    ['Qual é a diferença entre atraso de fala e atraso de linguagem?', 'O atraso de fala refere-se à produção dos sons; o atraso de linguagem refere-se ao vocabulário, às frases e à compreensão. Podem existir em separado ou juntos.'],
+    ['Uma app pode resolver um atraso na fala?', 'Não. Uma app pode ser um recurso para brincar e conversar com o adulto, mas não substitui a avaliação nem a terapia da fala.'],
+    ['Devo esperar até aos 3 anos?', 'Não é uma regra segura. A avaliação e o apoio não precisam de esperar por um diagnóstico definitivo.'],
+  ],
+  sources: [
+    'ASHA. <a href="https://www.asha.org/practice-portal/clinical-topics/late-language-emergence/" rel="noopener" target="_blank">Late Language Emergence — Practice Portal</a>.',
+    'Lipkin e Macias (2020). Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening. <em>Pediatrics</em>, 145(1). <a href="https://doi.org/10.1542/peds.2019-3449" rel="noopener" target="_blank">doi:10.1542/peds.2019-3449</a>',
+    'Hagen et al. (2026). Long-term prognosis of low language proficiency in children. <em>Cochrane Database of Systematic Reviews</em>. <a href="https://doi.org/10.1002/14651858.CD015268.pub2" rel="noopener" target="_blank">doi:10.1002/14651858.CD015268.pub2</a>',
+    'CDC. <a href="https://www.cdc.gov/hearing-loss-children/index.html" rel="noopener" target="_blank">Hearing Loss in Children</a>.',
+    'Direção-Geral da Saúde. <a href="https://www.dgs.pt/directrizes-da-dgs/normas-e-circulares-normativas/norma-n-0022019-de-23042019-pdf.aspx" rel="noopener" target="_blank">Norma n.º 002/2019 — Vigilância do desenvolvimento infantil</a>.',
+  ],
+  related: ['desenvolvimento-da-linguagem-infantil', 'brincadeiras-para-estimular-a-fala', 'comunicacao-aumentativa-e-alternativa'],
+}
