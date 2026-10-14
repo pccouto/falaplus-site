@@ -55,6 +55,7 @@ export default {
       ],
     } },
     { h2: 'Como ajudar sem resolver pela criança', id: 'ajudar', toc: 'Como ajudar' },
+    { p: "Recomendamos que a criança pratique os jogos acompanhada por um adulto disponível — familiar, educador, terapeuta ou outra pessoa de confiança. A presença permite partilhar o desafio e oferecer ajuda quando a criança a procura, sem retirar-lhe a oportunidade de tentar e escolher." },
     { ul: [
       '<strong>Pergunte, não mostre:</strong> «O que acontece se mexeres aquela peça?»',
       '<strong>Valorize a tentativa:</strong> «Experimentaste uma ideia nova!»',

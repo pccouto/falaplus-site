@@ -41,6 +41,7 @@ export default {
       ],
     } },
     { h2: 'Como jogar em família', id: 'em-familia', toc: 'Como jogar em família' },
+    { p: "Recomendamos que a criança pratique estes jogos acompanhada por um adulto disponível — familiar, educador, terapeuta ou outra pessoa de confiança. O adulto pode jogar à vez, comentar estratégias e ajustar a dificuldade; deve dar tempo e respeitar se a criança quiser parar. Acompanhamento não é corrigir cada erro nem testar a memória." },
     { ul: [
       '<strong>Joguem à vez</strong> no jogo da memória. Esperar pela vez também é aprender.',
       '<strong>Digam os nomes em voz alta</strong> ao virar as cartas: «gato… e aqui está outro gato!»',

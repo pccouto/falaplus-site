@@ -58,6 +58,7 @@ export default {
     } },
     { p: 'As competências treinadas num jogo tendem a ficar <strong>perto da tarefa</strong> treinada. A ponte para o mundo real faz-se sobretudo na conversa com adultos e com outras crianças. Um jogo digital também não substitui o brincar livre: veja [[importancia-do-brincar|A importância do brincar]].' },
     { h2: 'Como tornar um jogo mais rico', id: 'mais-rico', toc: 'Como tirar mais partido' },
+    { p: "Recomendamos que a criança pratique os jogos acompanhada por um adulto disponível — familiar, educador, terapeuta ou outra pessoa de confiança. Jogar lado a lado permite partilhar a atenção e conversar sobre o que acontece. O adulto pode comentar e dar tempo, sem transformar cada jogada numa pergunta ou exigir que a criança fale; gestos, apontar e CAA também são comunicação. Esta recomendação não significa que a criança tenha de esperar por um adulto para poder jogar." },
     { ol: [
       '<strong>Jogue ao lado e comente:</strong> «Encontraste o <strong>elefante</strong>! É enorme!»',
       '<strong>Peça à criança para lhe ensinar o jogo.</strong> Explicar também é praticar linguagem.',
@@ -96,7 +97,7 @@ export default {
   faqTitle: 'Perguntas frequentes sobre jogos educativos',
   faq: [
     ['Os jogos educativos são melhores do que os brinquedos?', 'Não são melhores nem piores, são diferentes. O brincar livre com objetos e pessoas continua a ser essencial.'],
-    ['Uma criança pequena pode jogar sozinha?', 'Pode, mas os jogos rendem muito mais com um adulto ao lado, sobretudo para a linguagem.'],
+    ['Uma criança pequena pode jogar sozinha?', 'Recomendamos que pratique acompanhada por um adulto disponível, sobretudo para partilhar a experiência e criar oportunidades de conversa. A presença do adulto não é uma condição para aceder ao jogo e não transforma a atividade numa avaliação.'],
     ['Como sei se um jogo é adequado?', 'A criança percebe o objetivo, diverte-se, consegue acertar algumas vezes e quer tentar outra vez. Desconfie de jogos com publicidade ou que prometem resultados de saúde.'],
   ],
   note: 'A pontuação de um jogo não é uma avaliação. Se tiver preocupações com o desenvolvimento da criança, fale com o médico de família ou o pediatra.',
