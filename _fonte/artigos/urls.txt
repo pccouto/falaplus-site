@@ -4,6 +4,7 @@ https://falamais.pt/artigos/bilinguismo-e-atraso-na-fala/
 https://falamais.pt/artigos/brincadeiras-para-estimular-a-fala/
 https://falamais.pt/artigos/brincar-ao-faz-de-conta/
 https://falamais.pt/artigos/comunicacao-aumentativa-e-alternativa/
+https://falamais.pt/artigos/comunicacao-nas-rotinas-diarias/
 https://falamais.pt/artigos/desenvolvimento-da-linguagem-infantil/
 https://falamais.pt/artigos/diferenca-entre-fala-e-linguagem/
 https://falamais.pt/artigos/importancia-do-brincar/
@@ -17,6 +18,7 @@ https://falamais.pt/en/articles/activities-to-encourage-speech/
 https://falamais.pt/en/articles/augmentative-and-alternative-communication/
 https://falamais.pt/en/articles/benefits-of-educational-games/
 https://falamais.pt/en/articles/bilingual-children-speech-delay/
+https://falamais.pt/en/articles/communication-in-daily-routines/
 https://falamais.pt/en/articles/importance-of-play/
 https://falamais.pt/en/articles/language-development-in-children/
 https://falamais.pt/en/articles/logic-games-for-kids/
@@ -32,6 +34,7 @@ https://falamais.pt/es/articulos/actividades-para-estimular-el-lenguaje/
 https://falamais.pt/es/articulos/beneficios-de-los-juegos-educativos/
 https://falamais.pt/es/articulos/bilinguismo-y-retraso-del-habla/
 https://falamais.pt/es/articulos/comunicacion-aumentativa-y-alternativa/
+https://falamais.pt/es/articulos/comunicacion-en-rutinas-diarias/
 https://falamais.pt/es/articulos/desarrollo-del-lenguaje-infantil/
 https://falamais.pt/es/articulos/diferencia-entre-habla-y-lenguaje/
 https://falamais.pt/es/articulos/importancia-del-juego/
