@@ -381,5 +381,25 @@ export const CATALOG = [
     "title": "Ecolalia: ¿por qué el niño repite palabras?",
     "teaser": "Qué es la ecolalia inmediata o tardía, qué puede comunicar una repetición y cómo apoyar al niño sin presionarlo."
   }
-}
+},
+  { id: 'autismo-e-comunicacao', theme: 'fala', kind: { pt: 'Guia' },
+    pt: { live, slug: 'autismo-e-comunicacao', title: 'Autismo e comunicação: compreender diferentes formas de comunicar', teaser: 'Como reconhecer diferentes formas de comunicação e apoiar a participação da criança sem pressão.' },
+    en: { live, slug: 'autism-and-communication', title: 'Autism and communication: understanding different ways to communicate', teaser: 'How to recognise different ways of communicating and support a child’s participation without pressure.' },
+    es: { live, slug: 'autismo-y-comunicacion', title: 'Autismo y comunicación: comprender distintas formas de comunicar', teaser: 'Cómo reconocer distintas formas de comunicación y apoyar la participación del niño sin presionarlo.' } },
+  { id: 'marcos-desenvolvimento-linguagem-2-a-5-anos', theme: 'fala', kind: { pt: 'Guia por idades' },
+    pt: { live, slug: 'marcos-desenvolvimento-linguagem-2-a-5-anos', title: 'Marcos do desenvolvimento da linguagem dos 2 aos 5 anos', teaser: 'Referências por idade, variação individual e sinais que justificam procurar orientação profissional.' },
+    en: { live, slug: 'language-milestones-ages-2-to-5', title: 'Language milestones from ages 2 to 5', teaser: 'Age-based reference points, individual variation and signs that professional advice may be helpful.' },
+    es: { live, slug: 'hitos-desarrollo-lenguaje-2-a-5-anos', title: 'Hitos del desarrollo del lenguaje de los 2 a los 5 años', teaser: 'Referencias por edad, variación individual y señales que aconsejan pedir orientación profesional.' } },
+  { id: 'personalizacao-da-aprendizagem-infantil', theme: 'fala', kind: { pt: 'Guia' },
+    pt: { live, slug: 'personalizacao-da-aprendizagem-infantil', title: 'Personalizar a aprendizagem infantil com fotografias e vozes', teaser: 'Fotografias familiares, vozes conhecidas e palavras importantes ligadas ao quotidiano da criança.' },
+    en: { live, slug: 'personalising-childrens-learning', title: 'Personalising children’s learning with photos and familiar voices', teaser: 'Family photos, familiar voices and meaningful words connected with a child’s everyday life.' },
+    es: { live, slug: 'personalizacion-aprendizaje-infantil', title: 'Personalizar el aprendizaje infantil con fotos y voces', teaser: 'Fotos familiares, voces conocidas y palabras importantes relacionadas con la vida cotidiana del niño.' } },
+  { id: 'terapia-da-fala-em-casa', theme: 'fala', kind: { pt: 'Guia prático' },
+    pt: { live, slug: 'terapia-da-fala-em-casa', title: 'Terapia da fala: como apoiar a comunicação em casa', teaser: 'Estratégias para integrar objetivos nas brincadeiras e rotinas, em colaboração com o terapeuta.' },
+    en: { live, slug: 'speech-therapy-at-home', title: 'Speech therapy: supporting communication at home', teaser: 'Ways to include communication goals in play and routines, in collaboration with the child’s therapist.' },
+    es: { live, slug: 'logopedia-en-casa', title: 'Logopedia: cómo apoyar la comunicación en casa', teaser: 'Estrategias para integrar objetivos en el juego y las rutinas, en colaboración con el logopeda.' } },
+  { id: 'comunicacao-nao-verbal', theme: 'fala', kind: { pt: 'Guia' },
+    pt: { live, slug: 'comunicacao-nao-verbal', title: 'Comunicação não verbal: gestos, apontar e atenção conjunta', teaser: 'Como reconhecer gestos, escolhas e outras formas de comunicar antes e para além das palavras.' },
+    en: { live, slug: 'nonverbal-communication', title: 'Nonverbal communication: gestures, pointing and joint attention', teaser: 'How to recognise gestures, choices and other ways of communicating before and beyond words.' },
+    es: { live, slug: 'comunicacion-no-verbal', title: 'Comunicación no verbal: gestos, señalar y atención conjunta', teaser: 'Cómo reconocer gestos, elecciones y otras formas de comunicar antes y más allá de las palabras.' } }
 ]
