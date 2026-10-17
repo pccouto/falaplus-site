@@ -53,6 +53,9 @@ button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:
 @media(max-width:700px){.articles-highlight-inner{align-items:flex-start;flex-wrap:wrap;padding-block:15px}.articles-highlight-icon{width:38px;height:38px}.articles-highlight p{flex:1;min-width:calc(100% - 58px)}.articles-highlight a{width:100%;justify-content:center;margin-left:54px}}
 @media(max-width:420px){.articles-highlight-icon{display:none}.articles-highlight p{min-width:100%}.articles-highlight a{margin-left:0}}
 
+/* The article CTA sits below the announcement copy and starts at its left edge. */
+@media(min-width:701px){.articles-highlight-inner{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center}.articles-highlight-icon{grid-row:span 2}.articles-highlight a{grid-column:2;justify-self:start}}
+
 /* The brand remains expressive on the site header while the announcement
    strip stays in normal flow below it. */
 .site-header .brand img{width:58px;height:58px}
