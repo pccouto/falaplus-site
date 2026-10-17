@@ -12,7 +12,7 @@ import { LANGS, UI } from './i18n.mjs'
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
-const STYLES_V = '20261017b'
+const STYLES_V = '20261017c'
 const ARTICLES_V = '20261017b'
 const MAIN_V = '20261014a'
 
