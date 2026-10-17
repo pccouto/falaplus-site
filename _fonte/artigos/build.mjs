@@ -105,9 +105,9 @@ function header(L, lang, langLinks) {
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
   </svg>
 
-  <header class="site-header">
+  <header id="topo" class="site-header">
     <div class="wrap header-row">
-      <a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
+      <a class="brand" href="#topo" aria-label="${L.brand} — ${L.backTop}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
       <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
       <nav id="site-nav" class="site-nav" aria-label="${L.mainNav}">
         ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
