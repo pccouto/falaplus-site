@@ -49,6 +49,11 @@ const TEXT = LANG === 'es'
 
 document.documentElement.classList.add('js')
 document.querySelectorAll('[data-year]').forEach(node => { node.textContent = new Date().getFullYear() })
+document.querySelectorAll('a[href="#topo"]').forEach(link => link.addEventListener('click', event => {
+  event.preventDefault()
+  history.pushState(null, '', '#topo')
+  window.scrollTo({ top: 0, left: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
+}))
 // Links that open the contact form with a subject already chosen
 // (e.g. "Avisem-me do lançamento").
 const contactForm = document.querySelector('#contact-form')
