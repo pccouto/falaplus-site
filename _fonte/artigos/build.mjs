@@ -13,7 +13,7 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017b'
-const ARTICLES_V = '20261014d'
+const ARTICLES_V = '20261017b'
 const MAIN_V = '20261014a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -127,7 +127,7 @@ const cta = L => `<section class="access-section"><div class="wrap access-panel 
         <p>${L.ctaText}</p>
         <a class="button button-yellow" href="${L.home}${L.contactAnchor}">${L.ctaButton} ${arrow}</a>
       </div>
-      <img src="/assets/img/app-icon.png" alt="${L.iconAlt}" width="150" height="150" loading="lazy">
+      <a class="article-cta-icon-link" href="#conteudo" aria-label="${L.brand} — ${L.backTop}"><img src="/assets/img/app-icon.png" alt="${L.iconAlt}" width="150" height="150" loading="lazy"></a>
     </div></section>`
 
 function buildArticle(lang, a) {
