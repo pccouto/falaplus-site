@@ -4,7 +4,7 @@
 // Output: /artigos/…, /en/articles/…, /es/articulos/… (see i18n.mjs).
 // GitHub Pages (Jekyll) does not publish folders starting with "_".
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
-import { join, dirname } from 'node:path'
+import { join, dirname, relative } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { THEMES, CATALOG } from './catalogo.mjs'
 import { LANGS, UI } from './i18n.mjs'
@@ -339,4 +339,56 @@ const kept = readFileSync(sitemapPath, 'utf8').split(/\r?\n/).filter(line => !is
 const at = kept.findIndex(line => line.includes('privacy-policy'))
 kept.splice(at, 0, ...built.map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`))
 writeFileSync(sitemapPath, kept.join('\n'))
+function attachSiteAnimalMascots() {
+  const assetDirectory = join(ROOT, 'assets', 'mascots', 'animals')
+  const mascots = readdirSync(assetDirectory).filter(file => file.endsWith('.json')).sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
+  if (!mascots.length) throw new Error('No animal mascots found in assets/mascots/animals')
+  const pageFiles = []
+  const walk = directory => {
+    for (const item of readdirSync(directory, { withFileTypes: true })) {
+      if (item.isDirectory()) {
+        if (['.git', '_fonte', 'assets', 'node_modules'].includes(item.name)) continue
+        walk(join(directory, item.name))
+      } else if (item.name.endsWith('.html')) {
+        const file = join(directory, item.name)
+        const routeFile = relative(ROOT, file).replace(/\\/g, '/')
+        if (routeFile === 'google2aa3158a126ad7b6.html' || routeFile === 'rascunho-landing.html') continue
+        pageFiles.push({ file, routeFile })
+      }
+    }
+  }
+  walk(ROOT)
+  const routeOf = routeFile => routeFile === 'index.html' ? '/' : routeFile.endsWith('/index.html') ? `/${routeFile.slice(0, -10)}` : `/${routeFile}`
+  pageFiles.sort((a, b) => routeOf(a.routeFile).localeCompare(routeOf(b.routeFile)))
+
+  pageFiles.forEach(({ file, routeFile }, index) => {
+    const route = routeOf(routeFile)
+    const mascot = mascots[index % mascots.length]
+    const mascotMarkup = `<figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/${mascot}" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure>`
+    let html = readFileSync(file, 'utf8')
+    if (!html.includes('href="/assets/css/site-mascots.css"')) html = html.replace('</head>', '  <link rel="stylesheet" href="/assets/css/site-mascots.css">\n</head>')
+    if (!html.includes('src="/assets/js/site-mascots.js"')) html = html.replace('</body>', '  <script defer src="/assets/js/site-mascots.js"></script>\n</body>')
+    const existing = /<figure class="site-animal-mascot"[^>]*>[\s\S]*?<\/figure>/
+    if (existing.test(html)) html = html.replace(existing, mascotMarkup)
+    else {
+      const footerMain = html.indexOf('<div class="wrap footer-main">')
+      if (footerMain >= 0) {
+        const closing = html.indexOf('</div>', footerMain)
+        if (closing < 0) throw new Error(`footer-main is not closed on ${route}`)
+        html = html.slice(0, closing) + mascotMarkup + html.slice(closing)
+      } else {
+        const footerOpen = html.indexOf('<footer')
+        const footerOpenEnd = html.indexOf('>', footerOpen)
+        const footerClose = html.indexOf('</footer>', footerOpenEnd)
+        if (footerOpen < 0 || footerOpenEnd < 0 || footerClose < 0) throw new Error(`footer missing on ${route}`)
+        const openTag = html.slice(footerOpen, footerOpenEnd + 1)
+        html = html.slice(0, footerOpen) + openTag.replace('<footer', '<footer class="site-mascot-legal-footer"') + html.slice(footerOpenEnd + 1, footerClose) + mascotMarkup + html.slice(footerClose)
+      }
+    }
+    writeFileSync(file, html)
+  })
+  console.log(`Mascotes animais: ${pageFiles.length} pÃ¡ginas; ${Math.min(mascots.length, pageFiles.length)} mascotes distintas antes de repetir.`)
+}
+
+attachSiteAnimalMascots()
 console.log(`${built.length} páginas · lista em _fonte/artigos/urls.txt`)
