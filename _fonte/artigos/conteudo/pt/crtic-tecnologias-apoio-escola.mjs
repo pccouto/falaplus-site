@@ -38,14 +38,19 @@ export default {
     },
     {
       "bridge": {
-        "title": "Uma possibilidade entre muitas",
-        "intro": "A Fala+ inclui uma opção de comunicação com cartões de imagem e voz; não substitui a avaliação do CRTIC nem representa uma recomendação universal de tecnologia.",
+        "title": "Uma possibilidade a avaliar entre muitas",
+        "intro": "O artigo destaca que a tecnologia deve responder a uma tarefa e a uma barreira concretas. Se a necessidade identificada estiver ligada à comunicação, a Fala+ oferece algumas possibilidades:",
         "items": [
           [
-            "Se a barreira identificada for expressar escolhas ou mensagens.",
-            "O Comunicar permite combinar cartões de imagem e voz. A adequação desta ou de qualquer outra solução deve ser avaliada no contexto da criança."
+            "Apoiar a expressão de escolhas e mensagens.",
+            "O Comunicar junta cartões com imagem e voz e permite combiná-los para construir mensagens."
+          ],
+          [
+            "Ajustar referências ao contexto da criança.",
+            "É possível personalizar conteúdos com imagens e gravações de voz, se isso tornar a comunicação mais acessível para aquele aluno."
           ]
-        ]
+        ],
+        "outro": "A Fala+ não avalia necessidades de tecnologia de apoio, não substitui o CRTIC e não é automaticamente a solução indicada para cada aluno."
       }
     },
     {

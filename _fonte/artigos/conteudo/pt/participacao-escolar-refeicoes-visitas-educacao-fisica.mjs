@@ -38,14 +38,19 @@ export default {
     },
     {
       "bridge": {
-        "title": "Apoiar a comunicação na participação",
-        "intro": "Em algumas situações, uma ferramenta de comunicação pode ajudar a criança a expressar uma escolha ou pedir uma pausa. A app não planeia atividades escolares nem substitui os apoios da escola.",
+        "title": "Da participação à comunicação na Fala+",
+        "intro": "O texto propõe antecipar atividades e tornar escolhas, pedidos e pausas comunicáveis. Se a criança beneficia de cartões com imagem e voz, a Fala+ pode apoiar algumas dessas mensagens:",
         "items": [
           [
-            "Dar à criança uma forma acessível de expressar escolhas e mensagens durante a rotina.",
-            "O Comunicar permite construir mensagens com cartões de imagem e voz, se esse formato fizer sentido para a criança."
+            "Expressar uma escolha ou um pedido durante uma rotina.",
+            "No Comunicar, os cartões de imagem e voz podem ser combinados numa mensagem."
+          ],
+          [
+            "Usar vocabulário próximo da atividade e da criança.",
+            "A personalização com imagens e gravações de voz permite aproximar alguns conteúdos de pessoas, objetos ou situações familiares."
           ]
-        ]
+        ],
+        "outro": "A app não prepara visitas, não adapta a atividade física ou o refeitório e não substitui o planeamento inclusivo e os apoios da escola."
       }
     },
     {

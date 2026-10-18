@@ -47,13 +47,18 @@ export default {
     {
       "bridge": {
         "title": "Dar espaço à perspetiva da criança",
-        "intro": "Se a criança já utiliza comunicação por imagens e voz, a Fala+ pode ajudar a expressar uma preferência ou mensagem numa conversa preparada com a escola. Não é um meio para apresentar queixas nem substitui os procedimentos escolares.",
+        "intro": "O artigo recomenda considerar a perspetiva da criança quando a situação lhe diz respeito. Se ela já usa comunicação por imagens e voz, a Fala+ pode apoiar a preparação de uma mensagem:",
         "items": [
           [
-            "Quando a situação diz respeito à criança, considerar a sua perspetiva de forma acessível e sem a pressionar.",
-            "O Comunicar permite combinar cartões com imagem e voz para construir mensagens, se este for um formato que a criança já usa e prefere."
+            "Expressar uma preferência ou pedido numa conversa preparada.",
+            "O Comunicar permite combinar cartões de imagem e voz para construir mensagens."
+          ],
+          [
+            "Tornar a mensagem mais familiar e acessível.",
+            "A personalização de conteúdos com imagens e gravações de voz pode aproximar os cartões das pessoas e situações relevantes para a criança."
           ]
-        ]
+        ],
+        "outro": "A Fala+ não regista nem apresenta queixas, não dá aconselhamento jurídico e não substitui os procedimentos escolares. O uso deve respeitar a vontade e o modo de comunicação da criança."
       }
     },
     {

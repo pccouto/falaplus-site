@@ -38,14 +38,19 @@ export default {
     },
     {
       "bridge": {
-        "title": "Quando uma app já faz parte da comunicação da criança",
-        "intro": "Se a criança já usa comunicação aumentativa e alternativa, os adultos podem apoiar o acesso ao seu sistema sem falar por ela. A escolha e o uso da app devem respeitar o plano e as preferências da criança.",
+        "title": "Apoiar sem falar pela criança",
+        "intro": "O artigo sublinha o tempo de resposta, o respeito pelo modo de comunicação e a autonomia. Se a criança já utiliza a Fala+ como opção de CAA, os adultos podem:",
         "items": [
           [
-            "Dar tempo para responder e reconhecer a mensagem, seja qual for o modo de comunicação.",
-            "Quando a Fala+ é o sistema escolhido, o Comunicar reúne cartões de imagem e voz para construir mensagens. A app é uma opção, não substitui avaliação nem orientação individual."
+            "Dar acesso ao sistema e esperar pela mensagem da criança.",
+            "O Comunicar permite selecionar cartões com imagem e voz e combiná-los numa mensagem."
+          ],
+          [
+            "Usar o sistema nas rotinas em que a criança escolheu comunicar.",
+            "A app permite personalizar cartões com imagens e gravações de voz, mantendo referências familiares e úteis para cada contexto."
           ]
-        ]
+        ],
+        "outro": "Estas possibilidades só se aplicam se a Fala+ fizer parte do sistema escolhido para aquela criança. A app não substitui formação, avaliação ou orientação da equipa."
       }
     },
     {

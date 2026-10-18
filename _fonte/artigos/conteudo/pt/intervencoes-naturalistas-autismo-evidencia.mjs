@@ -39,13 +39,18 @@ export default {
     {
       "bridge": {
         "title": "Uma ferramenta complementar, quando adequada",
-        "intro": "A Fala+ pode oferecer atividades de vocabulário e uma opção de comunicação por imagem e voz. Foi desenvolvida com o apoio contínuo de um educador e de uma psicóloga. A app não é uma intervenção terapêutica nem substitui o plano definido com a equipa.",
+        "intro": "As intervenções descritas no artigo podem trabalhar comunicação funcional, vocabulário e brincadeira. A Fala+ pode complementar alguns destes objetivos, quando escolhida com a criança e a equipa. Foi desenvolvida com o apoio contínuo de um educador e de uma psicóloga.",
         "items": [
           [
-            "Praticar palavras funcionais ou expressar uma mensagem pode ser um objetivo definido com a criança e a equipa.",
-            "A app inclui atividades de palavras e o Comunicar, com cartões de imagem e voz. O uso deve ser selecionado e revisto conforme a resposta da criança."
+            "Explorar palavras e vocabulário em atividades breves.",
+            "A app inclui jogos e atividades de palavras com imagens e sons."
+          ],
+          [
+            "Expressar mensagens sem depender da fala oral.",
+            "O Comunicar disponibiliza cartões de imagem e voz que podem ser combinados para construir mensagens."
           ]
-        ]
+        ],
+        "outro": "A Fala+ não é uma intervenção terapêutica, não garante generalização das aprendizagens e não substitui o plano definido com a equipa."
       }
     },
     {

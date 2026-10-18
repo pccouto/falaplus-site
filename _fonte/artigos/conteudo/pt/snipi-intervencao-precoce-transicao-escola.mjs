@@ -38,14 +38,19 @@ export default {
     },
     {
       "bridge": {
-        "title": "Da ideia à Fala+",
-        "intro": "Quando a comunicação por imagens e voz faz sentido para a criança, a Fala+ pode ser uma ferramenta complementar.",
+        "title": "Como estas ideias podem encontrar apoio na Fala+",
+        "intro": "A intervenção precoce valoriza a comunicação funcional no quotidiano e uma resposta ajustada à criança. Quando uma opção digital por imagens e voz é adequada, algumas funcionalidades da Fala+ podem complementar as rotinas:",
         "items": [
           [
-            "A criança pode precisar de uma forma acessível de expressar escolhas e mensagens.",
-            "O Comunicar permite combinar cartões com imagem e voz para construir mensagens. A escolha de um sistema deve considerar a criança e, quando necessário, ser acompanhada por profissionais."
+            "Expressar escolhas, pedidos e mensagens nas rotinas.",
+            "O Comunicar permite combinar cartões de imagem e voz para construir mensagens."
+          ],
+          [
+            "Usar referências familiares à criança.",
+            "A app permite personalizar conteúdos com imagens e gravações de voz, aproximando alguns cartões das pessoas e objetos do seu quotidiano."
           ]
-        ]
+        ],
+        "outro": "A Fala+ não é um serviço de intervenção precoce e não substitui o plano da equipa, a articulação com a família ou os apoios educativos."
       }
     },
     {

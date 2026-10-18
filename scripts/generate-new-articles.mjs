@@ -54,34 +54,40 @@ const articles = [
 
 const appBridges = {
  'snipi-intervencao-precoce-transicao-escola': {
-  title:'Da ideia à Fala+',
-  intro:'Quando a comunicação por imagens e voz faz sentido para a criança, a Fala+ pode ser uma ferramenta complementar.',
-  items:[['A criança pode precisar de uma forma acessível de expressar escolhas e mensagens.','O Comunicar permite combinar cartões com imagem e voz para construir mensagens. A escolha de um sistema deve considerar a criança e, quando necessário, ser acompanhada por profissionais.']],
+  title:'Como estas ideias podem encontrar apoio na Fala+',
+  intro:'A intervenção precoce valoriza a comunicação funcional no quotidiano e uma resposta ajustada à criança. Quando uma opção digital por imagens e voz é adequada, algumas funcionalidades da Fala+ podem complementar as rotinas:',
+  items:[['Expressar escolhas, pedidos e mensagens nas rotinas.','O Comunicar permite combinar cartões de imagem e voz para construir mensagens.'],['Usar referências familiares à criança.','A app permite personalizar conteúdos com imagens e gravações de voz, aproximando alguns cartões das pessoas e objetos do seu quotidiano.']],
+  outro:'A Fala+ não é um serviço de intervenção precoce e não substitui o plano da equipa, a articulação com a família ou os apoios educativos.',
  },
  'crtic-tecnologias-apoio-escola': {
-  title:'Uma possibilidade entre muitas',
-  intro:'A Fala+ inclui uma opção de comunicação com cartões de imagem e voz; não substitui a avaliação do CRTIC nem representa uma recomendação universal de tecnologia.',
-  items:[['Se a barreira identificada for expressar escolhas ou mensagens.','O Comunicar permite combinar cartões de imagem e voz. A adequação desta ou de qualquer outra solução deve ser avaliada no contexto da criança.']],
+  title:'Uma possibilidade a avaliar entre muitas',
+  intro:'O artigo destaca que a tecnologia deve responder a uma tarefa e a uma barreira concretas. Se a necessidade identificada estiver ligada à comunicação, a Fala+ oferece algumas possibilidades:',
+  items:[['Apoiar a expressão de escolhas e mensagens.','O Comunicar junta cartões com imagem e voz e permite combiná-los para construir mensagens.'],['Ajustar referências ao contexto da criança.','É possível personalizar conteúdos com imagens e gravações de voz, se isso tornar a comunicação mais acessível para aquele aluno.']],
+  outro:'A Fala+ não avalia necessidades de tecnologia de apoio, não substitui o CRTIC e não é automaticamente a solução indicada para cada aluno.',
  },
  'participacao-escolar-refeicoes-visitas-educacao-fisica': {
-  title:'Apoiar a comunicação na participação',
-  intro:'Em algumas situações, uma ferramenta de comunicação pode ajudar a criança a expressar uma escolha ou pedir uma pausa. A app não planeia atividades escolares nem substitui os apoios da escola.',
-  items:[['Dar à criança uma forma acessível de expressar escolhas e mensagens durante a rotina.','O Comunicar permite construir mensagens com cartões de imagem e voz, se esse formato fizer sentido para a criança.']],
+  title:'Da participação à comunicação na Fala+',
+  intro:'O texto propõe antecipar atividades e tornar escolhas, pedidos e pausas comunicáveis. Se a criança beneficia de cartões com imagem e voz, a Fala+ pode apoiar algumas dessas mensagens:',
+  items:[['Expressar uma escolha ou um pedido durante uma rotina.','No Comunicar, os cartões de imagem e voz podem ser combinados numa mensagem.'],['Usar vocabulário próximo da atividade e da criança.','A personalização com imagens e gravações de voz permite aproximar alguns conteúdos de pessoas, objetos ou situações familiares.']],
+  outro:'A app não prepara visitas, não adapta a atividade física ou o refeitório e não substitui o planeamento inclusivo e os apoios da escola.',
  },
  'assistentes-operacionais-educacao-inclusiva': {
-  title:'Quando uma app já faz parte da comunicação da criança',
-  intro:'Se a criança já usa comunicação aumentativa e alternativa, os adultos podem apoiar o acesso ao seu sistema sem falar por ela. A escolha e o uso da app devem respeitar o plano e as preferências da criança.',
-  items:[['Dar tempo para responder e reconhecer a mensagem, seja qual for o modo de comunicação.','Quando a Fala+ é o sistema escolhido, o Comunicar reúne cartões de imagem e voz para construir mensagens. A app é uma opção, não substitui avaliação nem orientação individual.']],
+  title:'Apoiar sem falar pela criança',
+  intro:'O artigo sublinha o tempo de resposta, o respeito pelo modo de comunicação e a autonomia. Se a criança já utiliza a Fala+ como opção de CAA, os adultos podem:',
+  items:[['Dar acesso ao sistema e esperar pela mensagem da criança.','O Comunicar permite selecionar cartões com imagem e voz e combiná-los numa mensagem.'],['Usar o sistema nas rotinas em que a criança escolheu comunicar.','A app permite personalizar cartões com imagens e gravações de voz, mantendo referências familiares e úteis para cada contexto.']],
+  outro:'Estas possibilidades só se aplicam se a Fala+ fizer parte do sistema escolhido para aquela criança. A app não substitui formação, avaliação ou orientação da equipa.',
  },
  'intervencoes-naturalistas-autismo-evidencia': {
   title:'Uma ferramenta complementar, quando adequada',
-  intro:'A Fala+ pode oferecer atividades de vocabulário e uma opção de comunicação por imagem e voz. Foi desenvolvida com o apoio contínuo de um educador e de uma psicóloga. A app não é uma intervenção terapêutica nem substitui o plano definido com a equipa.',
-  items:[['Praticar palavras funcionais ou expressar uma mensagem pode ser um objetivo definido com a criança e a equipa.','A app inclui atividades de palavras e o Comunicar, com cartões de imagem e voz. O uso deve ser selecionado e revisto conforme a resposta da criança.']],
+  intro:'As intervenções descritas no artigo podem trabalhar comunicação funcional, vocabulário e brincadeira. A Fala+ pode complementar alguns destes objetivos, quando escolhida com a criança e a equipa. Foi desenvolvida com o apoio contínuo de um educador e de uma psicóloga.',
+  items:[['Explorar palavras e vocabulário em atividades breves.','A app inclui jogos e atividades de palavras com imagens e sons.'],['Expressar mensagens sem depender da fala oral.','O Comunicar disponibiliza cartões de imagem e voz que podem ser combinados para construir mensagens.']],
+  outro:'A Fala+ não é uma intervenção terapêutica, não garante generalização das aprendizagens e não substitui o plano definido com a equipa.',
  },
  'discordar-escola-como-pedir-revisao-e-queixa': {
   title:'Dar espaço à perspetiva da criança',
-  intro:'Se a criança já utiliza comunicação por imagens e voz, a Fala+ pode ajudar a expressar uma preferência ou mensagem numa conversa preparada com a escola. Não é um meio para apresentar queixas nem substitui os procedimentos escolares.',
-  items:[['Quando a situação diz respeito à criança, considerar a sua perspetiva de forma acessível e sem a pressionar.','O Comunicar permite combinar cartões com imagem e voz para construir mensagens, se este for um formato que a criança já usa e prefere.']],
+  intro:'O artigo recomenda considerar a perspetiva da criança quando a situação lhe diz respeito. Se ela já usa comunicação por imagens e voz, a Fala+ pode apoiar a preparação de uma mensagem:',
+  items:[['Expressar uma preferência ou pedido numa conversa preparada.','O Comunicar permite combinar cartões de imagem e voz para construir mensagens.'],['Tornar a mensagem mais familiar e acessível.','A personalização de conteúdos com imagens e gravações de voz pode aproximar os cartões das pessoas e situações relevantes para a criança.']],
+  outro:'A Fala+ não regista nem apresenta queixas, não dá aconselhamento jurídico e não substitui os procedimentos escolares. O uso deve respeitar a vontade e o modo de comunicação da criança.',
  },
 }
 
