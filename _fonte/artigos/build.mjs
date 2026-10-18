@@ -331,7 +331,7 @@ if (newest) for (const lang of LANGS) {
   if (!articleContent.has(lang + ':' + newest.e.id)) continue
   const p = lang === 'pt' ? 'index.html' : lang + '/index.html'
   let html = readFileSync(join(ROOT, p), 'utf8')
-  const label = lang === 'pt' ? 'Artigo novo · Mitos ou Verdades' : lang === 'en' ? 'New article · Myth or Fact' : 'Artículo nuevo · Mitos o verdades'
+  const label = lang === 'pt' ? 'Artigo novo' : lang === 'en' ? 'New article' : 'Artículo nuevo'
   html = html.replace(/(<strong data-latest-label>)[\s\S]*?(<\/strong>)/, (m, a, b) => a + label + b)
   html = html.replace(/(<span data-latest-title>)[\s\S]*?(<\/span>)/, (m, a, b) => a + esc(newest.e[lang].title) + b)
   html = html.replace(/(<a\b(?=[^>]*\bdata-latest-link\b)[^>]*\bhref=")[^"]+("[^>]*>)/, '$1' + pathOf(lang, newest.e.id) + '$2')

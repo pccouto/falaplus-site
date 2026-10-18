@@ -491,5 +491,107 @@ export default [
     },
     "en": null,
     "es": null
+  },
+  {
+    "id": "snipi-intervencao-precoce-transicao-escola",
+    "theme": "escola",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "snipi-intervencao-precoce-transicao-escola",
+      "title": "SNIPI: intervenção precoce e transição para a escola",
+      "teaser": "O apoio dos 0 aos 6 anos articula família e serviços. A entrada na educação pré-escolar pede continuidade e nova coordenação."
+    },
+    "en": null,
+    "es": null
+  },
+  {
+    "id": "crtic-tecnologias-apoio-escola",
+    "theme": "escola",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "crtic-tecnologias-apoio-escola",
+      "title": "CRTIC e tecnologias de apoio: como pedir avaliação na escola",
+      "teaser": "Os CRTIC avaliam necessidades de tecnologia de apoio e colaboram na capacitação de alunos, famílias e profissionais."
+    },
+    "en": null,
+    "es": null
+  },
+  {
+    "id": "participacao-escolar-refeicoes-visitas-educacao-fisica",
+    "theme": "escola",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "participacao-escolar-refeicoes-visitas-educacao-fisica",
+      "title": "Educação física, refeições e visitas: participação para lá da sala",
+      "teaser": "A inclusão também se constrói no recreio, nas refeições, nas visitas de estudo e nas atividades extracurriculares."
+    },
+    "en": null,
+    "es": null
+  },
+  {
+    "id": "assistentes-operacionais-educacao-inclusiva",
+    "theme": "escola",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "assistentes-operacionais-educacao-inclusiva",
+      "title": "Assistentes operacionais e inclusão: apoio com dignidade e autonomia",
+      "teaser": "A colaboração diária pode facilitar participação e segurança, preservando a voz e a independência do aluno."
+    },
+    "en": null,
+    "es": null
+  },
+  {
+    "id": "intervencoes-naturalistas-autismo-evidencia",
+    "theme": "fala",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "intervencoes-naturalistas-autismo-evidencia",
+      "title": "Intervenções naturalistas no autismo: objetivos e limites da evidência",
+      "teaser": "O que a investigação sugere sobre estratégias de comunicação e brincadeira inseridas nas rotinas — e o que continua incerto."
+    },
+    "en": null,
+    "es": null
+  },
+  {
+    "id": "discordar-escola-como-pedir-revisao-e-queixa",
+    "theme": "escola",
+    "kind": {
+      "pt": "Guia prático",
+      "en": "Guide",
+      "es": "Guía"
+    },
+    "pt": {
+      "live": true,
+      "slug": "discordar-escola-como-pedir-revisao-e-queixa",
+      "title": "Quando há desacordo com a escola: como organizar a conversa",
+      "teaser": "Registar preocupações, pedir esclarecimentos e conhecer vias formais ajuda a procurar uma resposta fundamentada."
+    },
+    "en": null,
+    "es": null
   }
 ]

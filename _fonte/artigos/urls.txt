@@ -6,6 +6,7 @@ https://falamais.pt/artigos/apoiar-a-crianca-a-expressar-o-que-pretende/
 https://falamais.pt/artigos/apoio-no-ensino-secundario-neurodivergencia/
 https://falamais.pt/artigos/apoios-escolares-evolucao-desafios-recursos/
 https://falamais.pt/artigos/apraxia-da-fala-infantil/
+https://falamais.pt/artigos/assistentes-operacionais-educacao-inclusiva/
 https://falamais.pt/artigos/atraso-na-fala-e-pdl/
 https://falamais.pt/artigos/atraso-na-fala/
 https://falamais.pt/artigos/autismo-diagnostico-sinais/
@@ -25,11 +26,13 @@ https://falamais.pt/artigos/comunicacao-aumentativa-e-alternativa/
 https://falamais.pt/artigos/comunicacao-multimodal-gestos-sinais/
 https://falamais.pt/artigos/comunicacao-nao-verbal/
 https://falamais.pt/artigos/comunicacao-nas-rotinas-diarias/
+https://falamais.pt/artigos/crtic-tecnologias-apoio-escola/
 https://falamais.pt/artigos/curriculo-individualizado-expectativas-altas/
 https://falamais.pt/artigos/desenvolvimento-da-linguagem-infantil/
 https://falamais.pt/artigos/dieta-sem-gluten-autismo-mito/
 https://falamais.pt/artigos/diferenca-entre-fala-e-linguagem/
 https://falamais.pt/artigos/direitos-alunos-familias-educacao-inclusiva/
+https://falamais.pt/artigos/discordar-escola-como-pedir-revisao-e-queixa/
 https://falamais.pt/artigos/docente-educacao-especial-equipa/
 https://falamais.pt/artigos/ecolalia-e-comunicacao/
 https://falamais.pt/artigos/ecra-causa-atraso-na-fala/
@@ -45,6 +48,7 @@ https://falamais.pt/artigos/gaguez-infantil/
 https://falamais.pt/artigos/gamificacao-neuroplasticidade-jogos/
 https://falamais.pt/artigos/importancia-do-brincar/
 https://falamais.pt/artigos/inclusao-escolar-criancas-dificuldades-comunicacao/
+https://falamais.pt/artigos/intervencoes-naturalistas-autismo-evidencia/
 https://falamais.pt/artigos/jogos-de-logica-para-criancas/
 https://falamais.pt/artigos/jogos-de-memoria-para-criancas/
 https://falamais.pt/artigos/jogos-para-aprender-a-ler/
@@ -57,6 +61,7 @@ https://falamais.pt/artigos/modelagem-caa-app-crianca/
 https://falamais.pt/artigos/mutismo-seletivo/
 https://falamais.pt/artigos/obrigar-crianca-a-comer/
 https://falamais.pt/artigos/pac-vs-dificuldades-audicao/
+https://falamais.pt/artigos/participacao-escolar-refeicoes-visitas-educacao-fisica/
 https://falamais.pt/artigos/personalizacao-da-aprendizagem-infantil/
 https://falamais.pt/artigos/plano-individual-transicao-escolar/
 https://falamais.pt/artigos/prevencao-bullying-alunos-neurodivergentes/
@@ -67,6 +72,7 @@ https://falamais.pt/artigos/relatorio-tecnico-pedagogico-escola/
 https://falamais.pt/artigos/rotinas-visuais-para-criancas/
 https://falamais.pt/artigos/sala-aula-acessivel-perfil-sensorial/
 https://falamais.pt/artigos/seletividade-alimentar-autismo-maus-habitos/
+https://falamais.pt/artigos/snipi-intervencao-precoce-transicao-escola/
 https://falamais.pt/artigos/sono-desenvolvimento-linguagem/
 https://falamais.pt/artigos/tempo-de-ecra-criancas/
 https://falamais.pt/artigos/terapeuta-da-fala-na-escola/
