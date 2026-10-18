@@ -8,6 +8,7 @@ import { join, dirname, relative } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { THEMES, CATALOG } from './catalogo.mjs'
 import { LANGS, UI } from './i18n.mjs'
+import { APP_CORRELATIONS, APP_BRIDGE_EXCLUSIONS } from './correlacoes-app.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
@@ -34,6 +35,32 @@ const preserveExistingMascot = (file, html) => {
 const entry = id => { const e = CATALOG.find(c => c.id === id); if (!e) throw new Error('unknown article id: ' + id); return e }
 const pathOf = (lang, id) => UI[lang].base + entry(id)[lang].slug + '/'
 const isLive = (lang, id) => Boolean(entry(id)[lang]?.live)
+const articleBlocks = (a, lang, L) => {
+  const appProductSections = new Set(['jogos-de-memoria-para-criancas', 'jogos-de-logica-para-criancas', 'jogos-para-aprender-palavras', 'jogos-para-aprender-a-ler'])
+  const allBlocks = a.blocks || []
+  const source = allBlocks.filter((b, i) => {
+    if (appProductSections.has(a.id) && b.id === 'jogos-fala-mais') return false
+    if (appProductSections.has(a.id) && allBlocks[i - 1]?.id === 'jogos-fala-mais' && b.table) return false
+    if (a.id === 'marcos-desenvolvimento-linguagem-2-a-5-anos' && typeof b.p === 'string' && /\b(Fala\+|Talk\+|Habla\+)\s/.test(b.p)) return false
+    return true
+  })
+  const hasBridge = source.some(b => b.bridge)
+  const mapped = APP_CORRELATIONS[a.id]?.[lang]
+  const insertionIndex = !hasBridge && mapped ? source.findIndex(b => b.summary || b.id === 'conclusao') : -1
+  const blocks = source.flatMap((b, i) => {
+    if (b.bridge) {
+      if (APP_BRIDGE_EXCLUSIONS.has(a.id)) return []
+      if (mapped) return [{ ...b, bridge: mapped }]
+      if (b.bridge.items?.length) return [b]
+      const articlePoint = source.find(x => x.summary)?.summary?.[0] || a.lead
+      if (!articlePoint || !b.bridge.intro) return []
+      return [{ ...b, bridge: { ...b.bridge, intro: L.bridgeMappingIntro, items: [[articlePoint, b.bridge.intro]] } }]
+    }
+    if (i === insertionIndex) return [{ bridge: mapped }, b]
+    return [b]
+  })
+  return !hasBridge && mapped && insertionIndex < 0 ? [...blocks, { bridge: mapped }] : blocks
+}
 
 // [[id|text]] becomes a link only when that article is published in this language.
 const linker = lang => html => String(html).replace(/\[\[([a-z0-9-]+)\|([^\]]+)\]\]/g, (_, id, text) => isLive(lang, id) ? `<a href="${pathOf(lang, id)}">${text}</a>` : text)
@@ -153,10 +180,14 @@ function buildArticle(lang, a) {
   const url = SITE + path
   const langLinks = Object.fromEntries(LANGS.filter(k => isLive(k, a.id)).map(k => [k, pathOf(k, a.id)]))
   const alternates = LANGS.filter(k => isLive(k, a.id)).map(k => [UI[k].hreflang, pathOf(k, a.id)])
-  const body = a.blocks.map(b => renderBlock(b, L, links)).join('\n        ')
-  const words = strip(a.lead + ' ' + a.blocks.map(b => JSON.stringify(b)).join(' ') + ' ' + a.faq.flat().join(' ')).split(/\s+/).length
+  const blocks = articleBlocks(a, lang, L)
+  const body = blocks.map(b => renderBlock(b, L, links)).join('\n        ')
+  const faqItems = a.id === 'acompanhar-progressos-comunicacao'
+    ? a.faq.filter(([q, ans]) => !/(Fala\+|Talk\+|Habla\+)/i.test(`${q} ${ans}`))
+    : a.faq
+  const words = strip(a.lead + ' ' + blocks.map(b => JSON.stringify(b)).join(' ') + ' ' + faqItems.flat().join(' ')).split(/\s+/).length
   const minutes = Math.max(3, Math.round(words / 200))
-  const toc = a.blocks.filter(b => b.h2 || b.bridge).map(b => b.bridge ? `<li><a href="#fala-mais">${L.tocApp}</a></li>` : `<li><a href="#${b.id}">${b.toc || b.h2}</a></li>`).concat(`<li><a href="#perguntas">${L.tocFaq}</a></li>`).join('\n          ')
+  const toc = blocks.filter(b => b.h2 || b.bridge).map(b => b.bridge ? `<li><a href="#fala-mais">${L.tocApp}</a></li>` : `<li><a href="#${b.id}">${b.toc || b.h2}</a></li>`).concat(`<li><a href="#perguntas">${L.tocFaq}</a></li>`).join('\n          ')
   const jsonld = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -174,7 +205,7 @@ function buildArticle(lang, a) {
           { '@type': 'ListItem', position: 3, name: a.short },
         ],
       },
-      { '@type': 'FAQPage', mainEntity: a.faq.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: strip(ans).replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g, '$1') } })) },
+      { '@type': 'FAQPage', mainEntity: faqItems.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: strip(ans).replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g, '$1') } })) },
     ],
   }
   const related = (a.related || []).filter(id => isLive(lang, id))
@@ -212,7 +243,7 @@ function buildArticle(lang, a) {
 
         <h2 id="perguntas">${a.faqTitle || L.tocFaq}</h2>
         <div class="faq-list">
-          ${a.faq.map(([q, ans]) => `<details><summary>${q}</summary><p>${links(ans)}</p></details>`).join('\n          ')}
+          ${faqItems.map(([q, ans]) => `<details><summary>${q}</summary><p>${links(ans)}</p></details>`).join('\n          ')}
         </div>
 
         ${renderBlock({ note: a.note || L.healthNote }, L, links)}
