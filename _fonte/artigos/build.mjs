@@ -15,6 +15,7 @@ const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
 const ARTICLES_V = '20261017b'
 const MAIN_V = '20261014a'
+const ENGAGEMENT_V = '20261018a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = s => String(s).replace(/<[^>]+>/g, '')
@@ -81,6 +82,7 @@ function head(L, { title, description, canonical, ogType, ogTitle, ogDescription
   <link rel="stylesheet" href="/styles.css?v=${STYLES_V}">
   <link rel="stylesheet" href="/artigos.css?v=${ARTICLES_V}">
   <script src="/main.js?v=${MAIN_V}" defer></script>
+  <script src="/artigos-interactions.js?v=${ENGAGEMENT_V}" defer></script>
   <script data-goatcounter="https://falamais.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
@@ -167,6 +169,7 @@ function buildArticle(lang, a) {
     ],
   }
   const related = (a.related || []).filter(id => isLive(lang, id))
+  const interactionLabels = L.interactions
   const html = `${head(L, { title: a.titleTag, description: a.description, canonical: url, ogType: 'article', ogTitle: strip(a.h1), ogDescription: a.ogDescription || a.description, extra: `\n  <meta property="article:published_time" content="${a.date}">\n  <meta property="article:section" content="${themeName}">`, jsonld, alternates })}
 <body>
   ${header(L, lang, langLinks)}
@@ -180,15 +183,16 @@ function buildArticle(lang, a) {
             <p class="article-tag ${theme.tagClass}"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>${themeName} · ${kind}</p>
             <h1>${a.h1}</h1>
             <p class="lead">${a.lead}</p>
-            <div class="article-meta">
+            <div class="article-meta" data-article-id="${a.id}" data-article-path="${path}">
               <span class="byline"><img src="/assets/img/fala-plus-logo.png" alt="" width="38" height="38"><span>${L.by} <strong>${L.team}</strong></span></span>
               <span class="meta-dot" aria-hidden="true"></span>
               <time datetime="${a.date}">${longDate(L, a.date)}</time>
               <span class="meta-dot" aria-hidden="true"></span>
               <span>${L.readTime(minutes)}</span>
             </div>
+            <div class="article-stats" data-article-stats><span class="article-views" data-view-count>${interactionLabels.loadingViews}</span><button class="article-like" type="button" data-like-button aria-pressed="false"><span aria-hidden="true">♡</span> ${interactionLabels.like} <span class="like-count" data-like-count>0</span></button></div>
           </div>
-          <div class="article-art" aria-hidden="true">${ART[e.theme]}</div>
+          <div class="article-art" aria-hidden="true">${ART[e.theme] || ART.fala}</div>
         </div>
       </div>
     </section>
@@ -247,6 +251,8 @@ function buildIndex(lang) {
       ? `<a class="article-card" style="background:${t.bg};color:${t.ink}" href="${pathOf(lang, e.id)}"><span class="feature-label">${e.kind?.[lang] || L.guide}</span><h3>${c.title}</h3><p>${c.teaser}</p><span class="text-link">${I.read} ${arrow}</span></a>`
       : `<div class="article-card is-soon"><span class="soon-tag">${I.soon}</span><h3>${c?.title || ''}</h3><p>${c?.teaser || ''}</p></div>`
   }
+  const popularItems = CATALOG.filter(e => e[lang]?.live).map(e => ({ id: e.id, title: e[lang].title, teaser: e[lang].teaser, path: pathOf(lang, e.id), bg: THEMES[e.theme].bg, ink: THEMES[e.theme].ink, kind: e.kind?.[lang] || L.guide }))
+  const popularData = JSON.stringify(popularItems).replace(/</g, '\\u003c')
   const sections = Object.entries(THEMES).map(([key, t]) => `      <section class="topic-block"><h2>${t[lang].name}</h2><p>${t[lang].intro}</p><div class="article-cards">${CATALOG.filter(e => e.theme === key && e[lang]).map(card).join('')}</div></section>`).join('\n')
   const url = SITE + L.base
   const jsonld = {
@@ -270,6 +276,12 @@ function buildIndex(lang) {
       <p class="lead">${I.lead}</p>
     </div></section>
     <div class="wrap index-body">
+      <section class="popular-section" data-popular-articles data-loading="true" aria-labelledby="popular-title">
+        <h2 id="popular-title">${I.popularTitle}</h2><p>${I.popularIntro}</p>
+        <p class="popular-status" data-popular-status aria-live="polite">${I.popularLoading}</p>
+        <div class="article-cards popular-cards" data-popular-cards></div>
+        <script type="application/json" data-article-catalog>${popularData}</script>
+      </section>
 ${sections}
     </div>
   </main>
@@ -284,12 +296,14 @@ ${sections}
 }
 
 const built = []
+const articleContent = new Map()
 for (const lang of LANGS) {
   const dir = join(HERE, 'conteudo', lang)
   if (!existsSync(dir)) continue
   for (const f of readdirSync(dir).filter(f => f.endsWith('.mjs'))) {
     const { default: a } = await import(pathToFileURL(join(dir, f)))
     a.id ||= a.slug // PT files use their slug as id
+    articleContent.set(lang + ':' + a.id, a)
     if (!isLive(lang, a.id)) { console.log(`skip (not live): ${lang}/${a.slug}`); continue }
     const r = buildArticle(lang, a)
     built.push(SITE + r.path)
@@ -298,6 +312,21 @@ for (const lang of LANGS) {
   buildIndex(lang)
   built.push(SITE + UI[lang].base)
 }
+// Keep each localized homepage banner linked to the newest published Portuguese article.
+const newest = CATALOG.map((e, order) => ({ e, order, article: articleContent.get('pt:' + e.id) }))
+  .filter(x => x.article && x.e.pt?.live)
+  .sort((a, b) => b.article.date.localeCompare(a.article.date) || b.order - a.order)[0]
+if (newest) for (const lang of LANGS) {
+  if (!articleContent.has(lang + ':' + newest.e.id)) continue
+  const p = lang === 'pt' ? 'index.html' : lang + '/index.html'
+  let html = readFileSync(join(ROOT, p), 'utf8')
+  const label = lang === 'pt' ? 'Artigo novo · Mitos ou Verdades' : lang === 'en' ? 'New article · Myth or Fact' : 'Artículo nuevo · Mitos o verdades'
+  html = html.replace(/(<strong data-latest-label>)[\s\S]*?(<\/strong>)/, (m, a, b) => a + label + b)
+  html = html.replace(/(<span data-latest-title>)[\s\S]*?(<\/span>)/, (m, a, b) => a + esc(newest.e[lang].title) + b)
+  html = html.replace(/<a href="[^"]+" data-latest-link/, '<a href="' + pathOf(lang, newest.e.id) + '" data-latest-link')
+  writeFileSync(join(ROOT, p), html)
+}
+
 // Every live catalog entry must have been built.
 for (const lang of LANGS) for (const e of CATALOG) if (e[lang]?.live && !built.includes(SITE + pathOf(lang, e.id))) throw new Error(`missing content file: ${lang}/${e[lang].slug}`)
 writeFileSync(join(HERE, 'urls.txt'), built.join('\n') + '\n')
