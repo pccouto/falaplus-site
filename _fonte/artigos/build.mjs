@@ -201,7 +201,7 @@ function buildArticle(lang, a) {
       <article class="prose">
         ${body}
 
-        <h2 id="perguntas">${a.faqTitle}</h2>
+        <h2 id="perguntas">${a.faqTitle || L.tocFaq}</h2>
         <div class="faq-list">
           ${a.faq.map(([q, ans]) => `<details><summary>${q}</summary><p>${links(ans)}</p></details>`).join('\n          ')}
         </div>
