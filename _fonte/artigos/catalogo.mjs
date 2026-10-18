@@ -2,6 +2,8 @@
 // id = the PT slug; links between articles use [[id|text]] in any language.
 // A language block with live: false shows an "Em breve / Coming soon" card and gets no links.
 // Every live language block has a content file in ./conteudo/<lang>/<slug>.mjs.
+import SCHOOL_CATALOG from './catalogo-escola.mjs'
+import NEW_CATALOG from './catalogo-novos.mjs'
 export const THEMES = {
   brincar: {
     tagClass: '', bg: '#f6e4eb', ink: '#8c4464',
@@ -26,6 +28,12 @@ export const THEMES = {
     pt: { name: 'Mitos ou Verdades', intro: 'Perguntas frequentes sobre autismo, fala, desenvolvimento e alimentação, respondidas com evidência e prudência.' },
     en: { name: 'Myth or Fact', intro: 'Common questions about autism, speech, development and food, answered with evidence and care.' },
     es: { name: '¿Mito o verdad?', intro: 'Preguntas frecuentes sobre autismo, habla, desarrollo y alimentación, respondidas con evidencia y cuidado.' },
+  },
+  escola: {
+    tagClass: '', bg: '#e5edf8', ink: '#31547a',
+    pt: { name: 'Escola e inclusão', intro: 'Direitos, apoios, práticas inclusivas e transições ao longo do percurso escolar.' },
+    en: { name: 'School and inclusion', intro: 'Rights, support, inclusive practice and transitions throughout education.' },
+    es: { name: 'Escuela e inclusión', intro: 'Derechos, apoyos, prácticas inclusivas y transiciones a lo largo de la escolaridad.' },
   },
 }
 
@@ -449,3 +457,5 @@ export const CATALOG = [
     en: { live, slug: 'does-forcing-children-to-eat-help', title: "Does forcing a child to eat help them accept foods?", teaser: "Responsive feeding supports autonomy and safety. Ways to introduce foods without pressure." },
     es: { live, slug: 'obligar-a-comer-aumenta-la-variedad', title: "¿Obligar al niño a comer ayuda a aceptar alimentos?", teaser: "La alimentación responsiva apoya la autonomía y la seguridad: cómo ofrecer alimentos sin presión." } },
 ]
+
+CATALOG.push(...SCHOOL_CATALOG, ...NEW_CATALOG)

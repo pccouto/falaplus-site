@@ -21,6 +21,15 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const strip = s => String(s).replace(/<[^>]+>/g, '')
 const arrow = '<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>'
 const longDate = (L, iso) => { const [y, m, d] = iso.split('-').map(Number); return L.date(d, L.months[m - 1], y) }
+const preserveExistingMascot = (file, html) => {
+  if (!existsSync(file)) return html
+  const old = readFileSync(file, 'utf8').match(/<figure class="site-animal-mascot"[^>]*>[\s\S]*?<\/figure>/)
+  if (!old || html.includes('class="site-animal-mascot"')) return html
+  const footerMain = html.indexOf('<div class="wrap footer-main">')
+  if (footerMain < 0) return html
+  const closing = html.indexOf('</div>', footerMain)
+  return closing < 0 ? html : html.slice(0, closing) + old[0] + html.slice(closing)
+}
 
 const entry = id => { const e = CATALOG.find(c => c.id === id); if (!e) throw new Error('unknown article id: ' + id); return e }
 const pathOf = (lang, id) => UI[lang].base + entry(id)[lang].slug + '/'
@@ -237,7 +246,8 @@ ${related.length ? `
 `
   const dir = join(ROOT, ...path.split('/').filter(Boolean))
   mkdirSync(dir, { recursive: true })
-  writeFileSync(join(dir, 'index.html'), html)
+  const outputFile = join(dir, 'index.html')
+  writeFileSync(outputFile, preserveExistingMascot(outputFile, html))
   return { path, minutes }
 }
 
@@ -292,7 +302,8 @@ ${sections}
 `
   const dir = join(ROOT, ...L.base.split('/').filter(Boolean))
   mkdirSync(dir, { recursive: true })
-  writeFileSync(join(dir, 'index.html'), html)
+  const outputFile = join(dir, 'index.html')
+  writeFileSync(outputFile, preserveExistingMascot(outputFile, html))
 }
 
 const built = []
@@ -323,7 +334,7 @@ if (newest) for (const lang of LANGS) {
   const label = lang === 'pt' ? 'Artigo novo · Mitos ou Verdades' : lang === 'en' ? 'New article · Myth or Fact' : 'Artículo nuevo · Mitos o verdades'
   html = html.replace(/(<strong data-latest-label>)[\s\S]*?(<\/strong>)/, (m, a, b) => a + label + b)
   html = html.replace(/(<span data-latest-title>)[\s\S]*?(<\/span>)/, (m, a, b) => a + esc(newest.e[lang].title) + b)
-  html = html.replace(/<a href="[^"]+" data-latest-link/, '<a href="' + pathOf(lang, newest.e.id) + '" data-latest-link')
+  html = html.replace(/(<a\b(?=[^>]*\bdata-latest-link\b)[^>]*\bhref=")[^"]+("[^>]*>)/, '$1' + pathOf(lang, newest.e.id) + '$2')
   writeFileSync(join(ROOT, p), html)
 }
 
@@ -361,16 +372,23 @@ function attachSiteAnimalMascots() {
   const routeOf = routeFile => routeFile === 'index.html' ? '/' : routeFile.endsWith('/index.html') ? `/${routeFile.slice(0, -10)}` : `/${routeFile}`
   pageFiles.sort((a, b) => routeOf(a.routeFile).localeCompare(routeOf(b.routeFile)))
 
-  pageFiles.forEach(({ file, routeFile }, index) => {
+  const mascotCounts = new Map(mascots.map(name => [name, 0]))
+  for (const { file } of pageFiles) {
+    const html = readFileSync(file, 'utf8')
+    const match = html.match(/data-animation-src="\/assets\/mascots\/animals\/([^"/]+\.json)"/)
+    if (match && mascotCounts.has(match[1])) mascotCounts.set(match[1], mascotCounts.get(match[1]) + 1)
+  }
+  pageFiles.forEach(({ file, routeFile }) => {
     const route = routeOf(routeFile)
-    const mascot = mascots[index % mascots.length]
-    const mascotMarkup = `<figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/${mascot}" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure>`
     let html = readFileSync(file, 'utf8')
     if (!html.includes('href="/assets/css/site-mascots.css"')) html = html.replace('</head>', '  <link rel="stylesheet" href="/assets/css/site-mascots.css">\n</head>')
     if (!html.includes('src="/assets/js/site-mascots.js"')) html = html.replace('</body>', '  <script defer src="/assets/js/site-mascots.js"></script>\n</body>')
     const existing = /<figure class="site-animal-mascot"[^>]*>[\s\S]*?<\/figure>/
-    if (existing.test(html)) html = html.replace(existing, mascotMarkup)
-    else {
+    if (!existing.test(html)) {
+      const mascot = mascots.find(name => mascotCounts.get(name) === 0)
+        || mascots.reduce((least, name) => mascotCounts.get(name) < mascotCounts.get(least) ? name : least, mascots[0])
+      mascotCounts.set(mascot, mascotCounts.get(mascot) + 1)
+      const mascotMarkup = `<figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/${mascot}" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure>`
       const footerMain = html.indexOf('<div class="wrap footer-main">')
       if (footerMain >= 0) {
         const closing = html.indexOf('</div>', footerMain)
