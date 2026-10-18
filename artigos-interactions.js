@@ -13,24 +13,11 @@
   }
   const language = document.documentElement.lang
   const word = language === 'pt-PT' ? 'leituras' : language === 'es' ? 'lecturas' : 'reads'
-  const likedWord = language === 'pt-PT' ? 'Gostaste' : language === 'es' ? 'Te gusta' : 'Liked'
   document.querySelectorAll('[data-article-stats]').forEach(async stats => {
     const meta = stats.closest('[data-article-id]')
     if (!meta) return
     const view = stats.querySelector('[data-view-count]')
-    const like = stats.querySelector('[data-like-button]')
-    const count = stats.querySelector('[data-like-count]')
     try { view.textContent = (await getCount(meta.dataset.articlePath)).toLocaleString() + ' ' + word } catch { view.hidden = true }
-    try { count.textContent = (await getCount('like-' + meta.dataset.articleId)).toLocaleString() } catch { count.textContent = '—' }
-    const key = 'falamais-article-liked:' + meta.dataset.articleId
-    try { if (localStorage.getItem(key)) { like.setAttribute('aria-pressed', 'true'); like.disabled = true; like.lastChild.textContent = ' ' + likedWord + ' ' } } catch {}
-    like.addEventListener('click', () => {
-      if (like.getAttribute('aria-pressed') === 'true') return
-      if (window.goatcounter?.count) window.goatcounter.count({ path: 'like-' + meta.dataset.articleId, title: 'Article like: ' + meta.dataset.articleId, event: true })
-      count.textContent = (parseCount(count.textContent) + 1).toLocaleString()
-      like.setAttribute('aria-pressed', 'true'); like.disabled = true; like.lastChild.textContent = ' ' + likedWord + ' '
-      try { localStorage.setItem(key, '1') } catch {}
-    })
   })
   document.querySelectorAll('[data-popular-articles]').forEach(async section => {
     const articles = JSON.parse(section.querySelector('[data-article-catalog]').textContent)

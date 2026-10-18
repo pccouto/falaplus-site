@@ -15,7 +15,7 @@ const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
 const ARTICLES_V = '20261017b'
 const MAIN_V = '20261014a'
-const ENGAGEMENT_V = '20261018a'
+const ENGAGEMENT_V = '20261018b'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = s => String(s).replace(/<[^>]+>/g, '')
@@ -190,7 +190,7 @@ function buildArticle(lang, a) {
               <span class="meta-dot" aria-hidden="true"></span>
               <span>${L.readTime(minutes)}</span>
             </div>
-            <div class="article-stats" data-article-stats><span class="article-views" data-view-count>${interactionLabels.loadingViews}</span><button class="article-like" type="button" data-like-button aria-pressed="false"><span aria-hidden="true">♡</span> ${interactionLabels.like} <span class="like-count" data-like-count>0</span></button></div>
+            <div class="article-stats" data-article-stats><span class="article-views" data-view-count>${interactionLabels.loadingViews}</span></div>
           </div>
           <div class="article-art" aria-hidden="true">${ART[e.theme] || ART.fala}</div>
         </div>
