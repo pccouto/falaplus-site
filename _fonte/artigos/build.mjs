@@ -208,7 +208,7 @@ function buildArticle(lang, a) {
       { '@type': 'FAQPage', mainEntity: faqItems.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: strip(ans).replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g, '$1') } })) },
     ],
   }
-  const related = (a.related || []).filter(id => isLive(lang, id))
+  const related = (a.related || []).filter(id => CATALOG.some(candidate => candidate.id === id && candidate[lang]?.live))
   const interactionLabels = L.interactions
   const html = `${head(L, { title: a.titleTag, description: a.description, canonical: url, ogType: 'article', ogTitle: strip(a.h1), ogDescription: a.ogDescription || a.description, extra: `\n  <meta property="article:published_time" content="${a.date}">\n  <meta property="article:section" content="${themeName}">`, jsonld, alternates })}
 <body>

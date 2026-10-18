@@ -4,7 +4,14 @@
 // Every live language block has a content file in ./conteudo/<lang>/<slug>.mjs.
 import SCHOOL_CATALOG from './catalogo-escola.mjs'
 import NEW_CATALOG from './catalogo-novos.mjs'
+import { diagnosticCatalog } from './diagnosticos-data.mjs'
 export const THEMES = {
+  avaliacao: {
+    tagClass: '', bg: '#e7edf7', ink: '#365778',
+    pt: { name: 'Avalia\u00e7\u00e3o e diagn\u00f3stico', intro: 'Como compreender rastreios, avalia\u00e7\u00f5es e relat\u00f3rios do desenvolvimento infantil.' },
+    en: { name: 'Assessment and diagnosis', intro: 'Understanding screening, assessment and child development reports.' },
+    es: { name: 'Evaluaci\u00f3n y diagn\u00f3stico', intro: 'C\u00f3mo comprender cribados, evaluaciones e informes del desarrollo infantil.' },
+  },
   brincar: {
     tagClass: '', bg: '#f6e4eb', ink: '#8c4464',
     pt: { name: 'Brincar', intro: 'Porque é que brincar conta, que tipos de brincadeira existem e como acompanhar a criança.' },
@@ -458,4 +465,4 @@ export const CATALOG = [
     es: { live, slug: 'obligar-a-comer-aumenta-la-variedad', title: "¿Obligar al niño a comer ayuda a aceptar alimentos?", teaser: "La alimentación responsiva apoya la autonomía y la seguridad: cómo ofrecer alimentos sin presión." } },
 ]
 
-CATALOG.push(...SCHOOL_CATALOG, ...NEW_CATALOG)
+CATALOG.push(...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog())
