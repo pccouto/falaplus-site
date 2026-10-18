@@ -41,15 +41,28 @@
     const worker = async () => { while (cursor < articles.length) { const i = cursor++; try { results[i] = { ...articles[i], views: await getCount(articles[i].path) } } catch { results[i] = { ...articles[i], views: 0, failed: true } } } }
     await Promise.all(Array.from({ length: Math.min(5, articles.length) }, worker))
     const top = results.filter(a => !a.failed).sort((a, b) => b.views - a.views).slice(0, 3)
-    section.dataset.loading = 'false'; status.textContent = ''
-    if (!top.length || top.every(a => !a.views)) { status.textContent = language === 'pt-PT' ? 'Ainda não há dados de leitura suficientes para criar este destaque.' : language === 'es' ? 'Aún no hay suficientes datos de lectura para crear este destacado.' : 'There is not enough reading data to create this feature yet.'; return }
-    top.forEach((a, i) => {
+    const hasReliableRanking = results.every(a => !a.failed) && top.length === 3 && top.some(a => a.views > 0)
+    const featuredIds = ['autismo-diagnostico-sinais', 'estimular-aumenta-inteligencia', 'obrigar-crianca-a-comer']
+    const displayed = hasReliableRanking ? top : featuredIds.map(id => articles.find(a => a.id === id)).filter(Boolean)
+    section.dataset.loading = 'false'
+    section.dataset.mode = hasReliableRanking ? 'ranking' : 'editorial'
+    status.textContent = ''
+    if (!hasReliableRanking) {
+      section.querySelector('#popular-title').textContent = language === 'pt-PT' ? 'Artigos em destaque' : language === 'es' ? 'Artículos destacados' : 'Featured articles'
+      const intro = Array.from(section.children).find(child => child.tagName === 'P' && !child.hasAttribute('data-popular-status'))
+      if (intro) intro.textContent = language === 'pt-PT'
+        ? 'Uma seleção editorial para explorar temas importantes do desenvolvimento infantil.'
+        : language === 'es'
+          ? 'Una selección editorial para explorar temas importantes del desarrollo infantil.'
+          : 'An editorial selection exploring important topics in child development.'
+    }
+    displayed.forEach((a, i) => {
       const card = document.createElement('a'); card.className = 'article-card popular-card'; card.href = a.path; card.style.background = a.bg; card.style.color = a.ink
-      const rank = document.createElement('span'); rank.className = 'popular-rank'; rank.textContent = '#' + (i + 1)
+      const rank = document.createElement('span'); rank.className = 'popular-rank'; rank.textContent = hasReliableRanking ? '#' + (i + 1) : (language === 'pt-PT' ? 'Escolha editorial' : language === 'es' ? 'Selección editorial' : 'Editorial pick')
       const kind = document.createElement('span'); kind.className = 'feature-label'; kind.textContent = a.kind
       const title = document.createElement('h3'); title.textContent = a.title
       const teaser = document.createElement('p'); teaser.textContent = a.teaser
-      const views = document.createElement('span'); views.className = 'popular-views'; views.textContent = a.views.toLocaleString() + ' ' + word
+      const views = document.createElement('span'); views.className = 'popular-views'; if (hasReliableRanking) views.textContent = a.views.toLocaleString() + ' ' + word
       const cta = document.createElement('span'); cta.className = 'text-link'; cta.textContent = language === 'pt-PT' ? 'Ler o artigo →' : language === 'es' ? 'Leer el artículo →' : 'Read article →'
       card.append(rank, kind, title, teaser, views, cta); cards.append(card)
     })
