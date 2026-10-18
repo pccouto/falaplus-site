@@ -37,6 +37,26 @@ export default {
       "p": "Solicite uma reunião com os responsáveis adequados e pergunte quais são os procedimentos aplicáveis à decisão em causa e os respetivos prazos. A IGEC disponibiliza um serviço para apresentar exposição ou queixa sobre estabelecimentos e serviços da educação; a informação oficial recomenda tentar primeiro resolver a situação diretamente com a instituição. Uma queixa deve expor factos e incluir documentação e contactos prévios relevantes. Para decisões com prazos legais, direitos em causa ou risco imediato, procure apoio qualificado sem esperar por uma resposta informal."
     },
     {
+      "h2": "Incluir a perspetiva da criança",
+      "id": "incluir-a-perspetiva-da-crianca",
+      "toc": "Incluir a perspetiva da criança"
+    },
+    {
+      "p": "Quando a situação afeta diretamente a criança, procure conhecer a sua perspetiva numa forma adequada à idade, à comunicação e ao conforto dela. Pode ser antes da reunião, com perguntas simples ou por outro meio que já use. Não a pressione a participar numa conversa formal: a sua voz pode ser considerada sem a expor."
+    },
+    {
+      "bridge": {
+        "title": "Dar espaço à perspetiva da criança",
+        "intro": "Se a criança já utiliza comunicação por imagens e voz, a Fala+ pode ajudar a expressar uma preferência ou mensagem numa conversa preparada com a escola. Não é um meio para apresentar queixas nem substitui os procedimentos escolares.",
+        "items": [
+          [
+            "Quando a situação diz respeito à criança, considerar a sua perspetiva de forma acessível e sem a pressionar.",
+            "O Comunicar permite combinar cartões com imagem e voz para construir mensagens, se este for um formato que a criança já usa e prefere."
+          ]
+        ]
+      }
+    },
+    {
       "summary": [
         "Registe factos, comunicações e o efeito concreto da situação.",
         "Peça à escola esclarecimento sobre o procedimento e prazos aplicáveis.",

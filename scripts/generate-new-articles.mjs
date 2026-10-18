@@ -78,13 +78,23 @@ const appBridges = {
   intro:'A Fala+ pode oferecer atividades de vocabulário e uma opção de comunicação por imagem e voz. Foi desenvolvida com o apoio contínuo de um educador e de uma psicóloga. A app não é uma intervenção terapêutica nem substitui o plano definido com a equipa.',
   items:[['Praticar palavras funcionais ou expressar uma mensagem pode ser um objetivo definido com a criança e a equipa.','A app inclui atividades de palavras e o Comunicar, com cartões de imagem e voz. O uso deve ser selecionado e revisto conforme a resposta da criança.']],
  },
+ 'discordar-escola-como-pedir-revisao-e-queixa': {
+  title:'Dar espaço à perspetiva da criança',
+  intro:'Se a criança já utiliza comunicação por imagens e voz, a Fala+ pode ajudar a expressar uma preferência ou mensagem numa conversa preparada com a escola. Não é um meio para apresentar queixas nem substitui os procedimentos escolares.',
+  items:[['Quando a situação diz respeito à criança, considerar a sua perspetiva de forma acessível e sem a pressionar.','O Comunicar permite combinar cartões com imagem e voz para construir mensagens, se este for um formato que a criança já usa e prefere.']],
+ },
+}
+
+const addedSections = {
+ 'discordar-escola-como-pedir-revisao-e-queixa': [['Incluir a perspetiva da criança','Quando a situação afeta diretamente a criança, procure conhecer a sua perspetiva numa forma adequada à idade, à comunicação e ao conforto dela. Pode ser antes da reunião, com perguntas simples ou por outro meio que já use. Não a pressione a participar numa conversa formal: a sua voz pode ser considerada sem a expor.']],
 }
 
 const slugify = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 const quote = s => JSON.stringify(s)
 const content = a => {
   const slug = a.id
-  const blocks = [{intro:a.lead}, ...a.sections.flatMap(([h,p])=>[{h2:h,id:slugify(h),toc:h},{p}]), ...(appBridges[a.id] ? [{bridge:appBridges[a.id]}] : []), {summary:a.summary}, {h2:'Em síntese',id:'conclusao',toc:'Conclusão'}, {p:a.end}, {note:'Conteúdo informativo. Não substitui avaliação individual nem orientação clínica ou educativa.'}]
+  const sections = [...a.sections, ...(addedSections[a.id] || [])]
+  const blocks = [{intro:a.lead}, ...sections.flatMap(([h,p])=>[{h2:h,id:slugify(h),toc:h},{p}]), ...(appBridges[a.id] ? [{bridge:appBridges[a.id]}] : []), {summary:a.summary}, {h2:'Em síntese',id:'conclusao',toc:'Conclusão'}, {p:a.end}, {note:'Conteúdo informativo. Não substitui avaliação individual nem orientação clínica ou educativa.'}]
   const faq = [
     ['Este tema aplica-se da mesma forma a todas as crianças?', 'Não. A decisão deve considerar desenvolvimento, preferências, contexto e avaliação individual.'],
     ['Quando devo pedir ajuda?', 'Quando a dificuldade persiste, afeta a comunicação, aprendizagem, segurança ou bem-estar, converse com profissionais qualificados e com a escola, conforme o contexto.'],
