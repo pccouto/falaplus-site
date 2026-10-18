@@ -137,10 +137,12 @@ function header(L, lang, langLinks) {
     .map(([k, hl, label, short]) => `<a href="${langLinks[k] || UI[k].home}" hreflang="${hl}" lang="${hl}" aria-label="${label}"${k === lang ? ' aria-current="page"' : ''}>${short}</a>`).join('')
   return `<a class="skip-link" href="#conteudo">${L.skip}</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs><linearGradient id="instagram-brand-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="24" y2="0"><stop offset="0%" stop-color="#feda75"/><stop offset="28%" stop-color="#fa7e1e"/><stop offset="55%" stop-color="#d62976"/><stop offset="78%" stop-color="#962fbf"/><stop offset="100%" stop-color="#4f5bd5"/></linearGradient></defs>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"/></symbol>
     <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 11v6m0-10h.01"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
   </svg>
 
   <header id="topo" class="site-header">
@@ -150,7 +152,7 @@ function header(L, lang, langLinks) {
       <nav id="site-nav" class="site-nav" aria-label="${L.mainNav}">
         ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
       </nav>
-      <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
+      <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="${L.instagramAria}"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
       <a class="button button-small header-cta" href="${L.home}${L.contactAnchor}">${L.cta} ${arrow}</a>
     </div>
   </header>`
