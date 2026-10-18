@@ -499,7 +499,7 @@ DIAGNOSTIC_ARTICLES.push(
 )
 
 const titleTag = (title, lang) => {
-  const brand = lang === 'pt' ? 'Fala+' : lang === 'en' ? 'Talk+' : 'Habla MÃ¡s'
+  const brand = lang === 'pt' ? 'Fala+' : lang === 'en' ? 'Talk+' : 'Habla M\u00e1s'
   const max = 60 - brand.length - 3
   const short = title.length <= max ? title : `${title.slice(0, max).replace(/\s+\S*$/, '')}\u2026`
   return `${short} · ${brand}`
