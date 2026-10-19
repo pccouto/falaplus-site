@@ -9,12 +9,13 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import { THEMES, CATALOG } from './catalogo.mjs'
 import { LANGS, UI } from './i18n.mjs'
 import { APP_CORRELATIONS, APP_BRIDGE_EXCLUSIONS } from './correlacoes-app.mjs'
+import TIPS from '../dicas/dicas.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
-const ARTICLES_V = '20261019a'
+const ARTICLES_V = '20261019b'
 const MAIN_V = '20261014a'
 const ENGAGEMENT_V = '20261018b'
 const SEARCH_V = '20261019a'
@@ -454,6 +455,56 @@ function buildTopic(lang, key) {
   return path
 }
 
+// falamais.pt/dicas/ (PT): the daily "3 recomendações" reels, each linked to
+// its article. Link in the Instagram bio (Paulo, 2026-10-19).
+function buildTips() {
+  const lang = 'pt'
+  const L = UI[lang]
+  const today = new Date().toISOString().slice(0, 10)
+  const tips = TIPS.filter(t => t.date <= today).sort((a, b) => b.date.localeCompare(a.date))
+  const path = '/dicas/'
+  const url = SITE + path
+  const tipCard = (t, featured) => {
+    const e = entry(t.article)
+    const th = THEMES[e.theme]
+    return `<article class="tip-card${featured ? ' is-today' : ''}" style="--tip-bg:${th.bg};--tip-ink:${th.ink}">
+        <p class="tip-date"><time datetime="${t.date}">${longDate(L, t.date)}</time>${featured ? ' · <strong>Dica de hoje</strong>' : ''}</p>
+        <h${featured ? 2 : 3}>${esc(t.title)}</h${featured ? 2 : 3}>
+        <ol class="tip-list">${t.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
+        <a class="text-link" href="${pathOf(lang, t.article)}">Ler o artigo completo: ${e[lang].title} ${arrow}</a>
+      </article>`
+  }
+  const jsonld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Dicas do dia · Fala Mais', url, inLanguage: L.htmlLang,
+    description: 'Todos os dias, 3 recomendações práticas para quem acompanha a criança, com o artigo completo.' }
+  const html = `${head(L, { title: 'Dicas do dia para quem acompanha a criança · Fala Mais', description: 'Todos os dias, 3 recomendações práticas para comunicar, brincar e aprender com a criança, cada uma com o artigo completo.', canonical: url, ogType: 'website', ogTitle: 'Dicas do dia · Fala Mais', ogDescription: '3 recomendações práticas por dia, com o artigo completo.', jsonld, alternates: [[UI.pt.hreflang, path]] })}
+<body>
+  ${header(L, lang, { pt: path })}
+
+  <main id="conteudo">
+    <section class="article-hero"><div class="wrap">
+      <nav class="breadcrumbs" aria-label="${L.crumbLabel}"><ol><li><a href="${L.home}">${L.crumbHome}</a></li><li><span aria-current="page">Dicas do dia</span></li></ol></nav>
+      <p class="article-tag" style="margin-top:30px"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>Para quem acompanha a criança</p>
+      <h1 class="index-title">Dicas do dia</h1>
+      <p class="lead">Todos os dias, 3 recomendações práticas para comunicar, brincar e aprender com a criança. Cada uma vem de um artigo, para ler com calma.</p>
+    </div></section>
+    <div class="wrap index-body tips-body">
+      ${tips.length ? tipCard(tips[0], true) : ''}
+      ${tips.length > 1 ? `<h2 class="tips-archive-title">Dicas anteriores</h2><div class="tips-grid">${tips.slice(1).map(t => tipCard(t, false)).join('')}</div>` : ''}
+      <p class="tips-follow">Novas dicas todos os dias no Instagram <a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener">@falamais.app</a>. Mais de 100 artigos em <a href="${L.base}">${L.articlesTab}</a>.</p>
+    </div>
+    ${cta(L)}
+  </main>
+
+  ${footer(L)}
+</body>
+</html>
+`
+  mkdirSync(join(ROOT, 'dicas'), { recursive: true })
+  const outputFile = join(ROOT, 'dicas', 'index.html')
+  writeFileSync(outputFile, preserveExistingMascot(outputFile, html))
+  return path
+}
+
 const built = []
 const articleContent = new Map()
 for (const lang of LANGS) {
@@ -472,6 +523,7 @@ for (const lang of LANGS) {
   built.push(SITE + UI[lang].base)
   for (const key of Object.keys(THEMES)) if (liveIn(lang, key).length) built.push(SITE + buildTopic(lang, key))
 }
+built.push(SITE + buildTips())
 // Keep each localized homepage banner linked to the newest published Portuguese article.
 const newest = CATALOG.map((e, order) => ({ e, order, article: articleContent.get('pt:' + e.id) }))
   .filter(x => x.article && x.e.pt?.live)
@@ -494,7 +546,7 @@ writeFileSync(join(HERE, 'urls.txt'), built.join('\n') + '\n')
 // sitemap.xml: replace every article URL with the ones just built, before the privacy pages.
 const sitemapPath = join(ROOT, 'sitemap.xml')
 const today = new Date().toISOString().slice(0, 10)
-const isArticleUrl = line => LANGS.some(k => line.includes(`<loc>${SITE}${UI[k].base}`))
+const isArticleUrl = line => line.includes(`<loc>${SITE}/dicas/`) || LANGS.some(k => line.includes(`<loc>${SITE}${UI[k].base}`))
 const kept = readFileSync(sitemapPath, 'utf8').split(/\r?\n/).filter(line => !isArticleUrl(line))
 const at = kept.findIndex(line => line.includes('privacy-policy'))
 kept.splice(at, 0, ...built.map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`))
