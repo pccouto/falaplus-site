@@ -5,6 +5,7 @@
 import SCHOOL_CATALOG from './catalogo-escola.mjs'
 import NEW_CATALOG from './catalogo-novos.mjs'
 import { diagnosticCatalog } from './diagnosticos-data.mjs'
+import THERAPY_CATALOG from './catalogo-terapias.mjs'
 export const THEMES = {
   avaliacao: {
     tagClass: '', bg: '#e7edf7', ink: '#365778',
@@ -23,6 +24,12 @@ export const THEMES = {
     pt: { name: 'Fala e linguagem', intro: 'Como a criança aprende a comunicar e quando procurar ajuda.' },
     en: { name: 'Speech and language', intro: 'How children learn to communicate and when to seek help.' },
     es: { name: 'Habla y lenguaje', intro: 'Cómo aprenden los niños a comunicarse y cuándo pedir ayuda.' },
+  },
+  terapias: {
+    tagClass: 'tag-fala', bg: '#f4e8dc', ink: '#75513a',
+    pt: { name: 'Terapias e acompanhamento', intro: 'O que acontece nas diferentes intervenções, os seus objetivos, a evidência disponível e como se articulam em torno da criança.' },
+    en: { name: 'Therapies and support', intro: 'What different interventions involve, their goals, available evidence and how support can be coordinated around the child.' },
+    es: { name: 'Terapias y acompañamiento', intro: 'Qué implican distintas intervenciones, sus objetivos, la evidencia disponible y cómo coordinar los apoyos alrededor del niño.' },
   },
   jogos: {
     tagClass: 'tag-jogos', bg: '#fbe8d7', ink: '#825438',
@@ -465,4 +472,4 @@ export const CATALOG = [
     es: { live, slug: 'obligar-a-comer-aumenta-la-variedad', title: "¿Obligar al niño a comer ayuda a aceptar alimentos?", teaser: "La alimentación responsiva apoya la autonomía y la seguridad: cómo ofrecer alimentos sin presión." } },
 ]
 
-CATALOG.push(...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog())
+CATALOG.push(...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...THERAPY_CATALOG)

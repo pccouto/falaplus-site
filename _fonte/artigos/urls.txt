@@ -4,6 +4,7 @@ https://falamais.pt/artigos/ados-2-diagnostica-autismo-sozinho/
 https://falamais.pt/artigos/amizades-participacao-social-escola/
 https://falamais.pt/artigos/ansiedade-escolar-assiduidade-neurodivergencia/
 https://falamais.pt/artigos/apoiar-a-crianca-a-expressar-o-que-pretende/
+https://falamais.pt/artigos/apoio-comportamental-positivo-deficiencia-intelectual/
 https://falamais.pt/artigos/apoio-no-ensino-secundario-neurodivergencia/
 https://falamais.pt/artigos/apoios-escolares-evolucao-desafios-recursos/
 https://falamais.pt/artigos/apraxia-da-fala-infantil/
@@ -28,11 +29,13 @@ https://falamais.pt/artigos/caa-impede-a-fala/
 https://falamais.pt/artigos/casos-praticas-inclusivas-escolas-portuguesas/
 https://falamais.pt/artigos/centros-recursos-inclusao-escola/
 https://falamais.pt/artigos/como-compreender-relatorio-clinico-perguntas/
+https://falamais.pt/artigos/como-escolher-terapias-acompanhamento-crianca/
 https://falamais.pt/artigos/comportamento-dificil-quebra-comunicacao/
 https://falamais.pt/artigos/comunicacao-aumentativa-e-alternativa/
 https://falamais.pt/artigos/comunicacao-multimodal-gestos-sinais/
 https://falamais.pt/artigos/comunicacao-nao-verbal/
 https://falamais.pt/artigos/comunicacao-nas-rotinas-diarias/
+https://falamais.pt/artigos/comunicacao-paralisia-cerebral-terapia-da-fala/
 https://falamais.pt/artigos/criterios-diagnosticos-autismo-interpretar-relatorio/
 https://falamais.pt/artigos/crtic-tecnologias-apoio-escola/
 https://falamais.pt/artigos/curriculo-individualizado-expectativas-altas/
@@ -51,11 +54,14 @@ https://falamais.pt/artigos/escolher-aplicacao-comunicacao-caa/
 https://falamais.pt/artigos/estimular-aumenta-inteligencia/
 https://falamais.pt/artigos/fala-tardia-recupera-sozinha/
 https://falamais.pt/artigos/fisioterapia-na-escola/
+https://falamais.pt/artigos/fisioterapia-paralisia-cerebral-criancas/
+https://falamais.pt/artigos/formacao-cuidadores-criancas-atraso-desenvolvimento/
 https://falamais.pt/artigos/funcoes-executivas-aprendizagem-escolar/
 https://falamais.pt/artigos/gaguez-infantil/
 https://falamais.pt/artigos/gamificacao-neuroplasticidade-jogos/
 https://falamais.pt/artigos/importancia-do-brincar/
 https://falamais.pt/artigos/inclusao-escolar-criancas-dificuldades-comunicacao/
+https://falamais.pt/artigos/integracao-sensorial-terapia-ocupacional-evidencia/
 https://falamais.pt/artigos/intervencoes-naturalistas-autismo-evidencia/
 https://falamais.pt/artigos/jogos-de-logica-para-criancas/
 https://falamais.pt/artigos/jogos-de-memoria-para-criancas/
@@ -68,6 +74,7 @@ https://falamais.pt/artigos/medidas-universais-seletivas-adicionais/
 https://falamais.pt/artigos/mito-sopros-exercicios-faciais-fala/
 https://falamais.pt/artigos/mito-tecnologia-isola-crianca-autismo/
 https://falamais.pt/artigos/modelagem-caa-app-crianca/
+https://falamais.pt/artigos/musicoterapia-criancas-autistas-evidencia/
 https://falamais.pt/artigos/mutismo-seletivo/
 https://falamais.pt/artigos/obrigar-crianca-a-comer/
 https://falamais.pt/artigos/pac-vs-dificuldades-audicao/
@@ -96,8 +103,16 @@ https://falamais.pt/artigos/sono-desenvolvimento-linguagem/
 https://falamais.pt/artigos/taxa-acerto-jogos-e-desenvolvimento-global/
 https://falamais.pt/artigos/tempo-de-ecra-criancas/
 https://falamais.pt/artigos/terapeuta-da-fala-na-escola/
+https://falamais.pt/artigos/terapia-alimentacao-degluticao-pediatrica/
+https://falamais.pt/artigos/terapia-cognitivo-comportamental-autismo-ansiedade/
+https://falamais.pt/artigos/terapia-da-arte-autismo-evidencia/
+https://falamais.pt/artigos/terapia-da-fala-deficiencia-intelectual/
 https://falamais.pt/artigos/terapia-da-fala-em-casa/
+https://falamais.pt/artigos/terapia-da-fala-sindrome-down/
+https://falamais.pt/artigos/terapia-miofuncional-orofacial-criancas/
 https://falamais.pt/artigos/terapia-ocupacional-na-escola/
+https://falamais.pt/artigos/terapia-psicologica-atraves-brincar-criancas/
+https://falamais.pt/artigos/terapia-psicomotora-desenvolvimento-crianca/
 https://falamais.pt/artigos/teste-online-diagnostica-autismo/
 https://falamais.pt/artigos/transicao-ciclos-escolares-neurodivergencia/
 https://falamais.pt/artigos/vacinas-e-autismo/
@@ -110,6 +125,7 @@ https://falamais.pt/en/articles/adaptations-in-assessment-how-to-ensure-that-the
 https://falamais.pt/en/articles/adhd-assessment-in-children/
 https://falamais.pt/en/articles/after-compulsory-education-options-rights-and-continuity/
 https://falamais.pt/en/articles/another-childs-report-is-not-a-template/
+https://falamais.pt/en/articles/positive-behavioural-support-intellectual-disability/
 https://falamais.pt/en/articles/augmentative-and-alternative-communication/
 https://falamais.pt/en/articles/autism-and-communication/
 https://falamais.pt/en/articles/autism-and-learning-differences-in-secondary-education/
@@ -125,6 +141,8 @@ https://falamais.pt/en/articles/central-auditory-processing-pac-vs-hearing-diffi
 https://falamais.pt/en/articles/childhood-apraxia-of-speech/
 https://falamais.pt/en/articles/choosing-an-aac-communication-app/
 https://falamais.pt/en/articles/communication-in-daily-routines/
+https://falamais.pt/en/articles/how-to-choose-compare-therapies-child/
+https://falamais.pt/en/articles/speech-communication-cerebral-palsy/
 https://falamais.pt/en/articles/crtic-and-supporting-technologies-how-to-request-assessment-at-school/
 https://falamais.pt/en/articles/developmental-language-disorder-assessment/
 https://falamais.pt/en/articles/developmental-screening-or-diagnosis/
@@ -142,6 +160,8 @@ https://falamais.pt/en/articles/emaei-what-does-the-multidisciplinary-team-to-su
 https://falamais.pt/en/articles/executive-functions-at-school-supporting-planning-attention-and/
 https://falamais.pt/en/articles/female-autism-warning-signs-and-recognition-in-girls/
 https://falamais.pt/en/articles/first-speech-therapy-appointment/
+https://falamais.pt/en/articles/physiotherapy-cerebral-palsy-children/
+https://falamais.pt/en/articles/caregiver-training-child-developmental-disabilities/
 https://falamais.pt/en/articles/friendships-and-social-participation-at-school-supporting-without/
 https://falamais.pt/en/articles/game-accuracy-and-overall-development/
 https://falamais.pt/en/articles/gamification-and-neuroplasticity-what-structured-video-games-can-teach/
@@ -155,6 +175,7 @@ https://falamais.pt/en/articles/inclusive-preschool-education-supporting-partici
 https://falamais.pt/en/articles/individual-educational-program-objectives-curriculum-and-family/
 https://falamais.pt/en/articles/individual-transition-plan-preparing-for-life-after-school/
 https://falamais.pt/en/articles/individualized-curriculum-adapt-access-and-maintain-high-expectations/
+https://falamais.pt/en/articles/sensory-integration-occupational-therapy-evidence/
 https://falamais.pt/en/articles/language-development-in-children/
 https://falamais.pt/en/articles/language-milestones-ages-2-to-5/
 https://falamais.pt/en/articles/late-talkers-always-catch-up/
@@ -162,6 +183,7 @@ https://falamais.pt/en/articles/logic-games-for-kids/
 https://falamais.pt/en/articles/memory-games-for-kids/
 https://falamais.pt/en/articles/modeling-in-aac-how-adults-should-talk-using-the-child-s-app/
 https://falamais.pt/en/articles/multimodal-communication-gestures-and-signs-before-verbal-speech/
+https://falamais.pt/en/articles/music-therapy-autistic-children-evidence/
 https://falamais.pt/en/articles/myth-app-report-assesses-development/
 https://falamais.pt/en/articles/myth-or-truth-does-technology-isolate-children-with-autism/
 https://falamais.pt/en/articles/myth-or-truth-facial-muscle-exercises-and-blowing-speed-up-speech/
@@ -196,6 +218,14 @@ https://falamais.pt/en/articles/supporting-a-child-to-express-needs/
 https://falamais.pt/en/articles/taking-an-app-report-to-an-appointment/
 https://falamais.pt/en/articles/talk-plus-weekly-report-what-games-show/
 https://falamais.pt/en/articles/technical-pedagogical-report-what-it-is-for-and-what-it-should-clarify/
+https://falamais.pt/en/articles/paediatric-feeding-swallowing-therapy/
+https://falamais.pt/en/articles/cbt-autism-anxiety-children/
+https://falamais.pt/en/articles/art-therapy-autism-evidence/
+https://falamais.pt/en/articles/speech-therapy-intellectual-disability/
+https://falamais.pt/en/articles/speech-therapy-down-syndrome/
+https://falamais.pt/en/articles/orofacial-myofunctional-therapy-children/
+https://falamais.pt/en/articles/play-therapy-children-what-to-expect/
+https://falamais.pt/en/articles/psychomotor-therapy-child-development/
 https://falamais.pt/en/articles/the-impact-of-sleep-on-language-development/
 https://falamais.pt/en/articles/tracking-child-communication-progress/
 https://falamais.pt/en/articles/transition-between-cycles-preparing-changes-without-losing-support/
@@ -213,6 +243,7 @@ https://falamais.pt/es/articulos/actividades-para-estimular-el-lenguaje/
 https://falamais.pt/es/articulos/adaptaciones-en-la-evaluacion-como-conseguir-que-el-alumno-demuestre-lo/
 https://falamais.pt/es/articulos/amistades-y-participacion-social-en-la-escuela-apoyar-sin-forzar/
 https://falamais.pt/es/articulos/ansiedad-escolar-y-ausencias-entender-antes-de-presionar/
+https://falamais.pt/es/articulos/apoyo-conductual-positivo-discapacidad-intelectual/
 https://falamais.pt/es/articulos/apoyar-expresion-necesidades/
 https://falamais.pt/es/articulos/apoyo-a-la-educacion-inclusiva-evolucion-recursos-y-desafios-actuales/
 https://falamais.pt/es/articulos/apraxia-del-habla-infantil/
@@ -226,6 +257,8 @@ https://falamais.pt/es/articulos/bilinguismo-y-retraso-del-habla/
 https://falamais.pt/es/articulos/caduca-un-informe-diagnostico/
 https://falamais.pt/es/articulos/centros-recursos-inclusion-escuela/
 https://falamais.pt/es/articulos/como-entender-informe-clinico-nino/
+https://falamais.pt/es/articulos/como-elegir-comparar-terapias-infantiles/
+https://falamais.pt/es/articulos/logopedia-comunicacion-paralisis-cerebral/
 https://falamais.pt/es/articulos/comunicacion-aumentativa-y-alternativa/
 https://falamais.pt/es/articulos/comunicacion-en-rutinas-diarias/
 https://falamais.pt/es/articulos/comunicacion-multimodal-gestos-y-signos-antes-del-habla-verbal/
@@ -260,6 +293,8 @@ https://falamais.pt/es/articulos/evaluacion-del-autismo-que-incluye/
 https://falamais.pt/es/articulos/evaluacion-del-tdah-en-ninos/
 https://falamais.pt/es/articulos/evaluacion-del-trastorno-del-desarrollo-del-lenguaje/
 https://falamais.pt/es/articulos/fisioterapia-en-la-escuela/
+https://falamais.pt/es/articulos/fisioterapia-paralisis-cerebral-infantil/
+https://falamais.pt/es/articulos/formacion-cuidadores-desarrollo-infantil/
 https://falamais.pt/es/articulos/funciones-ejecutivas-en-la-escuela-apoyo-a-la-planificacion-la-atencion/
 https://falamais.pt/es/articulos/gamificacion-y-neuroplasticidad-lo-que-pueden-ensenar-los-videojuegos/
 https://falamais.pt/es/articulos/hitos-desarrollo-lenguaje-2-a-5-anos/
@@ -268,6 +303,7 @@ https://falamais.pt/es/articulos/inclusion-escolar-comunicacion/
 https://falamais.pt/es/articulos/informe-semanal-habla-mas-que-muestran-juegos/
 https://falamais.pt/es/articulos/informe-tecnico-pedagogico-para-que-sirve-y-que-debe-aclarar/
 https://falamais.pt/es/articulos/informes-diferentes-aclaracion-segunda-opinion/
+https://falamais.pt/es/articulos/integracion-sensorial-terapia-ocupacional-evidencia/
 https://falamais.pt/es/articulos/intervenciones-naturalistas-en-el-autismo-objetivos-y-limites-de-la/
 https://falamais.pt/es/articulos/juego-guiado-o-libre-encontrar-el-equilibrio-tambien-en-lo-digital/
 https://falamais.pt/es/articulos/juego-simbolico/
@@ -288,6 +324,7 @@ https://falamais.pt/es/articulos/mito-o-verdad-la-tecnologia-aisla-a-los-ninos-c
 https://falamais.pt/es/articulos/mito-o-verdad-los-ejercicios-de-los-musculos-faciales-y-los-soplos/
 https://falamais.pt/es/articulos/mito-pueden-coexistir-autismo-y-tdah/
 https://falamais.pt/es/articulos/modelado-en-caa-como-deben-hablar-los-adultos-usando-la-app-del-nino/
+https://falamais.pt/es/articulos/musicoterapia-autismo-infantil-evidencia/
 https://falamais.pt/es/articulos/mutismo-selectivo/
 https://falamais.pt/es/articulos/obligar-a-comer-aumenta-la-variedad/
 https://falamais.pt/es/articulos/personalizacion-aprendizaje-infantil/
@@ -307,7 +344,15 @@ https://falamais.pt/es/articulos/seguir-progresos-comunicacion/
 https://falamais.pt/es/articulos/selectividad-alimentaria-autismo-mala-crianza/
 https://falamais.pt/es/articulos/snipi-intervencion-temprana-y-transicion-a-la-escuela/
 https://falamais.pt/es/articulos/tartamudez-infantil/
+https://falamais.pt/es/articulos/terapia-alimentacion-deglucion-infantil/
+https://falamais.pt/es/articulos/terapia-cognitivo-conductual-autismo-ansiedad/
+https://falamais.pt/es/articulos/arteterapia-autismo-evidencia/
+https://falamais.pt/es/articulos/logopedia-discapacidad-intelectual/
+https://falamais.pt/es/articulos/logopedia-sindrome-down/
+https://falamais.pt/es/articulos/terapia-miofuncional-orofacial-ninos/
 https://falamais.pt/es/articulos/terapia-ocupacional-en-la-escuela/
+https://falamais.pt/es/articulos/terapia-psicologica-juego-infantil/
+https://falamais.pt/es/articulos/terapia-psicomotriz-desarrollo-infantil/
 https://falamais.pt/es/articulos/tiempo-de-pantalla-ninos/
 https://falamais.pt/es/articulos/transicion-entre-ciclos-preparar-cambios-sin-perder-apoyo/
 https://falamais.pt/es/articulos/umbrales-pruebas-cribado-sensibilidad-especificidad/
