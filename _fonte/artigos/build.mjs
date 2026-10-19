@@ -14,13 +14,68 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
-const ARTICLES_V = '20261017b'
+const ARTICLES_V = '20261019a'
 const MAIN_V = '20261014a'
 const ENGAGEMENT_V = '20261018b'
+const SEARCH_V = '20261019a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = s => String(s).replace(/<[^>]+>/g, '')
 const arrow = '<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>'
+
+// Paulo, 2026-10-19 (site audit): search, topic navigation, one page per topic
+// and "Continuar a ler" cards so no article is left without inbound links.
+const NAV = {
+  pt: {
+    topicDir: 'tema', topics: 'Temas', searchLabel: 'Pesquisar artigos', searchPlaceholder: 'Pesquisar (ex.: autismo, CAA)',
+    none: 'Nenhum artigo encontrado. Experimenta outra palavra ou escolhe um tema.', results: n => n === 1 ? '1 artigo encontrado' : `${n} artigos encontrados`,
+    clear: 'Limpar', count: n => n === 1 ? '1 artigo' : `${n} artigos`, continueTitle: 'Continuar a ler', allIn: name => `Ver todos os artigos de ${name}`,
+    allArticles: 'Todos os artigos', topicIntro: 'Todos os artigos deste tema, para ler pela ordem que preferir.',
+  },
+  en: {
+    topicDir: 'topic', topics: 'Topics', searchLabel: 'Search articles', searchPlaceholder: 'Search (e.g. autism, AAC)',
+    none: 'No articles found. Try another word or choose a topic.', results: n => n === 1 ? '1 article found' : `${n} articles found`,
+    clear: 'Clear', count: n => n === 1 ? '1 article' : `${n} articles`, continueTitle: 'Keep reading', allIn: name => `See all ${name} articles`,
+    allArticles: 'All articles', topicIntro: 'Every article on this topic, to read in any order.',
+  },
+  es: {
+    topicDir: 'tema', topics: 'Temas', searchLabel: 'Buscar artículos', searchPlaceholder: 'Buscar (p. ej.: autismo, CAA)',
+    none: 'No se ha encontrado ningún artículo. Prueba otra palabra o elige un tema.', results: n => n === 1 ? '1 artículo encontrado' : `${n} artículos encontrados`,
+    clear: 'Borrar', count: n => n === 1 ? '1 artículo' : `${n} artículos`, continueTitle: 'Seguir leyendo', allIn: name => `Ver todos los artículos de ${name}`,
+    allArticles: 'Todos los artículos', topicIntro: 'Todos los artículos de este tema, para leer en el orden que prefieras.',
+  },
+}
+const slugify = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+const topicPath = (lang, key) => UI[lang].base + NAV[lang].topicDir + '/' + slugify(THEMES[key][lang].name) + '/'
+const liveIn = (lang, key) => CATALOG.filter(e => e.theme === key && e[lang]?.live)
+// Card used by the index, the topic pages and "Continuar a ler". data-search
+// holds title, teaser, topic, kind and the article keywords (accent-free match in artigos-search.js).
+const articleCard = (lang, e, { keywords = [] } = {}) => {
+  const L = UI[lang]
+  const t = THEMES[e.theme]
+  const c = e[lang]
+  if (!c?.live) return `<div class="article-card is-soon"><span class="soon-tag">${L.index.soon}</span><h3>${c?.title || ''}</h3><p>${c?.teaser || ''}</p></div>`
+  const kind = e.kind?.[lang] || L.guide
+  const search = esc([c.title, c.teaser, t[lang].name, kind, ...keywords].map(strip).join(' '))
+  return `<a class="article-card" data-search="${search}" style="background:${t.bg};color:${t.ink}" href="${pathOf(lang, e.id)}"><span class="feature-label">${kind}</span><h3>${c.title}</h3><p>${c.teaser}</p><span class="text-link">${L.index.read} ${arrow}</span></a>`
+}
+const searchBox = lang => {
+  const N = NAV[lang]
+  return `<div class="article-search" data-article-search role="search">
+        <label class="visually-hidden" for="article-search-input">${N.searchLabel}</label>
+        <svg class="icon search-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M20 20l-3.6-3.6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <input id="article-search-input" type="search" autocomplete="off" placeholder="${esc(N.searchPlaceholder)}" data-search-input>
+        <button type="button" class="search-clear" data-search-clear hidden>${N.clear}</button>
+        <p class="search-status" data-search-status aria-live="polite" data-none="${esc(N.none)}" data-one="${esc(N.results(1))}" data-many="${esc(N.results(2).replace('2', '{n}'))}"></p>
+      </div>`
+}
+const topicBar = (lang, current) => {
+  const N = NAV[lang]
+  return `<nav class="topic-bar" aria-label="${N.topics}"><a href="${UI[lang].base}"${current ? '' : ' aria-current="page"'}>${N.allArticles}</a>${Object.keys(THEMES).map(key => {
+    const n = liveIn(lang, key).length
+    return n ? `<a href="${topicPath(lang, key)}"${current === key ? ' aria-current="page"' : ''}>${THEMES[key][lang].name}<span class="topic-count">${n}</span></a>` : ''
+  }).join('')}</nav>`
+}
 const longDate = (L, iso) => { const [y, m, d] = iso.split('-').map(Number); return L.date(d, L.months[m - 1], y) }
 const preserveExistingMascot = (file, html) => {
   if (!existsSync(file)) return html
@@ -204,13 +259,21 @@ function buildArticle(lang, a) {
         '@type': 'BreadcrumbList', itemListElement: [
           { '@type': 'ListItem', position: 1, name: L.crumbHome, item: SITE + L.home },
           { '@type': 'ListItem', position: 2, name: L.articlesTab, item: SITE + L.base },
-          { '@type': 'ListItem', position: 3, name: a.short },
+          { '@type': 'ListItem', position: 3, name: themeName, item: SITE + topicPath(lang, e.theme) },
+          { '@type': 'ListItem', position: 4, name: a.short },
         ],
       },
       { '@type': 'FAQPage', mainEntity: faqItems.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: strip(ans).replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g, '$1') } })) },
     ],
   }
   const related = (a.related || []).filter(id => CATALOG.some(candidate => candidate.id === id && candidate[lang]?.live))
+  // "Continuar a ler": the hand-picked related articles first, then the next
+  // articles of the same topic in catalogue order (wrapping), so every article
+  // is linked from the one before it.
+  const sameTopic = liveIn(lang, e.theme)
+  const at = sameTopic.findIndex(c => c.id === a.id)
+  const following = sameTopic.slice(at + 1).concat(sameTopic.slice(0, Math.max(0, at))).map(c => c.id)
+  const nextIds = [...new Set([...following.slice(0, 1), ...related, ...following.slice(1)])].filter(id => id !== a.id).slice(0, 3)
   const interactionLabels = L.interactions
   const html = `${head(L, { title: a.titleTag, description: a.description, canonical: url, ogType: 'article', ogTitle: strip(a.h1), ogDescription: a.ogDescription || a.description, extra: `\n  <meta property="article:published_time" content="${a.date}">\n  <meta property="article:section" content="${themeName}">`, jsonld, alternates })}
 <body>
@@ -219,7 +282,7 @@ function buildArticle(lang, a) {
   <main id="conteudo">
     <section class="article-hero">
       <div class="wrap">
-        <nav class="breadcrumbs" aria-label="${L.crumbLabel}"><ol><li><a href="${L.home}">${L.crumbHome}</a></li><li><a href="${L.base}">${L.articlesTab}</a></li><li><span aria-current="page">${themeName}</span></li></ol></nav>
+        <nav class="breadcrumbs" aria-label="${L.crumbLabel}"><ol><li><a href="${L.home}">${L.crumbHome}</a></li><li><a href="${L.base}">${L.articlesTab}</a></li><li><a href="${topicPath(lang, e.theme)}">${themeName}</a></li></ol></nav>
         <div class="article-hero-grid">
           <div>
             <p class="article-tag ${theme.tagClass}"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>${themeName} · ${kind}</p>
@@ -256,8 +319,8 @@ function buildArticle(lang, a) {
             ${a.sources.map(s => `<li>${s}</li>`).join('\n            ')}
           </ol>
         </section>
-${related.length ? `
-        <nav class="related" aria-label="${L.related}"><p class="related-title">${L.related}</p><ul>${related.map(id => `<li><a href="${pathOf(lang, id)}">${entry(id)[lang].title}</a></li>`).join('')}</ul></nav>
+${nextIds.length ? `
+        <section class="continue-reading" aria-labelledby="continuar"><h2 id="continuar">${NAV[lang].continueTitle}</h2><div class="article-cards">${nextIds.map(id => articleCard(lang, entry(id))).join('')}</div><a class="text-link topic-all" href="${topicPath(lang, e.theme)}">${NAV[lang].allIn(themeName)} ${arrow}</a></section>
 ` : ''}
         <p class="article-updated">${L.published(longDate(L, a.date), longDate(L, a.updated || a.date))}</p>
       </article>
@@ -287,16 +350,10 @@ ${related.length ? `
 function buildIndex(lang) {
   const L = UI[lang]
   const I = L.index
-  const card = e => {
-    const t = THEMES[e.theme]
-    const c = e[lang]
-    return c?.live
-      ? `<a class="article-card" style="background:${t.bg};color:${t.ink}" href="${pathOf(lang, e.id)}"><span class="feature-label">${e.kind?.[lang] || L.guide}</span><h3>${c.title}</h3><p>${c.teaser}</p><span class="text-link">${I.read} ${arrow}</span></a>`
-      : `<div class="article-card is-soon"><span class="soon-tag">${I.soon}</span><h3>${c?.title || ''}</h3><p>${c?.teaser || ''}</p></div>`
-  }
+  const card = e => articleCard(lang, e, { keywords: articleContent.get(lang + ':' + e.id)?.keywords || [] })
   const popularItems = CATALOG.filter(e => e[lang]?.live).map(e => ({ id: e.id, title: e[lang].title, teaser: e[lang].teaser, path: pathOf(lang, e.id), bg: THEMES[e.theme].bg, ink: THEMES[e.theme].ink, kind: e.kind?.[lang] || L.guide }))
   const popularData = JSON.stringify(popularItems).replace(/</g, '\\u003c')
-  const sections = Object.entries(THEMES).map(([key, t]) => `      <section class="topic-block"><h2>${t[lang].name}</h2><p>${t[lang].intro}</p><div class="article-cards">${CATALOG.filter(e => e.theme === key && e[lang]).map(card).join('')}</div></section>`).join('\n')
+  const sections = Object.entries(THEMES).map(([key, t]) => `      <section class="topic-block" id="${slugify(t[lang].name)}" data-topic-block><h2><a href="${topicPath(lang, key)}">${t[lang].name}</a></h2><p>${t[lang].intro} <a class="topic-more" href="${topicPath(lang, key)}">${NAV[lang].count(liveIn(lang, key).length)} ${arrow}</a></p><div class="article-cards">${CATALOG.filter(e => e.theme === key && e[lang]).map(card).join('')}</div></section>`).join('\n')
   const url = SITE + L.base
   const jsonld = {
     '@context': 'https://schema.org',
@@ -319,6 +376,8 @@ function buildIndex(lang) {
       <p class="lead">${I.lead}</p>
     </div></section>
     <div class="wrap index-body">
+      ${searchBox(lang)}
+      ${topicBar(lang, null)}
       <section class="popular-section" data-popular-articles data-loading="true" aria-labelledby="popular-title">
         <h2 id="popular-title">${I.popularTitle}</h2><p>${I.popularIntro}</p>
         <p class="popular-status" data-popular-status aria-live="polite">${I.popularLoading}</p>
@@ -326,10 +385,12 @@ function buildIndex(lang) {
         <script type="application/json" data-article-catalog>${popularData}</script>
       </section>
 ${sections}
+      <p class="search-none" data-search-none hidden>${NAV[lang].none}</p>
     </div>
   </main>
 
   ${footer(L)}
+  <script src="/artigos-search.js?v=${SEARCH_V}" defer></script>
 </body>
 </html>
 `
@@ -337,6 +398,60 @@ ${sections}
   mkdirSync(dir, { recursive: true })
   const outputFile = join(dir, 'index.html')
   writeFileSync(outputFile, preserveExistingMascot(outputFile, html))
+}
+
+function buildTopic(lang, key) {
+  const L = UI[lang]
+  const N = NAV[lang]
+  const t = THEMES[key]
+  const items = CATALOG.filter(e => e.theme === key && e[lang])
+  const path = topicPath(lang, key)
+  const url = SITE + path
+  const card = e => articleCard(lang, e, { keywords: articleContent.get(lang + ':' + e.id)?.keywords || [] })
+  const jsonld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'CollectionPage', name: t[lang].name, url, inLanguage: L.htmlLang, description: t[lang].intro },
+      { '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: L.crumbHome, item: SITE + L.home },
+        { '@type': 'ListItem', position: 2, name: L.articlesTab, item: SITE + L.base },
+        { '@type': 'ListItem', position: 3, name: t[lang].name },
+      ] },
+      { '@type': 'ItemList', itemListElement: items.filter(e => e[lang].live).map((e, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + pathOf(lang, e.id), name: e[lang].title })) },
+    ],
+  }
+  const alternates = LANGS.map(k => [UI[k].hreflang, topicPath(k, key)])
+  const langLinks = Object.fromEntries(LANGS.map(k => [k, topicPath(k, key)]))
+  const title = `${t[lang].name} · ${L.articlesTab} · ${L.brand}`
+  const html = `${head(L, { title, description: t[lang].intro, canonical: url, ogType: 'website', ogTitle: t[lang].name, ogDescription: t[lang].intro, jsonld, alternates })}
+<body>
+  ${header(L, lang, langLinks)}
+
+  <main id="conteudo">
+    <section class="article-hero"><div class="wrap">
+      <nav class="breadcrumbs" aria-label="${L.crumbLabel}"><ol><li><a href="${L.home}">${L.crumbHome}</a></li><li><a href="${L.base}">${L.articlesTab}</a></li><li><span aria-current="page">${t[lang].name}</span></li></ol></nav>
+      <p class="article-tag ${t.tagClass}" style="margin-top:30px"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg>${N.count(liveIn(lang, key).length)}</p>
+      <h1 class="index-title">${t[lang].name}</h1>
+      <p class="lead">${t[lang].intro}</p>
+    </div></section>
+    <div class="wrap index-body">
+      ${searchBox(lang)}
+      ${topicBar(lang, key)}
+      <section class="topic-block topic-page-list" data-topic-block><div class="article-cards">${items.map(card).join('')}</div></section>
+      <p class="search-none" data-search-none hidden>${N.none}</p>
+    </div>
+  </main>
+
+  ${footer(L)}
+  <script src="/artigos-search.js?v=${SEARCH_V}" defer></script>
+</body>
+</html>
+`
+  const dir = join(ROOT, ...path.split('/').filter(Boolean))
+  mkdirSync(dir, { recursive: true })
+  const outputFile = join(dir, 'index.html')
+  writeFileSync(outputFile, preserveExistingMascot(outputFile, html))
+  return path
 }
 
 const built = []
@@ -355,6 +470,7 @@ for (const lang of LANGS) {
   }
   buildIndex(lang)
   built.push(SITE + UI[lang].base)
+  for (const key of Object.keys(THEMES)) if (liveIn(lang, key).length) built.push(SITE + buildTopic(lang, key))
 }
 // Keep each localized homepage banner linked to the newest published Portuguese article.
 const newest = CATALOG.map((e, order) => ({ e, order, article: articleContent.get('pt:' + e.id) }))
