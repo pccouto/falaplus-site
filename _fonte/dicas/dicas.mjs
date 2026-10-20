@@ -7,7 +7,7 @@
 export default [
   { date: '2026-10-19', title: '3 ideias para comunicar com imagens', article: 'comunicacao-aumentativa-e-alternativa',
     tips: ['Mostre a imagem e diga o nome, com calma.', 'Dê a escolher entre duas: «água ou leite?».', 'Espere e acolha a resposta: um toque, um gesto ou a voz, tudo conta.'] },
-  { date: '2026-10-20', title: '3 regras de ouro para conversar com a criança', article: 'brincadeiras-para-estimular-a-fala',
+  { date: '2026-10-20', title: 'Fazes muitas vezes esta pergunta à criança: «O que é isto?»', article: 'brincadeiras-para-estimular-a-fala',
     tips: ['Siga o interesse da criança: se ela adora carros, fale de carros.', 'Comente mais, pergunte menos: «O cão está a correr!» convida mais do que «O que é isto?».', 'Espere: conte mentalmente até cinco antes de voltar a falar.'] },
   { date: '2026-10-21', title: '3 brincadeiras simples para estimular a fala', article: 'brincadeiras-para-estimular-a-fala',
     tips: ['Bolas de sabão: sopre e pare. Espere que a criança peça «mais», com uma palavra, um gesto ou um olhar.', 'Canções com gestos: pare antes da última palavra e deixe a criança completar.', 'Agora eu, agora tu: empilhar blocos ou rolar uma bola à vez. Os turnos são a base da conversa.'] },
