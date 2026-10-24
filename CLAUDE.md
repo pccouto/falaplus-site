@@ -22,7 +22,7 @@ Público: famílias, terapeutas da fala e educadores, em português de Portugal.
 
 - Só afirmar o que a app realmente faz. Números e funcionalidades (ex.: "mais de 40 jogos", "sem publicidade", planos) têm de ser confirmados com o Paulo sempre que a app mudar.
 - Não publicar nomes, fotografias ou dados de crianças reais em capturas de ecrã.
-- Mascotes animadas (Lottie) **não** entram no site até o Paulo confirmar que a licença permite uso promocional.
+- Mascotes animadas (Lottie) em `assets/mascots/` têm autorização para divulgação no site (confirmado pelo Paulo a 24/10/2026).
 - Texto neutro: "criança", nunca "filho" (terapeutas também usam a app).
 
 ## Estilo
