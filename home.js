@@ -15,7 +15,7 @@ if ('IntersectionObserver' in window && !reduced.matches) {
 // Show the bar once the hero is out of view, hide it again near the form.
 const sticky = document.querySelector('.sticky-cta')
 const hero = document.querySelector('.hero')
-const contact = document.querySelector('#contacto')
+const contact = document.querySelector('.access-section')
 if (sticky && hero && contact && 'IntersectionObserver' in window) {
   let pastHero = false
   let atContact = false
