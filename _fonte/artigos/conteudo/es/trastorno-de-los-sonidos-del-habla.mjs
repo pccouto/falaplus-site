@@ -1,0 +1,77 @@
+export default {
+  id: 'trocas-de-sons-na-fala',
+  slug: 'trastorno-de-los-sonidos-del-habla',
+  short: 'Errores de sonidos en el habla',
+  date: '2026-10-24',
+  titleTag: 'Errores de sonidos en el habla: qué es normal · Habla+',
+  description: '¿El niño cambia sonidos al hablar? Hasta cierta edad es normal. A qué edad se aprenden los sonidos, qué es un trastorno de los sonidos del habla y cuándo pedir ayuda.',
+  keywords: ['trastorno de los sonidos del habla', 'niño cambia letras al hablar', 'dislalia infantil', 'niño no pronuncia la r', 'a qué edad se pronuncian todos los sonidos', 'errores de pronunciación de 3 a 4 años'],
+  h1: 'Errores de sonidos en el habla: qué es <span class="word-highlight">normal</span> y cuándo pedir ayuda',
+  lead: '«Tasa» en lugar de «casa», «pelo» en lugar de «perro»: los errores de sonidos forman parte del camino de casi todos los niños. La cuestión es saber hasta cuándo son esperables y cuándo merecen atención.',
+  blocks: [
+    { intro: 'Los <strong>errores de sonidos en el habla</strong> son uno de los motivos más frecuentes para acudir al logopeda. En este artículo explicamos a qué edad aprenden los niños los sonidos, qué es un <strong>trastorno de los sonidos del habla</strong> (antes llamado a menudo «dislalia») y qué señales justifican una evaluación.' },
+    { summary: [
+      'En una revisión de 27 idiomas, los niños producían correctamente al menos el 93% de las consonantes a los 5 años.',
+      'Sonidos como las oclusivas y las nasales se aprenden antes; la «rr» vibrante, las fricativas y las africadas, más tarde.',
+      'A los 4 años, alrededor del 3,4% de los niños tenían un trastorno de los sonidos del habla en un estudio australiano.',
+      'Casi la mitad de esos niños tenían también dificultades de lenguaje.',
+    ] },
+    { h2: '¿A qué edad pronuncia el niño todos los sonidos?', id: 'idades', toc: 'A qué edad' },
+    { p: 'Una revisión de 64 estudios, con más de 26 000 niños y 27 idiomas, concluyó que <strong>la mayoría de las consonantes se adquieren hacia los 5 años</strong>, edad en la que los niños producían correctamente al menos el 93% de las consonantes (McLeod y Crowe, 2018). El orden es parecido entre idiomas:' },
+    { table: {
+      head: ['Tipo de sonido', 'Ejemplos en español', 'Cuándo suele aparecer'],
+      rows: [
+        ['Oclusivas y nasales', 'p, b, t, d, m, n', 'antes'],
+        ['Fricativas', 'f, s, j, z', 'más tarde'],
+        ['Vibrantes', 'la «r» de «caro», la «rr» de «perro»', 'entre las últimas'],
+        ['Grupos de consonantes', '«plato», «flor»', 'entre los últimos'],
+      ],
+    } },
+    { p: 'Estas edades son referencias de la investigación, no metas exactas: hay variación entre niños y entre idiomas.' },
+    { h2: '¿Qué es un trastorno de los sonidos del habla?', id: 'perturbacao', toc: 'Trastorno de los sonidos' },
+    { p: 'Se habla de trastorno cuando los errores son <strong>más numerosos o más persistentes de lo esperado para la edad</strong>, o cuando son poco habituales. En un estudio australiano con unos 1500 niños, <strong>el 3,4% tenía un trastorno de los sonidos del habla a los 4 años</strong>; de ellos, el 40,8% tenía también un trastorno del lenguaje y el 20,8%, habilidades de prelectura más débiles (Eadie et al., 2015).' },
+    { cards: [
+      ['Errores propios de la edad', 'Simplificaciones frecuentes que van desapareciendo, como decir «tasa» por «casa» a los 3 años.'],
+      ['Errores persistentes', 'Simplificaciones que continúan mucho después de la edad esperada.'],
+      ['Errores atípicos', 'Cambios poco habituales a cualquier edad, que merecen una evaluación antes.'],
+      ['Apraxia del habla', 'Dificultad para planificar los movimientos del habla; consulta [[apraxia-da-fala-infantil|Apraxia del habla infantil]].'],
+    ] },
+    { alert: {
+      title: 'Pide una evaluación al logopeda si:',
+      items: [
+        'a los 3 años, las personas de fuera de la familia entienden poco de lo que dice el niño;',
+        'a los 4 o 5 años, el niño aún comete muchos errores o errores poco habituales;',
+        'el niño se frustra o evita hablar porque no le entienden;',
+        'hay también dificultades de lenguaje o de audición.',
+      ],
+    } },
+    { h2: 'Cómo ayudar sin corregir todo el tiempo', id: 'em-casa', toc: 'En casa' },
+    { ul: [
+      'Repite la palabra con el sonido correcto, de forma natural: «¡Sí, es un perro!», sin pedirle que la repita.',
+      'Valora lo que el niño quería decir antes que cómo lo dijo.',
+      'Juega con rimas, canciones y sonidos de animales.',
+      'Evita los ejercicios de soplo o faciales como sustituto de la logopedia: consulta [[mito-sopros-exercicios-faciais-fala|¿los ejercicios faciales y de soplo aceleran el habla?]].',
+    ] },
+    { bridge: {
+      title: 'Oír buenos modelos y jugar con los sonidos',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['Oír el modelo correcto de las palabras, sin presión para repetir.', 'Los juegos presentan cada palabra con imagen y voz; en Voz Mágica el niño puede hablar, cantar o hacer un sonido, sin que se evalúe la pronunciación.'],
+        ['Jugar con sonidos y rimas.', 'En Jugar libre hay sonidos de animales, instrumentos y el Cactus Parlante, que repite lo que dice el niño.'],
+      ],
+      outro: 'Habla+ no evalúa ni corrige la articulación y no sustituye la logopedia.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre los errores de sonidos',
+  faq: [
+    ['¿Es normal que un niño de 3 años cambie sonidos?', 'Sí, algunos errores son esperables a los 3 años. Lo que preocupa es que las personas de fuera le entiendan poco o que haya errores poco habituales.'],
+    ['¿A qué edad debe pronunciar la «r»?', 'Los sonidos vibrantes están entre los últimos en adquirirse. Si a los 5 o 6 años aún no aparecen, conviene una evaluación.'],
+    ['¿Qué es la dislalia?', 'Es un término antiguo para las dificultades en la producción de los sonidos del habla. Hoy se habla de trastorno de los sonidos del habla.'],
+    ['¿Debo corregir al niño cuando cambia sonidos?', 'Es mejor repetir la palabra con el sonido correcto, de forma natural, sin pedirle que la repita.'],
+  ],
+  sources: [
+    'McLeod y Crowe (2018). Children’s Consonant Acquisition in 27 Languages: A Cross-Linguistic Review. <em>American Journal of Speech-Language Pathology</em>, 27(4), 1546–1571. <a href="https://doi.org/10.1044/2018_AJSLP-17-0100" rel="noopener" target="_blank">doi:10.1044/2018_AJSLP-17-0100</a>',
+    'Eadie et al. (2015). Speech sound disorder at 4 years: prevalence, comorbidities, and predictors in a community cohort of children. <em>Developmental Medicine & Child Neurology</em>, 57(6), 578–584. <a href="https://doi.org/10.1111/dmcn.12635" rel="noopener" target="_blank">doi:10.1111/dmcn.12635</a>',
+  ],
+  related: ['apraxia-da-fala-infantil', 'diferenca-entre-fala-e-linguagem', 'mito-sopros-exercicios-faciais-fala'],
+}

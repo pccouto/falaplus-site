@@ -1,0 +1,63 @@
+export default {
+  id: 'sindrome-de-einstein-falar-tarde',
+  slug: 'einstein-syndrome-late-talkers',
+  short: '«Einstein syndrome»',
+  date: '2026-10-24',
+  titleTag: 'Einstein syndrome: is talking late a sign of intelligence? · Talk+',
+  description: 'What is «Einstein syndrome»? A popular term, not a diagnosis. Why it should not delay the assessment of a late talker, according to research.',
+  keywords: ['Einstein syndrome', 'late talker intelligence', 'smart kids who talk late', 'did Einstein talk late', 'speech delay and intelligence', 'Einstein syndrome vs autism'],
+  h1: '«Einstein syndrome»: is talking late a sign of <span class="word-highlight">intelligence</span>?',
+  lead: 'The story goes that Einstein started talking late, and some people use «Einstein syndrome» to describe bright children who talk late. It is a comforting idea, but it can lead families to wait when they shouldn’t.',
+  blocks: [
+    { intro: '<strong>Einstein syndrome</strong> comes up often in searches by parents of late talkers. In this article we explain where the term comes from, why it is <strong>not a diagnosis</strong> and what research says about children who talk late.' },
+    { summary: [
+      'The term was popularised by economist Thomas Sowell, in a 1997 book, based on families’ accounts.',
+      'It is not a diagnosis: it appears in no medical classification and has no defined criteria.',
+      'Talking late is not a sign of high or low intelligence.',
+      'Studies show some late talkers keep language weaknesses into adolescence; that is why early assessment is recommended.',
+    ] },
+    { h2: 'Where does «Einstein syndrome» come from?', id: 'origem', toc: 'Origin of the term' },
+    { p: 'The expression was popularised by Thomas Sowell, an economist and the father of a late-talking child, in the book <em>Late-Talking Children</em> (1997), based on families’ accounts. Later, drawing on research by Stephen Camarata, he published <em>The Einstein Syndrome</em>. These are popular books, not clinical studies.' },
+    { p: '«Einstein syndrome» <strong>does not appear in medical classifications</strong> (ICD or DSM) and has no defined criteria. At most, it describes a group of children who talked late and later proved very capable.' },
+    { h2: 'Is talking late a sign of intelligence?', id: 'inteligencia', toc: 'Late talking and intelligence' },
+    { p: 'No. Talking late does not indicate high or low intelligence. In a study following late talkers to age 17, all with normal intelligence and comprehension at age 2, results were in the average range but <strong>lower than similar peers in vocabulary, grammar and verbal memory</strong> (Rescorla, 2009). The author concludes that late talking is linked to a weakness in language skills that persists over time.' },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'Myths',
+      yes: [
+        'Many late talkers end up talking well.',
+        'Some keep language weaknesses worth following up.',
+        'At age 2, there is no way to know who will catch up on their own.',
+      ],
+      no: [
+        '«If they’re bright, speech will come by itself.»',
+        '«Talking late is a sign of giftedness.»',
+        '«Einstein syndrome is a diagnosis.»',
+      ],
+    } },
+    { h2: 'So what should you do?', id: 'o-que-fazer', toc: 'What to do' },
+    { p: 'Because there is no way to know at age 2 which children will catch up on their own, the recommendation is to <strong>assess any speech delay</strong>, starting with hearing, and support communication now. An assessment does not label the child: it provides information and, if needed, earlier support. See also [[fala-tardia-recupera-sempre|Do late talkers always catch up?]].' },
+    { bridge: {
+      title: 'Supporting communication during the assessment',
+      intro: 'The article recommends not waiting. Some parts of the app can offer chances to communicate and explore words:',
+      items: [
+        ['Valuing every way of communicating while speech is not there yet.', 'In Communicate, the child puts picture cards together into a sentence and hears it out loud.'],
+        ['Exploring vocabulary through play.', 'Word games present everyday words with pictures and voice.'],
+      ],
+      outro: 'Talk+ does not assess language or intelligence and does not replace a professional assessment.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about «Einstein syndrome»',
+  faq: [
+    ['Is Einstein syndrome real?', 'Not as a diagnosis. It is a popular term without defined criteria, outside medical classifications.'],
+    ['Do smart kids talk later?', 'There is no link between talking late and high intelligence. Talking late deserves an assessment whatever the child’s profile.'],
+    ['Did Einstein really talk late?', 'There are biographical accounts suggesting so, but one historical case is no benchmark for other children.'],
+    ['If my child understands everything, can I wait?', 'Good understanding is a positive sign, but it does not guarantee catching up alone. The recommendation is to assess.'],
+  ],
+  sources: [
+    'Rescorla (2009). Age 17 Language and Reading Outcomes in Late-Talking Toddlers: Support for a Dimensional Perspective on Language Delay. <em>Journal of Speech, Language, and Hearing Research</em>, 52(1), 16–30. <a href="https://doi.org/10.1044/1092-4388(2008/07-0171)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2008/07-0171)</a>',
+    'Sowell, T. (1997). <em>Late-Talking Children</em>. Basic Books.',
+    'Sowell, T. <em>The Einstein Syndrome: Bright Children Who Talk Late</em>. Basic Books.',
+  ],
+  related: ['fala-tardia-recupera-sempre', 'atraso-na-fala-ou-autismo', 'atraso-na-fala'],
+}

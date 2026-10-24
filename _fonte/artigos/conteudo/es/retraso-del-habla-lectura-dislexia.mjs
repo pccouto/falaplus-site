@@ -1,0 +1,83 @@
+export default {
+  id: 'atraso-na-fala-leitura-dislexia',
+  slug: 'retraso-del-habla-lectura-dislexia',
+  short: 'Retraso del habla, lectura y dislexia',
+  date: '2026-10-24',
+  titleTag: 'Retraso del habla, lectura y dislexia: la relación · Habla+',
+  description: '¿El retraso del habla aumenta el riesgo de dificultades lectoras? Sí, sobre todo si el lenguaje sigue siendo frágil. Señales a vigilar y cómo preparar la lectura en casa.',
+  keywords: ['retraso del habla y dislexia', 'retraso del habla y lectura', 'conciencia fonológica', 'el retraso del habla es una dificultad de aprendizaje', 'señales de dislexia en infantil', 'hablar tarde y aprender a leer'],
+  h1: 'Retraso del habla, lectura y dislexia: ¿cuál es la <span class="word-highlight">relación</span>?',
+  lead: 'Leer es convertir letras en lenguaje. Por eso, los niños con dificultades en el lenguaje oral tienen más riesgo de dificultades en la lectura. Saberlo pronto permite preparar el camino antes de empezar la escuela.',
+  blocks: [
+    { intro: 'La relación entre <strong>retraso del habla y dislexia</strong> preocupa a muchas familias. En este artículo explicamos qué muestran los estudios longitudinales, el papel de la <strong>conciencia fonológica</strong> y qué señales seguir antes y después de empezar la escuela.' },
+    { summary: [
+      'Los niños con trastorno del lenguaje en infantil tuvieron más riesgo de dificultades lectoras en 2.º y 4.º de primaria.',
+      'El riesgo fue menor en los niños cuyo lenguaje oral mejoró hasta la edad escolar.',
+      'Habla, lenguaje y lectura se solapan, pero de formas distintas según el perfil del niño.',
+      'Un retraso del habla no es lo mismo que la dislexia: es una señal que seguir, no un diagnóstico.',
+    ] },
+    { h2: '¿El retraso del habla aumenta el riesgo de dificultades lectoras?', id: 'risco', toc: 'El riesgo' },
+    { p: 'Un estudio estadounidense siguió a niños identificados con trastorno del lenguaje en educación infantil hasta 2.º y 4.º de primaria. Estos niños tuvieron un <strong>riesgo elevado de dificultades lectoras</strong>, mayor cuando había también dificultades no verbales. Los niños cuyo lenguaje oral mejoró obtuvieron mejores resultados en lectura (Catts et al., 2002).' },
+    { p: 'También los niños que hablaron tarde a los 2 años, aun con resultados en la media, quedaron a los 17 años por debajo de compañeros similares en vocabulario y gramática (Rescorla, 2009). El lenguaje es la base para comprender lo que se lee.' },
+    { h2: 'Habla, lenguaje y lectura: ¿en qué se cruzan?', id: 'relacao', toc: 'En qué se cruzan' },
+    { p: 'Una revisión de Pennington y Bishop (2009) analizó el solapamiento entre el trastorno de los sonidos del habla, el trastorno del lenguaje y la dislexia. Concluyó que <strong>se solapan a varios niveles</strong>, pero que depende del perfil: no todos los niños con errores de sonidos o con retraso del lenguaje tendrán dificultades lectoras.' },
+    { cards: [
+      ['Conciencia fonológica', 'Darse cuenta de que las palabras están hechas de sonidos: rimas, sílabas, el primer sonido de «mesa».'],
+      ['Vocabulario y gramática', 'La base para comprender frases y textos.'],
+      ['Denominación rápida', 'Decir deprisa el nombre de colores, objetos o letras conocidas.'],
+    ] },
+    { alert: {
+      title: 'Señales que seguir y compartir con la escuela y el pediatra:',
+      items: [
+        'a los 4 o 5 años, dificultad con las rimas, para dar palmadas a las sílabas o para reconocer el primer sonido de una palabra;',
+        'dificultad persistente para aprender el nombre de las letras;',
+        'antecedentes familiares de dislexia o de dificultades lectoras;',
+        'un lenguaje oral que sigue siendo frágil al empezar primaria.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'Las dificultades del lenguaje oral aumentan el riesgo de dificultades lectoras.',
+        'Mejorar el lenguaje oral se asocia a una mejor lectura.',
+        'Preparar la conciencia fonológica antes de la escuela es útil.',
+      ],
+      no: [
+        '«Quien habló tarde tendrá dislexia».',
+        '«La dislexia se diagnostica a los 3 años».',
+        '«Aprender a leer antes previene la dislexia».',
+      ],
+    } },
+    { h2: 'Cómo preparar la lectura en casa', id: 'em-casa', toc: 'En casa' },
+    { ul: [
+      'Lee cuentos cada día y conversad sobre ellos: consulta [[leitura-dialogica-ler-historias|la lectura dialógica]].',
+      'Jugad con rimas, canciones y retahílas.',
+      'Dad palmadas a las sílabas de los nombres de la familia.',
+      'Jugad a «veo veo una cosa que empieza por /m/…».',
+    ] },
+    { p: 'Consulta también [[jogos-para-aprender-a-ler|Juegos para aprender a leer]].' },
+    { bridge: {
+      title: 'Palabras, sonidos y letras jugando',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['El lenguaje oral es la base de la lectura.', 'Los juegos de palabras presentan vocabulario cotidiano con imagen y voz.'],
+        ['Jugar con las sílabas y las letras.', 'En Construir Palabras, el niño escucha la palabra y coloca las sílabas en el orden correcto; en la Sopa de Letras busca palabras escritas.'],
+      ],
+      outro: 'Habla+ no detecta ni diagnostica la dislexia y no sustituye la enseñanza de la lectura ni la evaluación.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre habla, lectura y dislexia',
+  faq: [
+    ['¿El retraso del habla es una dificultad de aprendizaje?', 'No. Es una señal que aumenta el riesgo de dificultades lectoras, sobre todo si el lenguaje sigue siendo frágil. Conviene seguirlo.'],
+    ['¿Quien habla tarde tendrá dislexia?', 'No necesariamente. Muchos niños que hablaron tarde leen bien. El riesgo es mayor cuando el lenguaje oral sigue siendo frágil.'],
+    ['¿A qué edad se diagnostica la dislexia?', 'Normalmente después de empezar el aprendizaje formal de la lectura. Antes, se observan señales de riesgo.'],
+    ['¿Qué es la conciencia fonológica?', 'Es darse cuenta de que las palabras están hechas de sonidos: rimas, sílabas y sonidos iniciales. Prepara el aprendizaje de la lectura.'],
+  ],
+  sources: [
+    'Catts, Fey, Tomblin y Zhang (2002). A Longitudinal Investigation of Reading Outcomes in Children With Language Impairments. <em>Journal of Speech, Language, and Hearing Research</em>, 45(6), 1142–1157. <a href="https://doi.org/10.1044/1092-4388(2002/093)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2002/093)</a>',
+    'Pennington y Bishop (2009). Relations among speech, language, and reading disorders. <em>Annual Review of Psychology</em>, 60, 283–306. <a href="https://doi.org/10.1146/annurev.psych.60.110707.163548" rel="noopener" target="_blank">doi:10.1146/annurev.psych.60.110707.163548</a>',
+    'Rescorla (2009). Age 17 Language and Reading Outcomes in Late-Talking Toddlers. <em>Journal of Speech, Language, and Hearing Research</em>, 52(1), 16–30. <a href="https://doi.org/10.1044/1092-4388(2008/07-0171)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2008/07-0171)</a>',
+  ],
+  related: ['jogos-para-aprender-a-ler', 'atraso-na-fala-e-pdl', 'leitura-dialogica-ler-historias'],
+}

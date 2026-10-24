@@ -1,0 +1,73 @@
+export default {
+  slug: 'gemeos-e-atraso-na-fala',
+  short: 'Gémeos e atraso na fala',
+  date: '2026-10-24',
+  titleTag: 'Gémeos e atraso na fala: porque é mais frequente · Fala+',
+  description: 'Os gémeos falam mais tarde? Em média, sim. Veja o que mostram os estudos com gémeos, quando a diferença diminui e como apoiar a linguagem de cada criança.',
+  keywords: ['gémeos e atraso na fala', 'gémeos falam mais tarde', 'linguagem dos gémeos', 'linguagem secreta gémeos', 'efeito gemelar linguagem', 'gémeos 2 anos não falam'],
+  h1: 'Gémeos e atraso na fala: porque é <span class="word-highlight">mais frequente</span>',
+  lead: 'Quem tem gémeos ouve muitas vezes que «os gémeos falam mais tarde». Os estudos confirmam que, em média, assim é aos 2 anos, e mostram também que a diferença tende a diminuir com a idade.',
+  blocks: [
+    { intro: 'A relação entre <strong>gémeos e atraso na fala</strong> é conhecida há décadas como «efeito gemelar». Neste artigo resumimos o que dizem os estudos com gémeos, o que explica a diferença, quando é que ela diminui e como apoiar a <strong>linguagem dos gémeos</strong> sem esperar que «se resolva sozinho».' },
+    { summary: [
+      'Aos 24 meses, os gémeos têm em média resultados de linguagem mais baixos do que as crianças nascidas sozinhas.',
+      'A prematuridade não explica, sozinha, a diferença.',
+      'Os estudos encontraram uma componente hereditária no vocabulário e na gramática.',
+      'A diferença tende a diminuir entre os 4 e os 6 anos, mas um atraso deve ser avaliado como em qualquer criança.',
+    ] },
+    { h2: 'Os gémeos falam mais tarde?', id: 'falam-mais-tarde', toc: 'Falam mais tarde?' },
+    { p: 'Num estudo australiano com 473 pares de gémeos, os gémeos tinham, aos 24 meses, <strong>resultados médios de linguagem abaixo das normas</strong> das crianças nascidas sozinhas. Os gémeos idênticos tinham resultados mais baixos do que os não idênticos, e os rapazes mais baixos do que as raparigas (Rice et al., 2014).' },
+    { p: 'O mesmo estudo encontrou <strong>hereditabilidade significativa</strong> no vocabulário e na gramática, e no próprio início tardio da linguagem. Os autores consideram que isto contraria a ideia de que o atraso se deve apenas a os pais terem menos atenção para dar a cada um.' },
+    { h2: 'O que explica a diferença?', id: 'porque', toc: 'O que explica' },
+    { p: 'Os estudos britânicos de Rutter e Thorpe (2003) usaram os gémeos como «experiência natural» para estudar as causas de atrasos ligeiros da linguagem. Concluíram que a <strong>prematuridade não é a principal causa</strong> do atraso nos gémeos e estudaram também fatores da interação familiar.' },
+    { cards: [
+      ['Fatores biológicos', 'Genética, sexo e condições da gravidez e do nascimento.'],
+      ['Interação a três', 'As conversas são muitas vezes partilhadas: cada criança tem menos momentos a sós com o adulto.'],
+      ['Linguagem entre os dois', 'Os gémeos podem comunicar entre si com palavras simplificadas que só eles entendem.'],
+    ] },
+    { h2: 'A diferença desaparece?', id: 'recuperar', toc: 'Recuperar' },
+    { p: 'O seguimento das mesmas crianças mostrou que <strong>a diferença diminui aos 4 e aos 6 anos</strong>. Mas uma média não diz nada sobre uma criança em particular: um gémeo pode ter uma perturbação da linguagem que não se resolve sozinha. Por isso, os sinais de alerta são os mesmos que para qualquer criança (veja [[atraso-na-fala|Atraso na fala: sinais de alerta]]).' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Em média, os gémeos começam a falar mais tarde.',
+        'Há uma componente hereditária.',
+        'A diferença tende a diminuir com a idade.',
+      ],
+      no: [
+        '«Gémeos falam sempre tarde, não vale a pena avaliar.»',
+        '«É só por falta de atenção dos pais.»',
+        '«Todos os gémeos recuperam sozinhos.»',
+      ],
+    } },
+    { h2: 'Como apoiar a linguagem de cada gémeo', id: 'apoiar', toc: 'Como apoiar' },
+    { ul: [
+      'Reserve pequenos momentos <strong>a sós com cada criança</strong>: ler, brincar ou conversar durante o banho.',
+      'Chame cada um pelo nome e responda a cada um, mesmo quando falam ao mesmo tempo.',
+      'Repita com o modelo certo as palavras que eles inventam entre si, sem corrigir de forma ríspida.',
+      'Se um gémeo fala muito menos que o outro, não espere: peça avaliação.',
+    ] },
+    { bridge: {
+      title: 'Um momento só para cada criança',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Momentos individuais com o adulto.', 'Cada criança pode ter o seu perfil, com o seu percurso e as suas conquistas.'],
+        ['Ouvir as palavras com o modelo certo.', 'Os jogos apresentam palavras do dia a dia com imagem e voz.'],
+      ],
+      outro: 'A Fala+ não avalia a linguagem de cada gémeo nem substitui a conversa a sós com um adulto.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre gémeos e fala',
+  faq: [
+    ['É normal os gémeos falarem mais tarde?', 'Em média, sim: aos 2 anos os gémeos têm resultados de linguagem mais baixos. Mesmo assim, um atraso deve ser avaliado.'],
+    ['Os gémeos idênticos falam mais tarde do que os não idênticos?', 'Num estudo com 473 pares, os gémeos idênticos tinham, em média, resultados mais baixos aos 24 meses.'],
+    ['Os gémeos têm uma linguagem secreta?', 'Muitos usam palavras simplificadas entre si. É comum e costuma desaparecer; o importante é que cada um tenha conversas com adultos.'],
+    ['Quando é que os gémeos recuperam?', 'Nos estudos, a diferença diminui entre os 4 e os 6 anos. Uma criança com sinais de alerta não deve esperar por essa idade.'],
+  ],
+  sources: [
+    'Rice, Zubrick, Taylor, Gayán e Bontempo (2014). Late language emergence in 24-month-old twins: heritable and increased risk for late language emergence in twins. <em>Journal of Speech, Language, and Hearing Research</em>, 57(3). <a href="https://doi.org/10.1044/1092-4388(2013/12-0350)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2013/12-0350)</a>',
+    'Rutter, Thorpe, Greenwood, Northstone e Golding (2003). Twins as a natural experiment to study the causes of mild language delay: I. Design; twin-singleton differences in language, and obstetric risks. <em>Journal of Child Psychology and Psychiatry</em>, 44, 326–341. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Twins+as+a+natural+experiment+to+study+the+causes+of+mild+language+delay" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['atraso-na-fala', 'fala-tardia-recupera-sempre', 'prematuridade-e-linguagem'],
+}

@@ -1,0 +1,76 @@
+export default {
+  slug: 'trocas-de-sons-na-fala',
+  short: 'Trocas de sons na fala',
+  date: '2026-10-24',
+  titleTag: 'Trocas de sons na fala: o que é normal · Fala+',
+  description: 'A criança troca sons ao falar? Até certa idade é normal. Veja a que idade se aprendem os sons, o que é uma perturbação dos sons da fala e quando procurar ajuda.',
+  keywords: ['trocas de sons na fala', 'criança troca letras ao falar', 'perturbação dos sons da fala', 'dislalia', 'criança não diz o r', 'a que idade a criança diz todos os sons'],
+  h1: 'Trocas de sons na fala: o que é <span class="word-highlight">normal</span> e quando procurar ajuda',
+  lead: '«Pato» em vez de «gato», «tasa» em vez de «casa»: as trocas de sons fazem parte do caminho de quase todas as crianças. A questão é saber até quando são esperadas e quando merecem atenção.',
+  blocks: [
+    { intro: 'As <strong>trocas de sons na fala</strong> são das razões mais comuns para procurar um terapeuta da fala. Neste artigo explicamos a que idade as crianças aprendem os sons, o que é uma <strong>perturbação dos sons da fala</strong> (antes chamada muitas vezes «dislalia») e que sinais justificam uma avaliação.' },
+    { summary: [
+      'Numa revisão de 27 línguas, as crianças produziam corretamente pelo menos 93% das consoantes aos 5 anos.',
+      'Sons como as oclusivas e as nasais aprendem-se antes; o «r» vibrante, as fricativas e as africadas mais tarde.',
+      'Aos 4 anos, cerca de 3,4% das crianças tinham uma perturbação dos sons da fala num estudo australiano.',
+      'Quase metade dessas crianças tinha também dificuldades de linguagem.',
+    ] },
+    { h2: 'A que idade a criança diz todos os sons?', id: 'idades', toc: 'A que idade' },
+    { p: 'Uma revisão de 64 estudos, com mais de 26 000 crianças e 27 línguas, concluiu que <strong>a maioria das consoantes está adquirida por volta dos 5 anos</strong>, idade em que as crianças produziam corretamente pelo menos 93% das consoantes (McLeod e Crowe, 2018). A ordem é parecida entre línguas:' },
+    { table: {
+      head: ['Tipo de som', 'Exemplos em português', 'Quando costuma aparecer'],
+      rows: [
+        ['Oclusivas e nasais', 'p, b, t, d, m, n', 'mais cedo'],
+        ['Fricativas', 'f, v, s, z, ch, j', 'mais tarde'],
+        ['Vibrantes', 'o «r» forte de «rato», o «r» de «caro»', 'entre os últimos'],
+        ['Grupos de consoantes', '«prato», «flor»', 'entre os últimos'],
+      ],
+    } },
+    { p: 'Estas idades são referências da investigação, não metas exatas: há variação entre crianças e entre línguas.' },
+    { h2: 'O que é uma perturbação dos sons da fala?', id: 'perturbacao', toc: 'Perturbação dos sons' },
+    { p: 'Fala-se em perturbação quando as trocas são <strong>mais numerosas ou mais persistentes do que o esperado para a idade</strong>, ou quando são invulgares. Num estudo australiano com cerca de 1 500 crianças, <strong>3,4% tinham uma perturbação dos sons da fala aos 4 anos</strong>; destas, 40,8% tinham também uma perturbação da linguagem e 20,8% competências de pré-leitura mais fracas (Eadie et al., 2015).' },
+    { cards: [
+      ['Trocas próprias da idade', 'Simplificações comuns que vão desaparecendo, como dizer «tasa» por «casa» aos 3 anos.'],
+      ['Trocas persistentes', 'Simplificações que continuam muito além da idade esperada.'],
+      ['Erros atípicos', 'Trocas pouco comuns em qualquer idade, que merecem avaliação mais cedo.'],
+      ['Apraxia da fala', 'Dificuldade em planear os movimentos da fala; veja [[apraxia-da-fala-infantil|Apraxia da fala infantil]].'],
+    ] },
+    { alert: {
+      title: 'Peça avaliação a um terapeuta da fala se:',
+      items: [
+        'aos 3 anos, pessoas fora da família compreendem pouco do que a criança diz;',
+        'aos 4 a 5 anos, a criança ainda faz muitas trocas ou trocas invulgares;',
+        'a criança fica frustrada ou evita falar por não ser compreendida;',
+        'há também dificuldades de linguagem ou de audição.',
+      ],
+    } },
+    { h2: 'Como ajudar sem corrigir a toda a hora', id: 'em-casa', toc: 'Em casa' },
+    { ul: [
+      'Repita a palavra com o som certo, de forma natural: «É um gato, sim!», sem pedir que repita.',
+      'Valorize o que a criança quis dizer antes da forma como o disse.',
+      'Brinque com rimas, canções e sons de animais.',
+      'Evite exercícios de sopro ou faciais como substituto da terapia: veja [[mito-sopros-exercicios-faciais-fala|exercícios faciais e sopros aceleram a fala?]].',
+    ] },
+    { bridge: {
+      title: 'Ouvir bons modelos e brincar com os sons',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Ouvir o modelo certo das palavras, sem pressão para repetir.', 'Os jogos apresentam cada palavra com imagem e voz; na Voz Mágica, a criança pode falar, cantar ou fazer um som, sem avaliação da pronúncia.'],
+        ['Brincar com sons e rimas.', 'No Brincar há sons de animais, instrumentos e o Cacto Falante, que repete o que a criança diz.'],
+      ],
+      outro: 'A Fala+ não avalia nem corrige a articulação e não substitui a terapia da fala.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre trocas de sons',
+  faq: [
+    ['É normal uma criança de 3 anos trocar sons?', 'Sim, algumas trocas são esperadas aos 3 anos. O que preocupa é a fala ser pouco compreendida por pessoas de fora ou haver trocas invulgares.'],
+    ['Com que idade a criança deve dizer o «r»?', 'Os sons vibrantes estão entre os últimos a ser adquiridos. Se aos 5 a 6 anos ainda não aparecem, vale a pena uma avaliação.'],
+    ['O que é a dislalia?', 'É um termo antigo para dificuldades na produção dos sons da fala. Hoje fala-se em perturbação dos sons da fala.'],
+    ['Devo corrigir a criança quando troca sons?', 'É melhor repetir a palavra com o som certo, de forma natural, sem pedir à criança que repita.'],
+  ],
+  sources: [
+    'McLeod e Crowe (2018). Children’s Consonant Acquisition in 27 Languages: A Cross-Linguistic Review. <em>American Journal of Speech-Language Pathology</em>, 27(4), 1546–1571. <a href="https://doi.org/10.1044/2018_AJSLP-17-0100" rel="noopener" target="_blank">doi:10.1044/2018_AJSLP-17-0100</a>',
+    'Eadie et al. (2015). Speech sound disorder at 4 years: prevalence, comorbidities, and predictors in a community cohort of children. <em>Developmental Medicine & Child Neurology</em>, 57(6), 578–584. <a href="https://doi.org/10.1111/dmcn.12635" rel="noopener" target="_blank">doi:10.1111/dmcn.12635</a>',
+  ],
+  related: ['apraxia-da-fala-infantil', 'diferenca-entre-fala-e-linguagem', 'mito-sopros-exercicios-faciais-fala'],
+}

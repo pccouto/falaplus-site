@@ -1,0 +1,80 @@
+export default {
+  slug: 'leitura-dialogica-ler-historias',
+  short: 'Leitura dialógica',
+  date: '2026-10-24',
+  titleTag: 'Ler histórias para estimular a linguagem · Fala+',
+  description: 'Ler histórias ajuda a criança a falar? Sim, sobretudo quando a criança participa. O que é a leitura dialógica, o que dizem as meta-análises e como fazer em casa.',
+  keywords: ['ler histórias para estimular a linguagem', 'leitura dialógica', 'ler para bebés', 'leitura partilhada', 'livros para estimular a fala', 'como ler histórias às crianças'],
+  h1: 'Ler histórias para estimular a linguagem: a <span class="word-highlight">leitura dialógica</span>',
+  lead: 'Ler em voz alta é bom. Ler de forma a que a criança pergunte, responda e conte também é ainda melhor para o vocabulário. É essa a ideia da leitura dialógica.',
+  blocks: [
+    { intro: '<strong>Ler histórias para estimular a linguagem</strong> é uma das recomendações mais comuns às famílias. Neste artigo explicamos o que é a <strong>leitura dialógica</strong>, o que mostram as meta-análises sobre a <strong>leitura partilhada</strong> e como pôr em prática em poucos minutos por dia.' },
+    { summary: [
+      'Na leitura dialógica, o adulto faz perguntas, espera, elogia e alarga as respostas da criança.',
+      'Uma meta-análise encontrou um efeito moderado no vocabulário expressivo, em comparação com a leitura habitual.',
+      'Outra meta-análise de 19 ensaios encontrou efeitos pequenos na linguagem e efeitos maiores nas competências do adulto.',
+      'A dose conta: programas muito curtos tiveram pouco efeito.',
+    ] },
+    { h2: 'O que é a leitura dialógica?', id: 'o-que-e', toc: 'O que é' },
+    { p: 'É uma forma de ler em que a criança passa de ouvinte a contadora. Foi descrita por Whitehurst e colegas (1988). O adulto usa uma sequência simples, conhecida pela sigla inglesa PEER:' },
+    { cards: [
+      ['Perguntar', '«O que é isto?», «O que vai acontecer?»'],
+      ['Avaliar', 'Elogiar e, se for preciso, ajudar: «Muito bem, é um cão!»'],
+      ['Alargar', 'Juntar informação: «É um cão castanho, a correr.»'],
+      ['Repetir', 'Convidar a criança a dizer de novo: «Diz tu: um cão a correr.»'],
+    ] },
+    { h2: 'Ler histórias ajuda a criança a falar? O que dizem os estudos', id: 'estudos', toc: 'O que dizem os estudos' },
+    { p: 'Uma meta-análise de 16 estudos comparou a leitura dialógica com a leitura habitual e encontrou um <strong>efeito moderado no vocabulário expressivo</strong>. O efeito foi menor nas crianças de 5 e 6 anos e nas crianças em risco de dificuldades (Mol et al., 2008).' },
+    { p: 'Uma meta-análise mais recente, de 19 ensaios aleatorizados com 2 594 crianças dos 1 aos 6 anos, encontrou <strong>efeitos pequenos na linguagem expressiva e recetiva</strong> e um efeito grande na competência do adulto a ler com a criança. Programas com doses muito baixas tiveram efeito mínimo (Dowdall et al., 2020).' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Ler com a criança a participar ajuda o vocabulário.',
+        'O adulto aprende depressa a técnica.',
+        'A regularidade conta.',
+      ],
+      no: [
+        '«Ler histórias resolve um atraso na fala.»',
+        '«Só vale a pena ler a partir dos 3 anos.»',
+        '«Basta pôr a criança a ouvir audiolivros.»',
+      ],
+    } },
+    { h2: 'Como fazer em casa, idade a idade', id: 'em-casa', toc: 'Em casa' },
+    { table: {
+      head: ['Idade', 'Ideias'],
+      rows: [
+        ['1 a 2 anos', 'Livros de cartão com imagens grandes; apontar e dar o nome; esperar que a criança aponte também.'],
+        ['2 a 3 anos', 'Perguntas simples («Onde está o gato?»), completar frases repetidas da história.'],
+        ['3 a 5 anos', 'Perguntas abertas («Porque é que ele está triste?»), prever o que vem a seguir, recontar a história.'],
+      ],
+    } },
+    { ul: [
+      'Siga o interesse da criança: pode ficar muito tempo numa só página.',
+      'Releia os livros preferidos: a repetição ajuda.',
+      'Poucos minutos por dia valem mais do que uma hora de vez em quando.',
+    ] },
+    { bridge: {
+      title: 'Contar histórias e explorar imagens',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Dar nome às imagens e conversar sobre elas.', 'Os jogos de palavras apresentam imagens com voz, que se podem comentar com a criança.'],
+        ['Ouvir uma história e perceber a sua sequência.', 'Em Contar uma História, a criança ouve a história e depois arruma as páginas do livro pela ordem certa.'],
+      ],
+      outro: 'Nada substitui o livro partilhado com um adulto. A app pode ser um complemento, não um substituto da leitura.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre ler histórias',
+  faq: [
+    ['Ler histórias ajuda a criança a falar?', 'Sim, sobretudo quando a criança participa: perguntas, pausas e respostas. Os estudos mostram efeitos no vocabulário.'],
+    ['A partir de que idade devo ler para o bebé?', 'Desde cedo. Com bebés, o importante é olhar para as imagens juntos, dar nomes e responder aos sons.'],
+    ['Quanto tempo devo ler por dia?', 'Não há um número mágico. Ler um pouco todos os dias, de forma regular, é o mais útil.'],
+    ['O que fazer se a criança não quer ouvir histórias?', 'Escolha livros sobre os interesses dela, deixe-a virar as páginas e transforme a leitura em conversa sobre as imagens.'],
+  ],
+  sources: [
+    'Mol, Bus, de Jong e Smeets (2008). Added Value of Dialogic Parent–Child Book Readings: A Meta-Analysis. <em>Early Education and Development</em>, 19(1), 7–26. <a href="https://doi.org/10.1080/10409280701838603" rel="noopener" target="_blank">doi:10.1080/10409280701838603</a>',
+    'Dowdall, Melendez-Torres, Murray, Gardner, Hartford e Cooper (2020). Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis. <em>Child Development</em>, 91(2), 383–399. <a href="https://doi.org/10.1111/cdev.13225" rel="noopener" target="_blank">doi:10.1111/cdev.13225</a>',
+    'Whitehurst et al. (1988). Accelerating language development through picture book reading. <em>Developmental Psychology</em>, 24(4), 552–559. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Accelerating+language+development+through+picture+book+reading" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['brincadeiras-para-estimular-a-fala', 'desenvolvimento-da-linguagem-infantil', 'atraso-na-fala-leitura-dislexia'],
+}

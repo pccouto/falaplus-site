@@ -1,0 +1,81 @@
+export default {
+  slug: 'fissura-labio-palatina-e-fala',
+  short: 'Fissura lábio-palatina e fala',
+  date: '2026-10-24',
+  titleTag: 'Fissura lábio-palatina e fala: o que esperar · Fala+',
+  description: 'Como a fissura lábio-palatina afeta a fala? Cirurgia, audição e terapia da fala: o que esperar, a voz nasalada e o papel da equipa que acompanha a criança.',
+  keywords: ['fissura lábio-palatina e fala', 'fissura do palato fala', 'lábio leporino fala', 'voz nasalada criança', 'insuficiência velofaríngea', 'terapia da fala fissura'],
+  h1: 'Fissura lábio-palatina e fala: o que <span class="word-highlight">esperar</span>',
+  lead: 'A fissura lábio-palatina é uma das malformações congénitas mais frequentes. Com cirurgia no momento certo e o acompanhamento de uma equipa, muitas crianças desenvolvem uma fala clara; algumas precisam de mais apoio pelo caminho.',
+  blocks: [
+    { intro: 'A relação entre <strong>fissura lábio-palatina e fala</strong> depende sobretudo do palato (o «céu da boca»). Neste artigo explicamos porque é que a fissura do palato pode afetar a fala, o que é a <strong>insuficiência velofaríngea</strong>, porque é que a audição deve ser vigiada e como trabalha a equipa.' },
+    { summary: [
+      'A fissura lábio-palatina afeta cerca de 1 em cada 700 nascimentos.',
+      'Quando o palato não fecha bem a passagem para o nariz durante a fala, a voz pode soar nasalada.',
+      'As crianças com fissura do palato têm mais otites serosas, por isso a audição deve ser vigiada.',
+      'A terapia da fala é parte do acompanhamento, mas alguns casos precisam também de cirurgia.',
+    ] },
+    { h2: 'Porque é que a fissura do palato pode afetar a fala?', id: 'porque', toc: 'Porque afeta a fala' },
+    { p: 'Para dizer a maioria dos sons, o palato mole sobe e fecha a passagem entre a boca e o nariz. Se esse fecho não é completo, o ar escapa pelo nariz: a voz soa <strong>nasalada</strong> e alguns sons (como p, t, s) ficam fracos. A isto chama-se <strong>insuficiência velofaríngea</strong>.' },
+    { p: 'A fissura do lábio, sozinha, costuma ter menos impacto na fala do que a fissura do palato.' },
+    { h2: 'O que faz a equipa?', id: 'equipa', toc: 'A equipa' },
+    { cards: [
+      ['Cirurgia', 'O encerramento do palato é feito nos primeiros meses de vida, segundo o protocolo da equipa.'],
+      ['Audição', 'A otite serosa é frequente nestas crianças; veja [[otite-serosa-e-fala|Otite serosa e fala]].'],
+      ['Terapia da fala', 'Acompanha o desenvolvimento dos sons e da linguagem e ajuda a corrigir padrões compensatórios.'],
+      ['Reavaliação', 'Se a voz continua nasalada, a equipa avalia o fecho velofaríngeo.'],
+    ] },
+    { p: 'Uma revisão de revisões sobre a insuficiência velofaríngea concluiu que, nas crianças com sintomas persistentes, o tratamento <strong>não passou apenas pela terapia da fala</strong>: muitas vezes foi necessária cirurgia, sem uma técnica única considerada a melhor (revisão guarda-chuva, 2022).' },
+    { alert: {
+      title: 'Fale com a equipa se a criança:',
+      items: [
+        'tem a voz muito nasalada ou o ar a sair pelo nariz ao falar;',
+        'parece não ouvir bem ou tem otites frequentes;',
+        'troca muitos sons ou é pouco compreendida para a idade;',
+        'tem dificuldades na alimentação, como líquidos a sair pelo nariz.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Muitas crianças com fissura desenvolvem uma fala clara.',
+        'O acompanhamento em equipa e a vigilância da audição são essenciais.',
+        'Alguns casos precisam de cirurgia, além da terapia da fala.',
+      ],
+      no: [
+        '«Depois da cirurgia, a fala fica sempre normal.»',
+        '«A terapia da fala resolve sempre a voz nasalada.»',
+        '«Exercícios de sopro corrigem o palato.»',
+      ],
+    } },
+    { h2: 'Como apoiar a comunicação em casa', id: 'em-casa', toc: 'Em casa' },
+    { ul: [
+      'Converse, leia e cante com a criança como com qualquer outra: a linguagem desenvolve-se na interação.',
+      'Valorize o que ela quer dizer; não exija que repita os sons «certos».',
+      'Siga as orientações do terapeuta da fala para os sons trabalhados.',
+      'Desconfie de exercícios de sopro como solução: veja [[mito-sopros-exercicios-faciais-fala|exercícios faciais e sopros aceleram a fala?]].',
+    ] },
+    { bridge: {
+      title: 'Comunicar e ouvir palavras, sem avaliar a pronúncia',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Valorizar o que a criança quer dizer.', 'No Comunicar, a criança pode juntar cartões de imagem numa frase e ouvi-la em voz alta.'],
+        ['Usar a voz numa brincadeira, sem exigência.', 'Na Voz Mágica e no Cacto Falante, a criança fala, canta ou faz sons; a app não avalia a pronúncia.'],
+      ],
+      outro: 'A Fala+ não avalia a ressonância nem os sons da fala e não substitui o acompanhamento da equipa de fissuras.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre fissura e fala',
+  faq: [
+    ['Uma criança com fissura lábio-palatina vai falar normalmente?', 'Muitas desenvolvem uma fala clara com cirurgia e acompanhamento. Algumas precisam de mais apoio ou de outras intervenções.'],
+    ['Porque é que a voz é nasalada?', 'Porque o palato não fecha totalmente a passagem para o nariz durante a fala (insuficiência velofaríngea).'],
+    ['A terapia da fala resolve a voz nasalada?', 'Depende da causa. Quando o fecho velofaríngeo é insuficiente, muitas vezes é necessária cirurgia.'],
+    ['Porque é que é preciso vigiar a audição?', 'As crianças com fissura do palato têm mais otite serosa, que pode baixar a audição.'],
+  ],
+  sources: [
+    'Velopharyngeal Insufficiency Treatment in Cleft Palate Patients: Umbrella Review (2022). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9496528/" rel="noopener" target="_blank">PMC9496528</a>.',
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a> (crianças com fissura do palato como grupo de risco).',
+  ],
+  related: ['otite-serosa-e-fala', 'trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala'],
+}

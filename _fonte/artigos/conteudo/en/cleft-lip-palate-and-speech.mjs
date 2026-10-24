@@ -1,0 +1,82 @@
+export default {
+  id: 'fissura-labio-palatina-e-fala',
+  slug: 'cleft-lip-palate-and-speech',
+  short: 'Cleft lip and palate and speech',
+  date: '2026-10-24',
+  titleTag: 'Cleft lip and palate and speech: what to expect · Talk+',
+  description: 'How does a cleft lip and palate affect speech? Surgery, hearing and speech therapy: what to expect, hypernasal speech and the role of the cleft team.',
+  keywords: ['cleft palate speech', 'cleft lip and palate speech therapy', 'hypernasal speech child', 'velopharyngeal insufficiency', 'cleft palate speech delay', 'cleft palate hearing'],
+  h1: 'Cleft lip and palate and speech: what to <span class="word-highlight">expect</span>',
+  lead: 'Cleft lip and palate is one of the most common birth differences. With surgery at the right time and support from a team, many children develop clear speech; some need more support along the way.',
+  blocks: [
+    { intro: 'The link between <strong>cleft lip and palate and speech</strong> depends mainly on the palate (the roof of the mouth). In this article we explain why a cleft palate can affect speech, what <strong>velopharyngeal insufficiency</strong> is, why hearing should be monitored and how the team works.' },
+    { summary: [
+      'Cleft lip and palate affects about 1 in 700 births.',
+      'When the palate does not fully close off the nose during speech, the voice can sound hypernasal.',
+      'Children with a cleft palate have more glue ear, so hearing should be monitored.',
+      'Speech therapy is part of the care, but some cases also need surgery.',
+    ] },
+    { h2: 'Why can a cleft palate affect speech?', id: 'porque', toc: 'Why it affects speech' },
+    { p: 'For most sounds, the soft palate rises and closes the passage between the mouth and the nose. If that closure is incomplete, air escapes through the nose: the voice sounds <strong>hypernasal</strong> and some sounds (such as p, t, s) become weak. This is called <strong>velopharyngeal insufficiency</strong>.' },
+    { p: 'A cleft lip on its own usually has less impact on speech than a cleft palate.' },
+    { h2: 'What does the team do?', id: 'equipa', toc: 'The team' },
+    { cards: [
+      ['Surgery', 'The palate is closed in the first months of life, following the team’s protocol.'],
+      ['Hearing', 'Glue ear is common in these children; see [[otite-serosa-e-fala|Glue ear and speech]].'],
+      ['Speech therapy', 'Follows the development of sounds and language and helps correct compensatory patterns.'],
+      ['Reassessment', 'If the voice stays hypernasal, the team assesses velopharyngeal closure.'],
+    ] },
+    { p: 'An umbrella review of velopharyngeal insufficiency concluded that for children with persistent symptoms, treatment <strong>did not consist of speech therapy alone</strong>: surgery was often needed, with no single technique considered the gold standard (umbrella review, 2022).' },
+    { alert: {
+      title: 'Talk to the team if the child:',
+      items: [
+        'has a very nasal voice or air escaping through the nose when talking;',
+        'seems not to hear well or has frequent ear infections;',
+        'makes many sound errors or is hard to understand for their age;',
+        'has feeding difficulties, such as liquids coming out of the nose.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'Many children with a cleft develop clear speech.',
+        'Team follow-up and hearing monitoring are essential.',
+        'Some cases need surgery in addition to speech therapy.',
+      ],
+      no: [
+        '«After surgery, speech is always normal.»',
+        '«Speech therapy always fixes hypernasal speech.»',
+        '«Blowing exercises correct the palate.»',
+      ],
+    } },
+    { h2: 'How to support communication at home', id: 'em-casa', toc: 'At home' },
+    { ul: [
+      'Talk, read and sing with the child as with any other: language develops through interaction.',
+      'Value what they want to say; do not demand they repeat «correct» sounds.',
+      'Follow the speech and language therapist’s guidance on the sounds being worked on.',
+      'Be wary of blowing exercises as a solution: see [[mito-sopros-exercicios-faciais-fala|do facial exercises speed up speech?]].',
+    ] },
+    { bridge: {
+      title: 'Communicating and hearing words, without judging pronunciation',
+      intro: 'Some ideas from the article are mirrored in parts of the app:',
+      items: [
+        ['Valuing what the child wants to say.', 'In Communicate, the child can put picture cards together into a sentence and hear it out loud.'],
+        ['Using their voice in play, with no pressure.', 'In Magic Voice and Talking Cactus, the child speaks, sings or makes sounds; the app does not assess pronunciation.'],
+      ],
+      outro: 'Talk+ does not assess resonance or speech sounds and does not replace the cleft team’s care.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about cleft palate and speech',
+  faq: [
+    ['Will a child with a cleft lip and palate talk normally?', 'Many develop clear speech with surgery and follow-up. Some need more support or other interventions.'],
+    ['Why does the voice sound nasal?', 'Because the palate does not fully close the passage to the nose during speech (velopharyngeal insufficiency).'],
+    ['Does speech therapy fix hypernasal speech?', 'It depends on the cause. When velopharyngeal closure is insufficient, surgery is often needed.'],
+    ['Why does hearing need monitoring?', 'Children with a cleft palate have more glue ear, which can lower hearing.'],
+  ],
+  sources: [
+    'Velopharyngeal Insufficiency Treatment in Cleft Palate Patients: Umbrella Review (2022). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9496528/" rel="noopener" target="_blank">PMC9496528</a>.',
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a> (children with cleft palate as an at-risk group).',
+  ],
+  related: ['otite-serosa-e-fala', 'trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala'],
+}

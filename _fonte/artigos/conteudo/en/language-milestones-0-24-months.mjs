@@ -1,0 +1,70 @@
+export default {
+  id: 'marcos-linguagem-0-a-24-meses',
+  slug: 'language-milestones-0-24-months',
+  short: 'Language milestones 0 to 24 months',
+  date: '2026-10-24',
+  titleTag: 'Language milestones from 0 to 24 months · Talk+',
+  description: 'What to expect from a baby’s language at 6, 12, 18 and 24 months? Milestones revised by the CDC and AAP, signs to raise with a doctor and ideas to encourage talking.',
+  keywords: ['language milestones 0 to 24 months', 'when do babies start talking', '12 month old not talking', '18 month old not talking', 'how many words at 18 months', 'baby speech development'],
+  h1: 'Language milestones from 0 to 24 months: what to <span class="word-highlight">expect</span>',
+  lead: 'In the first two years, communication moves from crying to smiling, from cooing to pointing and from first words to first phrases. Milestones help follow this journey, without being a test.',
+  blocks: [
+    { intro: '<strong>Language milestones from 0 to 24 months</strong> are some of the most searched information by people caring for babies. In this article we summarise the reference points revised in 2022 by the CDC and the American Academy of Pediatrics, with signs that justify talking to a doctor. For later ages, see [[marcos-desenvolvimento-linguagem-2-a-5-anos|Language milestones from 2 to 5]].' },
+    { summary: [
+      'In 2022, the CDC and AAP revised the milestones: each one reflects what 75% of children already do at that age.',
+      'So not reaching a milestone is a reason to talk to the doctor, not to wait.',
+      'Before words come smiling, cooing, babbling, gestures and pointing.',
+      'Developmental surveillance is part of routine child health visits.',
+    ] },
+    { h2: 'Why were the milestones revised?', id: 'revisao', toc: 'The 2022 revision' },
+    { p: 'In 2022, an expert group from the CDC and the American Academy of Pediatrics revised the milestone checklists. The main change: each milestone now reflects what <strong>75% of children already do</strong> at that age, instead of 50% (Zubler et al., 2022). So when a child does not reach a milestone, the recommendation is to talk to the doctor rather than wait and see.' },
+    { h2: 'What to expect at each age', id: 'idades', toc: 'Age by age' },
+    { table: {
+      head: ['Age', 'What most children already do', 'Talk to the doctor if…'],
+      rows: [
+        ['6 months', 'Takes turns making sounds with you, like a conversation; laughs and squeals', 'does not react to sounds or smile at people'],
+        ['12 months', 'Waves «bye-bye»; calls a parent «mama» or «dada»; understands «no»', 'does not point, wave or often respond to their name'],
+        ['18 months', 'Tries to say three or more words besides «mama» or «dada»; points to show; follows a one-step direction without gestures', 'says no words, does not point to show or has lost words'],
+        ['24 months', 'Says at least two words together («more milk»); points to pictures in a book when asked', 'does not combine two meaningful words (repeating does not count)'],
+      ],
+    } },
+    { p: 'These reference points are based on the CDC and AAP checklists. They are <strong>surveillance reference points, not diagnoses</strong>: each child has their own pace, but loss of skills at any age should always be raised with the doctor.' },
+    { alert: {
+      title: 'Talk to the doctor, at any age, if the child:',
+      items: [
+        'has lost words, gestures or interest in people they already had;',
+        'does not react to sounds or seems not to hear;',
+        'does not try to communicate with looks, gestures or sounds.',
+      ],
+    } },
+    { h2: 'How to encourage language in the first two years', id: 'estimular', toc: 'How to encourage' },
+    { ul: [
+      'Respond to the baby’s sounds as if they were conversation: they «talk», you answer, and wait.',
+      'Name what the child is looking at or pointing to: «It’s a dog!».',
+      'Sing, read picture books and play peekaboo.',
+      'Reduce background noise and screen time without interaction (see [[tempo-de-ecra-criancas|Screen time for children]]).',
+    ] },
+    { bridge: {
+      title: 'Everyday words and shared moments',
+      intro: 'Some ideas from the article are echoed in parts of the app, to use with an adult alongside:',
+      items: [
+        ['Naming what the child sees.', 'Games present everyday words with pictures and voice, in 25 themes.'],
+        ['Playing with sounds and reactions.', 'Play includes instruments and animal sounds, with no points or right answers.'],
+      ],
+      outro: 'In the early years, face-to-face interaction is the main driver of language. Talk+ does not track milestones or assess development.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about baby language',
+  faq: [
+    ['When do babies start talking?', 'Around 12 months many babies say «mama» or «dada» with meaning; words keep growing through the second year.'],
+    ['How many words should an 18-month-old say?', 'According to the CDC and AAP checklists, at 18 months most children try to say three or more words besides «mama» or «dada».'],
+    ['Is it normal for a 12-month-old not to talk?', 'Many 12-month-olds say few or no words. Pointing, waving and responding to their name matter more; if they don’t, talk to the doctor.'],
+    ['My 18-month-old is not talking. Should I worry?', 'It is worth talking to the doctor, who will also check hearing, understanding and gestures.'],
+  ],
+  sources: [
+    'Zubler et al. (2022). Evidence-Informed Milestones for Developmental Surveillance Tools. <em>Pediatrics</em>, 149(3), e2021052138. <a href="https://doi.org/10.1542/peds.2021-052138" rel="noopener" target="_blank">doi:10.1542/peds.2021-052138</a>',
+    'CDC. <a href="https://www.cdc.gov/ncbddd/actearly/milestones/index.html" rel="noopener" target="_blank">CDC’s Developmental Milestones</a>.',
+    'Lipkin and Macias (2020). Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening. <em>Pediatrics</em>, 145(1). <a href="https://doi.org/10.1542/peds.2019-3449" rel="noopener" target="_blank">doi:10.1542/peds.2019-3449</a>',
+  ],
+  related: ['marcos-desenvolvimento-linguagem-2-a-5-anos', 'desenvolvimento-da-linguagem-infantil', 'atraso-na-fala'],
+}

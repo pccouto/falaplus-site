@@ -1,0 +1,63 @@
+export default {
+  id: 'sindrome-de-einstein-falar-tarde',
+  slug: 'sindrome-de-einstein-hablar-tarde',
+  short: '«Síndrome de Einstein»',
+  date: '2026-10-24',
+  titleTag: 'Síndrome de Einstein: ¿hablar tarde es señal de inteligencia? · Habla+',
+  description: '¿Qué es el «síndrome de Einstein»? Un término popular, no un diagnóstico. Por qué no debe retrasar la evaluación de un niño que habla tarde, según los estudios.',
+  keywords: ['síndrome de Einstein', 'hablar tarde e inteligencia', 'niños inteligentes que hablan tarde', 'Einstein habló tarde', 'retraso del habla e inteligencia', 'síndrome de Einstein o autismo'],
+  h1: '«Síndrome de Einstein»: ¿hablar tarde es señal de <span class="word-highlight">inteligencia</span>?',
+  lead: 'Se cuenta que Einstein empezó a hablar tarde, y hay quien usa la expresión «síndrome de Einstein» para describir a niños inteligentes que hablan tarde. Es una idea reconfortante, pero puede llevar a esperar cuando no se debería.',
+  blocks: [
+    { intro: 'El <strong>síndrome de Einstein</strong> aparece a menudo en las búsquedas de familias con un niño que habla tarde. En este artículo explicamos de dónde viene el término, por qué <strong>no es un diagnóstico</strong> y qué dicen los estudios sobre los niños que hablan tarde.' },
+    { summary: [
+      'El término lo popularizó el economista Thomas Sowell en un libro de 1997, a partir de relatos de familias.',
+      'No es un diagnóstico: no aparece en ninguna clasificación médica y no tiene criterios definidos.',
+      'Hablar tarde no es señal de inteligencia alta ni baja.',
+      'Los estudios muestran que algunos niños que hablan tarde mantienen debilidades de lenguaje hasta la adolescencia; por eso se recomienda evaluar pronto.',
+    ] },
+    { h2: '¿De dónde viene el «síndrome de Einstein»?', id: 'origem', toc: 'Origen del término' },
+    { p: 'La expresión la popularizó Thomas Sowell, economista y padre de un niño que habló tarde, en el libro <em>Late-Talking Children</em> (1997), a partir de relatos de familias. Más tarde, apoyándose en la investigación de Stephen Camarata, publicó <em>The Einstein Syndrome</em>. Son libros de divulgación, no estudios clínicos.' },
+    { p: 'El «síndrome de Einstein» <strong>no existe en las clasificaciones médicas</strong> (CIE o DSM) y no tiene criterios definidos. Como mucho, describe a un grupo de niños que hablaron tarde y luego resultaron muy capaces.' },
+    { h2: '¿Hablar tarde es señal de inteligencia?', id: 'inteligencia', toc: 'Hablar tarde e inteligencia' },
+    { p: 'No. Hablar tarde no indica una inteligencia alta ni baja. En un estudio que siguió hasta los 17 años a niños que hablaron tarde, con inteligencia y comprensión normales a los 2 años, los resultados quedaron en la media, pero <strong>por debajo de compañeros similares en vocabulario, gramática y memoria verbal</strong> (Rescorla, 2009). La autora concluye que hablar tarde se asocia a una debilidad en las habilidades de lenguaje que se prolonga en el tiempo.' },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'Muchos niños que hablan tarde acaban hablando bien.',
+        'Algunos mantienen debilidades de lenguaje que conviene seguir.',
+        'A los 2 años no es posible saber quién se recuperará solo.',
+      ],
+      no: [
+        '«Si es inteligente, el habla llegará sola».',
+        '«Hablar tarde es señal de altas capacidades».',
+        '«El síndrome de Einstein es un diagnóstico».',
+      ],
+    } },
+    { h2: 'Entonces, ¿qué hacer?', id: 'o-que-fazer', toc: 'Qué hacer' },
+    { p: 'Como a los 2 años no hay forma de saber qué niños se recuperarán solos, la recomendación es <strong>evaluar cualquier retraso del habla</strong>, empezando por la audición, y apoyar la comunicación desde ya. Una evaluación no etiqueta al niño: aporta información y, si hace falta, apoyo antes. Consulta también [[fala-tardia-recupera-sempre|¿Quien habla tarde se recupera siempre?]].' },
+    { bridge: {
+      title: 'Apoyar la comunicación mientras se evalúa',
+      intro: 'El artículo recomienda no esperar. Algunas funciones de la app pueden ofrecer oportunidades de comunicar y explorar palabras:',
+      items: [
+        ['Valorar todas las formas de comunicar mientras el habla no llega.', 'En Comunicar, el niño une tarjetas con imágenes en una frase y la oye en voz alta.'],
+        ['Explorar vocabulario jugando.', 'Los juegos de palabras presentan palabras cotidianas con imagen y voz.'],
+      ],
+      outro: 'Habla+ no evalúa el lenguaje ni la inteligencia y no sustituye la evaluación de un profesional.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre el «síndrome de Einstein»',
+  faq: [
+    ['¿El síndrome de Einstein existe?', 'Como diagnóstico, no. Es un término popular, sin criterios definidos y fuera de las clasificaciones médicas.'],
+    ['¿Los niños inteligentes hablan más tarde?', 'No hay relación entre hablar tarde y una inteligencia alta. Hablar tarde merece una evaluación, sea cual sea el perfil del niño.'],
+    ['¿Einstein habló tarde de verdad?', 'Hay relatos biográficos en ese sentido, pero un caso histórico no sirve de referencia para otros niños.'],
+    ['Si el niño lo entiende todo, ¿puedo esperar?', 'Entender bien es una buena señal, pero no garantiza que se recupere solo. Se recomienda evaluar.'],
+  ],
+  sources: [
+    'Rescorla (2009). Age 17 Language and Reading Outcomes in Late-Talking Toddlers: Support for a Dimensional Perspective on Language Delay. <em>Journal of Speech, Language, and Hearing Research</em>, 52(1), 16–30. <a href="https://doi.org/10.1044/1092-4388(2008/07-0171)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2008/07-0171)</a>',
+    'Sowell, T. (1997). <em>Late-Talking Children</em>. Basic Books.',
+    'Sowell, T. <em>The Einstein Syndrome: Bright Children Who Talk Late</em>. Basic Books.',
+  ],
+  related: ['fala-tardia-recupera-sempre', 'atraso-na-fala-ou-autismo', 'atraso-na-fala'],
+}

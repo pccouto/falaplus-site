@@ -1,0 +1,77 @@
+export default {
+  id: 'codigos-diagnostico-fala-cid',
+  slug: 'codigos-diagnostico-habla-cie',
+  short: 'Códigos del habla en un informe',
+  date: '2026-10-24',
+  titleTag: 'F80.9 y 6A01: códigos del habla en un informe · Habla+',
+  description: '¿Qué significa F80.9 o 6A01 en un informe? Cómo leer los códigos de la CIE-10 y la CIE-11 de los trastornos del habla y del lenguaje sin sacar conclusiones de más.',
+  keywords: ['código F80.9', 'CIE-10 F80 retraso del lenguaje', 'CIE-11 6A01', 'trastorno del desarrollo del habla y del lenguaje no especificado', 'códigos diagnósticos logopedia', 'F80.1 y F80.2 diferencia'],
+  h1: 'F80.9, 6A01: qué significan los <span class="word-highlight">códigos</span> del habla en un informe',
+  lead: 'En un informe clínico o una solicitud de apoyo, un código como F80.9 puede parecer una etiqueta misteriosa. Es solo la forma estandarizada de clasificar la dificultad detectada, y tiene reglas que conviene conocer.',
+  blocks: [
+    { intro: 'Los <strong>códigos diagnósticos del habla</strong> proceden de la Clasificación Internacional de Enfermedades (CIE) de la Organización Mundial de la Salud. En este artículo explicamos qué significan los códigos más frecuentes de la CIE-10 (<strong>F80</strong>) y de la CIE-11 (<strong>6A01</strong>) y qué preguntar cuando aparecen en un informe.' },
+    { summary: [
+      'La CIE-10 agrupa los trastornos específicos del desarrollo del habla y del lenguaje en F80; la CIE-11 usa el bloque 6A01.',
+      'F80.9 significa «no especificado»: hay una dificultad, pero el informe no la clasifica en un subtipo.',
+      'El código resume; no sustituye la descripción de las dificultades ni de los apoyos recomendados.',
+      'Los códigos pueden cambiar con nuevas evaluaciones, a medida que el niño crece.',
+    ] },
+    { h2: '¿Qué son la CIE-10 y la CIE-11?', id: 'cid', toc: 'CIE-10 y CIE-11' },
+    { p: 'La CIE es la clasificación de la Organización Mundial de la Salud que se usa en todo el mundo para registrar diagnósticos. La <strong>CIE-11</strong> entró en vigor en 2022, pero muchos servicios siguen usando la <strong>CIE-10</strong> o versiones nacionales de ella. Por eso, la misma dificultad puede aparecer con códigos distintos en informes distintos.' },
+    { h2: '¿Qué códigos aparecen más en el habla y el lenguaje?', id: 'codigos', toc: 'Los códigos' },
+    { table: {
+      head: ['CIE-11', 'Correspondencia aproximada en la CIE-10', 'Qué describe'],
+      rows: [
+        ['6A01.0', 'F80.0', 'Trastorno del desarrollo de los sonidos del habla (errores de sonidos)'],
+        ['6A01.1', 'F98.5 (aproximada)', 'Trastorno del desarrollo de la fluidez del habla (tartamudez)'],
+        ['6A01.20', 'F80.2', 'Trastorno del lenguaje con dificultades en la comprensión y la expresión'],
+        ['6A01.21', 'F80.1', 'Trastorno del lenguaje sobre todo expresivo'],
+        ['6A01.Z', 'F80.8 / F80.9', 'Trastorno del desarrollo del habla o del lenguaje no especificado'],
+      ],
+    } },
+    { p: 'Las correspondencias entre la CIE-10 y la CIE-11 no siempre son exactas. Los informes también pueden citar el DSM-5 o describir la dificultad sin código. Consulta [[trocas-de-sons-na-fala|Errores de sonidos en el habla]] y [[atraso-na-fala-e-pdl|Retraso del habla y TDL]].' },
+    { h2: 'F80.9: ¿qué significa «no especificado»?', id: 'f80-9', toc: 'F80.9' },
+    { p: 'El código <strong>F80.9</strong> se usa cuando hay un trastorno del desarrollo del habla o del lenguaje, pero el informe no lo clasifica en un subtipo. Puede ocurrir en una primera evaluación, en un niño pequeño o cuando la información aún es incompleta. <strong>No indica gravedad</strong>.' },
+    { evidence: {
+      yesTitle: 'El código dice',
+      noTitle: 'El código no dice',
+      yes: [
+        'Qué tipo de dificultad se ha detectado.',
+        'Un lenguaje común entre servicios de salud y de educación.',
+      ],
+      no: [
+        'La gravedad ni el pronóstico.',
+        'Qué apoyos necesita el niño.',
+        'Que la dificultad sea definitiva.',
+      ],
+    } },
+    { h2: '¿Qué preguntar cuando recibes un informe con códigos?', id: 'perguntas', toc: 'Qué preguntar' },
+    { ol: [
+      '¿Qué dificultades concretas se observaron y en qué situaciones?',
+      '¿Qué pruebas y observaciones respaldan el código?',
+      '¿Qué objetivos y apoyos se recomiendan, y con qué frecuencia?',
+      '¿Cuándo debe hacerse una reevaluación?',
+    ] },
+    { p: 'Consulta también [[compreender-relatorio-clinico-perguntas|Cómo comprender un informe clínico del niño]].' },
+    { bridge: {
+      title: 'Registrar el día a día para llevarlo a la consulta',
+      intro: 'El artículo recomienda describir dificultades concretas. Una función de la app puede complementar esa conversación:',
+      items: [
+        ['Describir lo que hace el niño en el día a día ayuda a interpretar el informe.', 'El informe semanal (Premium) muestra minutos de uso, palabras y uso de Comunicar, con espacio para notas; no es una evaluación.'],
+      ],
+      outro: 'Habla+ no asigna códigos ni diagnósticos y no sustituye el informe de un profesional.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre los códigos diagnósticos',
+  faq: [
+    ['¿Qué significa F80.9 en un informe?', 'Trastorno del desarrollo del habla o del lenguaje no especificado: se ha detectado una dificultad sin clasificarla en un subtipo. No indica gravedad.'],
+    ['¿Qué diferencia hay entre F80.1 y F80.2?', 'En la CIE-10, F80.1 se refiere sobre todo al lenguaje expresivo y F80.2 a dificultades en la comprensión y la expresión.'],
+    ['¿Qué es el código 6A01?', 'Es el bloque de la CIE-11 para los trastornos del desarrollo del habla o del lenguaje.'],
+    ['¿El código puede cambiar?', 'Sí. Con nuevas evaluaciones y con el crecimiento del niño, la clasificación puede actualizarse.'],
+  ],
+  sources: [
+    'Organización Mundial de la Salud. <a href="https://icd.who.int/browse/2024-01/mms/es" rel="noopener" target="_blank">CIE-11 para estadísticas de mortalidad y morbilidad</a> — 6A01 Trastornos del desarrollo del habla o del lenguaje.',
+    'Organización Mundial de la Salud. <a href="https://icd.who.int/browse10/2019/en#/F80" rel="noopener" target="_blank">ICD-10 (2019) — F80 Specific developmental disorders of speech and language</a>.',
+  ],
+  related: ['compreender-relatorio-clinico-perguntas', 'avaliacao-perturbacao-desenvolvimento-linguagem', 'atraso-na-fala-e-pdl'],
+}

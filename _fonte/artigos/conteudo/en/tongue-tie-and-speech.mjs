@@ -1,0 +1,67 @@
+export default {
+  id: 'freio-lingual-e-fala',
+  slug: 'tongue-tie-and-speech',
+  short: 'Tongue-tie and speech',
+  date: '2026-10-24',
+  titleTag: 'Does tongue-tie delay speech? The evidence · Talk+',
+  description: 'Does tongue-tie (ankyloglossia) cause speech delay? Rarely. What reviews say, when to assess and why cutting the tie is not the first answer.',
+  keywords: ['does tongue tie delay speech', 'tongue tie and speech', 'ankyloglossia speech', 'tongue tie speech delay toddler', 'frenotomy speech', 'tongue tie lisp'],
+  h1: 'Does tongue-tie delay speech? What the <span class="word-highlight">evidence</span> says',
+  lead: 'When a child talks little or mixes up sounds, it is common to hear that they are «tongue-tied» and that «snipping the tie» will fix it. The scientific evidence is far more cautious.',
+  blocks: [
+    { intro: '<strong>Tongue-tie</strong>, or ankyloglossia, is a membrane under the tongue that is shorter or thicker than usual. In this article we explain what is known about <strong>tongue-tie and speech</strong>, what reviews say about frenotomy and what to check first when there is a delay.' },
+    { summary: [
+      'A 2020 consensus of paediatric ENT surgeons states that ankyloglossia does not typically affect speech.',
+      'A tongue-tie does not explain a language delay: it does not reduce vocabulary or sentence building.',
+      'Reviews of frenotomy to improve speech find insufficient, low-quality evidence.',
+      'Before surgery for speech reasons, an assessment by a speech and language therapist is recommended.',
+    ] },
+    { h2: 'Does tongue-tie delay speech?', id: 'atraso', toc: 'Does it delay speech?' },
+    { p: 'It is important to separate two things. <strong>Language</strong> is knowing words and putting them into sentences; <strong>speech</strong> is producing the sounds (see [[diferenca-entre-fala-e-linguagem|Speech, language and communication]]). A tongue-tie may, in some cases, make sounds that need the tongue tip raised harder, but it <strong>does not explain a child who says few words</strong>.' },
+    { p: 'A consensus statement by paediatric otolaryngologists published in 2020 concluded that ankyloglossia does not typically affect speech, and recommends that an older child having a frenotomy for speech reasons is <strong>first assessed by a speech and language therapist</strong> (Messner et al., 2020).' },
+    { h2: 'Does cutting the tongue-tie improve speech?', id: 'frenotomia', toc: 'Frenotomy' },
+    { p: 'A systematic review of ankyloglossia treatment for reasons other than breastfeeding found few studies: two randomised trials, two cohort studies and eleven case series. Two cohort studies reported improvements in articulation, but outcome assessment was inconsistent and the evidence was judged insufficient (Chinnadurai et al., 2015). More recent reviews reach similar conclusions.' },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'Most children with a short frenulum speak without difficulty.',
+        'Some sounds (such as l, r, t, d) may need more tongue movement.',
+        'Decisions about surgery should involve a doctor and a speech and language therapist.',
+      ],
+      no: [
+        '«A tongue-tie explains why the child isn’t talking.»',
+        '«Cutting the tie will get the child talking.»',
+        '«All sound errors come from the tongue-tie.»',
+      ],
+    } },
+    { h2: 'What to check first when there is a speech delay', id: 'avaliar', toc: 'What to check' },
+    { ul: [
+      '<strong>Hearing</strong>: the first step for any delay (see [[otite-serosa-e-fala|Glue ear and speech]]).',
+      '<strong>Language and communication</strong>: understanding, vocabulary, gestures and interaction.',
+      '<strong>Speech sounds</strong>: whether sound errors are typical for the child’s age (see [[trocas-de-sons-na-fala|Speech sound errors in children]]).',
+      '<strong>Tongue function</strong>: movement, eating and swallowing, with the doctor and therapist.',
+    ] },
+    { p: 'It is also wise to be wary of blowing or facial exercises sold as a solution for speech: see [[mito-sopros-exercicios-faciais-fala|do facial exercises speed up speech?]].' },
+    { bridge: {
+      title: 'Hearing and playing with sounds, without judging pronunciation',
+      intro: 'The app can offer chances to hear and try out words through play:',
+      items: [
+        ['Speech develops by hearing good models and trying things out, without pressure.', 'In Magic Voice, the child hears the word and then speaks, sings or makes a sound; the app does not assess pronunciation.'],
+      ],
+      outro: 'Talk+ does not assess tongue-tie or articulation and does not replace an assessment by a doctor or a speech and language therapist.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about tongue-tie and speech',
+  faq: [
+    ['Does tongue-tie delay speech?', 'Rarely. A tongue-tie does not explain a child saying few words; in some cases it may make certain sounds harder.'],
+    ['How do I know if my child is tongue-tied?', 'Only a professional can confirm it. Signs such as difficulty sticking the tongue out or lifting it deserve an assessment.'],
+    ['Does cutting a tongue-tie help speech?', 'The evidence is insufficient. Before surgery for speech reasons, an assessment by a speech and language therapist is recommended.'],
+    ['Can tongue-tie cause a lisp?', 'A lisp has many possible causes and is common in young children. An assessment can tell whether tongue movement plays a part.'],
+  ],
+  sources: [
+    'Messner et al. (2020). Clinical Consensus Statement: Ankyloglossia in Children. <em>Otolaryngology–Head and Neck Surgery</em>, 162(5), 597–611. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Consensus+Statement%3A+Ankyloglossia+in+Children" rel="noopener" target="_blank">PubMed</a>',
+    'Chinnadurai et al. (2015). Treatment of Ankyloglossia for Reasons Other Than Breastfeeding: A Systematic Review. <em>Pediatrics</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Treatment+of+Ankyloglossia+for+Reasons+Other+Than+Breastfeeding%3A+A+Systematic+Review" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala', 'terapia-miofuncional-orofacial-criancas'],
+}

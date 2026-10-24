@@ -1,0 +1,78 @@
+export default {
+  id: 'vitaminas-para-atraso-na-fala',
+  slug: 'vitamins-for-speech-delay',
+  short: 'Vitamins for speech delay',
+  date: '2026-10-24',
+  titleTag: 'Vitamins for speech delay: do they work? · Talk+',
+  description: 'Are there vitamins that help a child talk? No supplement treats speech delay. What studies say about folinic acid, B12 and omega-3, and when to see a doctor.',
+  keywords: ['vitamins for speech delay', 'supplements for speech delay', 'vitamin B12 speech delay', 'folinic acid autism speech', 'omega 3 speech delay', 'medicine for speech delay'],
+  h1: 'Vitamins for speech delay: do they <span class="word-highlight">work</span>?',
+  lead: 'Online, there is no shortage of vitamins and supplements promising to «help children talk». The scientific evidence does not support any of them as a treatment for speech delay. There are, however, deficiencies a doctor needs to know about.',
+  blocks: [
+    { intro: 'People searching for <strong>vitamins for speech delay</strong> want to help the child as quickly as possible. In this article we separate what has been shown from what has not: folinic acid in autism, vitamin B12 deficiency in babies and what to do before giving any <strong>supplement</strong>.' },
+    { summary: [
+      'No vitamin or supplement has been shown to treat speech delay in general.',
+      'A trial of folinic acid in autistic children with language impairment had positive but preliminary results, not replicated at scale.',
+      'Severe vitamin B12 deficiency in babies can cause developmental delay or regression; it is rare and diagnosed with blood tests.',
+      'Supplements only on medical advice. Communication support should not wait for them.',
+    ] },
+    { h2: 'Are there vitamins that help a child talk?', id: 'vitaminas', toc: 'Do vitamins help?' },
+    { p: 'No study has shown that a vitamin, mineral or supplement <strong>treats speech delay</strong> in a child without a deficiency. Language development depends on hearing, brain development and many opportunities for interaction.' },
+    { h2: 'What about folinic acid in autism?', id: 'acido-folinico', toc: 'Folinic acid' },
+    { p: 'A randomised trial with 48 autistic children with language impairment, aged 3 to 14, compared folinic acid with placebo for 12 weeks. The folinic acid group improved more in verbal communication (Frye et al., 2018). The authors themselves considered the results <strong>preliminary</strong>, and the trial registry notes that the sponsor could not fully validate the data. It is therefore not a recommendation for all children.' },
+    { h2: 'When a deficiency can matter', id: 'carencias', toc: 'Deficiencies' },
+    { p: '<strong>Severe vitamin B12 deficiency</strong> in babies, described mainly in breastfed babies of mothers with a deficiency (for example, on vegan diets without a supplement), can cause low muscle tone, feeding difficulties and <strong>developmental delay or regression</strong>, usually between 2 and 12 months. It is rare, diagnosed with blood tests and treated under medical guidance; the earlier, the better the outlook.' },
+    { alert: {
+      title: 'Talk to a doctor, not the pharmacy, if the child:',
+      items: [
+        'has lost skills they already had (words, gestures, smiles);',
+        'has feeding difficulties, poor weight gain or has become floppier;',
+        'follows a restrictive diet, or the breastfeeding mother follows a vegan diet without a B12 supplement.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'Myths',
+      yes: [
+        'Severe deficiencies (such as B12) affect development and must be treated.',
+        'Folinic acid has preliminary results in a specific group of autistic children.',
+        'What helps language most is interaction and, where needed, speech therapy.',
+      ],
+      no: [
+        '«There is a vitamin that makes children talk.»',
+        '«Natural supplements have no risks.»',
+        '«Try the supplement first, then therapy.»',
+      ],
+    } },
+    { h2: 'What to do instead of looking for a supplement', id: 'o-que-fazer', toc: 'What to do' },
+    { ol: [
+      'Ask the doctor for a developmental and hearing assessment.',
+      'If a deficiency is suspected, blood tests and any supplement are decided by the doctor.',
+      'Start communication support at home now: talk, read, play and wait for the child’s response.',
+      'Be wary of products promising to «unlock speech».',
+    ] },
+    { p: 'The same reasoning applies to diets presented as a solution: see [[dieta-sem-gluten-autismo|Does a gluten-free diet treat autism?]].' },
+    { bridge: {
+      title: 'What really helps: chances to communicate',
+      intro: 'The article concludes that interaction is what supports language most. Some parts of the app can offer opportunities in that direction:',
+      items: [
+        ['Plenty of chances to hear and use everyday words.', 'Over 1,000 words in 25 themes appear with pictures and voice in different games.'],
+        ['Communicating while speech is not there yet.', 'In Communicate, the child puts picture cards together into a sentence and hears it out loud.'],
+      ],
+      outro: 'Talk+ is not a treatment and does not replace a medical assessment or speech therapy.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about vitamins and speech',
+  faq: [
+    ['What is the best vitamin for speech delay?', 'No vitamin has been shown to treat speech delay. If a deficiency is suspected, the doctor will order blood tests.'],
+    ['Does vitamin B12 help speech delay?', 'Only when there is a deficiency. Severe deficiency in babies can delay development and must be treated by a doctor.'],
+    ['Does omega-3 help a child talk?', 'There is no evidence that omega-3 treats speech delay.'],
+    ['Is there medicine for speech delay?', 'There is no medicine for speech delay. Support comes from assessment, interaction at home and, where needed, speech therapy.'],
+  ],
+  sources: [
+    'Frye et al. (2018). Folinic acid improves verbal communication in children with autism and language impairment: a randomized double-blind placebo-controlled trial. <em>Molecular Psychiatry</em>, 23(2), 247–256. <a href="https://doi.org/10.1038/mp.2016.168" rel="noopener" target="_blank">doi:10.1038/mp.2016.168</a>',
+    'ClinicalTrials.gov. <a href="https://clinicaltrials.gov/study/NCT01602016" rel="noopener" target="_blank">A Folinic Acid Intervention for Autism Spectrum Disorders (NCT01602016)</a>.',
+    'Review of vitamin B12 deficiency in infancy: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8140678/" rel="noopener" target="_blank">Vitamin B12 deficiency: case report and review of literature</a> (PMC8140678).',
+  ],
+  related: ['dieta-sem-gluten-autismo', 'atraso-na-fala', 'terapia-da-fala-em-casa'],
+}

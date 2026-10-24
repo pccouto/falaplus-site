@@ -1,0 +1,83 @@
+export default {
+  id: 'atraso-na-fala-leitura-dislexia',
+  slug: 'speech-delay-reading-dyslexia',
+  short: 'Speech delay, reading and dyslexia',
+  date: '2026-10-24',
+  titleTag: 'Speech delay, reading and dyslexia: the link · Talk+',
+  description: 'Does a speech delay raise the risk of reading difficulties? Yes, especially when language stays weak. Signs to watch and how to build early reading skills at home.',
+  keywords: ['speech delay and dyslexia', 'speech delay reading problems', 'phonological awareness', 'is speech delay a learning disability', 'late talkers reading', 'early signs of dyslexia preschool'],
+  h1: 'Speech delay, reading and dyslexia: what is the <span class="word-highlight">link</span>?',
+  lead: 'Reading means turning letters into language. That is why children with spoken language difficulties are at higher risk of reading difficulties. Knowing this early helps prepare the way before school starts.',
+  blocks: [
+    { intro: 'The link between <strong>speech delay and dyslexia</strong> worries many families. In this article we explain what longitudinal studies show, the role of <strong>phonological awareness</strong> and which signs to follow before and after school starts.' },
+    { summary: [
+      'Children with a language impairment in kindergarten were at higher risk of reading difficulties in grades 2 and 4.',
+      'The risk was lower for children whose spoken language improved by school age.',
+      'Speech, language and reading overlap, but in different ways depending on the child’s profile.',
+      'A speech delay is not the same as dyslexia: it is a sign to follow, not a diagnosis.',
+    ] },
+    { h2: 'Does a speech delay raise the risk of reading difficulties?', id: 'risco', toc: 'The risk' },
+    { p: 'A US study followed children identified with a language impairment in kindergarten into grades 2 and 4. These children had a <strong>high risk of reading disabilities</strong>, greater when there were also non-verbal difficulties. Children whose spoken language improved had better reading outcomes (Catts et al., 2002).' },
+    { p: 'Children who talked late at age 2, even with results in the average range, were also below similar peers in vocabulary and grammar at age 17 (Rescorla, 2009). Language is the foundation of understanding what you read.' },
+    { h2: 'Speech, language and reading: where do they overlap?', id: 'relacao', toc: 'Where they overlap' },
+    { p: 'A review by Pennington and Bishop (2009) analysed the overlap between speech sound disorder, language impairment and dyslexia. It concluded that <strong>they overlap at several levels</strong>, but that this depends on the profile: not every child with sound errors or a language delay will have reading difficulties.' },
+    { cards: [
+      ['Phonological awareness', 'Realising that words are made of sounds: rhymes, syllables, the first sound in «mat».'],
+      ['Vocabulary and grammar', 'The basis for understanding sentences and texts.'],
+      ['Rapid naming', 'Quickly naming familiar colours, objects or letters.'],
+    ] },
+    { alert: {
+      title: 'Signs to follow and share with the school and doctor:',
+      items: [
+        'at age 4 to 5, difficulty with rhymes, clapping syllables or recognising the first sound of a word;',
+        'persistent difficulty learning letter names;',
+        'a family history of dyslexia or reading difficulties;',
+        'spoken language that remains weak when starting school.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'Spoken language difficulties raise the risk of reading difficulties.',
+        'Improving spoken language is linked to better reading.',
+        'Building phonological awareness before school is useful.',
+      ],
+      no: [
+        '«Every late talker will have dyslexia.»',
+        '«Dyslexia can be diagnosed at age 3.»',
+        '«Learning to read earlier prevents dyslexia.»',
+      ],
+    } },
+    { h2: 'How to build early reading skills at home', id: 'em-casa', toc: 'At home' },
+    { ul: [
+      'Read stories every day and talk about them: see [[leitura-dialogica-ler-historias|dialogic reading]].',
+      'Play with rhymes, songs and nursery rhymes.',
+      'Clap the syllables of family members’ names.',
+      'Play «I spy something beginning with /m/…».',
+    ] },
+    { p: 'See also [[jogos-para-aprender-a-ler|Games for learning to read]].' },
+    { bridge: {
+      title: 'Words, sounds and letters through play',
+      intro: 'Some ideas from the article are mirrored in parts of the app:',
+      items: [
+        ['Spoken language is the foundation of reading.', 'Word games present everyday vocabulary with pictures and voice.'],
+        ['Playing with syllables and letters.', 'In Build Words, the child hears the word and puts the pieces in the right order; in Word Search they look for written words.'],
+      ],
+      outro: 'Talk+ does not screen for or diagnose dyslexia and does not replace reading instruction or assessment.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about speech, reading and dyslexia',
+  faq: [
+    ['Is a speech delay a learning disability?', 'No. It is a sign that raises the risk of reading difficulties, especially if language stays weak. It should be followed up.'],
+    ['Will a late talker have dyslexia?', 'Not necessarily. Many late talkers read well. The risk is higher when spoken language remains weak.'],
+    ['At what age can dyslexia be diagnosed?', 'Usually after formal reading instruction begins. Before that, risk signs can be observed.'],
+    ['What is phonological awareness?', 'It is realising that words are made of sounds: rhymes, syllables and first sounds. It prepares children for learning to read.'],
+  ],
+  sources: [
+    'Catts, Fey, Tomblin and Zhang (2002). A Longitudinal Investigation of Reading Outcomes in Children With Language Impairments. <em>Journal of Speech, Language, and Hearing Research</em>, 45(6), 1142–1157. <a href="https://doi.org/10.1044/1092-4388(2002/093)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2002/093)</a>',
+    'Pennington and Bishop (2009). Relations among speech, language, and reading disorders. <em>Annual Review of Psychology</em>, 60, 283–306. <a href="https://doi.org/10.1146/annurev.psych.60.110707.163548" rel="noopener" target="_blank">doi:10.1146/annurev.psych.60.110707.163548</a>',
+    'Rescorla (2009). Age 17 Language and Reading Outcomes in Late-Talking Toddlers. <em>Journal of Speech, Language, and Hearing Research</em>, 52(1), 16–30. <a href="https://doi.org/10.1044/1092-4388(2008/07-0171)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2008/07-0171)</a>',
+  ],
+  related: ['jogos-para-aprender-a-ler', 'atraso-na-fala-e-pdl', 'leitura-dialogica-ler-historias'],
+}

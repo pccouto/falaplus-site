@@ -1,0 +1,76 @@
+export default {
+  id: 'prematuridade-e-linguagem',
+  slug: 'premature-birth-and-language',
+  short: 'Premature birth and language',
+  date: '2026-10-24',
+  titleTag: 'Premature birth and language: what to expect · Talk+',
+  description: 'Do premature babies talk later? On average they have more language difficulties, especially with complex language. Corrected age, signs to watch and how to help.',
+  keywords: ['premature baby speech delay', 'do premature babies talk later', 'preterm language development', 'corrected age milestones', 'preemie speech milestones', 'preterm follow-up'],
+  h1: 'Premature birth and language: what to <span class="word-highlight">expect</span> and how to follow up',
+  lead: 'Being born early changes the starting point. Many premature children talk without difficulty, but on average they face more language challenges, which may only become visible when language gets more demanding.',
+  blocks: [
+    { intro: 'The link between <strong>premature birth and language</strong> is well studied. In this article we explain what meta-analyses show, how to use <strong>corrected age</strong> in the early years and which signs justify talking to the team that follows the child.' },
+    { summary: [
+      'A meta-analysis of 17 studies found lower language scores in children born preterm, from age 3 to 12.',
+      'The gap in complex language grew with age; in simple language, it did not.',
+      'In the first 2 years, development is compared using corrected age.',
+      'Regular follow-up helps identify difficulties early, including at school age.',
+    ] },
+    { h2: 'Do premature babies talk later?', id: 'falam-mais-tarde', toc: 'Do they talk later?' },
+    { p: 'A meta-analysis published in <em>Pediatrics</em> pooled 17 studies with about 1,500 children born preterm and about 940 born at term. Preterm children scored <strong>lower in both simple language (such as vocabulary) and complex language</strong> (such as understanding and building elaborate sentences). The gap in complex language <strong>grew from age 3 to 12</strong> (van Noort-van der Spek et al., 2012).' },
+    { p: 'This does not mean every premature child will have difficulties: these are group averages. But it explains why some difficulties only appear later, when school asks for more elaborate language.' },
+    { h2: 'What is corrected age?', id: 'idade-corrigida', toc: 'Corrected age' },
+    { p: 'Corrected age is the age the child would be if born on the due date. A 12-month-old born 2 months early has a corrected age of 10 months. In the early years, developmental milestones, including language ones, are compared with corrected age, following the health team’s guidance.' },
+    { h2: 'Which signs should you watch for?', id: 'sinais', toc: 'Signs to watch' },
+    { alert: {
+      title: 'Talk to the follow-up team if the child:',
+      items: [
+        'does not babble, point or react to voices, taking corrected age into account;',
+        'does not combine two words by about 2 years corrected age;',
+        'has difficulty understanding instructions or telling what happened, at preschool or school age;',
+        'has had hearing problems or frequent ear infections.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'On average, children born preterm have more language difficulties.',
+        'Difficulties with complex language may appear later.',
+        'Regular follow-up helps identify difficulties early.',
+      ],
+      no: [
+        '«Every premature baby will have a speech delay.»',
+        '«By age 2 they have caught up, no need to monitor.»',
+        '«The difficulties are only because they were born smaller.»',
+      ],
+    } },
+    { h2: 'How to support language at home', id: 'em-casa', toc: 'At home' },
+    { ul: [
+      'Talk during care routines: bath time, nappy changes and meals are great opportunities.',
+      'Read picture books from early on and comment on what the child looks at: see [[leitura-dialogica-ler-historias|Dialogic reading]].',
+      'Respond to the baby’s sounds and gestures as if they were conversation.',
+      'Keep follow-up appointments, even when everything seems fine.',
+    ] },
+    { bridge: {
+      title: 'Everyday words, at the child’s pace',
+      intro: 'Some ideas from the article are echoed in parts of the app:',
+      items: [
+        ['Following the child’s pace.', 'Walk progresses by levels and has a version for children who cannot read yet; in games, difficulty adjusts to performance.'],
+        ['Everyday words with pictures and voice.', 'Over 1,000 words in 25 themes, such as Family, Food and Routines.'],
+      ],
+      outro: 'Talk+ does not track developmental milestones or replace follow-up appointments.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about premature birth and language',
+  faq: [
+    ['Do premature babies talk later?', 'On average they have more language difficulties, but many talk without problems. In the early years, comparison uses corrected age.'],
+    ['Until when should corrected age be used?', 'Usually for the first 2 years, following the guidance of the health team following the child.'],
+    ['Does a preemie who talks well at 2 still need monitoring?', 'Yes. Difficulties with more complex language may appear later, at preschool and school age.'],
+    ['What can I do at home?', 'Talk during everyday care, read picture books and respond to the baby’s sounds and gestures.'],
+  ],
+  sources: [
+    'van Noort-van der Spek, Franken and Weisglas-Kuperus (2012). Language functions in preterm-born children: a systematic review and meta-analysis. <em>Pediatrics</em>, 129(4), 745–754. <a href="https://doi.org/10.1542/peds.2011-1728" rel="noopener" target="_blank">doi:10.1542/peds.2011-1728</a>',
+  ],
+  related: ['marcos-linguagem-0-a-24-meses', 'desenvolvimento-da-linguagem-infantil', 'quando-procurar-avaliacao-desenvolvimento'],
+}

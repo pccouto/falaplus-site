@@ -1,0 +1,75 @@
+export default {
+  slug: 'prematuridade-e-linguagem',
+  short: 'Prematuridade e linguagem',
+  date: '2026-10-24',
+  titleTag: 'Prematuridade e linguagem: o que esperar · Fala+',
+  description: 'Os bebés prematuros falam mais tarde? Em média, têm mais dificuldades de linguagem, sobretudo complexa. Idade corrigida, sinais a vigiar e como apoiar em casa.',
+  keywords: ['prematuridade e linguagem', 'bebé prematuro fala mais tarde', 'idade corrigida prematuro', 'desenvolvimento prematuro fala', 'prematuro atraso na fala', 'seguimento de prematuros'],
+  h1: 'Prematuridade e linguagem: o que <span class="word-highlight">esperar</span> e como acompanhar',
+  lead: 'Nascer antes do tempo muda o ponto de partida. Muitas crianças prematuras falam sem dificuldades, mas, em média, têm mais desafios de linguagem, que podem tornar-se visíveis só quando a linguagem fica mais exigente.',
+  blocks: [
+    { intro: 'A relação entre <strong>prematuridade e linguagem</strong> está bem estudada. Neste artigo explicamos o que mostram as meta-análises, como usar a <strong>idade corrigida</strong> nos primeiros anos e que sinais justificam falar com a equipa que acompanha a criança.' },
+    { summary: [
+      'Uma meta-análise de 17 estudos encontrou resultados de linguagem mais baixos em crianças nascidas prematuras, dos 3 aos 12 anos.',
+      'A diferença na linguagem complexa aumentou com a idade; na linguagem simples, não.',
+      'Nos primeiros 2 anos, compara-se o desenvolvimento pela idade corrigida.',
+      'O seguimento regular permite identificar dificuldades cedo, incluindo na idade escolar.',
+    ] },
+    { h2: 'Os bebés prematuros falam mais tarde?', id: 'falam-mais-tarde', toc: 'Falam mais tarde?' },
+    { p: 'Uma meta-análise publicada na <em>Pediatrics</em> reuniu 17 estudos com cerca de 1 500 crianças nascidas prematuras e cerca de 940 nascidas no tempo. As crianças prematuras tiveram <strong>resultados mais baixos tanto na linguagem simples (como o vocabulário) como na complexa</strong> (como compreender e construir frases elaboradas). A diferença na linguagem complexa <strong>aumentou dos 3 aos 12 anos</strong> (van Noort-van der Spek et al., 2012).' },
+    { p: 'Isto não quer dizer que todas as crianças prematuras tenham dificuldades: são médias de grupos. Mas explica porque é que algumas dificuldades só aparecem mais tarde, quando a escola pede linguagem mais elaborada.' },
+    { h2: 'O que é a idade corrigida?', id: 'idade-corrigida', toc: 'Idade corrigida' },
+    { p: 'A idade corrigida é a idade que a criança teria se tivesse nascido na data prevista. Um bebé de 12 meses que nasceu 2 meses antes tem 10 meses de idade corrigida. Nos primeiros anos, os marcos do desenvolvimento, incluindo os da linguagem, são comparados com a idade corrigida, segundo a orientação da equipa de saúde.' },
+    { h2: 'Que sinais vigiar?', id: 'sinais', toc: 'Sinais a vigiar' },
+    { alert: {
+      title: 'Fale com a equipa de seguimento se a criança:',
+      items: [
+        'não palra, não aponta ou não reage à voz, considerando a idade corrigida;',
+        'não junta duas palavras perto dos 2 anos de idade corrigida;',
+        'tem dificuldade em compreender instruções ou em contar o que aconteceu, já em idade pré-escolar ou escolar;',
+        'teve problemas de audição ou otites frequentes.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Em média, crianças prematuras têm mais dificuldades de linguagem.',
+        'As dificuldades na linguagem complexa podem aparecer mais tarde.',
+        'O seguimento regular ajuda a identificar dificuldades cedo.',
+      ],
+      no: [
+        '«Todo o bebé prematuro vai ter atraso na fala.»',
+        '«Aos 2 anos já recuperou, não é preciso vigiar.»',
+        '«As dificuldades são só por ter nascido mais pequeno.»',
+      ],
+    } },
+    { h2: 'Como apoiar a linguagem em casa', id: 'em-casa', toc: 'Em casa' },
+    { ul: [
+      'Converse durante os cuidados: o banho, a muda da fralda e as refeições são ótimas oportunidades.',
+      'Leia livros com imagens desde cedo e comente o que a criança olha: veja [[leitura-dialogica-ler-historias|Ler histórias: a leitura dialógica]].',
+      'Responda aos sons e gestos do bebé como se fossem conversa.',
+      'Mantenha as consultas de seguimento, mesmo quando tudo parece bem.',
+    ] },
+    { bridge: {
+      title: 'Palavras do dia a dia, ao ritmo da criança',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Ir ao ritmo da criança.', 'A Caminhada avança por níveis e tem uma versão para quem ainda não sabe ler; nos jogos, a dificuldade ajusta-se ao desempenho.'],
+        ['Palavras do quotidiano com imagem e voz.', 'Mais de 1000 palavras em 25 temas, como Família, Comida e Rotinas.'],
+      ],
+      outro: 'A Fala+ não acompanha marcos do desenvolvimento nem substitui as consultas de seguimento.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre prematuridade e linguagem',
+  faq: [
+    ['Os bebés prematuros falam mais tarde?', 'Em média, têm mais dificuldades de linguagem, mas muitos falam sem problemas. Nos primeiros anos compara-se pela idade corrigida.'],
+    ['Até quando se usa a idade corrigida?', 'Normalmente nos primeiros 2 anos, segundo a orientação da equipa de saúde que acompanha a criança.'],
+    ['Um prematuro que fala bem aos 2 anos precisa de ser vigiado?', 'Sim. As dificuldades de linguagem mais complexa podem surgir mais tarde, na idade pré-escolar e escolar.'],
+    ['O que posso fazer em casa?', 'Conversar nos cuidados do dia a dia, ler livros com imagens e responder aos sons e gestos do bebé.'],
+  ],
+  sources: [
+    'van Noort-van der Spek, Franken e Weisglas-Kuperus (2012). Language functions in preterm-born children: a systematic review and meta-analysis. <em>Pediatrics</em>, 129(4), 745–754. <a href="https://doi.org/10.1542/peds.2011-1728" rel="noopener" target="_blank">doi:10.1542/peds.2011-1728</a>',
+  ],
+  related: ['marcos-linguagem-0-a-24-meses', 'desenvolvimento-da-linguagem-infantil', 'quando-procurar-avaliacao-desenvolvimento'],
+}

@@ -1,0 +1,77 @@
+export default {
+  id: 'trocas-de-sons-na-fala',
+  slug: 'speech-sound-disorder-in-children',
+  short: 'Speech sound errors',
+  date: '2026-10-24',
+  titleTag: 'Speech sound errors in children: what is typical · Talk+',
+  description: 'Does your child mispronounce sounds? Up to a certain age it is typical. When children learn speech sounds, what a speech sound disorder is and when to get help.',
+  keywords: ['speech sound disorder', 'child mispronounces words', 'articulation errors toddler', 'speech sound development chart', 'when should a child say r', 'phonological errors age'],
+  h1: 'Speech sound errors: what is <span class="word-highlight">typical</span> and when to get help',
+  lead: '«Tat» for «cat», «wabbit» for «rabbit»: sound errors are part of the journey for almost every child. The question is how long they are expected and when they deserve attention.',
+  blocks: [
+    { intro: '<strong>Speech sound errors</strong> are one of the most common reasons families see a speech and language therapist. In this article we explain when children learn speech sounds, what a <strong>speech sound disorder</strong> is and which signs justify an assessment.' },
+    { summary: [
+      'In a review covering 27 languages, children produced at least 93% of consonants correctly by age 5.',
+      'Sounds such as stops and nasals are learned early; trills, fricatives and affricates later.',
+      'At age 4, about 3.4% of children had a speech sound disorder in an Australian study.',
+      'Almost half of those children also had language difficulties.',
+    ] },
+    { h2: 'When do children say all their sounds?', id: 'idades', toc: 'Ages' },
+    { p: 'A review of 64 studies, with more than 26,000 children and 27 languages, found that <strong>most consonants are acquired by about age 5</strong>, when children produced at least 93% of consonants correctly (McLeod and Crowe, 2018). The order is similar across languages:' },
+    { table: {
+      head: ['Type of sound', 'English examples', 'When it usually appears'],
+      rows: [
+        ['Stops and nasals', 'p, b, t, d, m, n', 'earlier'],
+        ['Fricatives', 'f, v, s, z, sh, th', 'later'],
+        ['Liquids', 'l, r', 'among the last'],
+        ['Consonant clusters', '«spoon», «tree»', 'among the last'],
+      ],
+    } },
+    { p: 'These ages are research reference points, not exact targets: children and languages vary.' },
+    { h2: 'What is a speech sound disorder?', id: 'perturbacao', toc: 'Speech sound disorder' },
+    { p: 'We talk about a disorder when errors are <strong>more frequent or longer-lasting than expected for the child’s age</strong>, or when they are unusual. In an Australian study of about 1,500 children, <strong>3.4% had a speech sound disorder at age 4</strong>; of these, 40.8% also had a language disorder and 20.8% had weaker pre-literacy skills (Eadie et al., 2015).' },
+    { cards: [
+      ['Age-typical errors', 'Common simplifications that fade over time, such as «tat» for «cat» at age 3.'],
+      ['Persistent errors', 'Simplifications that continue well beyond the expected age.'],
+      ['Atypical errors', 'Unusual errors at any age, which deserve an earlier assessment.'],
+      ['Apraxia of speech', 'Difficulty planning speech movements; see [[apraxia-da-fala-infantil|Childhood apraxia of speech]].'],
+    ] },
+    { alert: {
+      title: 'Ask a speech and language therapist for an assessment if:',
+      items: [
+        'at age 3, people outside the family understand little of what the child says;',
+        'at age 4 to 5, the child still makes many errors or unusual errors;',
+        'the child gets frustrated or avoids talking because they are not understood;',
+        'there are also language or hearing difficulties.',
+      ],
+    } },
+    { h2: 'How to help without constant correction', id: 'em-casa', toc: 'At home' },
+    { ul: [
+      'Repeat the word with the right sound, naturally: «Yes, it’s a cat!», without asking them to repeat it.',
+      'Value what the child meant before how they said it.',
+      'Play with rhymes, songs and animal sounds.',
+      'Avoid blowing or facial exercises as a substitute for therapy: see [[mito-sopros-exercicios-faciais-fala|do facial exercises speed up speech?]].',
+    ] },
+    { bridge: {
+      title: 'Hearing good models and playing with sounds',
+      intro: 'Some ideas from the article are mirrored in parts of the app:',
+      items: [
+        ['Hearing the correct model of words, without pressure to repeat.', 'Games present each word with a picture and voice; in Magic Voice the child can speak, sing or make a sound, without pronunciation being assessed.'],
+        ['Playing with sounds and rhymes.', 'Play includes animal sounds, instruments and the Talking Cactus, which repeats what the child says.'],
+      ],
+      outro: 'Talk+ does not assess or correct articulation and does not replace speech therapy.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about speech sound errors',
+  faq: [
+    ['Is it normal for a 3-year-old to mispronounce words?', 'Yes, some errors are expected at age 3. The concern is when people outside the family understand little, or when errors are unusual.'],
+    ['When should a child say the «r» sound?', 'The «r» is among the last sounds acquired. If it still does not appear by age 5 to 6, an assessment is worthwhile.'],
+    ['What is the difference between articulation and phonological errors?', 'Articulation errors involve producing a specific sound; phonological errors follow patterns that affect groups of sounds. A therapist can tell which is which.'],
+    ['Should I correct my child when they say a sound wrong?', 'It is better to repeat the word with the right sound, naturally, without asking the child to repeat it.'],
+  ],
+  sources: [
+    'McLeod and Crowe (2018). Children’s Consonant Acquisition in 27 Languages: A Cross-Linguistic Review. <em>American Journal of Speech-Language Pathology</em>, 27(4), 1546–1571. <a href="https://doi.org/10.1044/2018_AJSLP-17-0100" rel="noopener" target="_blank">doi:10.1044/2018_AJSLP-17-0100</a>',
+    'Eadie et al. (2015). Speech sound disorder at 4 years: prevalence, comorbidities, and predictors in a community cohort of children. <em>Developmental Medicine & Child Neurology</em>, 57(6), 578–584. <a href="https://doi.org/10.1111/dmcn.12635" rel="noopener" target="_blank">doi:10.1111/dmcn.12635</a>',
+  ],
+  related: ['apraxia-da-fala-infantil', 'diferenca-entre-fala-e-linguagem', 'mito-sopros-exercicios-faciais-fala'],
+}

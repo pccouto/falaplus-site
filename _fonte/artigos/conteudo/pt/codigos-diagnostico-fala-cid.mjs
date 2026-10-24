@@ -1,0 +1,76 @@
+export default {
+  slug: 'codigos-diagnostico-fala-cid',
+  short: 'Códigos da fala num relatório',
+  date: '2026-10-24',
+  titleTag: 'F80.9 e 6A01: códigos da fala num relatório · Fala+',
+  description: 'O que significa F80.9 ou 6A01 num relatório? Como ler os códigos da CID-10 e da CID-11 das perturbações da fala e da linguagem, sem tirar conclusões a mais.',
+  keywords: ['códigos de diagnóstico da fala', 'F80.9 o que significa', 'CID-10 F80', 'CID-11 6A01', 'perturbação do desenvolvimento da fala e da linguagem código', 'relatório terapia da fala código'],
+  h1: 'F80.9, 6A01: o que significam os <span class="word-highlight">códigos</span> da fala num relatório',
+  lead: 'Num relatório clínico ou num pedido de apoio, um código como F80.9 pode parecer um rótulo misterioso. É apenas a forma padronizada de classificar o problema identificado, e tem regras que convém conhecer.',
+  blocks: [
+    { intro: 'Os <strong>códigos de diagnóstico da fala</strong> vêm da Classificação Internacional de Doenças (CID) da Organização Mundial da Saúde. Neste artigo explicamos o que significam os códigos mais comuns da CID-10 (<strong>F80</strong>) e da CID-11 (<strong>6A01</strong>) e que perguntas fazer quando aparecem num relatório.' },
+    { summary: [
+      'A CID-10 agrupa as perturbações específicas do desenvolvimento da fala e da linguagem em F80; a CID-11 usa o bloco 6A01.',
+      'F80.9 quer dizer «não especificada»: há uma dificuldade, mas o relatório não a classifica num subtipo.',
+      'O código resume; não substitui a descrição das dificuldades e dos apoios recomendados.',
+      'Os códigos podem mudar com novas avaliações, à medida que a criança cresce.',
+    ] },
+    { h2: 'O que são a CID-10 e a CID-11?', id: 'cid', toc: 'CID-10 e CID-11' },
+    { p: 'A CID é a classificação da Organização Mundial da Saúde usada em todo o mundo para registar diagnósticos. A <strong>CID-11</strong> entrou em vigor em 2022, mas muitos serviços continuam a usar a <strong>CID-10</strong> ou versões nacionais dela. Por isso, a mesma dificuldade pode aparecer com códigos diferentes em relatórios diferentes.' },
+    { h2: 'Que códigos aparecem mais na fala e na linguagem?', id: 'codigos', toc: 'Os códigos' },
+    { table: {
+      head: ['CID-11', 'Correspondência aproximada na CID-10', 'O que descreve'],
+      rows: [
+        ['6A01.0', 'F80.0', 'Perturbação do desenvolvimento dos sons da fala (trocas de sons)'],
+        ['6A01.1', 'F98.5 (aproximada)', 'Perturbação do desenvolvimento da fluência (gaguez)'],
+        ['6A01.20', 'F80.2', 'Perturbação da linguagem com dificuldades na compreensão e na expressão'],
+        ['6A01.21', 'F80.1', 'Perturbação da linguagem sobretudo expressiva'],
+        ['6A01.Z', 'F80.8 / F80.9', 'Perturbação do desenvolvimento da fala ou da linguagem não especificada'],
+      ],
+    } },
+    { p: 'As correspondências entre a CID-10 e a CID-11 nem sempre são exatas. Os relatórios em Portugal podem também referir a classificação DSM-5 ou descrever a dificuldade sem código. Veja [[trocas-de-sons-na-fala|Trocas de sons na fala]] e [[atraso-na-fala-e-pdl|Atraso na fala e PDL]].' },
+    { h2: 'F80.9: o que significa «não especificada»?', id: 'f80-9', toc: 'F80.9' },
+    { p: 'O código <strong>F80.9</strong> é usado quando há uma perturbação do desenvolvimento da fala ou da linguagem, mas o relatório não a classifica num subtipo. Pode acontecer numa primeira avaliação, numa criança pequena ou quando a informação ainda é incompleta. <strong>Não indica gravidade</strong>.' },
+    { evidence: {
+      yesTitle: 'O código diz',
+      noTitle: 'O código não diz',
+      yes: [
+        'Que tipo de dificuldade foi identificada.',
+        'Uma linguagem comum entre serviços de saúde e de educação.',
+      ],
+      no: [
+        'A gravidade ou o prognóstico.',
+        'Que apoios a criança precisa.',
+        'Que a dificuldade é definitiva.',
+      ],
+    } },
+    { h2: 'Que perguntas fazer quando recebe um relatório com códigos?', id: 'perguntas', toc: 'Perguntas a fazer' },
+    { ol: [
+      'Que dificuldades concretas foram observadas e em que situações?',
+      'Que testes e observações sustentam o código?',
+      'Que objetivos e apoios são recomendados, e com que frequência?',
+      'Quando deve ser feita uma reavaliação?',
+    ] },
+    { p: 'Veja também [[compreender-relatorio-clinico-perguntas|Como compreender um relatório clínico da criança?]].' },
+    { bridge: {
+      title: 'Registar o dia a dia para levar à consulta',
+      intro: 'O artigo recomenda descrever dificuldades concretas. Uma função da app pode complementar essa conversa:',
+      items: [
+        ['Descrever o que a criança faz no dia a dia ajuda a interpretar o relatório.', 'O relatório semanal (Premium) mostra minutos de uso, palavras e uso do Comunicar, com espaço para notas; não é uma avaliação.'],
+      ],
+      outro: 'A Fala+ não atribui códigos nem diagnósticos e não substitui o relatório de um profissional.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre códigos de diagnóstico',
+  faq: [
+    ['O que significa F80.9 num relatório?', 'Perturbação do desenvolvimento da fala ou da linguagem não especificada: há uma dificuldade identificada, sem classificação num subtipo. Não indica gravidade.'],
+    ['Qual é a diferença entre F80.1 e F80.2?', 'Na CID-10, F80.1 refere-se sobretudo à linguagem expressiva e F80.2 a dificuldades na compreensão e na expressão.'],
+    ['O que é o código 6A01?', 'É o bloco da CID-11 para as perturbações do desenvolvimento da fala ou da linguagem.'],
+    ['O código pode mudar?', 'Sim. Com novas avaliações e com o crescimento da criança, a classificação pode ser atualizada.'],
+  ],
+  sources: [
+    'Organização Mundial da Saúde. <a href="https://icd.who.int/browse/2024-01/mms/en" rel="noopener" target="_blank">ICD-11 for Mortality and Morbidity Statistics</a> — 6A01 Developmental speech or language disorders.',
+    'Organização Mundial da Saúde. <a href="https://icd.who.int/browse10/2019/en#/F80" rel="noopener" target="_blank">ICD-10 (2019) — F80 Specific developmental disorders of speech and language</a>.',
+  ],
+  related: ['compreender-relatorio-clinico-perguntas', 'avaliacao-perturbacao-desenvolvimento-linguagem', 'atraso-na-fala-e-pdl'],
+}

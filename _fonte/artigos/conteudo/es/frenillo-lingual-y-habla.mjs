@@ -1,0 +1,67 @@
+export default {
+  id: 'freio-lingual-e-fala',
+  slug: 'frenillo-lingual-y-habla',
+  short: 'Frenillo lingual y habla',
+  date: '2026-10-24',
+  titleTag: '¿El frenillo lingual retrasa el habla? La evidencia · Habla+',
+  description: '¿El frenillo lingual corto (anquiloglosia) causa retraso del habla? Rara vez. Qué dicen las revisiones, cuándo evaluar y por qué cortarlo no es la primera respuesta.',
+  keywords: ['frenillo lingual y habla', 'frenillo corto retraso del habla', 'anquiloglosia habla', 'lengua pegada niño', 'frenectomía habla', 'cortar el frenillo de la lengua'],
+  h1: '¿El frenillo lingual corto retrasa el habla? Lo que dice la <span class="word-highlight">evidencia</span>',
+  lead: 'Cuando un niño habla poco o cambia sonidos, es habitual oír que «tiene la lengua pegada» y que «cortar el frenillo» lo resolverá. La evidencia científica es mucho más prudente.',
+  blocks: [
+    { intro: 'El <strong>frenillo lingual corto</strong>, o anquiloglosia, es una membrana bajo la lengua más corta o gruesa de lo habitual. En este artículo explicamos qué se sabe sobre <strong>frenillo lingual y habla</strong>, qué dicen las revisiones sobre la frenotomía y qué conviene evaluar primero cuando hay un retraso.' },
+    { summary: [
+      'Un consenso de otorrinolaringólogos pediátricos (2020) indica que la anquiloglosia normalmente no afecta al habla.',
+      'El frenillo no explica un retraso del lenguaje: no reduce el vocabulario ni la construcción de frases.',
+      'Las revisiones sobre la frenotomía para mejorar el habla encuentran evidencia insuficiente y de baja calidad.',
+      'Antes de operar por motivos de habla, se recomienda la evaluación de un logopeda.',
+    ] },
+    { h2: '¿El frenillo lingual corto retrasa el habla?', id: 'atraso', toc: '¿Retrasa el habla?' },
+    { p: 'Conviene separar dos cosas. El <strong>lenguaje</strong> es saber palabras y combinarlas en frases; el <strong>habla</strong> es producir los sonidos (consulta [[diferenca-entre-fala-e-linguagem|Habla, lenguaje y comunicación]]). El frenillo puede, en algunos casos, dificultar sonidos que requieren elevar la punta de la lengua, pero <strong>no explica que un niño diga pocas palabras</strong>.' },
+    { p: 'Un consenso de otorrinolaringólogos pediátricos publicado en 2020 concluyó que la anquiloglosia normalmente no afecta al habla, y recomienda que un niño mayor que se va a someter a frenotomía por motivos de habla sea <strong>evaluado antes por un logopeda</strong> (Messner et al., 2020).' },
+    { h2: '¿Cortar el frenillo mejora el habla?', id: 'frenotomia', toc: 'La frenotomía' },
+    { p: 'Una revisión sistemática sobre el tratamiento de la anquiloglosia por motivos distintos de la lactancia encontró pocos estudios: dos ensayos aleatorizados, dos estudios de cohortes y once series de casos. Dos estudios de cohortes describieron mejoras en la articulación, pero la evaluación de resultados era inconsistente y la evidencia se consideró insuficiente (Chinnadurai et al., 2015). Revisiones más recientes llegan a conclusiones parecidas.' },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'La mayoría de los niños con frenillo corto hablan sin dificultades.',
+        'Algunos sonidos (como l, r, t, d) pueden requerir más movilidad de la lengua.',
+        'La decisión de operar debe implicar al médico y al logopeda.',
+      ],
+      no: [
+        '«El frenillo corto explica que el niño no hable».',
+        '«Cortar el frenillo hace hablar al niño».',
+        '«Todos los errores de sonidos vienen del frenillo».',
+      ],
+    } },
+    { h2: 'Qué evaluar primero cuando hay retraso del habla', id: 'avaliar', toc: 'Qué evaluar' },
+    { ul: [
+      '<strong>Audición</strong>: es el primer paso ante cualquier retraso (consulta [[otite-serosa-e-fala|Otitis serosa y habla]]).',
+      '<strong>Lenguaje y comunicación</strong>: comprensión, vocabulario, gestos e interacción.',
+      '<strong>Sonidos del habla</strong>: si los errores son propios de la edad o no (consulta [[trocas-de-sons-na-fala|Errores de sonidos en el habla]]).',
+      '<strong>Función de la lengua</strong>: movilidad, alimentación y deglución, con el médico y el logopeda.',
+    ] },
+    { p: 'Conviene desconfiar también de ejercicios de soplo o faciales presentados como solución para el habla: consulta [[mito-sopros-exercicios-faciais-fala|¿los ejercicios faciales y de soplo aceleran el habla?]].' },
+    { bridge: {
+      title: 'Escuchar y jugar con los sonidos, sin evaluar la pronunciación',
+      intro: 'La app puede ofrecer oportunidades de escuchar y probar palabras jugando:',
+      items: [
+        ['El habla se desarrolla escuchando buenos modelos y probando, sin presión.', 'En Voz Mágica, el niño escucha la palabra y luego habla, canta o hace un sonido; la app no evalúa la pronunciación.'],
+      ],
+      outro: 'Habla+ no evalúa el frenillo ni la articulación y no sustituye la evaluación de un médico o un logopeda.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre frenillo lingual y habla',
+  faq: [
+    ['¿El frenillo lingual corto retrasa el habla?', 'Rara vez. Un frenillo corto no explica que el niño diga pocas palabras; en algunos casos puede dificultar ciertos sonidos.'],
+    ['¿Cómo saber si el niño tiene la lengua pegada?', 'Solo un profesional puede confirmarlo. Señales como la dificultad para sacar o levantar la lengua merecen una evaluación.'],
+    ['¿Cortar el frenillo ayuda a hablar?', 'La evidencia es insuficiente. Antes de operar por motivos de habla, se recomienda la evaluación de un logopeda.'],
+    ['¿A qué edad se corta el frenillo lingual?', 'No hay una edad única: la decisión depende de los síntomas (alimentación, habla) y se toma con el médico.'],
+  ],
+  sources: [
+    'Messner et al. (2020). Clinical Consensus Statement: Ankyloglossia in Children. <em>Otolaryngology–Head and Neck Surgery</em>, 162(5), 597–611. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Consensus+Statement%3A+Ankyloglossia+in+Children" rel="noopener" target="_blank">PubMed</a>',
+    'Chinnadurai et al. (2015). Treatment of Ankyloglossia for Reasons Other Than Breastfeeding: A Systematic Review. <em>Pediatrics</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Treatment+of+Ankyloglossia+for+Reasons+Other+Than+Breastfeeding%3A+A+Systematic+Review" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala', 'terapia-miofuncional-orofacial-criancas'],
+}

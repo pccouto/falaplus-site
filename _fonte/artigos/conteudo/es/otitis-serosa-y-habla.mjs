@@ -1,0 +1,78 @@
+export default {
+  id: 'otite-serosa-e-fala',
+  slug: 'otitis-serosa-y-habla',
+  short: 'Otitis serosa y habla',
+  date: '2026-10-24',
+  titleTag: 'Otitis serosa y habla: cuándo preocupa · Habla+',
+  description: '¿La otitis serosa puede retrasar el habla? El líquido en el oído baja la audición, a menudo por poco tiempo. Cuándo pedir una prueba de audición y qué dicen los estudios.',
+  keywords: ['otitis serosa y habla', 'otitis serosa retraso del habla', 'líquido en el oído niño', 'otitis de repetición y habla', 'drenajes timpánicos habla', 'prueba de audición niño'],
+  h1: 'Otitis serosa y habla: cuándo preocupa el oído <span class="word-highlight">tapado</span>',
+  lead: 'La otitis serosa, con líquido detrás del tímpano, es muy frecuente en la infancia y a menudo no duele. Puede bajar la audición durante semanas o meses. ¿Cuándo pesa eso en el desarrollo del habla?',
+  blocks: [
+    { intro: 'La <strong>otitis serosa</strong> (otitis media con derrame) es la acumulación de líquido en el oído medio sin signos de infección aguda. En este artículo explicamos la relación entre <strong>otitis serosa y habla</strong>, cuándo se recomienda una <strong>prueba de audición</strong> y qué dicen los estudios sobre los drenajes timpánicos.' },
+    { summary: [
+      'El líquido en el oído medio puede bajar la audición, a menudo de forma temporal.',
+      'La guía de otorrinolaringología recomienda una prueba de audición cuando el líquido dura 3 meses o más, o antes en niños de riesgo.',
+      'En la mayoría de los niños sanos, los drenajes no mostraron beneficio en el lenguaje.',
+      'Ante cualquier retraso del habla, lo primero es comprobar la audición.',
+    ] },
+    { h2: '¿Por qué la otitis serosa puede afectar al habla?', id: 'porque', toc: 'Por qué afecta' },
+    { p: 'Para aprender a hablar, el niño necesita oír bien las palabras. El líquido detrás del tímpano funciona como un «silenciador»: los sonidos llegan más bajos y menos nítidos. Si esto dura mucho tiempo, sobre todo en los dos oídos, el niño tiene menos oportunidades de oír bien el lenguaje.' },
+    { p: 'Por eso, la guía estadounidense de otorrinolaringología (Rosenfeld et al., 2016) recomienda identificar a los niños con <strong>mayor riesgo de dificultades de habla, lenguaje o aprendizaje</strong> y orientar a las familias cuando hay otitis serosa en ambos oídos con pérdida auditiva documentada.' },
+    { h2: '¿Cuándo pedir una prueba de audición?', id: 'teste', toc: 'Prueba de audición' },
+    { p: 'Según la misma guía, debe hacerse una <strong>prueba de audición adecuada a la edad cuando el líquido persiste 3 meses o más</strong>, o en cualquier momento en un niño de riesgo. Los niños con otitis serosa crónica deben revisarse cada 3 a 6 meses.' },
+    { alert: {
+      title: 'Pide una evaluación de la audición si el niño:',
+      items: [
+        'tiene un retraso del habla o del lenguaje, a cualquier edad;',
+        'pregunta a menudo «¿qué?», sube el volumen de la tele o no responde cuando lo llaman de lejos;',
+        'ha tenido otitis de repetición o líquido en el oído durante meses;',
+        'tiene fisura del paladar, síndrome de Down u otra condición de riesgo.',
+      ],
+    } },
+    { h2: '¿Los drenajes ayudan a hablar?', id: 'tubos', toc: 'Drenajes timpánicos' },
+    { p: 'Una revisión Cochrane concluyó que, en niños sanos con otitis serosa y pérdida auditiva, colocar drenajes timpánicos <strong>no mostró beneficio en el desarrollo del lenguaje</strong>; la mejora auditiva fue modesta y disminuyó durante el primer año (Browning et al., 2010). Los autores señalan que no había estudios en niños con dificultades de habla o desarrollo ya establecidas, y que un periodo inicial de vigilancia parece adecuado para la mayoría.' },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'La otitis serosa es frecuente y a menudo se resuelve sola.',
+        'Puede bajar la audición de forma temporal.',
+        'La audición debe comprobarse cuando el líquido persiste o hay retraso del habla.',
+      ],
+      no: [
+        '«Todas las otitis causan retraso del habla».',
+        '«Los drenajes hacen hablar al niño».',
+        '«Si no duele, no hace falta vigilar».',
+      ],
+    } },
+    { h2: 'Cómo ayudar en casa mientras el oído se recupera', id: 'em-casa', toc: 'En casa' },
+    { ul: [
+      'Habla de frente al niño, cerca y con la cara visible.',
+      'Reduce el ruido de fondo (tele, radio) cuando conversáis.',
+      'Habla con claridad y un poco más despacio, sin gritar.',
+      'Repite y comprueba que el niño ha entendido las palabras nuevas.',
+    ] },
+    { bridge: {
+      title: 'Volver a oír las palabras, con imagen',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['Repetir las palabras y asociarlas a una imagen ayuda cuando se oye peor.', 'Los juegos presentan cada palabra con imagen y voz, y en los sonidos de animales de Jugar libre hay un botón para «volver a oír».'],
+        ['Reducir el ruido de fondo.', 'En el modo tranquilo se pueden ajustar los sonidos, la música y el movimiento.'],
+      ],
+      outro: 'Habla+ no evalúa la audición. Si hay preocupación, el niño debe hacerse una prueba de audición.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre otitis serosa y habla',
+  faq: [
+    ['¿La otitis serosa puede retrasar el habla?', 'Puede contribuir, sobre todo cuando dura muchos meses en ambos oídos y baja la audición. En la mayoría de los niños el efecto es temporal.'],
+    ['¿Cuánto dura la otitis serosa?', 'A menudo se resuelve sola en semanas o pocos meses. Si el líquido dura 3 meses o más, se recomienda una prueba de audición.'],
+    ['¿Los drenajes mejoran el habla?', 'En niños sanos, los estudios no han mostrado beneficio en el lenguaje. La decisión la toma el otorrinolaringólogo, caso por caso.'],
+    ['¿Cómo sé si el niño oye mal?', 'Señales como preguntar a menudo «¿qué?», subir el volumen o no responder cuando lo llaman justifican una prueba de audición.'],
+  ],
+  sources: [
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a>',
+    'Browning, Rovers, Williamson, Lous y Burton (2010). Grommets (ventilation tubes) for hearing loss associated with otitis media with effusion in children. <em>Cochrane Database of Systematic Reviews</em>, CD001801. <a href="https://doi.org/10.1002/14651858.CD001801.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD001801.pub3</a>',
+  ],
+  related: ['pac-vs-dificuldades-audicao', 'atraso-na-fala', 'quando-procurar-avaliacao-desenvolvimento'],
+}

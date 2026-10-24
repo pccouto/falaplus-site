@@ -1,0 +1,71 @@
+export default {
+  slug: 'marcos-linguagem-0-a-24-meses',
+  short: 'Marcos da linguagem dos 0 aos 24 meses',
+  date: '2026-10-24',
+  titleTag: 'Marcos da linguagem dos 0 aos 24 meses · Fala+',
+  description: 'O que esperar da linguagem do bebé aos 6, 12, 18 e 24 meses? Marcos revistos pela CDC e pela AAP, sinais para falar com o médico e ideias para estimular.',
+  keywords: ['marcos da linguagem 0 a 24 meses', 'quando o bebé começa a falar', 'bebé de 12 meses não fala', 'bebé de 18 meses não fala', 'quantas palavras aos 18 meses', 'desenvolvimento da fala do bebé'],
+  h1: 'Marcos da linguagem dos 0 aos 24 meses: o que <span class="word-highlight">esperar</span>',
+  lead: 'Nos dois primeiros anos, a comunicação passa do choro ao sorriso, do palrar ao apontar e das primeiras palavras às primeiras frases. Os marcos ajudam a acompanhar este caminho, sem servirem de teste.',
+  blocks: [
+    { intro: 'Os <strong>marcos da linguagem dos 0 aos 24 meses</strong> são das informações mais procuradas por quem acompanha bebés. Neste artigo resumimos as referências revistas em 2022 pela CDC e pela Academia Americana de Pediatria, com sinais que justificam falar com o médico. Para as idades seguintes, veja [[marcos-desenvolvimento-linguagem-2-a-5-anos|Marcos da linguagem dos 2 aos 5 anos]].' },
+    { summary: [
+      'Em 2022, a CDC e a AAP reviram os marcos: cada um corresponde ao que 75% das crianças já faz nessa idade.',
+      'Por isso, não atingir um marco é um motivo para falar com o médico, não para esperar.',
+      'Antes das palavras vêm o sorriso, o palrar, a lalação, os gestos e o apontar.',
+      'A vigilância do desenvolvimento faz parte das consultas de saúde infantil.',
+    ] },
+    { h2: 'Porque é que os marcos foram revistos?', id: 'revisao', toc: 'A revisão de 2022' },
+    { p: 'Em 2022, um grupo de peritos da CDC e da Academia Americana de Pediatria reviu as listas de marcos. A principal mudança: cada marco passou a corresponder ao que <strong>75% das crianças já faz</strong> nessa idade, em vez de 50% (Zubler et al., 2022). Assim, quando uma criança não atinge um marco, a recomendação é falar com o médico em vez de esperar para ver.' },
+    { p: 'Em Portugal, o Programa Nacional de Saúde Infantil e Juvenil (Norma DGS 010/2013) prevê consultas em idades-chave, com atenção ao desenvolvimento.' },
+    { h2: 'O que esperar em cada idade?', id: 'idades', toc: 'Idade a idade' },
+    { table: {
+      head: ['Idade', 'O que a maioria das crianças já faz', 'Falar com o médico se…'],
+      rows: [
+        ['6 meses', 'Faz sons à vez com o adulto, numa espécie de conversa; ri-se e guincha', 'não reage a sons nem sorri para as pessoas'],
+        ['12 meses', 'Acena «adeus»; diz «mamã» ou «papá» com intenção; percebe o «não»', 'não aponta, não acena nem responde ao nome com frequência'],
+        ['18 meses', 'Tenta dizer três ou mais palavras além de «mamã» e «papá»; aponta para mostrar; segue uma instrução simples sem gestos', 'não diz palavras, não aponta para mostrar ou perdeu palavras'],
+        ['24 meses', 'Junta duas palavras («mais água»); aponta para imagens num livro quando lhe perguntam', 'não junta duas palavras com significado (não contam as repetições)'],
+      ],
+    } },
+    { p: 'Estas referências baseiam-se nas listas da CDC e da AAP. São <strong>referências de vigilância, não diagnósticos</strong>: cada criança tem o seu ritmo, mas a perda de competências em qualquer idade deve ser sempre comunicada ao médico.' },
+    { alert: {
+      title: 'Fale com o médico, em qualquer idade, se a criança:',
+      items: [
+        'perdeu palavras, gestos ou interesse pelas pessoas que já tinha;',
+        'não reage aos sons ou parece não ouvir;',
+        'não procura comunicar com o olhar, gestos ou sons.',
+      ],
+    } },
+    { h2: 'Como estimular a linguagem nos primeiros dois anos', id: 'estimular', toc: 'Como estimular' },
+    { ul: [
+      'Responda aos sons do bebé como se fossem conversa: ele «fala», o adulto responde, e espera.',
+      'Dê nome ao que a criança olha ou aponta: «É o cão!».',
+      'Cante, leia livros com imagens e brinque ao «cucu».',
+      'Reduza o ruído de fundo e o tempo de ecrã sem interação (veja [[tempo-de-ecra-criancas|Tempo de ecrã nas crianças]]).',
+    ] },
+    { bridge: {
+      title: 'Palavras do dia a dia e momentos partilhados',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app, para usar com um adulto ao lado:',
+      items: [
+        ['Dar nome ao que a criança vê.', 'Os jogos apresentam palavras do quotidiano com imagem e voz, em 25 temas.'],
+        ['Brincar com sons e reações.', 'No Brincar há instrumentos e sons de animais, sem pontos nem respostas certas.'],
+      ],
+      outro: 'Nos primeiros anos, a interação presencial é o principal motor da linguagem. A Fala+ não acompanha marcos nem avalia o desenvolvimento.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre a linguagem do bebé',
+  faq: [
+    ['Quando é que o bebé começa a falar?', 'Por volta dos 12 meses muitos bebés dizem «mamã» ou «papá» com intenção; as palavras vão aumentando ao longo do segundo ano.'],
+    ['Quantas palavras deve dizer um bebé de 18 meses?', 'Segundo as listas da CDC e da AAP, aos 18 meses a maioria das crianças tenta dizer três ou mais palavras além de «mamã» e «papá».'],
+    ['É normal um bebé de 12 meses não falar?', 'Muitos bebés de 12 meses dizem poucas ou nenhuma palavra. Mais importante é apontar, acenar e responder ao nome; se não o faz, fale com o médico.'],
+    ['O meu bebé de 18 meses não fala. Devo preocupar-me?', 'Vale a pena falar com o médico, que vai avaliar também a audição, a compreensão e os gestos.'],
+  ],
+  sources: [
+    'Zubler et al. (2022). Evidence-Informed Milestones for Developmental Surveillance Tools. <em>Pediatrics</em>, 149(3), e2021052138. <a href="https://doi.org/10.1542/peds.2021-052138" rel="noopener" target="_blank">doi:10.1542/peds.2021-052138</a>',
+    'CDC. <a href="https://www.cdc.gov/ncbddd/actearly/milestones/index.html" rel="noopener" target="_blank">CDC’s Developmental Milestones</a>.',
+    'Lipkin e Macias (2020). Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening. <em>Pediatrics</em>, 145(1). <a href="https://doi.org/10.1542/peds.2019-3449" rel="noopener" target="_blank">doi:10.1542/peds.2019-3449</a>',
+    'Direção-Geral da Saúde (2013). <a href="https://spp.pt/UserFiles/file/EVIDENCIAS%20EM%20PEDIATRIA/DGS_010_2013-05.2013.pdf" rel="noopener" target="_blank">Norma n.º 010/2013 — Programa Nacional de Saúde Infantil e Juvenil</a> (cópia em spp.pt).',
+  ],
+  related: ['marcos-desenvolvimento-linguagem-2-a-5-anos', 'desenvolvimento-da-linguagem-infantil', 'atraso-na-fala'],
+}

@@ -1,0 +1,77 @@
+export default {
+  id: 'codigos-diagnostico-fala-cid',
+  slug: 'speech-language-diagnosis-codes-icd',
+  short: 'Speech codes in a report',
+  date: '2026-10-24',
+  titleTag: 'F80.9 and 6A01: speech codes in a report · Talk+',
+  description: 'What does F80.9 or 6A01 mean in a report? How to read ICD-10 and ICD-11 codes for speech and language disorders without reading too much into them.',
+  keywords: ['F80.9 diagnosis code', 'speech delay ICD-10 code', 'ICD-10 F80', 'ICD-11 6A01', 'developmental disorder of speech and language unspecified', 'speech therapy diagnosis codes'],
+  h1: 'F80.9, 6A01: what speech <span class="word-highlight">codes</span> in a report mean',
+  lead: 'In a clinical report or a request for support, a code like F80.9 can look like a mysterious label. It is simply the standard way to classify the difficulty identified, and it follows rules worth knowing.',
+  blocks: [
+    { intro: '<strong>Speech and language diagnosis codes</strong> come from the World Health Organization’s International Classification of Diseases (ICD). In this article we explain what the most common ICD-10 (<strong>F80</strong>) and ICD-11 (<strong>6A01</strong>) codes mean and what to ask when they appear in a report.' },
+    { summary: [
+      'ICD-10 groups specific developmental disorders of speech and language under F80; ICD-11 uses block 6A01.',
+      'F80.9 means «unspecified»: there is a difficulty, but the report does not classify it into a subtype.',
+      'A code summarises; it does not replace a description of the difficulties and recommended support.',
+      'Codes can change with new assessments as the child grows.',
+    ] },
+    { h2: 'What are ICD-10 and ICD-11?', id: 'cid', toc: 'ICD-10 and ICD-11' },
+    { p: 'The ICD is the World Health Organization classification used worldwide to record diagnoses. <strong>ICD-11</strong> came into effect in 2022, but many services still use <strong>ICD-10</strong> or national versions of it (such as ICD-10-CM in the United States). So the same difficulty may appear with different codes in different reports.' },
+    { h2: 'Which codes are most common for speech and language?', id: 'codigos', toc: 'The codes' },
+    { table: {
+      head: ['ICD-11', 'Approximate ICD-10 match', 'What it describes'],
+      rows: [
+        ['6A01.0', 'F80.0', 'Developmental speech sound disorder (sound errors)'],
+        ['6A01.1', 'F98.5 (approximate)', 'Developmental speech fluency disorder (stuttering)'],
+        ['6A01.20', 'F80.2', 'Language disorder with impaired receptive and expressive language'],
+        ['6A01.21', 'F80.1', 'Language disorder with mainly impaired expressive language'],
+        ['6A01.Z', 'F80.8 / F80.9', 'Developmental speech or language disorder, unspecified'],
+      ],
+    } },
+    { p: 'Matches between ICD-10 and ICD-11 are not always exact. Reports may also refer to the DSM-5 or describe the difficulty without a code. See [[trocas-de-sons-na-fala|Speech sound errors in children]] and [[atraso-na-fala-e-pdl|Speech delay and DLD]].' },
+    { h2: 'F80.9: what does «unspecified» mean?', id: 'f80-9', toc: 'F80.9' },
+    { p: 'The <strong>F80.9</strong> code is used when there is a developmental disorder of speech or language, but the report does not classify it into a subtype. This may happen at a first assessment, with a young child or when information is still incomplete. <strong>It does not indicate severity</strong>.' },
+    { evidence: {
+      yesTitle: 'The code tells you',
+      noTitle: 'The code does not tell you',
+      yes: [
+        'What kind of difficulty was identified.',
+        'A shared language between health and education services.',
+      ],
+      no: [
+        'Severity or prognosis.',
+        'What support the child needs.',
+        'That the difficulty is permanent.',
+      ],
+    } },
+    { h2: 'What to ask when you receive a report with codes', id: 'perguntas', toc: 'Questions to ask' },
+    { ol: [
+      'Which concrete difficulties were observed, and in which situations?',
+      'Which tests and observations support the code?',
+      'Which goals and support are recommended, and how often?',
+      'When should there be a reassessment?',
+    ] },
+    { p: 'See also [[compreender-relatorio-clinico-perguntas|How to understand a child’s clinical report]].' },
+    { bridge: {
+      title: 'Recording everyday life to bring to appointments',
+      intro: 'The article recommends describing concrete difficulties. One part of the app can complement that conversation:',
+      items: [
+        ['Describing what the child does day to day helps interpret the report.', 'The weekly report (Premium) shows minutes of use, words and use of Communicate, with space for notes; it is not an assessment.'],
+      ],
+      outro: 'Talk+ does not assign codes or diagnoses and does not replace a professional’s report.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about diagnosis codes',
+  faq: [
+    ['What does F80.9 mean in a report?', 'Developmental disorder of speech or language, unspecified: a difficulty has been identified without classifying it into a subtype. It does not indicate severity.'],
+    ['What is the difference between F80.1 and F80.2?', 'In ICD-10, F80.1 refers mainly to expressive language and F80.2 to difficulties with both understanding and expression.'],
+    ['What is code 6A01?', 'It is the ICD-11 block for developmental speech or language disorders.'],
+    ['Can the code change?', 'Yes. With new assessments and as the child grows, the classification may be updated.'],
+  ],
+  sources: [
+    'World Health Organization. <a href="https://icd.who.int/browse/2024-01/mms/en" rel="noopener" target="_blank">ICD-11 for Mortality and Morbidity Statistics</a> — 6A01 Developmental speech or language disorders.',
+    'World Health Organization. <a href="https://icd.who.int/browse10/2019/en#/F80" rel="noopener" target="_blank">ICD-10 (2019) — F80 Specific developmental disorders of speech and language</a>.',
+  ],
+  related: ['compreender-relatorio-clinico-perguntas', 'avaliacao-perturbacao-desenvolvimento-linguagem', 'atraso-na-fala-e-pdl'],
+}

@@ -1,0 +1,77 @@
+export default {
+  slug: 'otite-serosa-e-fala',
+  short: 'Otite serosa e fala',
+  date: '2026-10-24',
+  titleTag: 'Otite serosa e fala: quando preocupa · Fala+',
+  description: 'A otite serosa pode atrasar a fala? O líquido no ouvido baixa a audição, muitas vezes por pouco tempo. Quando pedir teste de audição e o que dizem os estudos.',
+  keywords: ['otite serosa e fala', 'otite serosa atraso na fala', 'líquido no ouvido criança', 'otites de repetição e fala', 'tubos nos ouvidos fala', 'teste de audição criança'],
+  h1: 'Otite serosa e fala: quando o ouvido <span class="word-highlight">abafado</span> preocupa',
+  lead: 'A otite serosa, com líquido atrás do tímpano, é muito comum na infância e muitas vezes não dói. Pode baixar a audição durante semanas ou meses. Quando é que isso pesa no desenvolvimento da fala?',
+  blocks: [
+    { intro: 'A <strong>otite serosa</strong> (otite média com efusão) é a acumulação de líquido no ouvido médio, sem sinais de infeção aguda. Neste artigo explicamos a relação entre <strong>otite serosa e fala</strong>, quando é recomendado um <strong>teste de audição</strong> e o que dizem os estudos sobre os tubos de ventilação.' },
+    { summary: [
+      'O líquido no ouvido médio pode baixar a audição, muitas vezes de forma temporária.',
+      'A diretriz de otorrinolaringologia recomenda teste de audição quando o líquido dura 3 meses ou mais, ou mais cedo em crianças de risco.',
+      'Na maioria das crianças saudáveis, os tubos de ventilação não mostraram benefício na linguagem.',
+      'Em qualquer atraso na fala, a audição deve ser verificada primeiro.',
+    ] },
+    { h2: 'Porque é que a otite serosa pode afetar a fala?', id: 'porque', toc: 'Porque afeta' },
+    { p: 'Para aprender a falar, a criança precisa de ouvir bem as palavras. O líquido atrás do tímpano funciona como um «abafador»: os sons chegam mais baixos e menos nítidos. Se isso acontece durante muito tempo, sobretudo nos dois ouvidos, a criança tem menos oportunidades de ouvir bem a linguagem.' },
+    { p: 'Por isso, a diretriz americana de otorrinolaringologia (Rosenfeld et al., 2016) recomenda que os médicos identifiquem as crianças com <strong>maior risco de dificuldades de fala, linguagem ou aprendizagem</strong> e que aconselhem as famílias quando há otite serosa nos dois ouvidos com perda auditiva documentada.' },
+    { h2: 'Quando pedir um teste de audição?', id: 'teste', toc: 'Teste de audição' },
+    { p: 'Segundo a mesma diretriz, deve fazer-se um <strong>teste de audição adequado à idade quando o líquido persiste 3 meses ou mais</strong>, ou em qualquer momento numa criança de risco. As crianças com otite serosa crónica devem ser reavaliadas a cada 3 a 6 meses.' },
+    { alert: {
+      title: 'Peça avaliação da audição se a criança:',
+      items: [
+        'tem um atraso na fala ou na linguagem, em qualquer idade;',
+        'pede muitas vezes «o quê?», aumenta o volume da televisão ou não responde quando chamada de longe;',
+        'teve otites de repetição ou líquido no ouvido durante meses;',
+        'tem fissura do palato, síndrome de Down ou outra condição de risco.',
+      ],
+    } },
+    { h2: 'Os tubos nos ouvidos ajudam a falar?', id: 'tubos', toc: 'Tubos de ventilação' },
+    { p: 'Uma revisão Cochrane concluiu que, em crianças saudáveis com otite serosa e perda auditiva, colocar tubos de ventilação <strong>não mostrou benefício no desenvolvimento da linguagem</strong>; o ganho na audição foi modesto e diminuiu ao longo do primeiro ano (Browning et al., 2010). Os autores notam que não houve estudos em crianças que já tinham dificuldades de fala ou desenvolvimento estabelecidas, e que uma fase inicial de vigilância parece adequada para a maioria das crianças.' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A otite serosa é frequente e muitas vezes resolve sozinha.',
+        'Pode baixar a audição de forma temporária.',
+        'A audição deve ser testada quando o líquido persiste ou há atraso na fala.',
+      ],
+      no: [
+        '«Todas as otites causam atraso na fala.»',
+        '«Os tubos põem a criança a falar.»',
+        '«Se não tem dor, não é preciso vigiar.»',
+      ],
+    } },
+    { h2: 'Como ajudar em casa enquanto o ouvido recupera', id: 'em-casa', toc: 'Em casa' },
+    { ul: [
+      'Fale de frente para a criança, perto, com o rosto visível.',
+      'Reduza o ruído de fundo (televisão, rádio) quando conversam.',
+      'Fale com clareza e um pouco mais devagar, sem gritar.',
+      'Repita e confirme que a criança percebeu as palavras novas.',
+    ] },
+    { bridge: {
+      title: 'Ouvir as palavras outra vez, com imagem',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Repetir as palavras e associá-las à imagem ajuda quando se ouve pior.', 'Os jogos apresentam cada palavra com imagem e voz, e nos sons de animais do Brincar há um botão «Ouvir outra vez».'],
+        ['Reduzir o ruído de fundo.', 'No modo calmo é possível ajustar sons, música e movimento.'],
+      ],
+      outro: 'A Fala+ não testa a audição. Se há preocupação, a criança deve fazer um teste de audição.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre otite serosa e fala',
+  faq: [
+    ['A otite serosa pode atrasar a fala?', 'Pode contribuir, sobretudo quando dura muitos meses nos dois ouvidos e baixa a audição. Na maioria das crianças, o efeito é temporário.'],
+    ['Quanto tempo dura a otite serosa?', 'Muitas vezes resolve sozinha em semanas ou poucos meses. Se o líquido dura 3 meses ou mais, recomenda-se teste de audição.'],
+    ['Os tubos nos ouvidos melhoram a fala?', 'Em crianças saudáveis, os estudos não mostraram benefício na linguagem. A decisão é tomada pelo otorrinolaringologista, caso a caso.'],
+    ['Como sei se a criança ouve mal?', 'Sinais como pedir muitas vezes «o quê?», aumentar o volume ou não responder quando chamada justificam um teste de audição.'],
+  ],
+  sources: [
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a>',
+    'Browning, Rovers, Williamson, Lous e Burton (2010). Grommets (ventilation tubes) for hearing loss associated with otitis media with effusion in children. <em>Cochrane Database of Systematic Reviews</em>, CD001801. <a href="https://doi.org/10.1002/14651858.CD001801.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD001801.pub3</a>',
+  ],
+  related: ['pac-vs-dificuldades-audicao', 'atraso-na-fala', 'quando-procurar-avaliacao-desenvolvimento'],
+}

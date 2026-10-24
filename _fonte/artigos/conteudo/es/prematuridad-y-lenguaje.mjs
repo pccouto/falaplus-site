@@ -1,0 +1,76 @@
+export default {
+  id: 'prematuridade-e-linguagem',
+  slug: 'prematuridad-y-lenguaje',
+  short: 'Prematuridad y lenguaje',
+  date: '2026-10-24',
+  titleTag: 'Prematuridad y lenguaje: qué esperar · Habla+',
+  description: '¿Los bebés prematuros hablan más tarde? De media tienen más dificultades de lenguaje, sobre todo complejo. Edad corregida, señales a vigilar y cómo apoyar en casa.',
+  keywords: ['prematuridad y lenguaje', 'bebé prematuro habla más tarde', 'edad corregida prematuro', 'desarrollo del lenguaje en prematuros', 'prematuro retraso del habla', 'seguimiento de prematuros'],
+  h1: 'Prematuridad y lenguaje: qué <span class="word-highlight">esperar</span> y cómo acompañar',
+  lead: 'Nacer antes de tiempo cambia el punto de partida. Muchos niños prematuros hablan sin dificultades, pero, de media, tienen más retos de lenguaje, que pueden hacerse visibles solo cuando el lenguaje se vuelve más exigente.',
+  blocks: [
+    { intro: 'La relación entre <strong>prematuridad y lenguaje</strong> está bien estudiada. En este artículo explicamos qué muestran los metaanálisis, cómo usar la <strong>edad corregida</strong> en los primeros años y qué señales justifican hablar con el equipo que sigue al niño.' },
+    { summary: [
+      'Un metaanálisis de 17 estudios encontró resultados de lenguaje más bajos en niños nacidos prematuros, de los 3 a los 12 años.',
+      'La diferencia en el lenguaje complejo aumentó con la edad; en el lenguaje simple, no.',
+      'En los 2 primeros años, el desarrollo se compara según la edad corregida.',
+      'El seguimiento regular permite detectar dificultades pronto, también en la edad escolar.',
+    ] },
+    { h2: '¿Los bebés prematuros hablan más tarde?', id: 'falam-mais-tarde', toc: '¿Hablan más tarde?' },
+    { p: 'Un metaanálisis publicado en <em>Pediatrics</em> reunió 17 estudios con unos 1500 niños nacidos prematuros y unos 940 nacidos a término. Los niños prematuros obtuvieron <strong>resultados más bajos tanto en el lenguaje simple (como el vocabulario) como en el complejo</strong> (como comprender y construir frases elaboradas). La diferencia en el lenguaje complejo <strong>aumentó de los 3 a los 12 años</strong> (van Noort-van der Spek et al., 2012).' },
+    { p: 'Esto no significa que todos los niños prematuros vayan a tener dificultades: son medias de grupos. Pero explica por qué algunas dificultades solo aparecen más tarde, cuando la escuela pide un lenguaje más elaborado.' },
+    { h2: '¿Qué es la edad corregida?', id: 'idade-corrigida', toc: 'Edad corregida' },
+    { p: 'La edad corregida es la que tendría el niño si hubiera nacido en la fecha prevista. Un bebé de 12 meses que nació 2 meses antes tiene 10 meses de edad corregida. En los primeros años, los hitos del desarrollo, incluidos los del lenguaje, se comparan con la edad corregida, según la orientación del equipo sanitario.' },
+    { h2: '¿Qué señales vigilar?', id: 'sinais', toc: 'Señales a vigilar' },
+    { alert: {
+      title: 'Habla con el equipo de seguimiento si el niño:',
+      items: [
+        'no balbucea, no señala o no reacciona a la voz, teniendo en cuenta la edad corregida;',
+        'no combina dos palabras hacia los 2 años de edad corregida;',
+        'tiene dificultad para comprender instrucciones o contar lo que pasó, ya en edad infantil o escolar;',
+        'ha tenido problemas de audición u otitis frecuentes.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'De media, los niños prematuros tienen más dificultades de lenguaje.',
+        'Las dificultades en el lenguaje complejo pueden aparecer más tarde.',
+        'El seguimiento regular ayuda a detectarlas pronto.',
+      ],
+      no: [
+        '«Todo bebé prematuro tendrá retraso del habla».',
+        '«A los 2 años ya se ha recuperado, no hace falta vigilar».',
+        '«Las dificultades son solo por haber nacido más pequeño».',
+      ],
+    } },
+    { h2: 'Cómo apoyar el lenguaje en casa', id: 'em-casa', toc: 'En casa' },
+    { ul: [
+      'Conversa durante los cuidados: el baño, el cambio de pañal y las comidas son grandes oportunidades.',
+      'Lee libros con imágenes desde pronto y comenta lo que mira el niño: consulta [[leitura-dialogica-ler-historias|la lectura dialógica]].',
+      'Responde a los sonidos y gestos del bebé como si fueran conversación.',
+      'Mantén las consultas de seguimiento, aunque todo parezca ir bien.',
+    ] },
+    { bridge: {
+      title: 'Palabras cotidianas, al ritmo del niño',
+      intro: 'Algunas ideas del artículo tienen eco en funciones de la app:',
+      items: [
+        ['Ir al ritmo del niño.', 'La Caminata avanza por niveles y tiene una versión para quien aún no sabe leer; en los juegos, la dificultad se ajusta al desempeño.'],
+        ['Palabras cotidianas con imagen y voz.', 'Más de 1000 palabras en 25 temas, como Familia, Comida y Rutinas.'],
+      ],
+      outro: 'Habla+ no sigue los hitos del desarrollo ni sustituye las consultas de seguimiento.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre prematuridad y lenguaje',
+  faq: [
+    ['¿Los bebés prematuros hablan más tarde?', 'De media tienen más dificultades de lenguaje, pero muchos hablan sin problemas. En los primeros años se compara según la edad corregida.'],
+    ['¿Hasta cuándo se usa la edad corregida?', 'Normalmente durante los 2 primeros años, según la orientación del equipo sanitario que sigue al niño.'],
+    ['¿Un prematuro que habla bien a los 2 años necesita seguimiento?', 'Sí. Las dificultades en el lenguaje más complejo pueden aparecer más tarde, en edad infantil y escolar.'],
+    ['¿Qué puedo hacer en casa?', 'Conversar en los cuidados diarios, leer libros con imágenes y responder a los sonidos y gestos del bebé.'],
+  ],
+  sources: [
+    'van Noort-van der Spek, Franken y Weisglas-Kuperus (2012). Language functions in preterm-born children: a systematic review and meta-analysis. <em>Pediatrics</em>, 129(4), 745–754. <a href="https://doi.org/10.1542/peds.2011-1728" rel="noopener" target="_blank">doi:10.1542/peds.2011-1728</a>',
+  ],
+  related: ['marcos-linguagem-0-a-24-meses', 'desenvolvimento-da-linguagem-infantil', 'quando-procurar-avaliacao-desenvolvimento'],
+}

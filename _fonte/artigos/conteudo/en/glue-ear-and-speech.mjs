@@ -1,0 +1,78 @@
+export default {
+  id: 'otite-serosa-e-fala',
+  slug: 'glue-ear-and-speech',
+  short: 'Glue ear and speech',
+  date: '2026-10-24',
+  titleTag: 'Glue ear and speech delay: when to worry · Talk+',
+  description: 'Can glue ear delay speech? Fluid in the middle ear lowers hearing, often for a short time. When to ask for a hearing test and what studies say about grommets.',
+  keywords: ['glue ear and speech', 'ear infections speech delay', 'fluid in ears toddler speech', 'otitis media with effusion language', 'ear tubes speech delay', 'toddler hearing test'],
+  h1: 'Glue ear and speech: when <span class="word-highlight">muffled hearing</span> is a concern',
+  lead: 'Glue ear, with fluid behind the eardrum, is very common in childhood and often painless. It can lower hearing for weeks or months. When does that weigh on speech development?',
+  blocks: [
+    { intro: '<strong>Glue ear</strong> (otitis media with effusion) is fluid in the middle ear without signs of acute infection. In this article we explain the link between <strong>glue ear and speech</strong>, when a <strong>hearing test</strong> is recommended and what studies say about ventilation tubes (grommets).' },
+    { summary: [
+      'Fluid in the middle ear can lower hearing, often temporarily.',
+      'The ENT guideline recommends a hearing test when fluid lasts 3 months or more, or sooner in at-risk children.',
+      'In most healthy children, grommets showed no benefit for language.',
+      'For any speech delay, hearing should be checked first.',
+    ] },
+    { h2: 'Why can glue ear affect speech?', id: 'porque', toc: 'Why it matters' },
+    { p: 'To learn to talk, a child needs to hear words clearly. Fluid behind the eardrum acts like a «muffler»: sounds arrive quieter and less clear. If this goes on for a long time, especially in both ears, the child has fewer chances to hear language well.' },
+    { p: 'That is why the American otolaryngology guideline (Rosenfeld et al., 2016) recommends that clinicians identify children at <strong>higher risk of speech, language or learning problems</strong> and counsel families when there is glue ear in both ears with documented hearing loss.' },
+    { h2: 'When should you ask for a hearing test?', id: 'teste', toc: 'Hearing test' },
+    { p: 'According to the same guideline, an <strong>age-appropriate hearing test should be done when fluid persists for 3 months or longer</strong>, or at any time in an at-risk child. Children with chronic glue ear should be re-examined every 3 to 6 months.' },
+    { alert: {
+      title: 'Ask for a hearing assessment if the child:',
+      items: [
+        'has a speech or language delay, at any age;',
+        'often says «what?», turns the TV up or does not respond when called from a distance;',
+        'has had repeated ear infections or fluid in the ears for months;',
+        'has a cleft palate, Down syndrome or another at-risk condition.',
+      ],
+    } },
+    { h2: 'Do ear tubes help speech?', id: 'tubos', toc: 'Grommets' },
+    { p: 'A Cochrane review concluded that in healthy children with glue ear and hearing loss, inserting grommets <strong>showed no benefit for language development</strong>; the hearing gain was modest and faded during the first year (Browning et al., 2010). The authors note there were no studies in children with established speech or developmental difficulties, and that an initial period of watchful waiting seems appropriate for most children.' },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'Glue ear is common and often clears on its own.',
+        'It can lower hearing temporarily.',
+        'Hearing should be tested when fluid persists or there is a speech delay.',
+      ],
+      no: [
+        '«Every ear infection causes a speech delay.»',
+        '«Grommets get children talking.»',
+        '«If there is no pain, no need to monitor.»',
+      ],
+    } },
+    { h2: 'How to help at home while the ear recovers', id: 'em-casa', toc: 'At home' },
+    { ul: [
+      'Talk face to face, close to the child, with your face visible.',
+      'Reduce background noise (TV, radio) during conversations.',
+      'Speak clearly and a little more slowly, without shouting.',
+      'Repeat and check the child has understood new words.',
+    ] },
+    { bridge: {
+      title: 'Hearing words again, with a picture',
+      intro: 'Some ideas from the article are mirrored in parts of the app:',
+      items: [
+        ['Repeating words and linking them to a picture helps when hearing is reduced.', 'Games present each word with a picture and voice, and the animal sounds in Play have a «Hear it again» button.'],
+        ['Reducing background noise.', 'In calm mode, sounds, music and movement can be adjusted.'],
+      ],
+      outro: 'Talk+ does not test hearing. If there is a concern, the child should have a hearing test.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about glue ear and speech',
+  faq: [
+    ['Can ear infections cause a speech delay?', 'Glue ear can contribute, especially when it lasts many months in both ears and lowers hearing. In most children the effect is temporary.'],
+    ['How long does glue ear last?', 'It often clears on its own within weeks or a few months. If fluid lasts 3 months or more, a hearing test is recommended.'],
+    ['Do ear tubes improve speech?', 'In healthy children, studies have not shown a benefit for language. The decision is made by the ENT specialist, case by case.'],
+    ['How can I tell if my child can’t hear well?', 'Signs such as often saying «what?», turning the volume up or not responding when called justify a hearing test.'],
+  ],
+  sources: [
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a>',
+    'Browning, Rovers, Williamson, Lous and Burton (2010). Grommets (ventilation tubes) for hearing loss associated with otitis media with effusion in children. <em>Cochrane Database of Systematic Reviews</em>, CD001801. <a href="https://doi.org/10.1002/14651858.CD001801.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD001801.pub3</a>',
+  ],
+  related: ['pac-vs-dificuldades-audicao', 'atraso-na-fala', 'quando-procurar-avaliacao-desenvolvimento'],
+}

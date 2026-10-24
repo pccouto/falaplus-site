@@ -1,0 +1,66 @@
+export default {
+  slug: 'freio-lingual-e-fala',
+  short: 'Freio lingual e fala',
+  date: '2026-10-24',
+  titleTag: 'Freio lingual curto atrasa a fala? A evidência · Fala+',
+  description: 'O freio lingual curto (anquiloglossia) causa atraso na fala? Raramente. Veja o que dizem as revisões, quando avaliar e porque o corte não é a primeira resposta.',
+  keywords: ['freio lingual e fala', 'freio lingual curto atrasa a fala', 'anquiloglossia fala', 'língua presa criança', 'frenotomia fala', 'cortar o freio da língua'],
+  h1: 'Freio lingual curto atrasa a fala? O que diz a <span class="word-highlight">evidência</span>',
+  lead: 'Quando uma criança fala pouco ou troca sons, é comum ouvir que «tem a língua presa» e que «cortar o freio» resolve. A evidência científica é muito mais cautelosa.',
+  blocks: [
+    { intro: 'O <strong>freio lingual curto</strong>, ou anquiloglossia, é uma membrana sob a língua mais curta ou mais espessa do que o habitual. Neste artigo explicamos o que se sabe sobre <strong>freio lingual e fala</strong>, o que dizem as revisões sobre a frenotomia e o que avaliar primeiro quando há um atraso.' },
+    { summary: [
+      'O consenso de otorrinolaringologistas pediátricos (2020) diz que a anquiloglossia normalmente não afeta a fala.',
+      'O freio lingual não explica um atraso na linguagem: não reduz o vocabulário nem a construção de frases.',
+      'As revisões sobre a frenotomia para melhorar a fala encontram evidência insuficiente e de baixa qualidade.',
+      'Antes de uma cirurgia por motivos de fala, recomenda-se a avaliação de um terapeuta da fala.',
+    ] },
+    { h2: 'O freio lingual curto atrasa a fala?', id: 'atraso', toc: 'Atrasa a fala?' },
+    { p: 'É importante separar duas coisas. <strong>Linguagem</strong> é saber palavras e juntá-las em frases; <strong>fala</strong> é produzir os sons (veja [[diferenca-entre-fala-e-linguagem|Fala, linguagem e comunicação]]). O freio lingual pode, em alguns casos, dificultar sons que exigem levantar a ponta da língua, mas <strong>não explica uma criança que diz poucas palavras</strong>.' },
+    { p: 'Um consenso de otorrinolaringologistas pediátricos publicado em 2020 concluiu que a anquiloglossia normalmente não afeta a fala, e recomenda que uma criança mais velha que vai fazer frenotomia por motivos de fala seja <strong>primeiro avaliada por um terapeuta da fala</strong> (Messner et al., 2020).' },
+    { h2: 'Cortar o freio melhora a fala?', id: 'frenotomia', toc: 'A frenotomia' },
+    { p: 'Uma revisão sistemática sobre o tratamento da anquiloglossia por motivos que não a amamentação encontrou poucos estudos: dois ensaios aleatorizados, dois estudos de coorte e onze séries de casos. Dois estudos de coorte relataram melhorias na articulação, mas a avaliação dos resultados era inconsistente e a evidência foi considerada insuficiente (Chinnadurai et al., 2015). Revisões mais recentes chegam a conclusões semelhantes.' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A maioria das crianças com freio curto fala sem dificuldades.',
+        'Alguns sons (como l, r, t, d) podem exigir mais mobilidade da língua.',
+        'A decisão de cirurgia deve envolver médico e terapeuta da fala.',
+      ],
+      no: [
+        '«O freio curto explica que a criança não fale.»',
+        '«Cortar o freio põe a criança a falar.»',
+        '«Todas as trocas de sons vêm do freio.»',
+      ],
+    } },
+    { h2: 'O que avaliar primeiro quando há atraso na fala', id: 'avaliar', toc: 'O que avaliar' },
+    { ul: [
+      '<strong>Audição</strong>: é o primeiro passo em qualquer atraso (veja [[otite-serosa-e-fala|Otite serosa e fala]]).',
+      '<strong>Linguagem e comunicação</strong>: compreensão, vocabulário, gestos e interação.',
+      '<strong>Sons da fala</strong>: se a criança troca sons, se são trocas próprias da idade ou não (veja [[trocas-de-sons-na-fala|Trocas de sons na fala]]).',
+      '<strong>Função da língua</strong>: mobilidade, alimentação e deglutição, com o médico e o terapeuta.',
+    ] },
+    { p: 'Também convém desconfiar de exercícios de sopro ou faciais apresentados como solução para a fala: veja [[mito-sopros-exercicios-faciais-fala|exercícios faciais e sopros aceleram a fala?]].' },
+    { bridge: {
+      title: 'Ouvir e brincar com os sons, sem avaliar a pronúncia',
+      intro: 'A app pode dar oportunidades de ouvir e experimentar palavras numa brincadeira:',
+      items: [
+        ['A fala desenvolve-se a ouvir bons modelos e a experimentar, sem pressão.', 'Na Voz Mágica, a criança ouve a palavra e depois fala, canta ou faz um som; a app não avalia a pronúncia.'],
+      ],
+      outro: 'A Fala+ não avalia o freio lingual nem a articulação e não substitui a avaliação de um médico ou de um terapeuta da fala.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre freio lingual e fala',
+  faq: [
+    ['Freio lingual curto atrasa a fala?', 'Raramente. Um freio curto não explica que a criança diga poucas palavras; pode, em alguns casos, dificultar alguns sons.'],
+    ['Como saber se a criança tem a língua presa?', 'Só a observação de um profissional permite confirmar. Sinais como dificuldade em pôr a língua de fora ou levantá-la merecem avaliação.'],
+    ['Cortar o freio da língua ajuda a falar?', 'A evidência é insuficiente. Antes de uma cirurgia por motivos de fala, recomenda-se a avaliação de um terapeuta da fala.'],
+    ['Com que idade se deve cortar o freio lingual?', 'Não há uma idade certa para todos: a decisão depende dos sintomas (alimentação, fala) e é tomada com o médico.'],
+  ],
+  sources: [
+    'Messner et al. (2020). Clinical Consensus Statement: Ankyloglossia in Children. <em>Otolaryngology–Head and Neck Surgery</em>, 162(5), 597–611. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Consensus+Statement%3A+Ankyloglossia+in+Children" rel="noopener" target="_blank">PubMed</a>',
+    'Chinnadurai et al. (2015). Treatment of Ankyloglossia for Reasons Other Than Breastfeeding: A Systematic Review. <em>Pediatrics</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Treatment+of+Ankyloglossia+for+Reasons+Other+Than+Breastfeeding%3A+A+Systematic+Review" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala', 'terapia-miofuncional-orofacial-criancas'],
+}

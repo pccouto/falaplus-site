@@ -1,0 +1,70 @@
+export default {
+  id: 'marcos-linguagem-0-a-24-meses',
+  slug: 'hitos-del-lenguaje-0-a-24-meses',
+  short: 'Hitos del lenguaje de 0 a 24 meses',
+  date: '2026-10-24',
+  titleTag: 'Hitos del lenguaje de 0 a 24 meses · Habla+',
+  description: '¿Qué esperar del lenguaje del bebé a los 6, 12, 18 y 24 meses? Hitos revisados por los CDC y la AAP, señales para consultar al pediatra e ideas para estimular.',
+  keywords: ['hitos del lenguaje 0 a 24 meses', 'cuándo empieza a hablar un bebé', 'bebé de 12 meses no habla', 'bebé de 18 meses no habla', 'cuántas palabras a los 18 meses', 'desarrollo del habla del bebé'],
+  h1: 'Hitos del lenguaje de 0 a 24 meses: qué <span class="word-highlight">esperar</span>',
+  lead: 'En los dos primeros años, la comunicación pasa del llanto a la sonrisa, del balbuceo al señalar y de las primeras palabras a las primeras frases. Los hitos ayudan a seguir este camino, sin ser una prueba.',
+  blocks: [
+    { intro: 'Los <strong>hitos del lenguaje de 0 a 24 meses</strong> son una de las informaciones más buscadas por quienes cuidan de bebés. En este artículo resumimos las referencias revisadas en 2022 por los CDC y la Academia Americana de Pediatría, con señales que justifican consultar al pediatra. Para las edades siguientes, consulta [[marcos-desenvolvimento-linguagem-2-a-5-anos|Hitos del lenguaje de 2 a 5 años]].' },
+    { summary: [
+      'En 2022, los CDC y la AAP revisaron los hitos: cada uno refleja lo que ya hace el 75% de los niños a esa edad.',
+      'Por eso, no alcanzar un hito es un motivo para consultar al pediatra, no para esperar.',
+      'Antes de las palabras llegan la sonrisa, los gorjeos, el balbuceo, los gestos y el señalar.',
+      'La vigilancia del desarrollo forma parte de las revisiones del niño sano.',
+    ] },
+    { h2: '¿Por qué se revisaron los hitos?', id: 'revisao', toc: 'La revisión de 2022' },
+    { p: 'En 2022, un grupo de expertos de los CDC y la Academia Americana de Pediatría revisó las listas de hitos. El cambio principal: cada hito pasó a reflejar lo que ya hace <strong>el 75% de los niños</strong> a esa edad, en lugar del 50% (Zubler et al., 2022). Así, cuando un niño no alcanza un hito, se recomienda consultar al pediatra en lugar de esperar a ver.' },
+    { h2: '¿Qué esperar a cada edad?', id: 'idades', toc: 'Edad a edad' },
+    { table: {
+      head: ['Edad', 'Lo que ya hacen la mayoría de los niños', 'Consulta al pediatra si…'],
+      rows: [
+        ['6 meses', 'Hace sonidos por turnos con el adulto, como una conversación; ríe y chilla', 'no reacciona a los sonidos ni sonríe a las personas'],
+        ['12 meses', 'Dice adiós con la mano; llama «mamá» o «papá» con intención; entiende el «no»', 'no señala, no dice adiós con la mano ni responde a menudo a su nombre'],
+        ['18 meses', 'Intenta decir tres o más palabras además de «mamá» o «papá»; señala para mostrar; sigue una instrucción sencilla sin gestos', 'no dice palabras, no señala para mostrar o ha perdido palabras'],
+        ['24 meses', 'Combina dos palabras («más agua»); señala dibujos en un libro cuando se le pide', 'no combina dos palabras con sentido (las repeticiones no cuentan)'],
+      ],
+    } },
+    { p: 'Estas referencias se basan en las listas de los CDC y la AAP. Son <strong>referencias de vigilancia, no diagnósticos</strong>: cada niño tiene su ritmo, pero la pérdida de habilidades a cualquier edad debe comunicarse siempre al pediatra.' },
+    { alert: {
+      title: 'Consulta al pediatra, a cualquier edad, si el niño:',
+      items: [
+        'ha perdido palabras, gestos o interés por las personas que ya tenía;',
+        'no reacciona a los sonidos o parece no oír;',
+        'no intenta comunicarse con la mirada, gestos o sonidos.',
+      ],
+    } },
+    { h2: 'Cómo estimular el lenguaje en los dos primeros años', id: 'estimular', toc: 'Cómo estimular' },
+    { ul: [
+      'Responde a los sonidos del bebé como si fueran conversación: él «habla», tú respondes, y esperas.',
+      'Pon nombre a lo que el niño mira o señala: «¡Es un perro!».',
+      'Canta, lee libros con imágenes y juega al «cucú».',
+      'Reduce el ruido de fondo y el tiempo de pantalla sin interacción (consulta [[tempo-de-ecra-criancas|Tiempo de pantalla en los niños]]).',
+    ] },
+    { bridge: {
+      title: 'Palabras cotidianas y momentos compartidos',
+      intro: 'Algunas ideas del artículo tienen eco en funciones de la app, para usar con un adulto al lado:',
+      items: [
+        ['Poner nombre a lo que el niño ve.', 'Los juegos presentan palabras cotidianas con imagen y voz, en 25 temas.'],
+        ['Jugar con sonidos y reacciones.', 'En Jugar libre hay instrumentos y sonidos de animales, sin puntos ni respuestas correctas.'],
+      ],
+      outro: 'En los primeros años, la interacción presencial es el principal motor del lenguaje. Habla+ no sigue hitos ni evalúa el desarrollo.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre el lenguaje del bebé',
+  faq: [
+    ['¿Cuándo empieza a hablar un bebé?', 'Hacia los 12 meses muchos bebés dicen «mamá» o «papá» con intención; las palabras aumentan a lo largo del segundo año.'],
+    ['¿Cuántas palabras debe decir un bebé de 18 meses?', 'Según las listas de los CDC y la AAP, a los 18 meses la mayoría de los niños intentan decir tres o más palabras además de «mamá» o «papá».'],
+    ['¿Es normal que un bebé de 12 meses no hable?', 'Muchos bebés de 12 meses dicen pocas palabras o ninguna. Importa más que señale, diga adiós con la mano y responda a su nombre; si no lo hace, consulta al pediatra.'],
+    ['Mi bebé de 18 meses no habla. ¿Debo preocuparme?', 'Conviene consultar al pediatra, que valorará también la audición, la comprensión y los gestos.'],
+  ],
+  sources: [
+    'Zubler et al. (2022). Evidence-Informed Milestones for Developmental Surveillance Tools. <em>Pediatrics</em>, 149(3), e2021052138. <a href="https://doi.org/10.1542/peds.2021-052138" rel="noopener" target="_blank">doi:10.1542/peds.2021-052138</a>',
+    'CDC. <a href="https://www.cdc.gov/ncbddd/actearly/milestones/index.html" rel="noopener" target="_blank">CDC’s Developmental Milestones</a>.',
+    'Lipkin y Macias (2020). Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening. <em>Pediatrics</em>, 145(1). <a href="https://doi.org/10.1542/peds.2019-3449" rel="noopener" target="_blank">doi:10.1542/peds.2019-3449</a>',
+  ],
+  related: ['marcos-desenvolvimento-linguagem-2-a-5-anos', 'desenvolvimento-da-linguagem-infantil', 'atraso-na-fala'],
+}

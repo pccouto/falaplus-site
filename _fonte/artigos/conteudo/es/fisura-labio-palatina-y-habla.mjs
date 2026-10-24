@@ -1,0 +1,82 @@
+export default {
+  id: 'fissura-labio-palatina-e-fala',
+  slug: 'fisura-labio-palatina-y-habla',
+  short: 'Fisura labiopalatina y habla',
+  date: '2026-10-24',
+  titleTag: 'Fisura labiopalatina y habla: qué esperar · Habla+',
+  description: '¿Cómo afecta la fisura labiopalatina al habla? Cirugía, audición y logopedia: qué esperar, la voz nasal y el papel del equipo que acompaña al niño.',
+  keywords: ['fisura labiopalatina y habla', 'fisura del paladar habla', 'labio leporino habla', 'voz nasal niño', 'insuficiencia velofaríngea', 'logopedia fisura palatina'],
+  h1: 'Fisura labiopalatina y habla: qué <span class="word-highlight">esperar</span>',
+  lead: 'La fisura labiopalatina es una de las malformaciones congénitas más frecuentes. Con cirugía en el momento adecuado y el seguimiento de un equipo, muchos niños desarrollan un habla clara; algunos necesitan más apoyo por el camino.',
+  blocks: [
+    { intro: 'La relación entre <strong>fisura labiopalatina y habla</strong> depende sobre todo del paladar. En este artículo explicamos por qué la fisura del paladar puede afectar al habla, qué es la <strong>insuficiencia velofaríngea</strong>, por qué conviene vigilar la audición y cómo trabaja el equipo.' },
+    { summary: [
+      'La fisura labiopalatina afecta a alrededor de 1 de cada 700 nacimientos.',
+      'Cuando el paladar no cierra bien el paso hacia la nariz al hablar, la voz puede sonar nasal.',
+      'Los niños con fisura del paladar tienen más otitis serosa, por eso hay que vigilar la audición.',
+      'La logopedia forma parte del seguimiento, pero algunos casos necesitan también cirugía.',
+    ] },
+    { h2: '¿Por qué la fisura del paladar puede afectar al habla?', id: 'porque', toc: 'Por qué afecta al habla' },
+    { p: 'Para la mayoría de los sonidos, el paladar blando sube y cierra el paso entre la boca y la nariz. Si ese cierre no es completo, el aire escapa por la nariz: la voz suena <strong>nasal</strong> y algunos sonidos (como p, t, s) se debilitan. Esto se llama <strong>insuficiencia velofaríngea</strong>.' },
+    { p: 'La fisura del labio, por sí sola, suele afectar menos al habla que la fisura del paladar.' },
+    { h2: '¿Qué hace el equipo?', id: 'equipa', toc: 'El equipo' },
+    { cards: [
+      ['Cirugía', 'El cierre del paladar se hace en los primeros meses de vida, según el protocolo del equipo.'],
+      ['Audición', 'La otitis serosa es frecuente en estos niños; consulta [[otite-serosa-e-fala|Otitis serosa y habla]].'],
+      ['Logopedia', 'Sigue el desarrollo de los sonidos y del lenguaje y ayuda a corregir patrones compensatorios.'],
+      ['Reevaluación', 'Si la voz sigue siendo nasal, el equipo evalúa el cierre velofaríngeo.'],
+    ] },
+    { p: 'Una revisión paraguas sobre la insuficiencia velofaríngea concluyó que, en los niños con síntomas persistentes, el tratamiento <strong>no consistió solo en logopedia</strong>: a menudo fue necesaria la cirugía, sin una técnica única considerada la mejor (revisión paraguas, 2022).' },
+    { alert: {
+      title: 'Habla con el equipo si el niño:',
+      items: [
+        'tiene la voz muy nasal o se le escapa el aire por la nariz al hablar;',
+        'parece no oír bien o tiene otitis frecuentes;',
+        'comete muchos errores de sonidos o se le entiende poco para su edad;',
+        'tiene dificultades para comer, como líquidos que salen por la nariz.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'Muchos niños con fisura desarrollan un habla clara.',
+        'El seguimiento en equipo y la vigilancia de la audición son esenciales.',
+        'Algunos casos necesitan cirugía, además de logopedia.',
+      ],
+      no: [
+        '«Después de la cirugía, el habla siempre es normal».',
+        '«La logopedia siempre resuelve la voz nasal».',
+        '«Los ejercicios de soplo corrigen el paladar».',
+      ],
+    } },
+    { h2: 'Cómo apoyar la comunicación en casa', id: 'em-casa', toc: 'En casa' },
+    { ul: [
+      'Conversa, lee y canta con el niño como con cualquier otro: el lenguaje se desarrolla en la interacción.',
+      'Valora lo que quiere decir; no le exijas que repita los sonidos «correctos».',
+      'Sigue las indicaciones del logopeda sobre los sonidos que se trabajan.',
+      'Desconfía de los ejercicios de soplo como solución: consulta [[mito-sopros-exercicios-faciais-fala|¿los ejercicios faciales y de soplo aceleran el habla?]].',
+    ] },
+    { bridge: {
+      title: 'Comunicar y oír palabras, sin evaluar la pronunciación',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['Valorar lo que el niño quiere decir.', 'En Comunicar, el niño puede unir tarjetas con imágenes en una frase y oírla en voz alta.'],
+        ['Usar la voz jugando, sin exigencias.', 'En Voz Mágica y en el Cactus Parlante, el niño habla, canta o hace sonidos; la app no evalúa la pronunciación.'],
+      ],
+      outro: 'Habla+ no evalúa la resonancia ni los sonidos del habla y no sustituye el seguimiento del equipo de fisuras.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre fisura y habla',
+  faq: [
+    ['¿Un niño con fisura labiopalatina hablará con normalidad?', 'Muchos desarrollan un habla clara con cirugía y seguimiento. Algunos necesitan más apoyo u otras intervenciones.'],
+    ['¿Por qué la voz suena nasal?', 'Porque el paladar no cierra del todo el paso hacia la nariz al hablar (insuficiencia velofaríngea).'],
+    ['¿La logopedia resuelve la voz nasal?', 'Depende de la causa. Cuando el cierre velofaríngeo es insuficiente, a menudo hace falta cirugía.'],
+    ['¿Por qué hay que vigilar la audición?', 'Los niños con fisura del paladar tienen más otitis serosa, que puede bajar la audición.'],
+  ],
+  sources: [
+    'Velopharyngeal Insufficiency Treatment in Cleft Palate Patients: Umbrella Review (2022). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9496528/" rel="noopener" target="_blank">PMC9496528</a>.',
+    'Rosenfeld et al. (2016). Clinical Practice Guideline: Otitis Media with Effusion (Update). <em>Otolaryngology–Head and Neck Surgery</em>, 154(1S), S1–S41. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Clinical+Practice+Guideline%3A+Otitis+Media+with+Effusion+%28Update%29+2016" rel="noopener" target="_blank">PubMed</a> (niños con fisura del paladar como grupo de riesgo).',
+  ],
+  related: ['otite-serosa-e-fala', 'trocas-de-sons-na-fala', 'mito-sopros-exercicios-faciais-fala'],
+}

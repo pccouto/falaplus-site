@@ -1,0 +1,81 @@
+export default {
+  id: 'leitura-dialogica-ler-historias',
+  slug: 'dialogic-reading-shared-book-reading',
+  short: 'Dialogic reading',
+  date: '2026-10-24',
+  titleTag: 'Reading stories to boost language: dialogic reading · Talk+',
+  description: 'Does reading stories help a child talk? Yes, especially when the child takes part. What dialogic reading is, what meta-analyses show and how to do it at home.',
+  keywords: ['dialogic reading', 'reading to toddlers speech', 'shared book reading language', 'does reading help speech delay', 'PEER reading strategy', 'how to read to toddlers'],
+  h1: 'Reading stories to boost language: <span class="word-highlight">dialogic reading</span>',
+  lead: 'Reading aloud is good. Reading so that the child asks, answers and tells the story too is even better for vocabulary. That is the idea behind dialogic reading.',
+  blocks: [
+    { intro: '<strong>Reading stories to boost language</strong> is one of the most common recommendations to families. In this article we explain what <strong>dialogic reading</strong> is, what meta-analyses show about <strong>shared book reading</strong> and how to put it into practice in a few minutes a day.' },
+    { summary: [
+      'In dialogic reading, the adult asks questions, waits, praises and expands the child’s answers.',
+      'One meta-analysis found a moderate effect on expressive vocabulary compared with ordinary reading.',
+      'Another meta-analysis of 19 trials found small effects on language and larger effects on adults’ skills.',
+      'Dose matters: very short programmes had little effect.',
+    ] },
+    { h2: 'What is dialogic reading?', id: 'o-que-e', toc: 'What it is' },
+    { p: 'It is a way of reading in which the child goes from listener to storyteller. It was described by Whitehurst and colleagues (1988). The adult uses a simple sequence known as PEER:' },
+    { cards: [
+      ['Prompt', '«What’s this?», «What will happen next?»'],
+      ['Evaluate', 'Praise and, if needed, help: «Well done, it’s a dog!»'],
+      ['Expand', 'Add information: «It’s a brown dog, running.»'],
+      ['Repeat', 'Invite the child to say it again: «You say it: a dog running.»'],
+    ] },
+    { h2: 'Does reading stories help a child talk? What studies say', id: 'estudos', toc: 'What studies say' },
+    { p: 'A meta-analysis of 16 studies compared dialogic reading with ordinary reading and found a <strong>moderate effect on expressive vocabulary</strong>. The effect was smaller for 5- and 6-year-olds and for children at risk of difficulties (Mol et al., 2008).' },
+    { p: 'A more recent meta-analysis of 19 randomised trials with 2,594 children aged 1 to 6 found <strong>small effects on expressive and receptive language</strong> and a large effect on the adult’s book-sharing skills. Programmes with very low doses had minimal effect (Dowdall et al., 2020).' },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What we cannot say',
+      yes: [
+        'Reading with the child taking part helps vocabulary.',
+        'Adults learn the technique quickly.',
+        'Regularity matters.',
+      ],
+      no: [
+        '«Reading stories fixes a speech delay.»',
+        '«Reading is only worth it from age 3.»',
+        '«Audiobooks alone are enough.»',
+      ],
+    } },
+    { h2: 'How to do it at home, age by age', id: 'em-casa', toc: 'At home' },
+    { table: {
+      head: ['Age', 'Ideas'],
+      rows: [
+        ['1 to 2 years', 'Board books with big pictures; point and name; wait for the child to point too.'],
+        ['2 to 3 years', 'Simple questions («Where’s the cat?»), finishing repeated phrases from the story.'],
+        ['3 to 5 years', 'Open questions («Why is he sad?»), predicting what comes next, retelling the story.'],
+      ],
+    } },
+    { ul: [
+      'Follow the child’s interest: you can stay on one page for a long time.',
+      'Reread favourite books: repetition helps.',
+      'A few minutes every day beats an hour now and then.',
+    ] },
+    { bridge: {
+      title: 'Telling stories and exploring pictures',
+      intro: 'Some ideas from the article are mirrored in parts of the app:',
+      items: [
+        ['Naming pictures and talking about them.', 'Word games present pictures with voice, which you can comment on with the child.'],
+        ['Listening to a story and understanding its sequence.', 'In Tell a Story, the child listens to the story and then puts the book’s pages back in the right order.'],
+      ],
+      outro: 'Nothing replaces a book shared with an adult. The app can be a complement, not a substitute for reading.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about reading stories',
+  faq: [
+    ['Does reading stories help a child talk?', 'Yes, especially when the child takes part: questions, pauses and answers. Studies show effects on vocabulary.'],
+    ['When should I start reading to my baby?', 'Early on. With babies, what matters is looking at pictures together, naming things and responding to their sounds.'],
+    ['How long should I read each day?', 'There is no magic number. Reading a little every day, regularly, is most useful.'],
+    ['What if my child won’t sit for a story?', 'Choose books about their interests, let them turn the pages and turn reading into a chat about the pictures.'],
+  ],
+  sources: [
+    'Mol, Bus, de Jong and Smeets (2008). Added Value of Dialogic Parent–Child Book Readings: A Meta-Analysis. <em>Early Education and Development</em>, 19(1), 7–26. <a href="https://doi.org/10.1080/10409280701838603" rel="noopener" target="_blank">doi:10.1080/10409280701838603</a>',
+    'Dowdall, Melendez-Torres, Murray, Gardner, Hartford and Cooper (2020). Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis. <em>Child Development</em>, 91(2), 383–399. <a href="https://doi.org/10.1111/cdev.13225" rel="noopener" target="_blank">doi:10.1111/cdev.13225</a>',
+    'Whitehurst et al. (1988). Accelerating language development through picture book reading. <em>Developmental Psychology</em>, 24(4), 552–559. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Accelerating+language+development+through+picture+book+reading" rel="noopener" target="_blank">PubMed</a>',
+  ],
+  related: ['brincadeiras-para-estimular-a-fala', 'desenvolvimento-da-linguagem-infantil', 'atraso-na-fala-leitura-dislexia'],
+}

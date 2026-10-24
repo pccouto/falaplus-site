@@ -1,0 +1,82 @@
+export default {
+  slug: 'atraso-na-fala-leitura-dislexia',
+  short: 'Atraso na fala, leitura e dislexia',
+  date: '2026-10-24',
+  titleTag: 'Atraso na fala, leitura e dislexia: a ligação · Fala+',
+  description: 'O atraso na fala aumenta o risco de dificuldades na leitura? Sim, sobretudo quando a linguagem continua frágil. Sinais a vigiar e como preparar a leitura em casa.',
+  keywords: ['atraso na fala e dislexia', 'atraso na fala e leitura', 'consciência fonológica', 'dificuldades de aprendizagem da leitura', 'atraso na fala dificuldade de aprendizagem', 'sinais de dislexia pré-escolar'],
+  h1: 'Atraso na fala, leitura e dislexia: qual é a <span class="word-highlight">ligação</span>?',
+  lead: 'Ler é transformar letras em linguagem. Por isso, as crianças com dificuldades na linguagem oral têm mais risco de dificuldades na leitura. Saber isso cedo permite preparar o caminho antes de a escola começar.',
+  blocks: [
+    { intro: 'A relação entre <strong>atraso na fala e dislexia</strong> preocupa muitas famílias. Neste artigo explicamos o que mostram os estudos longitudinais, o papel da <strong>consciência fonológica</strong> e que sinais acompanhar antes e depois da entrada na escola.' },
+    { summary: [
+      'Crianças com perturbação da linguagem no pré-escolar tiveram mais risco de dificuldades de leitura no 2.º e 4.º anos.',
+      'O risco foi menor nas crianças cuja linguagem oral melhorou até à idade escolar.',
+      'Fala, linguagem e leitura sobrepõem-se, mas de formas diferentes consoante o perfil da criança.',
+      'Atraso na fala não é o mesmo que dislexia: é um sinal para acompanhar, não um diagnóstico.',
+    ] },
+    { h2: 'O atraso na fala aumenta o risco de dificuldades na leitura?', id: 'risco', toc: 'O risco' },
+    { p: 'Um estudo norte-americano acompanhou crianças identificadas com perturbação da linguagem no jardim de infância até ao 2.º e 4.º anos. Estas crianças tiveram um <strong>risco elevado de dificuldades na leitura</strong>, maior quando havia também dificuldades não verbais. As crianças cuja linguagem oral melhorou tiveram melhores resultados na leitura (Catts et al., 2002).' },
+    { p: 'Também as crianças que falaram tarde aos 2 anos, mesmo com resultados na média, ficaram aos 17 anos abaixo de colegas semelhantes em vocabulário e gramática (Rescorla, 2009). A linguagem é a base da compreensão do que se lê.' },
+    { h2: 'Fala, linguagem e leitura: o que se cruza?', id: 'relacao', toc: 'O que se cruza' },
+    { p: 'Uma revisão de Pennington e Bishop (2009) analisou a sobreposição entre perturbação dos sons da fala, perturbação da linguagem e dislexia. Concluiu que <strong>há sobreposição a vários níveis</strong>, mas que ela depende do perfil: nem todas as crianças com trocas de sons ou com atraso de linguagem terão dificuldades na leitura.' },
+    { cards: [
+      ['Consciência fonológica', 'Perceber que as palavras são feitas de sons: rimas, sílabas, o primeiro som de «mala».'],
+      ['Vocabulário e gramática', 'Base para compreender frases e textos.'],
+      ['Nomear rapidamente', 'Dizer depressa o nome de cores, objetos ou letras conhecidas.'],
+    ] },
+    { alert: {
+      title: 'Sinais a acompanhar e a partilhar com a escola e o médico:',
+      items: [
+        'aos 4 a 5 anos, dificuldade em rimas, em bater as sílabas ou em reconhecer o primeiro som de uma palavra;',
+        'dificuldade persistente em aprender o nome das letras;',
+        'história familiar de dislexia ou de dificuldades de leitura;',
+        'linguagem oral que continua frágil na entrada para o 1.º ano.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Dificuldades de linguagem oral aumentam o risco de dificuldades na leitura.',
+        'Melhorar a linguagem oral está associado a melhor leitura.',
+        'Preparar a consciência fonológica antes da escola é útil.',
+      ],
+      no: [
+        '«Quem falou tarde vai ter dislexia.»',
+        '«A dislexia diagnostica-se aos 3 anos.»',
+        '«Aprender a ler mais cedo previne a dislexia.»',
+      ],
+    } },
+    { h2: 'Como preparar a leitura em casa', id: 'em-casa', toc: 'Em casa' },
+    { ul: [
+      'Leia histórias todos os dias e converse sobre elas: veja [[leitura-dialogica-ler-historias|a leitura dialógica]].',
+      'Brinque com rimas, canções e lengalengas.',
+      'Bata palmas às sílabas dos nomes da família.',
+      'Brinque ao «estou a ver uma coisa que começa por /m/…».',
+    ] },
+    { p: 'Veja também [[jogos-para-aprender-a-ler|Jogos para aprender a ler]].' },
+    { bridge: {
+      title: 'Palavras, sons e letras numa brincadeira',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['A linguagem oral é a base da leitura.', 'Os jogos de palavras apresentam vocabulário do dia a dia com imagem e voz.'],
+        ['Brincar com as sílabas e com as letras.', 'Em Construir Palavras, a criança ouve a palavra e põe as sílabas pela ordem certa; na Sopa de Letras procura palavras escritas.'],
+      ],
+      outro: 'A Fala+ não rastreia nem diagnostica a dislexia e não substitui o ensino da leitura nem a avaliação.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre fala, leitura e dislexia',
+  faq: [
+    ['O atraso na fala é uma dificuldade de aprendizagem?', 'Não. É um sinal que aumenta o risco de dificuldades na leitura, sobretudo se a linguagem continuar frágil. Deve ser acompanhado.'],
+    ['Quem fala tarde vai ter dislexia?', 'Não necessariamente. Muitas crianças que falaram tarde leem bem. O risco é maior quando a linguagem oral continua frágil.'],
+    ['Com que idade se diagnostica a dislexia?', 'Normalmente depois do início da aprendizagem formal da leitura. Antes, observam-se sinais de risco.'],
+    ['O que é a consciência fonológica?', 'É perceber que as palavras são feitas de sons: rimas, sílabas e sons iniciais. Prepara a aprendizagem da leitura.'],
+  ],
+  sources: [
+    'Catts, Fey, Tomblin e Zhang (2002). A Longitudinal Investigation of Reading Outcomes in Children With Language Impairments. <em>Journal of Speech, Language, and Hearing Research</em>, 45(6), 1142–1157. <a href="https://doi.org/10.1044/1092-4388(2002/093)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2002/093)</a>',
+    'Pennington e Bishop (2009). Relations among speech, language, and reading disorders. <em>Annual Review of Psychology</em>, 60, 283–306. <a href="https://doi.org/10.1146/annurev.psych.60.110707.163548" rel="noopener" target="_blank">doi:10.1146/annurev.psych.60.110707.163548</a>',
+    'Rescorla (2009). Age 17 Language and Reading Outcomes in Late-Talking Toddlers. <em>Journal of Speech, Language, and Hearing Research</em>, 52(1), 16–30. <a href="https://doi.org/10.1044/1092-4388(2008/07-0171)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2008/07-0171)</a>',
+  ],
+  related: ['jogos-para-aprender-a-ler', 'atraso-na-fala-e-pdl', 'leitura-dialogica-ler-historias'],
+}

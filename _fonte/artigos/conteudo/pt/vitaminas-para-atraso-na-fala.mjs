@@ -1,0 +1,77 @@
+export default {
+  slug: 'vitaminas-para-atraso-na-fala',
+  short: 'Vitaminas para o atraso na fala',
+  date: '2026-10-24',
+  titleTag: 'Vitaminas para o atraso na fala: funcionam? · Fala+',
+  description: 'Há vitaminas que ajudam a criança a falar? Nenhum suplemento trata o atraso na fala. Veja o que dizem os estudos sobre ácido folínico, B12 e ómega-3, e quando falar com o médico.',
+  keywords: ['vitaminas para atraso na fala', 'suplementos para a criança falar', 'vitamina B12 atraso na fala', 'ácido folínico autismo fala', 'ómega 3 fala criança', 'remédio para atraso na fala'],
+  h1: 'Vitaminas para o atraso na fala: <span class="word-highlight">funcionam</span>?',
+  lead: 'Na internet multiplicam-se promessas de vitaminas e suplementos «para a criança falar». A evidência científica não sustenta nenhuma delas como tratamento do atraso na fala. Há, no entanto, carências que um médico deve conhecer.',
+  blocks: [
+    { intro: 'Quem procura <strong>vitaminas para o atraso na fala</strong> quer ajudar a criança o mais depressa possível. Neste artigo separamos o que está demonstrado do que não está: o caso do ácido folínico no autismo, as carências de vitamina B12 em bebés e o que fazer antes de dar qualquer <strong>suplemento</strong>.' },
+    { summary: [
+      'Não há nenhuma vitamina ou suplemento demonstrado para tratar o atraso na fala em geral.',
+      'Um ensaio com ácido folínico em crianças autistas com dificuldades de linguagem teve resultados positivos, mas preliminares e não replicados em larga escala.',
+      'A carência grave de vitamina B12 em bebés pode causar atraso ou regressão do desenvolvimento; é rara e diagnostica-se com análises.',
+      'Suplementos só com indicação médica. O apoio à comunicação não deve esperar por eles.',
+    ] },
+    { h2: 'Há vitaminas que ajudam a criança a falar?', id: 'vitaminas', toc: 'Há vitaminas que ajudem?' },
+    { p: 'Não existe nenhum estudo que mostre que uma vitamina, um mineral ou um suplemento <strong>trata o atraso na fala</strong> numa criança sem carências. O desenvolvimento da linguagem depende da audição, do desenvolvimento do cérebro e de muitas oportunidades de interação.' },
+    { h2: 'E o ácido folínico no autismo?', id: 'acido-folinico', toc: 'Ácido folínico' },
+    { p: 'Um ensaio aleatorizado com 48 crianças autistas com dificuldades de linguagem, dos 3 aos 14 anos, comparou ácido folínico com placebo durante 12 semanas. O grupo do ácido folínico melhorou mais na comunicação verbal (Frye et al., 2018). Os próprios autores consideraram os resultados <strong>preliminares</strong>, e o registo do ensaio indica que o promotor não conseguiu validar totalmente os dados. Não é, por isso, uma recomendação para todas as crianças.' },
+    { h2: 'Quando uma carência pode contar', id: 'carencias', toc: 'Carências' },
+    { p: 'A <strong>carência grave de vitamina B12</strong> em bebés, descrita sobretudo em bebés amamentados por mães com carência (por exemplo, em dietas veganas sem suplemento), pode causar hipotonia, dificuldades alimentares e <strong>atraso ou regressão do desenvolvimento</strong>, normalmente entre os 2 e os 12 meses. É rara, diagnostica-se com análises e trata-se com orientação médica; quanto mais cedo, melhor o prognóstico.' },
+    { alert: {
+      title: 'Fale com o médico, e não com a farmácia, se a criança:',
+      items: [
+        'perdeu competências que já tinha (palavras, gestos, sorrisos);',
+        'tem dificuldades alimentares, pouco aumento de peso ou ficou mais mole;',
+        'segue uma dieta restritiva, ou a mãe que amamenta segue uma dieta vegana sem suplemento de B12.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'Carências graves (como a de B12) afetam o desenvolvimento e devem ser tratadas.',
+        'O ácido folínico tem resultados preliminares num grupo específico de crianças autistas.',
+        'O que mais ajuda a linguagem é a interação e, quando necessário, terapia da fala.',
+      ],
+      no: [
+        '«Há uma vitamina que faz a criança falar.»',
+        '«Os suplementos naturais não têm riscos.»',
+        '«Primeiro experimenta-se o suplemento, depois a terapia.»',
+      ],
+    } },
+    { h2: 'O que fazer em vez de procurar um suplemento', id: 'o-que-fazer', toc: 'O que fazer' },
+    { ol: [
+      'Peça ao médico uma avaliação do desenvolvimento e da audição.',
+      'Se houver suspeita de carência, as análises e o eventual suplemento são decididos pelo médico.',
+      'Comece já o apoio à comunicação em casa: conversar, ler, brincar e esperar pela resposta da criança.',
+      'Desconfie de produtos que prometem «desbloquear a fala».',
+    ] },
+    { p: 'O mesmo raciocínio vale para dietas apresentadas como solução: veja [[dieta-sem-gluten-autismo|A dieta sem glúten trata o autismo?]].' },
+    { bridge: {
+      title: 'O que ajuda de verdade: oportunidades de comunicar',
+      intro: 'O artigo conclui que a interação é o que mais apoia a linguagem. Algumas funções da app podem dar oportunidades nesse sentido:',
+      items: [
+        ['Muitas oportunidades de ouvir e usar palavras do dia a dia.', 'Mais de 1000 palavras em 25 temas aparecem com imagem e voz em jogos diferentes.'],
+        ['Comunicar enquanto a fala não chega.', 'No Comunicar, a criança junta cartões de imagem numa frase e ouve-a em voz alta.'],
+      ],
+      outro: 'A Fala+ não é um tratamento e não substitui a avaliação médica nem a terapia da fala.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre vitaminas e fala',
+  faq: [
+    ['Qual é a melhor vitamina para a criança falar?', 'Não há nenhuma vitamina demonstrada para tratar o atraso na fala. Se houver suspeita de carência, o médico pede análises.'],
+    ['A vitamina B12 ajuda no atraso na fala?', 'Só quando há carência. A carência grave em bebés pode atrasar o desenvolvimento e deve ser tratada pelo médico.'],
+    ['O ómega-3 ajuda a criança a falar?', 'Não há evidência de que o ómega-3 trate o atraso na fala.'],
+    ['Existe remédio para o atraso na fala?', 'Não existe um medicamento para o atraso na fala. O apoio passa pela avaliação, pela interação em casa e, se necessário, pela terapia da fala.'],
+  ],
+  sources: [
+    'Frye et al. (2018). Folinic acid improves verbal communication in children with autism and language impairment: a randomized double-blind placebo-controlled trial. <em>Molecular Psychiatry</em>, 23(2), 247–256. <a href="https://doi.org/10.1038/mp.2016.168" rel="noopener" target="_blank">doi:10.1038/mp.2016.168</a>',
+    'ClinicalTrials.gov. <a href="https://clinicaltrials.gov/study/NCT01602016" rel="noopener" target="_blank">A Folinic Acid Intervention for Autism Spectrum Disorders (NCT01602016)</a>.',
+    'Revisão sobre a carência de vitamina B12 na infância: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8140678/" rel="noopener" target="_blank">Vitamin B12 deficiency: case report and review of literature</a> (PMC8140678).',
+  ],
+  related: ['dieta-sem-gluten-autismo', 'atraso-na-fala', 'terapia-da-fala-em-casa'],
+}
