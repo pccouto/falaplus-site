@@ -24,7 +24,7 @@ export const UI = {
     otherLangs: [['/en/', 'en', 'English'], ['/es/', 'es', 'Español']],
     interactions: { loadingViews: 'A carregar leituras…' },
     index: {
-      popularTitle: 'Os 3 artigos mais lidos', popularIntro: 'Os artigos que os leitores mais têm consultado.', popularLoading: 'A carregar os artigos em destaque…', popularEmpty: 'Ainda não há dados de leitura suficientes para criar este destaque.',
+      popularTitle: 'Artigos em destaque', popularIntro: 'Três artigos escolhidos ao acaso para explorar temas do desenvolvimento infantil.',
       title: 'Artigos sobre brincar, fala e jogos · Fala+', description: 'Guias da Fala+ sobre o desenvolvimento da fala e da linguagem, a importância do brincar e os benefícios dos jogos educativos para crianças.',
       ogTitle: 'Artigos Fala+: brincar, comunicar e aprender', ogDescription: 'Guias para quem acompanha a criança: desenvolvimento da linguagem, brincar e jogos educativos.',
       tag: 'Artigos Fala+', h1: 'Brincar, comunicar <span class="word-highlight">e aprender.</span>',
@@ -53,7 +53,7 @@ export const UI = {
     otherLangs: [['/', 'pt-PT', 'Português'], ['/es/', 'es', 'Español']],
     interactions: { loadingViews: 'Loading reads…' },
     index: {
-      popularTitle: 'The 3 most-read articles', popularIntro: 'The articles readers have visited most often.', popularLoading: 'Loading featured articles…', popularEmpty: 'There is not enough reading data to create this feature yet.',
+      popularTitle: 'Featured articles', popularIntro: 'Three articles picked at random to explore topics in child development.',
       title: 'Articles on play, speech and games · Talk+', description: 'Talk+ guides on speech and language development, the importance of play and the benefits of educational games for children.',
       ogTitle: 'Talk+ articles: play, communicate and learn', ogDescription: 'Guides for everyone who supports a child: language development, play and educational games.',
       tag: 'Talk+ articles', h1: 'Play, communicate <span class="word-highlight">and learn.</span>',
@@ -82,7 +82,7 @@ export const UI = {
     otherLangs: [['/', 'pt-PT', 'Português'], ['/en/', 'en', 'English']],
     interactions: { loadingViews: 'Cargando lecturas…' },
     index: {
-      popularTitle: 'Los 3 artículos más leídos', popularIntro: 'Los artículos que más han consultado los lectores.', popularLoading: 'Cargando los artículos destacados…', popularEmpty: 'Aún no hay suficientes datos de lectura para crear este destacado.',
+      popularTitle: 'Artículos destacados', popularIntro: 'Tres artículos elegidos al azar para explorar temas del desarrollo infantil.',
       title: 'Artículos sobre el juego, el habla y los juegos · Habla+', description: 'Guías de Habla+ sobre el desarrollo del habla y del lenguaje, la importancia del juego y los beneficios de los juegos educativos para niños.',
       ogTitle: 'Artículos Habla+: jugar, comunicar y aprender', ogDescription: 'Guías para quienes acompañan a los niños: desarrollo del lenguaje, juego y juegos educativos.',
       tag: 'Artículos Habla+', h1: 'Jugar, comunicar <span class="word-highlight">y aprender.</span>',

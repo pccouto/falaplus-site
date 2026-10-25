@@ -17,7 +17,7 @@ const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
 const ARTICLES_V = '20261019b'
 const MAIN_V = '20261014a'
-const ENGAGEMENT_V = '20261018b'
+const ENGAGEMENT_V = '20261025a'
 const SEARCH_V = '20261019a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -381,7 +381,6 @@ function buildIndex(lang) {
       ${topicBar(lang, null)}
       <section class="popular-section" data-popular-articles data-loading="true" aria-labelledby="popular-title">
         <h2 id="popular-title">${I.popularTitle}</h2><p>${I.popularIntro}</p>
-        <p class="popular-status" data-popular-status aria-live="polite">${I.popularLoading}</p>
         <div class="article-cards popular-cards" data-popular-cards></div>
         <script type="application/json" data-article-catalog>${popularData}</script>
       </section>
