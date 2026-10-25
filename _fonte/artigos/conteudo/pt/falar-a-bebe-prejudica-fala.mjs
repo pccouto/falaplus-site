@@ -1,0 +1,63 @@
+export default {
+  slug: 'falar-a-bebe-prejudica-fala',
+  short: 'Falar à bebé',
+  date: '2026-10-25',
+  titleTag: 'Falar «à bebé» prejudica a fala? O que diz a investigação · Fala+',
+  description: 'Falar com voz aguda e cantada aos bebés prejudica a fala? A investigação mostra que esse estilo («parentese») ajuda. A diferença entre falar à bebé e usar palavras inventadas.',
+  keywords: ['falar à bebé', 'falar como bebé prejudica a fala', 'parentese', 'linguagem dirigida ao bebé', 'voz de bebé', 'manhês', 'falar com o bebé'],
+  h1: 'Falar «à bebé» prejudica a fala? O que diz a <span class="word-highlight">investigação</span>',
+  lead: 'Quase toda a gente muda de voz quando fala com um bebé: mais aguda, mais lenta, cheia de melodia. Há quem diga que isso «estraga» a fala e que se deve falar como com um adulto. A investigação diz quase o contrário.',
+  blocks: [
+    { intro: '<strong>Falar à bebé</strong> pode querer dizer duas coisas diferentes. Uma é a voz cantada e exagerada que os adultos usam espontaneamente, a que os investigadores chamam <strong>parentese</strong> ou linguagem dirigida ao bebé. A outra é usar palavras inventadas ou erradas. Neste artigo separamos as duas e explicamos o que a evidência mostra.' },
+    { summary: [
+      'A voz aguda, lenta e melodiosa (parentese) chama a atenção do bebé e ajuda-o a perceber as palavras.',
+      'Bebés que ouviram mais parentese, a dois, tinham mais palavras mais tarde.',
+      'O que convém evitar é substituir palavras verdadeiras por versões erradas de forma sistemática.',
+      'Onomatopeias e diminutivos são normais e não prejudicam a fala.',
+    ] },
+    { h2: 'O que é o parentese?', id: 'parentese', toc: 'O que é o parentese' },
+    { p: 'O parentese tem uma voz mais aguda, mais variação de entoação, frases curtas, vogais alongadas e muitas repetições, mas usa <strong>palavras verdadeiras</strong> e frases corretas: «Olha a bola! Que bola tão grande!» Aparece em muitas línguas e culturas.' },
+    { h2: 'O que mostram os estudos?', id: 'estudos', toc: 'O que mostram os estudos' },
+    { p: 'Num estudo que gravou o dia a dia de famílias, os bebés que ouviam mais parentese em <strong>conversas a dois</strong> com um adulto tinham <strong>mais palavras aos 2 anos</strong>; a fala com estilo adulto não teve o mesmo efeito (Ramírez-Esparza, García-Sierra e Kuhl, 2014).' },
+    { p: 'Num estudo posterior, pais que receberam orientação para usar parentese e conversar mais com os bebés aumentaram o número de trocas de vez («turnos de conversa»), e os bebés produziram mais vocalizações e palavras aos 18 meses do que os do grupo de comparação (Ramírez, Lytle e Kuhl, 2020).' },
+    { evidence: {
+      yesTitle: 'Ajuda',
+      noTitle: 'Convém evitar',
+      yes: [
+        'Voz cantada e expressiva, com palavras verdadeiras.',
+        'Frases curtas e repetidas.',
+        'Esperar pela resposta do bebé, como numa conversa.',
+        'Onomatopeias («o cão faz ão-ão») junto da palavra verdadeira.',
+      ],
+      no: [
+        'Usar sempre palavras erradas em vez das verdadeiras («popó» nunca seguido de «carro»).',
+        'Imitar os erros da criança como modelo («Queles água?»).',
+        'Falar muito sem dar espaço para a criança responder.',
+      ],
+    } },
+    { h2: 'E à medida que a criança cresce?', id: 'crescer', toc: 'À medida que cresce' },
+    { p: 'Com a idade, o estilo vai mudando naturalmente: as frases ficam mais longas e o vocabulário mais variado. Uma boa regra é falar <strong>um pouco acima</strong> do nível da criança: se diz «água», responda «Queres água? Água fresca!» (ver [[brincadeiras-para-estimular-a-fala|Brincadeiras para estimular a fala]]).' },
+    { bridge: {
+      title: 'Ouvir palavras verdadeiras, com expressão',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Ouvir as palavras verdadeiras, com uma voz clara.', 'Nos jogos e no Comunicar, cada palavra é dita com voz natural, junto de uma imagem.'],
+        ['Vozes conhecidas da criança.', 'É possível gravar cartões com a voz de quem a criança conhece.'],
+      ],
+      outro: 'Nos primeiros anos, a conversa ao vivo com o adulto é insubstituível. A Fala+ é um complemento, não um substituto.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre falar à bebé',
+  faq: [
+    ['Falar com voz de bebé prejudica a fala?', 'Não. A voz cantada e expressiva, com palavras verdadeiras, ajuda o bebé a prestar atenção e a aprender palavras.'],
+    ['Devo usar palavras como «popó» ou «papa»?', 'Podem ser usadas, sobretudo junto da palavra verdadeira («o popó, o carro»). O que convém evitar é nunca dizer a palavra correta.'],
+    ['Até que idade se fala «à bebé»?', 'O estilo muda naturalmente à medida que a criança cresce. O importante é ajustar-se ao nível dela e dar espaço para responder.'],
+    ['Devo corrigir quando a criança diz mal uma palavra?', 'Não é preciso pedir para repetir. Basta dizer a palavra corretamente na sua resposta.'],
+  ],
+  sources: [
+    'Ramírez-Esparza, García-Sierra e Kuhl (2014). Look who’s talking: speech style and social context in language input to infants are linked to concurrent and future speech development. <em>Developmental Science</em>, 17(6), 880–891. <a href="https://doi.org/10.1111/desc.12172" rel="noopener" target="_blank">doi:10.1111/desc.12172</a>',
+    'Ramírez, Lytle e Kuhl (2020). Parent coaching increases conversational turns and advances infant language development. <em>Proceedings of the National Academy of Sciences</em>, 117(7), 3484–3491. <a href="https://doi.org/10.1073/pnas.1921609117" rel="noopener" target="_blank">doi:10.1073/pnas.1921609117</a>',
+  ],
+  related: ['marcos-linguagem-0-a-24-meses', 'brincadeiras-para-estimular-a-fala', 'desenvolvimento-da-linguagem-infantil'],
+}

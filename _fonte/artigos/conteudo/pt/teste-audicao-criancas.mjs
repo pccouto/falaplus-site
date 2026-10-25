@@ -1,0 +1,72 @@
+export default {
+  slug: 'teste-audicao-criancas',
+  short: 'Teste de audição na criança',
+  date: '2026-10-25',
+  titleTag: 'Teste de audição na criança: quando pedir e que exames existem · Fala+',
+  description: 'Porque é que se avalia a audição perante um atraso na fala, que exames existem em cada idade (otoemissões, PEATC, audiometria, timpanograma) e o que significa passar no rastreio neonatal.',
+  keywords: ['teste de audição criança', 'exame audição bebé', 'audiometria infantil', 'otoemissões acústicas', 'rastreio auditivo neonatal', 'PEATC', 'timpanograma', 'criança ouve mal'],
+  h1: 'Teste de audição na criança: quando pedir e que <span class="word-highlight">exames</span> existem',
+  lead: 'Ouvir bem é a porta de entrada da fala. Por isso, sempre que há uma preocupação com a linguagem, uma das primeiras perguntas dos profissionais é: «Já foi avaliada a audição?» Mesmo que o bebé tenha passado no rastreio da maternidade.',
+  blocks: [
+    { intro: 'Pedir um <strong>teste de audição na criança</strong> é um passo simples e indolor que ajuda a excluir, ou a encontrar cedo, uma causa importante de atraso na fala. Neste artigo explicamos que <strong>exames de audição</strong> existem em cada idade, o que mostram e porque um rastreio neonatal normal não dispensa uma nova avaliação.' },
+    { summary: [
+      'Qualquer atraso na fala deve incluir uma avaliação da audição.',
+      'Passar no rastreio neonatal não exclui uma perda auditiva que surja ou progrida mais tarde.',
+      'Há exames adequados a cada idade, desde o recém-nascido até à idade escolar.',
+      'Quanto mais cedo se identifica uma perda auditiva, melhores são as possibilidades de desenvolvimento da linguagem.',
+    ] },
+    { h2: 'Quando pedir uma avaliação da audição?', id: 'quando', toc: 'Quando pedir' },
+    { ul: [
+      'Há atraso na fala ou a fala é pouco percetível para a idade.',
+      'A criança não reage a sons, não se vira quando a chamam ou pede para repetir muitas vezes.',
+      'Aumenta muito o volume da televisão ou aproxima-se das fontes de som.',
+      'Tem otites frequentes ou sensação de ouvido «tapado» (ver [[otite-serosa-e-fala|Otite serosa e fala]]).',
+      'Houve meningite, internamento em neonatologia, infeção por citomegalovírus ou história familiar de surdez infantil.',
+    ] },
+    { h2: 'Que exames existem?', id: 'exames', toc: 'Que exames existem' },
+    { table: {
+      head: ['Exame', 'Idade habitual', 'O que avalia'],
+      rows: [
+        ['Otoemissões acústicas (OEA)', 'Desde o nascimento', 'A resposta do ouvido interno; é rápido e feito com a criança calma.'],
+        ['Potenciais evocados auditivos (PEATC)', 'Desde o nascimento', 'A resposta do nervo auditivo, sem precisar da colaboração da criança.'],
+        ['Timpanograma', 'Qualquer idade', 'O movimento do tímpano; deteta líquido no ouvido médio.'],
+        ['Audiometria com reforço visual', 'Cerca dos 6 meses aos 2–3 anos', 'A criança vira-se para o som e é «premiada» com uma imagem ou luz.'],
+        ['Audiometria lúdica', 'Cerca dos 2–3 aos 5 anos', 'A criança faz um gesto de jogo (pôr uma peça) sempre que ouve um som.'],
+        ['Audiometria tonal', 'A partir dos 5 anos, aproximadamente', 'A criança levanta a mão ou carrega num botão quando ouve.'],
+      ],
+    } },
+    { p: 'A escolha do exame depende da idade e da colaboração da criança. Normalmente é pedido pelo médico de família ou pelo pediatra e realizado por um audiologista, muitas vezes em articulação com a otorrinolaringologia.' },
+    { h2: 'Passou no rastreio da maternidade. Chega?', id: 'rastreio', toc: 'O rastreio neonatal' },
+    { p: 'O rastreio auditivo neonatal é muito importante, mas não é definitivo. Algumas perdas auditivas são <strong>progressivas ou de aparecimento tardio</strong>, e as otites podem baixar a audição temporariamente. As orientações internacionais recomendam vigiar a audição ao longo da infância e reavaliar sempre que há preocupação com a fala (Joint Committee on Infant Hearing, 2019).' },
+    { alert: {
+      title: 'Peça avaliação com brevidade se',
+      items: [
+        'o bebé não se assusta com ruídos fortes nem se acalma com a voz dos pais;',
+        'a criança deixou de responder a sons a que respondia;',
+        'há perda de palavras ou de fala que já existia.',
+      ],
+    } },
+    { bridge: {
+      title: 'Ouvir com atenção, a brincar',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Observar como a criança reage aos sons.', 'No Brincar há instrumentos musicais e sons divertidos, que podem ser explorados com o adulto ao lado.'],
+        ['Apoiar a compreensão com imagens.', 'Nos jogos e no Comunicar, cada palavra aparece com imagem e voz.'],
+      ],
+      outro: 'A Fala+ não testa a audição. Se tem dúvidas sobre a audição da criança, peça uma avaliação ao médico.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre testes de audição',
+  faq: [
+    ['Com que idade se pode fazer um teste de audição?', 'Em qualquer idade. Os recém-nascidos fazem otoemissões ou potenciais evocados; as crianças mais velhas fazem audiometrias adaptadas à idade.'],
+    ['O exame de audição dói?', 'Não. Os exames são indolores; alguns precisam apenas que a criança esteja calma ou a dormir.'],
+    ['O meu bebé passou no rastreio neonatal. Pode ter perda auditiva?', 'Sim. Algumas perdas surgem ou agravam-se mais tarde, e as otites podem baixar a audição. Perante dúvidas, reavalie.'],
+    ['Quem pede o exame?', 'Normalmente o médico de família ou o pediatra, que encaminha para audiologia ou otorrinolaringologia.'],
+  ],
+  sources: [
+    'Joint Committee on Infant Hearing (2019). Year 2019 Position Statement: Principles and Guidelines for Early Hearing Detection and Intervention Programs. <em>Journal of Early Hearing Detection and Intervention</em>, 4(2), 1–44. <a href="https://doi.org/10.15142/fptk-b748" rel="noopener" target="_blank">doi:10.15142/fptk-b748</a>',
+    'Organização Mundial da Saúde (2021). World report on hearing. <a href="https://www.who.int/publications/i/item/9789240020481" rel="noopener" target="_blank">who.int</a>',
+  ],
+  related: ['otite-serosa-e-fala', 'pac-vs-dificuldades-audicao', 'atraso-na-fala'],
+}

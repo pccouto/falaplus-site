@@ -1,0 +1,66 @@
+export default {
+  slug: 'rapazes-falam-mais-tarde',
+  short: 'Os rapazes falam mais tarde?',
+  date: '2026-10-25',
+  titleTag: 'Os rapazes falam mais tarde do que as raparigas? · Fala+',
+  description: 'É verdade que os rapazes falam mais tarde? Os estudos mostram uma pequena diferença média, mas os marcos são os mesmos e um atraso no rapaz não deve ser desvalorizado.',
+  keywords: ['rapazes falam mais tarde', 'meninos falam mais tarde', 'atraso na fala em rapazes', 'menino de 2 anos não fala', 'diferença fala meninos e meninas', 'atraso da fala menino'],
+  h1: 'Os rapazes falam <span class="word-highlight">mais tarde</span> do que as raparigas?',
+  lead: '«É rapaz, os rapazes falam mais tarde.» Esta frase ouve-se muitas vezes em consultas, creches e almoços de família. Tem um fundo de verdade, mas não serve para explicar um atraso na fala nem para adiar uma avaliação.',
+  blocks: [
+    { intro: 'Será verdade que os <strong>rapazes falam mais tarde</strong>? Neste artigo resumimos o que os estudos dizem sobre as diferenças entre rapazes e raparigas no desenvolvimento da linguagem e porque é que um <strong>atraso na fala num rapaz</strong> merece a mesma atenção.' },
+    { summary: [
+      'Em média, as raparigas estão ligeiramente à frente nas primeiras palavras e frases.',
+      'A diferença é pequena e há enorme sobreposição: muitos rapazes falam cedo e muitas raparigas tarde.',
+      'Ser rapaz está associado a mais probabilidade de fala tardia, mas não a explica.',
+      'Os marcos de referência são os mesmos para rapazes e raparigas.',
+    ] },
+    { h2: 'O que dizem os estudos?', id: 'estudos', toc: 'O que dizem os estudos' },
+    { p: 'Um estudo com crianças de 8 a 30 meses, em 10 comunidades linguísticas europeias, encontrou uma <strong>pequena vantagem média das raparigas</strong> na comunicação precoce, no vocabulário e na combinação de palavras; o sexo explicou apenas uma pequena parte das diferenças entre crianças (Eriksson e colegas, 2012).' },
+    { p: 'Num grande estudo australiano, ser rapaz esteve entre os fatores associados a uma maior probabilidade de <strong>fala tardia aos 24 meses</strong>, juntamente com a história familiar de dificuldades de linguagem (Zubrick e colegas, 2007). Ou seja: é um fator de risco, não uma explicação tranquilizadora.' },
+    { evidence: {
+      yesTitle: 'O que se pode dizer',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Há uma pequena diferença média a favor das raparigas.',
+        'A fala tardia é um pouco mais frequente em rapazes.',
+        'As diferenças entre crianças do mesmo sexo são muito maiores.',
+      ],
+      no: [
+        '«É rapaz, por isso é normal não falar aos 2 anos.»',
+        '«Os rapazes têm marcos diferentes.»',
+        '«Num rapaz, é melhor esperar mais tempo antes de avaliar.»',
+      ],
+    } },
+    { h2: 'Quando procurar ajuda, seja rapaz ou rapariga', id: 'quando', toc: 'Quando procurar ajuda' },
+    { ul: [
+      'Aos 18 meses, não diz palavras nem aponta para mostrar coisas.',
+      'Aos 2 anos, diz menos de 50 palavras ou não junta duas palavras.',
+      'Aos 3 anos, as pessoas de fora não percebem a maior parte do que diz.',
+      'Em qualquer idade, perde palavras que já dizia ou parece não compreender.',
+    ] },
+    { p: 'Ver também [[atraso-na-fala|Atraso na fala]] e [[fala-tardia-recupera-sempre|Quem fala tarde recupera sempre?]]' },
+    { bridge: {
+      title: 'Palavras do dia a dia, para todas as crianças',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Mais oportunidades de ouvir e usar palavras.', 'Os jogos apresentam mais de 1000 palavras do dia a dia com imagem e voz, em 25 temas.'],
+        ['Comunicar enquanto as palavras não chegam.', 'No Comunicar, a criança toca em cartões de imagem e a app diz a palavra em voz alta.'],
+      ],
+      outro: 'A Fala+ não avalia a linguagem nem substitui uma avaliação por um profissional.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre rapazes e fala',
+  faq: [
+    ['Os rapazes falam mais tarde?', 'Em média, um pouco. Mas a diferença é pequena e não explica um atraso marcado.'],
+    ['Um rapaz de 2 anos que não fala: pode ser por ser rapaz?', 'Ser rapaz não justifica a ausência de palavras aos 2 anos. Vale a pena falar com o médico e pedir avaliação.'],
+    ['Os marcos da fala são diferentes para rapazes?', 'Não. Os sinais de alerta são os mesmos para rapazes e raparigas.'],
+    ['O atraso na fala é mais comum em rapazes?', 'Sim, a fala tardia e algumas perturbações da linguagem são um pouco mais frequentes em rapazes.'],
+  ],
+  sources: [
+    'Eriksson, Marschik, Tulviste e colegas (2012). Differences between girls and boys in emerging language skills: evidence from 10 language communities. <em>British Journal of Developmental Psychology</em>, 30(2), 326–343. <a href="https://doi.org/10.1111/j.2044-835X.2011.02042.x" rel="noopener" target="_blank">doi:10.1111/j.2044-835X.2011.02042.x</a>',
+    'Zubrick, Taylor, Rice e Slegers (2007). Late language emergence at 24 months: an epidemiological study of prevalence, predictors, and covariates. <em>Journal of Speech, Language, and Hearing Research</em>, 50(6), 1562–1592. <a href="https://doi.org/10.1044/1092-4388(2007/106)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2007/106)</a>',
+  ],
+  related: ['atraso-na-fala', 'fala-tardia-recupera-sempre', 'marcos-linguagem-0-a-24-meses'],
+}

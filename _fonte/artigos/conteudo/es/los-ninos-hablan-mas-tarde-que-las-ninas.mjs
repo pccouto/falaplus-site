@@ -1,0 +1,67 @@
+export default {
+  id: 'rapazes-falam-mais-tarde',
+  slug: 'los-ninos-hablan-mas-tarde-que-las-ninas',
+  short: '¿Los niños hablan más tarde?',
+  date: '2026-10-25',
+  titleTag: '¿Los niños hablan más tarde que las niñas? · Habla+',
+  description: '¿Es verdad que los niños hablan más tarde que las niñas? Los estudios muestran una pequeña diferencia media, pero los hitos son los mismos y un retraso en un niño no debe restarse importancia.',
+  keywords: ['los niños hablan más tarde', 'niños varones hablan tarde', 'retraso del habla en niños', 'niño de 2 años no habla', 'diferencias habla niños y niñas', 'retraso del lenguaje varones'],
+  h1: '¿Los niños hablan <span class="word-highlight">más tarde</span> que las niñas?',
+  lead: '«Es niño, los niños hablan más tarde.» Esta frase se oye a menudo en consultas, escuelas infantiles y comidas familiares. Tiene algo de verdad, pero no sirve para explicar un retraso del habla ni para aplazar una evaluación.',
+  blocks: [
+    { intro: '¿Es verdad que los <strong>niños hablan más tarde que las niñas</strong>? En este artículo resumimos lo que dicen los estudios sobre las diferencias entre niños y niñas en el desarrollo del lenguaje y por qué un <strong>retraso del habla en un niño</strong> merece la misma atención.' },
+    { summary: [
+      'De media, las niñas van ligeramente por delante con las primeras palabras y frases.',
+      'La diferencia es pequeña y hay mucho solapamiento: muchos niños hablan pronto y muchas niñas tarde.',
+      'Ser varón se asocia a más probabilidad de hablar tarde, pero no lo explica.',
+      'Los hitos de referencia son los mismos para niños y niñas.',
+    ] },
+    { h2: '¿Qué dicen los estudios?', id: 'estudos', toc: 'Qué dicen los estudios' },
+    { p: 'Un estudio con niños de 8 a 30 meses, en 10 comunidades lingüísticas europeas, encontró una <strong>pequeña ventaja media de las niñas</strong> en la comunicación temprana, el vocabulario y la combinación de palabras; el sexo explicó solo una pequeña parte de las diferencias entre niños (Eriksson y colegas, 2012).' },
+    { p: 'En un gran estudio australiano, ser varón estuvo entre los factores asociados a una mayor probabilidad de <strong>hablar tarde a los 24 meses</strong>, junto con los antecedentes familiares de dificultades de lenguaje (Zubrick y colegas, 2007). Es decir: es un factor de riesgo, no una explicación tranquilizadora.' },
+    { evidence: {
+      yesTitle: 'Lo que se puede decir',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'Hay una pequeña diferencia media a favor de las niñas.',
+        'Hablar tarde es algo más frecuente en los niños.',
+        'Las diferencias entre niños del mismo sexo son mucho mayores.',
+      ],
+      no: [
+        '«Es niño, así que es normal que no hable a los 2 años.»',
+        '«Los niños tienen hitos diferentes.»',
+        '«Con un niño, es mejor esperar más antes de evaluar.»',
+      ],
+    } },
+    { h2: 'Cuándo pedir ayuda, sea niño o niña', id: 'quando', toc: 'Cuándo pedir ayuda' },
+    { ul: [
+      'A los 18 meses, no dice palabras ni señala para mostrar cosas.',
+      'A los 2 años, dice menos de 50 palabras o no une dos palabras.',
+      'A los 3 años, las personas de fuera no entienden la mayor parte de lo que dice.',
+      'A cualquier edad, pierde palabras que ya decía o parece no comprender.',
+    ] },
+    { p: 'Ver también [[atraso-na-fala|Retraso del habla]] y [[fala-tardia-recupera-sempre|¿Quien habla tarde siempre se recupera?]]' },
+    { bridge: {
+      title: 'Palabras del día a día, para todos los niños',
+      intro: 'Algunas ideas del artículo encuentran eco en funciones de la app:',
+      items: [
+        ['Más oportunidades de oír y usar palabras.', 'Los juegos presentan más de 1000 palabras del día a día con imagen y voz, en 25 temas.'],
+        ['Comunicar mientras llegan las palabras.', 'En Comunicar, el niño toca tarjetas con imágenes y la app dice la palabra en voz alta.'],
+      ],
+      outro: 'Habla+ no evalúa el lenguaje ni sustituye una evaluación profesional.',
+    } },
+    { note: 'Contenido informativo. No sustituye una evaluación individual ni la orientación de un profesional sanitario.' },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre niños y habla',
+  faq: [
+    ['¿Los niños hablan más tarde?', 'De media, un poco. Pero la diferencia es pequeña y no explica un retraso marcado.'],
+    ['Un niño de 2 años no habla. ¿Puede ser por ser varón?', 'Ser varón no justifica no tener palabras a los 2 años. Conviene hablar con el pediatra y pedir una evaluación.'],
+    ['¿Los hitos del habla son diferentes para los niños?', 'No. Las señales de alerta son las mismas para niños y niñas.'],
+    ['¿El retraso del habla es más frecuente en los niños?', 'Sí, hablar tarde y algunos trastornos del lenguaje son algo más frecuentes en los varones.'],
+  ],
+  sources: [
+    'Eriksson, Marschik, Tulviste y colegas (2012). Differences between girls and boys in emerging language skills: evidence from 10 language communities. <em>British Journal of Developmental Psychology</em>, 30(2), 326–343. <a href="https://doi.org/10.1111/j.2044-835X.2011.02042.x" rel="noopener" target="_blank">doi:10.1111/j.2044-835X.2011.02042.x</a>',
+    'Zubrick, Taylor, Rice y Slegers (2007). Late language emergence at 24 months: an epidemiological study of prevalence, predictors, and covariates. <em>Journal of Speech, Language, and Hearing Research</em>, 50(6), 1562–1592. <a href="https://doi.org/10.1044/1092-4388(2007/106)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2007/106)</a>',
+  ],
+  related: ['atraso-na-fala', 'fala-tardia-recupera-sempre', 'marcos-linguagem-0-a-24-meses'],
+}

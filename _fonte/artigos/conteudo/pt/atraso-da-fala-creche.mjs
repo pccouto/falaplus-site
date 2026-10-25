@@ -1,0 +1,71 @@
+export default {
+  slug: 'atraso-da-fala-creche',
+  short: 'Atraso da fala e creche',
+  date: '2026-10-25',
+  titleTag: 'Atraso da fala e creche: a creche ajuda a criança a falar? · Fala+',
+  description: 'Atraso da fala e creche: pôr a criança na creche resolve o atraso da fala? O que mostram os estudos sobre a qualidade da interação e como a educadora pode ajudar.',
+  keywords: ['atraso da fala creche', 'creche ajuda a falar', 'pôr na creche para falar', 'atraso na fala jardim de infância', 'educadora e atraso da fala', 'criança não fala na creche'],
+  h1: 'Atraso da fala e creche: a creche <span class="word-highlight">ajuda a criança a falar</span>?',
+  lead: '«Põe-na na creche, que com as outras crianças começa logo a falar.» É um conselho que muitas famílias ouvem. A creche pode ser um bom ambiente para a linguagem, mas não resolve, por si só, um atraso da fala.',
+  blocks: [
+    { intro: 'Será que a <strong>creche ajuda a criança a falar</strong>? Neste artigo vemos o que diz a investigação sobre a creche e a linguagem, porque é que a <strong>qualidade da interação</strong> pesa mais do que o simples contacto com outras crianças e como a família e a educadora podem trabalhar juntas perante um <strong>atraso da fala</strong>. Ver também [[atraso-na-fala|Atraso na fala]].' },
+    { summary: [
+      'Estar com outras crianças, por si só, não resolve um atraso da fala.',
+      'O que mais conta é a qualidade da interação com adultos atentos, em casa e na creche.',
+      'Educadoras que conversam, esperam e expandem o que a criança diz são grandes aliadas.',
+      'A creche não substitui a avaliação nem a terapia da fala quando são necessárias.',
+    ] },
+    { h2: 'O que mostram os estudos?', id: 'estudos', toc: 'O que mostram os estudos' },
+    { p: 'Um grande estudo norte-americano acompanhou mais de mil crianças e concluiu que a <strong>qualidade do cuidado</strong>, em especial a quantidade de estimulação da linguagem pelos adultos, estava associada a melhor desenvolvimento cognitivo e da linguagem; o tempo passado em creche, por si só, teve menos peso, e o ambiente familiar continuou a ser o fator mais importante (NICHD Early Child Care Research Network, 2000).' },
+    { evidence: {
+      yesTitle: 'O que se pode dizer',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'Uma creche com adultos que conversam muito pode apoiar a linguagem.',
+        'Brincar com outras crianças cria oportunidades de comunicar.',
+        'A educadora é uma observadora valiosa do desenvolvimento.',
+      ],
+      no: [
+        '«A creche resolve o atraso da fala.»',
+        '«Basta estar com outras crianças para começar a falar.»',
+        '«Na creche já não é preciso avaliar.»',
+      ],
+    } },
+    { h2: 'Como a educadora pode ajudar', id: 'educadora', toc: 'Como a educadora ajuda' },
+    { ul: [
+      'Conversar com a criança a sós, mesmo que por poucos minutos, ao longo do dia.',
+      'Esperar pela resposta, aceitando gestos e sons.',
+      'Expandir o que a criança diz e nomear o que ela faz.',
+      'Usar apoios visuais nas rotinas da sala (ver [[rotinas-visuais-para-criancas|Rotinas visuais]]).',
+      'Partilhar observações com a família e com o terapeuta da fala.',
+    ] },
+    { h2: 'Família e creche a trabalhar juntas', id: 'juntas', toc: 'Família e creche' },
+    { ol: [
+      'Partilhe a preocupação com a educadora e pergunte o que observa.',
+      'Combinem palavras, gestos ou imagens comuns em casa e na sala.',
+      'Se há sinais de alerta, peça avaliação sem esperar pelo efeito da creche (ver [[atraso-da-fala-sinais-de-alerta|Sinais de alerta]]).',
+      'Quando há terapia da fala, peça que as estratégias cheguem também à creche (ver [[educacao-pre-escolar-inclusao-desenvolvimento|Educação pré-escolar inclusiva]]).',
+    ] },
+    { bridge: {
+      title: 'Os mesmos cartões em casa e na sala',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Usar as mesmas palavras e imagens em vários contextos.', 'O quadro Comunicar acompanha a criança em casa, na creche e na terapia, com os mesmos cartões e a mesma voz.'],
+        ['Fotografias do dia a dia da criança.', 'É possível criar cartões com fotografias de pessoas e objetos que a criança conhece.'],
+      ],
+      outro: 'A Fala+ não substitui a interação com adultos nem a avaliação de um terapeuta da fala.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre atraso da fala e creche',
+  faq: [
+    ['Pôr a criança na creche ajuda a falar?', 'Pode ajudar se houver muita interação de qualidade com os adultos, mas não resolve sozinha um atraso da fala.'],
+    ['A criança fala em casa mas não fala na creche. O que pode ser?', 'Pode ser timidez, adaptação ou, se persistir muito, ansiedade. Ver o artigo sobre mutismo seletivo.'],
+    ['A creche causa atraso da fala?', 'Não há evidência de que a creche, por si, cause atraso. O que conta é a qualidade da interação em todos os contextos.'],
+    ['Devo esperar pelo efeito da creche antes de pedir avaliação?', 'Não. Se há sinais de alerta, peça avaliação em paralelo.'],
+  ],
+  sources: [
+    'NICHD Early Child Care Research Network (2000). The relation of child care to cognitive and language development. <em>Child Development</em>, 71(4), 960–980. <a href="https://doi.org/10.1111/1467-8624.00202" rel="noopener" target="_blank">doi:10.1111/1467-8624.00202</a>',
+  ],
+  related: ['atraso-na-fala', 'educacao-pre-escolar-inclusao-desenvolvimento', 'mutismo-seletivo'],
+}

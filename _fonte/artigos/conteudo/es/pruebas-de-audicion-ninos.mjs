@@ -1,0 +1,73 @@
+export default {
+  id: 'teste-audicao-criancas',
+  slug: 'pruebas-de-audicion-ninos',
+  short: 'Prueba de audición en niños',
+  date: '2026-10-25',
+  titleTag: 'Prueba de audición en niños: cuándo pedirla y qué pruebas existen · Habla+',
+  description: 'Por qué se evalúa la audición ante un retraso del habla, qué pruebas existen en cada edad (otoemisiones, PEATC, audiometría, timpanometría) y qué significa pasar el cribado neonatal.',
+  keywords: ['prueba de audición niño', 'prueba audición bebé', 'audiometría infantil', 'otoemisiones acústicas', 'cribado auditivo neonatal', 'PEATC', 'timpanometría', 'niño oye mal'],
+  h1: 'Prueba de audición en niños: cuándo pedirla y qué <span class="word-highlight">pruebas</span> existen',
+  lead: 'Oír bien es la puerta de entrada del habla. Por eso, siempre que hay una preocupación por el lenguaje, una de las primeras preguntas de los profesionales es: «¿Se ha evaluado ya la audición?» Aunque el bebé haya pasado el cribado de la maternidad.',
+  blocks: [
+    { intro: 'Pedir una <strong>prueba de audición en niños</strong> es un paso sencillo e indoloro que ayuda a descartar, o a encontrar pronto, una causa importante de retraso del habla. En este artículo explicamos qué <strong>pruebas de audición</strong> existen en cada edad, qué muestran y por qué un cribado neonatal normal no excluye una nueva evaluación.' },
+    { summary: [
+      'Cualquier retraso del habla debe incluir una evaluación de la audición.',
+      'Pasar el cribado neonatal no descarta una pérdida auditiva que aparezca o progrese más tarde.',
+      'Hay pruebas adecuadas para cada edad, desde el recién nacido hasta la edad escolar.',
+      'Cuanto antes se identifica una pérdida auditiva, mejores son las posibilidades de desarrollo del lenguaje.',
+    ] },
+    { h2: '¿Cuándo pedir una evaluación de la audición?', id: 'quando', toc: 'Cuándo pedirla' },
+    { ul: [
+      'Hay retraso del habla o el habla se entiende poco para la edad.',
+      'El niño no reacciona a los sonidos, no se gira cuando le llaman o pide que le repitan a menudo.',
+      'Sube mucho el volumen de la televisión o se acerca a las fuentes de sonido.',
+      'Tiene otitis frecuentes o sensación de oído «tapado» (ver [[otite-serosa-e-fala|Otitis serosa y habla]]).',
+      'Ha tenido meningitis, ingreso en neonatología, infección por citomegalovirus o hay antecedentes familiares de sordera infantil.',
+    ] },
+    { h2: '¿Qué pruebas existen?', id: 'exames', toc: 'Qué pruebas existen' },
+    { table: {
+      head: ['Prueba', 'Edad habitual', 'Qué evalúa'],
+      rows: [
+        ['Otoemisiones acústicas (OEA)', 'Desde el nacimiento', 'La respuesta del oído interno; es rápida y se hace con el niño tranquilo.'],
+        ['Potenciales evocados auditivos (PEATC)', 'Desde el nacimiento', 'La respuesta del nervio auditivo, sin necesitar la colaboración del niño.'],
+        ['Timpanometría', 'Cualquier edad', 'El movimiento del tímpano; detecta líquido en el oído medio.'],
+        ['Audiometría con refuerzo visual', 'De los 6 meses a los 2–3 años, aproximadamente', 'El niño se gira hacia el sonido y se le «premia» con una imagen o una luz.'],
+        ['Audiometría lúdica', 'De los 2–3 a los 5 años, aproximadamente', 'El niño hace un gesto de juego (meter una pieza) cada vez que oye un sonido.'],
+        ['Audiometría tonal', 'A partir de los 5 años, aproximadamente', 'El niño levanta la mano o pulsa un botón cuando oye.'],
+      ],
+    } },
+    { p: 'La elección de la prueba depende de la edad y de la colaboración del niño. Normalmente la solicita el pediatra y la realiza un audiólogo o audioprotesista, a menudo en coordinación con otorrinolaringología.' },
+    { h2: 'Pasó el cribado de la maternidad. ¿Basta?', id: 'rastreio', toc: 'El cribado neonatal' },
+    { p: 'El cribado auditivo neonatal es muy importante, pero no es definitivo. Algunas pérdidas auditivas son <strong>progresivas o de aparición tardía</strong>, y las otitis pueden bajar la audición de forma temporal. Las guías internacionales recomiendan vigilar la audición a lo largo de la infancia y reevaluar siempre que haya preocupación por el habla (Joint Committee on Infant Hearing, 2019).' },
+    { alert: {
+      title: 'Pida una evaluación con prontitud si',
+      items: [
+        'el bebé no se sobresalta con ruidos fuertes ni se calma con la voz de sus padres;',
+        'el niño ha dejado de responder a sonidos a los que respondía;',
+        'ha perdido palabras o habla que ya tenía.',
+      ],
+    } },
+    { bridge: {
+      title: 'Escuchar con atención, jugando',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['Observar cómo reacciona el niño a los sonidos.', 'En Jugar libre hay instrumentos musicales y sonidos divertidos para explorar con el adulto al lado.'],
+        ['Apoyar la comprensión con imágenes.', 'En los juegos y en Comunicar, cada palabra aparece con imagen y voz.'],
+      ],
+      outro: 'Habla+ no evalúa la audición. Si tiene dudas sobre la audición del niño, pida una evaluación al médico.',
+    } },
+    { note: 'Contenido informativo. No sustituye una evaluación individual ni la orientación de un profesional sanitario.' },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre las pruebas de audición',
+  faq: [
+    ['¿A qué edad se puede hacer una prueba de audición?', 'A cualquier edad. A los recién nacidos se les hacen otoemisiones o potenciales evocados; a los niños mayores, audiometrías adaptadas a su edad.'],
+    ['¿Duele la prueba de audición?', 'No. Las pruebas son indoloras; algunas solo necesitan que el niño esté tranquilo o dormido.'],
+    ['Mi bebé pasó el cribado neonatal. ¿Puede tener pérdida auditiva?', 'Sí. Algunas pérdidas aparecen o empeoran más tarde, y las otitis pueden bajar la audición. Ante la duda, reevalúe.'],
+    ['¿Quién pide la prueba?', 'Normalmente el pediatra, que deriva a audiología u otorrinolaringología.'],
+  ],
+  sources: [
+    'Joint Committee on Infant Hearing (2019). Year 2019 Position Statement: Principles and Guidelines for Early Hearing Detection and Intervention Programs. <em>Journal of Early Hearing Detection and Intervention</em>, 4(2), 1–44. <a href="https://doi.org/10.15142/fptk-b748" rel="noopener" target="_blank">doi:10.15142/fptk-b748</a>',
+    'Organización Mundial de la Salud (2021). World report on hearing. <a href="https://www.who.int/publications/i/item/9789240020481" rel="noopener" target="_blank">who.int</a>',
+  ],
+  related: ['otite-serosa-e-fala', 'pac-vs-dificuldades-audicao', 'atraso-na-fala'],
+}

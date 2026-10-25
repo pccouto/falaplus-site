@@ -1,0 +1,68 @@
+export default {
+  slug: 'regressao-da-linguagem-crianca-deixou-de-falar',
+  short: 'Regressão da linguagem',
+  date: '2026-10-25',
+  titleTag: 'A criança deixou de falar: regressão da linguagem · Fala+',
+  description: 'A criança deixou de dizer palavras que já dizia? O que é a regressão da linguagem, quando costuma acontecer, que causas se investigam e porque pedir avaliação sem esperar.',
+  keywords: ['criança deixou de falar', 'regressão da linguagem', 'perdeu palavras', 'bebé deixou de dizer mamã', 'regressão autismo', 'regressão 18 meses'],
+  h1: 'A criança deixou de falar: o que é a <span class="word-highlight">regressão</span> da linguagem?',
+  lead: 'Uma criança que dizia «mamã», «água» ou «mais» e, ao fim de algumas semanas ou meses, deixa de as dizer, causa inquietação compreensível. Ao contrário de um atraso, uma perda de competências que já existiam é sempre um sinal para procurar avaliação, sem esperar.',
+  blocks: [
+    { intro: 'Quando uma <strong>criança deixou de falar</strong> ou perdeu palavras que usava, fala-se em <strong>regressão da linguagem</strong>. Neste artigo explicamos o que se entende por regressão, em que idades é mais descrita, que causas os profissionais procuram e o que a família pode registar para a consulta.' },
+    { summary: [
+      'Perder palavras, gestos ou interesse social que já existiam não é uma fase a esperar que passe.',
+      'A regressão da linguagem é mais descrita entre os 15 e os 24 meses, muitas vezes associada ao autismo.',
+      'Há outras causas a excluir, incluindo perda auditiva e, raramente, quadros neurológicos.',
+      'Registe o que a criança fazia antes e o que deixou de fazer: ajuda muito a avaliação.',
+    ] },
+    { h2: 'O que conta como regressão?', id: 'definicao', toc: 'O que conta como regressão' },
+    { p: 'Fala-se em regressão quando a criança <strong>usava de forma consistente</strong> palavras, gestos ou outras competências durante algum tempo e depois as deixa de usar. Uma palavra dita uma vez e não repetida, ou uma fase em que a criança fala menos porque está a aprender a andar, normalmente não conta como regressão.' },
+    { p: 'É frequente a perda não ser só de palavras: a criança pode também responder menos ao nome, olhar menos para as pessoas, apontar menos ou brincar de forma diferente. Esses sinais em conjunto merecem atenção.' },
+    { h2: 'Em que idades acontece e porquê?', id: 'causas', toc: 'Idades e causas' },
+    { p: 'Numa meta-análise com dezenas de estudos, cerca de <strong>uma em cada três crianças autistas</strong> teve algum tipo de regressão descrita pelos pais, com idade média de início perto dos <strong>20 meses</strong> (Barger, Campbell e McDonough, 2013). A perda de linguagem foi a forma mais descrita.' },
+    { cards: [
+      ['Autismo', 'É o contexto em que a regressão é mais estudada. Não significa que toda a regressão seja autismo.'],
+      ['Audição', 'Uma perda auditiva, mesmo temporária, pode reduzir o uso da voz. Ver [[teste-audicao-criancas|Teste de audição na criança]].'],
+      ['Causas neurológicas raras', 'Alguns quadros, como a síndrome de Landau-Kleffner, associam perda de linguagem a alterações no eletroencefalograma.'],
+      ['Acontecimentos de vida', 'Doença, internamento ou grandes mudanças podem reduzir temporariamente a fala, mas só depois de avaliar outras causas.'],
+    ] },
+    { alert: {
+      title: 'Procure o médico com brevidade se',
+      items: [
+        'a criança perdeu palavras, gestos ou competências sociais que tinha;',
+        'a perda é acompanhada de convulsões, sonolência anormal ou perda de outras capacidades, como andar;',
+        'deixou de reagir a sons ou ao nome.',
+      ],
+    } },
+    { h2: 'O que levar para a consulta', id: 'consulta', toc: 'O que levar para a consulta' },
+    { ul: [
+      'Uma lista das palavras e gestos que a criança usava, com datas aproximadas.',
+      'Vídeos antigos do dia a dia, que mostram o que a criança fazia antes.',
+      'O que mudou: palavras, olhar, resposta ao nome, brincadeira, sono, alimentação.',
+      'Doenças, otites, mudanças familiares ou de escola à volta dessa altura.',
+    ] },
+    { p: 'Enquanto espera, continue a falar com a criança, a nomear o que ela olha e a valorizar todas as formas de comunicar. Ver também [[quando-procurar-avaliacao-desenvolvimento|Quando procurar uma avaliação do desenvolvimento?]]' },
+    { bridge: {
+      title: 'Todas as formas de comunicar contam',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Valorizar todas as formas de comunicar enquanto se espera pela avaliação.', 'No Comunicar, a criança toca em cartões de imagem e a app diz a palavra em voz alta.'],
+        ['Usar fotografias e vozes que a criança conhece.', 'É possível criar cartões com fotografias da família e gravações com a voz de quem a criança conhece.'],
+      ],
+      outro: 'A Fala+ não deteta regressões nem acompanha marcos do desenvolvimento. Perante uma perda de competências, procure o médico.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre regressão da linguagem',
+  faq: [
+    ['O meu bebé deixou de dizer «mamã». É grave?', 'Não se pode saber sem avaliação. Se a criança usava a palavra de forma consistente e a perdeu, fale com o médico de família ou o pediatra.'],
+    ['A regressão da linguagem significa sempre autismo?', 'Não. É mais descrita no autismo, mas é preciso excluir outras causas, como perda auditiva ou quadros neurológicos raros.'],
+    ['As palavras perdidas voltam?', 'Muitas crianças recuperam e desenvolvem a linguagem, sobretudo com apoio adequado, mas o percurso varia de criança para criança.'],
+    ['Devo esperar para ver se volta a falar?', 'Não. Uma perda de competências é um motivo para pedir avaliação sem esperar.'],
+  ],
+  sources: [
+    'Barger, Campbell e McDonough (2013). Prevalence and onset of regression within autism spectrum disorders: a meta-analytic review. <em>Journal of Autism and Developmental Disorders</em>, 43(4), 817–828. <a href="https://doi.org/10.1007/s10803-012-1621-x" rel="noopener" target="_blank">doi:10.1007/s10803-012-1621-x</a>',
+    'NICE (2017). Autism spectrum disorder in under 19s: recognition, referral and diagnosis (CG128). <a href="https://www.nice.org.uk/guidance/cg128" rel="noopener" target="_blank">nice.org.uk/guidance/cg128</a>',
+  ],
+  related: ['atraso-na-fala-ou-autismo', 'quando-procurar-avaliacao-desenvolvimento', 'teste-audicao-criancas'],
+}

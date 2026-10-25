@@ -1,0 +1,68 @@
+export default {
+  id: 'atraso-da-fala-birras-frustracao',
+  slug: 'retraso-del-habla-y-rabietas',
+  short: 'Retraso del habla y rabietas',
+  date: '2026-10-25',
+  titleTag: 'Retraso del habla y rabietas: cuando la frustración es falta de palabras · Habla+',
+  description: 'Retraso del habla y rabietas: por qué los niños con menos palabras tienen más rabietas, cómo reducir la frustración ofreciendo formas de comunicar y cuándo pedir ayuda.',
+  keywords: ['retraso del habla y rabietas', 'niño no habla y tiene rabietas', 'rabietas y retraso del lenguaje', 'frustración por no poder hablar', 'niño pega porque no habla', 'rabietas 2 años retraso del habla'],
+  h1: 'Retraso del habla y rabietas: cuando la frustración es <span class="word-highlight">falta de palabras</span>',
+  lead: 'El niño quiere el vaso azul, no el rojo. Señala, grita, se tira al suelo. Para el adulto es una rabieta; para el niño puede ser la única forma de decir «ese no». Cuando faltan palabras, la frustración encuentra otras salidas.',
+  blocks: [
+    { intro: 'La relación entre el <strong>retraso del habla y las rabietas</strong> es una preocupación frecuente de las familias. En este artículo explicamos qué muestran los estudios, cómo distinguir la frustración comunicativa de otros motivos y qué ayuda a reducir las rabietas. Ver también [[comportamento-dificil-quebra-comunicacao|Conductas difíciles y ruptura de la comunicación]].' },
+    { summary: [
+      'Los niños pequeños con menos palabras tienden a tener rabietas más frecuentes e intensas.',
+      'Muchas rabietas son una forma de comunicar cuando las palabras no llegan.',
+      'Dar al niño formas de pedir, rechazar y elegir reduce la frustración.',
+      'Las rabietas muy frecuentes, largas o con autolesiones merecen consultarse con un profesional.',
+    ] },
+    { h2: '¿Qué muestran los estudios?', id: 'estudos', toc: 'Qué muestran los estudios' },
+    { p: 'En un estudio con más de 2000 niños de 12 a 38 meses, los que tenían un <strong>vocabulario expresivo más pequeño</strong> tenían <strong>rabietas más frecuentes e intensas</strong> que los niños de la misma edad con más palabras (Manning y colegas, 2019). Los autores subrayan que las rabietas son normales a esta edad; lo que cambia es la frecuencia y la intensidad.' },
+    { h2: '¿Por qué la falta de palabras causa frustración?', id: 'porque', toc: 'Por qué frustra' },
+    { cards: [
+      ['No puede pedir', 'Sabe lo que quiere, pero no tiene la palabra para decirlo.'],
+      ['No puede rechazar', 'Sin «no», «se acabó» o «basta», el rechazo sale en forma de llanto o empujones.'],
+      ['No le entienden', 'Intenta decirlo, pero los adultos no le entienden, y repetir no funciona.'],
+      ['No puede explicar', 'El dolor, el miedo o el cansancio son difíciles de mostrar sin palabras.'],
+    ] },
+    { h2: 'Qué ayuda a reducir las rabietas', id: 'ajudar', toc: 'Qué ayuda' },
+    { ul: [
+      'Enseñe formas sencillas de pedir y rechazar: gestos («más», «se acabó»), imágenes o palabras cortas.',
+      'Ofrezca opciones antes de que empiece la frustración: «¿Vaso azul o rojo?».',
+      'Nombre lo que siente el niño: «Estás enfadado porque quieres el azul» (ver [[vocabulario-emocoes-criancas|Enseñar las emociones]]).',
+      'Anticipe los cambios con rutinas visuales (ver [[rotinas-visuais-para-criancas|Rutinas visuales]]).',
+      'Durante la rabieta, hable poco y con calma; converse después, cuando esté tranquilo.',
+      'Valore todos los intentos de comunicar, aunque sean imperfectos.',
+    ] },
+    { alert: {
+      title: 'Consulte con un profesional si las rabietas',
+      items: [
+        'son muy frecuentes (varias veces al día) o muy largas;',
+        'incluyen golpearse la cabeza, morderse o hacer daño a otros;',
+        'ocurren también con personas y en lugares donde el niño suele estar tranquilo;',
+        'van acompañadas de otras señales de alerta del desarrollo.',
+      ],
+    } },
+    { bridge: {
+      title: 'Formas de pedir, rechazar y decir lo que siente',
+      intro: 'Algunas ideas del artículo encuentran eco en funciones de la app:',
+      items: [
+        ['Ofrecer formas de pedir y rechazar.', 'En Comunicar hay frases rápidas para los momentos del día, como «Necesito ayuda» o «Me duele aquí», que se dicen en voz alta.'],
+        ['Poner nombre a lo que se siente.', 'Las tarjetas de sentimientos permiten al niño mostrar cómo está, con imagen y voz.'],
+      ],
+      outro: 'Habla+ no trata las rabietas ni sustituye el apoyo de un logopeda o psicólogo.',
+    } },
+    { note: 'Contenido informativo. No sustituye una evaluación individual ni la orientación de un profesional sanitario.' },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre retraso del habla y rabietas',
+  faq: [
+    ['¿El retraso del habla causa rabietas?', 'No por sí solo, pero los niños con menos palabras tienden a tener rabietas más frecuentes e intensas, por frustración.'],
+    ['El niño pega porque no habla. ¿Qué hago?', 'Proteja a todos, mantenga la calma y, después, enseñe otra forma de decir lo mismo, como un gesto o una imagen.'],
+    ['¿Las rabietas disminuyen cuando el niño empieza a hablar?', 'Muchas veces, sí. Tener formas de comunicar, con o sin palabras, ayuda a reducir la frustración.'],
+    ['¿Las rabietas frecuentes pueden ser señal de autismo?', 'Por sí solas, no. Pero si hay otras señales en la interacción o la comunicación, conviene pedir una evaluación.'],
+  ],
+  sources: [
+    'Manning, Roberts, Estabrook y colegas (2019). Relations between toddler expressive language and temper tantrums in a community sample. <em>Journal of Applied Developmental Psychology</em>, 65, 101070. <a href="https://doi.org/10.1016/j.appdev.2019.101070" rel="noopener" target="_blank">doi:10.1016/j.appdev.2019.101070</a>',
+  ],
+  related: ['atraso-na-fala', 'comportamento-dificil-quebra-comunicacao', 'vocabulario-emocoes-criancas'],
+}

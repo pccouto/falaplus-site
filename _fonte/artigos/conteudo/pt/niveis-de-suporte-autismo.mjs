@@ -1,0 +1,77 @@
+export default {
+  slug: 'niveis-de-suporte-autismo',
+  short: 'Níveis de suporte no autismo',
+  date: '2026-10-25',
+  titleTag: 'Autismo nível 1, 2 ou 3: o que significam os níveis? · Fala+',
+  description: 'O que significam os níveis 1, 2 e 3 de suporte no autismo segundo o DSM-5, porque não descrevem a pessoa nem o seu futuro, como se relacionam com a CID-11 e que perguntas fazer.',
+  keywords: ['autismo nível 1', 'autismo nível 2', 'autismo nível 3', 'níveis de suporte autismo', 'graus de autismo', 'autismo leve moderado severo', 'nível de autismo muda'],
+  h1: 'Autismo nível 1, 2 ou 3: o que significam os <span class="word-highlight">níveis de suporte</span>?',
+  lead: 'Muitos relatórios de diagnóstico indicam «perturbação do espetro do autismo, nível 1» ou «nível 2». As famílias perguntam logo se isso é leve ou grave, e o que diz sobre o futuro. A resposta é mais simples, e mais tranquilizadora, do que parece.',
+  blocks: [
+    { intro: 'Os <strong>níveis de suporte no autismo</strong> foram introduzidos no DSM-5 para descrever <strong>quanto apoio</strong> uma pessoa precisa, num determinado momento, em duas áreas: comunicação social e comportamentos restritos e repetitivos. Neste artigo explicamos o que significa <strong>autismo nível 1, 2 ou 3</strong>, os limites destes níveis e como se relacionam com a CID-11.' },
+    { summary: [
+      'O nível descreve a intensidade do apoio necessário, não a inteligência nem o valor da pessoa.',
+      'É atribuído separadamente para a comunicação social e para os comportamentos repetitivos.',
+      'Pode mudar ao longo do tempo, com o desenvolvimento, os apoios e o contexto.',
+      'A CID-11 não usa níveis: descreve a presença de deficiência intelectual e o grau de linguagem funcional.',
+    ] },
+    { h2: 'O que diz cada nível?', id: 'niveis', toc: 'O que diz cada nível' },
+    { table: {
+      head: ['Nível', 'Designação no DSM-5', 'Em termos gerais'],
+      rows: [
+        ['Nível 1', 'Requer apoio', 'Sem apoio, as diferenças na comunicação e na flexibilidade causam dificuldades visíveis no dia a dia.'],
+        ['Nível 2', 'Requer apoio substancial', 'Diferenças marcadas, que se notam mesmo com apoio e limitam a participação em várias situações.'],
+        ['Nível 3', 'Requer apoio muito substancial', 'Diferenças muito marcadas na comunicação e grande dificuldade em lidar com mudanças, com impacto em quase todas as áreas.'],
+      ],
+    } },
+    { p: 'O relatório pode, por exemplo, indicar nível 2 na comunicação social e nível 1 nos comportamentos repetitivos. Deve também referir se há <strong>alteração intelectual</strong> e <strong>alteração da linguagem</strong> associadas (American Psychiatric Association, 2022). Ver também [[criterios-diagnosticos-autismo-interpretar-relatorio|Critérios de autismo: como ler o relatório?]]' },
+    { h2: 'O que os níveis não dizem', id: 'limites', toc: 'O que os níveis não dizem' },
+    { evidence: {
+      yesTitle: 'Os níveis dizem',
+      noTitle: 'Os níveis não dizem',
+      yes: [
+        'Que intensidade de apoio é necessária agora.',
+        'Em que área o apoio é mais necessário.',
+        'Uma referência para planear respostas.',
+      ],
+      no: [
+        '«Nível 1 é autismo leve, sem necessidades.»',
+        '«O nível é para sempre.»',
+        '«O nível prevê a inteligência ou o futuro da criança.»',
+      ],
+    } },
+    { p: 'Um estudo mostrou que a atribuição de níveis varia bastante e nem sempre corresponde às medidas de gravidade usadas na avaliação, o que reforça que <strong>são uma descrição clínica, e não uma medida exata</strong> (Weitlauf e colegas, 2014). Uma criança com «nível 1» pode ter necessidades importantes, por exemplo de ansiedade ou de aprendizagem.' },
+    { h2: 'E na CID-11?', id: 'cid', toc: 'E na CID-11' },
+    { p: 'A Classificação Internacional de Doenças (CID-11), usada em muitos sistemas de saúde, codifica a perturbação do espetro do autismo com o código <strong>6A02</strong> e descreve duas dimensões: se há ou não <strong>perturbação do desenvolvimento intelectual</strong> e o grau de <strong>linguagem funcional</strong>. Não usa os níveis 1, 2 e 3 (ver [[codigos-diagnostico-fala-cid|O que significam os códigos num relatório]]).' },
+    { h2: 'Perguntas úteis para a consulta', id: 'perguntas', toc: 'Perguntas para a consulta' },
+    { ul: [
+      'Em que situações concretas a criança precisa de mais apoio?',
+      'Que apoios recomendam na escola e em casa?',
+      'Quando devemos reavaliar?',
+      'Que pontos fortes observaram?',
+    ] },
+    { bridge: {
+      title: 'Apoio ajustado à criança',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['O apoio deve ajustar-se às necessidades de cada criança.', 'Na Área Adulto escolhem-se as palavras, os conteúdos e as definições de cada perfil; nos jogos, a dificuldade ajusta-se ao desempenho.'],
+        ['Comunicar de várias formas.', 'No Comunicar, a criança junta cartões de imagem e voz para formar mensagens.'],
+      ],
+      outro: 'A Fala+ não atribui níveis, não avalia o autismo e não substitui a equipa que acompanha a criança.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre os níveis de autismo',
+  faq: [
+    ['Autismo nível 1 é autismo leve?', 'Não exatamente. Significa que a pessoa precisa de apoio, mas as necessidades podem ser importantes, sobretudo em situações exigentes.'],
+    ['O nível de autismo pode mudar?', 'Sim. Descreve as necessidades num momento e pode mudar com o desenvolvimento, os apoios e o contexto.'],
+    ['Qual é a diferença entre nível 2 e nível 3?', 'O nível 3 corresponde a uma necessidade de apoio muito substancial, com impacto em quase todas as áreas; o nível 2 a apoio substancial.'],
+    ['Porque é que o relatório não tem nível?', 'Alguns profissionais usam a CID-11, que não tem níveis, ou preferem descrever as necessidades em pormenor.'],
+  ],
+  sources: [
+    'American Psychiatric Association (2022). <em>Diagnostic and Statistical Manual of Mental Disorders</em>, 5.ª edição, texto revisto (DSM-5-TR).',
+    'Weitlauf, Gotham, Vehorn e Warren (2014). Brief report: DSM-5 “levels of support:” a comment on discrepant conceptualizations of severity in ASD. <em>Journal of Autism and Developmental Disorders</em>, 44(2), 471–476. <a href="https://doi.org/10.1007/s10803-013-1882-z" rel="noopener" target="_blank">doi:10.1007/s10803-013-1882-z</a>',
+    'Organização Mundial da Saúde. CID-11, 6A02 Perturbação do espetro do autismo. <a href="https://icd.who.int/browse/2024-01/mms/en" rel="noopener" target="_blank">icd.who.int</a>',
+  ],
+  related: ['criterios-diagnosticos-autismo-interpretar-relatorio', 'avaliacao-diagnostica-autismo-o-que-inclui', 'compreender-relatorio-clinico-perguntas'],
+}

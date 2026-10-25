@@ -1,0 +1,67 @@
+export default {
+  id: 'rapazes-falam-mais-tarde',
+  slug: 'do-boys-talk-later-than-girls',
+  short: 'Do boys talk later?',
+  date: '2026-10-25',
+  titleTag: 'Do boys talk later than girls? · Talk+',
+  description: 'Is it true that boys talk later? Studies show a small average difference, but milestones are the same and a speech delay in a boy should not be dismissed.',
+  keywords: ['do boys talk later', 'boys speech delay', 'late talking boys', '2 year old boy not talking', 'speech differences boys and girls', 'speech delay in boys'],
+  h1: 'Do boys talk <span class="word-highlight">later</span> than girls?',
+  lead: '“He’s a boy, boys talk later.” This line is heard often at appointments, nurseries and family meals. There is some truth in it, but it does not explain a speech delay or justify putting off an assessment.',
+  blocks: [
+    { intro: 'Is it true that <strong>boys talk later</strong>? In this article we summarise what studies say about differences between boys and girls in language development and why a <strong>speech delay in a boy</strong> deserves the same attention.' },
+    { summary: [
+      'On average, girls are slightly ahead with first words and sentences.',
+      'The difference is small and the overlap huge: many boys talk early and many girls late.',
+      'Being a boy is linked to a higher chance of late talking, but does not explain it.',
+      'The reference milestones are the same for boys and girls.',
+    ] },
+    { h2: 'What do studies say?', id: 'estudos', toc: 'What studies say' },
+    { p: 'A study of children aged 8 to 30 months in 10 European language communities found a <strong>small average advantage for girls</strong> in early communication, vocabulary and word combinations; sex explained only a small part of the differences between children (Eriksson and colleagues, 2012).' },
+    { p: 'In a large Australian study, being a boy was among the factors linked to a higher chance of <strong>late language emergence at 24 months</strong>, together with a family history of language difficulties (Zubrick and colleagues, 2007). In other words: it is a risk factor, not a reassuring explanation.' },
+    { evidence: {
+      yesTitle: 'What can be said',
+      noTitle: 'What cannot be said',
+      yes: [
+        'There is a small average difference in favour of girls.',
+        'Late talking is somewhat more common in boys.',
+        'Differences between children of the same sex are much larger.',
+      ],
+      no: [
+        '“He’s a boy, so not talking at 2 is normal.”',
+        '“Boys have different milestones.”',
+        '“With a boy, it is better to wait longer before assessing.”',
+      ],
+    } },
+    { h2: 'When to seek help, boy or girl', id: 'quando', toc: 'When to seek help' },
+    { ul: [
+      'At 18 months, no words and no pointing to show things.',
+      'At 2 years, fewer than 50 words or no two-word combinations.',
+      'At 3 years, people outside the family cannot understand most of what they say.',
+      'At any age, losing words they used to say or seeming not to understand.',
+    ] },
+    { p: 'See also [[atraso-na-fala|Speech delay]] and [[fala-tardia-recupera-sempre|Do late talkers always catch up?]]' },
+    { bridge: {
+      title: 'Everyday words, for every child',
+      intro: 'Some ideas in the article are echoed in app features:',
+      items: [
+        ['More chances to hear and use words.', 'The games present more than 1,000 everyday words with picture and voice, across 25 topics.'],
+        ['Communicating while words are on their way.', 'In Communicate, the child taps picture cards and the app says the word aloud.'],
+      ],
+      outro: 'Talk+ does not assess language and does not replace a professional assessment.',
+    } },
+    { note: 'For information only. It does not replace an individual assessment or advice from a health professional.' },
+  ],
+  faqTitle: 'Frequently asked questions about boys and speech',
+  faq: [
+    ['Do boys talk later?', 'On average, slightly. But the difference is small and does not explain a marked delay.'],
+    ['A 2-year-old boy is not talking. Could it be because he is a boy?', 'Being a boy does not explain having no words at 2. It is worth talking to a doctor and asking for an assessment.'],
+    ['Are speech milestones different for boys?', 'No. The warning signs are the same for boys and girls.'],
+    ['Is speech delay more common in boys?', 'Yes, late talking and some language disorders are somewhat more frequent in boys.'],
+  ],
+  sources: [
+    'Eriksson, Marschik, Tulviste and colleagues (2012). Differences between girls and boys in emerging language skills: evidence from 10 language communities. <em>British Journal of Developmental Psychology</em>, 30(2), 326–343. <a href="https://doi.org/10.1111/j.2044-835X.2011.02042.x" rel="noopener" target="_blank">doi:10.1111/j.2044-835X.2011.02042.x</a>',
+    'Zubrick, Taylor, Rice and Slegers (2007). Late language emergence at 24 months: an epidemiological study of prevalence, predictors, and covariates. <em>Journal of Speech, Language, and Hearing Research</em>, 50(6), 1562–1592. <a href="https://doi.org/10.1044/1092-4388(2007/106)" rel="noopener" target="_blank">doi:10.1044/1092-4388(2007/106)</a>',
+  ],
+  related: ['atraso-na-fala', 'fala-tardia-recupera-sempre', 'marcos-linguagem-0-a-24-meses'],
+}

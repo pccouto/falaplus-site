@@ -1,0 +1,72 @@
+export default {
+  id: 'atraso-da-fala-creche',
+  slug: 'speech-delay-and-nursery',
+  short: 'Speech delay and nursery',
+  date: '2026-10-25',
+  titleTag: 'Speech delay and nursery: does nursery help a child talk? · Talk+',
+  description: 'Speech delay and nursery: does starting nursery or daycare fix a speech delay? What studies show about interaction quality and how nursery staff can help.',
+  keywords: ['speech delay nursery', 'does daycare help speech', 'nursery to help child talk', 'speech delay preschool', 'nursery staff and speech delay', 'child not talking at nursery'],
+  h1: 'Speech delay and nursery: does nursery <span class="word-highlight">help a child talk</span>?',
+  lead: '“Send them to nursery, they’ll start talking in no time with the other children.” Many families hear this advice. Nursery can be a good setting for language, but it does not, on its own, fix a speech delay.',
+  blocks: [
+    { intro: 'Does <strong>nursery help a child talk</strong>? In this article we look at what research says about childcare and language, why <strong>the quality of interaction</strong> matters more than simply being around other children and how family and nursery staff can work together on a <strong>speech delay</strong>. See also [[atraso-na-fala|Speech delay]].' },
+    { summary: [
+      'Being around other children does not, on its own, fix a speech delay.',
+      'What counts most is the quality of interaction with attentive adults, at home and at nursery.',
+      'Staff who chat, wait and expand what the child says are great allies.',
+      'Nursery does not replace assessment or speech therapy when they are needed.',
+    ] },
+    { h2: 'What do studies show?', id: 'estudos', toc: 'What studies show' },
+    { p: 'A large US study followed more than a thousand children and found that <strong>the quality of care</strong>, especially how much adults stimulated language, was linked to better cognitive and language development; time spent in childcare on its own mattered less, and the family environment remained the most important factor (NICHD Early Child Care Research Network, 2000).' },
+    { evidence: {
+      yesTitle: 'What can be said',
+      noTitle: 'What cannot be said',
+      yes: [
+        'A nursery with adults who talk a lot can support language.',
+        'Playing with other children creates chances to communicate.',
+        'Nursery staff are valuable observers of development.',
+      ],
+      no: [
+        '“Nursery fixes speech delay.”',
+        '“Being with other children is enough to start talking.”',
+        '“Once at nursery there is no need to assess.”',
+      ],
+    } },
+    { h2: 'How nursery staff can help', id: 'educadora', toc: 'How staff can help' },
+    { ul: [
+      'Chat with the child one to one, even for a few minutes, throughout the day.',
+      'Wait for a response, accepting gestures and sounds.',
+      'Expand what the child says and name what they are doing.',
+      'Use visual supports in room routines (see [[rotinas-visuais-para-criancas|Visual routines]]).',
+      'Share observations with the family and the speech and language therapist.',
+    ] },
+    { h2: 'Family and nursery working together', id: 'juntas', toc: 'Family and nursery' },
+    { ol: [
+      'Share your concern with nursery staff and ask what they notice.',
+      'Agree on common words, signs or pictures for home and nursery.',
+      'If there are warning signs, ask for an assessment without waiting to see if nursery helps (see [[atraso-da-fala-sinais-de-alerta|Warning signs]]).',
+      'If there is speech therapy, ask for strategies to reach nursery too (see [[educacao-pre-escolar-inclusao-desenvolvimento|Inclusive preschool education]]).',
+    ] },
+    { bridge: {
+      title: 'The same cards at home and at nursery',
+      intro: 'Some ideas in the article have a parallel in app features:',
+      items: [
+        ['Using the same words and pictures across settings.', 'The Communicate board goes with the child at home, at nursery and in therapy, with the same cards and the same voice.'],
+        ['Photos from the child’s daily life.', 'Cards can be created with photos of people and objects the child knows.'],
+      ],
+      outro: 'Talk+ does not replace interaction with adults or an assessment by a speech and language therapist.',
+    } },
+    { note: 'For information only. It does not replace an individual assessment or advice from a health professional.' },
+  ],
+  faqTitle: 'Frequently asked questions about speech delay and nursery',
+  faq: [
+    ['Does nursery help a child talk?', 'It can help if there is lots of quality interaction with adults, but it does not fix a speech delay on its own.'],
+    ['The child talks at home but not at nursery. What could it be?', 'It may be shyness, settling in or, if it lasts, anxiety. See the article on selective mutism.'],
+    ['Does nursery cause speech delay?', 'There is no evidence that nursery by itself causes delay. What counts is the quality of interaction in every setting.'],
+    ['Should I wait to see if nursery helps before asking for an assessment?', 'No. If there are warning signs, ask for an assessment at the same time.'],
+  ],
+  sources: [
+    'NICHD Early Child Care Research Network (2000). The relation of child care to cognitive and language development. <em>Child Development</em>, 71(4), 960–980. <a href="https://doi.org/10.1111/1467-8624.00202" rel="noopener" target="_blank">doi:10.1111/1467-8624.00202</a>',
+  ],
+  related: ['atraso-na-fala', 'educacao-pre-escolar-inclusao-desenvolvimento', 'mutismo-seletivo'],
+}

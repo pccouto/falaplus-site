@@ -1,0 +1,68 @@
+export default {
+  slug: 'atraso-da-fala-18-meses',
+  short: 'Atraso da fala aos 18 meses',
+  date: '2026-10-25',
+  titleTag: 'Atraso da fala aos 18 meses: o que é esperado e quando se preocupar · Fala+',
+  description: 'Atraso da fala aos 18 meses: quantas palavras são esperadas, que gestos e compreensão observar e que sinais justificam falar com o médico de família ou o pediatra.',
+  keywords: ['atraso da fala 18 meses', 'atraso na fala 18 meses', 'bebé de 18 meses não fala', 'quantas palavras aos 18 meses', 'bebé 18 meses só aponta', 'marcos 18 meses fala'],
+  h1: 'Atraso da fala aos 18 meses: o que é esperado e <span class="word-highlight">quando se preocupar</span>',
+  lead: 'Aos 18 meses, há bebés que já dizem dezenas de palavras e outros que dizem duas ou três. A variação é grande, por isso é preciso olhar para mais do que o número de palavras: os gestos, o olhar e a compreensão contam tanto como a fala.',
+  blocks: [
+    { intro: 'Se está preocupado com um possível <strong>atraso da fala aos 18 meses</strong>, este artigo ajuda a perceber o que é esperado nesta idade, que sinais observar e quando vale a pena pedir avaliação. Para uma visão geral, ver [[atraso-na-fala|Atraso na fala: sinais de alerta]].' },
+    { summary: [
+      'Aos 18 meses, muitas crianças dizem pelo menos três palavras além de «mamã» e «papá».',
+      'Apontar para mostrar, olhar para o adulto e seguir instruções simples são tão importantes como falar.',
+      'Uma criança com poucas palavras mas boa compreensão e muitos gestos tem, em geral, melhor perspetiva.',
+      'Ausência de palavras e de gestos aos 18 meses, ou perda de competências, justifica avaliação.',
+    ] },
+    { h2: 'O que é esperado aos 18 meses?', id: 'esperado', toc: 'O que é esperado' },
+    { p: 'Segundo os marcos revistos pelos Centros de Controlo e Prevenção de Doenças dos Estados Unidos e pela Academia Americana de Pediatria, aos 18 meses a maioria das crianças <strong>tenta dizer três ou mais palavras</strong> além de «mamã» ou «papá», <strong>segue instruções de um passo sem gestos</strong> («dá-me isso») e <strong>aponta para mostrar</strong> algo interessante (Zubler e colegas, 2022).' },
+    { cards: [
+      ['Palavras', 'Pelo menos três palavras além de «mamã» e «papá», mesmo que ainda imperfeitas.'],
+      ['Gestos', 'Aponta para pedir e para mostrar, acena, abana a cabeça para dizer «não».'],
+      ['Compreensão', 'Reconhece nomes de pessoas e objetos familiares e segue pedidos simples.'],
+      ['Interação', 'Olha para o adulto para partilhar interesse e imita ações.'],
+    ] },
+    { h2: 'Sinais para falar com o médico', id: 'sinais', toc: 'Sinais de alerta' },
+    { alert: {
+      title: 'Peça avaliação se, aos 18 meses, a criança',
+      items: [
+        'não diz nenhuma palavra com significado;',
+        'não aponta para mostrar coisas nem usa outros gestos;',
+        'não parece compreender palavras familiares ou não reage ao nome;',
+        'perdeu palavras ou competências que já tinha (ver [[regressao-da-linguagem-crianca-deixou-de-falar|Regressão da linguagem]]).',
+      ],
+    } },
+    { p: 'O médico pode pedir uma [[teste-audicao-criancas|avaliação da audição]] e, se necessário, encaminhar para terapia da fala ou consulta de desenvolvimento.' },
+    { h2: 'O que pode fazer desde já', id: 'casa', toc: 'O que fazer já' },
+    { ul: [
+      'Fale sobre o que a criança está a olhar ou a fazer, com frases curtas.',
+      'Espere uns segundos depois de falar, para dar tempo à criança de responder com um som, gesto ou palavra.',
+      'Ofereça escolhas: «Queres a maçã ou a banana?», mostrando as duas.',
+      'Leia livros com imagens e dê nome ao que aparece (ver [[leitura-dialogica-ler-historias|Leitura dialógica]]).',
+      'Reduza o tempo de ecrã sem adulto e aumente o tempo de brincadeira a dois.',
+    ] },
+    { bridge: {
+      title: 'Palavras do dia a dia, com imagem e voz',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app, para usar com um adulto ao lado:',
+      items: [
+        ['Dar nome ao que a criança vê.', 'Os jogos apresentam palavras do quotidiano com imagem e voz, em 25 temas, como Família, Comida e Rotinas.'],
+        ['Brincar com sons e reações.', 'No Brincar há instrumentos e sons de animais, sem pontos nem respostas certas.'],
+      ],
+      outro: 'Aos 18 meses, a interação ao vivo é o principal motor da linguagem. A Fala+ não avalia o desenvolvimento nem substitui a consulta.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre o atraso da fala aos 18 meses',
+  faq: [
+    ['Quantas palavras deve dizer uma criança de 18 meses?', 'Muitas dizem pelo menos três palavras além de «mamã» e «papá», mas há grande variação. Os gestos e a compreensão também contam.'],
+    ['A criança de 18 meses só aponta e não fala. É atraso da fala?', 'Apontar é um bom sinal de comunicação. Se não há nenhuma palavra, vale a pena falar com o médico e vigiar de perto.'],
+    ['Devo esperar até aos 2 anos para pedir ajuda?', 'Não, se há sinais de alerta. Uma avaliação precoce não faz mal e permite começar a apoiar mais cedo.'],
+    ['Um atraso da fala aos 18 meses significa autismo?', 'Não necessariamente. Mas se também há pouco olhar, pouco apontar ou pouca resposta ao nome, é importante avaliar.'],
+  ],
+  sources: [
+    'Zubler, Wiggins, Macias e colegas (2022). Evidence-informed milestones for developmental surveillance tools. <em>Pediatrics</em>, 149(3), e2021052138. <a href="https://doi.org/10.1542/peds.2021-052138" rel="noopener" target="_blank">doi:10.1542/peds.2021-052138</a>',
+    'American Speech-Language-Hearing Association. Late Language Emergence (Practice Portal). <a href="https://www.asha.org/practice-portal/clinical-topics/late-language-emergence/" rel="noopener" target="_blank">asha.org</a>',
+  ],
+  related: ['atraso-na-fala', 'atraso-da-fala-2-anos', 'marcos-linguagem-0-a-24-meses'],
+}

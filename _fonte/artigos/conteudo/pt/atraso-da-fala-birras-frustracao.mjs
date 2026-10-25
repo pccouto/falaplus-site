@@ -1,0 +1,67 @@
+export default {
+  slug: 'atraso-da-fala-birras-frustracao',
+  short: 'Atraso da fala e birras',
+  date: '2026-10-25',
+  titleTag: 'Atraso da fala e birras: quando a frustração é falta de palavras · Fala+',
+  description: 'Atraso da fala e birras: porque é que crianças com menos palavras têm mais birras, como reduzir a frustração dando formas de comunicar e quando procurar ajuda.',
+  keywords: ['atraso da fala e birras', 'criança não fala e faz birras', 'birras e atraso na fala', 'frustração por não conseguir falar', 'criança bate porque não fala', 'birras 2 anos atraso da fala'],
+  h1: 'Atraso da fala e birras: quando a frustração é <span class="word-highlight">falta de palavras</span>',
+  lead: 'A criança quer o copo azul, não o vermelho. Aponta, grita, atira-se para o chão. Para quem a acompanha, é uma birra; para ela, pode ser a única forma de dizer «não é esse». Quando faltam palavras, a frustração encontra outras saídas.',
+  blocks: [
+    { intro: 'A relação entre o <strong>atraso da fala e as birras</strong> é uma preocupação frequente das famílias. Neste artigo explicamos o que mostram os estudos, como distinguir a frustração de comunicação de outros motivos e o que ajuda a reduzir as birras. Ver também [[comportamento-dificil-quebra-comunicacao|Comportamentos difíceis e quebra de comunicação]].' },
+    { summary: [
+      'Crianças pequenas com menos palavras tendem a ter birras mais frequentes e mais intensas.',
+      'Muitas birras são uma forma de comunicar quando as palavras não chegam.',
+      'Dar à criança formas de pedir, recusar e escolher reduz a frustração.',
+      'Birras muito frequentes, longas ou com autoagressão merecem conversa com um profissional.',
+    ] },
+    { h2: 'O que mostram os estudos?', id: 'estudos', toc: 'O que mostram os estudos' },
+    { p: 'Num estudo com mais de 2000 crianças entre os 12 e os 38 meses, as que tinham <strong>vocabulário expressivo mais pequeno</strong> tinham <strong>birras mais frequentes e mais intensas</strong> do que as crianças da mesma idade com mais palavras (Manning e colegas, 2019). Os autores sublinham que birras são normais nesta idade; o que muda é a frequência e a intensidade.' },
+    { h2: 'Porque é que a falta de palavras causa frustração?', id: 'porque', toc: 'Porque frustra' },
+    { cards: [
+      ['Não consegue pedir', 'Sabe o que quer, mas não tem a palavra para o dizer.'],
+      ['Não consegue recusar', 'Sem «não», «acabou» ou «chega», a recusa sai em choro ou empurrões.'],
+      ['Não é compreendida', 'Tenta dizer, mas os adultos não percebem, e repetir não resulta.'],
+      ['Não consegue explicar', 'Dor, medo ou cansaço são difíceis de mostrar sem palavras.'],
+    ] },
+    { h2: 'O que ajuda a reduzir as birras', id: 'ajudar', toc: 'O que ajuda' },
+    { ul: [
+      'Ensine formas simples de pedir e recusar: gestos («mais», «acabou»), imagens ou palavras curtas.',
+      'Ofereça escolhas antes de a frustração começar: «Copo azul ou vermelho?».',
+      'Nomeie o que a criança sente: «Estás zangado porque queres o azul» (ver [[vocabulario-emocoes-criancas|Ensinar as emoções]]).',
+      'Antecipe mudanças com rotinas visuais (ver [[rotinas-visuais-para-criancas|Rotinas visuais]]).',
+      'Durante a birra, fale pouco e com calma; converse depois, quando estiver tranquila.',
+      'Valorize todas as tentativas de comunicar, mesmo imperfeitas.',
+    ] },
+    { alert: {
+      title: 'Fale com um profissional se as birras',
+      items: [
+        'são muito frequentes (várias vezes por dia) ou muito longas;',
+        'incluem bater com a cabeça, morder-se ou magoar outros;',
+        'acontecem também com pessoas e em sítios onde a criança está tranquila;',
+        'vêm acompanhadas de outros sinais de alerta do desenvolvimento.',
+      ],
+    } },
+    { bridge: {
+      title: 'Formas de pedir, recusar e dizer o que sente',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Dar formas de pedir e recusar.', 'No Comunicar há frases rápidas para os momentos do dia, como «Preciso de ajuda» ou «Dói aqui», ditas em voz alta.'],
+        ['Nomear o que se sente.', 'Os cartões de sentimentos permitem à criança mostrar como está, com imagem e voz.'],
+      ],
+      outro: 'A Fala+ não trata birras nem substitui o apoio de um terapeuta da fala ou psicólogo.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre atraso da fala e birras',
+  faq: [
+    ['O atraso da fala causa birras?', 'Não as causa sozinho, mas crianças com menos palavras tendem a ter birras mais frequentes e intensas, por frustração.'],
+    ['A criança bate porque não fala. O que faço?', 'Proteja todos, mantenha a calma e, depois, ensine uma forma alternativa de dizer o mesmo, como um gesto ou uma imagem.'],
+    ['As birras diminuem quando a criança começa a falar?', 'Muitas vezes, sim. Ter formas de comunicar, com ou sem palavras, ajuda a reduzir a frustração.'],
+    ['Birras frequentes podem ser sinal de autismo?', 'Sozinhas, não. Mas se há outros sinais na interação ou na comunicação, vale a pena pedir avaliação.'],
+  ],
+  sources: [
+    'Manning, Roberts, Estabrook e colegas (2019). Relations between toddler expressive language and temper tantrums in a community sample. <em>Journal of Applied Developmental Psychology</em>, 65, 101070. <a href="https://doi.org/10.1016/j.appdev.2019.101070" rel="noopener" target="_blank">doi:10.1016/j.appdev.2019.101070</a>',
+  ],
+  related: ['atraso-na-fala', 'comportamento-dificil-quebra-comunicacao', 'vocabulario-emocoes-criancas'],
+}

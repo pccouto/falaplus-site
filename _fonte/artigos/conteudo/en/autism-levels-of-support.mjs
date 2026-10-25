@@ -1,0 +1,78 @@
+export default {
+  id: 'niveis-de-suporte-autismo',
+  slug: 'autism-levels-of-support',
+  short: 'Autism levels of support',
+  date: '2026-10-25',
+  titleTag: 'Autism level 1, 2 or 3: what do the levels mean? · Talk+',
+  description: 'What autism levels 1, 2 and 3 mean in DSM-5, why they do not describe the person or their future, how they relate to ICD-11 and which questions to ask.',
+  keywords: ['autism level 1', 'autism level 2', 'autism level 3', 'autism levels of support', 'levels of autism', 'mild moderate severe autism', 'can autism level change'],
+  h1: 'Autism level 1, 2 or 3: what do the <span class="word-highlight">levels of support</span> mean?',
+  lead: 'Many diagnostic reports say “autism spectrum disorder, level 1” or “level 2”. Families immediately ask whether that is mild or severe, and what it says about the future. The answer is simpler, and more reassuring, than it seems.',
+  blocks: [
+    { intro: 'The <strong>autism levels of support</strong> were introduced in DSM-5 to describe <strong>how much support</strong> a person needs, at a given time, in two areas: social communication and restricted, repetitive behaviours. In this article we explain what <strong>autism level 1, 2 or 3</strong> means, the limits of these levels and how they relate to ICD-11.' },
+    { summary: [
+      'The level describes the intensity of support needed, not intelligence or a person’s worth.',
+      'It is given separately for social communication and for repetitive behaviours.',
+      'It can change over time, with development, support and context.',
+      'ICD-11 does not use levels: it records whether there is intellectual disability and the degree of functional language.',
+    ] },
+    { h2: 'What does each level say?', id: 'niveis', toc: 'What each level says' },
+    { table: {
+      head: ['Level', 'DSM-5 label', 'In general terms'],
+      rows: [
+        ['Level 1', 'Requiring support', 'Without support, differences in communication and flexibility cause noticeable difficulties day to day.'],
+        ['Level 2', 'Requiring substantial support', 'Marked differences, noticeable even with support, that limit participation in several situations.'],
+        ['Level 3', 'Requiring very substantial support', 'Very marked differences in communication and great difficulty coping with change, affecting almost every area.'],
+      ],
+    } },
+    { p: 'A report may, for example, state level 2 for social communication and level 1 for repetitive behaviours. It should also note whether there is associated <strong>intellectual impairment</strong> and <strong>language impairment</strong> (American Psychiatric Association, 2022). See also [[criterios-diagnosticos-autismo-interpretar-relatorio|Autism criteria: how to read the report]].' },
+    { h2: 'What the levels do not say', id: 'limites', toc: 'What the levels do not say' },
+    { evidence: {
+      yesTitle: 'The levels say',
+      noTitle: 'The levels do not say',
+      yes: [
+        'How intense the support needs to be now.',
+        'In which area support is most needed.',
+        'A reference for planning support.',
+      ],
+      no: [
+        '“Level 1 is mild autism with no needs.”',
+        '“The level is permanent.”',
+        '“The level predicts the child’s intelligence or future.”',
+      ],
+    } },
+    { p: 'One study showed that level assignment varies considerably and does not always match the severity measures used in assessment, reinforcing that <strong>levels are a clinical description, not an exact measurement</strong> (Weitlauf and colleagues, 2014). A child at “level 1” may have significant needs, for example around anxiety or learning.' },
+    { h2: 'What about ICD-11?', id: 'cid', toc: 'What about ICD-11' },
+    { p: 'The International Classification of Diseases (ICD-11), used in many health systems, codes autism spectrum disorder as <strong>6A02</strong> and describes two dimensions: whether there is a <strong>disorder of intellectual development</strong> and the degree of <strong>functional language</strong>. It does not use levels 1, 2 and 3 (see [[codigos-diagnostico-fala-cid|What diagnosis codes in a report mean]]).' },
+    { h2: 'Useful questions for the appointment', id: 'perguntas', toc: 'Questions for the appointment' },
+    { ul: [
+      'In which specific situations does the child need more support?',
+      'What support do you recommend at school and at home?',
+      'When should we reassess?',
+      'What strengths did you observe?',
+    ] },
+    { bridge: {
+      title: 'Support tailored to the child',
+      intro: 'Some ideas in the article have a parallel in app features:',
+      items: [
+        ['Support should fit each child’s needs.', 'In the Adult Area you choose the words, content and settings for each profile; in the games, difficulty adjusts to performance.'],
+        ['Communicating in several ways.', 'In Communicate, the child combines picture and voice cards to build messages.'],
+      ],
+      outro: 'Talk+ does not assign levels, does not assess autism and does not replace the team supporting the child.',
+    } },
+    { note: 'For information only. It does not replace an individual assessment or advice from a health professional.' },
+  ],
+  faqTitle: 'Frequently asked questions about autism levels',
+  faq: [
+    ['Is level 1 autism mild autism?', 'Not exactly. It means the person needs support, but their needs can still be significant, especially in demanding situations.'],
+    ['Can an autism level change?', 'Yes. It describes needs at one point in time and can change with development, support and context.'],
+    ['What is the difference between level 2 and level 3?', 'Level 3 corresponds to a need for very substantial support, affecting almost every area; level 2 to substantial support.'],
+    ['Why does the report have no level?', 'Some professionals use ICD-11, which has no levels, or prefer to describe needs in detail.'],
+  ],
+  sources: [
+    'American Psychiatric Association (2022). <em>Diagnostic and Statistical Manual of Mental Disorders</em>, 5th edition, text revision (DSM-5-TR).',
+    'Weitlauf, Gotham, Vehorn and Warren (2014). Brief report: DSM-5 “levels of support:” a comment on discrepant conceptualizations of severity in ASD. <em>Journal of Autism and Developmental Disorders</em>, 44(2), 471–476. <a href="https://doi.org/10.1007/s10803-013-1882-z" rel="noopener" target="_blank">doi:10.1007/s10803-013-1882-z</a>',
+    'World Health Organization. ICD-11, 6A02 Autism spectrum disorder. <a href="https://icd.who.int/browse/2024-01/mms/en" rel="noopener" target="_blank">icd.who.int</a>',
+  ],
+  related: ['criterios-diagnosticos-autismo-interpretar-relatorio', 'avaliacao-diagnostica-autismo-o-que-inclui', 'compreender-relatorio-clinico-perguntas'],
+}

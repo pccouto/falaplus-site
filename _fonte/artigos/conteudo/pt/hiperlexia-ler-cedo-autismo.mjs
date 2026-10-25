@@ -1,0 +1,73 @@
+export default {
+  slug: 'hiperlexia-ler-cedo-autismo',
+  short: 'Hiperlexia',
+  date: '2026-10-25',
+  titleTag: 'Hiperlexia: ler muito cedo e compreender pouco · Fala+',
+  description: 'O que é a hiperlexia, como se relaciona com o autismo e com as dificuldades de linguagem, e como usar o gosto pelas letras para apoiar a compreensão e a comunicação.',
+  keywords: ['hiperlexia', 'hiperlexia autismo', 'criança lê cedo', 'criança conhece as letras aos 2 anos', 'leitura precoce', 'hiperlexia sinais'],
+  h1: 'Hiperlexia: quando a criança lê muito cedo, mas <span class="word-highlight">compreende pouco</span>',
+  lead: 'Há crianças de 2 ou 3 anos que reconhecem todas as letras, leem números e até palavras inteiras, muitas vezes sem ninguém lhes ter ensinado. Quando esta facilidade contrasta com dificuldades em falar e compreender, os profissionais falam em hiperlexia.',
+  blocks: [
+    { intro: 'A <strong>hiperlexia</strong> descreve uma capacidade de descodificar letras e palavras muito acima do esperado para a idade, acompanhada de uma compreensão da linguagem bem mais limitada. Neste artigo explicamos o que se sabe sobre a <strong>hiperlexia e o autismo</strong>, que sinais costumam aparecer e como transformar o interesse pelas letras numa ponte para a comunicação.' },
+    { summary: [
+      'Na hiperlexia, a criança lê (descodifica) muito cedo, mas compreende pouco do que lê.',
+      'É descrita sobretudo em crianças autistas, mas não é um diagnóstico por si só.',
+      'A compreensão da leitura tende a acompanhar a compreensão da linguagem oral.',
+      'O gosto pelas letras pode ser usado como ponto forte para apoiar a comunicação.',
+    ] },
+    { h2: 'O que caracteriza a hiperlexia?', id: 'sinais', toc: 'O que caracteriza a hiperlexia' },
+    { ul: [
+      'Interesse intenso e precoce por letras, números, logótipos ou sinais.',
+      'Leitura de palavras antes dos 5 anos, muitas vezes sem ensino formal.',
+      'Compreensão do que lê bem abaixo da capacidade de descodificar.',
+      'Dificuldades na linguagem oral, na conversa ou na interação social.',
+    ] },
+    { p: 'Uma revisão sistemática estimou que a hiperlexia surge em <strong>6% a 20% das crianças autistas</strong> e propôs que seja vista como uma <strong>capacidade superior</strong> de descodificação, e não apenas como um défice (Ostrolenk e colegas, 2017). Ler cedo, por si só, não é sinal de problema: muitas crianças leem cedo e compreendem bem.' },
+    { h2: 'Hiperlexia significa autismo?', id: 'autismo', toc: 'Hiperlexia e autismo' },
+    { p: 'Não necessariamente. A hiperlexia é descrita sobretudo no autismo, mas também pode aparecer noutras dificuldades de linguagem. Não é um diagnóstico separado nas classificações atuais. Se a leitura precoce vem acompanhada de pouca fala, pouca resposta ao nome ou dificuldades na interação, vale a pena pedir uma avaliação do desenvolvimento.' },
+    { evidence: {
+      yesTitle: 'O que se pode dizer',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A hiperlexia é mais frequente em crianças autistas.',
+        'A descodificação precoce é uma competência real e útil.',
+        'A compreensão precisa de ser apoiada à parte da leitura.',
+      ],
+      no: [
+        '«Toda a criança que lê cedo é autista.»',
+        '«Se lê, então compreende.»',
+        '«A hiperlexia passa sozinha e não precisa de apoio.»',
+      ],
+    } },
+    { h2: 'Como apoiar uma criança com hiperlexia', id: 'apoiar', toc: 'Como apoiar' },
+    { ul: [
+      'Use as palavras escritas como apoio: etiquetas em objetos, horários escritos, cartões com palavra e imagem.',
+      'Ligue cada palavra lida ao seu significado: mostre o objeto, a ação ou a fotografia.',
+      'Faça perguntas simples sobre o que leram juntos («Quem?», «Onde?») e responda com o modelo, se a criança não souber.',
+      'Escreva frases curtas que a criança possa ler para pedir ou comentar.',
+      'Peça ao terapeuta da fala objetivos de compreensão, e não só de leitura.',
+    ] },
+    { bridge: {
+      title: 'Letras, imagens e voz juntas',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Ligar a palavra escrita ao significado.', 'Os cartões do Comunicar juntam imagem, palavra e voz; o teclado e a pesquisa permitem encontrar e escrever palavras.'],
+        ['Partir de um ponto forte da criança.', 'O perfil indica se a criança já sabe ler, e a app propõe percursos diferentes para quem lê e para quem ainda não lê.'],
+      ],
+      outro: 'A Fala+ não avalia a leitura nem a compreensão e não substitui a avaliação de um profissional.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre hiperlexia',
+  faq: [
+    ['O que é hiperlexia?', 'É a capacidade de ler (descodificar) palavras muito cedo, acompanhada de uma compreensão da linguagem bem mais limitada.'],
+    ['A minha criança conhece as letras aos 2 anos. É hiperlexia?', 'Não necessariamente. Conhecer letras cedo é comum. O que conta é se a leitura contrasta com dificuldades em falar, compreender ou interagir.'],
+    ['Hiperlexia é sinal de autismo?', 'É mais frequente no autismo, mas não basta para o diagnóstico. Só uma avaliação do desenvolvimento esclarece.'],
+    ['Devo evitar que a criança leia?', 'Não. O interesse pelas letras é um ponto forte que pode ser usado para apoiar a compreensão e a comunicação.'],
+  ],
+  sources: [
+    'Ostrolenk, Forgeot d’Arc, Jelenic, Samson e Mottron (2017). Hyperlexia: Systematic review, neurocognitive modelling, and outcome. <em>Neuroscience & Biobehavioral Reviews</em>, 79, 134–149. <a href="https://doi.org/10.1016/j.neubiorev.2017.04.029" rel="noopener" target="_blank">doi:10.1016/j.neubiorev.2017.04.029</a>',
+    'Newman, Macomber, Naples, Babitz, Volkmar e Grigorenko (2007). Hyperlexia in children with autism spectrum disorders. <em>Journal of Autism and Developmental Disorders</em>, 37(4), 760–774.',
+  ],
+  related: ['atraso-na-fala-ou-autismo', 'jogos-para-aprender-a-ler', 'compreensao-linguagem-recetiva'],
+}

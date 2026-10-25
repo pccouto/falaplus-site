@@ -1,0 +1,68 @@
+export default {
+  id: 'atraso-da-fala-birras-frustracao',
+  slug: 'speech-delay-and-tantrums',
+  short: 'Speech delay and tantrums',
+  date: '2026-10-25',
+  titleTag: 'Speech delay and tantrums: when frustration is a lack of words · Talk+',
+  description: 'Speech delay and tantrums: why children with fewer words have more tantrums, how to reduce frustration by offering ways to communicate and when to seek help.',
+  keywords: ['speech delay and tantrums', 'toddler not talking tantrums', 'speech delay behaviour problems', 'frustration from not being able to talk', 'child hits because cannot talk', 'tantrums at 2 speech delay'],
+  h1: 'Speech delay and tantrums: when frustration is <span class="word-highlight">a lack of words</span>',
+  lead: 'The child wants the blue cup, not the red one. They point, shout, throw themselves on the floor. To the adult it is a tantrum; to the child it may be the only way to say “not that one”. When words are missing, frustration finds other outlets.',
+  blocks: [
+    { intro: 'The link between <strong>speech delay and tantrums</strong> is a common worry for families. In this article we explain what studies show, how to tell communication frustration from other reasons and what helps reduce tantrums. See also [[comportamento-dificil-quebra-comunicacao|Challenging behaviour and communication breakdown]].' },
+    { summary: [
+      'Young children with fewer words tend to have more frequent and more intense tantrums.',
+      'Many tantrums are a way of communicating when words do not come.',
+      'Giving the child ways to ask, refuse and choose reduces frustration.',
+      'Very frequent or long tantrums, or self-injury, are worth discussing with a professional.',
+    ] },
+    { h2: 'What do studies show?', id: 'estudos', toc: 'What studies show' },
+    { p: 'In a study of more than 2,000 children aged 12 to 38 months, those with a <strong>smaller expressive vocabulary</strong> had <strong>more frequent and more intense tantrums</strong> than same-age children with more words (Manning and colleagues, 2019). The authors stress that tantrums are normal at this age; what differs is how often and how intense they are.' },
+    { h2: 'Why does a lack of words cause frustration?', id: 'porque', toc: 'Why it frustrates' },
+    { cards: [
+      ['Cannot ask', 'They know what they want but do not have the word to say it.'],
+      ['Cannot refuse', 'Without “no”, “all done” or “stop”, refusal comes out as crying or pushing.'],
+      ['Not understood', 'They try to say it, but adults do not understand, and repeating does not work.'],
+      ['Cannot explain', 'Pain, fear or tiredness are hard to show without words.'],
+    ] },
+    { h2: 'What helps reduce tantrums', id: 'ajudar', toc: 'What helps' },
+    { ul: [
+      'Teach simple ways to ask and refuse: signs (“more”, “all done”), pictures or short words.',
+      'Offer choices before frustration builds: “Blue cup or red?”.',
+      'Name what the child feels: “You’re angry because you want the blue one” (see [[vocabulario-emocoes-criancas|Teaching emotions]]).',
+      'Prepare for changes with visual routines (see [[rotinas-visuais-para-criancas|Visual routines]]).',
+      'During a tantrum, say little and stay calm; talk afterwards, when the child is settled.',
+      'Value every attempt to communicate, even imperfect ones.',
+    ] },
+    { alert: {
+      title: 'Talk to a professional if tantrums',
+      items: [
+        'are very frequent (several times a day) or very long;',
+        'include head banging, self-biting or hurting others;',
+        'also happen with people and in places where the child is usually calm;',
+        'come with other developmental warning signs.',
+      ],
+    } },
+    { bridge: {
+      title: 'Ways to ask, refuse and say how they feel',
+      intro: 'Some ideas in the article are echoed in app features:',
+      items: [
+        ['Offering ways to ask and refuse.', 'In Communicate there are quick phrases for moments of the day, such as “I need help” or “It hurts here”, spoken aloud.'],
+        ['Naming feelings.', 'Feelings cards let the child show how they are, with picture and voice.'],
+      ],
+      outro: 'Talk+ does not treat tantrums and does not replace support from a speech and language therapist or psychologist.',
+    } },
+    { note: 'For information only. It does not replace an individual assessment or advice from a health professional.' },
+  ],
+  faqTitle: 'Frequently asked questions about speech delay and tantrums',
+  faq: [
+    ['Does speech delay cause tantrums?', 'Not on its own, but children with fewer words tend to have more frequent and intense tantrums, out of frustration.'],
+    ['The child hits because they cannot talk. What should I do?', 'Keep everyone safe, stay calm and afterwards teach another way to say the same thing, such as a sign or a picture.'],
+    ['Do tantrums lessen when the child starts talking?', 'Often, yes. Having ways to communicate, with or without words, helps reduce frustration.'],
+    ['Can frequent tantrums be a sign of autism?', 'Not on their own. But if there are other signs in interaction or communication, an assessment is worthwhile.'],
+  ],
+  sources: [
+    'Manning, Roberts, Estabrook and colleagues (2019). Relations between toddler expressive language and temper tantrums in a community sample. <em>Journal of Applied Developmental Psychology</em>, 65, 101070. <a href="https://doi.org/10.1016/j.appdev.2019.101070" rel="noopener" target="_blank">doi:10.1016/j.appdev.2019.101070</a>',
+  ],
+  related: ['atraso-na-fala', 'comportamento-dificil-quebra-comunicacao', 'vocabulario-emocoes-criancas'],
+}

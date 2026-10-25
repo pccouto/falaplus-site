@@ -1,0 +1,68 @@
+export default {
+  slug: 'consciencia-fonologica-rimas-silabas',
+  short: 'Consciência fonológica',
+  date: '2026-10-25',
+  titleTag: 'Consciência fonológica: rimas, sílabas e sons · Fala+',
+  description: 'O que é a consciência fonológica, como se desenvolve dos 3 aos 6 anos, porque prepara a leitura e jogos simples de rimas, sílabas e sons para fazer em casa.',
+  keywords: ['consciência fonológica', 'consciência fonológica atividades', 'jogos de rimas', 'dividir palavras em sílabas', 'consciência fonémica', 'pré-leitura', 'consciência silábica'],
+  h1: 'Consciência fonológica: rimas, sílabas e sons <span class="word-highlight">antes de ler</span>',
+  lead: 'Antes de aprender a ler, a criança precisa de perceber que as palavras são feitas de pedaços: sílabas e sons que se podem contar, trocar e juntar. A essa capacidade de «brincar» com os sons da língua chama-se consciência fonológica.',
+  blocks: [
+    { intro: 'A <strong>consciência fonológica</strong> é uma das bases mais estudadas da aprendizagem da leitura. Neste artigo explicamos os seus níveis, o que é esperado em cada idade e propomos <strong>atividades de consciência fonológica</strong> simples, com rimas, sílabas e sons, para fazer em casa ou na sala.' },
+    { summary: [
+      'A consciência fonológica é perceber e manipular os sons das palavras, sem olhar para letras.',
+      'Desenvolve-se das unidades maiores (palavras, sílabas, rimas) para as menores (sons).',
+      'É um dos melhores preditores da leitura, e pode ser treinada com jogos curtos.',
+      'Crianças com atraso na fala podem precisar de mais apoio nesta área.',
+    ] },
+    { h2: 'Os níveis da consciência fonológica', id: 'niveis', toc: 'Os níveis' },
+    { table: {
+      head: ['Nível', 'O que a criança faz', 'Exemplo'],
+      rows: [
+        ['Palavras', 'Percebe que uma frase tem várias palavras.', '«O gato dorme» tem três palavras.'],
+        ['Sílabas', 'Divide e junta sílabas.', 'Bater palmas: ca-ne-ca.'],
+        ['Rimas', 'Reconhece e cria rimas.', '«Pão» rima com «cão».'],
+        ['Sons iniciais', 'Identifica o primeiro som.', '«Mala» e «mota» começam por /m/.'],
+        ['Fonemas', 'Separa, junta e troca sons.', '/s/ /o/ /l/ dá «sol».'],
+      ],
+    } },
+    { p: 'Por volta dos <strong>3–4 anos</strong>, muitas crianças já dividem palavras em sílabas e gostam de rimas; aos <strong>5–6 anos</strong>, começam a identificar sons iniciais. A manipulação de sons isolados costuma consolidar-se com a aprendizagem formal da leitura. Cada criança tem o seu ritmo.' },
+    { h2: 'Porque é que é tão importante?', id: 'leitura', toc: 'Porque é importante' },
+    { p: 'Uma meta-análise mostrou que a <strong>consciência fonémica</strong> é um dos preditores mais fortes da leitura (Melby-Lervåg, Lyster e Hulme, 2012), e outra concluiu que ensiná-la de forma explícita melhora a leitura, sobretudo quando é feita em sessões curtas e ligada às letras (Ehri e colegas, 2001). Ver também [[atraso-na-fala-leitura-dislexia|Atraso na fala, leitura e dislexia]].' },
+    { h2: 'Jogos simples para fazer em casa', id: 'jogos', toc: 'Jogos para casa' },
+    { cards: [
+      ['Palmas das sílabas', 'Diga o nome da criança e de familiares batendo uma palma por sílaba. Quem tem o nome mais comprido?'],
+      ['Caça às rimas', 'Leia uma lengalenga e pare antes da rima para a criança completar.'],
+      ['Saco dos sons', 'Junte objetos que começam pelo mesmo som (mala, meia, mota) e descubram o intruso.'],
+      ['Palavras robô', 'Diga uma palavra devagar, aos bocadinhos («sa… pa… to»), e a criança adivinha.'],
+      ['Eu vejo...', 'Na rua: «Eu vejo uma coisa que começa por /b/».'],
+    ] },
+    { ul: [
+      'Jogue poucos minutos de cada vez, a brincar, e pare antes de a criança se cansar.',
+      'Use os sons, não os nomes das letras: /m/, e não «mê».',
+      'Se a criança tem dificuldades de fala, comece pelas sílabas e rimas e peça orientação ao terapeuta da fala.',
+    ] },
+    { bridge: {
+      title: 'Sílabas e sons em formato de jogo',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Brincar com sílabas e sons em rondas curtas.', 'Os jogos da Fala+ incluem atividades de sons e sílabas, com instruções faladas e 20 níveis de dificuldade.'],
+        ['Adaptar a atividade a quem ainda não lê.', 'Há percursos diferentes para crianças que ainda não sabem ler e para as que já leem.'],
+      ],
+      outro: 'A Fala+ não avalia a consciência fonológica nem prevê dificuldades de leitura. Nada substitui os jogos de palavras com um adulto.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um terapeuta da fala ou professor.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre consciência fonológica',
+  faq: [
+    ['O que é a consciência fonológica?', 'É a capacidade de perceber e manipular os sons das palavras: contar sílabas, reconhecer rimas, identificar e juntar sons.'],
+    ['Com que idade se começa a trabalhar?', 'Jogos de rimas e sílabas podem começar por volta dos 3 anos, sempre a brincar e sem pressão.'],
+    ['Consciência fonológica e fonémica são a mesma coisa?', 'Não. A fonémica é o nível mais fino, dos sons isolados; a fonológica inclui também palavras, sílabas e rimas.'],
+    ['A minha criança não consegue rimar aos 5 anos. É preocupante?', 'Pode valer a pena falar com o educador ou o terapeuta da fala, sobretudo se houver também dificuldades de fala.'],
+  ],
+  sources: [
+    'Melby-Lervåg, Lyster e Hulme (2012). Phonological skills and their role in learning to read: a meta-analytic review. <em>Psychological Bulletin</em>, 138(2), 322–352. <a href="https://doi.org/10.1037/a0026744" rel="noopener" target="_blank">doi:10.1037/a0026744</a>',
+    'Ehri, Nunes, Willows, Schuster, Yaghoub-Zadeh e Shanahan (2001). Phonemic awareness instruction helps children learn to read: Evidence from the National Reading Panel’s meta-analysis. <em>Reading Research Quarterly</em>, 36(3), 250–287. <a href="https://doi.org/10.1598/RRQ.36.3.2" rel="noopener" target="_blank">doi:10.1598/RRQ.36.3.2</a>',
+  ],
+  related: ['jogos-para-aprender-a-ler', 'atraso-na-fala-leitura-dislexia', 'musica-cancoes-linguagem'],
+}

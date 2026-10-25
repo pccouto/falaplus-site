@@ -1,0 +1,73 @@
+export default {
+  slug: 'estereotipias-autismo-stimming',
+  short: 'Estereotipias e stimming',
+  date: '2026-10-25',
+  titleTag: 'Estereotipias e stimming: porque a criança abana as mãos? · Fala+',
+  description: 'O que são estereotipias motoras e stimming, porque aparecem no autismo e no desenvolvimento típico, que funções podem ter e quando faz sentido intervir.',
+  keywords: ['estereotipias', 'stimming', 'criança abana as mãos', 'estereotipias autismo', 'flapping', 'movimentos repetitivos criança', 'bater as mãos quando está contente'],
+  h1: 'Estereotipias e «stimming»: porque é que a criança <span class="word-highlight">abana as mãos</span>?',
+  lead: 'Abanar as mãos quando está contente, balançar o corpo, rodar sobre si mesma, repetir um som. Estes movimentos chamam-se estereotipias e, na comunidade autista, «stimming». São frequentes, muitas vezes têm uma função e nem sempre precisam de ser travados.',
+  blocks: [
+    { intro: 'As <strong>estereotipias</strong> são movimentos ou sons repetitivos, como <strong>abanar as mãos</strong> (o chamado <em>flapping</em>), balançar, saltar ou repetir palavras. São uma das características descritas no autismo, mas também aparecem em crianças com desenvolvimento típico. Neste artigo explicamos o que se sabe sobre o <strong>stimming</strong> e como distinguir o que é para aceitar do que merece apoio.' },
+    { summary: [
+      'Movimentos repetitivos são comuns na infância e não bastam, sozinhos, para um diagnóstico.',
+      'No autismo, o stimming pode ajudar a regular emoções, lidar com estímulos ou exprimir alegria.',
+      'Pessoas autistas adultas descrevem o stimming como útil e pedem que não seja reprimido sem motivo.',
+      'Só faz sentido intervir quando há dano, risco ou grande impacto na participação.',
+    ] },
+    { h2: 'O que são as estereotipias?', id: 'definicao', toc: 'O que são' },
+    { cards: [
+      ['Motoras', 'Abanar as mãos, balançar, rodar, saltar, mexer os dedos à frente dos olhos.'],
+      ['Vocais', 'Repetir sons, palavras ou frases, cantarolar.'],
+      ['Com objetos', 'Rodar objetos, alinhar brinquedos, abrir e fechar portas.'],
+      ['Sensoriais', 'Cheirar, tocar texturas, procurar pressão ou movimento.'],
+    ] },
+    { p: 'Estes comportamentos fazem parte dos critérios de diagnóstico do autismo, juntamente com interesses intensos e preferência por rotinas, mas <strong>só têm significado clínico quando aparecem em conjunto</strong> com diferenças na comunicação e interação social (American Psychiatric Association, 2022). Muitas crianças pequenas sem autismo abanam as mãos quando estão entusiasmadas.' },
+    { h2: 'Para que serve o stimming?', id: 'funcao', toc: 'Para que serve' },
+    { p: 'Num estudo com adultos autistas, os participantes descreveram o stimming como uma forma de <strong>acalmar a ansiedade</strong>, de <strong>lidar com excesso de estímulos</strong>, de <strong>concentrar-se</strong> e de <strong>exprimir emoções</strong>, incluindo alegria. Muitos relataram que ser impedidos de o fazer na infância foi angustiante (Kapp e colegas, 2019).' },
+    { p: 'Por isso, observar <strong>quando</strong> o stimming aparece ajuda a perceber o que a criança está a sentir: excitação, cansaço, barulho, espera, frustração.' },
+    { h2: 'Quando faz sentido intervir?', id: 'intervir', toc: 'Quando intervir' },
+    { evidence: {
+      yesTitle: 'Pode merecer apoio',
+      noTitle: 'Normalmente não precisa de ser travado',
+      yes: [
+        'Quando a criança se magoa (bater com a cabeça, morder-se).',
+        'Quando há risco para a segurança.',
+        'Quando o comportamento impede aprender ou participar de forma muito marcada.',
+      ],
+      no: [
+        'Abanar as mãos de alegria.',
+        'Balançar para se acalmar.',
+        'Repetir sons ou frases preferidas.',
+      ],
+    } },
+    { ul: [
+      'Procure a causa: o ambiente está muito barulhento? A criança está à espera sem saber de quê?',
+      'Reduza estímulos e antecipe mudanças com apoios visuais (ver [[rotinas-visuais-para-criancas|Rotinas visuais]]).',
+      'Se o stimming é perigoso, procure com o terapeuta uma alternativa que cumpra a mesma função, em vez de o proibir.',
+      'Se ainda não há avaliação e há outros sinais, fale com o médico (ver [[atraso-na-fala-ou-autismo|Atraso na fala ou autismo?]]).',
+    ] },
+    { bridge: {
+      title: 'Ambientes mais calmos e previsíveis',
+      intro: 'Algumas ideias do artigo encontram eco em funções da app:',
+      items: [
+        ['Reduzir estímulos quando a criança está sobrecarregada.', 'O modo calmo reduz os estímulos visuais durante a utilização.'],
+        ['Dar formas de dizer o que sente.', 'No Comunicar há cartões de sentimentos e frases rápidas, ditas em voz alta com um toque.'],
+      ],
+      outro: 'A Fala+ não avalia comportamentos nem substitui a orientação de profissionais que acompanham a criança.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um profissional de saúde.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre estereotipias',
+  faq: [
+    ['A minha criança abana as mãos quando está contente. É autismo?', 'Não necessariamente. É comum em crianças pequenas. Só tem significado quando aparece com diferenças na comunicação e interação social.'],
+    ['Devo impedir o stimming?', 'Em geral, não. Só faz sentido intervir quando há dano, risco ou grande impacto na participação.'],
+    ['As estereotipias passam com a idade?', 'Algumas diminuem, outras mudam de forma. Muitas pessoas autistas mantêm formas de stimming ao longo da vida.'],
+    ['Estereotipias e tiques são a mesma coisa?', 'Não. Os tiques são movimentos rápidos e involuntários; as estereotipias costumam ser mais rítmicas e ligadas ao estado emocional. Um médico pode distinguir.'],
+  ],
+  sources: [
+    'Kapp, Steward, Crane, Elliott, Elphick, Pellicano e Russell (2019). ‘People should be allowed to do what they like’: Autistic adults’ views and experiences of stimming. <em>Autism</em>, 23(7), 1782–1792. <a href="https://doi.org/10.1177/1362361319829628" rel="noopener" target="_blank">doi:10.1177/1362361319829628</a>',
+    'American Psychiatric Association (2022). <em>Diagnostic and Statistical Manual of Mental Disorders</em>, 5.ª edição, texto revisto (DSM-5-TR).',
+  ],
+  related: ['autismo-e-comunicacao', 'sala-aula-acessivel-perfil-sensorial', 'comportamento-dificil-quebra-comunicacao'],
+}

@@ -1,0 +1,73 @@
+export default {
+  id: 'teste-audicao-criancas',
+  slug: 'hearing-tests-for-children',
+  short: 'Hearing tests for children',
+  date: '2026-10-25',
+  titleTag: 'Hearing tests for children: when to ask and which tests exist · Talk+',
+  description: 'Why hearing is checked when there is a speech delay, which tests exist at each age (OAE, ABR, audiometry, tympanometry) and what passing the newborn screen really means.',
+  keywords: ['hearing test for child', 'baby hearing test', 'paediatric audiology', 'otoacoustic emissions', 'newborn hearing screening', 'ABR test', 'tympanometry', 'child not hearing well'],
+  h1: 'Hearing tests for children: when to ask and which <span class="word-highlight">tests</span> exist',
+  lead: 'Good hearing is the gateway to speech. So whenever there is a concern about language, one of the first questions professionals ask is: “Has hearing been checked?” Even if the baby passed the newborn screen.',
+  blocks: [
+    { intro: 'Asking for a <strong>hearing test for a child</strong> is a simple, painless step that helps rule out, or find early, an important cause of speech delay. In this article we explain which <strong>hearing tests</strong> exist at each age, what they show and why a normal newborn screen does not rule out a new assessment.' },
+    { summary: [
+      'Any speech delay should include a hearing assessment.',
+      'Passing the newborn screen does not rule out hearing loss that appears or progresses later.',
+      'There are tests suited to every age, from newborns to school age.',
+      'The earlier hearing loss is identified, the better the outlook for language development.',
+    ] },
+    { h2: 'When to ask for a hearing assessment', id: 'quando', toc: 'When to ask' },
+    { ul: [
+      'There is a speech delay or speech is hard to understand for the child’s age.',
+      'The child does not react to sounds, does not turn when called or often asks for repetition.',
+      'They turn the TV up very loud or move close to sound sources.',
+      'They have frequent ear infections or seem to have “blocked” ears (see [[otite-serosa-e-fala|Glue ear and speech]]).',
+      'There has been meningitis, a neonatal unit stay, cytomegalovirus infection or a family history of childhood deafness.',
+    ] },
+    { h2: 'Which tests exist?', id: 'exames', toc: 'Which tests exist' },
+    { table: {
+      head: ['Test', 'Usual age', 'What it checks'],
+      rows: [
+        ['Otoacoustic emissions (OAE)', 'From birth', 'The inner ear’s response; quick and done while the child is calm.'],
+        ['Auditory brainstem response (ABR)', 'From birth', 'The hearing nerve’s response, without needing the child’s cooperation.'],
+        ['Tympanometry', 'Any age', 'How the eardrum moves; detects fluid in the middle ear.'],
+        ['Visual reinforcement audiometry', 'About 6 months to 2–3 years', 'The child turns to the sound and is “rewarded” with a picture or light.'],
+        ['Play audiometry', 'About 2–3 to 5 years', 'The child makes a game move (drops a block) every time they hear a sound.'],
+        ['Pure-tone audiometry', 'From about age 5', 'The child raises a hand or presses a button when they hear.'],
+      ],
+    } },
+    { p: 'The choice of test depends on the child’s age and cooperation. It is usually requested by the GP or paediatrician and carried out by an audiologist, often together with an ear, nose and throat (ENT) team.' },
+    { h2: 'They passed the newborn screen. Is that enough?', id: 'rastreio', toc: 'The newborn screen' },
+    { p: 'Newborn hearing screening is very important, but it is not definitive. Some types of hearing loss are <strong>progressive or late-onset</strong>, and ear infections can lower hearing temporarily. International guidelines recommend monitoring hearing throughout childhood and reassessing whenever there is a concern about speech (Joint Committee on Infant Hearing, 2019).' },
+    { alert: {
+      title: 'Ask for an assessment promptly if',
+      items: [
+        'the baby does not startle at loud noises or settle to their parents’ voices;',
+        'the child has stopped responding to sounds they used to respond to;',
+        'words or speech that were there have been lost.',
+      ],
+    } },
+    { bridge: {
+      title: 'Listening closely, through play',
+      intro: 'Some ideas in the article have a parallel in app features:',
+      items: [
+        ['Notice how the child reacts to sounds.', 'In Play there are musical instruments and fun sounds to explore with an adult alongside.'],
+        ['Support understanding with pictures.', 'In the games and in Communicate, every word comes with a picture and a voice.'],
+      ],
+      outro: 'Talk+ does not test hearing. If you have doubts about a child’s hearing, ask a doctor for an assessment.',
+    } },
+    { note: 'For information only. It does not replace an individual assessment or advice from a health professional.' },
+  ],
+  faqTitle: 'Frequently asked questions about hearing tests',
+  faq: [
+    ['At what age can a hearing test be done?', 'At any age. Newborns have OAE or ABR tests; older children have audiometry adapted to their age.'],
+    ['Does a hearing test hurt?', 'No. The tests are painless; some just need the child to be calm or asleep.'],
+    ['My baby passed the newborn screen. Could they still have hearing loss?', 'Yes. Some hearing loss appears or worsens later, and ear infections can lower hearing. If in doubt, reassess.'],
+    ['Who requests the test?', 'Usually the GP or paediatrician, who refers to audiology or ENT.'],
+  ],
+  sources: [
+    'Joint Committee on Infant Hearing (2019). Year 2019 Position Statement: Principles and Guidelines for Early Hearing Detection and Intervention Programs. <em>Journal of Early Hearing Detection and Intervention</em>, 4(2), 1–44. <a href="https://doi.org/10.15142/fptk-b748" rel="noopener" target="_blank">doi:10.15142/fptk-b748</a>',
+    'World Health Organization (2021). World report on hearing. <a href="https://www.who.int/publications/i/item/9789240020481" rel="noopener" target="_blank">who.int</a>',
+  ],
+  related: ['otite-serosa-e-fala', 'pac-vs-dificuldades-audicao', 'atraso-na-fala'],
+}

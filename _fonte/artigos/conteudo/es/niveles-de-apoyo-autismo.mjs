@@ -1,0 +1,78 @@
+export default {
+  id: 'niveis-de-suporte-autismo',
+  slug: 'niveles-de-apoyo-autismo',
+  short: 'Niveles de apoyo en el autismo',
+  date: '2026-10-25',
+  titleTag: 'Autismo grado 1, 2 o 3: ¿qué significan los niveles? · Habla+',
+  description: 'Qué significan los grados o niveles 1, 2 y 3 de apoyo en el autismo según el DSM-5, por qué no describen a la persona ni su futuro, cómo se relacionan con la CIE-11 y qué preguntar.',
+  keywords: ['autismo grado 1', 'autismo grado 2', 'autismo grado 3', 'niveles de apoyo autismo', 'grados de autismo', 'autismo leve moderado severo', 'el grado de autismo cambia'],
+  h1: 'Autismo grado 1, 2 o 3: ¿qué significan los <span class="word-highlight">niveles de apoyo</span>?',
+  lead: 'Muchos informes de diagnóstico indican «trastorno del espectro autista, grado 1» o «grado 2». Las familias preguntan enseguida si eso es leve o grave, y qué dice sobre el futuro. La respuesta es más sencilla, y más tranquilizadora, de lo que parece.',
+  blocks: [
+    { intro: 'Los <strong>niveles de apoyo en el autismo</strong>, que en español se suelen llamar «grados», se introdujeron en el DSM-5 para describir <strong>cuánto apoyo</strong> necesita una persona, en un momento dado, en dos áreas: comunicación social y comportamientos restringidos y repetitivos. En este artículo explicamos qué significa <strong>autismo grado 1, 2 o 3</strong>, los límites de estos niveles y cómo se relacionan con la CIE-11.' },
+    { summary: [
+      'El grado describe la intensidad del apoyo necesario, no la inteligencia ni el valor de la persona.',
+      'Se asigna por separado para la comunicación social y para los comportamientos repetitivos.',
+      'Puede cambiar con el tiempo, con el desarrollo, los apoyos y el contexto.',
+      'La CIE-11 no usa grados: describe si hay discapacidad intelectual y el nivel de lenguaje funcional.',
+    ] },
+    { h2: '¿Qué dice cada grado?', id: 'niveis', toc: 'Qué dice cada grado' },
+    { table: {
+      head: ['Grado', 'Denominación en el DSM-5', 'En términos generales'],
+      rows: [
+        ['Grado 1', 'Necesita ayuda', 'Sin apoyo, las diferencias en la comunicación y la flexibilidad causan dificultades visibles en el día a día.'],
+        ['Grado 2', 'Necesita ayuda notable', 'Diferencias marcadas, que se notan incluso con apoyo y limitan la participación en varias situaciones.'],
+        ['Grado 3', 'Necesita ayuda muy notable', 'Diferencias muy marcadas en la comunicación y gran dificultad para afrontar cambios, con impacto en casi todas las áreas.'],
+      ],
+    } },
+    { p: 'El informe puede indicar, por ejemplo, grado 2 en comunicación social y grado 1 en comportamientos repetitivos. También debe señalar si hay <strong>alteración intelectual</strong> y <strong>alteración del lenguaje</strong> asociadas (American Psychiatric Association, 2022). Ver también [[criterios-diagnosticos-autismo-interpretar-relatorio|Criterios de autismo: cómo leer el informe]].' },
+    { h2: 'Lo que los grados no dicen', id: 'limites', toc: 'Lo que los grados no dicen' },
+    { evidence: {
+      yesTitle: 'Los grados dicen',
+      noTitle: 'Los grados no dicen',
+      yes: [
+        'Qué intensidad de apoyo hace falta ahora.',
+        'En qué área se necesita más apoyo.',
+        'Una referencia para planificar los apoyos.',
+      ],
+      no: [
+        '«Grado 1 es autismo leve, sin necesidades.»',
+        '«El grado es para siempre.»',
+        '«El grado predice la inteligencia o el futuro del niño.»',
+      ],
+    } },
+    { p: 'Un estudio mostró que la asignación de grados varía bastante y no siempre coincide con las medidas de gravedad usadas en la evaluación, lo que refuerza que <strong>son una descripción clínica, no una medida exacta</strong> (Weitlauf y colegas, 2014). Un niño con «grado 1» puede tener necesidades importantes, por ejemplo de ansiedad o de aprendizaje.' },
+    { h2: '¿Y en la CIE-11?', id: 'cid', toc: 'Y en la CIE-11' },
+    { p: 'La Clasificación Internacional de Enfermedades (CIE-11), usada en muchos sistemas de salud, codifica el trastorno del espectro autista con el código <strong>6A02</strong> y describe dos dimensiones: si hay o no <strong>trastorno del desarrollo intelectual</strong> y el nivel de <strong>lenguaje funcional</strong>. No usa los grados 1, 2 y 3 (ver [[codigos-diagnostico-fala-cid|Qué significan los códigos de un informe]]).' },
+    { h2: 'Preguntas útiles para la consulta', id: 'perguntas', toc: 'Preguntas para la consulta' },
+    { ul: [
+      '¿En qué situaciones concretas necesita el niño más apoyo?',
+      '¿Qué apoyos recomiendan en la escuela y en casa?',
+      '¿Cuándo debemos reevaluar?',
+      '¿Qué puntos fuertes han observado?',
+    ] },
+    { bridge: {
+      title: 'Apoyo ajustado al niño',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['El apoyo debe ajustarse a las necesidades de cada niño.', 'En el Área del Adulto se eligen las palabras, los contenidos y los ajustes de cada perfil; en los juegos, la dificultad se ajusta al desempeño.'],
+        ['Comunicar de varias formas.', 'En Comunicar, el niño une tarjetas de imagen y voz para formar mensajes.'],
+      ],
+      outro: 'Habla+ no asigna grados, no evalúa el autismo y no sustituye al equipo que acompaña al niño.',
+    } },
+    { note: 'Contenido informativo. No sustituye una evaluación individual ni la orientación de un profesional sanitario.' },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre los grados de autismo',
+  faq: [
+    ['¿Autismo grado 1 es autismo leve?', 'No exactamente. Significa que la persona necesita apoyo, pero sus necesidades pueden ser importantes, sobre todo en situaciones exigentes.'],
+    ['¿Puede cambiar el grado de autismo?', 'Sí. Describe las necesidades en un momento dado y puede cambiar con el desarrollo, los apoyos y el contexto.'],
+    ['¿Qué diferencia hay entre grado 2 y grado 3?', 'El grado 3 corresponde a una necesidad de ayuda muy notable, con impacto en casi todas las áreas; el grado 2, a ayuda notable.'],
+    ['¿Por qué el informe no indica grado?', 'Algunos profesionales usan la CIE-11, que no tiene grados, o prefieren describir las necesidades en detalle.'],
+  ],
+  sources: [
+    'American Psychiatric Association (2022). <em>Diagnostic and Statistical Manual of Mental Disorders</em>, 5.ª edición, texto revisado (DSM-5-TR).',
+    'Weitlauf, Gotham, Vehorn y Warren (2014). Brief report: DSM-5 “levels of support:” a comment on discrepant conceptualizations of severity in ASD. <em>Journal of Autism and Developmental Disorders</em>, 44(2), 471–476. <a href="https://doi.org/10.1007/s10803-013-1882-z" rel="noopener" target="_blank">doi:10.1007/s10803-013-1882-z</a>',
+    'Organización Mundial de la Salud. CIE-11, 6A02 Trastorno del espectro autista. <a href="https://icd.who.int/browse/2024-01/mms/en" rel="noopener" target="_blank">icd.who.int</a>',
+  ],
+  related: ['criterios-diagnosticos-autismo-interpretar-relatorio', 'avaliacao-diagnostica-autismo-o-que-inclui', 'compreender-relatorio-clinico-perguntas'],
+}

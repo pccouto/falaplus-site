@@ -1,0 +1,72 @@
+export default {
+  id: 'atraso-da-fala-creche',
+  slug: 'retraso-del-habla-y-guarderia',
+  short: 'Retraso del habla y guardería',
+  date: '2026-10-25',
+  titleTag: 'Retraso del habla y guardería: ¿la guardería ayuda a hablar? · Habla+',
+  description: 'Retraso del habla y guardería: ¿llevar al niño a la escuela infantil resuelve el retraso del habla? Qué muestran los estudios sobre la calidad de la interacción y cómo puede ayudar la educadora.',
+  keywords: ['retraso del habla guardería', 'la guardería ayuda a hablar', 'llevar a la guardería para que hable', 'retraso del habla escuela infantil', 'educadora y retraso del habla', 'niño no habla en la guardería'],
+  h1: 'Retraso del habla y guardería: ¿la guardería <span class="word-highlight">ayuda a hablar</span>?',
+  lead: '«Llévalo a la guardería, que con los otros niños enseguida empieza a hablar.» Es un consejo que muchas familias oyen. La escuela infantil puede ser un buen entorno para el lenguaje, pero no resuelve por sí sola un retraso del habla.',
+  blocks: [
+    { intro: '¿La <strong>guardería ayuda al niño a hablar</strong>? En este artículo vemos qué dice la investigación sobre la escuela infantil y el lenguaje, por qué la <strong>calidad de la interacción</strong> pesa más que el simple contacto con otros niños y cómo pueden trabajar juntas la familia y la educadora ante un <strong>retraso del habla</strong>. Ver también [[atraso-na-fala|Retraso del habla]].' },
+    { summary: [
+      'Estar con otros niños, por sí solo, no resuelve un retraso del habla.',
+      'Lo que más cuenta es la calidad de la interacción con adultos atentos, en casa y en la escuela infantil.',
+      'Las educadoras que conversan, esperan y amplían lo que dice el niño son grandes aliadas.',
+      'La guardería no sustituye la evaluación ni la logopedia cuando hacen falta.',
+    ] },
+    { h2: '¿Qué muestran los estudios?', id: 'estudos', toc: 'Qué muestran los estudios' },
+    { p: 'Un gran estudio estadounidense siguió a más de mil niños y concluyó que la <strong>calidad del cuidado</strong>, en especial la cantidad de estimulación del lenguaje por parte de los adultos, se asociaba a un mejor desarrollo cognitivo y del lenguaje; el tiempo pasado en la guardería, por sí solo, pesó menos, y el entorno familiar siguió siendo el factor más importante (NICHD Early Child Care Research Network, 2000).' },
+    { evidence: {
+      yesTitle: 'Lo que se puede decir',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'Una guardería con adultos que conversan mucho puede apoyar el lenguaje.',
+        'Jugar con otros niños crea oportunidades de comunicar.',
+        'La educadora es una observadora valiosa del desarrollo.',
+      ],
+      no: [
+        '«La guardería resuelve el retraso del habla.»',
+        '«Basta con estar con otros niños para empezar a hablar.»',
+        '«En la guardería ya no hace falta evaluar.»',
+      ],
+    } },
+    { h2: 'Cómo puede ayudar la educadora', id: 'educadora', toc: 'Cómo ayuda la educadora' },
+    { ul: [
+      'Conversar con el niño a solas, aunque sean pocos minutos, a lo largo del día.',
+      'Esperar la respuesta, aceptando gestos y sonidos.',
+      'Ampliar lo que dice el niño y nombrar lo que hace.',
+      'Usar apoyos visuales en las rutinas del aula (ver [[rotinas-visuais-para-criancas|Rutinas visuales]]).',
+      'Compartir observaciones con la familia y con el logopeda.',
+    ] },
+    { h2: 'Familia y escuela infantil trabajando juntas', id: 'juntas', toc: 'Familia y guardería' },
+    { ol: [
+      'Comparta su preocupación con la educadora y pregunte qué observa.',
+      'Acuerden palabras, gestos o imágenes comunes en casa y en el aula.',
+      'Si hay señales de alerta, pida una evaluación sin esperar al efecto de la guardería (ver [[atraso-da-fala-sinais-de-alerta|Señales de alerta]]).',
+      'Si hay logopedia, pida que las estrategias lleguen también a la escuela infantil (ver [[educacao-pre-escolar-inclusao-desenvolvimento|Educación infantil inclusiva]]).',
+    ] },
+    { bridge: {
+      title: 'Las mismas tarjetas en casa y en el aula',
+      intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
+      items: [
+        ['Usar las mismas palabras e imágenes en varios contextos.', 'El tablero Comunicar acompaña al niño en casa, en la escuela infantil y en la terapia, con las mismas tarjetas y la misma voz.'],
+        ['Fotos del día a día del niño.', 'Se pueden crear tarjetas con fotos de personas y objetos que el niño conoce.'],
+      ],
+      outro: 'Habla+ no sustituye la interacción con adultos ni la evaluación de un logopeda.',
+    } },
+    { note: 'Contenido informativo. No sustituye una evaluación individual ni la orientación de un profesional sanitario.' },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre retraso del habla y guardería',
+  faq: [
+    ['¿Llevar al niño a la guardería ayuda a hablar?', 'Puede ayudar si hay mucha interacción de calidad con los adultos, pero no resuelve sola un retraso del habla.'],
+    ['El niño habla en casa pero no en la guardería. ¿Qué puede ser?', 'Puede ser timidez, adaptación o, si se prolonga, ansiedad. Ver el artículo sobre mutismo selectivo.'],
+    ['¿La guardería causa retraso del habla?', 'No hay evidencia de que la guardería, por sí misma, cause retraso. Lo que cuenta es la calidad de la interacción en todos los contextos.'],
+    ['¿Debo esperar al efecto de la guardería antes de pedir una evaluación?', 'No. Si hay señales de alerta, pida la evaluación al mismo tiempo.'],
+  ],
+  sources: [
+    'NICHD Early Child Care Research Network (2000). The relation of child care to cognitive and language development. <em>Child Development</em>, 71(4), 960–980. <a href="https://doi.org/10.1111/1467-8624.00202" rel="noopener" target="_blank">doi:10.1111/1467-8624.00202</a>',
+  ],
+  related: ['atraso-na-fala', 'educacao-pre-escolar-inclusao-desenvolvimento', 'mutismo-seletivo'],
+}

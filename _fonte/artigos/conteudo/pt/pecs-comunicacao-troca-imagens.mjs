@@ -1,0 +1,73 @@
+export default {
+  slug: 'pecs-comunicacao-troca-imagens',
+  short: 'PECS',
+  date: '2026-10-25',
+  titleTag: 'PECS: comunicação por troca de imagens, fases e evidência · Fala+',
+  description: 'O que é o PECS (sistema de comunicação por troca de imagens), as suas seis fases, o que mostram os estudos sobre comunicação e fala, e como se relaciona com outras formas de CAA.',
+  keywords: ['PECS', 'PECS autismo', 'comunicação por troca de imagens', 'fases do PECS', 'PECS funciona', 'cartões PECS', 'PECS e fala'],
+  h1: 'PECS: comunicação por <span class="word-highlight">troca de imagens</span>, fases e evidência',
+  lead: 'Uma criança entrega ao adulto o cartão com a imagem de bolachas e recebe uma bolacha. Este gesto simples é o ponto de partida do PECS, um dos sistemas de comunicação por imagens mais conhecidos em todo o mundo.',
+  blocks: [
+    { intro: 'O <strong>PECS</strong> (<em>Picture Exchange Communication System</em>, ou sistema de comunicação por troca de imagens) foi desenvolvido nos Estados Unidos, nos anos 1980, para crianças autistas com pouca ou nenhuma fala. Neste artigo explicamos as <strong>fases do PECS</strong>, o que dizem os estudos e como este sistema se articula com outras formas de [[comunicacao-aumentativa-e-alternativa|comunicação aumentativa e alternativa]].' },
+    { summary: [
+      'No PECS, a criança aprende a iniciar a comunicação entregando uma imagem a outra pessoa.',
+      'O ensino segue seis fases, do pedido simples ao comentário.',
+      'Os estudos mostram ganhos na comunicação; os efeitos na fala são menos claros, mas o PECS não a impede.',
+      'É uma de várias opções de CAA; a escolha deve partir das necessidades da criança.',
+    ] },
+    { h2: 'As seis fases do PECS', id: 'fases', toc: 'As seis fases' },
+    { table: {
+      head: ['Fase', 'O que a criança aprende'],
+      rows: [
+        ['I. Como comunicar', 'Trocar uma imagem por algo que quer muito, com ajuda física de um segundo adulto.'],
+        ['II. Distância e persistência', 'Ir buscar o cartão e levá-lo a quem está mais longe, em vários sítios.'],
+        ['III. Discriminação', 'Escolher entre duas ou mais imagens a que corresponde ao que quer.'],
+        ['IV. Estrutura de frase', 'Construir «Eu quero» + imagem numa tira de frase.'],
+        ['V. Responder a perguntas', 'Responder a «O que queres?».'],
+        ['VI. Comentar', 'Usar imagens para comentar: «Eu vejo», «Eu ouço».'],
+      ],
+    } },
+    { p: 'Um traço importante do PECS é que a criança <strong>inicia</strong> a comunicação: vai ao encontro de alguém, em vez de apenas responder (Bondy e Frost, 1994).' },
+    { h2: 'O que dizem os estudos?', id: 'evidencia', toc: 'O que dizem os estudos' },
+    { p: 'Uma meta-análise concluiu que o PECS é <strong>promissor para aumentar a comunicação</strong> de crianças autistas, com efeitos mais fracos e variáveis na fala, e que é preciso mais investigação sobre a manutenção e a generalização dos ganhos (Flippin, Reszka e Watson, 2010). Outras revisões sobre CAA com apoio de imagens ou aparelhos chegam a conclusões semelhantes (Ganz e colegas, 2012).' },
+    { evidence: {
+      yesTitle: 'O que se pode dizer',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'O PECS pode ajudar a criança a pedir e a iniciar a comunicação.',
+        'Usar imagens não impede o desenvolvimento da fala.',
+        'Funciona melhor quando é usado em vários contextos e por várias pessoas.',
+      ],
+      no: [
+        '«O PECS faz sempre a criança começar a falar.»',
+        '«Só se deve passar a um tablet depois de concluir o PECS.»',
+        '«O PECS serve para todas as crianças sem fala.»',
+      ],
+    } },
+    { h2: 'PECS, tablets e outras formas de CAA', id: 'caa', toc: 'PECS e outras formas de CAA' },
+    { p: 'O PECS é uma de várias opções. Há crianças que começam com cartões e passam para um aparelho com voz; outras usam vários sistemas ao mesmo tempo. A escolha deve ser feita com o terapeuta da fala, considerando a motricidade, a visão, a compreensão e as preferências da criança (ver [[escolher-app-comunicacao-caa|Como escolher uma aplicação de comunicação]] e [[caa-impede-a-fala|A comunicação aumentativa impede a fala?]]).' },
+    { bridge: {
+      title: 'Imagens que ganham voz',
+      intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
+      items: [
+        ['Pedir algo com uma imagem e construir «Eu quero» + imagem.', 'No Comunicar, a criança junta cartões de imagem numa frase e a app diz a frase em voz alta.'],
+        ['Usar imagens do mundo real da criança.', 'É possível criar cartões com fotografias dos objetos e pessoas da própria criança.'],
+      ],
+      outro: 'A Fala+ não segue o protocolo PECS nem substitui o plano de comunicação definido com o terapeuta da fala.',
+    } },
+    { note: 'Conteúdo informativo. Não substitui uma avaliação individual nem a orientação de um terapeuta da fala.' },
+  ],
+  faqTitle: 'Perguntas frequentes sobre o PECS',
+  faq: [
+    ['O que é o PECS?', 'É um sistema de comunicação por troca de imagens, em que a criança entrega um cartão a outra pessoa para pedir ou comentar.'],
+    ['O PECS ajuda a criança a falar?', 'Os estudos mostram efeitos mais claros na comunicação do que na fala. Não impede a fala e, em algumas crianças, pode acompanhá-la.'],
+    ['Com que idade se pode começar o PECS?', 'Não há uma idade mínima fixa. É usado sobretudo em crianças pequenas, mas também em crianças mais velhas e adultos.'],
+    ['Posso fazer cartões PECS em casa?', 'Pode usar imagens em casa, mas o ensino das fases segue um protocolo específico. Peça orientação ao terapeuta da fala.'],
+  ],
+  sources: [
+    'Bondy e Frost (1994). The Picture Exchange Communication System. <em>Focus on Autistic Behavior</em>, 9(3), 1–19.',
+    'Flippin, Reszka e Watson (2010). Effectiveness of the Picture Exchange Communication System (PECS) on communication and speech for children with autism spectrum disorders: a meta-analysis. <em>American Journal of Speech-Language Pathology</em>, 19(2), 178–195. <a href="https://doi.org/10.1044/1058-0360(2010/09-0022)" rel="noopener" target="_blank">doi:10.1044/1058-0360(2010/09-0022)</a>',
+    'Ganz, Earles-Vollrath, Heath, Parker, Rispoli e Duran (2012). A meta-analysis of single case research studies on aided augmentative and alternative communication systems with individuals with autism spectrum disorders. <em>Journal of Autism and Developmental Disorders</em>, 42(1), 60–74. <a href="https://doi.org/10.1007/s10803-011-1212-2" rel="noopener" target="_blank">doi:10.1007/s10803-011-1212-2</a>',
+  ],
+  related: ['comunicacao-aumentativa-e-alternativa', 'caa-impede-a-fala', 'escolher-app-comunicacao-caa'],
+}
