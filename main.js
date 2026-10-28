@@ -1,7 +1,7 @@
 // Static site: no dependencies, tracking or background video downloads. The
 // contact form posts to Web3Forms (WEB3FORMS_KEY below); without a key it
 // falls back to opening the visitor's email app with the message prepared.
-// Public Play Store installation is not available yet (confirmed 28/09/2026).
+// The app is publicly available on Google Play from 28/10/2026.
 // Shared by the Portuguese page (/), the English one (/en/, app name Talk+)
 // and the Spanish one (/es/, app name Habla+).
 const CONTACT_EMAIL = 'apoio@falamais.pt'
@@ -48,6 +48,72 @@ const TEXT = LANG === 'es'
     }
 
 document.documentElement.classList.add('js')
+
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=pt.falaplus.app'
+const LAUNCH_NOTICE = LANG === 'es'
+  ? {
+      eyebrow: '¡Ya disponible!',
+      title: 'Habla+ ya está en Google Play.',
+      text: 'Comunicación, palabras y más de 50 juegos para descubrir en familia.',
+      close: 'Cerrar aviso',
+      install: 'Instalar Habla+ desde Google Play',
+    }
+  : LANG === 'en'
+    ? {
+        eyebrow: 'Now available!',
+        title: 'Talk+ is now on Google Play.',
+        text: 'Communication, words and more than 50 games to discover together.',
+        close: 'Close announcement',
+        install: 'Install Talk+ from Google Play',
+      }
+    : {
+        eyebrow: 'Já disponível!',
+        title: 'A Fala+ já está no Google Play.',
+        text: 'Comunicação, palavras e mais de 50 jogos para descobrir em família.',
+        close: 'Fechar aviso',
+        install: 'Instalar a Fala+ através do Google Play',
+      }
+
+const LAUNCH_NOTICE_KEY = 'falaplus-google-play-launch-v1'
+const showLaunchNotice = () => {
+  try {
+    if (localStorage.getItem(LAUNCH_NOTICE_KEY)) return
+  } catch {}
+
+  const backdrop = document.createElement('div')
+  backdrop.className = 'launch-popup-backdrop'
+  backdrop.innerHTML = `
+    <section class="launch-popup" role="dialog" aria-modal="true" aria-labelledby="launch-popup-title" aria-describedby="launch-popup-text">
+      <button class="launch-popup-close" type="button" aria-label="${LAUNCH_NOTICE.close}">×</button>
+      <img class="launch-popup-app-icon" src="/assets/img/app-icon.png" alt="" width="92" height="92">
+      <p class="launch-popup-eyebrow">${LAUNCH_NOTICE.eyebrow}</p>
+      <h2 id="launch-popup-title">${LAUNCH_NOTICE.title}</h2>
+      <p id="launch-popup-text">${LAUNCH_NOTICE.text}</p>
+      <a class="launch-popup-store" href="${PLAY_STORE_URL}" target="_blank" rel="noopener" aria-label="${LAUNCH_NOTICE.install}">
+        <img src="/assets/img/google-play-badge.png" alt="" width="194" height="75">
+      </a>
+    </section>`
+
+  const closeButton = backdrop.querySelector('.launch-popup-close')
+  const dismiss = () => {
+    try { localStorage.setItem(LAUNCH_NOTICE_KEY, 'dismissed') } catch {}
+    backdrop.remove()
+    document.body.classList.remove('launch-popup-open')
+  }
+  closeButton.addEventListener('click', dismiss)
+  backdrop.addEventListener('click', event => { if (event.target === backdrop) dismiss() })
+  backdrop.querySelector('.launch-popup-store').addEventListener('click', dismiss)
+  document.addEventListener('keydown', function onKeydown(event) {
+    if (event.key !== 'Escape' || !backdrop.isConnected) return
+    document.removeEventListener('keydown', onKeydown)
+    dismiss()
+  })
+  document.body.append(backdrop)
+  document.body.classList.add('launch-popup-open')
+  closeButton.focus()
+}
+
+showLaunchNotice()
 document.querySelectorAll('[data-year]').forEach(node => { node.textContent = new Date().getFullYear() })
 document.querySelectorAll('a[href="#topo"]').forEach(link => link.addEventListener('click', event => {
   event.preventDefault()

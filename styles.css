@@ -49,6 +49,23 @@ button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:
 /* Six nav links (Artigos added 2026-10-14): tighten spacing just above the menu breakpoint. */
 @media(min-width:1101px) and (max-width:1240px){.header-row{gap:18px}.site-nav{gap:17px}.header-cta{white-space:nowrap}}
 
+/* Google Play launch announcement. */
+body.launch-popup-open{overflow:hidden}
+.launch-popup-backdrop{position:fixed;z-index:1000;inset:0;display:grid;place-items:center;padding:24px;background:rgba(39,24,58,.68);backdrop-filter:blur(6px)}
+.launch-popup{position:relative;width:min(480px,100%);padding:42px 42px 38px;border:1px solid #e6dcf2;border-radius:30px;background:#fff;text-align:center;box-shadow:0 28px 80px rgba(32,18,49,.35)}
+.launch-popup-close{position:absolute;top:16px;right:16px;display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:50%;background:#f2edf8;color:#43265e;font:700 1.75rem/1 Arial,sans-serif;cursor:pointer}
+.launch-popup-close:hover{background:#e8def4}
+.launch-popup-close:focus-visible,.launch-popup-store:focus-visible{outline:3px solid #7652cc;outline-offset:4px}
+.launch-popup-app-icon{display:block;width:92px;height:92px;margin:0 auto 18px;border-radius:22px;box-shadow:0 10px 25px rgba(89,57,145,.22)}
+.launch-popup-eyebrow{margin:0 0 9px;color:#6d46bd;font-size:.76rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.launch-popup h2{max-width:390px;margin:0 auto 13px;color:#342044;font-size:clamp(2rem,6vw,2.75rem);line-height:1.05}
+.launch-popup #launch-popup-text{max-width:360px;margin:0 auto 20px;color:#655c6b;line-height:1.65}
+.launch-popup-store{display:block;width:194px;height:75px;margin:0 auto;line-height:0;transition:transform .18s}
+.launch-popup-store:hover{transform:translateY(-2px)}
+.launch-popup-store img{display:block;width:100%;height:100%;object-fit:contain}
+@media(max-width:540px){.launch-popup-backdrop{padding:16px}.launch-popup{padding:36px 24px 30px;border-radius:24px}.launch-popup-app-icon{width:78px;height:78px;border-radius:19px}.launch-popup h2{font-size:2rem}.launch-popup #launch-popup-text{font-size:.92rem}.launch-popup-store{width:181px;height:70px}}
+@media(prefers-reduced-motion:reduce){.launch-popup-store{transition:none}}
+
 @media(max-width:700px){.articles-highlight-inner{align-items:flex-start;flex-wrap:wrap;padding-block:15px}.articles-highlight-icon{width:38px;height:38px}.articles-highlight p{flex:1;min-width:calc(100% - 58px)}.articles-highlight a{justify-content:center;margin-inline:auto}}
 @media(max-width:420px){.articles-highlight-icon{display:none}.articles-highlight p{min-width:100%}}
 
