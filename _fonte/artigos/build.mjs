@@ -16,13 +16,14 @@ const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
 const STYLES_V = '20261017e'
 const ARTICLES_V = '20261019b'
-const MAIN_V = '20261014a'
+const MAIN_V = '20261028a'
 const ENGAGEMENT_V = '20261025a'
 const SEARCH_V = '20261019a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = s => String(s).replace(/<[^>]+>/g, '')
 const arrow = '<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>'
+const android = '<svg class="icon" aria-hidden="true"><use href="#i-android"/></svg>'
 
 // Paulo, 2026-10-19 (site audit): search, topic navigation, one page per topic
 // and "Continuar a ler" cards so no article is left without inbound links.
@@ -195,6 +196,7 @@ function header(L, lang, langLinks) {
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <defs><linearGradient id="instagram-brand-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="24" y2="0"><stop offset="0%" stop-color="#feda75"/><stop offset="28%" stop-color="#fa7e1e"/><stop offset="55%" stop-color="#d62976"/><stop offset="78%" stop-color="#962fbf"/><stop offset="100%" stop-color="#4f5bd5"/></linearGradient></defs>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-android" viewBox="0 0 24 24"><path d="m8 5-2-2m10 2 2-2M7 9h10a2 2 0 0 1 2 2v7H5v-7a2 2 0 0 1 2-2Zm1 9v3m8-3v3M5 11H3v6h2m14-6h2v6h-2M8 9a4 4 0 0 1 8 0M9 13h.01m5.99 0h.01"/></symbol>
     <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"/></symbol>
     <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 11v6m0-10h.01"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
@@ -209,7 +211,7 @@ function header(L, lang, langLinks) {
         ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
       </nav>
       <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="${L.instagramAria}"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
-      <a class="button button-small header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">${L.cta} ${arrow}</a>
+      <a class="button button-small header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener" aria-label="${L.ctaAria}">${android} ${L.cta}</a>
     </div>
   </header>`
 }
