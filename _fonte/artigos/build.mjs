@@ -209,7 +209,7 @@ function header(L, lang, langLinks) {
         ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
       </nav>
       <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="${L.instagramAria}"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
-      <a class="button button-small header-cta" href="${L.home}${L.contactAnchor}">${L.cta} ${arrow}</a>
+      <a class="button button-small header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">${L.cta} ${arrow}</a>
     </div>
   </header>`
 }
@@ -221,7 +221,7 @@ const cta = L => `<section class="access-section"><div class="wrap access-panel 
         <p class="availability availability-light"><span aria-hidden="true"></span>${L.ctaBadge}</p>
         <h2>${L.ctaTitle}</h2>
         <p>${L.ctaText}</p>
-        <a class="button button-yellow" href="${L.home}${L.contactAnchor}">${L.ctaButton} ${arrow}</a>
+        <a class="button button-yellow" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">${L.ctaButton} ${arrow}</a>
       </div>
       <a class="article-cta-icon-link" href="#conteudo" aria-label="${L.brand} — ${L.backTop}"><img src="/assets/img/app-icon.png" alt="${L.iconAlt}" width="150" height="150" loading="lazy"></a>
     </div></section>`
