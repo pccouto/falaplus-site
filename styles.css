@@ -51,20 +51,27 @@ button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:
 
 /* Google Play launch announcement. */
 body.launch-popup-open{overflow:hidden}
-.launch-popup-backdrop{position:fixed;z-index:1000;inset:0;display:grid;place-items:center;padding:24px;background:rgba(39,24,58,.68);backdrop-filter:blur(6px)}
-.launch-popup{position:relative;width:min(480px,100%);padding:42px 42px 38px;border:1px solid #e6dcf2;border-radius:30px;background:#fff;text-align:center;box-shadow:0 28px 80px rgba(32,18,49,.35)}
-.launch-popup-close{position:absolute;top:16px;right:16px;display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:50%;background:#f2edf8;color:#43265e;font:700 1.75rem/1 Arial,sans-serif;cursor:pointer}
-.launch-popup-close:hover{background:#e8def4}
+.launch-popup-backdrop{position:fixed;z-index:1000;inset:0;display:grid;place-items:center;padding:24px;background:rgba(25,12,43,.82);backdrop-filter:blur(9px)}
+.launch-popup{position:relative;isolation:isolate;width:min(500px,100%);padding:40px 44px 34px;overflow:hidden;border:2px solid rgba(255,225,128,.75);border-radius:34px;background:radial-gradient(circle at 50% -20%,#a782ff 0,transparent 48%),linear-gradient(145deg,#6d4ce8 0%,#432279 58%,#29143e 100%);color:#fff;text-align:center;box-shadow:0 0 0 7px rgba(255,217,95,.12),0 32px 100px rgba(13,4,25,.65)}
+.launch-popup::before{content:"";position:absolute;z-index:-1;inset:-80px;background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.08) 0 5deg,transparent 5deg 15deg);animation:promo-rays 24s linear infinite}
+.launch-popup-close{position:absolute;z-index:3;top:14px;right:14px;display:grid;place-items:center;width:44px;height:44px;border:1px solid rgba(255,255,255,.25);border-radius:50%;background:rgba(31,14,54,.45);color:#fff;font:700 1.75rem/1 Arial,sans-serif;cursor:pointer}
+.launch-popup-close:hover{background:rgba(255,255,255,.18)}
 .launch-popup-close:focus-visible,.launch-popup-store:focus-visible{outline:3px solid #7652cc;outline-offset:4px}
-.launch-popup-app-icon{display:block;width:92px;height:92px;margin:0 auto 18px;border-radius:22px;box-shadow:0 10px 25px rgba(89,57,145,.22)}
-.launch-popup-eyebrow{margin:0 0 9px;color:#6d46bd;font-size:.76rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
-.launch-popup h2{max-width:390px;margin:0 auto 13px;color:#342044;font-size:clamp(2rem,6vw,2.75rem);line-height:1.05}
-.launch-popup #launch-popup-text{max-width:360px;margin:0 auto 20px;color:#655c6b;line-height:1.65}
+.launch-popup-app-icon{display:block;width:88px;height:88px;margin:0 auto 14px;border:3px solid rgba(255,255,255,.85);border-radius:23px;box-shadow:0 12px 35px rgba(19,7,34,.4)}
+.launch-popup-eyebrow{display:inline-block;margin:0 0 9px;padding:6px 14px;border-radius:99px;background:#ffe077;color:#3a2150;font-size:.72rem;font-weight:950;letter-spacing:.13em;text-transform:uppercase}
+.launch-popup h2{max-width:410px;margin:0 auto 12px;color:#fff;font-size:clamp(2.15rem,6vw,3rem);line-height:1.02;text-shadow:0 3px 18px rgba(21,8,37,.4)}
+.launch-popup-discount{display:flex;align-items:center;justify-content:center;gap:10px;width:max-content;margin:5px auto 12px;padding:4px 18px 7px;transform:rotate(-2deg);border:2px solid #fff1a8;border-radius:18px;background:linear-gradient(180deg,#ffe989,#ffc832);color:#352045;box-shadow:0 7px 0 #b77a0d,0 12px 28px rgba(17,6,31,.3)}
+.launch-popup-discount strong{font-family:"Baloo 2",sans-serif;font-size:3.3rem;line-height:.95}.launch-popup-discount span{max-width:78px;font-size:.78rem;font-weight:950;line-height:1.05;text-align:left;text-transform:uppercase}
+.launch-popup #launch-popup-text{max-width:390px;margin:0 auto 14px;color:#fff;font-size:1.03rem;font-weight:750;line-height:1.55}
 .launch-popup-store{display:block;width:194px;height:75px;margin:0 auto;line-height:0;transition:transform .18s}
 .launch-popup-store:hover{transform:translateY(-2px)}
 .launch-popup-store img{display:block;width:100%;height:100%;object-fit:contain}
-@media(max-width:540px){.launch-popup-backdrop{padding:16px}.launch-popup{padding:36px 24px 30px;border-radius:24px}.launch-popup-app-icon{width:78px;height:78px;border-radius:19px}.launch-popup h2{font-size:2rem}.launch-popup #launch-popup-text{font-size:.92rem}.launch-popup-store{width:181px;height:70px}}
-@media(prefers-reduced-motion:reduce){.launch-popup-store{transition:none}}
+.launch-popup-terms{display:block;max-width:370px;margin:5px auto 0;color:#d9ccec;font-size:.68rem;line-height:1.35}
+.launch-popup-confetti{position:absolute;width:13px;height:30px;border-radius:3px;background:#ffd84c;box-shadow:74px 42px 0 #ff7698,330px 32px 0 #5de4d2,382px 145px 0 #ffd84c,22px 220px 0 #75b7ff,350px 270px 0 #ff7698;transform:rotate(24deg)}
+.confetti-one{top:40px;left:28px}.confetti-two{top:120px;right:40px;transform:rotate(-38deg);background:#75b7ff}.confetti-three{bottom:75px;left:54px;transform:rotate(62deg);background:#5de4d2}
+@keyframes promo-rays{to{transform:rotate(360deg)}}
+@media(max-width:540px){.launch-popup-backdrop{padding:14px}.launch-popup{padding:30px 20px 26px;border-radius:26px}.launch-popup-app-icon{width:72px;height:72px;border-radius:18px}.launch-popup h2{font-size:2.05rem}.launch-popup-discount strong{font-size:2.85rem}.launch-popup #launch-popup-text{font-size:.92rem}.launch-popup-store{width:181px;height:70px}.launch-popup-terms{font-size:.62rem}}
+@media(prefers-reduced-motion:reduce){.launch-popup-store{transition:none}.launch-popup::before{animation:none}}
 
 @media(max-width:700px){.articles-highlight-inner{align-items:flex-start;flex-wrap:wrap;padding-block:15px}.articles-highlight-icon{width:38px;height:38px}.articles-highlight p{flex:1;min-width:calc(100% - 58px)}.articles-highlight a{justify-content:center;margin-inline:auto}}
 @media(max-width:420px){.articles-highlight-icon{display:none}.articles-highlight p{min-width:100%}}

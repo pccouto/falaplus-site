@@ -52,29 +52,38 @@ document.documentElement.classList.add('js')
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=pt.falaplus.app'
 const LAUNCH_NOTICE = LANG === 'es'
   ? {
-      eyebrow: '¡Ya disponible!',
-      title: 'Habla+ ya está en Google Play.',
-      text: 'Comunicación, palabras y más de 50 juegos para descubrir en familia.',
+      eyebrow: 'Oferta de lanzamiento',
+      title: 'Premium a mitad de precio.',
+      discount: '50%',
+      discountLabel: 'de descuento',
+      text: 'Disfruta de un 50% de descuento durante el primer mes del plan Premium de Habla+.',
+      terms: 'La oferta se aplica al primer mes. Consulta el precio local y las condiciones en Google Play.',
       close: 'Cerrar aviso',
-      install: 'Instalar Habla+ desde Google Play',
+      install: 'Ver la oferta de Habla+ en Google Play',
     }
   : LANG === 'en'
     ? {
-        eyebrow: 'Now available!',
-        title: 'Talk+ is now on Google Play.',
-        text: 'Communication, words and more than 50 games to discover together.',
+        eyebrow: 'Launch offer',
+        title: 'Premium for half the price.',
+        discount: '50%',
+        discountLabel: 'off',
+        text: 'Enjoy 50% off the first month of the Talk+ Premium plan.',
+        terms: 'The offer applies to the first month. Check local pricing and full terms on Google Play.',
         close: 'Close announcement',
-        install: 'Install Talk+ from Google Play',
+        install: 'See the Talk+ offer on Google Play',
       }
     : {
-        eyebrow: 'Já disponível!',
-        title: 'A Fala+ já está no Google Play.',
-        text: 'Comunicação, palavras e mais de 50 jogos para descobrir em família.',
+        eyebrow: 'Oferta de lançamento',
+        title: 'Premium a metade do preço.',
+        discount: '50%',
+        discountLabel: 'de desconto',
+        text: 'Aproveite 50% de desconto no primeiro mês do plano Premium da Fala+.',
+        terms: 'A oferta aplica-se ao primeiro mês. Consulte o preço local e as condições no Google Play.',
         close: 'Fechar aviso',
-        install: 'Instalar a Fala+ através do Google Play',
+        install: 'Ver a oferta da Fala+ no Google Play',
       }
 
-const LAUNCH_NOTICE_KEY = 'falaplus-google-play-launch-v1'
+const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v1'
 const showLaunchNotice = () => {
   try {
     if (localStorage.getItem(LAUNCH_NOTICE_KEY)) return
@@ -84,14 +93,19 @@ const showLaunchNotice = () => {
   backdrop.className = 'launch-popup-backdrop'
   backdrop.innerHTML = `
     <section class="launch-popup" role="dialog" aria-modal="true" aria-labelledby="launch-popup-title" aria-describedby="launch-popup-text">
+      <span class="launch-popup-confetti confetti-one" aria-hidden="true"></span>
+      <span class="launch-popup-confetti confetti-two" aria-hidden="true"></span>
+      <span class="launch-popup-confetti confetti-three" aria-hidden="true"></span>
       <button class="launch-popup-close" type="button" aria-label="${LAUNCH_NOTICE.close}">×</button>
       <img class="launch-popup-app-icon" src="/assets/img/app-icon.png" alt="" width="92" height="92">
       <p class="launch-popup-eyebrow">${LAUNCH_NOTICE.eyebrow}</p>
       <h2 id="launch-popup-title">${LAUNCH_NOTICE.title}</h2>
+      <div class="launch-popup-discount" aria-label="${LAUNCH_NOTICE.discount} ${LAUNCH_NOTICE.discountLabel}"><strong>${LAUNCH_NOTICE.discount}</strong><span>${LAUNCH_NOTICE.discountLabel}</span></div>
       <p id="launch-popup-text">${LAUNCH_NOTICE.text}</p>
       <a class="launch-popup-store" href="${PLAY_STORE_URL}" target="_blank" rel="noopener" aria-label="${LAUNCH_NOTICE.install}">
         <img src="/assets/img/google-play-badge.png" alt="" width="194" height="75">
       </a>
+      <small class="launch-popup-terms">${LAUNCH_NOTICE.terms}</small>
     </section>`
 
   const closeButton = backdrop.querySelector('.launch-popup-close')
