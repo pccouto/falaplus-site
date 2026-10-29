@@ -87,6 +87,8 @@ const LAUNCH_NOTICE = LANG === 'es'
       }
 
 const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v4'
+// Campanha arquivada em 2026-10-29. Manter o conteúdo para possível reativação.
+const LAUNCH_NOTICE_ACTIVE = false
 const showLaunchNotice = () => {
   try {
     if (localStorage.getItem(LAUNCH_NOTICE_KEY)) return
@@ -130,7 +132,7 @@ const showLaunchNotice = () => {
   closeButton.focus()
 }
 
-showLaunchNotice()
+if (LAUNCH_NOTICE_ACTIVE) showLaunchNotice()
 document.querySelectorAll('[data-year]').forEach(node => { node.textContent = new Date().getFullYear() })
 document.querySelectorAll('a[href="#topo"]').forEach(link => link.addEventListener('click', event => {
   event.preventDefault()
