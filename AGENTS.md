@@ -13,5 +13,6 @@ Paulo autoriza o Codex a editar, gerar, atualizar e publicar no site falamais.pt
 - Gerar as paginas, confirmar links, metadados, indice, sitemap e estado Git antes de publicar.
 - Publicar por commit e push para `main` quando solicitado. Confirmar os enderecos publicos depois da propagacao.
 - Nao incluir segredos, tokens ou credenciais no repositorio.
+- Sempre que um texto referir leis, regulamentos, direitos, procedimentos oficiais ou entidades publicas, pesquisar e usar a legislacao aplicavel ao pais/jurisdicao da respetiva versao. Nunca traduzir a referencia portuguesa para EN ou ES assumindo que a lei e equivalente. Identificar claramente o ambito territorial; quando um idioma abranger varios paises, escolher e declarar a jurisdicao ou escrever uma explicacao geral sem atribuir direitos legais universais. Confirmar fontes oficiais e atuais antes de publicar.
 
 Esta autorizacao nao amplia o ambito de pedidos futuros: publicar quando o Paulo pedir e respeitar as restantes regras editoriais.
