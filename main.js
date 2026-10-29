@@ -56,6 +56,7 @@ const LAUNCH_NOTICE = LANG === 'es'
       title: 'Premium a mitad de precio.',
       discount: '50%',
       discountLabel: 'de descuento',
+      cancel: 'Cancela cuando quieras',
       text: 'Disfruta de un 50% de descuento durante el primer mes del plan Premium de Habla+.',
       terms: 'La oferta se aplica al primer mes. Consulta el precio local y las condiciones en Google Play.',
       close: 'Cerrar aviso',
@@ -67,6 +68,7 @@ const LAUNCH_NOTICE = LANG === 'es'
         title: 'Premium for half the price.',
         discount: '50%',
         discountLabel: 'off',
+        cancel: 'Cancel anytime',
         text: 'Enjoy 50% off the first month of the Talk+ Premium plan.',
         terms: 'The offer applies to the first month. Check local pricing and full terms on Google Play.',
         close: 'Close announcement',
@@ -77,13 +79,14 @@ const LAUNCH_NOTICE = LANG === 'es'
         title: 'Premium a metade do preço.',
         discount: '50%',
         discountLabel: 'de desconto',
+        cancel: 'Cancele quando quiser',
         text: 'Aproveite 50% de desconto no primeiro mês do plano Premium da Fala+.',
         terms: 'A oferta aplica-se ao primeiro mês. Consulte o preço local e as condições no Google Play.',
         close: 'Fechar aviso',
         install: 'Ver a oferta da Fala+ no Google Play',
       }
 
-const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v3'
+const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v4'
 const showLaunchNotice = () => {
   try {
     if (localStorage.getItem(LAUNCH_NOTICE_KEY)) return
@@ -100,7 +103,7 @@ const showLaunchNotice = () => {
       <img class="launch-popup-app-icon" src="/assets/img/app-icon.png" alt="" width="92" height="92">
       <p class="launch-popup-eyebrow">${LAUNCH_NOTICE.eyebrow}</p>
       <h2 id="launch-popup-title">${LAUNCH_NOTICE.title}</h2>
-      <div class="launch-popup-discount" aria-label="${LAUNCH_NOTICE.discount} ${LAUNCH_NOTICE.discountLabel}"><strong>${LAUNCH_NOTICE.discount}</strong><span>${LAUNCH_NOTICE.discountLabel}</span></div>
+      <div class="launch-popup-discount" aria-label="${LAUNCH_NOTICE.discount} ${LAUNCH_NOTICE.discountLabel}. ${LAUNCH_NOTICE.cancel}"><strong>${LAUNCH_NOTICE.discount}</strong><span>${LAUNCH_NOTICE.discountLabel}<small>${LAUNCH_NOTICE.cancel}</small></span></div>
       <p id="launch-popup-text">${LAUNCH_NOTICE.text}</p>
       <a class="launch-popup-store" href="${PLAY_STORE_URL}" target="_blank" rel="noopener" aria-label="${LAUNCH_NOTICE.install}">
         <img src="/assets/img/google-play-badge.png" alt="" width="194" height="75">

@@ -14,9 +14,9 @@ import TIPS from '../dicas/dicas.mjs'
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
-const STYLES_V = '20261029a'
+const STYLES_V = '20261029b'
 const ARTICLES_V = '20261019b'
-const MAIN_V = '20261029c'
+const MAIN_V = '20261029d'
 const ENGAGEMENT_V = '20261025a'
 const SEARCH_V = '20261019a'
 
