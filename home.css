@@ -403,3 +403,19 @@ body.launch-popup-open{overflow:hidden}
 .confetti-one{top:40px;left:28px}.confetti-two{top:120px;right:40px;transform:rotate(-38deg);background:#75b7ff}.confetti-three{bottom:75px;left:54px;transform:rotate(62deg);background:#5de4d2}
 @keyframes promo-rays{to{transform:rotate(360deg)}}
 @media(max-width:540px){.launch-popup-backdrop{padding:14px}.launch-popup{padding:30px 20px 26px;border-radius:26px}.launch-popup-app-icon{width:72px;height:72px;border-radius:18px}.launch-popup h2{font-size:2.05rem}.launch-popup-discount strong{font-size:2.85rem}.launch-popup #launch-popup-text{font-size:.92rem}.launch-popup-store{width:181px;height:70px}.launch-popup-terms{font-size:.62rem}}
+
+/* Compact, professional treatment for the Premium campaign. */
+.launch-popup-backdrop{background:rgba(28,18,42,.72);backdrop-filter:blur(7px)}
+.launch-popup{width:min(430px,100%);padding:30px 34px 26px;border:1px solid rgba(255,255,255,.22);border-radius:24px;background:linear-gradient(155deg,#6848d8 0%,#4d2f98 58%,#35205f 100%);box-shadow:0 24px 70px rgba(20,9,35,.48)}
+.launch-popup::before{display:none}
+.launch-popup-confetti{display:none}
+.launch-popup-close{top:12px;right:12px;width:38px;height:38px;font-size:1.45rem}
+.launch-popup-app-icon{width:66px;height:66px;margin-bottom:12px;border-width:2px;border-radius:17px;box-shadow:0 8px 22px rgba(20,8,38,.32)}
+.launch-popup-eyebrow{margin-bottom:8px;padding:5px 12px;background:rgba(255,224,119,.96);font-size:.66rem;letter-spacing:.11em}
+.launch-popup h2{max-width:360px;margin-bottom:10px;font-size:2.18rem;line-height:1.04}
+.launch-popup-discount{gap:9px;margin:2px auto 12px;padding:5px 15px 7px;transform:none;border-width:1px;border-radius:13px;box-shadow:0 4px 0 #b77a0d,0 9px 20px rgba(17,6,31,.22)}
+.launch-popup-discount strong{font-size:2.65rem}.launch-popup-discount span{font-size:.68rem}
+.launch-popup #launch-popup-text{max-width:350px;margin-bottom:10px;font-size:.94rem;line-height:1.45}
+.launch-popup-store{width:174px;height:67px}
+.launch-popup-terms{max-width:340px;margin-top:3px;font-size:.61rem;line-height:1.3}
+@media(max-width:540px){.launch-popup{width:min(400px,100%);padding:26px 20px 22px;border-radius:21px}.launch-popup-app-icon{width:60px;height:60px;border-radius:15px}.launch-popup h2{font-size:1.85rem}.launch-popup-discount strong{font-size:2.35rem}.launch-popup #launch-popup-text{font-size:.86rem}.launch-popup-store{width:165px;height:64px}}
