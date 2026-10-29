@@ -16,7 +16,7 @@ const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
 const STYLES_V = '20261029b'
 const ARTICLES_V = '20261019b'
-const MAIN_V = '20261029e'
+const MAIN_V = '20261029f'
 const ENGAGEMENT_V = '20261025a'
 const SEARCH_V = '20261019a'
 

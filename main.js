@@ -173,6 +173,7 @@ desktop.addEventListener('change', () => { if (desktop.matches) closeMenu() })
 const video = document.querySelector('#game-preview')
 // Article pages have no demo video: skip the player there.
 if (video) {
+  const videoAssetVersion = '20261029b'
   const choices = [...document.querySelectorAll('[data-demo]')]
   const caption = document.querySelector('#demo-caption')
   const status = document.querySelector('#demo-status')
@@ -187,9 +188,9 @@ if (video) {
     const { demo, title, description } = button.dataset
     video.pause()
     choices.forEach(choice => choice.setAttribute('aria-pressed', String(choice === button)))
-    video.poster = `${videoDir}${demo}-demo-poster.jpg`
-    video.querySelector('source').src = `${videoDir}${demo}-demo.mp4`
-    video.querySelector('a').href = `${videoDir}${demo}-demo.mp4`
+    video.poster = `${videoDir}${demo}-demo-poster.jpg?v=${videoAssetVersion}`
+    video.querySelector('source').src = `${videoDir}${demo}-demo.mp4?v=${videoAssetVersion}`
+    video.querySelector('a').href = `${videoDir}${demo}-demo.mp4?v=${videoAssetVersion}`
     video.setAttribute('aria-label', TEXT.demoLabel(title))
     caption.textContent = `${title} · ${description}`
     status.textContent = TEXT.selected(title)
