@@ -83,7 +83,7 @@ const LAUNCH_NOTICE = LANG === 'es'
         install: 'Ver a oferta da Fala+ no Google Play',
       }
 
-const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v1'
+const LAUNCH_NOTICE_KEY = 'falaplus-premium-half-price-v2'
 const showLaunchNotice = () => {
   try {
     if (localStorage.getItem(LAUNCH_NOTICE_KEY)) return
