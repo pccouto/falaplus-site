@@ -599,7 +599,8 @@ function attachSiteAnimalMascots() {
         const footerOpen = html.indexOf('<footer')
         const footerOpenEnd = html.indexOf('>', footerOpen)
         const footerClose = html.indexOf('</footer>', footerOpenEnd)
-        if (footerOpen < 0 || footerOpenEnd < 0 || footerClose < 0) throw new Error(`footer missing on ${route}`)
+        // Standalone routes (for example /app/) may intentionally have no site footer.
+        if (footerOpen < 0 || footerOpenEnd < 0 || footerClose < 0) return
         const openTag = html.slice(footerOpen, footerOpenEnd + 1)
         html = html.slice(0, footerOpen) + openTag.replace('<footer', '<footer class="site-mascot-legal-footer"') + html.slice(footerOpenEnd + 1, footerClose) + mascotMarkup + html.slice(footerClose)
       }
