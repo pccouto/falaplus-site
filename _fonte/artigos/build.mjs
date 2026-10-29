@@ -10,6 +10,7 @@ import { THEMES, CATALOG } from './catalogo.mjs'
 import { LANGS, UI } from './i18n.mjs'
 import { APP_CORRELATIONS, APP_BRIDGE_EXCLUSIONS } from './correlacoes-app.mjs'
 import TIPS from '../dicas/dicas.mjs'
+import { REPORT_GUIDE_ARTICLES, getReportGuideArticle } from './relatorios-especialistas-data.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
@@ -510,6 +511,14 @@ const articleContent = new Map()
 for (const lang of LANGS) {
   const dir = join(HERE, 'conteudo', lang)
   if (!existsSync(dir)) continue
+  for (const item of REPORT_GUIDE_ARTICLES) {
+    const a = getReportGuideArticle(item.id, lang)
+    articleContent.set(lang + ':' + a.id, a)
+    if (!isLive(lang, a.id)) continue
+    const r = buildArticle(lang, a)
+    built.push(SITE + r.path)
+    console.log(`${r.path} (${r.minutes} min)`)
+  }
   for (const f of readdirSync(dir).filter(f => f.endsWith('.mjs'))) {
     const { default: a } = await import(pathToFileURL(join(dir, f)))
     a.id ||= a.slug // PT files use their slug as id
