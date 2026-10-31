@@ -12,6 +12,7 @@ import { APP_CORRELATIONS, APP_BRIDGE_EXCLUSIONS } from './correlacoes-app.mjs'
 import TIPS from '../dicas/dicas.mjs'
 import { REPORT_GUIDE_ARTICLES, getReportGuideArticle } from './relatorios-especialistas-data.mjs'
 import { SEARCH_DEMAND_ARTICLES, getSearchDemandArticle } from './temas-procurados-data.mjs'
+import { APP_INFO_ARTICLES, getAppInfoArticle } from './app-info-data.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
@@ -522,6 +523,14 @@ for (const lang of LANGS) {
   }
   for (const item of SEARCH_DEMAND_ARTICLES) {
     const a = getSearchDemandArticle(item.id, lang)
+    articleContent.set(lang + ':' + a.id, a)
+    if (!isLive(lang, a.id)) continue
+    const r = buildArticle(lang, a)
+    built.push(SITE + r.path)
+    console.log(`${r.path} (${r.minutes} min)`)
+  }
+  for (const item of APP_INFO_ARTICLES) {
+    const a = getAppInfoArticle(item.id, lang)
     articleContent.set(lang + ':' + a.id, a)
     if (!isLive(lang, a.id)) continue
     const r = buildArticle(lang, a)
