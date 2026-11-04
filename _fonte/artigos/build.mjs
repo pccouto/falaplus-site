@@ -21,7 +21,7 @@ const STYLES_V = '20261029b'
 const ARTICLES_V = '20261019b'
 const MAIN_V = '20261029f'
 const ENGAGEMENT_V = '20261025a'
-const SEARCH_V = '20261019a'
+const SEARCH_V = '20261104a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const strip = s => String(s).replace(/<[^>]+>/g, '')
@@ -35,19 +35,19 @@ const NAV = {
     topicDir: 'tema', topics: 'Temas', searchLabel: 'Pesquisar artigos', searchPlaceholder: 'Pesquisar (ex.: autismo, CAA)',
     none: 'Nenhum artigo encontrado. Experimenta outra palavra ou escolhe um tema.', results: n => n === 1 ? '1 artigo encontrado' : `${n} artigos encontrados`,
     clear: 'Limpar', count: n => n === 1 ? '1 artigo' : `${n} artigos`, continueTitle: 'Continuar a ler', allIn: name => `Ver todos os artigos de ${name}`,
-    allArticles: 'Todos os artigos', topicIntro: 'Todos os artigos deste tema, para ler pela ordem que preferir.',
+    allArticles: 'Todos os artigos', topicIntro: 'Todos os artigos deste tema, para ler pela ordem que preferir.', startHere: 'Começar por aqui', startIntro: 'Escolha um tema ou pesquise uma dúvida. Mostramos primeiro uma seleção curta para ser mais fácil começar.', sortLabel: 'Ordenar artigos', recommended: 'Recomendados', az: 'A–Z', loadMore: 'Mostrar mais artigos',
   },
   en: {
     topicDir: 'topic', topics: 'Topics', searchLabel: 'Search articles', searchPlaceholder: 'Search (e.g. autism, AAC)',
     none: 'No articles found. Try another word or choose a topic.', results: n => n === 1 ? '1 article found' : `${n} articles found`,
     clear: 'Clear', count: n => n === 1 ? '1 article' : `${n} articles`, continueTitle: 'Keep reading', allIn: name => `See all ${name} articles`,
-    allArticles: 'All articles', topicIntro: 'Every article on this topic, to read in any order.',
+    allArticles: 'All articles', topicIntro: 'Every article on this topic, to read in any order.', startHere: 'Start here', startIntro: 'Choose a topic or search for a question. We show a short selection first so it is easier to begin.', sortLabel: 'Sort articles', recommended: 'Recommended', az: 'A–Z', loadMore: 'Show more articles',
   },
   es: {
     topicDir: 'tema', topics: 'Temas', searchLabel: 'Buscar artículos', searchPlaceholder: 'Buscar (p. ej.: autismo, CAA)',
     none: 'No se ha encontrado ningún artículo. Prueba otra palabra o elige un tema.', results: n => n === 1 ? '1 artículo encontrado' : `${n} artículos encontrados`,
     clear: 'Borrar', count: n => n === 1 ? '1 artículo' : `${n} artículos`, continueTitle: 'Seguir leyendo', allIn: name => `Ver todos los artículos de ${name}`,
-    allArticles: 'Todos los artículos', topicIntro: 'Todos los artículos de este tema, para leer en el orden que prefieras.',
+    allArticles: 'Todos los artículos', topicIntro: 'Todos los artículos de este tema, para leer en el orden que prefieras.', startHere: 'Empieza por aquí', startIntro: 'Elige un tema o busca una duda. Primero mostramos una selección breve para que sea más fácil empezar.', sortLabel: 'Ordenar artículos', recommended: 'Recomendados', az: 'A–Z', loadMore: 'Mostrar más artículos',
   },
 }
 const slugify = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
@@ -62,7 +62,7 @@ const articleCard = (lang, e, { keywords = [] } = {}) => {
   if (!c?.live) return `<div class="article-card is-soon"><span class="soon-tag">${L.index.soon}</span><h3>${c?.title || ''}</h3><p>${c?.teaser || ''}</p></div>`
   const kind = e.kind?.[lang] || L.guide
   const search = esc([c.title, c.teaser, t[lang].name, kind, ...keywords].map(strip).join(' '))
-  return `<a class="article-card" data-search="${search}" style="background:${t.bg};color:${t.ink}" href="${pathOf(lang, e.id)}"><span class="feature-label">${kind}</span><h3>${c.title}</h3><p>${c.teaser}</p><span class="text-link">${L.index.read} ${arrow}</span></a>`
+  return `<a class="article-card" data-search="${search}" data-title="${esc(c.title)}" data-order="${CATALOG.indexOf(e)}" style="background:${t.bg};color:${t.ink}" href="${pathOf(lang, e.id)}"><span class="feature-label">${kind}</span><h3>${c.title}</h3><p>${c.teaser}</p><span class="text-link">${L.index.read} ${arrow}</span></a>`
 }
 const searchBox = lang => {
   const N = NAV[lang]
@@ -81,6 +81,7 @@ const topicBar = (lang, current) => {
     return n ? `<a href="${topicPath(lang, key)}"${current === key ? ' aria-current="page"' : ''}>${THEMES[key][lang].name}<span class="topic-count">${n}</span></a>` : ''
   }).join('')}</nav>`
 }
+const articleControls = lang => `<div class="article-controls"><label>${NAV[lang].sortLabel}<select data-article-sort><option value="recommended">${NAV[lang].recommended}</option><option value="az">${NAV[lang].az}</option></select></label></div>`
 const longDate = (L, iso) => { const [y, m, d] = iso.split('-').map(Number); return L.date(d, L.months[m - 1], y) }
 const preserveExistingMascot = (file, html) => {
   if (!existsSync(file)) return html
@@ -355,6 +356,7 @@ ${nextIds.length ? `
 function buildIndex(lang) {
   const L = UI[lang]
   const I = L.index
+  const N = NAV[lang]
   const card = e => articleCard(lang, e, { keywords: articleContent.get(lang + ':' + e.id)?.keywords || [] })
   const popularItems = CATALOG.filter(e => e[lang]?.live).map(e => ({ id: e.id, title: e[lang].title, teaser: e[lang].teaser, path: pathOf(lang, e.id), bg: THEMES[e.theme].bg, ink: THEMES[e.theme].ink, kind: e.kind?.[lang] || L.guide }))
   const popularData = JSON.stringify(popularItems).replace(/</g, '\\u003c')
@@ -382,13 +384,16 @@ function buildIndex(lang) {
     </div></section>
     <div class="wrap index-body">
       ${searchBox(lang)}
+      <section class="article-start" aria-labelledby="article-start-title"><p class="feature-label">${N.startHere}</p><h2 id="article-start-title">${N.startHere}</h2><p>${N.startIntro}</p></section>
       ${topicBar(lang, null)}
+      ${articleControls(lang)}
       <section class="popular-section" data-popular-articles data-loading="true" aria-labelledby="popular-title">
         <h2 id="popular-title">${I.popularTitle}</h2><p>${I.popularIntro}</p>
         <div class="article-cards popular-cards" data-popular-cards></div>
         <script type="application/json" data-article-catalog>${popularData}</script>
       </section>
 ${sections}
+      <div class="article-load-more"><button type="button" class="button" data-load-more>${N.loadMore}</button></div>
       <p class="search-none" data-search-none hidden>${NAV[lang].none}</p>
     </div>
   </main>
@@ -441,7 +446,9 @@ function buildTopic(lang, key) {
     <div class="wrap index-body">
       ${searchBox(lang)}
       ${topicBar(lang, key)}
+      ${articleControls(lang)}
       <section class="topic-block topic-page-list" data-topic-block><div class="article-cards">${items.map(card).join('')}</div></section>
+      <div class="article-load-more"><button type="button" class="button" data-load-more>${N.loadMore}</button></div>
       <p class="search-none" data-search-none hidden>${N.none}</p>
     </div>
   </main>
@@ -467,12 +474,12 @@ function buildTips() {
   const tips = TIPS.filter(t => t.date <= today).sort((a, b) => b.date.localeCompare(a.date))
   const path = '/dicas/'
   const url = SITE + path
-  const tipCard = (t, featured) => {
+  const tipCard = (t, index) => {
     const e = entry(t.article)
     const th = THEMES[e.theme]
-    return `<article class="tip-card${featured ? ' is-today' : ''}" style="--tip-bg:${th.bg};--tip-ink:${th.ink}">
-        <p class="tip-date"><time datetime="${t.date}">${longDate(L, t.date)}</time>${featured ? ' · <strong>Dica de hoje</strong>' : ''}</p>
-        <h${featured ? 2 : 3}>${esc(t.title)}</h${featured ? 2 : 3}>
+    return `<article class="tip-card" data-tip-card data-tip-index="${index}" style="--tip-bg:${th.bg};--tip-ink:${th.ink}">
+        <p class="tip-date"><time datetime="${t.date}" data-tip-date>${longDate(L, t.date)}</time><strong data-tip-today hidden> · Dica de hoje</strong></p>
+        <h2>${esc(t.title)}</h2>
         <ol class="tip-list">${t.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
         <a class="text-link" href="${pathOf(lang, t.article)}">Ler o artigo completo: ${e[lang].title} ${arrow}</a>
       </article>`
@@ -491,14 +498,14 @@ function buildTips() {
       <p class="lead">Todos os dias, 3 recomendações práticas para comunicar, brincar e aprender com a criança. Cada uma vem de um artigo, para ler com calma.</p>
     </div></section>
     <div class="wrap index-body tips-body">
-      ${tips.length ? tipCard(tips[0], true) : ''}
-      ${tips.length > 1 ? `<h2 class="tips-archive-title">Dicas anteriores</h2><div class="tips-grid">${tips.slice(1).map(t => tipCard(t, false)).join('')}</div>` : ''}
+      ${tips.length ? `<div class="tips-grid tips-rotating-grid">${tips.map(tipCard).join('')}</div>` : ''}
       <p class="tips-follow">Novas dicas todos os dias no Instagram <a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener">@falamais.app</a>. Mais de 100 artigos em <a href="${L.base}">${L.articlesTab}</a>.</p>
     </div>
     ${cta(L)}
   </main>
 
   ${footer(L)}
+  <script>document.addEventListener('DOMContentLoaded',()=>{const cards=[...document.querySelectorAll('[data-tip-card]')];if(!cards.length)return;const day=Math.floor(Date.now()/86400000);const chosen=cards[day%cards.length];chosen.classList.add('is-today');chosen.querySelector('[data-tip-today]').hidden=false;const time=chosen.querySelector('[data-tip-date]');const now=new Date();time.dateTime=now.toISOString().slice(0,10);time.textContent=new Intl.DateTimeFormat('pt-PT',{day:'numeric',month:'long',year:'numeric'}).format(now);});</script>
 </body>
 </html>
 `

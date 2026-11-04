@@ -19,4 +19,6 @@ export default [
     tips: ['Cada adulto fala a língua em que se sente mais à vontade.', 'Não corrija a mistura de línguas: repita a frase com o modelo certo, de forma natural.', 'Partilhe com a creche ou a escola que línguas a criança ouve em casa.'] },
   { date: '2026-10-25', title: '3 formas de transformar um jogo de palavras em conversa', article: 'jogos-para-aprender-palavras',
     tips: ['Antes: «Vamos procurar animais? Que animais conheces?»', 'Durante: comente o que aparece. «O pinguim! Vive no frio.»', 'Troquem de papéis: a criança diz, aponta ou mostra uma imagem, e o adulto procura.'] },
+  { date: '2026-10-26', title: '3 formas de acompanhar o faz-de-conta', article: 'brincar-ao-faz-de-conta',
+    tips: ['Entre na história da criança. Se o urso está doente, pergunte «onde lhe dói?» em vez de mudar o enredo.', 'Dê voz às personagens e às emoções: «O urso está triste. Quer um abraço?»', 'Ofereça objetos abertos: caixas, panos, tampas, roupas velhas.'] },
 ]

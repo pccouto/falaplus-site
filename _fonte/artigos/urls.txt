@@ -177,6 +177,7 @@ https://falamais.pt/artigos/escolaridade-obrigatoria-transicao-pos-escola/
 https://falamais.pt/artigos/escolher-aplicacao-comunicacao-caa/
 https://falamais.pt/artigos/estereotipias-autismo-stimming/
 https://falamais.pt/artigos/estimular-aumenta-inteligencia/
+https://falamais.pt/artigos/fala-mais-atraso-na-fala/
 https://falamais.pt/artigos/fala-tardia-recupera-sozinha/
 https://falamais.pt/artigos/falar-a-bebe-prejudica-fala/
 https://falamais.pt/artigos/fantoches-para-contar-historias/
@@ -501,6 +502,7 @@ https://falamais.pt/en/articles/stuttering-in-children/
 https://falamais.pt/en/articles/support-for-inclusive-education-evolution-resources-and-current/
 https://falamais.pt/en/articles/supporting-a-child-to-express-needs/
 https://falamais.pt/en/articles/taking-an-app-report-to-an-appointment/
+https://falamais.pt/en/articles/talk-plus-speech-delay/
 https://falamais.pt/en/articles/talk-plus-weekly-report-what-games-show/
 https://falamais.pt/en/articles/teaching-autistic-pupils/
 https://falamais.pt/en/articles/teaching-blind-low-vision-pupils/
@@ -715,6 +717,7 @@ https://falamais.pt/es/articulos/frenillo-lingual-y-habla/
 https://falamais.pt/es/articulos/funciones-ejecutivas-en-la-escuela-apoyo-a-la-planificacion-la-atencion/
 https://falamais.pt/es/articulos/gamificacion-y-neuroplasticidad-lo-que-pueden-ensenar-los-videojuegos/
 https://falamais.pt/es/articulos/gemelos-y-retraso-del-habla/
+https://falamais.pt/es/articulos/habla-mas-retraso-del-habla/
 https://falamais.pt/es/articulos/hablar-como-bebe-perjudica-el-habla/
 https://falamais.pt/es/articulos/hiperlexia-leer-pronto-autismo/
 https://falamais.pt/es/articulos/hitos-del-lenguaje-0-a-24-meses/
