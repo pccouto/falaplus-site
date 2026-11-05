@@ -16,6 +16,7 @@ import { SEARCH_DEMAND_CATALOG } from './temas-procurados-data.mjs'
 import { APP_INFO_CATALOG } from './app-info-data.mjs'
 import FALA_MAIS_CATALOG from './catalogo-fala-mais.mjs'
 import { NEW_SPEECH_CATALOG } from './novos-temas-fala-data.mjs'
+import { CONSULTATION_THERAPY_CATALOG } from './consultas-terapias-data.mjs'
 export const THEMES = {
   app: {
     tagClass: '', bg: '#eee9f8', ink: '#5234b8',
@@ -488,4 +489,4 @@ export const CATALOG = [
     es: { live, slug: 'obligar-a-comer-aumenta-la-variedad', title: "¿Obligar al niño a comer ayuda a aceptar alimentos?", teaser: "La alimentación responsiva apoya la autonomía y la seguridad: cómo ofrecer alimentos sin presión." } },
 ]
 
-CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG)
+CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...CONSULTATION_THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG)
