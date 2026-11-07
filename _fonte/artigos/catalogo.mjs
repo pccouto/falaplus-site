@@ -1,3 +1,5 @@
+import SPORT_CATALOG from './catalogo-desporto.mjs'
+import LIFELONG_CATALOG from './catalogo-aprendizagem-vida.mjs'
 // Every article shown on the article index pages, in each language.
 // id = the PT slug; links between articles use [[id|text]] in any language.
 // A language block with live: false shows an "Em breve / Coming soon" card and gets no links.
@@ -18,6 +20,12 @@ import FALA_MAIS_CATALOG from './catalogo-fala-mais.mjs'
 import { NEW_SPEECH_CATALOG } from './novos-temas-fala-data.mjs'
 import { CONSULTATION_THERAPY_CATALOG } from './consultas-terapias-data.mjs'
 export const THEMES = {
+  vida: {
+    tagClass: '', bg: '#e7edf7', ink: '#365778',
+    pt: { name: 'Aprendizagem ao longo da vida', intro: 'Estratégias de aprendizagem na idade adulta e na terceira idade, com respeito pela autonomia e pelas necessidades individuais.' },
+    en: { name: 'Lifelong learning', intro: 'Learning strategies in adulthood and later life, respecting autonomy and individual needs.' },
+    es: { name: 'Aprendizaje a lo largo de la vida', intro: 'Estrategias de aprendizaje en la adultez y la tercera edad, respetando autonomía y necesidades individuales.' },
+  },
   app: {
     tagClass: '', bg: '#eee9f8', ink: '#5234b8',
     pt: { name: 'Conhecer a Fala+', intro: 'Conceito, missão, jogos, acessibilidade e formas de levar a Fala+ a mais crianças.' },
@@ -490,3 +498,5 @@ export const CATALOG = [
 ]
 
 CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...CONSULTATION_THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG)
+
+CATALOG.push(...SPORT_CATALOG, ...LIFELONG_CATALOG)
