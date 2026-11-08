@@ -1,3 +1,4 @@
+import CHILD_LEARNING_CATALOG from './catalogo-ensino-brincar-avaliacao.mjs'
 import SPORT_CATALOG from './catalogo-desporto.mjs'
 import LIFELONG_CATALOG from './catalogo-aprendizagem-vida.mjs'
 // Every article shown on the article index pages, in each language.
@@ -500,3 +501,5 @@ export const CATALOG = [
 CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...CONSULTATION_THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG)
 
 CATALOG.push(...SPORT_CATALOG, ...LIFELONG_CATALOG)
+
+CATALOG.push(...CHILD_LEARNING_CATALOG)
