@@ -1,3 +1,4 @@
+import { DEMAND_CATALOG } from './procura-2026-11-data.mjs'
 import CHILD_LEARNING_CATALOG from './catalogo-ensino-brincar-avaliacao.mjs'
 import SPORT_CATALOG from './catalogo-desporto.mjs'
 import LIFELONG_CATALOG from './catalogo-aprendizagem-vida.mjs'
@@ -503,3 +504,5 @@ CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, .
 CATALOG.push(...SPORT_CATALOG, ...LIFELONG_CATALOG)
 
 CATALOG.push(...CHILD_LEARNING_CATALOG)
+
+CATALOG.push(...DEMAND_CATALOG)
