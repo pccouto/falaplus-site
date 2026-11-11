@@ -1,5 +1,5 @@
-@font-face{font-family:'Baloo 2';src:url('assets/fonts/baloo2-variable.ttf') format('truetype');font-weight:400 800;font-display:swap}
-@font-face{font-family:Nunito;src:url('assets/fonts/nunito-variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+@font-face{font-family:'Baloo 2';src:url('assets/fonts/baloo2-variable.woff2') format('woff2'),url('assets/fonts/baloo2-variable.ttf') format('truetype');font-weight:400 800;font-display:swap}
+@font-face{font-family:Nunito;src:url('assets/fonts/nunito-variable.woff2') format('woff2'),url('assets/fonts/nunito-variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
 :root{--ink:#302643;--muted:#685f76;--paper:#fcfaf6;--purple:#6d4ce8;--purple-dark:#5234b8;--line:#e5dfeb;--display:'Baloo 2',system-ui,sans-serif;--body:Nunito,system-ui,sans-serif;color-scheme:light}
 *,*::before,*::after{box-sizing:border-box}html{overflow-x:clip}
 html{scroll-behavior:smooth;scroll-padding-top:0}

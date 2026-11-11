@@ -1,0 +1,68 @@
+export default {
+  id: 'canabidiol-cbd-autismo',
+  slug: 'cannabidiol-cbd-autismo',
+  short: 'CBD en el autismo',
+  date: '2026-11-05',
+  titleTag: 'Cannabidiol (CBD) en el autismo: qué dicen los estudios · Habla+',
+  description: '¿El aceite de CBD ayuda a niños autistas? Qué muestran los primeros ensayos, por qué no hay aprobación para el autismo y por qué las etiquetas son poco fiables.',
+  keywords: ['CBD autismo', 'cannabidiol autismo', 'aceite de CBD niños', 'cannabis medicinal autismo', 'CBD habla autismo'],
+  h1: 'Cannabidiol (CBD) en el autismo: qué dicen los <span class="word-highlight">estudios</span>',
+  lead: 'El cannabidiol (CBD) se presenta a menudo como solución para crisis, sueño e incluso habla en niños autistas. La investigación todavía es inicial y ningún producto está aprobado para el autismo.',
+  blocks: [
+    { intro: 'Quien busca <strong>CBD en el autismo</strong> encuentra muchos testimonios y pocos datos sólidos. Aquí separamos lo que está aprobado, lo que se está investigando y los riesgos prácticos del <strong>aceite de CBD en niños</strong>.' },
+    { summary: [
+      'Existe un medicamento de cannabidiol aprobado (en la UE y en EE. UU.) para tipos raros y graves de epilepsia, no para el autismo.',
+      'En el autismo hay estudios pequeños y un ensayo aleatorizado con resultados mixtos: no basta para recomendar su uso.',
+      'El CBD interactúa con otros medicamentos, incluidos los antiepilépticos.',
+      'Muchos productos a la venta no tienen la cantidad de CBD de la etiqueta y algunos contienen THC.',
+    ] },
+    { h2: '¿El CBD está aprobado para el autismo?', id: 'aprobacion', toc: 'Aprobación' },
+    { p: 'No. El único medicamento de cannabidiol aprobado por la FDA (2018) y la EMA (2019) es para epilepsias graves y raras, como los síndromes de Dravet y Lennox-Gastaut y el complejo de esclerosis tuberosa. Estas aprobaciones no incluyen el autismo. La legislación sobre cannabis y CBD es muy distinta en España, Argentina y otros países de América Latina: confirme la norma local con el médico o la farmacia.' },
+    { h2: '¿Qué muestran los estudios en el autismo?', id: 'estudios', toc: 'Estudios' },
+    { p: 'Los primeros estudios sobre cannabinoides en el autismo fueron sobre todo abiertos (sin placebo), lo que dificulta separar el efecto del producto del efecto de las expectativas. En un ensayo aleatorizado con placebo, con 150 niños y jóvenes autistas de 5 a 21 años, se probaron extractos de cannabis ricos en CBD con una pequeña cantidad de THC. La medida principal no mejoró más que con placebo; algunas medidas secundarias de conducta sí mejoraron. Los autores concluyeron que la evidencia de eficacia es <strong>mixta e insuficiente</strong> (Aran et al., 2021). No hay evidencia de que el CBD mejore el habla ni el lenguaje.' },
+    { h2: '¿Qué riesgos tiene el aceite de CBD en niños?', id: 'riesgos', toc: 'Riesgos' },
+    { ul: [
+      'Somnolencia, menos apetito y diarrea.',
+      'Alteraciones de las enzimas del hígado, sobre todo con otros medicamentos.',
+      '<strong>Interacciones</strong> con antiepilépticos y otros fármacos.',
+      'Etiquetas poco fiables: en un estudio con 84 productos vendidos por internet, cerca de 7 de cada 10 tenían una cantidad de CBD distinta de la indicada, y algunos contenían THC (Bonn-Miller et al., 2017).',
+    ] },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'Hay un medicamento de CBD aprobado para algunas epilepsias graves.',
+        'En el autismo, la investigación es inicial y los resultados son mixtos.',
+        'Los productos de venta libre varían mucho en su composición.',
+      ],
+      no: [
+        '«El CBD trata el autismo.»',
+        '«El CBD ayuda al niño a hablar.»',
+        '«Es natural, así que es seguro.»',
+      ],
+    } },
+    { p: 'Vea también [[tratamentos-perigosos-autismo-mms-quelacao|MMS, quelación y otros «tratamientos» peligrosos]] y [[melatonina-criancas-autismo-sono|Melatonina en niños]].' },
+    { bridge: {
+      title: 'Apoyar la comunicación mientras avanza la ciencia',
+      intro: 'El artículo concluye que el CBD no tiene evidencia en el habla. El apoyo a la comunicación no tiene por qué esperar:',
+      items: [
+        ['Mostrar lo que quiere y lo que siente.', 'Comunicar tiene tarjetas de imagen y voz, incluidos los grupos de Sentimientos y Dolor.'],
+        ['Menos estímulos cuando el niño se satura.', 'El modo tranquilo reduce los estímulos visuales.'],
+      ],
+      outro: 'Habla+ no es un tratamiento. Las decisiones sobre el CBD o cualquier medicamento corresponden al médico.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre el CBD y el autismo',
+  faq: [
+    ['¿El aceite de CBD ayuda a los niños autistas?', 'Los estudios aún son iniciales y los resultados son mixtos. No hay aprobación para el autismo.'],
+    ['¿El CBD ayuda a hablar al niño autista?', 'No hay evidencia de que el CBD mejore el habla ni el lenguaje.'],
+    ['¿El CBD es legal?', 'Depende del país y del producto. Confirme la norma local y hable con el médico antes de usarlo.'],
+    ['¿El CBD puede interactuar con otros medicamentos?', 'Sí, incluidos los antiepilépticos. Por eso debe hablarse siempre con el médico.'],
+  ],
+  sources: [
+    'Aran A. et al. (2021). Cannabinoid treatment for autism: a proof-of-concept randomized trial. <em>Molecular Autism</em>, 12, 6. <a href="https://doi.org/10.1186/s13229-021-00420-2" rel="noopener" target="_blank">doi:10.1186/s13229-021-00420-2</a>',
+    'Bonn-Miller M. O. et al. (2017). Labeling accuracy of cannabidiol extracts sold online. <em>JAMA</em>, 318(17), 1708–1709. <a href="https://doi.org/10.1001/jama.2017.11909" rel="noopener" target="_blank">doi:10.1001/jama.2017.11909</a>',
+    'Agencia Europea de Medicamentos. <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/epidyolex" rel="noopener" target="_blank">Epidyolex (cannabidiol): resumen del EPAR</a>.',
+  ],
+  related: ['tratamentos-perigosos-autismo-mms-quelacao', 'melatonina-criancas-autismo-sono', 'medicacao-autismo-risperidona-aripiprazol'],
+}

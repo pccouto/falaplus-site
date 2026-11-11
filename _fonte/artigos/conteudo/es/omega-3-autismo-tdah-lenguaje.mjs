@@ -1,0 +1,68 @@
+export default {
+  id: 'omega-3-autismo-phda-linguagem',
+  slug: 'omega-3-autismo-tdah-lenguaje',
+  short: 'Omega-3 en el autismo y el TDAH',
+  date: '2026-11-05',
+  titleTag: 'Omega-3 en el autismo y el TDAH: ¿ayuda al habla? · Habla+',
+  description: '¿El omega-3 ayuda a niños autistas o con TDAH a hablar o concentrarse? Qué concluyen las revisiones Cochrane y cómo decidir con el médico.',
+  keywords: ['omega 3 autismo', 'omega 3 TDAH', 'omega 3 para niños', 'omega 3 lenguaje', 'aceite de pescado autismo', 'suplementos TDAH niños'],
+  h1: 'Omega-3 en el autismo y el TDAH: ¿ayuda al <span class="word-highlight">lenguaje</span>?',
+  lead: 'El omega-3 se vende como apoyo «para el cerebro» y aparece en muchas listas de suplementos para niños autistas o con TDAH. Las revisiones sistemáticas más rigurosas no confirman esas promesas.',
+  blocks: [
+    { intro: 'Quien busca <strong>omega-3 en el autismo</strong> o <strong>omega-3 en el TDAH</strong> encuentra promesas sobre habla, atención y conducta. Aquí resumimos lo que concluyen las revisiones Cochrane, que reúnen los ensayos aleatorizados disponibles.' },
+    { summary: [
+      'En el autismo, la revisión Cochrane no encontró evidencia de que el omega-3 mejore la comunicación, la interacción social ni la conducta.',
+      'En el TDAH, la revisión Cochrane de 2023 concluyó que los ácidos grasos poliinsaturados tienen poco o ningún efecto en los síntomas, con evidencia de baja certeza.',
+      'Comer pescado forma parte de una alimentación equilibrada; eso es distinto de usar cápsulas como tratamiento.',
+      'Ningún suplemento sustituye la evaluación y el apoyo a la comunicación.',
+    ] },
+    { h2: '¿El omega-3 ayuda a hablar a los niños autistas?', id: 'autismo', toc: 'Autismo' },
+    { p: 'La revisión Cochrane sobre omega-3 en el autismo analizó ensayos aleatorizados con placebo y no encontró evidencia de mejora en la <strong>comunicación</strong>, la interacción social, los intereses restringidos ni la hiperactividad (James et al., 2011). Los ensayos eran pequeños, así que la conclusión correcta es «no hay evidencia de beneficio», no «está demostrado que no sirve». Aun así, no hay base para presentarlo como tratamiento.' },
+    { h2: '¿Y en el TDAH?', id: 'tdah', toc: 'TDAH' },
+    { p: 'La revisión Cochrane actualizada en 2023 reunió decenas de ensayos con niños y adolescentes con TDAH. Concluyó que los suplementos de <strong>ácidos grasos poliinsaturados</strong> (omega-3 y omega-6) tienen poco o ningún efecto en la inatención y la hiperactividad valoradas por padres o docentes, y que la certeza de la evidencia es baja (Gillies et al., 2023).' },
+    { h2: '¿Tiene riesgos?', id: 'riesgos', toc: 'Riesgos' },
+    { p: 'En las dosis habituales, los efectos adversos suelen ser leves (sabor a pescado, molestias digestivas). El riesgo principal es indirecto: gastar tiempo y dinero esperando un efecto que los estudios no muestran y <strong>retrasar el apoyo</strong> a la comunicación y la atención. Si el niño come de forma muy restringida, el médico o el nutricionista valoran qué falta.' },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'Las revisiones Cochrane no encuentran beneficio claro en el autismo ni en el TDAH.',
+        'El pescado puede formar parte de una dieta variada.',
+        'Una alimentación muy selectiva merece evaluación.',
+      ],
+      no: [
+        '«El omega-3 hace hablar al niño.»',
+        '«El omega-3 sustituye la medicación o el apoyo del TDAH.»',
+        '«Cuantas más cápsulas, mejor.»',
+      ],
+    } },
+    { h2: '¿Qué hacer en su lugar?', id: 'que-hacer', toc: 'Qué hacer' },
+    { ol: [
+      'Pida una evaluación del lenguaje y de la audición si el habla preocupa.',
+      'Hable con el médico sobre la alimentación, sobre todo si es muy restringida.',
+      'Aproveche el tiempo en casa para conversar, jugar y leer con el niño.',
+    ] },
+    { p: 'Lea también [[vitaminas-para-atraso-na-fala|Vitaminas para el retraso del habla: ¿funcionan?]].' },
+    { bridge: {
+      title: 'Donde el tiempo rinde más: la interacción',
+      intro: 'El artículo concluye que ningún suplemento sustituye el apoyo a la comunicación. En la app:',
+      items: [
+        ['Oír y usar palabras del día a día.', 'Más de 1000 palabras en 25 temas, con imagen y voz, en juegos distintos.'],
+        ['Atención con tareas cortas y ajustadas.', 'La dificultad de los juegos se ajusta al desempeño del niño.'],
+      ],
+      outro: 'Habla+ no es un tratamiento para el autismo ni para el TDAH.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre el omega-3',
+  faq: [
+    ['¿El omega-3 es bueno para niños con autismo?', 'La revisión Cochrane no encontró evidencia de que mejore la comunicación ni la conducta en el autismo.'],
+    ['¿El omega-3 ayuda en el TDAH?', 'La revisión Cochrane de 2023 concluyó que tiene poco o ningún efecto en los síntomas, con evidencia de baja certeza.'],
+    ['¿El omega-3 ayuda al niño a hablar?', 'No hay evidencia de que trate el retraso del habla.'],
+    ['¿Puedo darle omega-3 al niño?', 'Hable primero con el médico. Puede tener sentido si come poco pescado, pero no como tratamiento.'],
+  ],
+  sources: [
+    'James S., Montgomery P., Williams K. (2011). Omega-3 fatty acids supplementation for autism spectrum disorders (ASD). <em>Cochrane Database of Systematic Reviews</em>, CD007992. <a href="https://doi.org/10.1002/14651858.CD007992.pub2" rel="noopener" target="_blank">doi:10.1002/14651858.CD007992.pub2</a>',
+    'Gillies D. et al. (2023). Polyunsaturated fatty acids (PUFA) for attention deficit hyperactivity disorder (ADHD) in children and adolescents. <em>Cochrane Database of Systematic Reviews</em>, CD007986. <a href="https://doi.org/10.1002/14651858.CD007986.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD007986.pub3</a>',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'dieta-sem-gluten-autismo', 'medicacao-phda-metilfenidato-linguagem'],
+}

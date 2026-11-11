@@ -1,6 +1,6 @@
 # Dez artigos com oportunidades de pesquisa — 09-11-2026
 
-Estado: lote de publicação autorizado por Paulo em 09-11-2026, com dez artigos em PT/EN/ES (30 páginas). A confirmação dos endereços públicos é registada no guia editorial após o deployment. Pedido: dez temas propostos e aceites por Paulo com «siga».
+Estado: publicados em PT/EN/ES, commit `e496f6c3`, após autorização de publicação do Paulo em 09-11-2026. Deployment GitHub Pages concluído com sucesso. Confirmados os 30 URLs públicos com HTTP 200, H1 exato, canonical próprio e FAQPage; os três índices incluem os dez artigos e o sitemap inclui os 30 URLs. Sem pedido de indexação. Pedido inicial: dez temas propostos e aceites por Paulo com «siga».
 
 ## Seleção e limites dos dados
 
@@ -49,4 +49,4 @@ URLs de referência em `SOURCES`, no módulo editorial. Consultados IES/WWC (com
 
 ## Pendências
 
-Publicação autorizada e preparada sobre `origin/main` atualizado (`c0baebe1`), preservando as séries já publicadas. Não inclui outros rascunhos locais. Datas do sitemap dos URLs existentes preservadas. As alterações geradas em corpos de artigos anteriores foram excluídas deste commit. Pedido de indexação não efetuado. Revisão clínica externa não atribuída. As fontes fundamentam princípios e não validam estes exemplos como intervenção. Nenhuma mudança na app Android; não se aplica instalação de APK.
+Publicação concluída a partir de cópia limpa sobre `origin/main` (`c0baebe1`), sem incluir outros rascunhos locais. Datas dos URLs anteriores no sitemap preservadas. Evidência em `App/fala-plus/tmp/published-demand-verification.json`. Revisão clínica externa não atribuída. As fontes fundamentam princípios e não validam estes exemplos como intervenção. Nenhuma mudança na app Android; não se aplica instalação de APK.

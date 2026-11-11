@@ -1,12 +1,45 @@
-# Fala+ — site de apresentação
+# Fala Mais — falamais.pt
 
-Página que apresenta a app Fala+ e recolhe emails para avisar do lançamento no Google Play (desde 08/10/2026 já não recruta testadores).
+Site estático da Fala Mais (Fala+), disponível no Google Play desde 28-10-2026. Inclui apresentação da app, artigos, guias de descoberta e 58 páginas de jogos em Português, Inglês e Espanhol. Existe também uma área editorial em português brasileiro.
 
-- Sem build: abrir `index.html` no browser para ver localmente.
-- Publicação: GitHub Pages, branch `main`, pasta raiz, com domínio principal `https://falamais.pt/` definido em `CNAME`.
-- Acesso: a app está apenas em testes (confirmado em 28/09/2026). O botão abre um email para pedir informações; contacto e mensagem em `main.js`. Não existe formulário, lista de espera ou envio automático.
-- Antes da publicação pública da app, confirmar a ligação do Google Play e as condições dos planos. Não anunciar instalação pública enquanto essa ligação não estiver disponível.
-- Demonstrações: um único leitor com oito jogos, controlos nativos e carregamento após interação. Vídeos param ao sair da área visível ou colocar a página em segundo plano.
-- Navegação móvel: Menu acessível por teclado, fecha com Escape e ao escolher uma secção. Sem JavaScript, a navegação e o vídeo inicial continuam disponíveis.
-- Tipos de letra: Baloo 2 e Nunito (licença SIL OFL, ver `assets/fonts/`).
-- Política de privacidade: `privacy-policy.html` e `privacy-policy-en.html` (28/09/2026). São cópias do repositório `falaplus-legal`, cujo endereço continua registado na Play Console. Qualquer alteração tem de ser feita nos dois sítios até a Play Console passar a apontar para `https://falamais.pt/privacy-policy.html`.
+## Tecnologia e pré-visualização
+
+HTML, CSS e JavaScript sem dependências de execução ou instalação npm. Para pré-visualizar a partir desta pasta:
+
+```sh
+python -m http.server 8768 --bind 127.0.0.1
+```
+
+Abrir `http://127.0.0.1:8768/`. O domínio de produção é `https://falamais.pt/`, servido por GitHub Pages a partir da raiz de `main`.
+
+## Fontes e geração
+
+- Homepages: `index.html`, `en/index.html`, `es/index.html`; apresentação em `home.css`, comportamento em `home.js` e `main.js`.
+- Artigos: `_fonte/artigos/`; executar `node _fonte/artigos/build.mjs`. Nunca editar manualmente os artigos gerados.
+- Jogos: `_fonte/jogos/`; executar `python _fonte/jogos/build.py` (Python 3.12). Dados, instruções, propostas específicas e apresentação partilhada nessa pasta.
+- Descoberta: `node scripts/build-discovery.mjs` gera `/explorar/`, `/en/explore/`, `/es/explorar/` e a página 404.
+- Os três geradores preservam as entradas do sitemap que pertencem às outras áreas.
+- Os artigos sobre jogos podem ligar para demonstrações através de `_fonte/artigos/discovery-games.mjs`.
+
+Ordem recomendada para regenerar o conjunto:
+
+```sh
+node _fonte/artigos/build.mjs
+python _fonte/jogos/build.py
+node scripts/build-discovery.mjs
+```
+
+## Recursos e desempenho
+
+Os recursos da app foram copiados para `assets/`; o site não depende do repositório da app para ser servido ou gerado. Os vídeos dos jogos vêm das versões `fb-` dos reels, com áudio, e apenas carregam após interação. Fontes Baloo 2 e Nunito em WOFF2, mantendo os TTF como alternativa e as licenças SIL OFL. `scripts/prepare-web-fonts.py` é uma ferramenta opcional de preparação que usa fontTools e Brotli já instalados no ambiente de edição; não é uma dependência do site.
+
+## Validação
+
+`python _fonte/jogos/validate.py` verifica as páginas dos jogos, links, metadados e sitemap. Existem verificadores específicos em `scripts/`. O registo da revisão global de 11-11-2026 está em `_fonte/REVISAO_SITE_2026-11-11.md`.
+
+Manter PT, EN e ES em paridade, verificar apresentação em telemóvel e computador e rever o estado Git antes de publicar. O conteúdo da app deve ser factual; os jogos não são diagnósticos nem tratamentos. Não incluir no commit outras alterações pendentes sem verificar o âmbito.
+
+
+### Cabe?alho comum
+
+`node scripts/unify-headers.mjs` aplica o mesmo cabe?alho ?s p?ginas p?blicas, com navega??o localizada e alternates da p?gina atual. ? executado pelos geradores de artigos, jogos e descoberta. Estilos e menu em `assets/css/site-header.css` e `assets/js/site-header.js`. Verifica??o real: `node scripts/validate-headers.mjs` (Playwright j? instalado na app; sem depend?ncia de produ??o).

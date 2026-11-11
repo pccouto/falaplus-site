@@ -1,7 +1,9 @@
-import { DEMAND_CATALOG } from './procura-2026-11-data.mjs'
 import CHILD_LEARNING_CATALOG from './catalogo-ensino-brincar-avaliacao.mjs'
-import SPORT_CATALOG from './catalogo-desporto.mjs'
+import { CONSULTATION_THERAPY_CATALOG } from './consultas-terapias-data.mjs'
+import { BR_CATALOG } from './br/catalogo.mjs'
+import { DEMAND_CATALOG } from './procura-2026-11-data.mjs'
 import LIFELONG_CATALOG from './catalogo-aprendizagem-vida.mjs'
+import SPORT_CATALOG from './catalogo-desporto.mjs'
 // Every article shown on the article index pages, in each language.
 // id = the PT slug; links between articles use [[id|text]] in any language.
 // A language block with live: false shows an "Em breve / Coming soon" card and gets no links.
@@ -20,7 +22,8 @@ import { SEARCH_DEMAND_CATALOG } from './temas-procurados-data.mjs'
 import { APP_INFO_CATALOG } from './app-info-data.mjs'
 import FALA_MAIS_CATALOG from './catalogo-fala-mais.mjs'
 import { NEW_SPEECH_CATALOG } from './novos-temas-fala-data.mjs'
-import { CONSULTATION_THERAPY_CATALOG } from './consultas-terapias-data.mjs'
+import SUPPLEMENTS_CATALOG from './catalogo-suplementos.mjs'
+import { PRACTICAL_APP_CATALOG } from './app-pratica-data.mjs'
 export const THEMES = {
   vida: {
     tagClass: '', bg: '#e7edf7', ink: '#365778',
@@ -69,6 +72,12 @@ export const THEMES = {
     pt: { name: 'Mitos ou Verdades', intro: 'Perguntas frequentes sobre autismo, fala, desenvolvimento e alimentação, respondidas com evidência e prudência.' },
     en: { name: 'Myth or Fact', intro: 'Common questions about autism, speech, development and food, answered with evidence and care.' },
     es: { name: '¿Mito o verdad?', intro: 'Preguntas frecuentes sobre autismo, habla, desarrollo y alimentación, respondidas con evidencia y cuidado.' },
+  },
+  saude: {
+    tagClass: '', bg: '#e3f1ee', ink: '#2f5e55',
+    pt: { name: 'Suplementos e medicação', intro: 'Vitaminas, suplementos, medicamentos e outras substâncias associadas à fala, ao autismo e à PHDA: o que a evidência mostra e o que não mostra.' },
+    en: { name: 'Supplements and medication', intro: 'Vitamins, supplements, medicines and other substances linked to speech, autism and ADHD: what the evidence shows and what it does not.' },
+    es: { name: 'Suplementos y medicación', intro: 'Vitaminas, suplementos, medicamentos y otras sustancias asociadas al habla, el autismo y el TDAH: qué muestra la evidencia y qué no.' },
   },
   escola: {
     tagClass: '', bg: '#e5edf8', ink: '#31547a',
@@ -499,10 +508,20 @@ export const CATALOG = [
     es: { live, slug: 'obligar-a-comer-aumenta-la-variedad', title: "¿Obligar al niño a comer ayuda a aceptar alimentos?", teaser: "La alimentación responsiva apoya la autonomía y la seguridad: cómo ofrecer alimentos sin presión." } },
 ]
 
-CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...CONSULTATION_THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG)
+CATALOG.push(...NEW_SPEECH_CATALOG, ...APP_INFO_CATALOG, ...FALA_MAIS_CATALOG, ...SCHOOL_CATALOG, ...NEW_CATALOG, ...diagnosticCatalog(), ...REPORT_GUIDE_CATALOG, ...SEARCH_DEMAND_CATALOG, ...THERAPY_CATALOG, ...SPEECH_DELAY_CATALOG, ...SEARCH_TOPICS_CATALOG, ...SPEECH_DELAY_2_CATALOG, ...TOY_CATALOG, ...TEACHING_CATALOG, ...SUPPLEMENTS_CATALOG, ...PRACTICAL_APP_CATALOG)
 
-CATALOG.push(...SPORT_CATALOG, ...LIFELONG_CATALOG)
+CATALOG.push(...CHILD_LEARNING_CATALOG, ...CONSULTATION_THERAPY_CATALOG)
+CATALOG.push(...SPORT_CATALOG)
 
-CATALOG.push(...CHILD_LEARNING_CATALOG)
-
+CATALOG.push(...LIFELONG_CATALOG)
 CATALOG.push(...DEMAND_CATALOG)
+
+// Brazilian pages are opt-in; do not expose untranslated catalog entries.
+for (const localized of BR_CATALOG) {
+  const existing = CATALOG.find(e => e.id === localized.id)
+  if (!existing) throw new Error("Unknown Brazilian article: " + localized.id)
+  existing.br = localized.br
+}
+for (const theme of Object.values(THEMES)) theme.br = { ...theme.pt }
+THEMES.fala.br.intro = "Como a criança aprende a se comunicar e quando procurar orientação."
+THEMES.brincar.br.intro = "Por que brincar importa e como acompanhar a criança nas brincadeiras."

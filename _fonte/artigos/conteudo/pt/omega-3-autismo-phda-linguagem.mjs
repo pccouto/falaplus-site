@@ -1,0 +1,67 @@
+export default {
+  slug: 'omega-3-autismo-phda-linguagem',
+  short: 'Ómega-3 no autismo e na PHDA',
+  date: '2026-11-05',
+  titleTag: 'Ómega-3 no autismo e na PHDA: ajuda a fala? · Fala+',
+  description: 'O ómega-3 ajuda crianças autistas ou com PHDA a falar ou a concentrar-se? O que concluem as revisões Cochrane e como decidir com o médico.',
+  keywords: ['ómega 3 autismo', 'ómega 3 PHDA', 'ómega 3 para crianças', 'ómega 3 fala', 'óleo de peixe autismo', 'suplementos PHDA crianças'],
+  h1: 'Ómega-3 no autismo e na PHDA: ajuda a <span class="word-highlight">fala</span>?',
+  lead: 'O ómega-3 é vendido como apoio «para o cérebro» e aparece em muitas listas de suplementos para crianças autistas ou com PHDA. As revisões sistemáticas mais rigorosas não confirmam essas promessas.',
+  blocks: [
+    { intro: 'Quem pesquisa <strong>ómega-3 no autismo</strong> ou <strong>ómega-3 na PHDA</strong> encontra promessas sobre fala, atenção e comportamento. Aqui resumimos o que concluem as revisões Cochrane, que juntam os ensaios aleatorizados disponíveis.' },
+    { summary: [
+      'No autismo, a revisão Cochrane não encontrou evidência de que o ómega-3 melhore a comunicação, a interação social ou o comportamento.',
+      'Na PHDA, a revisão Cochrane de 2023 concluiu que os ácidos gordos polinsaturados têm pouco ou nenhum efeito nos sintomas, com evidência de baixa certeza.',
+      'Comer peixe faz parte de uma alimentação equilibrada; isso é diferente de usar cápsulas como tratamento.',
+      'Nenhum suplemento substitui a avaliação e o apoio à comunicação.',
+    ] },
+    { h2: 'O ómega-3 ajuda crianças autistas a falar?', id: 'autismo', toc: 'Autismo' },
+    { p: 'A revisão Cochrane sobre ómega-3 no autismo analisou ensaios aleatorizados com placebo e não encontrou evidência de melhoria na <strong>comunicação</strong>, na interação social, nos interesses restritos ou na hiperatividade (James et al., 2011). Os ensaios eram pequenos, por isso a conclusão correta é «não há evidência de benefício», e não «está provado que é inútil». Ainda assim, não há base para o apresentar como tratamento.' },
+    { h2: 'E na PHDA?', id: 'phda', toc: 'PHDA' },
+    { p: 'A revisão Cochrane atualizada em 2023 reuniu dezenas de ensaios com crianças e adolescentes com PHDA. Concluiu que a suplementação com <strong>ácidos gordos polinsaturados</strong> (ómega-3 e ómega-6) tem pouco ou nenhum efeito nos sintomas de desatenção e hiperatividade, avaliados pelos pais ou pelos professores, e que a certeza da evidência é baixa (Gillies et al., 2023).' },
+    { h2: 'Há riscos?', id: 'riscos', toc: 'Riscos' },
+    { p: 'Nas doses habituais, os efeitos adversos costumam ser ligeiros (sabor a peixe, desconforto digestivo). O risco principal é indireto: gastar tempo e dinheiro à espera de um efeito que os estudos não mostram e <strong>adiar o apoio</strong> à comunicação e à atenção. Se a criança tem uma alimentação muito restrita, o médico ou o nutricionista avaliam o que falta.' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'As revisões Cochrane não encontram benefício claro no autismo nem na PHDA.',
+        'O peixe pode fazer parte de uma alimentação variada.',
+        'Uma alimentação muito seletiva merece avaliação.',
+      ],
+      no: [
+        '«O ómega-3 põe a criança a falar.»',
+        '«O ómega-3 substitui a medicação ou o apoio da PHDA.»',
+        '«Quanto mais cápsulas, melhor.»',
+      ],
+    } },
+    { h2: 'O que fazer em vez disso?', id: 'o-que-fazer', toc: 'O que fazer' },
+    { ol: [
+      'Peça uma avaliação da linguagem e da audição se a fala preocupa.',
+      'Fale com o médico sobre a alimentação, sobretudo se for muito restrita.',
+      'Use o tempo de casa para conversar, brincar e ler com a criança.',
+    ] },
+    { p: 'Leia também [[vitaminas-para-atraso-na-fala|Vitaminas para o atraso na fala: funcionam?]].' },
+    { bridge: {
+      title: 'Onde o tempo rende mais: interação',
+      intro: 'O artigo conclui que nenhum suplemento substitui o apoio à comunicação. Na app:',
+      items: [
+        ['Ouvir e usar palavras do dia a dia.', 'Mais de 1000 palavras em 25 temas, com imagem e voz, em jogos diferentes.'],
+        ['Atenção com tarefas curtas e ajustadas.', 'A dificuldade dos jogos ajusta-se ao desempenho da criança.'],
+      ],
+      outro: 'A Fala+ não é um tratamento para o autismo nem para a PHDA.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre ómega-3',
+  faq: [
+    ['O ómega-3 é bom para crianças com autismo?', 'A revisão Cochrane não encontrou evidência de que melhore a comunicação ou o comportamento no autismo.'],
+    ['O ómega-3 ajuda na PHDA?', 'A revisão Cochrane de 2023 concluiu que tem pouco ou nenhum efeito nos sintomas, com evidência de baixa certeza.'],
+    ['O ómega-3 ajuda a criança a falar?', 'Não há evidência de que trate o atraso na fala.'],
+    ['Posso dar ómega-3 à criança?', 'Fale primeiro com o médico. Pode fazer sentido numa alimentação com pouco peixe, mas não como tratamento.'],
+  ],
+  sources: [
+    'James S., Montgomery P., Williams K. (2011). Omega-3 fatty acids supplementation for autism spectrum disorders (ASD). <em>Cochrane Database of Systematic Reviews</em>, CD007992. <a href="https://doi.org/10.1002/14651858.CD007992.pub2" rel="noopener" target="_blank">doi:10.1002/14651858.CD007992.pub2</a>',
+    'Gillies D. et al. (2023). Polyunsaturated fatty acids (PUFA) for attention deficit hyperactivity disorder (ADHD) in children and adolescents. <em>Cochrane Database of Systematic Reviews</em>, CD007986. <a href="https://doi.org/10.1002/14651858.CD007986.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD007986.pub3</a>',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'dieta-sem-gluten-autismo', 'medicacao-phda-metilfenidato-linguagem'],
+}

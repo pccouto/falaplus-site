@@ -1,0 +1,73 @@
+export default {
+  slug: 'gravidez-acido-folico-iodo-valproato',
+  short: 'Gravidez e neurodesenvolvimento',
+  date: '2026-11-05',
+  titleTag: 'Gravidez: ácido fólico, iodo e valproato · Fala+',
+  description: 'O ácido fólico na gravidez reduz o risco de autismo? O que se sabe sobre ácido fólico, iodo e valproato na gravidez e o desenvolvimento da linguagem da criança.',
+  keywords: ['ácido fólico gravidez autismo', 'iodo na gravidez', 'valproato gravidez', 'medicamentos na gravidez e autismo', 'suplementos gravidez desenvolvimento do bebé'],
+  h1: 'Gravidez e desenvolvimento da linguagem: ácido fólico, iodo e <span class="word-highlight">valproato</span>',
+  lead: 'Algumas decisões na gravidez estão associadas ao neurodesenvolvimento da criança. É importante saber o que está bem estabelecido, o que é só associação e o que nunca deve ser motivo de culpa.',
+  blocks: [
+    { intro: 'Este artigo é para quem planeia uma gravidez ou está grávida, e para famílias que se perguntam «terá sido alguma coisa na gravidez?». Falamos do <strong>ácido fólico na gravidez e o autismo</strong>, do <strong>iodo</strong> e do medicamento antiepilético <strong>valproato</strong>.' },
+    { summary: [
+      'O ácido fólico antes e no início da gravidez previne defeitos do tubo neural; um grande estudo norueguês associou-o também a menos diagnósticos de autismo, mas é uma associação.',
+      'A carência ligeira de iodo na gravidez foi associada a resultados verbais e de leitura mais baixos nas crianças.',
+      'O valproato na gravidez aumenta o risco de malformações e de perturbações do neurodesenvolvimento, incluindo atrasos de linguagem e autismo.',
+      'Nunca suspenda um medicamento por conta própria: fale com o médico antes de engravidar.',
+    ] },
+    { h2: 'O ácido fólico na gravidez reduz o risco de autismo?', id: 'acido-folico', toc: 'Ácido fólico' },
+    { p: 'A razão principal para tomar ácido fólico é bem conhecida: prevenir defeitos do tubo neural. A OMS recomenda um suplemento diário desde antes da conceção até ao fim do primeiro trimestre. Num estudo norueguês com cerca de 85 000 crianças, as mães que tomaram ácido fólico desde 4 semanas antes até 8 semanas depois da conceção tiveram menos filhos com diagnóstico de perturbação autista (Surén et al., 2013). É uma <strong>associação</strong>: não prova causa, e muitas crianças autistas nasceram de gravidezes com ácido fólico.' },
+    { h2: 'Porque é importante o iodo na gravidez?', id: 'iodo', toc: 'Iodo' },
+    { p: 'O iodo é necessário para as hormonas da tiroide, essenciais ao desenvolvimento do cérebro do bebé. No estudo britânico ALSPAC, os filhos de mães com carência ligeira a moderada de iodo na gravidez tiveram, em média, resultados mais baixos em QI verbal e leitura (Bath et al., 2013). Vários países recomendam suplemento de iodo na preconceção, gravidez e amamentação. Em Portugal, a Orientação da DGS n.º 011/2013 recomenda iodeto de potássio nestas fases; no Brasil, a política assenta sobretudo no sal iodado. Confirme com o médico a recomendação em vigor no seu país.' },
+    { h2: 'O valproato na gravidez pode afetar a linguagem da criança?', id: 'valproato', toc: 'Valproato' },
+    { p: 'O valproato é um medicamento eficaz para a epilepsia e a doença bipolar. Na gravidez, aumenta o risco de malformações e de <strong>perturbações do neurodesenvolvimento</strong>: atrasos na fala e na linguagem, dificuldades de aprendizagem e autismo. Num estudo dinamarquês de base populacional, a exposição ao valproato na gravidez associou-se a um risco maior de autismo (Christensen et al., 2013). Por isso a EMA restringiu em 2018 o seu uso em raparigas e mulheres que podem engravidar, com um programa de prevenção da gravidez.' },
+    { alert: {
+      title: 'Se toma valproato ou outro antiepilético:',
+      items: [
+        'não pare de o tomar por conta própria: uma crise epilética na gravidez também é perigosa;',
+        'fale com o médico antes de engravidar, para rever a medicação;',
+        'se já está grávida, contacte o médico com urgência.',
+      ],
+    } },
+    { h2: 'Foi culpa de alguma coisa na gravidez?', id: 'culpa', toc: 'E a culpa?' },
+    { p: 'Na grande maioria das crianças, não há uma causa única identificável para o autismo ou para um atraso de linguagem. A genética tem um papel importante. Estas informações servem para planear gravidezes futuras, e não para atribuir culpas. O que conta agora é o apoio à criança. As vacinas, por exemplo, não causam autismo: veja [[vacinas-e-autismo|Vacinas e autismo]].' },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'O ácido fólico previne defeitos do tubo neural.',
+        'O iodo é necessário ao desenvolvimento do cérebro do bebé.',
+        'O valproato na gravidez aumenta o risco de perturbações do neurodesenvolvimento.',
+      ],
+      no: [
+        '«O ácido fólico previne o autismo.» É uma associação.',
+        '«O autismo da criança foi culpa da mãe.»',
+        '«Mais suplementos na gravidez é sempre melhor.»',
+      ],
+    } },
+    { bridge: {
+      title: 'Depois do nascimento: oportunidades de comunicar',
+      intro: 'Seja qual for a história da gravidez, o artigo lembra que o apoio à criança é o que conta agora. Na app:',
+      items: [
+        ['Comunicar enquanto a fala se desenvolve.', 'No Comunicar, a criança junta cartões de imagem numa frase e ouve-a em voz alta.'],
+        ['Palavras próximas da criança.', 'Na Área Adulto é possível usar fotografias e gravar a voz de quem conhece a criança.'],
+      ],
+      outro: 'A Fala+ não substitui a vigilância do desenvolvimento nem a terapia da fala.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre gravidez e neurodesenvolvimento',
+  faq: [
+    ['O ácido fólico previne o autismo?', 'Um grande estudo associou o ácido fólico no início da gravidez a menos diagnósticos de autismo, mas é uma associação e não uma garantia.'],
+    ['Que medicamentos na gravidez estão associados ao autismo?', 'O valproato é o exemplo com evidência mais forte. Qualquer medicamento na gravidez deve ser revisto com o médico, sem suspender por conta própria.'],
+    ['É preciso tomar iodo na gravidez?', 'Muitos países recomendam suplemento de iodo na gravidez e na amamentação. Siga a recomendação do seu médico.'],
+    ['O autismo pode ser causado por algo que a mãe fez na gravidez?', 'Na maioria dos casos não há uma causa única identificável e a genética tem um papel importante. Não é motivo de culpa.'],
+  ],
+  sources: [
+    'Surén P. et al. (2013). Association between maternal use of folic acid supplements and risk of autism spectrum disorders in children. <em>JAMA</em>, 309(6), 570–577. <a href="https://doi.org/10.1001/jama.2012.155925" rel="noopener" target="_blank">doi:10.1001/jama.2012.155925</a>',
+    'Bath S. C. et al. (2013). Effect of inadequate iodine status in UK pregnant women on cognitive outcomes in their children (ALSPAC). <em>The Lancet</em>, 382(9889), 331–337. <a href="https://doi.org/10.1016/S0140-6736(13)60436-5" rel="noopener" target="_blank">doi:10.1016/S0140-6736(13)60436-5</a>',
+    'Christensen J. et al. (2013). Prenatal valproate exposure and risk of autism spectrum disorders and childhood autism. <em>JAMA</em>, 309(16), 1696–1703. <a href="https://doi.org/10.1001/jama.2013.2270" rel="noopener" target="_blank">doi:10.1001/jama.2013.2270</a>',
+    'European Medicines Agency (2018). <a href="https://www.ema.europa.eu/en/medicines/human/referrals/valproate-related-substances-0" rel="noopener" target="_blank">Valproate and related substances: new measures to avoid exposure in pregnancy</a>.',
+    'Organização Mundial da Saúde. <a href="https://www.who.int/tools/elena/interventions/daily-iron-pregnancy" rel="noopener" target="_blank">Daily iron and folic acid supplementation during pregnancy</a>.',
+  ],
+  related: ['vacinas-e-autismo', 'ferro-anemia-desenvolvimento-infantil', 'autismo-e-comunicacao'],
+}

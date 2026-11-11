@@ -1,0 +1,68 @@
+export default {
+  slug: 'medicacao-phda-metilfenidato-linguagem',
+  short: 'Medicação para a PHDA e linguagem',
+  date: '2026-11-05',
+  titleTag: 'Medicação para a PHDA e a linguagem · Fala+',
+  description: 'O metilfenidato ajuda a linguagem? O que a medicação para a PHDA muda na atenção, o que não muda nas dificuldades de linguagem e o que dizem as recomendações.',
+  keywords: ['medicação PHDA', 'metilfenidato crianças', 'metilfenidato linguagem', 'PHDA e atraso na fala', 'Ritalina efeitos', 'medicação PHDA idade'],
+  h1: 'Medicação para a PHDA e a <span class="word-highlight">linguagem</span>: o que muda e o que não muda',
+  lead: 'As dificuldades de linguagem são frequentes em crianças com PHDA e muitas vezes passam despercebidas. A medicação pode ajudar a atenção, mas não ensina vocabulário, frases nem a compreender histórias.',
+  blocks: [
+    { intro: 'A <strong>medicação para a PHDA</strong>, sobretudo o <strong>metilfenidato</strong>, é das mais estudadas em pediatria. Aqui explicamos o que as revisões mostram, a partir de que idade é considerada e porque a linguagem precisa de apoio próprio.' },
+    { summary: [
+      'As recomendações do NICE (Reino Unido) pedem primeiro informação, apoio aos pais e adaptações; a medicação é considerada a partir dos 5 anos quando os sintomas continuam a causar dificuldades importantes.',
+      'A revisão Cochrane de 2023 sobre o metilfenidato encontrou melhoria nos sintomas avaliados pelos professores, mas com evidência de certeza muito baixa.',
+      'Os efeitos secundários mais comuns são menos apetite e dificuldade em adormecer.',
+      'Se há dificuldades de linguagem, precisam de avaliação e apoio próprios.',
+    ] },
+    { h2: 'Qual é a relação entre PHDA e linguagem?', id: 'relacao', toc: 'PHDA e linguagem' },
+    { p: 'Muitas crianças com PHDA têm também dificuldades de linguagem: compreender instruções longas, organizar uma narrativa, encontrar palavras. Às vezes o comportamento é lido como «não ouve» quando a criança não compreendeu. Saiba mais em [[atraso-na-fala-e-phda|Atraso na fala e PHDA]].' },
+    { h2: 'O metilfenidato melhora a linguagem?', id: 'metilfenidato', toc: 'Metilfenidato' },
+    { p: 'O metilfenidato atua sobre a <strong>atenção e a impulsividade</strong>. A revisão Cochrane de 2023 concluiu que pode melhorar os sintomas da PHDA avaliados pelos professores, mas que a certeza da evidência é muito baixa, sobretudo por limitações dos ensaios (Storebø et al., 2023). Uma criança mais atenta pode aproveitar melhor as conversas e as aulas, mas isso não equivale a tratar uma <strong>perturbação da linguagem</strong>: não há evidência de que o medicamento, por si só, ensine linguagem.' },
+    { h2: 'A partir de que idade se dá medicação para a PHDA?', id: 'idade', toc: 'Idade' },
+    { p: 'Segundo o NICE, antes dos 5 anos a primeira abordagem é o apoio aos pais e a medicação só se considera com um segundo parecer de um serviço especializado em PHDA em crianças pequenas. A partir dos 5 anos, pode ser oferecida quando os sintomas continuam a causar dificuldades importantes depois das adaptações no ambiente. As regras e os medicamentos disponíveis variam de país para país.' },
+    { h2: 'Que efeitos secundários vigiar?', id: 'efeitos', toc: 'Efeitos secundários' },
+    { ul: [
+      'Menos apetite e perda de peso: vigiar peso e crescimento.',
+      'Dificuldade em adormecer.',
+      'Dores de cabeça ou de barriga.',
+      'Aumento da frequência cardíaca e da tensão arterial, que o médico mede.',
+    ] },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A medicação pode reduzir sintomas de PHDA em muitas crianças.',
+        'Deve vir com informação, apoio aos pais e adaptações.',
+        'As dificuldades de linguagem precisam de avaliação própria.',
+      ],
+      no: [
+        '«Com a medicação, a linguagem resolve-se sozinha.»',
+        '«A medicação é a única solução.»',
+        '«Se a criança fala tarde, é só falta de atenção.»',
+      ],
+    } },
+    { bridge: {
+      title: 'Atenção e linguagem, cada uma no seu lugar',
+      intro: 'O artigo separa a atenção da linguagem. Na app, ambas têm espaço:',
+      items: [
+        ['Tarefas curtas, com dificuldade ajustada.', 'Os jogos ajustam a dificuldade ao desempenho da criança (níveis 1 a 20).'],
+        ['Vocabulário com imagem e voz.', 'Mais de 1000 palavras em 25 temas.'],
+        ['Menos estímulos para quem se distrai facilmente.', 'O modo calmo reduz os estímulos visuais.'],
+      ],
+      outro: 'A Fala+ não trata a PHDA nem substitui a terapia da fala.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre medicação e PHDA',
+  faq: [
+    ['O metilfenidato ajuda a criança a falar melhor?', 'Pode ajudar a atenção, o que facilita as aprendizagens, mas não trata uma perturbação da linguagem.'],
+    ['Com que idade se pode tomar medicação para a PHDA?', 'Segundo o NICE, em geral a partir dos 5 anos e depois de outras medidas; antes disso, só com um segundo parecer especializado.'],
+    ['A medicação da PHDA tira o apetite?', 'É um dos efeitos mais comuns. O médico vigia o peso e o crescimento.'],
+    ['A PHDA pode causar atraso na fala?', 'São condições diferentes que aparecem muitas vezes juntas. A linguagem deve ser avaliada por si.'],
+  ],
+  sources: [
+    'NICE (2018, atualizado 2019). <a href="https://www.nice.org.uk/guidance/ng87" rel="noopener" target="_blank">Attention deficit hyperactivity disorder: diagnosis and management (NG87)</a>.',
+    'Storebø O. J. et al. (2023). Methylphenidate for children and adolescents with attention deficit hyperactivity disorder (ADHD). <em>Cochrane Database of Systematic Reviews</em>, CD009885. <a href="https://doi.org/10.1002/14651858.CD009885.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD009885.pub3</a>',
+  ],
+  related: ['atraso-na-fala-e-phda', 'omega-3-autismo-phda-linguagem', 'melatonina-criancas-autismo-sono'],
+}

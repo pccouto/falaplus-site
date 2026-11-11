@@ -1,0 +1,77 @@
+export default {
+  slug: 'medicacao-autismo-risperidona-aripiprazol',
+  short: 'Medicação no autismo',
+  date: '2026-11-05',
+  titleTag: 'Medicação no autismo: risperidona e aripiprazol · Fala+',
+  description: 'Existe medicação para o autismo? Para que servem a risperidona e o aripiprazol, que efeitos secundários vigiar e porque não tratam a fala nem o autismo.',
+  keywords: ['medicação autismo', 'risperidona autismo', 'aripiprazol autismo', 'remédio para autismo', 'existe medicamento para o autismo', 'risperidona efeitos secundários crianças'],
+  h1: 'Medicação no autismo: risperidona, aripiprazol e a <span class="word-highlight">fala</span>',
+  lead: 'Não existe nenhum medicamento que trate o autismo ou que faça a criança falar. Existem medicamentos para problemas que podem acompanhar o autismo, como a irritabilidade grave, a ansiedade ou o sono, e que podem melhorar muito o dia a dia quando bem indicados.',
+  blocks: [
+    { intro: 'A <strong>medicação no autismo</strong> levanta muitas dúvidas. Neste artigo explicamos para que foram estudadas a <strong>risperidona</strong> e o <strong>aripiprazol</strong>, que cuidados exigem e o que as recomendações dizem sobre as características centrais do autismo.' },
+    { summary: [
+      'Não há medicamentos aprovados para as características centrais do autismo (comunicação social, interesses restritos) nem para a linguagem.',
+      'A risperidona e o aripiprazol foram estudados e aprovados nos Estados Unidos para a irritabilidade associada ao autismo (agressividade, autoagressão, crises intensas).',
+      'O NICE (Reino Unido) recomenda não usar antipsicóticos para as características centrais e só considerá-los quando os apoios psicossociais não chegam.',
+      'Exigem vigilância do peso, do apetite, do sono e de análises, e revisão regular.',
+    ] },
+    { h2: 'Existe medicamento para o autismo?', id: 'existe', toc: 'Existe medicamento?' },
+    { p: 'Não. O autismo é uma forma diferente de desenvolvimento e não uma doença que um medicamento corrija. As orientações do NICE (Reino Unido) dizem expressamente para <strong>não usar medicamentos</strong> (antipsicóticos, antidepressivos ou anticonvulsivantes) para tratar as características centrais do autismo. A medicação pode, no entanto, tratar problemas associados que causam sofrimento.' },
+    { h2: 'Para que servem a risperidona e o aripiprazol?', id: 'para-que', toc: 'Para que servem' },
+    { p: 'Num ensaio aleatorizado com 101 crianças autistas com crises graves, agressividade ou autoagressão, a risperidona reduziu a <strong>irritabilidade</strong> muito mais do que o placebo (McCracken et al., 2002). Com base em estudos deste tipo, a FDA (Estados Unidos) aprovou a risperidona para a irritabilidade associada ao autismo dos 5 aos 16 anos e o aripiprazol dos 6 aos 17 anos. Na Europa e na América Latina, as indicações aprovadas variam de país para país; o médico explica o que se aplica onde a criança vive.' },
+    { p: 'Quando as crises diminuem, a criança pode ficar mais disponível para aprender e comunicar. Mas isso é um efeito indireto: nenhum destes medicamentos foi demonstrado como tratamento da <strong>fala ou da linguagem</strong>.' },
+    { h2: 'Que efeitos secundários vigiar?', id: 'efeitos', toc: 'Efeitos secundários' },
+    { ul: [
+      'Aumento do apetite e do peso (muito frequente, sobretudo com a risperidona).',
+      'Sonolência ou cansaço.',
+      'Alterações hormonais e metabólicas (por exemplo, prolactina, glicose, colesterol), que se vigiam com análises.',
+      'Movimentos involuntários, menos frequentes.',
+    ] },
+    { alert: {
+      title: 'Nunca suspender nem mudar a dose por conta própria. Contacte o médico se a criança:',
+      items: [
+        'ganhar muito peso em pouco tempo;',
+        'tiver movimentos estranhos, rigidez ou sonolência excessiva;',
+        'parecer ter dor ou desconforto que não consegue explicar.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A risperidona e o aripiprazol reduzem a irritabilidade grave em muitas crianças autistas.',
+        'Devem vir depois ou a par de apoios psicossociais, não em vez deles.',
+        'Exigem vigilância regular.',
+      ],
+      no: [
+        '«Há um comprimido que cura o autismo.»',
+        '«A medicação faz a criança falar.»',
+        '«Se acalma, é para sempre.» A necessidade deve ser revista.',
+      ],
+    } },
+    { h2: 'Como ajudar a criança a comunicar efeitos e desconfortos?', id: 'comunicar', toc: 'Comunicar desconforto' },
+    { p: 'Muitas crianças autistas têm dificuldade em dizer que algo dói ou incomoda. Dar-lhes uma forma de o mostrar (imagens, gestos, cartões) ajuda a família e o médico a perceber efeitos secundários e outras causas de crise, como a dor.' },
+    { bridge: {
+      title: 'Mostrar o que sente',
+      intro: 'O artigo destaca a importância de a criança conseguir comunicar desconforto. Na app:',
+      items: [
+        ['Dizer onde dói ou que se sente mal.', 'O Comunicar tem os grupos Dor e Sentimentos, com cartões de imagem e voz.'],
+        ['Juntar ideias numa frase.', 'A criança junta cartões numa frase e ouve-a em voz alta.'],
+      ],
+      outro: 'A Fala+ não substitui a avaliação médica. Decisões sobre medicação são do médico.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre medicação no autismo',
+  faq: [
+    ['Existe remédio para o autismo?', 'Não existe medicamento para o autismo em si. Há medicamentos para problemas associados, como a irritabilidade grave, a ansiedade ou o sono.'],
+    ['A risperidona ajuda a criança autista a falar?', 'Não foi demonstrado. Pode reduzir crises intensas, o que pode deixar a criança mais disponível para comunicar.'],
+    ['A risperidona engorda?', 'O aumento do apetite e do peso é um dos efeitos mais frequentes e deve ser vigiado.'],
+    ['Quanto tempo se toma a medicação?', 'Depende de cada criança. As recomendações pedem revisão regular da necessidade e da dose.'],
+  ],
+  sources: [
+    'McCracken J. T. et al. (2002). Risperidone in children with autism and serious behavioral problems. <em>New England Journal of Medicine</em>, 347(5), 314–321. <a href="https://doi.org/10.1056/NEJMoa013171" rel="noopener" target="_blank">doi:10.1056/NEJMoa013171</a>',
+    'NICE (2013, atualizado). <a href="https://www.nice.org.uk/guidance/cg170" rel="noopener" target="_blank">Autism spectrum disorder in under 19s: support and management (CG170)</a>.',
+    'U.S. Food and Drug Administration. Informação de prescrição da risperidona (Risperdal) e do aripiprazol (Abilify): indicação para irritabilidade associada ao autismo.',
+  ],
+  related: ['autismo-e-comunicacao', 'tratamentos-perigosos-autismo-mms-quelacao', 'melatonina-criancas-autismo-sono'],
+}

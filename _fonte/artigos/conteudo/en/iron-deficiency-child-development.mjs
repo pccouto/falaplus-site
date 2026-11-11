@@ -1,0 +1,76 @@
+export default {
+  id: 'ferro-anemia-desenvolvimento-infantil',
+  slug: 'iron-deficiency-child-development',
+  short: 'Iron deficiency in children',
+  date: '2026-11-05',
+  titleTag: 'Iron deficiency and child development · Talk+',
+  description: 'Can low iron delay development? What is known about anaemia in babies, signs, prevention and why iron supplements should only follow a blood test.',
+  keywords: ['iron deficiency in children', 'anaemia in toddlers', 'iron and child development', 'iron supplements for kids', 'iron deficiency speech delay', 'low iron baby development'],
+  h1: 'Iron deficiency in children: anaemia, <span class="word-highlight">development</span> and supplements',
+  lead: 'Iron deficiency is the most common nutritional deficiency in the world. In babies and toddlers it is linked to developmental delays. But too much iron is dangerous, so supplements depend on blood tests.',
+  blocks: [
+    { intro: '<strong>Iron deficiency in children</strong> is a real concern: iron is needed for brain development in the early years. Here we explain what studies show about <strong>anaemia and child development</strong> and how to prevent it safely.' },
+    { summary: [
+      'Iron-deficiency anaemia in babies is linked to poorer cognitive, motor and social-emotional development, and some effects may last.',
+      'These are associations: poverty and other factors also play a part, and iron is not a treatment for speech delay in children without a deficiency.',
+      'Prevention relies on a suitable diet and, in at-risk groups, on supplements prescribed by a doctor.',
+      'Too much iron is toxic: keep iron-containing medicines out of children\'s reach.',
+    ] },
+    { h2: 'Can iron deficiency delay development?', id: 'development', toc: 'Iron and development' },
+    { p: 'Studies that followed babies with <strong>iron-deficiency anaemia</strong> found lower scores on cognitive, motor and behavioural tests, and some followed these children for years (Lozoff et al., 2006). The American Academy of Pediatrics considers that iron deficiency in the early years may have neurodevelopmental effects that do not always reverse with treatment (Baker and Greer, 2010). That is why prevention matters.' },
+    { p: 'Keep two points in mind: these studies are mostly observational (association is not causation), and giving iron to a child <strong>without a deficiency</strong> does not improve speech.' },
+    { h2: 'Which children are at higher risk?', id: 'risk', toc: 'Risk groups' },
+    { ul: [
+      'Babies born premature or with low birth weight.',
+      'Babies given cow\'s milk as a main drink before 12 months, or large amounts afterwards.',
+      'Children with very selective or restricted eating, common in some autistic children.',
+      'Children with blood loss or conditions that affect absorption.',
+    ] },
+    { h2: 'How can it be prevented?', id: 'prevention', toc: 'Prevention' },
+    { p: 'From the start of solid foods, iron-rich foods (meat, fish, eggs, pulses, fortified cereals), with vitamin C in the same meal. In at-risk groups, the doctor may prescribe a supplement at a set dose and duration. Screening and supplement recommendations follow each country\'s health guidance.' },
+    { alert: {
+      title: 'Iron is dangerous in excess:',
+      items: [
+        'store iron supplements and vitamins containing iron out of children\'s reach: accidental iron poisoning is a known cause of serious poisoning in young children;',
+        'do not give iron «just in case» without a blood test;',
+        'if the child has swallowed iron tablets, call emergency services or your local poison centre straight away.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What cannot be said',
+      yes: [
+        'Iron deficiency in babies is linked to developmental delays.',
+        'Prevention matters, especially in risk groups.',
+        'Diagnosis is made with blood tests.',
+      ],
+      no: [
+        '«Iron makes a child start talking.»',
+        '«An iron supplement cannot hurt anyone.»',
+        '«A pale child definitely has anaemia.»',
+      ],
+    } },
+    { p: 'See also [[vitaminas-para-atraso-na-fala|Vitamins for speech delay: do they work?]].' },
+    { bridge: {
+      title: 'Food and everyday words',
+      intro: 'Prevention depends on a varied diet, and mealtimes are also a good time to talk. In the app:',
+      items: [
+        ['Naming foods and asking for what they want to eat.', 'Communicate has a Food & Drink group with picture and voice cards.'],
+      ],
+      outro: 'Talk+ does not replace medical appointments, blood tests or dietary advice.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about iron and anaemia',
+  faq: [
+    ['Can anaemia cause speech delay?', 'Iron-deficiency anaemia in babies is linked to developmental delays, but it is rarely the only explanation for speech delay. Both should be assessed.'],
+    ['Can I give my child iron without a prescription?', 'It is not recommended. Too much iron is toxic, and a deficiency is diagnosed with blood tests.'],
+    ['What are the signs of low iron in a child?', 'There may be paleness, tiredness, irritability or poor appetite, but many children have no signs. Only blood tests confirm it.'],
+    ['Which foods are high in iron?', 'Meat, fish, eggs, pulses and fortified cereals. Vitamin C in the same meal helps absorb iron from plant foods.'],
+  ],
+  sources: [
+    'Baker R. D., Greer F. R., Committee on Nutrition, American Academy of Pediatrics (2010). Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children (0–3 years of age). <em>Pediatrics</em>, 126(5), 1040–1050. <a href="https://doi.org/10.1542/peds.2010-2576" rel="noopener" target="_blank">doi:10.1542/peds.2010-2576</a>',
+    'Lozoff B. et al. (2006). Long-lasting neural and behavioral effects of iron deficiency in infancy. <em>Nutrition Reviews</em>, 64(5 Pt 2), S34–S43. <a href="https://doi.org/10.1301/nr.2006.may.S34-S43" rel="noopener" target="_blank">doi:10.1301/nr.2006.may.S34-S43</a>',
+    'World Health Organization. <a href="https://www.who.int/news-room/fact-sheets/detail/anaemia" rel="noopener" target="_blank">Anaemia: fact sheet</a>.',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'gravidez-acido-folico-iodo-valproato', 'atraso-na-fala'],
+}

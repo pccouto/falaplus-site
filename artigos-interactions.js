@@ -12,7 +12,7 @@
     return count
   }
   const language = document.documentElement.lang
-  const word = language === 'pt-PT' ? 'leituras' : language === 'es' ? 'lecturas' : 'reads'
+  const word = language.startsWith('pt') ? 'leituras' : language === 'es' ? 'lecturas' : 'reads'
   document.querySelectorAll('[data-article-stats]').forEach(async stats => {
     const meta = stats.closest('[data-article-id]')
     if (!meta) return
@@ -25,8 +25,8 @@
     const articles = JSON.parse(section.querySelector('[data-article-catalog]').textContent)
     const cards = section.querySelector('[data-popular-cards]')
     for (let i = articles.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [articles[i], articles[j]] = [articles[j], articles[i]] }
-    const label = language === 'pt-PT' ? 'Em destaque' : language === 'es' ? 'Destacado' : 'Featured'
-    const read = language === 'pt-PT' ? 'Ler o artigo →' : language === 'es' ? 'Leer el artículo →' : 'Read article →'
+    const label = language.startsWith('pt') ? 'Em destaque' : language === 'es' ? 'Destacado' : 'Featured'
+    const read = language.startsWith('pt') ? 'Ler o artigo →' : language === 'es' ? 'Leer el artículo →' : 'Read article →'
     articles.slice(0, 3).forEach(a => {
       const card = document.createElement('a'); card.className = 'article-card popular-card'; card.href = a.path; card.style.background = a.bg; card.style.color = a.ink
       const rank = document.createElement('span'); rank.className = 'popular-rank'; rank.textContent = label

@@ -23,11 +23,12 @@
   <meta property="article:published_time" content="2026-10-18">
   <meta property="article:section" content="Escola e inclusão">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="/assets/fonts/baloo2-variable.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="/styles.css?v=20261029b">
+  <link rel="preload" href="/assets/fonts/baloo2-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261111d">
   <link rel="stylesheet" href="/artigos.css?v=20261019b">
-  <script src="/main.js?v=20261029f" defer></script>
-  <script src="/artigos-interactions.js?v=20261025a" defer></script>
+  <link rel="stylesheet" href="/assets/css/discovery.css?v=20261111c">
+  <script src="/main.js?v=20261110br" defer></script>
+  <script src="/artigos-interactions.js?v=20261110br" defer></script>
   <script data-goatcounter="https://falamais.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
@@ -118,7 +119,7 @@
 }
   </script>
   <link rel="stylesheet" href="/assets/css/site-mascots.css">
-</head>
+<link rel="stylesheet" href="/assets/css/site-header.css?v=20261111"><script src="/assets/js/site-header.js?v=20261111" defer></script></head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -130,17 +131,7 @@
     <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
   </svg>
 
-  <header id="topo" class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="/" aria-label="Fala+ — início">Fala<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
-      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
-      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
-        <a href="/#a-app">A app</a><a href="/#jogos">Os jogos</a><a href="/#para-quem">Para quem</a><a href="/#planos">Planos</a><a href="/#perguntas">Dúvidas</a><a href="/artigos/" aria-current="page">Artigos</a>
-      </nav>
-      <div class="header-tools"><div class="header-pill"><a class="header-contact" href="/#contacto">Contacto</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="Fala+ no Instagram (abre numa nova janela)"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="Idioma do site"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><a href="/artigos/docente-educacao-especial-equipa/" hreflang="pt-PT" lang="pt-PT" aria-label="Português" aria-current="page">PT</a><a href="/en/articles/special-education-teacher-teamwork/" hreflang="en" lang="en" aria-label="English">EN</a><a href="/es/articulos/docente-educacion-especial-equipo/" hreflang="es" lang="es" aria-label="Español">ES</a></nav></div></div>
-      <a class="header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener" aria-label="Instalar a Fala+ no Android através do Google Play"><img src="/assets/img/google-play-badge.png" alt="" width="155" height="60"></a>
-    </div>
-  </header>
+  <header class="fp-header" id="topo"><div class="fp-row"><a class="fp-brand" href="/" aria-label="Fala+">Fala<img src="/assets/img/fala-plus-logo.png" alt="+" width="48" height="48"></a><button class="fp-toggle" type="button" aria-controls="fp-nav" aria-expanded="false">☰ <span>Menu</span></button><nav class="fp-nav" id="fp-nav" aria-label="Navegação principal"><a href="/#a-app">A app</a><a href="/jogos/">Jogos</a><a href="/explorar/">Explorar</a><a href="/#planos">Planos</a><a href="/#perguntas">Dúvidas</a><a href="/artigos/">Artigos</a><a class="fp-contact" href="/#contacto">Contacto</a></nav><nav class="fp-languages" aria-label="Idioma"><a href="/artigos/docente-educacao-especial-equipa/" lang="pt-PT" hreflang="pt-PT" aria-current="page">PT</a><a href="/br/" lang="pt-BR" hreflang="pt-BR">BR</a><a href="/en/articles/special-education-teacher-teamwork/" lang="en" hreflang="en">EN</a><a href="/es/articulos/docente-educacion-especial-equipo/" lang="es" hreflang="es">ES</a></nav><a class="fp-store" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener noreferrer" aria-label="Google Play"><img src="/assets/img/google-play-badge.png" alt="Google Play" width="132" height="51"></a></div></header>
 
   <main id="conteudo">
     <section class="article-hero">
@@ -201,7 +192,8 @@
           </ol>
         </section>
 
-        <section class="continue-reading" aria-labelledby="continuar"><h2 id="continuar">Continuar a ler</h2><div class="article-cards"><a class="article-card" data-search="Medidas universais, seletivas e adicionais: como funciona o apoio escolar O DL 54/2018 organiza respostas em níveis graduados, escolhidos pelas barreiras e necessidades do aluno. Escola e inclusão Guia prático" style="background:#e5edf8;color:#31547a" href="/artigos/medidas-universais-seletivas-adicionais/"><span class="feature-label">Guia prático</span><h3>Medidas universais, seletivas e adicionais: como funciona o apoio escolar</h3><p>O DL 54/2018 organiza respostas em níveis graduados, escolhidos pelas barreiras e necessidades do aluno.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a><a class="article-card" data-search="Inclusão escolar de crianças com dificuldades de comunicação Ideias para apoiar a participação escolar de crianças com dificuldades de comunicação, em colaboração com a família e a equipa educativa. Fala e linguagem Guia" style="background:#e4eedf;color:#31563c" href="/artigos/inclusao-escolar-criancas-dificuldades-comunicacao/"><span class="feature-label">Guia</span><h3>Inclusão escolar de crianças com dificuldades de comunicação</h3><p>Ideias para apoiar a participação escolar de crianças com dificuldades de comunicação, em colaboração com a família e a equipa educativa.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a><a class="article-card" data-search="CRI: como pode funcionar a parceria entre a escola e os terapeutas O que são os Centros de Recursos para a Inclusão, que profissionais podem envolver e como articular objetivos. Escola e inclusão Guia de apoios" style="background:#e5edf8;color:#31547a" href="/artigos/centros-recursos-inclusao-escola/"><span class="feature-label">Guia de apoios</span><h3>CRI: como pode funcionar a parceria entre a escola e os terapeutas</h3><p>O que são os Centros de Recursos para a Inclusão, que profissionais podem envolver e como articular objetivos.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></div><a class="text-link topic-all" href="/artigos/tema/escola-e-inclusao/">Ver todos os artigos de Escola e inclusão <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></section>
+        <section class="continue-reading" aria-labelledby="continuar"><h2 id="continuar">Continuar a ler</h2><div class="article-cards"><a class="article-card" data-search="Medidas universais, seletivas e adicionais: como funciona o apoio escolar O DL 54/2018 organiza respostas em níveis graduados, escolhidos pelas barreiras e necessidades do aluno. Escola e inclusão Guia prático" data-title="Medidas universais, seletivas e adicionais: como funciona o apoio escolar" data-order="68" style="background:#e5edf8;color:#31547a" href="/artigos/medidas-universais-seletivas-adicionais/"><span class="feature-label">Guia prático</span><h3>Medidas universais, seletivas e adicionais: como funciona o apoio escolar</h3><p>O DL 54/2018 organiza respostas em níveis graduados, escolhidos pelas barreiras e necessidades do aluno.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a><a class="article-card" data-search="Inclusão escolar de crianças com dificuldades de comunicação Ideias para apoiar a participação escolar de crianças com dificuldades de comunicação, em colaboração com a família e a equipa educativa. Fala e linguagem Guia" data-title="Inclusão escolar de crianças com dificuldades de comunicação" data-order="22" style="background:#e4eedf;color:#31563c" href="/artigos/inclusao-escolar-criancas-dificuldades-comunicacao/"><span class="feature-label">Guia</span><h3>Inclusão escolar de crianças com dificuldades de comunicação</h3><p>Ideias para apoiar a participação escolar de crianças com dificuldades de comunicação, em colaboração com a família e a equipa educativa.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a><a class="article-card" data-search="CRI: como pode funcionar a parceria entre a escola e os terapeutas O que são os Centros de Recursos para a Inclusão, que profissionais podem envolver e como articular objetivos. Escola e inclusão Guia de apoios" data-title="CRI: como pode funcionar a parceria entre a escola e os terapeutas" data-order="66" style="background:#e5edf8;color:#31547a" href="/artigos/centros-recursos-inclusao-escola/"><span class="feature-label">Guia de apoios</span><h3>CRI: como pode funcionar a parceria entre a escola e os terapeutas</h3><p>O que são os Centros de Recursos para a Inclusão, que profissionais podem envolver e como articular objetivos.</p><span class="text-link">Ler o artigo <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></div><a class="text-link topic-all" href="/artigos/tema/escola-e-inclusao/">Ver todos os artigos de Escola e inclusão <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></section>
+
 
         <p class="article-updated">Publicado a 18 de outubro de 2026 · Última revisão: 18 de outubro de 2026</p>
       </article>
@@ -223,14 +215,14 @@
       <div>
         <p class="availability availability-light"><span aria-hidden="true"></span>Já disponível no Google Play · Android</p>
         <h2>Comunicar.<br>A brincar.</h2>
-        <p>A Fala+ junta um quadro de comunicação com imagens e voz, mais de 40 jogos de palavras e um espaço para brincar livremente. Um complemento para casa, para a escola e para as sessões de terapia da fala.</p>
+        <p>A Fala+ junta um quadro de comunicação com imagens e voz, 58 jogos e um espaço para brincar livremente. Um complemento para casa, para a escola e para as sessões de terapia da fala.</p>
         <a class="button button-yellow" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">Instalar no Google Play <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
       <a class="article-cta-icon-link" href="#conteudo" aria-label="Fala+ — Voltar ao topo ↑"><img src="/assets/img/app-icon.png" alt="Ícone da app Fala+" width="150" height="150" loading="lazy"></a>
     </div></section>
   </main>
 
-  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="/" aria-label="Fala+ — início">Fala<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Pequenas descobertas.<br>Mais comunicação.</p><nav aria-label="Ligações legais e contacto"><a href="/artigos/">Artigos</a><a href="/privacy-policy.html">Política de privacidade</a><a href="/#contacto">Contacto</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Fala+ no Instagram (abre numa nova janela)">Instagram</a><a href="/en/" hreflang="en" lang="en">English</a><a href="/es/" hreflang="es" lang="es">Español</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/046-spirited-stoat.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Fala+</span><span>Feita para descobrir. Pensada para acompanhar.</span><a href="#conteudo">Voltar ao topo ↑</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="/" aria-label="Fala+ — início">Fala<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Pequenas descobertas.<br>Mais comunicação.</p><nav aria-label="Ligações legais e contacto"><a href="/artigos/">Artigos</a><a href="/jogos/">Jogos</a><a href="/explorar/">Explorar</a><a href="/privacy-policy.html">Política de privacidade</a><a href="/#contacto">Contacto</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Fala+ no Instagram (abre numa nova janela)">Instagram</a><a href="/en/" hreflang="en" lang="en">English</a><a href="/es/" hreflang="es" lang="es">Español</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/046-spirited-stoat.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Fala+</span><span>Feita para descobrir. Pensada para acompanhar.</span><a href="#conteudo">Voltar ao topo ↑</a></div></footer>
   <script defer src="/assets/js/site-mascots.js"></script>
 </body>
 </html>

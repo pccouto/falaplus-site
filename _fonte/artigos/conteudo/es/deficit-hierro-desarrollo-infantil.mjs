@@ -1,0 +1,76 @@
+export default {
+  id: 'ferro-anemia-desenvolvimento-infantil',
+  slug: 'deficit-hierro-desarrollo-infantil',
+  short: 'Falta de hierro en el niño',
+  date: '2026-11-05',
+  titleTag: 'Falta de hierro en el niño y desarrollo · Habla+',
+  description: '¿La falta de hierro puede retrasar el desarrollo? Qué se sabe de la anemia en bebés, señales, prevención y por qué el suplemento de hierro va con análisis.',
+  keywords: ['falta de hierro en niños', 'anemia infantil', 'hierro y desarrollo infantil', 'suplemento de hierro niños', 'anemia ferropénica bebé', 'hierro y retraso del habla'],
+  h1: 'Falta de hierro en el niño: anemia, <span class="word-highlight">desarrollo</span> y suplementos',
+  lead: 'El déficit de hierro es la carencia nutricional más común del mundo. En bebés y niños pequeños se asocia a retrasos del desarrollo. Pero el exceso de hierro es peligroso, por eso el suplemento depende de los análisis.',
+  blocks: [
+    { intro: 'La <strong>falta de hierro en niños</strong> preocupa con razón: el hierro es necesario para el desarrollo del cerebro en los primeros años. Aquí explicamos qué muestran los estudios sobre <strong>anemia infantil y desarrollo</strong> y cómo prevenirla con seguridad.' },
+    { summary: [
+      'La anemia por falta de hierro en bebés se asocia a peor desarrollo cognitivo, motor y socioemocional, y algunos efectos pueden persistir.',
+      'Son asociaciones: la pobreza y otros factores también cuentan, y el hierro no es un tratamiento del retraso del habla en niños sin carencia.',
+      'La prevención pasa por una alimentación adecuada y, en grupos de riesgo, por suplementos indicados por el médico.',
+      'El exceso de hierro es tóxico: los medicamentos con hierro deben quedar fuera del alcance de los niños.',
+    ] },
+    { h2: '¿La falta de hierro puede retrasar el desarrollo?', id: 'desarrollo', toc: 'Hierro y desarrollo' },
+    { p: 'Los estudios que siguieron a bebés con <strong>anemia ferropénica</strong> encontraron resultados más bajos en pruebas cognitivas, motoras y de conducta, y algunos siguieron a estos niños durante años (Lozoff et al., 2006). La Academia Americana de Pediatría considera que el déficit de hierro en los primeros años puede tener efectos en el neurodesarrollo que no siempre revierten con el tratamiento (Baker y Greer, 2010). Por eso la prevención es importante.' },
+    { p: 'Dos ideas a tener en cuenta: estos estudios son sobre todo observacionales (asociación no es causa), y dar hierro a un niño <strong>sin carencia</strong> no mejora el habla.' },
+    { h2: '¿Qué niños tienen más riesgo?', id: 'riesgo', toc: 'Grupos de riesgo' },
+    { ul: [
+      'Bebés prematuros o con bajo peso al nacer.',
+      'Bebés que toman leche de vaca como bebida principal antes del año, o en gran cantidad después.',
+      'Niños con alimentación muy selectiva o restringida, frecuente en algunos niños autistas.',
+      'Niños con pérdidas de sangre o enfermedades que afectan la absorción.',
+    ] },
+    { h2: '¿Cómo se previene?', id: 'prevencion', toc: 'Prevención' },
+    { p: 'Desde el inicio de la alimentación complementaria, alimentos ricos en hierro (carne, pescado, huevo, legumbres, cereales fortificados), con vitamina C en la misma comida. En grupos de riesgo, el médico puede indicar un suplemento con dosis y duración definidas. El cribado y la suplementación siguen las normas sanitarias de cada país.' },
+    { alert: {
+      title: 'El hierro es peligroso en exceso:',
+      items: [
+        'guarde los suplementos y vitaminas con hierro fuera del alcance de los niños: la intoxicación accidental por hierro es una causa conocida de intoxicación grave en niños pequeños;',
+        'no dé hierro «por si acaso» sin análisis;',
+        'si el niño tragó comprimidos de hierro, llame de inmediato a emergencias o al servicio de toxicología de su país.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se puede decir',
+      yes: [
+        'El déficit de hierro en el bebé se asocia a retrasos del desarrollo.',
+        'Prevenir es importante, sobre todo en los grupos de riesgo.',
+        'El diagnóstico se hace con análisis.',
+      ],
+      no: [
+        '«El hierro hace hablar al niño.»',
+        '«Un suplemento de hierro no le hace daño a nadie.»',
+        '«Un niño pálido tiene seguro anemia.»',
+      ],
+    } },
+    { p: 'Lea también [[vitaminas-para-atraso-na-fala|Vitaminas para el retraso del habla: ¿funcionan?]].' },
+    { bridge: {
+      title: 'Alimentación y palabras del día a día',
+      intro: 'La prevención pasa por una alimentación variada, y las comidas son también un buen momento para conversar. En la app:',
+      items: [
+        ['Nombrar alimentos y pedir lo que quiere comer.', 'Comunicar tiene el grupo Comida y Bebida, con tarjetas de imagen y voz.'],
+      ],
+      outro: 'Habla+ no sustituye la consulta, los análisis ni la orientación nutricional.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre el hierro y la anemia',
+  faq: [
+    ['¿La anemia puede causar retraso del habla?', 'La anemia por falta de hierro en el bebé se asocia a retrasos del desarrollo, pero rara vez es la única explicación de un retraso del habla. Ambos deben evaluarse.'],
+    ['¿Puedo dar hierro al niño sin receta?', 'No se recomienda. El exceso de hierro es tóxico y la carencia se diagnostica con análisis.'],
+    ['¿Cuáles son las señales de falta de hierro en un niño?', 'Puede haber palidez, cansancio, irritabilidad o poco apetito, pero muchos niños no tienen señales. Solo los análisis lo confirman.'],
+    ['¿Qué alimentos tienen más hierro?', 'Carne, pescado, huevo, legumbres y cereales fortificados. La vitamina C en la misma comida ayuda a absorber el hierro de los vegetales.'],
+  ],
+  sources: [
+    'Baker R. D., Greer F. R., Committee on Nutrition, American Academy of Pediatrics (2010). Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children (0–3 years of age). <em>Pediatrics</em>, 126(5), 1040–1050. <a href="https://doi.org/10.1542/peds.2010-2576" rel="noopener" target="_blank">doi:10.1542/peds.2010-2576</a>',
+    'Lozoff B. et al. (2006). Long-lasting neural and behavioral effects of iron deficiency in infancy. <em>Nutrition Reviews</em>, 64(5 Pt 2), S34–S43. <a href="https://doi.org/10.1301/nr.2006.may.S34-S43" rel="noopener" target="_blank">doi:10.1301/nr.2006.may.S34-S43</a>',
+    'Organización Mundial de la Salud. <a href="https://www.who.int/news-room/fact-sheets/detail/anaemia" rel="noopener" target="_blank">Anaemia: fact sheet</a>.',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'gravidez-acido-folico-iodo-valproato', 'atraso-na-fala'],
+}

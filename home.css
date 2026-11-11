@@ -1,7 +1,7 @@
 /* Homepage (PT, EN, ES). Separate from styles.css, which the privacy and
    "Dicas" pages still use. Mobile first; works from 360 px. */
-@font-face{font-family:'Baloo 2';src:url('assets/fonts/baloo2-variable.ttf') format('truetype');font-weight:400 800;font-display:swap}
-@font-face{font-family:Nunito;src:url('assets/fonts/nunito-variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+@font-face{font-family:'Baloo 2';src:url('assets/fonts/baloo2-variable.woff2') format('woff2'),url('assets/fonts/baloo2-variable.ttf') format('truetype');font-weight:400 800;font-display:swap}
+@font-face{font-family:Nunito;src:url('assets/fonts/nunito-variable.woff2') format('woff2'),url('assets/fonts/nunito-variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
 
 :root{
   --ink:#1f1535;--muted:#5d5470;--paper:#fffaf3;--white:#fff;
@@ -76,6 +76,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible,video:focus-visible,i
 .lang-switch .icon{display:none}
 .lang-switch a{padding:6px 7px;border-radius:10px;color:var(--muted);font:800 .82rem/1 var(--body);text-decoration:none}
 .lang-switch a[aria-current]{background:var(--ink);color:#fff}
+/* Keep four locale links and the menu inside the existing small-screen header. */
+@media (max-width:540px){html[data-br-locale] .header-row{gap:8px}html[data-br-locale] .lang-switch a{padding-inline:5px}}
 .header-cta{display:none}
 .menu-toggle{display:inline-flex;align-items:center;gap:8px;order:3;min-height:44px;padding:0 14px;border:0;border-radius:999px;background:var(--ink);color:#fff;font-weight:800}
 .menu-lines,.menu-lines::before,.menu-lines::after{display:block;width:16px;height:2px;border-radius:2px;background:currentColor;transition:transform .2s}

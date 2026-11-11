@@ -9,7 +9,3 @@ Estado: geração local concluída; publicação não efetuada. Alterações pre
 ## Validação
 
 15 páginas verificadas: H1 único, canonical, hreflang PT/EN/ES, Article/BreadcrumbList/FAQPage, índice, sitemap e ligações/recursos locais. 30 navegações Chromium a 360 e 1366 px: HTTP 200, sem erros JavaScript, sem deslocamento lateral e um bloco de relação com a app por página. Capturas representativas na pasta tmp da app. Nenhuma dependência instalada. Build pelo gerador editorial; lint/test/build da app não se aplicam porque não houve alterações à app.
-
-## Preparação para publicação
-
-Publicação pedida pelo Paulo. Preparada em cópia isolada a partir de origin/main (722108fb), preservando os artigos de consultas/terapias e as páginas de instalação já publicados. Excluídos os rascunhos locais da série prática da app. Removidas da publicação diferenças incidentais de regeneração em páginas antigas; mantidos novos artigos, índices/temas, destaque das páginas iniciais e sitemap. A confirmação pública será registada no guia editorial da app após a propagação.

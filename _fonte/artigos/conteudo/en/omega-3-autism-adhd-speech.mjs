@@ -1,0 +1,68 @@
+export default {
+  id: 'omega-3-autismo-phda-linguagem',
+  slug: 'omega-3-autism-adhd-speech',
+  short: 'Omega-3 for autism and ADHD',
+  date: '2026-11-05',
+  titleTag: 'Omega-3 for autism and ADHD: does it help speech? · Talk+',
+  description: 'Does omega-3 or fish oil help autistic children or children with ADHD talk or focus? What Cochrane reviews conclude and how to decide with a doctor.',
+  keywords: ['omega 3 autism', 'omega 3 ADHD', 'fish oil for kids', 'omega 3 speech delay', 'fish oil autism', 'ADHD supplements for kids'],
+  h1: 'Omega-3 for autism and ADHD: does it help <span class="word-highlight">speech</span>?',
+  lead: 'Omega-3 is marketed as support «for the brain» and appears on many supplement lists for autistic children and children with ADHD. The most rigorous systematic reviews do not confirm those promises.',
+  blocks: [
+    { intro: 'Searching for <strong>omega-3 for autism</strong> or <strong>omega-3 for ADHD</strong> brings up promises about speech, attention and behaviour. Here we summarise what Cochrane reviews, which pool the available randomised trials, conclude.' },
+    { summary: [
+      'In autism, the Cochrane review found no evidence that omega-3 improves communication, social interaction or behaviour.',
+      'In ADHD, the 2023 Cochrane review concluded that polyunsaturated fatty acids have little or no effect on symptoms, with low-certainty evidence.',
+      'Eating fish is part of a balanced diet; that is different from using capsules as a treatment.',
+      'No supplement replaces assessment and communication support.',
+    ] },
+    { h2: 'Does omega-3 help autistic children talk?', id: 'autism', toc: 'Autism' },
+    { p: 'The Cochrane review of omega-3 in autism looked at randomised placebo-controlled trials and found no evidence of improvement in <strong>communication</strong>, social interaction, restricted interests or hyperactivity (James et al., 2011). The trials were small, so the correct conclusion is «no evidence of benefit», not «proven useless». Even so, there is no basis for presenting it as a treatment.' },
+    { h2: 'What about ADHD?', id: 'adhd', toc: 'ADHD' },
+    { p: 'The Cochrane review updated in 2023 pooled dozens of trials in children and teenagers with ADHD. It concluded that <strong>polyunsaturated fatty acid</strong> supplements (omega-3 and omega-6) have little or no effect on inattention and hyperactivity as rated by parents or teachers, and that the certainty of the evidence is low (Gillies et al., 2023).' },
+    { h2: 'Are there risks?', id: 'risks', toc: 'Risks' },
+    { p: 'At usual doses, side effects tend to be mild (fishy taste, stomach upset). The main risk is indirect: spending time and money waiting for an effect the studies do not show, and <strong>delaying support</strong> for communication and attention. If the child eats a very restricted diet, a doctor or dietitian can check what is missing.' },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'Myths',
+      yes: [
+        'Cochrane reviews find no clear benefit in autism or ADHD.',
+        'Fish can be part of a varied diet.',
+        'A very selective diet deserves assessment.',
+      ],
+      no: [
+        '«Omega-3 makes a child start talking.»',
+        '«Omega-3 replaces ADHD medication or support.»',
+        '«More capsules are better.»',
+      ],
+    } },
+    { h2: 'What to do instead', id: 'what-to-do', toc: 'What to do' },
+    { ol: [
+      'Ask for a language and hearing assessment if speech is a concern.',
+      'Talk to the doctor about diet, especially if it is very restricted.',
+      'Use time at home to talk, play and read with the child.',
+    ] },
+    { p: 'See also [[vitaminas-para-atraso-na-fala|Vitamins for speech delay: do they work?]].' },
+    { bridge: {
+      title: 'Where time pays off: interaction',
+      intro: 'The article concludes that no supplement replaces communication support. In the app:',
+      items: [
+        ['Hearing and using everyday words.', 'More than 1000 words in 25 themes, with pictures and voice, across different games.'],
+        ['Attention with short, well-matched tasks.', 'Game difficulty adjusts to how the child is doing.'],
+      ],
+      outro: 'Talk+ is not a treatment for autism or ADHD.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about omega-3',
+  faq: [
+    ['Is omega-3 good for autistic children?', 'The Cochrane review found no evidence that it improves communication or behaviour in autism.'],
+    ['Does fish oil help ADHD?', 'The 2023 Cochrane review concluded it has little or no effect on symptoms, with low-certainty evidence.'],
+    ['Does omega-3 help speech delay?', 'There is no evidence that it treats speech delay.'],
+    ['Can I give my child omega-3?', 'Talk to a doctor first. It may make sense if the diet has little fish, but not as a treatment.'],
+  ],
+  sources: [
+    'James S., Montgomery P., Williams K. (2011). Omega-3 fatty acids supplementation for autism spectrum disorders (ASD). <em>Cochrane Database of Systematic Reviews</em>, CD007992. <a href="https://doi.org/10.1002/14651858.CD007992.pub2" rel="noopener" target="_blank">doi:10.1002/14651858.CD007992.pub2</a>',
+    'Gillies D. et al. (2023). Polyunsaturated fatty acids (PUFA) for attention deficit hyperactivity disorder (ADHD) in children and adolescents. <em>Cochrane Database of Systematic Reviews</em>, CD007986. <a href="https://doi.org/10.1002/14651858.CD007986.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD007986.pub3</a>',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'dieta-sem-gluten-autismo', 'medicacao-phda-metilfenidato-linguagem'],
+}

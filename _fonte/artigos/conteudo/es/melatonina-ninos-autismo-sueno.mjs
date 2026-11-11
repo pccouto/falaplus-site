@@ -1,0 +1,78 @@
+export default {
+  id: 'melatonina-criancas-autismo-sono',
+  slug: 'melatonina-ninos-autismo-sueno',
+  short: 'Melatonina en niños',
+  date: '2026-11-05',
+  titleTag: 'Melatonina en niños: autismo, TDAH y sueño · Habla+',
+  description: '¿Es segura la melatonina para niños? Qué dicen los estudios en el autismo y el TDAH, por qué las rutinas van primero y por qué las gomitas varían tanto.',
+  keywords: ['melatonina para niños', 'melatonina autismo', 'melatonina TDAH', 'es segura la melatonina en niños', 'niño autista no duerme', 'gomitas de melatonina'],
+  h1: 'Melatonina en niños: qué se sabe en el <span class="word-highlight">autismo</span> y el TDAH',
+  lead: 'Dormir mal es muy frecuente en niños autistas y con TDAH, y el sueño influye en la atención, el humor y la disposición para comunicarse. La melatonina puede ayudar a algunos niños, pero no es el primer paso ni un producto inofensivo.',
+  blocks: [
+    { intro: 'La <strong>melatonina para niños</strong> es una de las preguntas más comunes de las familias de niños autistas o con TDAH. Aquí resumimos qué muestran los ensayos, qué está aprobado y con qué precauciones, y por qué las <strong>rutinas de sueño</strong> van siempre primero.' },
+    { summary: [
+      'La melatonina es una hormona que el cuerpo produce al oscurecer; como medicamento o suplemento ayuda sobre todo a dormirse antes.',
+      'En un ensayo con placebo en niños con insomnio que no mejoró con rutinas, la melatonina de liberación prolongada aumentó el tiempo total de sueño.',
+      'En la Unión Europea hay un medicamento de melatonina aprobado para niños autistas de 2 a 18 años cuando las medidas de higiene del sueño no bastan.',
+      'Los suplementos de venta libre pueden tener dosis muy distintas de las de la etiqueta. Dosis, horario y duración se deciden con el médico.',
+    ] },
+    { h2: '¿La melatonina ayuda a dormir a los niños autistas?', id: 'autismo', toc: 'Autismo y sueño' },
+    { p: 'En un ensayo aleatorizado con 125 niños y adolescentes (de 2 a 17 años), autistas o con algunos trastornos neurogenéticos, cuyo insomnio no había mejorado con medidas conductuales, la <strong>melatonina de liberación prolongada</strong> aumentó el tiempo total de sueño y acortó el tiempo para dormirse más que el placebo (Gringras et al., 2017). Con estos datos, la Agencia Europea de Medicamentos (EMA) autorizó en 2018 un medicamento pediátrico de melatonina para niños de 2 a 18 años con autismo y/o algunos trastornos neurogenéticos (como el síndrome de Smith-Magenis), cuando la higiene del sueño no ha sido suficiente. Fuera de la Unión Europea las normas cambian: en cada país de América Latina, la melatonina puede ser medicamento o suplemento.' },
+    { p: 'Conviene leerlo con cuidado: el ensayo muestra un efecto en el <strong>sueño</strong>. No muestra que la melatonina mejore el habla, el lenguaje ni las características del autismo.' },
+    { h2: '¿Y en el TDAH?', id: 'tdah', toc: 'TDAH' },
+    { p: 'En el TDAH, la melatonina se ha estudiado sobre todo para el <strong>insomnio de conciliación</strong> (tardar mucho en dormirse), incluso en niños que toman estimulantes. Los estudios son más pequeños y cortos que en el autismo. La decisión corresponde al médico, que también revisa si la medicación del TDAH, el horario de pantallas u otras causas explican el problema.' },
+    { h2: '¿Qué hacer antes de pensar en melatonina?', id: 'rutinas', toc: 'Primero, rutinas' },
+    { ol: [
+      'Horarios regulares para acostarse y levantarse, también el fin de semana.',
+      'Una rutina corta y previsible antes de dormir (baño, pijama, cuento), con imágenes si ayuda al niño.',
+      'Luz tenue y pantallas apagadas en la hora antes de dormir.',
+      'Revisar con el médico causas tratables: dolor, reflujo, ronquidos o apnea, medicación, ansiedad.',
+    ] },
+    { h2: '¿Es segura la melatonina en niños?', id: 'seguridad', toc: 'Seguridad' },
+    { p: 'En los ensayos, los efectos adversos fueron en general leves (somnolencia, dolor de cabeza). Faltan estudios a largo plazo en niños. El mayor riesgo práctico está en los <strong>productos de venta libre</strong>: en un análisis de gomitas vendidas en Estados Unidos, la cantidad real de melatonina varió entre el 74% y el 347% de lo indicado en la etiqueta, y algunos productos contenían también cannabidiol (Cohen et al., 2023).' },
+    { alert: {
+      title: 'Consulte al médico si el niño:',
+      items: [
+        'ronca mucho, hace pausas al respirar o se despierta a menudo cansado;',
+        'dejó de dormir bien de repente o cambió de comportamiento;',
+        'ya toma otra medicación, o si piensa darle melatonina más de unas semanas.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'Lo que se sabe',
+      noTitle: 'Lo que no se sabe o es mito',
+      yes: [
+        'La melatonina puede ayudar a dormirse a niños autistas con insomnio persistente.',
+        'En la UE hay un medicamento aprobado para esta situación, con receta.',
+        'Las rutinas de sueño son el primer abordaje recomendado.',
+      ],
+      no: [
+        '«La melatonina mejora el habla o el autismo.»',
+        '«Es natural, así que no tiene riesgos.»',
+        '«Todas las gomitas tienen la dosis de la etiqueta.»',
+      ],
+    } },
+    { bridge: {
+      title: 'Rutinas previsibles, con imágenes',
+      intro: 'El artículo recomienda empezar por rutinas regulares y previsibles. La app puede apoyar la parte de la comunicación:',
+      items: [
+        ['Una rutina antes de dormir que el niño pueda anticipar.', 'Comunicar tiene un grupo de Rutinas, con tarjetas de imagen y voz para mostrar los pasos.'],
+        ['Decir que algo molesta por la noche.', 'Los grupos de Dolor y Sentimientos permiten al niño mostrar lo que siente.'],
+      ],
+      outro: 'Habla+ no trata problemas de sueño. La dosis y el uso de la melatonina son decisiones médicas.',
+    } },
+  ],
+  faqTitle: 'Preguntas frecuentes sobre la melatonina en niños',
+  faq: [
+    ['¿Puedo dar melatonina a un niño sin receta?', 'No se recomienda. Incluso donde se vende como suplemento, la dosis, el horario y la duración deben decidirse con el médico.'],
+    ['¿La melatonina ayuda a dormir a los niños autistas?', 'Puede ayudar a niños con insomnio persistente cuando las rutinas no bastan. No trata el autismo ni el habla.'],
+    ['¿A partir de qué edad se puede dar melatonina?', 'El medicamento aprobado en la Unión Europea para el autismo es para niños a partir de 2 años, por indicación médica.'],
+    ['¿La melatonina crea dependencia?', 'No hay evidencia de dependencia como con otros fármacos para dormir, pero faltan estudios a largo plazo en niños. El médico debe revisar la necesidad periódicamente.'],
+  ],
+  sources: [
+    'Gringras P. et al. (2017). Efficacy and Safety of Pediatric Prolonged-Release Melatonin for Insomnia in Children With Autism Spectrum Disorder. <em>Journal of the American Academy of Child &amp; Adolescent Psychiatry</em>, 56(11), 948–957. <a href="https://doi.org/10.1016/j.jaac.2017.09.414" rel="noopener" target="_blank">doi:10.1016/j.jaac.2017.09.414</a>',
+    'Agencia Europea de Medicamentos. <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto" rel="noopener" target="_blank">Slenyto (melatonina): resumen del EPAR</a>.',
+    'Cohen P. A. et al. (2023). Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US. <em>JAMA</em>, 329(16), 1401–1402. <a href="https://doi.org/10.1001/jama.2023.2296" rel="noopener" target="_blank">doi:10.1001/jama.2023.2296</a>',
+  ],
+  related: ['canabidiol-cbd-autismo', 'medicacao-phda-metilfenidato-linguagem', 'autismo-e-comunicacao'],
+}

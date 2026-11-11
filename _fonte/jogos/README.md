@@ -49,10 +49,3 @@ Pedido do Paulo: melhorar o grafismo do catálogo e das páginas individuais. No
 Catálogo: introdução curta com composição de quatro jogos, cartões com cores por tipo, pesquisa e seis filtros combináveis. Página individual: identidade do jogo, regra em destaque, vídeo vertical com som e controlos nativos, proposta específica fora do ecrã, sugestões numeradas, jogos relacionados e informação de acompanhamento com hierarquia editorial. Cabeçalho, seletor de idiomas e rodapé redesenhados.
 
 Mantidos os 174 vídeos, as rotas, canonical, hreflang, conteúdos de saúde, metadados e links para os artigos. Os artigos não foram alterados. A apresentação respeita redução de movimento, funciona sem JavaScript e adapta-se a ecrãs estreitos. Validação atual: 177 páginas e 6 525 ligações internas; testes reais em PT/EN/ES nas três larguras. Sem publicação.
-
-
-## Publica??o ? 11-11-2026
-
-Auditoria p?blica inicial: os tr?s cat?logos devolviam HTTP 404 e as 177 rotas n?o constavam do sitemap p?blico. Publica??o preparada num worktree isolado a partir de origin/main (e496f6c3), preservando todas as altera??es pendentes no checkout original. Inclu?dos jogos, recursos, hubs necess?rios ?s liga??es dos jogos e atalhos das tr?s homepages para os cat?logos. Sitemap preserva as 1010 entradas anteriores e acrescenta 183 (177 jogos/cat?logos, tr?s hubs e tr?s termos existentes).
-
-Valida??o: 177 documentos e 6531 liga??es pelo verificador dos jogos; 181 documentos incluindo hubs/404 sem recursos ou liga??es internas inexistentes; sitemap com 1193 URLs ?nicas e ficheiros existentes; 174 v?deos H.264/AAC, 66,6 MB. Sintaxe games.js validada. Sem depend?ncias novas ou altera??es na app. Este site est?tico n?o tem scripts npm lint/test/build.

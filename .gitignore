@@ -5,3 +5,6 @@ desktop.ini
 # Editores
 .vscode/
 .idea/
+
+__pycache__/
+*.pyc

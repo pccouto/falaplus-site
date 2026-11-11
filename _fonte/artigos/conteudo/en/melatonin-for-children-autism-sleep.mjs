@@ -1,0 +1,78 @@
+export default {
+  id: 'melatonina-criancas-autismo-sono',
+  slug: 'melatonin-for-children-autism-sleep',
+  short: 'Melatonin for children',
+  date: '2026-11-05',
+  titleTag: 'Melatonin for children: autism, ADHD and sleep · Talk+',
+  description: 'Is melatonin safe for children? What studies show in autism and ADHD, why sleep routines come first and why over-the-counter gummies vary so much.',
+  keywords: ['melatonin for children', 'melatonin autism', 'melatonin ADHD', 'is melatonin safe for kids', 'autistic child not sleeping', 'melatonin gummies kids'],
+  h1: 'Melatonin for children: what we know in <span class="word-highlight">autism</span> and ADHD',
+  lead: 'Poor sleep is very common in autistic children and children with ADHD, and sleep affects attention, mood and readiness to communicate. Melatonin can help some children, but it is not the first step and it is not risk-free.',
+  blocks: [
+    { intro: '<strong>Melatonin for children</strong> is one of the most common questions from families of autistic children or children with ADHD. Here we summarise what trials show, what is approved and with what precautions, and why <strong>sleep routines</strong> always come first.' },
+    { summary: [
+      'Melatonin is a hormone the body makes when it gets dark; as a medicine or supplement it mainly helps children fall asleep earlier.',
+      'In a placebo-controlled trial of children with insomnia that had not improved with routines, prolonged-release melatonin increased total sleep time.',
+      'In the European Union, a melatonin medicine is approved for autistic children aged 2 to 18 when sleep hygiene measures are not enough.',
+      'Over-the-counter supplements can contain very different amounts from the label. Dose, timing and duration should be agreed with a doctor.',
+    ] },
+    { h2: 'Does melatonin help autistic children sleep?', id: 'autism', toc: 'Autism and sleep' },
+    { p: 'In a randomised trial of 125 children and teenagers (aged 2 to 17), autistic or with certain neurogenetic conditions, whose insomnia had not improved with behavioural measures, <strong>prolonged-release melatonin</strong> increased total sleep time and shortened the time to fall asleep more than placebo (Gringras et al., 2017). Based on these data, the European Medicines Agency (EMA) authorised a paediatric melatonin medicine in 2018 for children aged 2 to 18 with autism and/or certain neurogenetic conditions (such as Smith-Magenis syndrome) when sleep hygiene has not been enough. Rules differ between countries: in the United States, for example, melatonin is sold as a dietary supplement.' },
+    { p: 'Read this carefully: the trial shows an effect on <strong>sleep</strong>. It does not show that melatonin improves speech, language or autistic traits.' },
+    { h2: 'What about ADHD?', id: 'adhd', toc: 'ADHD' },
+    { p: 'In ADHD, melatonin has mainly been studied for <strong>sleep-onset insomnia</strong> (taking a long time to fall asleep), including in children taking stimulant medication. Studies are smaller and shorter than in autism. The decision belongs to the doctor, who will also check whether ADHD medication, screen timing or other causes explain the problem.' },
+    { h2: 'What should you try before melatonin?', id: 'routines', toc: 'Routines first' },
+    { ol: [
+      'Regular bedtimes and wake-up times, including at weekends.',
+      'A short, predictable bedtime routine (bath, pyjamas, story), shown with pictures if that helps the child.',
+      'Dim light and screens off in the hour before bed.',
+      'Ask the doctor about treatable causes: pain, reflux, snoring or sleep apnoea, medication, anxiety.',
+    ] },
+    { h2: 'Is melatonin safe for kids?', id: 'safety', toc: 'Safety' },
+    { p: 'In trials, side effects were usually mild (sleepiness, headache). Long-term studies in children are lacking. The biggest practical risk lies in <strong>over-the-counter products</strong>: in an analysis of gummies sold in the United States, the actual amount of melatonin ranged from 74% to 347% of the label, and some products also contained cannabidiol (Cohen et al., 2023).' },
+    { alert: {
+      title: 'Talk to a doctor if the child:',
+      items: [
+        'snores a lot, has pauses in breathing or often wakes up tired;',
+        'suddenly stopped sleeping well or has changed in behaviour;',
+        'already takes other medication, or if you plan to give melatonin for more than a few weeks.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'Unknown or myth',
+      yes: [
+        'Melatonin can help autistic children with persistent insomnia fall asleep.',
+        'A prescription medicine is approved in the EU for this situation.',
+        'Sleep routines are the recommended first approach.',
+      ],
+      no: [
+        '«Melatonin improves speech or autism.»',
+        '«It is natural, so it has no risks.»',
+        '«Every gummy contains the dose on the label.»',
+      ],
+    } },
+    { bridge: {
+      title: 'Predictable routines, with pictures',
+      intro: 'The article recommends starting with regular, predictable routines. The app can support the communication side:',
+      items: [
+        ['A bedtime routine the child can anticipate.', 'Communicate has a Routines group with picture and voice cards to show each step.'],
+        ['Saying that something is wrong at night.', 'The Pain and Feelings groups let the child show how they feel.'],
+      ],
+      outro: 'Talk+ does not treat sleep problems. Melatonin dose and use are medical decisions.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about melatonin for children',
+  faq: [
+    ['Can I give a child melatonin without a prescription?', 'It is not recommended. Even where it is sold as a supplement, dose, timing and duration should be agreed with a doctor.'],
+    ['Does melatonin help autistic children sleep?', 'It can help children with persistent insomnia after routines have not been enough. It does not treat autism or speech.'],
+    ['What age can children take melatonin?', 'The medicine approved in the European Union for autism is for children from 2 years, on medical advice.'],
+    ['Is melatonin addictive?', 'There is no evidence of dependence like other sleep medicines, but long-term studies in children are lacking. The doctor should review the need regularly.'],
+  ],
+  sources: [
+    'Gringras P. et al. (2017). Efficacy and Safety of Pediatric Prolonged-Release Melatonin for Insomnia in Children With Autism Spectrum Disorder. <em>Journal of the American Academy of Child &amp; Adolescent Psychiatry</em>, 56(11), 948–957. <a href="https://doi.org/10.1016/j.jaac.2017.09.414" rel="noopener" target="_blank">doi:10.1016/j.jaac.2017.09.414</a>',
+    'European Medicines Agency. <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto" rel="noopener" target="_blank">Slenyto (melatonin): EPAR summary</a>.',
+    'Cohen P. A. et al. (2023). Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US. <em>JAMA</em>, 329(16), 1401–1402. <a href="https://doi.org/10.1001/jama.2023.2296" rel="noopener" target="_blank">doi:10.1001/jama.2023.2296</a>',
+  ],
+  related: ['canabidiol-cbd-autismo', 'medicacao-phda-metilfenidato-linguagem', 'autismo-e-comunicacao'],
+}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-br-locale>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,8 +23,8 @@
   <meta property="og:locale:alternate" content="pt_PT">
   <meta property="og:locale:alternate" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="../assets/fonts/baloo2-variable.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="../home.css?v=20261029d">
+  <link rel="preload" href="../assets/fonts/baloo2-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../home.css?v=20261111d">
   <script src="../main.js?v=20261029f" defer></script>
   <script src="../home.js?v=20261024a" defer></script>
   <script data-goatcounter="https://falamais.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -50,8 +50,10 @@
     ]}
   ]}
   </script>
-</head>
-<body>
+  <link rel="stylesheet" href="/assets/css/discovery.css?v=20261111c">
+  <link rel="alternate" hreflang="pt-BR" href="https://falamais.pt/br/">
+<link rel="stylesheet" href="/assets/css/site-header.css?v=20261111"><script src="/assets/js/site-header.js?v=20261111" defer></script></head>
+<body class="home-discovery">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
@@ -75,17 +77,7 @@
     <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10m6 10V4m6 16v-7m6 7H2"/></symbol>
   </svg>
 
-  <header id="inicio" class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="#inicio" aria-label="Habla+ — inicio">Habla<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
-      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menú</span></button>
-      <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
-        <a href="#la-app">La app</a><a href="#juegos">Los juegos</a><a href="#para-quien">Para quién</a><a href="#planes">Planes</a><a href="#preguntas">Preguntas</a><a href="/es/articulos/">Artículos</a>
-      </nav>
-      <div class="header-tools"><div class="header-pill"><a class="header-contact" href="#contacto">Contacto</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Habla+ (se abre en una pestaña nueva)"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="Idioma del sitio"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><a href="/" hreflang="pt-PT" lang="pt-PT" aria-label="Português">PT</a><a href="/en/" hreflang="en" lang="en" aria-label="English">EN</a><a href="/es/" hreflang="es" lang="es" aria-label="Español" aria-current="page">ES</a></nav></div></div>
-      <a class="header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener" aria-label="Instalar Habla+ en Android desde Google Play"><img src="/assets/img/google-play-badge.png" alt="" width="155" height="60"></a>
-    </div>
-  </header>
+  <header class="fp-header" id="topo"><div class="fp-row"><a class="fp-brand" href="/es/" aria-label="Habla+">Habla<img src="/assets/img/fala-plus-logo.png" alt="+" width="48" height="48"></a><button class="fp-toggle" type="button" aria-controls="fp-nav" aria-expanded="false">☰ <span>Menu</span></button><nav class="fp-nav" id="fp-nav" aria-label="Navegación principal"><a href="/es/#la-app">La app</a><a href="/es/juegos/">Juegos</a><a href="/es/explorar/">Explorar</a><a href="/es/#planes">Planes</a><a href="/es/#preguntas">Preguntas</a><a href="/es/articulos/">Artículos</a><a class="fp-contact" href="/es/#contacto">Contacto</a></nav><nav class="fp-languages" aria-label="Idioma"><a href="/" lang="pt-PT" hreflang="pt-PT">PT</a><a href="/br/" lang="pt-BR" hreflang="pt-BR">BR</a><a href="/en/" lang="en" hreflang="en">EN</a><a href="/es/" lang="es" hreflang="es" aria-current="page">ES</a></nav><a class="fp-store" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener noreferrer" aria-label="Google Play"><img src="/assets/img/google-play-badge.png" alt="Google Play" width="132" height="51"></a></div></header>
 
   <aside class="articles-highlight" aria-label="Artículo nuevo · Habla+" data-latest-article>
     <div class="wrap articles-highlight-inner">
@@ -103,7 +95,7 @@
         <div class="hero-copy">
           <p class="availability"><span aria-hidden="true"></span>Android · ya en Google Play</p>
           <h1>Cada niño tiene algo que decir. <span class="accent">Vamos a escucharlo.</span></h1>
-          <p class="lead">Habla Más, presentada en la app como Habla+, une imágenes, voz y más de 50 juegos para que cada niño y niña se comunique, aprenda palabras y juegue, a su ritmo. En casa, en la escuela y entre sesiones de logopedia.</p>
+          <p class="lead">Habla Más (Habla+), parte de Fala Mais, reúne imágenes, voz y 58 juegos para comunicarse, descubrir palabras y jugar al ritmo del niño. En casa, en la escuela y entre sesiones de logopedia.</p>
           <div class="cta-row">
             <a class="button" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">Instalar en Google Play <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
             <a class="button button-ghost" href="#juegos">▶ Ver la app en acción</a>
@@ -137,13 +129,15 @@
     <section class="stats" aria-label="Habla+ en cifras">
       <div class="wrap">
         <ul class="stats-grid">
-          <li class="stat reveal"><strong>56</strong><span>juegos en la Caminata</span></li>
+          <li class="stat reveal"><strong>58</strong><span>juegos por descubrir</span></li>
           <li class="stat reveal"><strong>25</strong><span>temas del día a día</span></li>
           <li class="stat reveal"><strong>1000+</strong><span>palabras con imagen y voz</span></li>
           <li class="stat reveal"><strong>3</strong><span>idiomas: ES · PT · EN</span></li>
         </ul>
       </div>
     </section>
+
+<section class="start-routes" id="encontrar"><div class="wrap"><div class="start-routes-head"><h2>¿Qué buscas hoy?</h2><a href="/es/explorar/">Encuentra tu punto de partida →</a></div><div class="start-routes-grid"><a class="start-route" href="/es/juegos/"><img src="/assets/games/icons/tangram.webp" alt="" width="64" height="64" loading="lazy"><h3>Un nuevo juego favorito</h3><p>Mira los 58 juegos en acción, con instrucciones e ideas para jugar juntos.</p><span>Explorar los juegos →</span></a><a class="start-route" href="/es/explorar/#guias"><img src="/assets/games/icons/touch_and_listen.webp" alt="" width="64" height="64" loading="lazy"><h3>Comprender la comunicación</h3><p>Explora guías sobre habla, apraxia, autismo y CAA, con fuentes y límites claros.</p><span>Encontrar una guía →</span></a><a class="start-route" href="/es/articulos/"><img src="/assets/games/icons/mini_story.webp" alt="" width="64" height="64" loading="lazy"><h3>Una pregunta, una guía</h3><p>Encuentra artículos sobre juego, aprendizaje y desarrollo infantil.</p><span>Buscar en los artículos →</span></a></div></div></section>
 
     <!-- 3. Funcionalidades -->
     <section class="section" id="la-app" aria-labelledby="titulo-app">
@@ -213,7 +207,8 @@
             <button type="button" class="demo-choice" aria-pressed="false" data-demo="choose-image" data-title="Elige la Imagen" data-description="Mira la imagen y elige su nombre."><img src="../assets/video/es/choose-image-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Elige la Imagen<small>Mirar y elegir</small></span></button>
             <button type="button" class="demo-choice" aria-pressed="false" data-demo="crocodile-whack" data-title="Martillea al Cocodrilo" data-description="Acierta al cocodrilo correcto."><img src="../assets/video/es/crocodile-whack-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>El Cocodrilo<small>Observar y reaccionar</small></span></button>
           </div><p class="demo-note" id="demo-status" role="status">Vídeos reales de la app. Pulsa reproducir para empezar.</p>
-          <a class="button demo-catalog-link" href="/es/juegos/">Explorar los 58 juegos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="button demo-catalog-link" href="/es/articulos/tipos-de-juegos-fala-plus/">Conocer los tipos de juegos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p><a class="button demo-catalog-link" href="/es/juegos/">Explorar los 58 juegos y vídeos con sonido</a></p>
           <noscript><p>Usa los controles del vídeo para ver Pompas de Jabón. Elegir otros juegos necesita JavaScript.</p></noscript>
         </div>
       </div>
@@ -306,7 +301,7 @@
 
   <div class="sticky-cta" inert><p>Ya en Google Play</p><a class="button" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">Instalar</a></div>
 
-  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#inicio" aria-label="Habla+ — volver al inicio">Habla<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Pequeños descubrimientos.<br>Más comunicación.</p><nav aria-label="Enlaces legales y contacto"><a href="/es/articulos/">Artículos</a><a href="/privacy-policy-es.html">Política de privacidad</a><a href="/privacy-policy-es.html#eliminar">Eliminar datos</a><a href="#contacto">Contacto</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Habla+ en Instagram (se abre en una nueva ventana)">Instagram</a><a href="/" hreflang="pt-PT" lang="pt-PT">Português</a><a href="/en/" hreflang="en" lang="en">English</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/087-happy-hippo.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Habla+</span><span>Hecha para descubrir. Pensada para acompañar.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#inicio" aria-label="Habla+ — volver al inicio">Habla<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Pequeños descubrimientos.<br>Más comunicación.</p><nav aria-label="Enlaces legales y contacto"><a href="/es/juegos/">Juegos</a><a href="/es/explorar/">Explorar</a><a href="/es/articulos/">Artículos</a><a href="/privacy-policy-es.html">Política de privacidad</a><a href="/privacy-policy-es.html#eliminar">Eliminar datos</a><a href="#contacto">Contacto</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Habla+ en Instagram (se abre en una nueva ventana)">Instagram</a><a href="/" hreflang="pt-PT" lang="pt-PT">Português</a><a href="/en/" hreflang="en" lang="en">English</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/087-happy-hippo.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Habla+</span><span>Hecha para descubrir. Pensada para acompañar.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
   <script defer src="/assets/js/site-mascots.js"></script>
 </body>
 </html>

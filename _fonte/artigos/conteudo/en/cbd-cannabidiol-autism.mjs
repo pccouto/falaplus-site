@@ -1,0 +1,68 @@
+export default {
+  id: 'canabidiol-cbd-autismo',
+  slug: 'cbd-cannabidiol-autism',
+  short: 'CBD for autism',
+  date: '2026-11-05',
+  titleTag: 'Cannabidiol (CBD) for autism: what studies say · Talk+',
+  description: 'Does CBD oil help autistic children? What early trials show, why nothing is approved for autism and why product labels are unreliable.',
+  keywords: ['CBD autism', 'cannabidiol autism', 'CBD oil for kids', 'medical cannabis autism', 'CBD speech autism'],
+  h1: 'Cannabidiol (CBD) for autism: what <span class="word-highlight">studies</span> say',
+  lead: 'Cannabidiol (CBD) is often presented as an answer for meltdowns, sleep and even speech in autistic children. Research is still at an early stage and no product is approved for autism.',
+  blocks: [
+    { intro: 'Searching for <strong>CBD for autism</strong> brings up many testimonials and little solid data. Here we separate what is approved, what is being researched and the practical risks of <strong>CBD oil for children</strong>.' },
+    { summary: [
+      'A cannabidiol medicine is approved (in the EU and the US) for rare, severe types of epilepsy, not for autism.',
+      'In autism there are small studies and one randomised trial with mixed results: not enough to recommend use.',
+      'CBD interacts with other medicines, including epilepsy medicines.',
+      'Many products on sale do not contain the amount of CBD on the label and some contain THC.',
+    ] },
+    { h2: 'Is CBD approved for autism?', id: 'approval', toc: 'Approval' },
+    { p: 'No. The only cannabidiol medicine approved by the FDA (2018) and the EMA (2019) is for severe, rare epilepsies such as Dravet and Lennox-Gastaut syndromes and tuberous sclerosis complex. These approvals do not extend to autism. Laws on cannabis and CBD differ widely between countries and US states: check local rules with a doctor or pharmacist.' },
+    { h2: 'What do studies in autism show?', id: 'studies', toc: 'Studies' },
+    { p: 'Early studies of cannabinoids in autism were mostly open-label (no placebo), which makes it hard to separate the effect of the product from the effect of expectations. A placebo-controlled randomised trial of 150 autistic children and young people aged 5 to 21 tested CBD-rich cannabis extracts with a small amount of THC. The main outcome did not improve more than with placebo; some secondary behaviour measures did. The authors concluded that evidence of efficacy is <strong>mixed and insufficient</strong> (Aran et al., 2021). There is no evidence that CBD improves speech or language.' },
+    { h2: 'What are the risks of CBD oil for children?', id: 'risks', toc: 'Risks' },
+    { ul: [
+      'Sleepiness, reduced appetite and diarrhoea.',
+      'Changes in liver enzymes, especially with other medicines.',
+      '<strong>Interactions</strong> with epilepsy medicines and other drugs.',
+      'Unreliable labels: in a study of 84 products sold online, about 7 in 10 had a different amount of CBD from the label, and some contained THC (Bonn-Miller et al., 2017).',
+    ] },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'What cannot be said',
+      yes: [
+        'A CBD medicine is approved for some severe epilepsies.',
+        'In autism, research is early and results are mixed.',
+        'Over-the-counter products vary widely in content.',
+      ],
+      no: [
+        '«CBD treats autism.»',
+        '«CBD helps the child talk.»',
+        '«It is natural, so it is safe.»',
+      ],
+    } },
+    { p: 'See also [[tratamentos-perigosos-autismo-mms-quelacao|MMS, chelation and other dangerous «treatments»]] and [[melatonina-criancas-autismo-sono|Melatonin for children]].' },
+    { bridge: {
+      title: 'Supporting communication while science moves on',
+      intro: 'The article concludes that CBD has no evidence for speech. Communication support does not need to wait:',
+      items: [
+        ['Showing what they want and how they feel.', 'Communicate has picture and voice cards, including the Feelings and Pain groups.'],
+        ['Less stimulation when the child is overwhelmed.', 'Calm mode reduces visual stimulation.'],
+      ],
+      outro: 'Talk+ is not a treatment. Decisions about CBD or any medicine belong to the doctor.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about CBD and autism',
+  faq: [
+    ['Does CBD oil help autistic children?', 'Studies are still early and results are mixed. Nothing is approved for autism.'],
+    ['Does CBD help an autistic child talk?', 'There is no evidence that CBD improves speech or language.'],
+    ['Is CBD legal?', 'It depends on the country, state and product. Check local rules and talk to a doctor before use.'],
+    ['Can CBD interact with other medicines?', 'Yes, including epilepsy medicines. That is why it should always be discussed with a doctor.'],
+  ],
+  sources: [
+    'Aran A. et al. (2021). Cannabinoid treatment for autism: a proof-of-concept randomized trial. <em>Molecular Autism</em>, 12, 6. <a href="https://doi.org/10.1186/s13229-021-00420-2" rel="noopener" target="_blank">doi:10.1186/s13229-021-00420-2</a>',
+    'Bonn-Miller M. O. et al. (2017). Labeling accuracy of cannabidiol extracts sold online. <em>JAMA</em>, 318(17), 1708–1709. <a href="https://doi.org/10.1001/jama.2017.11909" rel="noopener" target="_blank">doi:10.1001/jama.2017.11909</a>',
+    'European Medicines Agency. <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/epidyolex" rel="noopener" target="_blank">Epidyolex (cannabidiol): EPAR summary</a>.',
+  ],
+  related: ['tratamentos-perigosos-autismo-mms-quelacao', 'melatonina-criancas-autismo-sono', 'medicacao-autismo-risperidona-aripiprazol'],
+}

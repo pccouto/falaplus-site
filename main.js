@@ -47,9 +47,18 @@ const TEXT = LANG === 'es'
       videoError: 'Não foi possível carregar o vídeo. Escolha outro jogo ou tente novamente.',
     }
 
+const IS_BR = document.documentElement.lang === 'pt-BR'
+if (IS_BR) Object.assign(TEXT, {
+  sending: 'Enviando…',
+  sent: email => `Obrigado! Recebemos sua mensagem e vamos responder para ${email}.`,
+  launchSent: email => `Obrigado! Vamos enviar novidades do Fala+ para ${email}.`,
+  mailApp: 'Seu aplicativo de e-mail vai abrir com a mensagem pronta para enviar.',
+  selected: title => `${title} selecionado. Use os controles para reproduzir ou pausar.`,
+  pressPlay: title => `${title} selecionado. Toque em reproduzir para começar.`,
+})
 document.documentElement.classList.add('js')
 
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=pt.falaplus.app'
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=pt.falaplus.app' + (IS_BR ? '&hl=pt_BR&gl=BR' : '')
 const LAUNCH_NOTICE = LANG === 'es'
   ? {
       eyebrow: 'Oferta de lanzamiento',
@@ -132,7 +141,7 @@ const showLaunchNotice = () => {
   closeButton.focus()
 }
 
-if (LAUNCH_NOTICE_ACTIVE) showLaunchNotice()
+if (LAUNCH_NOTICE_ACTIVE && !IS_BR) showLaunchNotice()
 document.querySelectorAll('[data-year]').forEach(node => { node.textContent = new Date().getFullYear() })
 document.querySelectorAll('a[href="#topo"]').forEach(link => link.addEventListener('click', event => {
   event.preventDefault()
@@ -149,6 +158,7 @@ document.querySelectorAll('[data-contact-topic]').forEach(link => link.addEventL
 
 const menuToggle = document.querySelector('.menu-toggle')
 const navigation = document.querySelector('#site-nav')
+if (menuToggle && navigation) {
 function closeMenu(restoreFocus = false) {
   menuToggle.setAttribute('aria-expanded', 'false')
   navigation.classList.remove('is-open')
@@ -169,6 +179,8 @@ document.addEventListener('click', event => {
 })
 const desktop = matchMedia('(min-width: 1101px)')
 desktop.addEventListener('change', () => { if (desktop.matches) closeMenu() })
+
+}
 
 const video = document.querySelector('#game-preview')
 // Article pages have no demo video: skip the player there.

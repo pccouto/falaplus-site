@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-br-locale>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,8 +23,8 @@
   <meta property="og:locale:alternate" content="pt_PT">
   <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="../assets/fonts/baloo2-variable.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="../home.css?v=20261029d">
+  <link rel="preload" href="../assets/fonts/baloo2-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../home.css?v=20261111d">
   <script src="../main.js?v=20261029f" defer></script>
   <script src="../home.js?v=20261024a" defer></script>
   <script data-goatcounter="https://falamais.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -50,8 +50,10 @@
     ]}
   ]}
   </script>
-</head>
-<body>
+  <link rel="stylesheet" href="/assets/css/discovery.css?v=20261111c">
+  <link rel="alternate" hreflang="pt-BR" href="https://falamais.pt/br/">
+<link rel="stylesheet" href="/assets/css/site-header.css?v=20261111"><script src="/assets/js/site-header.js?v=20261111" defer></script></head>
+<body class="home-discovery">
   <a class="skip-link" href="#content">Skip to content</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
@@ -75,17 +77,7 @@
     <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10m6 10V4m6 16v-7m6 7H2"/></symbol>
   </svg>
 
-  <header id="top" class="site-header">
-    <div class="wrap header-row">
-      <a class="brand" href="#top" aria-label="Talk+ — home">Talk<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
-      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
-      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#the-app">The app</a><a href="#games">The games</a><a href="#who-for">Who it's for</a><a href="#plans">Plans</a><a href="#questions">Questions</a><a href="/en/articles/">Articles</a>
-      </nav>
-      <div class="header-tools"><div class="header-pill"><a class="header-contact" href="#contact">Contact</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="Fala+ on Instagram (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="Site language"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><a href="/" hreflang="pt-PT" lang="pt-PT" aria-label="Português">PT</a><a href="/en/" hreflang="en" lang="en" aria-label="English" aria-current="page">EN</a><a href="/es/" hreflang="es" lang="es" aria-label="Español">ES</a></nav></div></div>
-      <a class="header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener" aria-label="Install Talk+ on Android from Google Play"><img src="/assets/img/google-play-badge.png" alt="" width="155" height="60"></a>
-    </div>
-  </header>
+  <header class="fp-header" id="topo"><div class="fp-row"><a class="fp-brand" href="/en/" aria-label="Talk+">Talk<img src="/assets/img/fala-plus-logo.png" alt="+" width="48" height="48"></a><button class="fp-toggle" type="button" aria-controls="fp-nav" aria-expanded="false">☰ <span>Menu</span></button><nav class="fp-nav" id="fp-nav" aria-label="Main navigation"><a href="/en/#the-app">The app</a><a href="/en/games/">Games</a><a href="/en/explore/">Explore</a><a href="/en/#plans">Plans</a><a href="/en/#questions">Questions</a><a href="/en/articles/">Articles</a><a class="fp-contact" href="/en/#contact">Contact</a></nav><nav class="fp-languages" aria-label="Language"><a href="/" lang="pt-PT" hreflang="pt-PT">PT</a><a href="/br/" lang="pt-BR" hreflang="pt-BR">BR</a><a href="/en/" lang="en" hreflang="en" aria-current="page">EN</a><a href="/es/" lang="es" hreflang="es">ES</a></nav><a class="fp-store" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener noreferrer" aria-label="Google Play"><img src="/assets/img/google-play-badge.png" alt="Google Play" width="132" height="51"></a></div></header>
 
   <aside class="articles-highlight" aria-label="New article · Talk+" data-latest-article>
     <div class="wrap articles-highlight-inner">
@@ -103,7 +95,7 @@
         <div class="hero-copy">
           <p class="availability"><span aria-hidden="true"></span>Android · now on Google Play</p>
           <h1>Every child has something to say. <span class="accent">Let's listen.</span></h1>
-          <p class="lead">Talk Plus, shown in the app as Talk+, brings together pictures, voice and over 50 games so children can communicate, learn words and play, at their own pace. At home, at school and between speech therapy sessions.</p>
+          <p class="lead">Talk Plus (Talk+), part of Fala Mais, brings together pictures, voice and 58 games to communicate, discover words and play at the child’s pace. At home, at school and between speech therapy sessions.</p>
           <div class="cta-row">
             <a class="button" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">Get it on Google Play <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
             <a class="button button-ghost" href="#games">▶ See the app in action</a>
@@ -137,13 +129,15 @@
     <section class="stats" aria-label="Talk+ in numbers">
       <div class="wrap">
         <ul class="stats-grid">
-          <li class="stat reveal"><strong>56</strong><span>games in Walk</span></li>
+          <li class="stat reveal"><strong>58</strong><span>games to discover</span></li>
           <li class="stat reveal"><strong>25</strong><span>everyday themes</span></li>
           <li class="stat reveal"><strong>1000+</strong><span>words with picture and voice</span></li>
           <li class="stat reveal"><strong>3</strong><span>languages: EN · PT · ES</span></li>
         </ul>
       </div>
     </section>
+
+<section class="start-routes" id="encontrar"><div class="wrap"><div class="start-routes-head"><h2>What brings you here?</h2><a href="/en/explore/">Find your starting point →</a></div><div class="start-routes-grid"><a class="start-route" href="/en/games/"><img src="/assets/games/icons/tangram.webp" alt="" width="64" height="64" loading="lazy"><h3>A new favourite game</h3><p>Watch all 58 games, with instructions and ideas for playing together.</p><span>Explore games →</span></a><a class="start-route" href="/en/explore/#guias"><img src="/assets/games/icons/touch_and_listen.webp" alt="" width="64" height="64" loading="lazy"><h3>Understanding communication</h3><p>Explore guides about speech, apraxia, autism and AAC, with sources and clear limits.</p><span>Find a guide →</span></a><a class="start-route" href="/en/articles/"><img src="/assets/games/icons/mini_story.webp" alt="" width="64" height="64" loading="lazy"><h3>A question, a guide</h3><p>Find articles about play, learning and child development.</p><span>Search the articles →</span></a></div></div></section>
 
     <!-- 3. Features -->
     <section class="section" id="the-app" aria-labelledby="titulo-app">
@@ -213,7 +207,8 @@
             <button type="button" class="demo-choice" aria-pressed="false" data-demo="tap-to-paint" data-title="Colors" data-description="Hear the colour and paint."><img src="../assets/video/en/tap-to-paint-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>Colors<small>Listen and paint</small></span></button>
             <button type="button" class="demo-choice" aria-pressed="false" data-demo="crocodile-whack" data-title="Crocodile Whack" data-description="Hit the right crocodile."><img src="../assets/video/en/crocodile-whack-demo-poster.jpg" width="45" height="64" loading="lazy" alt=""><span>The Crocodile<small>Watch and react</small></span></button>
           </div><p class="demo-note" id="demo-status" role="status">Real Talk+ videos. Press play to start.</p>
-          <a class="button demo-catalog-link" href="/en/games/">Explore all 58 games <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="button demo-catalog-link" href="/en/articles/types-of-games-in-fala-plus/">Explore the types of games <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p><a class="button demo-catalog-link" href="/en/games/">Explore all 58 games and videos with sound</a></p>
           <noscript><p>Use the video controls to watch Bubble Pop. Choosing the other games needs JavaScript.</p></noscript>
         </div>
       </div>
@@ -306,7 +301,7 @@
 
   <div class="sticky-cta" inert><p>Now on Google Play</p><a class="button" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">Install</a></div>
 
-  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#top" aria-label="Talk+ — back to the top">Talk<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Small discoveries.<br>More communication.</p><nav aria-label="Legal links and contact"><a href="/en/articles/">Articles</a><a href="/privacy-policy-en.html">Privacy policy</a><a href="/privacy-policy-en.html#delete">Delete data</a><a href="#contact">Contact</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Talk+ on Instagram (opens in a new window)">Instagram</a><a href="/" hreflang="pt-PT" lang="pt-PT">Português</a><a href="/es/" hreflang="es" lang="es">Español</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/044-cute-ram.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Talk+</span><span>Made for discovering. Designed to support.</span><a href="#top">Back to top ↑</a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#top" aria-label="Talk+ — back to the top">Talk<img src="../assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>Small discoveries.<br>More communication.</p><nav aria-label="Legal links and contact"><a href="/en/games/">Games</a><a href="/en/explore/">Explore</a><a href="/en/articles/">Articles</a><a href="/privacy-policy-en.html">Privacy policy</a><a href="/privacy-policy-en.html#delete">Delete data</a><a href="#contact">Contact</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="Talk+ on Instagram (opens in a new window)">Instagram</a><a href="/" hreflang="pt-PT" lang="pt-PT">Português</a><a href="/es/" hreflang="es" lang="es">Español</a></nav><figure class="site-animal-mascot" data-site-animal-mascot data-animation-src="/assets/mascots/animals/044-cute-ram.json" aria-hidden="true"><div class="site-animal-mascot__canvas"></div></figure></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> Talk+</span><span>Made for discovering. Designed to support.</span><a href="#top">Back to top ↑</a></div></footer>
   <script defer src="/assets/js/site-mascots.js"></script>
 </body>
 </html>

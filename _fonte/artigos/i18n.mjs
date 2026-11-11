@@ -1,6 +1,7 @@
+import { localizeValue } from './br/localize.mjs'
 // Interface text and paths for the article pages, one entry per site language.
 // Brand per language: Fala+ (PT), Talk+ (EN), Habla+ (ES); store names Fala Mais / Talk Plus / Habla Más.
-export const LANGS = ['pt', 'en', 'es']
+export const LANGS = ['pt', 'br', 'en', 'es']
 
 export const UI = {
   pt: {
@@ -9,7 +10,7 @@ export const UI = {
     months: ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'],
     date: (d, m, y) => `${d} de ${m} de ${y}`,
     skip: 'Saltar para o conteúdo', homeLabel: 'início', mainNav: 'Navegação principal', langNav: 'Idioma do site',
-    nav: [['#a-app', 'A app'], ['#jogos', 'Os jogos'], ['#para-quem', 'Para quem'], ['#planos', 'Planos'], ['#perguntas', 'Dúvidas']],
+    nav: [['#a-app', 'A app'], ['/jogos/', 'Jogos'], ['/explorar/', 'Explorar'], ['#planos', 'Planos'], ['#perguntas', 'Dúvidas']],
     articlesTab: 'Artigos', contact: 'Contacto', contactAnchor: '#contacto', appAnchor: '#a-app', cta: 'Android', ctaAria: 'Instalar a Fala+ no Android através do Google Play',
     crumbHome: 'Início', crumbLabel: 'Está aqui', guide: 'Guia', by: 'Por', team: 'Equipa Fala+', readTime: n => `${n} min de leitura`,
     summary: 'Em resumo', yes: 'Podemos dizer', no: 'Não podemos dizer', inArticle: 'No artigo', inApp: 'Na Fala+',
@@ -17,7 +18,7 @@ export const UI = {
     sources: 'Fontes', related: 'Leia também', published: (p, u) => `Publicado a ${p} · Última revisão: ${u}`,
     healthNote: 'Este artigo é informativo e não substitui a avaliação por um profissional de saúde. Se tiver preocupações com o desenvolvimento da criança, fale com o médico de família ou o pediatra.',
     ctaBadge: 'Já disponível no Google Play · Android', ctaTitle: 'Comunicar.<br>A brincar.',
-    ctaText: 'A Fala+ junta um quadro de comunicação com imagens e voz, mais de 40 jogos de palavras e um espaço para brincar livremente. Um complemento para casa, para a escola e para as sessões de terapia da fala.',
+    ctaText: 'A Fala+ junta um quadro de comunicação com imagens e voz, 58 jogos e um espaço para brincar livremente. Um complemento para casa, para a escola e para as sessões de terapia da fala.',
     ctaButton: 'Instalar no Google Play', iconAlt: 'Ícone da app Fala+',
     footerTagline: 'Pequenas descobertas.<br>Mais comunicação.', footerNav: 'Ligações legais e contacto', privacy: ['/privacy-policy.html', 'Política de privacidade'],
     footerBottom: 'Feita para descobrir. Pensada para acompanhar.', backTop: 'Voltar ao topo ↑', instagramAria: 'Fala+ no Instagram (abre numa nova janela)',
@@ -38,7 +39,7 @@ export const UI = {
     months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     date: (d, m, y) => `${d} ${m} ${y}`,
     skip: 'Skip to content', homeLabel: 'home', mainNav: 'Main navigation', langNav: 'Site language',
-    nav: [['#the-app', 'The app'], ['#games', 'The games'], ['#who-for', "Who it's for"], ['#plans', 'Plans'], ['#questions', 'Questions']],
+    nav: [['#the-app', 'The app'], ['/en/games/', 'Games'], ['/en/explore/', 'Explore'], ['#plans', 'Plans'], ['#questions', 'Questions']],
     articlesTab: 'Articles', contact: 'Contact', contactAnchor: '#contact', appAnchor: '#the-app', cta: 'Android', ctaAria: 'Install Talk+ on Android from Google Play',
     crumbHome: 'Home', crumbLabel: 'You are here', guide: 'Guide', by: 'By', team: 'the Talk+ team', readTime: n => `${n} min read`,
     summary: 'In short', yes: 'What we can say', no: 'What we cannot say', inArticle: 'In the article', inApp: 'In Talk+',
@@ -46,7 +47,7 @@ export const UI = {
     sources: 'Sources', related: 'Read next', published: (p, u) => `Published ${p} · Last reviewed: ${u}`,
     healthNote: 'This article is for information only and does not replace an assessment by a health professional. If you are worried about a child’s development, talk to their doctor or paediatrician.',
     ctaBadge: 'Now on Google Play · Android', ctaTitle: 'Communicate.<br>Through play.',
-    ctaText: 'Talk+ brings together a communication board with pictures and voice, more than 40 word games and a space for free play. A complement for home, school and speech therapy sessions.',
+    ctaText: 'Talk+ brings together a communication board with pictures and voice, 58 games and a space for free play. A complement for home, school and speech therapy sessions.',
     ctaButton: 'Get it on Google Play', iconAlt: 'Talk+ app icon',
     footerTagline: 'Small discoveries.<br>More communication.', footerNav: 'Legal links and contact', privacy: ['/privacy-policy-en.html', 'Privacy policy'],
     footerBottom: 'Made for discovering. Designed to support.', backTop: 'Back to top ↑', instagramAria: 'Talk+ on Instagram (opens in a new window)',
@@ -67,7 +68,7 @@ export const UI = {
     months: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'],
     date: (d, m, y) => `${d} de ${m} de ${y}`,
     skip: 'Saltar al contenido', homeLabel: 'inicio', mainNav: 'Navegación principal', langNav: 'Idioma del sitio',
-    nav: [['#la-app', 'La app'], ['#juegos', 'Los juegos'], ['#para-quien', 'Para quién'], ['#planes', 'Planes'], ['#preguntas', 'Preguntas']],
+    nav: [['#la-app', 'La app'], ['/es/juegos/', 'Juegos'], ['/es/explorar/', 'Explorar'], ['#planes', 'Planes'], ['#preguntas', 'Preguntas']],
     articlesTab: 'Artículos', contact: 'Contacto', contactAnchor: '#contacto', appAnchor: '#la-app', cta: 'Android', ctaAria: 'Instalar Habla+ en Android desde Google Play',
     crumbHome: 'Inicio', crumbLabel: 'Estás aquí', guide: 'Guía', by: 'Por', team: 'el equipo de Habla+', readTime: n => `${n} min de lectura`,
     summary: 'En resumen', yes: 'Lo que podemos decir', no: 'Lo que no podemos decir', inArticle: 'En el artículo', inApp: 'En Habla+',
@@ -75,7 +76,7 @@ export const UI = {
     sources: 'Fuentes', related: 'Sigue leyendo', published: (p, u) => `Publicado el ${p} · Última revisión: ${u}`,
     healthNote: 'Este artículo es informativo y no sustituye la valoración de un profesional de la salud. Si te preocupa el desarrollo del niño o de la niña, habla con su pediatra o médico de familia.',
     ctaBadge: 'Ya en Google Play · Android', ctaTitle: 'Comunicar.<br>Jugando.',
-    ctaText: 'Habla+ reúne un tablero de comunicación con imágenes y voz, más de 40 juegos de palabras y un espacio para jugar libremente. Un complemento para casa, para la escuela y para las sesiones de logopedia.',
+    ctaText: 'Habla+ reúne un tablero de comunicación con imágenes y voz, 58 juegos y un espacio para jugar libremente. Un complemento para casa, para la escuela y para las sesiones de logopedia.',
     ctaButton: 'Instalar en Google Play', iconAlt: 'Icono de la app Habla+',
     footerTagline: 'Pequeños descubrimientos.<br>Más comunicación.', footerNav: 'Enlaces legales y contacto', privacy: ['/privacy-policy-es.html', 'Política de privacidad'],
     footerBottom: 'Hecha para descubrir. Pensada para acompañar.', backTop: 'Volver arriba ↑', instagramAria: 'Habla+ en Instagram (se abre en una ventana nueva)',
@@ -90,4 +91,24 @@ export const UI = {
       read: 'Leer el artículo', soon: 'Próximamente', collection: 'Artículos Habla+',
     },
   },
+}
+
+UI.br = {
+  ...localizeValue(UI.pt),
+  htmlLang: 'pt-BR', ogLocale: 'pt_BR', hreflang: 'pt-BR',
+  base: '/br/artigos/', home: '/br/', appAnchor: 'app/', contactAnchor: '#contacto',
+  nav: [['app/', 'O aplicativo'], ['/jogos/', 'Jogos'], ['/explorar/', 'Explorar'], ['app/#planos', 'Planos'], ['app/#perguntas', 'Dúvidas']],
+  team: 'Equipe Fala Mais', inApp: 'No Fala+', bridgeLabel: 'Da leitura ao Fala+', tocApp: 'No Fala+',
+  published: (p,u) => `Publicado em ${p} · Última revisão: ${u}`,
+  healthNote: 'Este artigo é informativo e não substitui a avaliação nem o acompanhamento por um profissional. Se você tem dúvidas sobre o desenvolvimento da criança, converse com um pediatra ou fonoaudiólogo.',
+  ctaBadge: 'Disponível no Google Play · Android',
+  ctaText: 'O Fala Mais reúne uma prancha de comunicação com imagens e voz, jogos de palavras e atividades para brincar. Um recurso complementar para a interação com a criança.',
+  playUrl: 'https://play.google.com/store/apps/details?id=pt.falaplus.app&hl=pt_BR&gl=BR',
+  otherLangs: [['/', 'pt-PT', 'Português'], ['/en/', 'en', 'English'], ['/es/', 'es', 'Español']],
+  interactions: { loadingViews: 'Carregando leituras…' },
+  index: { ...localizeValue(UI.pt.index),
+    title: 'Fala e comunicação infantil: artigos em português · Fala+',
+    lead: 'Guias para famílias, educadores e profissionais: desenvolvimento da linguagem, comunicação alternativa e brincadeiras para estimular a fala. Conteúdo informativo em português brasileiro.',
+    h1: 'Fala, comunicação <span class="word-highlight">e brincadeiras.</span>'
+  }
 }

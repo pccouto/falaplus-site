@@ -1,3 +1,6 @@
+import { discoveryPaths, gameDiscovery } from './discovery-games.mjs'
+import { BR_CATALOG } from './br/catalogo.mjs'
+import { buildBrazilianPages, connectBrazilianAlternates } from './br/pages.mjs'
 // Builds the article pages in PT, EN and ES from ./conteudo/<lang>/*.mjs and the
 // three article index pages. Run from the site root:
 //   node _fonte/artigos/build.mjs
@@ -18,10 +21,10 @@ import { NEW_SPEECH_ARTICLES, getNewSpeechArticle } from './novos-temas-fala-dat
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const SITE = 'https://falamais.pt'
-const STYLES_V = '20261029b'
+const STYLES_V = '20261111d'
 const ARTICLES_V = '20261019b'
-const MAIN_V = '20261029f'
-const ENGAGEMENT_V = '20261025a'
+const MAIN_V = '20261110br'
+const ENGAGEMENT_V = '20261110br'
 const SEARCH_V = '20261104a'
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -53,6 +56,7 @@ const NAV = {
 }
 const slugify = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 const topicPath = (lang, key) => UI[lang].base + NAV[lang].topicDir + '/' + slugify(THEMES[key][lang].name) + '/'
+NAV.br = { ...NAV.pt, startHere: 'Comece por aqui', startIntro: 'Escolha um tema ou pesquise uma dúvida sobre fala, comunicação e brincadeiras.', none: 'Nenhum artigo encontrado. Tente outra palavra ou escolha um tema.', continueTitle: 'Continue lendo' }
 const liveIn = (lang, key) => CATALOG.filter(e => e.theme === key && e[lang]?.live)
 // Card used by the index, the topic pages and "Continuar a ler". data-search
 // holds title, teaser, topic, kind and the article keywords (accent-free match in artigos-search.js).
@@ -176,9 +180,10 @@ function head(L, { title, description, canonical, ogType, ogTitle, ogDescription
   <meta property="og:locale" content="${L.ogLocale}">
   <meta property="og:site_name" content="${L.siteName}">${extra}
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="/assets/fonts/baloo2-variable.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="/styles.css?v=${STYLES_V}">
+  <link rel="preload" href="/assets/fonts/baloo2-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=20261111d">
   <link rel="stylesheet" href="/artigos.css?v=${ARTICLES_V}">
+  <link rel="stylesheet" href="/assets/css/discovery.css?v=20261111c">
   <script src="/main.js?v=${MAIN_V}" defer></script>
   <script src="/artigos-interactions.js?v=${ENGAGEMENT_V}" defer></script>
   <script data-goatcounter="https://falamais.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -195,7 +200,7 @@ ${JSON.stringify(jsonld, null, 2)}
 
 // langLinks: { pt, en, es } → path of this page in each language (falls back to that language's home).
 function header(L, lang, langLinks) {
-  const switcher = [['pt', 'pt-PT', 'Português', 'PT'], ['en', 'en', 'English', 'EN'], ['es', 'es', 'Español', 'ES']]
+  const switcher = [['pt', 'pt-PT', 'Português', 'PT'], ...(langLinks.br ? [['br', 'pt-BR', 'Português (Brasil)', 'BR']] : []), ['en', 'en', 'English', 'EN'], ['es', 'es', 'Español', 'ES']]
     .map(([k, hl, label, short]) => `<a href="${langLinks[k] || UI[k].home}" hreflang="${hl}" lang="${hl}" aria-label="${label}"${k === lang ? ' aria-current="page"' : ''}>${short}</a>`).join('')
   return `<a class="skip-link" href="#conteudo">${L.skip}</a>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -212,22 +217,23 @@ function header(L, lang, langLinks) {
       <a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43"></a>
       <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span class="menu-lines" aria-hidden="true"></span><span>Menu</span></button>
       <nav id="site-nav" class="site-nav" aria-label="${L.mainNav}">
-        ${L.nav.map(([h, t]) => `<a href="${L.home}${h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
+        ${L.nav.map(([h, t]) => `<a href="${h.startsWith('/') ? h : L.home + h}">${t}</a>`).join('')}<a href="${L.base}" aria-current="page">${L.articlesTab}</a>
       </nav>
       <div class="header-tools"><div class="header-pill"><a class="header-contact" href="${L.home}${L.contactAnchor}">${L.contact}</a><a class="header-instagram" href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener noreferrer" aria-label="${L.instagramAria}"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a><span class="pill-divider" aria-hidden="true"></span><nav class="lang-switch" aria-label="${L.langNav}"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>${switcher}</nav></div></div>
-      <a class="header-cta" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener" aria-label="${L.ctaAria}">${googlePlayBadge}</a>
+      <a class="header-cta" href="${esc(L.playUrl || 'https://play.google.com/store/apps/details?id=pt.falaplus.app')}" target="_blank" rel="noopener" aria-label="${L.ctaAria}">${googlePlayBadge}</a>
     </div>
   </header>`
 }
 
-const footer = L => `<footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>${L.footerTagline}</p><nav aria-label="${L.footerNav}"><a href="${L.base}">${L.articlesTab}</a><a href="${L.privacy[0]}">${L.privacy[1]}</a><a href="${L.home}${L.contactAnchor}">${L.contact}</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="${L.instagramAria}">Instagram</a>${L.otherLangs.map(([h, hl, t]) => `<a href="${h}" hreflang="${hl}" lang="${hl}">${t}</a>`).join('')}</nav></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> ${L.brand}</span><span>${L.footerBottom}</span><a href="#conteudo">${L.backTop}</a></div></footer>`
+const discoveryFor = L => discoveryPaths(L.hreflang === 'en' ? 'en' : L.hreflang === 'es' ? 'es' : 'pt')
+const footer = L => `<footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="${L.home}" aria-label="${L.brand} — ${L.homeLabel}">${L.brandWord}<img src="/assets/img/fala-plus-logo.png" alt="+" width="43" height="43" loading="lazy"></a><p>${L.footerTagline}</p><nav aria-label="${L.footerNav}"><a href="${L.base}">${L.articlesTab}</a><a href="${discoveryFor(L).games}">${discoveryFor(L).gamesLabel}</a><a href="${discoveryFor(L).hub}">${discoveryFor(L).label}</a><a href="${L.privacy[0]}">${L.privacy[1]}</a><a href="${L.home}${L.contactAnchor}">${L.contact}</a><a href="https://www.instagram.com/falamais.app/" target="_blank" rel="noopener me" aria-label="${L.instagramAria}">Instagram</a>${L.otherLangs.map(([h, hl, t]) => `<a href="${h}" hreflang="${hl}" lang="${hl}">${t}</a>`).join('')}</nav></div><div class="wrap footer-bottom"><span>© <span data-year>2026</span> ${L.brand}</span><span>${L.footerBottom}</span><a href="#conteudo">${L.backTop}</a></div></footer>`
 
 const cta = L => `<section class="access-section"><div class="wrap access-panel article-cta">
       <div>
         <p class="availability availability-light"><span aria-hidden="true"></span>${L.ctaBadge}</p>
         <h2>${L.ctaTitle}</h2>
         <p>${L.ctaText}</p>
-        <a class="button button-yellow" href="https://play.google.com/store/apps/details?id=pt.falaplus.app" target="_blank" rel="noopener">${L.ctaButton} ${arrow}</a>
+        <a class="button button-yellow" href="${esc(L.playUrl || 'https://play.google.com/store/apps/details?id=pt.falaplus.app')}" target="_blank" rel="noopener">${L.ctaButton} ${arrow}</a>
       </div>
       <a class="article-cta-icon-link" href="#conteudo" aria-label="${L.brand} — ${L.backTop}"><img src="/assets/img/app-icon.png" alt="${L.iconAlt}" width="150" height="150" loading="lazy"></a>
     </div></section>`
@@ -329,6 +335,7 @@ function buildArticle(lang, a) {
 ${nextIds.length ? `
         <section class="continue-reading" aria-labelledby="continuar"><h2 id="continuar">${NAV[lang].continueTitle}</h2><div class="article-cards">${nextIds.map(id => articleCard(lang, entry(id))).join('')}</div><a class="text-link topic-all" href="${topicPath(lang, e.theme)}">${NAV[lang].allIn(themeName)} ${arrow}</a></section>
 ` : ''}
+${gameDiscovery(lang,e)}
         <p class="article-updated">${L.published(longDate(L, a.date), longDate(L, a.updated || a.date))}</p>
       </article>
 
@@ -361,7 +368,7 @@ function buildIndex(lang) {
   const card = e => articleCard(lang, e, { keywords: articleContent.get(lang + ':' + e.id)?.keywords || [] })
   const popularItems = CATALOG.filter(e => e[lang]?.live).map(e => ({ id: e.id, title: e[lang].title, teaser: e[lang].teaser, path: pathOf(lang, e.id), bg: THEMES[e.theme].bg, ink: THEMES[e.theme].ink, kind: e.kind?.[lang] || L.guide }))
   const popularData = JSON.stringify(popularItems).replace(/</g, '\\u003c')
-  const sections = Object.entries(THEMES).map(([key, t]) => `      <section class="topic-block" id="${slugify(t[lang].name)}" data-topic-block><h2><a href="${topicPath(lang, key)}">${t[lang].name}</a></h2><p>${t[lang].intro} <a class="topic-more" href="${topicPath(lang, key)}">${NAV[lang].count(liveIn(lang, key).length)} ${arrow}</a></p><div class="article-cards">${CATALOG.filter(e => e.theme === key && e[lang]).map(card).join('')}</div></section>`).join('\n')
+  const sections = Object.entries(THEMES).filter(([key]) => lang !== 'br' || liveIn(lang, key).length).map(([key, t]) => `      <section class="topic-block" id="${slugify(t[lang].name)}" data-topic-block><h2><a href="${topicPath(lang, key)}">${t[lang].name}</a></h2><p>${t[lang].intro} <a class="topic-more" href="${topicPath(lang, key)}">${NAV[lang].count(liveIn(lang, key).length)} ${arrow}</a></p><div class="article-cards">${CATALOG.filter(e => e.theme === key && e[lang]).map(card).join('')}</div></section>`).join('\n')
   const url = SITE + L.base
   const jsonld = {
     '@context': 'https://schema.org',
@@ -430,9 +437,9 @@ function buildTopic(lang, key) {
       { '@type': 'ItemList', itemListElement: items.filter(e => e[lang].live).map((e, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + pathOf(lang, e.id), name: e[lang].title })) },
     ],
   }
-  const alternates = LANGS.map(k => [UI[k].hreflang, topicPath(k, key)])
-  const langLinks = Object.fromEntries(LANGS.map(k => [k, topicPath(k, key)]))
-  const title = `${t[lang].name} · ${L.articlesTab} · ${L.brand}`
+  const alternates = LANGS.filter(k => liveIn(k, key).length).map(k => [UI[k].hreflang, topicPath(k, key)])
+  const langLinks = Object.fromEntries(LANGS.filter(k => liveIn(k, key).length).map(k => [k, topicPath(k, key)]))
+  const title = `${t[lang].name}${lang === 'br' ? ' (Brasil)' : ''} · ${L.articlesTab} · ${L.brand}`
   const html = `${head(L, { title, description: t[lang].intro, canonical: url, ogType: 'website', ogTitle: t[lang].name, ogDescription: t[lang].intro, jsonld, alternates })}
 <body>
   ${header(L, lang, langLinks)}
@@ -516,12 +523,15 @@ function buildTips() {
   return path
 }
 
+const brOnly = process.argv.includes('--br-only')
+const buildLanguages = brOnly ? ['br'] : LANGS
 const built = []
 const articleContent = new Map()
-for (const lang of LANGS) {
+for (const lang of buildLanguages) {
   const dir = join(HERE, 'conteudo', lang)
   if (!existsSync(dir)) continue
   for (const item of REPORT_GUIDE_ARTICLES) {
+    if (lang === 'br') continue
     const a = getReportGuideArticle(item.id, lang)
     articleContent.set(lang + ':' + a.id, a)
     if (!isLive(lang, a.id)) continue
@@ -530,6 +540,7 @@ for (const lang of LANGS) {
     console.log(`${r.path} (${r.minutes} min)`)
   }
   for (const item of SEARCH_DEMAND_ARTICLES) {
+    if (lang === 'br') continue
     const a = getSearchDemandArticle(item.id, lang)
     articleContent.set(lang + ':' + a.id, a)
     if (!isLive(lang, a.id)) continue
@@ -538,6 +549,7 @@ for (const lang of LANGS) {
     console.log(`${r.path} (${r.minutes} min)`)
   }
   for (const item of NEW_SPEECH_ARTICLES) {
+    if (lang === 'br') continue
     const a = getNewSpeechArticle(item.id, lang)
     if (!a) continue
     articleContent.set(lang + ':' + a.id, a)
@@ -547,6 +559,7 @@ for (const lang of LANGS) {
     console.log(`${r.path} (${r.minutes} min)`)
   }
   for (const item of APP_INFO_ARTICLES) {
+    if (lang === 'br') continue
     const a = getAppInfoArticle(item.id, lang)
     articleContent.set(lang + ':' + a.id, a)
     if (!isLive(lang, a.id)) continue
@@ -567,12 +580,12 @@ for (const lang of LANGS) {
   built.push(SITE + UI[lang].base)
   for (const key of Object.keys(THEMES)) if (liveIn(lang, key).length) built.push(SITE + buildTopic(lang, key))
 }
-built.push(SITE + buildTips())
+if (!brOnly) built.push(SITE + buildTips())
 // Keep each localized homepage banner linked to the newest published Portuguese article.
 const newest = CATALOG.map((e, order) => ({ e, order, article: articleContent.get('pt:' + e.id) }))
   .filter(x => x.article && x.e.pt?.live)
   .sort((a, b) => b.article.date.localeCompare(a.article.date) || b.order - a.order)[0]
-if (newest) for (const lang of LANGS) {
+if (!brOnly && newest) for (const lang of LANGS.filter(k => k !== 'br')) {
   if (!articleContent.has(lang + ':' + newest.e.id)) continue
   const p = lang === 'pt' ? 'index.html' : lang + '/index.html'
   let html = readFileSync(join(ROOT, p), 'utf8')
@@ -584,13 +597,18 @@ if (newest) for (const lang of LANGS) {
 }
 
 // Every live catalog entry must have been built.
-for (const lang of LANGS) for (const e of CATALOG) if (e[lang]?.live && !built.includes(SITE + pathOf(lang, e.id))) throw new Error(`missing content file: ${lang}/${e[lang].slug}`)
-writeFileSync(join(HERE, 'urls.txt'), built.join('\n') + '\n')
+for (const lang of buildLanguages) for (const e of CATALOG) if (e[lang]?.live && !built.includes(SITE + pathOf(lang, e.id))) throw new Error(`missing content file: ${lang}/${e[lang].slug}`)
+buildBrazilianPages(ROOT)
+built.push(SITE + '/br/', SITE + '/br/app/')
+connectBrazilianAlternates(ROOT, CATALOG, UI, BR_CATALOG, [...new Set(BR_CATALOG.map(b => entry(b.id).theme))].map(key => Object.fromEntries(LANGS.map(k => [k, topicPath(k, key)]))))
+const urlsFile = join(HERE, 'urls.txt')
+const previousUrls = brOnly && existsSync(urlsFile) ? readFileSync(urlsFile, 'utf8').trim().split(/\r?\n/).filter(u => !u.startsWith(SITE + '/br/')) : []
+writeFileSync(urlsFile, [...new Set([...previousUrls, ...built])].join('\n') + '\n')
 
 // sitemap.xml: replace every article URL with the ones just built, before the privacy pages.
 const sitemapPath = join(ROOT, 'sitemap.xml')
 const today = new Date().toISOString().slice(0, 10)
-const isArticleUrl = line => line.includes(`<loc>${SITE}/dicas/`) || LANGS.some(k => line.includes(`<loc>${SITE}${UI[k].base}`))
+const isArticleUrl = line => line.includes(`<loc>${SITE}/br/`) || (!brOnly && (line.includes(`<loc>${SITE}/dicas/`) || LANGS.some(k => line.includes(`<loc>${SITE}${UI[k].base}`))))
 const kept = readFileSync(sitemapPath, 'utf8').split(/\r?\n/).filter(line => !isArticleUrl(line))
 const at = kept.findIndex(line => line.includes('privacy-policy'))
 kept.splice(at, 0, ...built.map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`))
@@ -624,6 +642,7 @@ function attachSiteAnimalMascots() {
     if (match && mascotCounts.has(match[1])) mascotCounts.set(match[1], mascotCounts.get(match[1]) + 1)
   }
   pageFiles.forEach(({ file, routeFile }) => {
+    if (brOnly && !routeFile.startsWith('br/')) return
     const route = routeOf(routeFile)
     let html = readFileSync(file, 'utf8')
     if (!html.includes('href="/assets/css/site-mascots.css"')) html = html.replace('</head>', '  <link rel="stylesheet" href="/assets/css/site-mascots.css">\n</head>')
@@ -656,3 +675,6 @@ function attachSiteAnimalMascots() {
 
 attachSiteAnimalMascots()
 console.log(`${built.length} páginas · lista em _fonte/artigos/urls.txt`)
+
+// Apply the shared site header after generating pages.
+await import('../../scripts/unify-headers.mjs');

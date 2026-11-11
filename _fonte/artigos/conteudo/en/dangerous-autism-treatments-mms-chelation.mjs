@@ -1,0 +1,82 @@
+export default {
+  id: 'tratamentos-perigosos-autismo-mms-quelacao',
+  slug: 'dangerous-autism-treatments-mms-chelation',
+  short: 'Dangerous autism treatments',
+  date: '2026-11-05',
+  titleTag: 'MMS, chelation and dangerous autism «cures» · Talk+',
+  description: 'Does MMS (chlorine dioxide) cure autism? The documented risks of MMS, chelation, hyperbaric oxygen and secretin, and how to spot misleading promises.',
+  keywords: ['MMS autism', 'chlorine dioxide autism', 'chelation autism', 'autism cure', 'hyperbaric oxygen autism', 'alternative autism treatments'],
+  h1: 'MMS, chelation and other <span class="word-highlight">dangerous</span> autism «treatments»',
+  lead: 'Some products and therapies are sold as a «cure» for autism or a way to «unlock» speech. Some have no proven benefit and several have caused serious harm and deaths.',
+  blocks: [
+    { intro: 'This article summarises the documented risks of some <strong>alternative autism treatments</strong>: <strong>MMS (chlorine dioxide)</strong>, <strong>chelation</strong>, hyperbaric oxygen and secretin, and gives criteria to spot misleading promises.' },
+    { summary: [
+      'Autism has no «cure» because it is not a poisoning or an infection.',
+      'MMS is chlorine dioxide, a bleaching agent; the FDA warns that drinking it can cause severe vomiting, dehydration and acute liver failure.',
+      'Chelation to «remove metals» has caused deaths of children in the United States.',
+      'Secretin and hyperbaric oxygen have no proven benefit in autism.',
+    ] },
+    { h2: 'Does MMS (chlorine dioxide) cure autism?', id: 'mms', toc: 'MMS' },
+    { p: 'No. «MMS» or «CDS» is <strong>chlorine dioxide</strong>, a product used for bleaching and disinfecting. It is promoted as a drink or enema for autistic children. The US Food and Drug Administration has warned since 2010, with a renewed alert in 2019, not to drink it, describing severe vomiting, severe diarrhoea, life-threatening dehydration and acute liver failure. What is presented as «expelled parasites» is often damaged gut lining. Health authorities in other countries have issued similar warnings.' },
+    { h2: 'Does chelation help autism?', id: 'chelation', toc: 'Chelation' },
+    { p: '<strong>Chelation</strong> uses medicines that bind heavy metals to treat real poisoning, such as lead poisoning confirmed by blood tests. The idea that autism is caused by metals has no scientific support. In the United States, between 2003 and 2005, deaths from low blood calcium were reported after chelation, including a 5-year-old autistic child (Brown et al., 2006).' },
+    { h2: 'What about hyperbaric oxygen and secretin?', id: 'others', toc: 'Others' },
+    { ul: [
+      '<strong>Hyperbaric oxygen:</strong> the FDA warns that it is not cleared or proven for autism and may lead families to delay effective support; it also warns of risks, including fire.',
+      '<strong>Secretin:</strong> the Cochrane review of randomised trials found no benefit for communication or behaviour (Williams et al., 2012).',
+    ] },
+    { h2: 'How can you spot a misleading promise?', id: 'spot', toc: 'Spotting promises' },
+    { ul: [
+      'It promises to «cure» or «recover» autism or to «unlock» speech.',
+      'It works «for everything» and has no side effects.',
+      'It relies on testimonials and videos, not published trials.',
+      'It asks you to hide the treatment from the doctor or stop other support.',
+      'It requires buying products from the promoter.',
+    ] },
+    { alert: {
+      title: 'Seek urgent medical help if the child was given one of these products and has:',
+      items: [
+        'severe vomiting or diarrhoea, blood in the stool or signs of dehydration;',
+        'unusual drowsiness, seizures or difficulty breathing.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'What we know',
+      noTitle: 'Myths',
+      yes: [
+        'MMS, and chelation without proven poisoning, have serious documented risks.',
+        'Secretin and hyperbaric oxygen have shown no benefit in autism.',
+        'Support for communication and participation is evidence-based.',
+      ],
+      no: [
+        '«Autism is a poisoning that can be cleaned out.»',
+        '«If it is natural or alternative, it cannot hurt.»',
+        '«Worsening symptoms show it is working.»',
+      ],
+    } },
+    { p: 'See also [[dieta-sem-gluten-autismo|Does a gluten-free diet treat autism?]] and [[canabidiol-cbd-autismo|Cannabidiol (CBD) for autism]].' },
+    { bridge: {
+      title: 'What has evidence: communicating and taking part',
+      intro: 'The article contrasts baseless promises with communication support. In the app:',
+      items: [
+        ['Giving the child a way to communicate now, with or without speech.', 'Communicate joins picture and voice cards into a sentence.'],
+        ['Play without pressure.', 'Play mode has no points and no right answers.'],
+      ],
+      outro: 'Talk+ does not cure or treat autism and does not replace the professionals who support the child.',
+    } },
+  ],
+  faqTitle: 'Frequently asked questions about alternative autism treatments',
+  faq: [
+    ['Is there a cure for autism?', 'Autism is not an illness to be cured. There is evidence-based support that improves communication, independence and quality of life.'],
+    ['Is MMS or chlorine dioxide dangerous?', 'Yes. Health authorities warn it can cause severe vomiting, dehydration and liver failure.'],
+    ['Does chelation remove the metals that cause autism?', 'There is no evidence that autism is caused by metals. Chelation has caused deaths.'],
+    ['How do I know whether a treatment has evidence?', 'Ask the doctor, look for published trials and systematic reviews, and be wary of promises of a cure.'],
+  ],
+  sources: [
+    'U.S. Food and Drug Administration. <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products" rel="noopener" target="_blank">Danger: Don’t Drink Miracle Mineral Solution or Similar Products</a>.',
+    'Brown M. J. et al. (2006). Deaths resulting from hypocalcemia after administration of edetate disodium: 2003–2005. <em>Pediatrics</em>, 118(2), e534–e536. <a href="https://doi.org/10.1542/peds.2006-0858" rel="noopener" target="_blank">doi:10.1542/peds.2006-0858</a>',
+    'Williams K. et al. (2012). Intravenous secretin for autism spectrum disorders (ASD). <em>Cochrane Database of Systematic Reviews</em>, CD003495. <a href="https://doi.org/10.1002/14651858.CD003495.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD003495.pub3</a>',
+    'U.S. Food and Drug Administration. <a href="https://www.fda.gov/consumers/consumer-updates/hyperbaric-oxygen-therapy-get-facts" rel="noopener" target="_blank">Hyperbaric Oxygen Therapy: Get the Facts</a>.',
+  ],
+  related: ['dieta-sem-gluten-autismo', 'canabidiol-cbd-autismo', 'medicacao-autismo-risperidona-aripiprazol'],
+}

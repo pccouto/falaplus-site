@@ -52,3 +52,7 @@ if sitemap.exists():
     text=text.replace('</urlset>',''.join(f'  <url><loc>{BASE+u}</loc></url>\n' for u in URLS)+'</urlset>')
     sitemap.write_text(text,encoding='utf-8')
 print(f'Generated {len(URLS)} pages (174 game pages + 3 catalogues).')
+
+# Keep generated navigation consistent with the rest of the site.
+import subprocess
+subprocess.run(["node", str(ROOT / "scripts/unify-headers.mjs")], check=True)

@@ -1,0 +1,75 @@
+export default {
+  slug: 'ferro-anemia-desenvolvimento-infantil',
+  short: 'Falta de ferro na criança',
+  date: '2026-11-05',
+  titleTag: 'Falta de ferro na criança e desenvolvimento · Fala+',
+  description: 'A falta de ferro pode atrasar o desenvolvimento? O que se sabe sobre anemia no bebé, sinais, prevenção e porque o suplemento de ferro só se dá com análises.',
+  keywords: ['falta de ferro na criança', 'anemia infantil', 'ferro e desenvolvimento', 'suplemento de ferro criança', 'anemia ferropénica bebé', 'ferro e atraso na fala'],
+  h1: 'Falta de ferro na criança: anemia, <span class="word-highlight">desenvolvimento</span> e suplementos',
+  lead: 'A carência de ferro é a carência nutricional mais comum no mundo. No bebé e na criança pequena, está associada a atrasos no desenvolvimento. Mas o ferro em excesso é perigoso, por isso o suplemento depende de análises.',
+  blocks: [
+    { intro: 'A <strong>falta de ferro na criança</strong> preocupa com razão: o ferro é necessário para o desenvolvimento do cérebro nos primeiros anos. Aqui explicamos o que os estudos mostram sobre <strong>anemia infantil e desenvolvimento</strong> e como se previne com segurança.' },
+    { summary: [
+      'A anemia por falta de ferro em bebés está associada a pior desenvolvimento cognitivo, motor e socioemocional, e alguns efeitos podem persistir.',
+      'São associações: a pobreza e outros fatores também contam, e o ferro não é um tratamento para o atraso na fala em crianças sem carência.',
+      'A prevenção passa pela alimentação adequada e, em grupos de risco, por suplementos indicados pelo médico.',
+      'O excesso de ferro é tóxico: medicamentos com ferro devem ficar fora do alcance das crianças.',
+    ] },
+    { h2: 'A falta de ferro pode atrasar o desenvolvimento?', id: 'desenvolvimento', toc: 'Ferro e desenvolvimento' },
+    { p: 'Estudos que seguiram bebés com <strong>anemia ferropénica</strong> mostraram resultados mais baixos em testes cognitivos, motores e de comportamento, e alguns acompanharam estas crianças durante anos (Lozoff et al., 2006). A Academia Americana de Pediatria considera que a carência de ferro nos primeiros anos pode ter efeitos no neurodesenvolvimento que nem sempre revertem com o tratamento (Baker e Greer, 2010). Por isso a prevenção é importante.' },
+    { p: 'Atenção a duas ideias: estes estudos são sobretudo observacionais (associação não é causa), e dar ferro a uma criança <strong>sem carência</strong> não melhora a fala.' },
+    { h2: 'Que crianças têm mais risco?', id: 'risco', toc: 'Grupos de risco' },
+    { ul: [
+      'Bebés prematuros ou com baixo peso ao nascer.',
+      'Bebés que bebem muito leite de vaca antes de 1 ano ou em grande quantidade depois.',
+      'Crianças com alimentação muito seletiva ou restritiva, frequente em algumas crianças autistas.',
+      'Crianças com perdas de sangue ou doenças que afetam a absorção.',
+    ] },
+    { h2: 'Como se previne?', id: 'prevencao', toc: 'Prevenção' },
+    { p: 'A partir da diversificação alimentar, alimentos ricos em ferro (carne, peixe, ovo, leguminosas, cereais fortificados), com vitamina C na mesma refeição. Em grupos de risco, o médico pode indicar um suplemento numa dose e duração definidas. A decisão sobre rastreio e suplementação segue as normas de saúde de cada país.' },
+    { alert: {
+      title: 'Ferro é perigoso em excesso:',
+      items: [
+        'guarde suplementos e vitaminas com ferro fora do alcance das crianças: a intoxicação acidental por ferro é uma causa conhecida de intoxicação grave em crianças pequenas;',
+        'não dê ferro «por precaução» sem análises;',
+        'se a criança engoliu comprimidos de ferro, contacte de imediato os serviços de emergência ou o centro antivenenos do seu país.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'O que não se pode dizer',
+      yes: [
+        'A carência de ferro no bebé está associada a atrasos do desenvolvimento.',
+        'Prevenir é importante, sobretudo nos grupos de risco.',
+        'O diagnóstico faz-se com análises.',
+      ],
+      no: [
+        '«O ferro põe a criança a falar.»',
+        '«Um suplemento de ferro não faz mal a ninguém.»',
+        '«Uma criança pálida tem de certeza anemia.»',
+      ],
+    } },
+    { p: 'Leia também [[vitaminas-para-atraso-na-fala|Vitaminas para o atraso na fala: funcionam?]].' },
+    { bridge: {
+      title: 'Alimentação e palavras do dia a dia',
+      intro: 'A prevenção passa pela alimentação variada, que também é uma boa ocasião para conversar. Na app:',
+      items: [
+        ['Nomear alimentos e pedir o que quer comer.', 'O Comunicar tem o grupo Comida e Bebida, com cartões de imagem e voz.'],
+      ],
+      outro: 'A Fala+ não substitui a consulta, as análises nem a orientação nutricional.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre ferro e anemia',
+  faq: [
+    ['A anemia pode causar atraso na fala?', 'A anemia por falta de ferro no bebé está associada a atrasos do desenvolvimento, mas raramente é a única explicação para um atraso na fala. Ambos devem ser avaliados.'],
+    ['Posso dar ferro à criança sem receita?', 'Não é recomendado. O excesso de ferro é tóxico e o diagnóstico de carência faz-se com análises.'],
+    ['Quais são os sinais de falta de ferro numa criança?', 'Pode haver palidez, cansaço, irritabilidade ou pouco apetite, mas muitas crianças não têm sinais. Só as análises confirmam.'],
+    ['Que alimentos têm mais ferro?', 'Carne, peixe, ovo, leguminosas e cereais fortificados. A vitamina C na mesma refeição ajuda a absorver o ferro dos vegetais.'],
+  ],
+  sources: [
+    'Baker R. D., Greer F. R., Committee on Nutrition, American Academy of Pediatrics (2010). Diagnosis and prevention of iron deficiency and iron-deficiency anemia in infants and young children (0–3 years of age). <em>Pediatrics</em>, 126(5), 1040–1050. <a href="https://doi.org/10.1542/peds.2010-2576" rel="noopener" target="_blank">doi:10.1542/peds.2010-2576</a>',
+    'Lozoff B. et al. (2006). Long-lasting neural and behavioral effects of iron deficiency in infancy. <em>Nutrition Reviews</em>, 64(5 Pt 2), S34–S43. <a href="https://doi.org/10.1301/nr.2006.may.S34-S43" rel="noopener" target="_blank">doi:10.1301/nr.2006.may.S34-S43</a>',
+    'Organização Mundial da Saúde. <a href="https://www.who.int/news-room/fact-sheets/detail/anaemia" rel="noopener" target="_blank">Anaemia: fact sheet</a>.',
+  ],
+  related: ['vitaminas-para-atraso-na-fala', 'gravidez-acido-folico-iodo-valproato', 'atraso-na-fala'],
+}

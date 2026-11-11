@@ -1,0 +1,81 @@
+export default {
+  slug: 'tratamentos-perigosos-autismo-mms-quelacao',
+  short: 'Tratamentos perigosos para o autismo',
+  date: '2026-11-05',
+  titleTag: 'MMS, quelação e «curas» perigosas do autismo · Fala+',
+  description: 'O MMS (dióxido de cloro) cura o autismo? Os riscos documentados do MMS, da quelação, da câmara hiperbárica e da secretina, e como reconhecer promessas enganosas.',
+  keywords: ['MMS autismo', 'dióxido de cloro autismo', 'quelação autismo', 'cura do autismo', 'câmara hiperbárica autismo', 'tratamentos alternativos autismo'],
+  h1: 'MMS, quelação e outros «tratamentos» <span class="word-highlight">perigosos</span> para o autismo',
+  lead: 'Há produtos e terapias vendidos como «cura» do autismo ou como forma de «desbloquear» a fala. Alguns não têm qualquer benefício demonstrado e vários já causaram lesões graves e mortes.',
+  blocks: [
+    { intro: 'Este artigo resume os riscos documentados de alguns <strong>tratamentos alternativos do autismo</strong>: o <strong>MMS (dióxido de cloro)</strong>, a <strong>quelação</strong>, a câmara hiperbárica e a secretina, e dá critérios para reconhecer promessas enganosas.' },
+    { summary: [
+      'O autismo não tem «cura» porque não é uma intoxicação nem uma infeção.',
+      'O MMS é dióxido de cloro, um agente branqueador; a FDA avisa que bebê-lo pode causar vómitos graves, desidratação e insuficiência hepática.',
+      'A quelação para «tirar metais» já causou mortes de crianças nos Estados Unidos.',
+      'A secretina e a câmara hiperbárica não têm benefício demonstrado no autismo.',
+    ] },
+    { h2: 'O MMS (dióxido de cloro) cura o autismo?', id: 'mms', toc: 'MMS' },
+    { p: 'Não. O «MMS» ou «CDS» é <strong>dióxido de cloro</strong>, um produto usado para branquear e desinfetar. É promovido para beber ou para clisteres em crianças autistas. A FDA (Estados Unidos) avisa desde 2010, com novo alerta em 2019, para não o beber, e descreve vómitos graves, diarreia intensa, desidratação com risco de vida e insuficiência hepática aguda. O que é apresentado como «parasitas expulsos» é, muitas vezes, mucosa intestinal lesionada. Autoridades de saúde de outros países emitiram avisos semelhantes.' },
+    { h2: 'A quelação ajuda no autismo?', id: 'quelacao', toc: 'Quelação' },
+    { p: 'A <strong>quelação</strong> usa medicamentos que se ligam a metais pesados para tratar intoxicações reais, como a de chumbo, confirmadas por análises. A ideia de que o autismo é causado por metais não tem suporte científico. Nos Estados Unidos, entre 2003 e 2005, foram descritas mortes por falta de cálcio no sangue associadas a quelação, incluindo uma criança autista de 5 anos (Brown et al., 2006).' },
+    { h2: 'E a câmara hiperbárica e a secretina?', id: 'outros', toc: 'Outros' },
+    { ul: [
+      '<strong>Oxigénio hiperbárico:</strong> a FDA alerta que não está aprovado nem demonstrado para o autismo e que pode levar famílias a adiar apoios eficazes; alerta também para riscos, como o de incêndio.',
+      '<strong>Secretina:</strong> a revisão Cochrane de ensaios aleatorizados concluiu que não há benefício na comunicação nem no comportamento (Williams et al., 2012).',
+    ] },
+    { h2: 'Como reconhecer uma promessa enganosa?', id: 'reconhecer', toc: 'Reconhecer promessas' },
+    { ul: [
+      'Promete «curar» ou «recuperar» o autismo ou «desbloquear» a fala.',
+      'Funciona «para tudo» e não tem efeitos secundários.',
+      'Baseia-se em testemunhos e vídeos, não em ensaios publicados.',
+      'Pede para esconder o tratamento do médico ou para suspender outros apoios.',
+      'Exige comprar produtos ao próprio promotor.',
+    ] },
+    { alert: {
+      title: 'Procure ajuda médica urgente se a criança fez um destes produtos e tem:',
+      items: [
+        'vómitos ou diarreia intensos, sangue nas fezes ou sinais de desidratação;',
+        'sonolência anormal, convulsões ou dificuldade em respirar.',
+      ],
+    } },
+    { evidence: {
+      yesTitle: 'O que se sabe',
+      noTitle: 'Mitos',
+      yes: [
+        'MMS e quelação sem intoxicação comprovada têm riscos graves documentados.',
+        'A secretina e a câmara hiperbárica não mostraram benefício no autismo.',
+        'O apoio à comunicação e à participação tem base científica.',
+      ],
+      no: [
+        '«O autismo é uma intoxicação que se pode limpar.»',
+        '«Se é natural ou alternativo, não faz mal.»',
+        '«Os sintomas que pioram são sinal de que está a funcionar.»',
+      ],
+    } },
+    { p: 'Veja também [[dieta-sem-gluten-autismo|A dieta sem glúten trata o autismo?]] e [[canabidiol-cbd-autismo|Canabidiol (CBD) no autismo]].' },
+    { bridge: {
+      title: 'O que tem base: comunicar e participar',
+      intro: 'O artigo opõe promessas sem base ao apoio à comunicação. Na app:',
+      items: [
+        ['Dar à criança uma forma de comunicar já, com ou sem fala.', 'O Comunicar junta cartões de imagem e voz numa frase.'],
+        ['Brincar sem pressão.', 'O Brincar não tem pontos nem respostas certas.'],
+      ],
+      outro: 'A Fala+ não cura nem trata o autismo, e não substitui os profissionais que acompanham a criança.',
+    } },
+  ],
+  faqTitle: 'Perguntas frequentes sobre tratamentos alternativos do autismo',
+  faq: [
+    ['O autismo tem cura?', 'O autismo não é uma doença que se cure. Há apoios com evidência que melhoram a comunicação, a autonomia e a qualidade de vida.'],
+    ['O MMS ou dióxido de cloro é perigoso?', 'Sim. As autoridades de saúde avisam que pode causar vómitos graves, desidratação e insuficiência hepática.'],
+    ['A quelação tira os metais que causam o autismo?', 'Não há evidência de que o autismo seja causado por metais. A quelação já causou mortes.'],
+    ['Como sei se um tratamento tem evidência?', 'Pergunte ao médico, procure ensaios publicados e revisões sistemáticas e desconfie de promessas de cura.'],
+  ],
+  sources: [
+    'U.S. Food and Drug Administration. <a href="https://www.fda.gov/consumers/consumer-updates/danger-dont-drink-miracle-mineral-solution-or-similar-products" rel="noopener" target="_blank">Danger: Don’t Drink Miracle Mineral Solution or Similar Products</a>.',
+    'Brown M. J. et al. (2006). Deaths resulting from hypocalcemia after administration of edetate disodium: 2003–2005. <em>Pediatrics</em>, 118(2), e534–e536. <a href="https://doi.org/10.1542/peds.2006-0858" rel="noopener" target="_blank">doi:10.1542/peds.2006-0858</a>',
+    'Williams K. et al. (2012). Intravenous secretin for autism spectrum disorders (ASD). <em>Cochrane Database of Systematic Reviews</em>, CD003495. <a href="https://doi.org/10.1002/14651858.CD003495.pub3" rel="noopener" target="_blank">doi:10.1002/14651858.CD003495.pub3</a>',
+    'U.S. Food and Drug Administration. <a href="https://www.fda.gov/consumers/consumer-updates/hyperbaric-oxygen-therapy-get-facts" rel="noopener" target="_blank">Hyperbaric Oxygen Therapy: Get the Facts</a>.',
+  ],
+  related: ['dieta-sem-gluten-autismo', 'canabidiol-cbd-autismo', 'medicacao-autismo-risperidona-aripiprazol'],
+}
