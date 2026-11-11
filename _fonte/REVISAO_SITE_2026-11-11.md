@@ -72,4 +72,10 @@ Novo cabe?alho comum aplicado por scripts/unify-headers.mjs ?s 1263 p?ginas do s
 
 Verifica??es: 1263 URLs ?nicas e existentes; preservadas todas as 1010 URLs p?blicas anteriores; 63830 refer?ncias internas sem destinos inexistentes; JSON-LD v?lido; 177 documentos dos jogos e 8301 liga??es; 174 v?deos H.264/AAC validados (66,6 MB). Validadores das s?ries de procura, app pr?tica, informa??o da app, relat?rios, pesquisas e consultas/terapias conclu?dos. Validador BR: 26 visitas reais sem erros, com links/?ncoras, idiomas rec?procos, pesquisa, menu e FAQ. Sem depend?ncias novas nem altera??es na app.
 
-Cabeçalho: 51 visitas reais em PT/BR/EN/ES a 360, 768 e 1366 px, com menu móvel, Escape/foco e ausência de overflow horizontal ou erros JavaScript.
+CabeÃ§alho: 51 visitas reais em PT/BR/EN/ES a 360, 768 e 1366 px, com menu mÃ³vel, Escape/foco e ausÃªncia de overflow horizontal ou erros JavaScript.
+
+## Disponibilidade Android e instala??o ? 11-11-2026
+
+Bola de disponibilidade verde, sem pulsa??o; avisos verdes com contraste adequado em fundos claros e escuros. Bot?es Android uniformizados em verde nas homepages, artigos, jogos e hubs; m?nimo de 48 px de altura e foco vis?vel. Selo oficial Google Play preservado com enquadramento verde suave. CSS partilhado em assets/css/install-actions.css, aplicado pelo normalizador ?s 1263 p?ginas em PT/BR/EN/ES e preservado pelos tr?s geradores. Liga??es mantidas para a p?gina oficial da app; a instala??o requer confirma??o no Google Play.
+
+Valida??o: 51 visitas reais no Chromium, menu m?vel/Escape/foco sem erros ou overflow; 177 p?ginas de jogos com 8478 liga??es verificadas; 30 p?ginas de app pr?tica validadas. Sem depend?ncias novas e sem altera??es na app Android.

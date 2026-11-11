@@ -1,0 +1,11 @@
+﻿/* Green identifies Android availability and installation throughout the site. */
+.availability{background:#e7f7ee;border:1px solid #a4d9b9;color:#14532d;box-shadow:none}
+.availability>span,.availability-light>span{flex-shrink:0;width:10px;height:10px;background:#4ade80;box-shadow:0 0 0 5px rgba(74,222,128,.15);animation:none}
+.hero .availability,.contact-intro .availability,.access-panel .availability{background:#153f31;color:#f0fff5;border-color:#4ade80;box-shadow:none}
+a:is(.button,.game-primary,.game-store)[href*="play.google.com/store/apps/details"]{background:#16733d;color:#fff;border-color:#16733d;box-shadow:0 4px 0 #0c4a27;min-height:48px;line-height:1.4;text-align:center}
+a:is(.button,.game-primary,.game-store)[href*="play.google.com/store/apps/details"]:hover{background:#115c31;color:#fff;border-color:#115c31;box-shadow:0 4px 0 #083c20}
+a:is(.button,.game-primary,.game-store)[href*="play.google.com/store/apps/details"]:active{box-shadow:0 1px 0 #083c20}
+a:is(.button,.game-primary,.game-store,.fp-store)[href*="play.google.com/store/apps/details"]:focus-visible{outline:3px solid #15803d;outline-offset:5px}
+.fp-store{background:#e7f7ee;border:1px solid #a4d9b9;border-radius:12px;padding:2px 5px}
+.fp-store:hover{background:#d5f0e0;border-color:#15803d}
+@media(prefers-reduced-motion:reduce){a:is(.button,.game-primary,.game-store)[href*="play.google.com/store/apps/details"]{transition:none;transform:none}}
