@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "tangram",
+    "type": "logic",
+    "number": 42,
+    "locales": {
+      "pt": {
+        "name": "Tangram",
+        "slug": "tangram",
+        "tutorial": "Arrasta as peças para dentro da figura até ela ficar completa. Se uma peça estiver virada, toca nela para a rodar.",
+        "hook": "🧩 Sete peças. Uma forma. Consegues completar?"
+      },
+      "en": {
+        "name": "Tangram",
+        "slug": "tangram",
+        "tutorial": "Drag the pieces into the figure until it is complete. If a piece is turned, tap it to rotate it.",
+        "hook": "Seven pieces. One shape. Can you complete it?"
+      },
+      "es": {
+        "name": "Tangram",
+        "slug": "tangram",
+        "tutorial": "Arrastra las piezas dentro de la figura hasta completarla. Si una pieza está girada, tócala para darle la vuelta.",
+        "hook": "Siete piezas. Una forma. ¿Puedes completarla?"
+      }
+    }
+  },
+  {
+    "id": "arrow_escape",
+    "type": "logic",
+    "number": 43,
+    "locales": {
+      "pt": {
+        "name": "Setas Loucas",
+        "slug": "setas-loucas",
+        "tutorial": "Toca numa seta com o caminho livre: ela sai a deslizar. Tira todas as setas e descobre a imagem escondida!",
+        "hook": "➡️ Setas presas. Uma imagem escondida. Qual sai primeiro?"
+      },
+      "en": {
+        "name": "Crazy Arrows",
+        "slug": "crazy-arrows",
+        "tutorial": "Tap an arrow with a clear way out: it slides away. Clear every arrow to uncover the hidden picture!",
+        "hook": "Stuck arrows. One picture. Which one goes first?"
+      },
+      "es": {
+        "name": "Flechas Locas",
+        "slug": "flechas-locas",
+        "tutorial": "Toca una flecha con el camino libre: se desliza fuera. ¡Quita todas las flechas y descubre la imagen escondida!",
+        "hook": "Flechas atrapadas. Una imagen. ¿Cuál sale primero?"
+      }
+    }
+  },
+  {
+    "id": "bubble_pop",
+    "type": "speed",
+    "number": 44,
+    "locales": {
+      "pt": {
+        "name": "Bolhas de Sabão",
+        "slug": "bolhas-de-sabao",
+        "tutorial": "Ouve o nome e rebenta só a bolha com essa imagem — cuidado com a bomba!",
+        "hook": "Ouve a palavra. Rebenta a bolha. Encontras a certa?"
+      },
+      "en": {
+        "name": "Bubble Pop",
+        "slug": "bubble-pop",
+        "tutorial": "Listen to the name and pop only the bubble with that picture — watch out for the bomb!",
+        "hook": "Hear the word. Pop the bubble. Can you find the right one?"
+      },
+      "es": {
+        "name": "Pompas de Jabón",
+        "slug": "pompas-de-jabon",
+        "tutorial": "Escucha el nombre y explota solo la burbuja con esa imagen, ¡cuidado con la bomba!",
+        "hook": "Escucha la palabra. Explota la pompa. ¿Encuentras la correcta?"
+      }
+    }
+  },
+  {
+    "id": "memory_match",
+    "type": "memory",
+    "number": 45,
+    "locales": {
+      "pt": {
+        "name": "Jogo da Memória",
+        "slug": "jogo-da-memoria",
+        "tutorial": "Vira duas cartas de cada vez e tenta lembrar-te onde está o par igual!",
+        "hook": "Vira duas cartas. Encontra o par. Lembras-te onde estava?"
+      },
+      "en": {
+        "name": "Memory Match",
+        "slug": "memory-match",
+        "tutorial": "Flip two cards at a time and try to remember where the matching pair is!",
+        "hook": "Flip two cards. Find the pair. Remember where it was?"
+      },
+      "es": {
+        "name": "Juego de Memoria",
+        "slug": "juego-de-memoria",
+        "tutorial": "¡Da la vuelta a dos cartas cada vez e intenta recordar dónde está la pareja igual!",
+        "hook": "Gira dos cartas. Encuentra la pareja. ¿Recuerdas dónde estaba?"
+      }
+    }
+  },
+  {
+    "id": "icon_ninja",
+    "type": "speed",
+    "number": 46,
+    "locales": {
+      "pt": {
+        "name": "Icon Ninja",
+        "slug": "icon-ninja",
+        "tutorial": "Corta as imagens da categoria e nunca cortes as bombas!",
+        "hook": "Corta os ícones. Evita as bombas. És mais rápido?"
+      },
+      "en": {
+        "name": "Icon Ninja",
+        "slug": "icon-ninja",
+        "tutorial": "Slice the pictures from the category and never slice the bombs!",
+        "hook": "Slice the icons. Avoid the bombs. Are you fast enough?"
+      },
+      "es": {
+        "name": "Icon Ninja",
+        "slug": "icon-ninja",
+        "tutorial": "¡Corta las imágenes de la categoría y nunca cortes las bombas!",
+        "hook": "Corta los iconos. Evita las bombas. ¿Eres más rápido?"
+      }
+    }
+  },
+  {
+    "id": "icon_crush",
+    "type": "logic",
+    "number": 47,
+    "locales": {
+      "pt": {
+        "name": "Doce de Ícones",
+        "slug": "doce-de-icones",
+        "tutorial": "Vê as imagens pedidas lá em cima e troca peças para juntar três iguais!",
+        "hook": "Três iguais. Uma explosão. Qual é a melhor jogada?"
+      },
+      "en": {
+        "name": "Icon Crush",
+        "slug": "icon-crush",
+        "tutorial": "Check the pictures needed at the top and swap tiles to line up three of the same!",
+        "hook": "Three in a row. One explosion. What's the best move?"
+      },
+      "es": {
+        "name": "Dulce de Iconos",
+        "slug": "dulce-de-iconos",
+        "tutorial": "¡Mira las imágenes que se piden arriba y cambia piezas para juntar tres iguales!",
+        "hook": "Tres iguales. Una explosión. ¿Cuál es la mejor jugada?"
+      }
+    }
+  },
+  {
+    "id": "repeat_with_me",
+    "type": "language",
+    "number": 48,
+    "locales": {
+      "pt": {
+        "name": "Construir Palavras",
+        "slug": "construir-palavras",
+        "tutorial": "Ouve a palavra. Toca numa sílaba para a ouvir e toca outra vez para a pôr no comboio, pela ordem certa!",
+        "hook": "Sílaba a sílaba. Uma palavra. Consegues formá-la?"
+      },
+      "en": {
+        "name": "Build Words",
+        "slug": "build-words",
+        "tutorial": "Listen to the word. Tap a piece to hear it and tap it again to put it on the train, in the right order!",
+        "hook": "Letter by letter. One word. Can you build it?"
+      },
+      "es": {
+        "name": "Construir Palabras",
+        "slug": "construir-palabras",
+        "tutorial": "Escucha la palabra. Toca una sílaba para oírla y vuelve a tocarla para ponerla en el tren, ¡en el orden correcto!",
+        "hook": "Sílaba a sílaba. Una palabra. ¿Puedes formarla?"
+      }
+    }
+  },
+  {
+    "id": "hanoi_tower",
+    "type": "logic",
+    "number": 49,
+    "locales": {
+      "pt": {
+        "name": "Torre de Hanói",
+        "slug": "torre-de-hanoi",
+        "tutorial": "Toca numa base para escolher o disco de cima. Depois toca noutra base. Os discos maiores ficam por baixo.",
+        "hook": "Quatro discos. Uma estrela. Consegues levar a torre?"
+      },
+      "en": {
+        "name": "Tower of Hanoi",
+        "slug": "tower-of-hanoi",
+        "tutorial": "Tap a base to choose its top disk. Then tap another base. Larger disks stay underneath.",
+        "hook": "Four discs. One star. Can you move the tower?"
+      },
+      "es": {
+        "name": "Torre de Hanói",
+        "slug": "torre-de-hanoi",
+        "tutorial": "Toca una base para elegir el disco de arriba. Después toca otra base. Los discos más grandes van debajo.",
+        "hook": "Cuatro discos. Una estrella. ¿Puedes llevar la torre?"
+      }
+    }
+  },
+  {
+    "id": "pipe_icons",
+    "type": "logic",
+    "number": 50,
+    "locales": {
+      "pt": {
+        "name": "Pipe Icons",
+        "slug": "pipe-icons",
+        "tutorial": "A bola parte da torneira verde. Roda os tubos para a levar até ao fim. Ela arranca sozinha quando o caminho estiver pronto!",
+        "hook": "Tubos soltos. Um caminho. Consegues ligá-los?"
+      },
+      "en": {
+        "name": "Pipe Icons",
+        "slug": "pipe-icons",
+        "tutorial": "The bubble starts at the green tap. Rotate the pipes to reach the finish. It sets off by itself once the path is ready!",
+        "hook": "Loose pipes. One path. Can you connect them?"
+      },
+      "es": {
+        "name": "Pipe Icons",
+        "slug": "pipe-icons",
+        "tutorial": "La bola sale del grifo verde. Gira los tubos para llevarla hasta el final. ¡Arranca sola cuando el camino esté listo!",
+        "hook": "Tubos sueltos. Un camino. ¿Puedes unirlos?"
+      }
+    }
+  },
+  {
+    "id": "pattern_hunt",
+    "type": "memory",
+    "number": 51,
+    "locales": {
+      "pt": {
+        "name": "Encontra o Padrão",
+        "slug": "encontra-o-padrao",
+        "tutorial": "Olha para o cartão do meio. Procura essas imagens, pela mesma ordem, e passa o dedo por cima delas para as rodear!",
+        "hook": "Tudo parecido. Um padrão. Descobres qual é?"
+      },
+      "en": {
+        "name": "Find the Pattern",
+        "slug": "find-the-pattern",
+        "tutorial": "Look at the card in the middle. Find those pictures, in the same order, and slide your finger over them to circle them!",
+        "hook": "All look alike. One pattern. Can you spot it?"
+      },
+      "es": {
+        "name": "Encuentra el Patrón",
+        "slug": "encuentra-el-patron",
+        "tutorial": "Mira la tarjeta del medio. Busca esas imágenes, en el mismo orden, ¡y pasa el dedo por encima para rodearlas!",
+        "hook": "Todo parecido. Un patrón. ¿Descubres cuál es?"
+      }
+    }
+  },
+  {
+    "id": "crocodile_whack",
+    "type": "speed",
+    "number": 52,
+    "locales": {
+      "pt": {
+        "name": "Martela o Crocodilo",
+        "slug": "martela-o-crocodilo",
+        "tutorial": "Vê a imagem lá em cima e bate só no crocodilo que mostra essa imagem!",
+        "hook": "Aparece… e desaparece! És mais rápido?"
+      },
+      "en": {
+        "name": "Crocodile Whack",
+        "slug": "crocodile-whack",
+        "tutorial": "Check the picture at the top and whack only the crocodile showing that picture!",
+        "hook": "It pops up… and disappears! Are you faster?"
+      },
+      "es": {
+        "name": "Martillea al Cocodrilo",
+        "slug": "martillea-al-cocodrilo",
+        "tutorial": "¡Mira la imagen de arriba y golpea solo el cocodrilo que muestra esa imagen!",
+        "hook": "Aparece… ¡y desaparece! ¿Eres más rápido?"
+      }
+    }
+  },
+  {
+    "id": "sentence_builder",
+    "type": "language",
+    "number": 53,
+    "locales": {
+      "pt": {
+        "name": "Construir Frases",
+        "slug": "construir-frases",
+        "tutorial": "Ouve a frase toda e toca nas palavras pela ordem certa para a formares!",
+        "hook": "Palavra a palavra. Uma frase. Qual vem a seguir?"
+      },
+      "en": {
+        "name": "Build Sentences",
+        "slug": "build-sentences",
+        "tutorial": "Listen to the whole sentence, then tap the words in the right order to build it!",
+        "hook": "Word by word. One sentence. What comes next?"
+      },
+      "es": {
+        "name": "Construir Frases",
+        "slug": "construir-frases",
+        "tutorial": "¡Escucha la frase entera y toca las palabras en el orden correcto para formarla!",
+        "hook": "Palabra a palabra. Una frase. ¿Qué viene después?"
+      }
+    }
+  },
+  {
+    "id": "ring_release",
+    "type": "logic",
+    "number": 54,
+    "locales": {
+      "pt": {
+        "name": "Anéis",
+        "slug": "aneis",
+        "tutorial": "Toca ou arrasta à volta de um anel para o rodar. Quando a abertura passa por uma presilha, ela solta-se. Se um anel não roda, solta primeiro a presilha do vizinho!",
+        "hook": "Anéis presos. Uma saída. Qual soltas primeiro?"
+      },
+      "en": {
+        "name": "Rings",
+        "slug": "rings",
+        "tutorial": "Tap or drag around a ring to turn it. When the gap passes a clip, the clip slips off. If a ring will not turn, free its neighbour's clip first!",
+        "hook": "Tangled rings. One way out. Which one goes first?"
+      },
+      "es": {
+        "name": "Anillos",
+        "slug": "anillos",
+        "tutorial": "Toca o arrastra alrededor de un anillo para girarlo. Cuando la abertura pasa por una pinza, se suelta. Si un anillo no gira, ¡suelta primero la pinza del vecino!",
+        "hook": "Anillos atrapados. Una salida. ¿Cuál sueltas primero?"
+      }
+    }
+  },
+  {
+    "id": "icon_hockey",
+    "type": "aim",
+    "number": 55,
+    "locales": {
+      "pt": {
+        "name": "Icon Hoquei",
+        "slug": "icon-hoquei",
+        "tutorial": "Arrasta a tua raquete, em baixo, para bateres no disco e o mandares para a baliza lá em cima!",
+        "hook": "Um disco. Uma baliza. Marcas golo?"
+      },
+      "en": {
+        "name": "Icon Hockey",
+        "slug": "icon-hockey",
+        "tutorial": "Drag your paddle at the bottom to hit the puck and send it into the goal at the top!",
+        "hook": "One puck. One goal. Can you score?"
+      },
+      "es": {
+        "name": "Icon Hockey",
+        "slug": "icon-hockey",
+        "tutorial": "¡Arrastra tu raqueta, abajo, para golpear el disco y mandarlo a la portería de arriba!",
+        "hook": "Un disco. Una portería. ¿Marcas gol?"
+      }
+    }
+  },
+  {
+    "id": "whats_missing",
+    "type": "memory",
+    "number": 56,
+    "locales": {
+      "pt": {
+        "name": "O que falta?",
+        "slug": "o-que-falta",
+        "tutorial": "Olha bem para todas as imagens e depois toca na que desapareceu!",
+        "hook": "Olha bem. Algo mudou. O que falta?"
+      },
+      "en": {
+        "name": "What's Missing?",
+        "slug": "what-s-missing",
+        "tutorial": "Look closely at all the pictures, then tap the one that disappeared!",
+        "hook": "Look closely. Something changed. What's missing?"
+      },
+      "es": {
+        "name": "¿Qué falta?",
+        "slug": "que-falta",
+        "tutorial": "¡Mira bien todas las imágenes y después toca la que ha desaparecido!",
+        "hook": "Mira bien. Algo cambió. ¿Qué falta?"
+      }
+    }
+  },
+  {
+    "id": "word_search",
+    "type": "language",
+    "number": 57,
+    "locales": {
+      "pt": {
+        "name": "Sopa de Letras",
+        "slug": "sopa-de-letras",
+        "tutorial": "Procura uma palavra da lista e arrasta o dedo por cima das letras dela!",
+        "hook": "Muitas letras. Uma palavra. Encontras onde está?"
+      },
+      "en": {
+        "name": "Word Search",
+        "slug": "word-search",
+        "tutorial": "Find a word from the list and drag your finger across its letters!",
+        "hook": "Lots of letters. One word. Can you find it?"
+      },
+      "es": {
+        "name": "Sopa de Letras",
+        "slug": "sopa-de-letras",
+        "tutorial": "¡Busca una palabra de la lista y arrastra el dedo por encima de sus letras!",
+        "hook": "Muchas letras. Una palabra. ¿Encuentras dónde está?"
+      }
+    }
+  },
+  {
+    "id": "maze_game",
+    "type": "logic",
+    "number": 58,
+    "locales": {
+      "pt": {
+        "name": "Labirinto",
+        "slug": "labirinto",
+        "tutorial": "Ouve o nome e arrasta o dedo pelo labirinto até à porta com a imagem, sem bater nas paredes.",
+        "hook": "Muitos caminhos. Uma saída. Encontras a certa?"
+      },
+      "en": {
+        "name": "Maze",
+        "slug": "maze",
+        "tutorial": "Listen to the name and drag your finger through the maze to the door with the picture, without hitting the walls.",
+        "hook": "Many paths. One way out. Can you find it?"
+      },
+      "es": {
+        "name": "Laberinto",
+        "slug": "laberinto",
+        "tutorial": "Escucha el nombre y arrastra el dedo por el laberinto hasta la puerta con la imagen, sin chocar con las paredes.",
+        "hook": "Muchos caminos. Una salida. ¿Encuentras la correcta?"
+      }
+    }
+  },
+  {
+    "id": "light_sequence",
+    "type": "memory",
+    "number": 59,
+    "locales": {
+      "pt": {
+        "name": "Segue as Luzes",
+        "slug": "segue-as-luzes",
+        "tutorial": "Vê e ouve a ordem das luzes, depois toca nelas pela mesma ordem!",
+        "hook": "Vê as luzes. Repete a ordem. Lembras-te de todas?"
+      },
+      "en": {
+        "name": "Follow the Lights",
+        "slug": "follow-the-lights",
+        "tutorial": "Watch and listen to the order of the lights, then tap them in that same order!",
+        "hook": "Watch the lights. Repeat the order. Remember them all?"
+      },
+      "es": {
+        "name": "Sigue las Luces",
+        "slug": "sigue-las-luces",
+        "tutorial": "¡Mira y escucha el orden de las luces, y después tócalas en el mismo orden!",
+        "hook": "Mira las luces. Repite el orden. ¿Las recuerdas todas?"
+      }
+    }
+  },
+  {
+    "id": "sliding_puzzle",
+    "type": "logic",
+    "number": 60,
+    "locales": {
+      "pt": {
+        "name": "Puzzle Deslizante",
+        "slug": "puzzle-deslizante",
+        "tutorial": "Olha para a imagem pequena e desliza as peças até ficarem iguais a ela!",
+        "hook": "Peças trocadas. Uma imagem. Consegues arrumar?"
+      },
+      "en": {
+        "name": "Sliding Puzzle",
+        "slug": "sliding-puzzle",
+        "tutorial": "Look at the small picture and slide the tiles until they match it!",
+        "hook": "Mixed-up pieces. One picture. Can you fix it?"
+      },
+      "es": {
+        "name": "Puzle Deslizante",
+        "slug": "puzle-deslizante",
+        "tutorial": "¡Mira la imagen pequeña y desliza las piezas hasta que queden iguales!",
+        "hook": "Piezas cambiadas. Una imagen. ¿Puedes ordenarla?"
+      }
+    }
+  },
+  {
+    "id": "mini_story",
+    "type": "language",
+    "number": 61,
+    "locales": {
+      "pt": {
+        "name": "Contar uma História",
+        "slug": "contar-uma-historia",
+        "tutorial": "Ouve a história. Depois, toca nas páginas pela ordem certa para arrumar o livro!",
+        "hook": "Uma página. Uma aventura. O que acontece a seguir?"
+      },
+      "en": {
+        "name": "Tell a Story",
+        "slug": "tell-a-story",
+        "tutorial": "Listen to the story. Then tap the pages in the right order to put the book back together!",
+        "hook": "One page. One adventure. What happens next?"
+      },
+      "es": {
+        "name": "Contar una Historia",
+        "slug": "contar-una-historia",
+        "tutorial": "Escucha la historia. Después, ¡toca las páginas en el orden correcto para ordenar el libro!",
+        "hook": "Una página. Una aventura. ¿Qué pasa después?"
+      }
+    }
+  },
+  {
+    "id": "plinko",
+    "type": "aim",
+    "number": 62,
+    "locales": {
+      "pt": {
+        "name": "Plinko Mágico",
+        "slug": "plinko-magico",
+        "tutorial": "Toca em qualquer sítio da arena e a bola cai lá de cima. Enche todos os recipientes da imagem e a imagem do meio fica completa!",
+        "hook": "Larga a bola. Ela salta… Onde vai cair?"
+      },
+      "en": {
+        "name": "Magic Plinko",
+        "slug": "magic-plinko",
+        "tutorial": "Tap anywhere on the arena and the ball falls from the top. Fill every picture container and the picture in the middle is complete!",
+        "hook": "Drop the ball. It bounces… Where will it land?"
+      },
+      "es": {
+        "name": "Plinko Mágico",
+        "slug": "plinko-magico",
+        "tutorial": "Toca en cualquier sitio de la arena y la bola cae desde arriba. ¡Llena todos los recipientes de la imagen y la imagen del centro quedará completa!",
+        "hook": "Suelta la bola. Rebota… ¿Dónde caerá?"
+      }
+    }
+  },
+  {
+    "id": "tetris_game",
+    "type": "logic",
+    "number": 63,
+    "locales": {
+      "pt": {
+        "name": "Torre de Blocos",
+        "slug": "torre-de-blocos",
+        "tutorial": "Arrasta a peça da caixa para a torre e completa linhas para libertar as imagens presas!",
+        "hook": "Blocos a cair. Espaços livres. Onde fica melhor?"
+      },
+      "en": {
+        "name": "Block Tower",
+        "slug": "block-tower",
+        "tutorial": "Drag the piece from the box into the tower and complete lines to free the trapped pictures!",
+        "hook": "Falling blocks. Empty spaces. Where does it fit best?"
+      },
+      "es": {
+        "name": "Torre de Bloques",
+        "slug": "torre-de-bloques",
+        "tutorial": "¡Arrastra la pieza de la caja a la torre y completa líneas para liberar las imágenes atrapadas!",
+        "hook": "Bloques cayendo. Huecos libres. ¿Dónde queda mejor?"
+      }
+    }
+  },
+  {
+    "id": "ligar_icon",
+    "type": "logic",
+    "number": 64,
+    "locales": {
+      "pt": {
+        "name": "Icon Match",
+        "slug": "icon-match",
+        "tutorial": "Vê bem a imagem e arrasta uma linha até ao par igual a ela!",
+        "hook": "Muitos ícones. Pares iguais. Consegues ligá-los?"
+      },
+      "en": {
+        "name": "Icon Match",
+        "slug": "icon-match",
+        "tutorial": "Look closely at the picture and drag a line to its matching pair!",
+        "hook": "Lots of icons. Matching pairs. Can you connect them?"
+      },
+      "es": {
+        "name": "Icon Match",
+        "slug": "icon-match",
+        "tutorial": "¡Mira bien la imagen y arrastra una línea hasta su pareja igual!",
+        "hook": "Muchos iconos. Parejas iguales. ¿Puedes unirlas?"
+      }
+    }
+  },
+  {
+    "id": "darts",
+    "type": "aim",
+    "number": 65,
+    "locales": {
+      "pt": {
+        "name": "Dardos",
+        "slug": "dardos",
+        "tutorial": "Toca no botão que pulsa quando o ponteiro estiver no verde. Primeiro o lado, depois a altura, e o dardo sai!",
+        "hook": "Um alvo. Um lançamento. Acertas no centro?"
+      },
+      "en": {
+        "name": "Darts",
+        "slug": "darts",
+        "tutorial": "Tap the pulsing button when the pointer is in the green. First the side, then the height, and the dart flies!",
+        "hook": "One target. One throw. Can you hit the centre?"
+      },
+      "es": {
+        "name": "Dardos",
+        "slug": "dardos",
+        "tutorial": "Toca el botón que parpadea cuando el puntero esté en el verde. Primero el lado, después la altura, ¡y sale el dardo!",
+        "hook": "Una diana. Un lanzamiento. ¿Aciertas en el centro?"
+      }
+    }
+  },
+  {
+    "id": "pattern_copy",
+    "type": "logic",
+    "number": 66,
+    "locales": {
+      "pt": {
+        "name": "Padrões",
+        "slug": "padroes",
+        "tutorial": "Arrasta cada peça para o sítio certo, até ficar igual ao cartão. Se a peça estiver virada, toca nela para a rodar.",
+        "hook": "Um modelo. Uma cópia. Fica igualzinho?"
+      },
+      "en": {
+        "name": "Patterns",
+        "slug": "patterns",
+        "tutorial": "Drag each tile to the right place until it looks like the card. If a tile is turned, tap it to rotate it.",
+        "hook": "One model. One copy. Is it exactly the same?"
+      },
+      "es": {
+        "name": "Patrones",
+        "slug": "patrones",
+        "tutorial": "Arrastra cada pieza a su sitio hasta que quede igual que la tarjeta. Si la pieza está girada, tócala para darle la vuelta.",
+        "hook": "Un modelo. Una copia. ¿Queda igualita?"
+      }
+    }
+  },
+  {
+    "id": "snake_game",
+    "type": "speed",
+    "number": 67,
+    "locales": {
+      "pt": {
+        "name": "Lagarta",
+        "slug": "lagarta",
+        "tutorial": "Guia a lagarta até às imagens da categoria e desvia-te das pedras!",
+        "hook": "Uma lagarta. Muita fome. Até onde cresce?"
+      },
+      "en": {
+        "name": "Caterpillar",
+        "slug": "caterpillar",
+        "tutorial": "Steer the caterpillar to the category's pictures and dodge the rocks!",
+        "hook": "A caterpillar. Very hungry. How long can it grow?"
+      },
+      "es": {
+        "name": "Oruga",
+        "slug": "oruga",
+        "tutorial": "¡Guía a la oruga hasta las imágenes de la categoría y esquiva las piedras!",
+        "hook": "Una oruga. Mucha hambre. ¿Hasta dónde crece?"
+      }
+    }
+  },
+  {
+    "id": "choose_image",
+    "type": "language",
+    "number": 68,
+    "locales": {
+      "pt": {
+        "name": "Escolhe a Imagem",
+        "slug": "escolhe-a-imagem",
+        "tutorial": "Olha bem para a sombra preta e toca na imagem colorida com a mesma forma!",
+        "hook": "Uma sombra. Várias imagens. Qual tem a mesma forma?"
+      },
+      "en": {
+        "name": "Choose the Picture",
+        "slug": "choose-the-picture",
+        "tutorial": "Look closely at the black shape and tap the colored picture with the same shape!",
+        "hook": "One silhouette. Several pictures. Which has the same shape?"
+      },
+      "es": {
+        "name": "Elige la Imagen",
+        "slug": "elige-la-imagen",
+        "tutorial": "¡Mira bien la sombra negra y toca la imagen de color con la misma forma!",
+        "hook": "Una sombra. Varias imágenes. ¿Cuál tiene la misma forma?"
+      }
+    }
+  },
+  {
+    "id": "runner_game",
+    "type": "speed",
+    "number": 69,
+    "locales": {
+      "pt": {
+        "name": "Corrida dos Icones",
+        "slug": "corrida-dos-icones",
+        "tutorial": "Toca para saltar os obstáculos e apanha as imagens da categoria!",
+        "hook": "Sempre a correr. Obstáculos à frente. Saltas a tempo?"
+      },
+      "en": {
+        "name": "Icon Runner",
+        "slug": "icon-runner",
+        "tutorial": "Tap to jump over obstacles and collect the category's pictures!",
+        "hook": "Always running. Obstacles ahead. Can you jump in time?"
+      },
+      "es": {
+        "name": "Carrera de Iconos",
+        "slug": "carrera-de-iconos",
+        "tutorial": "¡Toca para saltar los obstáculos y atrapa las imágenes de la categoría!",
+        "hook": "Siempre corriendo. Obstáculos delante. ¿Saltas a tiempo?"
+      }
+    }
+  },
+  {
+    "id": "domino_icons",
+    "type": "logic",
+    "number": 70,
+    "locales": {
+      "pt": {
+        "name": "Dominó Icons",
+        "slug": "domino-icons",
+        "tutorial": "Arrasta uma peça tua até à ponta que tem a mesma imagem. Depois é a vez da mascote!",
+        "hook": "Peças lado a lado. Ícones iguais. Qual liga?"
+      },
+      "en": {
+        "name": "Domino Icons",
+        "slug": "domino-icons",
+        "tutorial": "Drag one of your tiles to the end with the same picture. Then it's your mascot's turn!",
+        "hook": "Side by side. Matching icons. Which one connects?"
+      },
+      "es": {
+        "name": "Dominó Icons",
+        "slug": "domino-icons",
+        "tutorial": "Arrastra una de tus fichas hasta el extremo que tiene la misma imagen. ¡Luego le toca a la mascota!",
+        "hook": "Fichas en fila. Iconos iguales. ¿Cuál se une?"
+      }
+    }
+  },
+  {
+    "id": "delivery_game",
+    "type": "logic",
+    "number": 71,
+    "locales": {
+      "pt": {
+        "name": "Correio Espacial",
+        "slug": "correio-espacial",
+        "tutorial": "Ouve o nome e escolhe a imagem certa. Depois carrega nos botões de fogo e passa entre os planetas até ao Sol!",
+        "hook": "Uma carta. Muitos planetas. Chega ao destino?"
+      },
+      "en": {
+        "name": "Space Mail",
+        "slug": "space-mail",
+        "tutorial": "Listen to the name and pick the right picture. Then tap the fire buttons and slip between the planets to the Sun!",
+        "hook": "One letter. Many planets. Will it get there?"
+      },
+      "es": {
+        "name": "Correo Espacial",
+        "slug": "correo-espacial",
+        "tutorial": "Escucha el nombre y elige la imagen correcta. ¡Después pulsa los botones de fuego y pasa entre los planetas hasta el Sol!",
+        "hook": "Una carta. Muchos planetas. ¿Llega a su destino?"
+      }
+    }
+  },
+  {
+    "id": "pyramid_game",
+    "type": "aim",
+    "number": 72,
+    "locales": {
+      "pt": {
+        "name": "Pirâmide",
+        "slug": "piramide",
+        "tutorial": "Memoriza o cartão com a solução antes de desaparecer e arrasta cada copo para a cor certa!",
+        "hook": "Peça a peça. Até ao topo. Consegues construir?"
+      },
+      "en": {
+        "name": "Pyramid",
+        "slug": "pyramid",
+        "tutorial": "Memorize the solution card before it disappears, then drag each cup to its matching color!",
+        "hook": "Piece by piece. To the top. Can you build it?"
+      },
+      "es": {
+        "name": "Pirámide",
+        "slug": "piramide",
+        "tutorial": "¡Memoriza la tarjeta con la solución antes de que desaparezca y arrastra cada vaso al color correcto!",
+        "hook": "Pieza a pieza. Hasta la cima. ¿Puedes construirla?"
+      }
+    }
+  },
+  {
+    "id": "wall_icon",
+    "type": "speed",
+    "number": 73,
+    "locales": {
+      "pt": {
+        "name": "Wall Icon",
+        "slug": "wall-icon",
+        "tutorial": "Ouve a palavra, olha para que lado está a imagem e toca para saltar para essa parede!",
+        "hook": "Uma parede. Uma passagem. Passas pela certa?"
+      },
+      "en": {
+        "name": "Wall Icon",
+        "slug": "wall-icon",
+        "tutorial": "Listen to the word, look for the picture's side, and tap to jump to that wall!",
+        "hook": "One wall. One gap. Can you get through?"
+      },
+      "es": {
+        "name": "Wall Icon",
+        "slug": "wall-icon",
+        "tutorial": "¡Escucha la palabra, mira en qué lado está la imagen y toca para saltar a esa pared!",
+        "hook": "Una pared. Un paso. ¿Pasas por el correcto?"
+      }
+    }
+  },
+  {
+    "id": "dot_connect",
+    "type": "logic",
+    "number": 74,
+    "locales": {
+      "pt": {
+        "name": "Ligar Pontos",
+        "slug": "ligar-pontos",
+        "tutorial": "Liga os pontos pela ordem indicada para descobrires o desenho!",
+        "hook": "Letra a letra. Uma surpresa. O que vai aparecer?"
+      },
+      "en": {
+        "name": "Connect Dots",
+        "slug": "connect-dots",
+        "tutorial": "Connect the dots in order to discover the picture!",
+        "hook": "Letter by letter. A surprise. What will appear?"
+      },
+      "es": {
+        "name": "Unir Puntos",
+        "slug": "unir-puntos",
+        "tutorial": "¡Une los puntos en el orden indicado para descubrir el dibujo!",
+        "hook": "Letra a letra. Una sorpresa. ¿Qué va a aparecer?"
+      }
+    }
+  },
+  {
+    "id": "picture_puzzle",
+    "type": "logic",
+    "number": 75,
+    "locales": {
+      "pt": {
+        "name": "Juntar a Imagem",
+        "slug": "juntar-a-imagem",
+        "tutorial": "Vê a imagem por trás e arrasta cada peça para o lugar onde encaixa!",
+        "hook": "Peças soltas. Uma imagem. Consegues juntá-la?"
+      },
+      "en": {
+        "name": "Picture Puzzle",
+        "slug": "picture-puzzle",
+        "tutorial": "Look at the picture showing through and drag each piece to where it fits!",
+        "hook": "Loose pieces. One picture. Can you put it together?"
+      },
+      "es": {
+        "name": "Juntar la Imagen",
+        "slug": "juntar-la-imagen",
+        "tutorial": "¡Mira la imagen del fondo y arrastra cada pieza al lugar donde encaja!",
+        "hook": "Piezas sueltas. Una imagen. ¿Puedes juntarla?"
+      }
+    }
+  },
+  {
+    "id": "icon_battle",
+    "type": "memory",
+    "number": 76,
+    "locales": {
+      "pt": {
+        "name": "Batalha Icon",
+        "slug": "batalha-icon",
+        "tutorial": "Olha bem para o tabuleiro modelo e copia cada imagem para o mesmo sítio!",
+        "hook": "Observa o modelo. Copia as imagens. Cada uma no mesmo lugar!"
+      },
+      "en": {
+        "name": "Icon Battle",
+        "slug": "icon-battle",
+        "tutorial": "Study the reference board and copy each picture into the same spot!",
+        "hook": "Study the model. Copy the pictures. Each one in the same spot!"
+      },
+      "es": {
+        "name": "Batalla Icon",
+        "slug": "batalla-icon",
+        "tutorial": "¡Mira bien el tablero modelo y copia cada imagen en el mismo sitio!",
+        "hook": "Observa el modelo. Copia las imágenes. ¡Cada una en el mismo sitio!"
+      }
+    }
+  },
+  {
+    "id": "sizes",
+    "type": "logic",
+    "number": 77,
+    "locales": {
+      "pt": {
+        "name": "Tamanhos",
+        "slug": "tamanhos",
+        "tutorial": "Arrasta cada imagem para o recorte do mesmo tamanho. Também podes tocar na imagem e depois no recorte. Nos grupos, preenche todos os lugares!",
+        "hook": "Grande… ou pequeno? Qual é qual?"
+      },
+      "en": {
+        "name": "Sizes",
+        "slug": "sizes",
+        "tutorial": "Drag each picture into the cutout of the same size. You can also tap the picture and then the cutout. Fill every space in each group!",
+        "hook": "Big… or small? Which is which?"
+      },
+      "es": {
+        "name": "Tamaños",
+        "slug": "tamanos",
+        "tutorial": "Arrastra cada imagen al recorte del mismo tamaño. También puedes tocar la imagen y después el recorte. ¡En los grupos, rellena todos los huecos!",
+        "hook": "Grande… ¿o pequeño? ¿Cuál es cuál?"
+      }
+    }
+  },
+  {
+    "id": "flippers",
+    "type": "aim",
+    "number": 78,
+    "locales": {
+      "pt": {
+        "name": "Angry Icons",
+        "slug": "angry-icons",
+        "tutorial": "Ouve o nome, puxa a bola para trás e larga para partires os blocos!",
+        "hook": "Aponta bem. Lança! Derrubas tudo?"
+      },
+      "en": {
+        "name": "Angry Icons",
+        "slug": "angry-icons",
+        "tutorial": "Listen to the name, pull the ball back, then let go to break the blocks!",
+        "hook": "Aim carefully. Launch! Can you knock it all down?"
+      },
+      "es": {
+        "name": "Angry Icons",
+        "slug": "angry-icons",
+        "tutorial": "¡Escucha el nombre, tira de la bola hacia atrás y suéltala para romper los bloques!",
+        "hook": "Apunta bien. ¡Lanza! ¿Lo derribas todo?"
+      }
+    }
+  },
+  {
+    "id": "silhouette_reveal",
+    "type": "logic",
+    "number": 79,
+    "locales": {
+      "pt": {
+        "name": "Descobre a Imagem",
+        "slug": "descobre-a-imagem",
+        "tutorial": "Passa o dedo para espreitar as cores e depois toca na imagem certa!",
+        "hook": "Só a sombra. Uma pista. Sabes o que é?"
+      },
+      "en": {
+        "name": "Uncover the Picture",
+        "slug": "uncover-the-picture",
+        "tutorial": "Slide your finger to peek at the colors, then tap the matching picture!",
+        "hook": "Only the shadow. One clue. Do you know what it is?"
+      },
+      "es": {
+        "name": "Descubre la Imagen",
+        "slug": "descubre-la-imagen",
+        "tutorial": "¡Pasa el dedo para ver los colores y después toca la imagen correcta!",
+        "hook": "Solo la sombra. Una pista. ¿Sabes qué es?"
+      }
+    }
+  },
+  {
+    "id": "cup_game",
+    "type": "memory",
+    "number": 80,
+    "locales": {
+      "pt": {
+        "name": "Jogo dos Copos",
+        "slug": "jogo-dos-copos",
+        "tutorial": "Vê debaixo de que copo está a imagem, observa bem a mistura e depois toca nele!",
+        "hook": "Três copos. Um tesouro. Onde ficou?"
+      },
+      "en": {
+        "name": "Cup Game",
+        "slug": "cup-game",
+        "tutorial": "See which cup hides the picture, watch closely as they shuffle, then tap that cup!",
+        "hook": "Three cups. One treasure. Where did it go?"
+      },
+      "es": {
+        "name": "Juego de los Vasos",
+        "slug": "juego-de-los-vasos",
+        "tutorial": "¡Mira debajo de qué vaso está la imagen, observa bien la mezcla y después tócalo!",
+        "hook": "Tres vasos. Un tesoro. ¿Dónde quedó?"
+      }
+    }
+  },
+  {
+    "id": "vertical_jump",
+    "type": "speed",
+    "number": 81,
+    "locales": {
+      "pt": {
+        "name": "Up Icon",
+        "slug": "up-icon",
+        "tutorial": "Põe o dedo no ecrã e a mascote vai atrás dele. Apanha as imagens nas plataformas douradas!",
+        "hook": "Salto a salto. Sempre a subir. Até onde chegas?"
+      },
+      "en": {
+        "name": "Up Icon",
+        "slug": "up-icon",
+        "tutorial": "Put your finger on the screen and the mascot follows it. Collect the pictures on the golden platforms!",
+        "hook": "Jump by jump. Always climbing. How high can you go?"
+      },
+      "es": {
+        "name": "Up Icon",
+        "slug": "up-icon",
+        "tutorial": "Pon el dedo en la pantalla y la mascota lo sigue. ¡Atrapa las imágenes de las plataformas doradas!",
+        "hook": "Salto a salto. Siempre subiendo. ¿Hasta dónde llegas?"
+      }
+    }
+  },
+  {
+    "id": "feed_monster",
+    "type": "logic",
+    "number": 82,
+    "locales": {
+      "pt": {
+        "name": "Alimentar os Monstros",
+        "slug": "alimentar-os-monstros",
+        "tutorial": "Vê o que cada monstro quer, segue o tubo até ao recipiente certo e põe lá a comida igual!",
+        "hook": "Monstros com fome. Pedidos certos. O que querem comer?"
+      },
+      "en": {
+        "name": "Feed the Monsters",
+        "slug": "feed-the-monsters",
+        "tutorial": "See what each monster wants, follow its tube to the right container, and put in the matching food!",
+        "hook": "Hungry monsters. Clear requests. What do they want?"
+      },
+      "es": {
+        "name": "Alimentar a los Monstruos",
+        "slug": "alimentar-a-los-monstruos",
+        "tutorial": "¡Mira lo que quiere cada monstruo, sigue el tubo hasta el recipiente correcto y pon allí la comida igual!",
+        "hook": "Monstruos con hambre. Pedidos claros. ¿Qué quieren comer?"
+      }
+    }
+  },
+  {
+    "id": "shape_wall",
+    "type": "aim",
+    "number": 83,
+    "locales": {
+      "pt": {
+        "name": "Parede",
+        "slug": "parede",
+        "tutorial": "As formas andam sozinhas até à parede. Arrasta cada forma para o caminho do buraco com a mesma forma, antes de chegar à parede!",
+        "hook": "Uma parede. Uma forma. Qual passa?"
+      },
+      "en": {
+        "name": "Wall",
+        "slug": "wall",
+        "tutorial": "The shapes move to the wall on their own. Drag each shape into the path of the hole with the same shape before it reaches the wall!",
+        "hook": "One wall. One shape. Which one fits through?"
+      },
+      "es": {
+        "name": "Pared",
+        "slug": "pared",
+        "tutorial": "Las formas avanzan solas hasta la pared. ¡Arrastra cada forma al camino del agujero con la misma forma antes de que llegue a la pared!",
+        "hook": "Una pared. Una forma. ¿Cuál pasa?"
+      }
+    }
+  },
+  {
+    "id": "icon_man",
+    "type": "logic",
+    "number": 84,
+    "locales": {
+      "pt": {
+        "name": "Icon Man",
+        "slug": "icon-man",
+        "tutorial": "Desliza o dedo no labirinto ou usa as setas para mover a cabrinha. Apanha todas as estrelas e foge dos fantasmas!",
+        "hook": "Um labirinto. Muitos ícones. Apanhas todos?"
+      },
+      "en": {
+        "name": "Icon Man",
+        "slug": "icon-man",
+        "tutorial": "Swipe on the maze or use the arrows to move the goat. Collect every star and keep away from the ghosts!",
+        "hook": "A maze. Lots of icons. Can you get them all?"
+      },
+      "es": {
+        "name": "Icon Man",
+        "slug": "icon-man",
+        "tutorial": "Desliza el dedo por el laberinto o usa las flechas para mover a la cabrita. ¡Atrapa todas las estrellas y huye de los fantasmas!",
+        "hook": "Un laberinto. Muchos iconos. ¿Los atrapas todos?"
+      }
+    }
+  },
+  {
+    "id": "drag_match",
+    "type": "logic",
+    "number": 85,
+    "locales": {
+      "pt": {
+        "name": "Arrastar e Encaixar",
+        "slug": "arrastar-e-encaixar",
+        "tutorial": "Arrasta a imagem até à palavra certa e ouve o seu nome!",
+        "hook": "Cada peça. O seu lugar. Onde fica?"
+      },
+      "en": {
+        "name": "Drag & Match",
+        "slug": "drag-match",
+        "tutorial": "Drag the picture to the matching word to hear its name!",
+        "hook": "Every piece. Its own place. Where does it go?"
+      },
+      "es": {
+        "name": "Arrastrar y Encajar",
+        "slug": "arrastrar-y-encajar",
+        "tutorial": "¡Arrastra la imagen hasta la palabra correcta y escucha su nombre!",
+        "hook": "Cada pieza. Su lugar. ¿Dónde va?"
+      }
+    }
+  },
+  {
+    "id": "guitar_icon",
+    "type": "memory",
+    "number": 86,
+    "locales": {
+      "pt": {
+        "name": "Guitarra Icon",
+        "slug": "guitarra-icon",
+        "tutorial": "Espera a nota chegar à linha e toca logo no botão dessa fila!",
+        "hook": "Notas a chegar. Uma melodia. Tocas no tempo certo?"
+      },
+      "en": {
+        "name": "Guitar Icon",
+        "slug": "guitar-icon",
+        "tutorial": "Wait for the note to reach the line, then tap that lane's button right away!",
+        "hook": "Notes coming. One melody. Can you play in time?"
+      },
+      "es": {
+        "name": "Guitarra Icon",
+        "slug": "guitarra-icon",
+        "tutorial": "¡Espera a que la nota llegue a la línea y toca enseguida el botón de esa fila!",
+        "hook": "Llegan notas. Una melodía. ¿Tocas a tiempo?"
+      }
+    }
+  },
+  {
+    "id": "claw_machine",
+    "type": "aim",
+    "number": 87,
+    "locales": {
+      "pt": {
+        "name": "Aspirador Mágico",
+        "slug": "aspirador-magico",
+        "tutorial": "Ouve o nome, espera o aspirador chegar por cima da imagem certa e carrega em Aspirar!",
+        "hook": "Um aspirador. Um pedido. Apanhas o certo?"
+      },
+      "en": {
+        "name": "Magic Vacuum",
+        "slug": "magic-vacuum",
+        "tutorial": "Listen to the name, wait for the vacuum to reach the right picture, then press Vacuum!",
+        "hook": "A vacuum. One request. Can you get the right one?"
+      },
+      "es": {
+        "name": "Aspiradora Mágica",
+        "slug": "aspiradora-magica",
+        "tutorial": "¡Escucha el nombre, espera a que la aspiradora llegue encima de la imagen correcta y pulsa Aspirar!",
+        "hook": "Una aspiradora. Un pedido. ¿Atrapas el correcto?"
+      }
+    }
+  },
+  {
+    "id": "sort_trays",
+    "type": "logic",
+    "number": 88,
+    "locales": {
+      "pt": {
+        "name": "Jogo da Caixa",
+        "slug": "jogo-da-caixa",
+        "tutorial": "Pega numa estrela com a pinça e leva-a para a caixa certa. Algumas já estão no sítio: procura as que estão na caixa errada!",
+        "hook": "Muitas coisas. Várias caixas. Onde vai cada uma?"
+      },
+      "en": {
+        "name": "Box Game",
+        "slug": "box-game",
+        "tutorial": "Pick up a star with the tweezers and put it in the right box. Some are already in place: look for the ones in the wrong box!",
+        "hook": "Lots of things. Several boxes. Where does each one go?"
+      },
+      "es": {
+        "name": "Juego de la Caja",
+        "slug": "juego-de-la-caja",
+        "tutorial": "Coge una estrella con la pinza y llévala a la caja correcta. Algunas ya están en su sitio: ¡busca las que están en la caja equivocada!",
+        "hook": "Muchas cosas. Varias cajas. ¿Dónde va cada una?"
+      }
+    }
+  },
+  {
+    "id": "dutch_billiards",
+    "type": "aim",
+    "number": 89,
+    "locales": {
+      "pt": {
+        "name": "Barco Pirata",
+        "slug": "barco-pirata",
+        "tutorial": "Puxa cada barco para trás e larga-o para passar por baixo da ponte até uma ilha, fugindo dos tubarões!",
+        "hook": "Faz pontaria. Um disparo. Chega ao alvo?"
+      },
+      "en": {
+        "name": "Pirate Ship",
+        "slug": "pirate-ship",
+        "tutorial": "Pull each boat back and let go so it sails under the bridge to an island, away from the sharks!",
+        "hook": "Take aim. One shot. Will it reach the target?"
+      },
+      "es": {
+        "name": "Barco Pirata",
+        "slug": "barco-pirata",
+        "tutorial": "¡Tira de cada barco hacia atrás y suéltalo para que pase por debajo del puente hasta una isla, huyendo de los tiburones!",
+        "hook": "Apunta bien. Un disparo. ¿Llega al blanco?"
+      }
+    }
+  },
+  {
+    "id": "count_bubbles",
+    "type": "logic",
+    "number": 90,
+    "locales": {
+      "pt": {
+        "name": "Rebentar Balões",
+        "slug": "rebentar-baloes",
+        "tutorial": "Rebenta os balões para encher a imagem e não os deixes fugir. Os balões com bomba, chuva ou vento deixa-os ir!",
+        "hook": "Rebenta os balões. Preenche a imagem. Deixa passar os obstáculos!"
+      },
+      "en": {
+        "name": "Pop Balloons",
+        "slug": "pop-balloons",
+        "tutorial": "Pop the balloons to fill the picture and don't let them float away. Let the bomb, rain and wind balloons go!",
+        "hook": "Pop the balloons. Fill the picture. Let the obstacles pass!"
+      },
+      "es": {
+        "name": "Explotar Globos",
+        "slug": "explotar-globos",
+        "tutorial": "Explota los globos para llenar la imagen y no dejes que se escapen. ¡Los globos con bomba, lluvia o viento, déjalos ir!",
+        "hook": "Explota los globos. Completa la imagen. ¡Deja pasar los obstáculos!"
+      }
+    }
+  },
+  {
+    "id": "cap_sequence",
+    "type": "logic",
+    "number": 91,
+    "locales": {
+      "pt": {
+        "name": "Jogo das Rolhas",
+        "slug": "jogo-das-rolhas",
+        "tutorial": "Arrasta uma rolha para cima de outra e elas trocam de lugar. Cada coluna tem de ficar com a imagem correspondente!",
+        "hook": "Troca as rolhas. Observa as imagens. Cada uma na sua coluna!"
+      },
+      "en": {
+        "name": "Cork Game",
+        "slug": "cork-game",
+        "tutorial": "Drag a cork onto another and they swap places. Every column must contain its matching picture!",
+        "hook": "Swap the corks. Look at the pictures. Each one in its column!"
+      },
+      "es": {
+        "name": "Juego de los Corchos",
+        "slug": "juego-de-los-corchos",
+        "tutorial": "Arrastra un corcho encima de otro y cambian de sitio. ¡Cada columna debe tener la imagen correspondiente!",
+        "hook": "Intercambia los corchos. Mira las imágenes. ¡Cada uno en su columna!"
+      }
+    }
+  },
+  {
+    "id": "black_hole",
+    "type": "speed",
+    "number": 92,
+    "locales": {
+      "pt": {
+        "name": "Buraco Negro",
+        "slug": "buraco-negro",
+        "tutorial": "Move o buraco negro para apanhar as imagens da categoria e foge dos meteoros!",
+        "hook": "Um buraco negro. Tudo à volta. O que vai atrair?"
+      },
+      "en": {
+        "name": "Black Hole",
+        "slug": "black-hole",
+        "tutorial": "Move the black hole to catch pictures from the category and dodge the meteors!",
+        "hook": "A black hole. Everything around. What will it pull in?"
+      },
+      "es": {
+        "name": "Agujero Negro",
+        "slug": "agujero-negro",
+        "tutorial": "¡Mueve el agujero negro para atrapar las imágenes de la categoría y huye de los meteoritos!",
+        "hook": "Un agujero negro. Todo alrededor. ¿Qué va a atraer?"
+      }
+    }
+  },
+  {
+    "id": "bouncy_ball",
+    "type": "aim",
+    "number": 93,
+    "locales": {
+      "pt": {
+        "name": "Bola Saltitante",
+        "slug": "bola-saltitante",
+        "tutorial": "Arrasta a raquete e faz a bola partir todos os blocos para abrir o cofre com a imagem!",
+        "hook": "Uma bola. Sempre a saltar. Não a deixas cair?"
+      },
+      "en": {
+        "name": "Bouncy Ball",
+        "slug": "bouncy-ball",
+        "tutorial": "Drag the paddle and bounce the ball to break every block and open the vault with the picture!",
+        "hook": "One ball. Always bouncing. Can you keep it up?"
+      },
+      "es": {
+        "name": "Pelota Saltarina",
+        "slug": "pelota-saltarina",
+        "tutorial": "¡Arrastra la raqueta y haz que la pelota rompa todos los bloques para abrir la caja fuerte con la imagen!",
+        "hook": "Una pelota. Siempre saltando. ¿No la dejas caer?"
+      }
+    }
+  },
+  {
+    "id": "puzzle_icons",
+    "type": "logic",
+    "number": 94,
+    "locales": {
+      "pt": {
+        "name": "Puzzle Icons",
+        "slug": "puzzle-icons",
+        "tutorial": "Arrasta o dedo no ecrã para apontar o canhão. Toca no canhão para lançar e junta três ícones iguais para os rebentar!",
+        "hook": "Ícones coloridos. Três iguais. Desaparecem todos?"
+      },
+      "en": {
+        "name": "Puzzle Icons",
+        "slug": "puzzle-icons",
+        "tutorial": "Drag your finger on the screen to aim the cannon. Tap the cannon to shoot and match three identical icons to pop them!",
+        "hook": "Colourful icons. Three alike. Can you clear them all?"
+      },
+      "es": {
+        "name": "Puzzle Icons",
+        "slug": "puzzle-icons",
+        "tutorial": "Arrastra el dedo por la pantalla para apuntar el cañón. ¡Toca el cañón para lanzar y junta tres iconos iguales para explotarlos!",
+        "hook": "Iconos de colores. Tres iguales. ¿Desaparecen todos?"
+      }
+    }
+  },
+  {
+    "id": "paint_reveal",
+    "type": "creative",
+    "number": 95,
+    "locales": {
+      "pt": {
+        "name": "Raspa e Revela",
+        "slug": "raspa-e-revela",
+        "tutorial": "Passa o dedo pela arena para raspar e revelar, sem tocar nas aranhas!",
+        "hook": "Raspa devagar. Algo escondido. O que será?"
+      },
+      "en": {
+        "name": "Scratch & Reveal",
+        "slug": "scratch-reveal",
+        "tutorial": "Drag your finger across the arena to scratch and reveal, without touching the spiders!",
+        "hook": "Scratch gently. Something hidden. What could it be?"
+      },
+      "es": {
+        "name": "Raspa y Descubre",
+        "slug": "raspa-y-descubre",
+        "tutorial": "¡Pasa el dedo por el dibujo para pintarlo y descubrirlo, sin tocar las arañas!",
+        "hook": "Raspa despacio. Algo escondido. ¿Qué será?"
+      }
+    }
+  },
+  {
+    "id": "carousel_picker",
+    "type": "language",
+    "number": 96,
+    "locales": {
+      "pt": {
+        "name": "Carrossel",
+        "slug": "carrossel",
+        "tutorial": "Ouve o nome, alinha a imagem, a sombra e a palavra no meio e toca em Confirmar!",
+        "hook": "Sempre a rodar. Um pedido. Paras no certo?"
+      },
+      "en": {
+        "name": "Carousel",
+        "slug": "carousel",
+        "tutorial": "Listen, match the picture, shadow and word in the middle, then tap Confirm!",
+        "hook": "Always spinning. One request. Can you stop on the right one?"
+      },
+      "es": {
+        "name": "Carrusel",
+        "slug": "carrusel",
+        "tutorial": "¡Escucha el nombre, alinea en el centro la imagen, la sombra y la palabra, y toca Confirmar!",
+        "hook": "Siempre girando. Un pedido. ¿Paras en el correcto?"
+      }
+    }
+  },
+  {
+    "id": "tap_to_paint",
+    "type": "creative",
+    "number": 97,
+    "locales": {
+      "pt": {
+        "name": "Cores",
+        "slug": "cores",
+        "tutorial": "Ouve o nome da cor e toca na que é igual para pintar!",
+        "hook": "Muitas cores. Uma imagem. Que cor escolhes?"
+      },
+      "en": {
+        "name": "Colors",
+        "slug": "colors",
+        "tutorial": "Listen to the color's name and tap the matching one to paint!",
+        "hook": "Lots of colours. One picture. Which colour will you pick?"
+      },
+      "es": {
+        "name": "Colores",
+        "slug": "colores",
+        "tutorial": "¡Escucha el nombre del color y toca el que es igual para pintar!",
+        "hook": "Muchos colores. Una imagen. ¿Qué color eliges?"
+      }
+    }
+  },
+  {
+    "id": "touch_and_listen",
+    "type": "language",
+    "number": 98,
+    "locales": {
+      "pt": {
+        "name": "Toca e Ouve",
+        "slug": "toca-e-ouve",
+        "tutorial": "Toca nas imagens pela ordem da fila lá em baixo, uma de cada vez!",
+        "hook": "Toca na imagem. Ouve o nome. Repetes comigo?"
+      },
+      "en": {
+        "name": "Touch & Listen",
+        "slug": "touch-listen",
+        "tutorial": "Tap the pictures in the order shown at the bottom, one at a time!",
+        "hook": "Touch the picture. Hear its name. Will you say it with me?"
+      },
+      "es": {
+        "name": "Toca y Escucha",
+        "slug": "toca-y-escucha",
+        "tutorial": "¡Toca las imágenes en el orden de la fila de abajo, una cada vez!",
+        "hook": "Toca la imagen. Escucha su nombre. ¿Lo repites conmigo?"
+      }
+    }
+  },
+  {
+    "id": "candy_icons",
+    "type": "speed",
+    "number": 99,
+    "locales": {
+      "pt": {
+        "name": "Candy Icons",
+        "slug": "candy-icons",
+        "tutorial": "Toca para o pássaro subir, passar entre os doces e apanhar as imagens!",
+        "hook": "Voa entre os doces. Sem tocar. Até onde chegas?"
+      },
+      "en": {
+        "name": "Candy Icons",
+        "slug": "candy-icons",
+        "tutorial": "Tap to make the bird rise, fly between the sweets and collect the pictures!",
+        "hook": "Fly through the sweets. Don't touch them. How far can you go?"
+      },
+      "es": {
+        "name": "Candy Icons",
+        "slug": "candy-icons",
+        "tutorial": "¡Toca para que el pájaro suba, pase entre los dulces y atrape las imágenes!",
+        "hook": "Vuela entre dulces. Sin tocarlos. ¿Hasta dónde llegas?"
+      }
+    }
+  }
+]
