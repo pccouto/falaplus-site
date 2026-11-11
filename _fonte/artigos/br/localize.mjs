@@ -44,4 +44,3 @@ export function localizeValue(value) {
   if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([k,v]) => [k, ['id','slug','related','sources','date','updated'].includes(k) ? v : localizeValue(v)]));
   return value;
 }
-
