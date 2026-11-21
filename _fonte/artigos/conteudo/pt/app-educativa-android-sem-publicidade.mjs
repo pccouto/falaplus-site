@@ -21,7 +21,7 @@ export default {
       "toc": "O que procurar numa app educativa Android sem publicidade?"
     },
     {
-      "p": "A ausência de anúncios é uma característica concreta da Fala+. Não significa que todas as funcionalidades sejam gratuitas: existe um plano gratuito e funcionalidades Premium. Separar estas duas questões ajuda o adulto a experimentar a aplicação com expectativas claras."
+      "p": "A ausência de anúncios e o acesso totalmente grátis são características concretas da Fala+. Todas as funcionalidades estão disponíveis sem subscrições nem compras na app."
     },
     {
       "p": "A Fala+ oferece um quadro de comunicação com imagem e voz, jogos de palavras, memória, lógica e outras atividades, além de brincadeiras com música, pintura e voz. A variedade permite escolher uma experiência adequada ao interesse do momento, em vez de insistir num único tipo de desafio."
@@ -33,8 +33,8 @@ export default {
     {
       "ol": [
         "Instale a app através da ficha oficial na Google Play e confirme a compatibilidade com o dispositivo.",
-        "Comece por uma atividade disponível no plano gratuito; mostre um exemplo e deixe a criança explorar.",
-        "Consulte os planos na Área Adulto antes de escolher funcionalidades Premium."
+        "Comece por uma atividade disponível gratuitamente; mostre um exemplo e deixe a criança explorar.",
+        "Explore livremente as funcionalidades e ajuste a experiência na Área Adulto."
       ]
     },
     {
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -91,8 +91,8 @@ export default {
       "Não. A Fala+ não apresenta publicidade."
     ],
     [
-      "Sem publicidade significa tudo gratuito?",
-      "Não. O Comunicar é gratuito e sem limites; o acesso às restantes áreas depende do plano."
+      "A Fala+ é toda gratuita?",
+      "Sim. Toda a Fala+ é gratuita: Comunicar, Caminhada, Brincar e todos os jogos, sem subscrições nem compras."
     ],
     [
       "A Fala+ existe para Android?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

@@ -22,7 +22,7 @@ As expressões escolhidas são hipóteses editoriais de intenção de pesquisa, 
 ## Fontes e decisões
 
 - Funcionalidades e acesso: código e textos atuais da app (`src/i18n/pt.json`, `src/screens/ActivitiesScreen.jsx`, `src/screens/AdultAreaScreen.jsx`), página inicial e ficha oficial na Google Play, consultados em 06-11-2026.
-- Mais de 50 jogos, 25 temas, mais de 1000 palavras; Comunicar gratuito e sem limites; Caminhada gratuita até ao nível 5; escolha direta no Modo Jogos, Percurso Guiado e Relatório Técnico Semanal como Premium. Não especificado o limite diário de Brincar porque há uma divergência entre o texto local e a ficha da loja.
+- Mais de 50 jogos, 25 temas e mais de 1000 palavras; toda a app está disponível gratuitamente, incluindo Comunicar, Caminhada, Modo Jogos, Percurso Guiado e Relatório Técnico Semanal.
 - Sem afirmação geral de funcionamento sem internet, sem preços fixos ou promessas de disponibilidade para iOS.
 - [ASHA — AAC](https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/): enquadramento geral de comunicação com imagens. A página pública devolveu 403 na ferramenta de pesquisa; foi confirmada a alternativa oficial do Practice Portal.
 - [NAEYC — Technology and Interactive Media](https://www.naeyc.org/resources/topics/technology-and-media/resources): uso intencional de recursos digitais. Não apresentada como validação da app.

@@ -82,7 +82,7 @@ export default {
         "items": [
           [
             "Valorizar imagens e gestos como comunicação.",
-            "O Comunicar tem cartões com imagem e voz, sem limites no plano gratuito."
+            "O Comunicar tem cartões com imagem e voz, gratuitamente e sem limites."
           ],
           [
             "Dar tempo, sem pressão.",

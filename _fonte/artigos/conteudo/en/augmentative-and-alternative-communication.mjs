@@ -55,7 +55,7 @@ export default {
         ['Modelling: the adult taps the pictures too.', 'Each card says the word aloud, so the adult can show how to communicate while talking.'],
         ['Going beyond requests.', 'The child puts several cards together into a sentence and hears it aloud, to ask, comment or share.'],
         ['Family and school using the same vocabulary.', 'In the Adult Area, you can use real photos and record the voices of people the child knows.'],
-        ['AAC always within reach, with no prerequisites.', 'Communicate is available with no limits on the free plan.'],
+        ['AAC always within reach, with no prerequisites.', 'Communicate is available free of charge and with no limits.'],
       ],
     } },
   ],

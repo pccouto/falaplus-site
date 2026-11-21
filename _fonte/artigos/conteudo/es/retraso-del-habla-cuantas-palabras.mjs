@@ -58,7 +58,7 @@ export default {
       intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
       items: [
         ['Organizar las palabras por temas.', 'Los juegos tienen más de 1000 palabras en 25 temas, como Familia, Comida y Rutinas; en el Área del Adulto se eligen las palabras que practicar.'],
-        ['Seguir la evolución a lo largo del tiempo.', 'El informe semanal en PDF (Premium) muestra datos de uso de la app, que pueden complementar su lista.'],
+        ['Seguir la evolución a lo largo del tiempo.', 'El informe semanal en PDF muestra datos de uso de la app, que pueden complementar su lista.'],
       ],
       outro: 'Habla+ no cuenta las palabras que dice el niño ni evalúa el vocabulario. Su lista y la evaluación del logopeda son insustituibles.',
     } },

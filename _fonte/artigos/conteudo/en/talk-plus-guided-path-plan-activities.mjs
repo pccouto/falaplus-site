@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Talk+ Guided Path: plan activities with purpose</span>",
-  "lead": "<strong>Talk+ Guided Path</strong> lets adults choose an activity theme and level. This Premium feature offers a more specific starting point than free exploration or following the Walk sequence alone.",
+  "lead": "<strong>Talk+ Guided Path</strong> lets adults choose an activity theme and level. This free feature offers a more specific starting point than free exploration or following the Walk sequence alone.",
   "blocks": [
     {
       "h2": "When should you choose Talk+ Guided Path?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "Is Guided Path free?",
-      "It is a Premium feature."
+      "Yes. It is available free of charge."
     ],
     [
       "Who chooses the theme and level?",

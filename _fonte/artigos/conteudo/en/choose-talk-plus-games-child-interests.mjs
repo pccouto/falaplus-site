@@ -42,7 +42,7 @@ export default {
       "id": "exemplo"
     },
     {
-      "p": "A child interested in animals might begin with a listening-and-selecting game using that theme. If finding pairs is more appealing, try Memory Match. For creation without right answers, Play offers another way to take part. Direct selection in Games mode is Premium; the free plan includes Walk up to level 5."
+      "p": "A child interested in animals might begin with a listening-and-selecting game using that theme. If finding pairs is more appealing, try Memory Match. For creation without right answers, Play offers another way to take part. Every game and path is available free of charge."
     },
     {
       "h2": "What can we conclude?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -92,7 +92,7 @@ export default {
     ],
     [
       "Are all games free?",
-      "No. Direct selection in Games mode is Premium; the free plan offers activities to explore."
+      "Yes. Every game and path is available free of charge."
     ],
     [
       "Should adults insist on the hardest game?",

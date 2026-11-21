@@ -21,7 +21,7 @@ export default {
       "toc": "¿Qué buscar en una app educativa Android sin publicidad?"
     },
     {
-      "p": "Habla+ no muestra publicidad. Esto no significa que todas sus funciones sean gratuitas: hay un plan gratuito y funciones Premium. Distinguir ambas cuestiones permite explorar la aplicación con expectativas claras antes de decidir si se necesita más acceso."
+      "p": "Habla+ no muestra publicidad y es totalmente gratis. Todas las funciones están disponibles sin suscripciones ni compras en la app."
     },
     {
       "p": "La app combina un tablero de comunicación con imágenes y voz, juegos de vocabulario, memoria y lógica, y actividades de música, pintura y voz. Esta variedad permite cambiar de propuesta según los intereses del niño, sin exigir que todas las sesiones sigan el mismo recorrido."
@@ -33,8 +33,8 @@ export default {
     {
       "ol": [
         "Instala la app desde la ficha oficial de Google Play y comprueba la compatibilidad del dispositivo.",
-        "Prueba una actividad del plan gratuito, muestra un ejemplo y deja espacio para explorar.",
-        "Consulta los planes en el Área del Adulto antes de elegir funciones Premium."
+        "Prueba una actividad, muestra un ejemplo y deja espacio para explorar.",
+        "Explora todas las funciones libremente y ajusta la experiencia en el Área del Adulto."
       ]
     },
     {
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -91,8 +91,8 @@ export default {
       "No. Habla+ no muestra publicidad."
     ],
     [
-      "¿Sin publicidad significa que todo es gratis?",
-      "No. Comunicar es gratuito y sin límites; el acceso a otras áreas depende del plan."
+      "¿Habla+ es gratis por completo?",
+      "Sí. Todo Habla+ es gratis: Comunicar, Caminata, Jugar y todos los juegos, sin suscripciones ni compras."
     ],
     [
       "¿Habla+ está disponible para Android?",

@@ -71,7 +71,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",

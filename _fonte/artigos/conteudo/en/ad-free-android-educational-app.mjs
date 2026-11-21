@@ -21,7 +21,7 @@ export default {
       "toc": "What should an ad-free Android educational app offer?"
     },
     {
-      "p": "Talk+ contains no advertising. This does not mean every feature is free: there is a free plan and Premium access. Understanding the distinction helps adults explore the app with clear expectations before deciding whether additional features suit their needs."
+      "p": "Talk+ contains no advertising and is completely free. Every feature is available with no subscriptions or in-app purchases."
     },
     {
       "p": "The app combines a picture-and-voice communication board, vocabulary games, memory and logic activities, and open-ended music, painting and voice play. This variety gives adults different starting points when a child wants a change of activity or a less structured experience."
@@ -33,8 +33,8 @@ export default {
     {
       "ol": [
         "Install through the official Google Play listing and check device compatibility.",
-        "Try an activity available on the free plan, show one example and allow exploration.",
-        "Check the plans in the Adult Area before choosing Premium features."
+        "Try an activity available free of charge, show one example and allow exploration.",
+        "Explore every feature freely and adjust the experience in the Adult Area."
       ]
     },
     {
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -91,8 +91,8 @@ export default {
       "No. Talk+ does not display advertising."
     ],
     [
-      "Does ad-free mean everything is free?",
-      "No. Communicate is free and unlimited; access to other areas depends on the plan."
+      "Is all of Talk+ free?",
+      "Yes. All of Talk+ is free: Communicate, Walk, Play and every game, with no subscriptions or purchases."
     ],
     [
       "Is Talk+ available for Android?",

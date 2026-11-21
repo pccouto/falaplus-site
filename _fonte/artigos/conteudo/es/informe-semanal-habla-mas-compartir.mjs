@@ -21,7 +21,7 @@ export default {
       "toc": "¿Cómo interpretar el informe semanal de Habla+?"
     },
     {
-      "p": "El informe técnico semanal es una función Premium. El tiempo, las actividades y las respuestas describen lo ocurrido dentro de la aplicación. No son un informe clínico, una prueba estandarizada ni una medida global del desarrollo."
+      "p": "El informe técnico semanal está disponible gratis. El tiempo, las actividades y las respuestas describen lo ocurrido dentro de la aplicación. No son un informe clínico, una prueba estandarizada ni una medida global del desarrollo."
     },
     {
       "p": "Antes de comparar semanas, comprueba si cambiaron los juegos, los niveles, el tiempo disponible o la ayuda. Acertar más en un juego conocido y menos en uno nuevo puede reflejar contextos distintos. Dejar de usar la app unos días no debe interpretarse automáticamente como pérdida de capacidades."
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -87,8 +87,8 @@ export default {
   ],
   "faq": [
     [
-      "¿El informe semanal es Premium?",
-      "Sí. El informe técnico semanal es una función Premium."
+      "¿El informe semanal es gratis?",
+      "Sí. El informe técnico semanal está disponible gratis."
     ],
     [
       "¿Puedo compartir el PDF con la escuela?",

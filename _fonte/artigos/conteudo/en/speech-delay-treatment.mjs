@@ -41,7 +41,7 @@ export default {
       intro: 'Some ideas in the article have a parallel in app features:',
       items: [
         ['Most practice happens outside the session.', 'In the Adult Area you choose the words and content to practise, in line with the goals agreed with the therapist.'],
-        ['Following progress.', 'The weekly PDF report (Premium) shows app usage data, which can be shared with the therapist.'],
+        ['Following progress.', 'The weekly PDF report shows app usage data, which can be shared with the therapist.'],
       ],
       outro: 'Talk+ complements speech and language therapy but does not replace it. The app report is not a clinical assessment.',
     } },

@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Free Communicate in Talk+: getting started</span>",
-  "lead": "<strong>Free Communicate in Talk+</strong> provides picture-and-voice cards for choosing messages, combining cards into a sentence and hearing it aloud. Families can explore this resource without a Premium subscription.",
+  "lead": "<strong>Free Communicate in Talk+</strong> provides picture-and-voice cards for choosing messages, combining cards into a sentence and hearing it aloud. Like the rest of the app, it is available free of charge.",
   "blocks": [
     {
       "h2": "How do you try free Communicate in Talk+?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -87,7 +87,7 @@ export default {
   ],
   "faq": [
     [
-      "Does Communicate require Premium?",
+      "Is Communicate free?",
       "No. Communicate is free and unlimited."
     ],
     [

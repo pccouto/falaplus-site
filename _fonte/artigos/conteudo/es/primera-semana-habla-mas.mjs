@@ -71,7 +71,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -97,8 +97,8 @@ export default {
       "No. El objetivo es conocer la experiencia y las preferencias."
     ],
     [
-      "¿Se puede empezar sin Premium?",
-      "Sí. Con Comunicar gratuito y otras actividades incluidas en el plan gratuito."
+      "¿La app es totalmente gratis?",
+      "Sí. Con Comunicar gratuito y otras actividades incluidas gratis."
     ],
     [
       "¿La app evalúa el desarrollo?",

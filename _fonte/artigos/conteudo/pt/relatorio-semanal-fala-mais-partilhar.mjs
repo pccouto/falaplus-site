@@ -21,7 +21,7 @@ export default {
       "toc": "Como interpretar o relatório semanal da Fala+?"
     },
     {
-      "p": "O Relatório Técnico Semanal integra o Premium. Os dados sobre tempo, atividades e respostas descrevem o que aconteceu na aplicação. Não equivalem a um relatório clínico, teste padronizado ou medida global do desenvolvimento da criança."
+      "p": "O Relatório Técnico Semanal está disponível gratuitamente. Os dados sobre tempo, atividades e respostas descrevem o que aconteceu na aplicação. Não equivalem a um relatório clínico, teste padronizado ou medida global do desenvolvimento da criança."
     },
     {
       "p": "Antes de comparar semanas, observe se mudaram os jogos, os níveis, o tempo disponível ou a ajuda recebida. Mais acertos num jogo familiar e menos num desafio novo podem refletir contextos diferentes. Uma pausa na utilização não deve ser interpretada automaticamente como perda de competências."
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -87,8 +87,8 @@ export default {
   ],
   "faq": [
     [
-      "O relatório semanal é Premium?",
-      "Sim. O Relatório Técnico Semanal é uma funcionalidade Premium."
+      "O relatório semanal é gratuito?",
+      "Sim. O Relatório Técnico Semanal está disponível gratuitamente."
     ],
     [
       "Posso partilhar o PDF com a escola?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

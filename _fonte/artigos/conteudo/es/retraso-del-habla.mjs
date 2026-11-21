@@ -100,9 +100,9 @@ export default {
       title: 'Mientras esperas la valoración',
       intro: 'Algunas sugerencias de este artículo pueden ponerse en práctica con Habla+, siempre como complemento y nunca como sustituto de la valoración:',
       items: [
-        ['Usar imágenes para ayudarle a elegir y a pedir.', 'Comunicar tiene tarjetas con imagen y voz, organizadas por temas, y está disponible sin límites en el plan gratuito.'],
+        ['Usar imágenes para ayudarle a elegir y a pedir.', 'Comunicar tiene tarjetas con imagen y voz, organizadas por temas, y está disponible gratis y sin límites.'],
         ['Valorar sonidos e intentos, sin pedir que repita.', 'En la Voz Mágica, el niño escucha la palabra y después «habla, canta o hace un sonido». No hay acierto ni error, y la voz no se guarda.'],
-        ['Hablar con el logopeda.', 'El informe semanal (Premium) resume el tiempo de uso, las palabras trabajadas y el uso de Comunicar, con espacio para notas, para apoyar la conversación con quien acompaña al niño. No es una valoración.'],
+        ['Hablar con el logopeda.', 'El informe semanal resume el tiempo de uso, las palabras trabajadas y el uso de Comunicar, con espacio para notas, para apoyar la conversación con quien acompaña al niño. No es una valoración.'],
       ],
     } },
   ],

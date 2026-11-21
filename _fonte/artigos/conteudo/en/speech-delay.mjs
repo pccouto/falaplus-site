@@ -100,9 +100,9 @@ export default {
       title: 'While you wait for an assessment',
       intro: 'Some suggestions in this article can be put into practice with Talk+, always as a complement and never as a substitute for an assessment:',
       items: [
-        ['Use pictures to help the child choose and ask.', 'Communicate has picture-and-voice cards organised by topic, with no limits on the free plan.'],
+        ['Use pictures to help the child choose and ask.', 'Communicate has picture-and-voice cards organised by topic, free of charge and with no limits.'],
         ['Value sounds and attempts, without asking them to repeat.', 'In Magic Voice, the child hears the word and then «speaks, sings or makes a sound». There is no right or wrong, and the voice is not saved.'],
-        ['Talk to the speech and language therapist.', 'The weekly report (Premium) summarises time of use, words practised and use of Communicate, with space for notes, to support the conversation with whoever supports the child. It is not an assessment.'],
+        ['Talk to the speech and language therapist.', 'The weekly report summarises time of use, words practised and use of Communicate, with space for notes, to support the conversation with whoever supports the child. It is not an assessment.'],
       ],
     } },
   ],

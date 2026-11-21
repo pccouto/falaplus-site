@@ -55,7 +55,7 @@ export default {
         ['Modelar: el adulto también toca las imágenes.', 'Cada tarjeta dice la palabra en voz alta, así que el adulto puede mostrar cómo comunicarse mientras habla.'],
         ['Ir más allá de las peticiones.', 'El niño junta varias tarjetas en una frase y la oye en voz alta, para pedir, comentar o compartir.'],
         ['Familia y escuela con el mismo vocabulario.', 'En el Área del Adulto se pueden usar fotos reales y grabar la voz de las personas que el niño conoce.'],
-        ['La CAA siempre a mano, sin requisitos previos.', 'Comunicar está disponible sin límites en el plan gratuito.'],
+        ['La CAA siempre a mano, sin requisitos previos.', 'Comunicar está disponible gratis y sin límites.'],
       ],
     } },
   ],

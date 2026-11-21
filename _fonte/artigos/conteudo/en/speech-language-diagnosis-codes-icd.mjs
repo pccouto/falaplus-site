@@ -57,7 +57,7 @@ export default {
       title: 'Recording everyday life to bring to appointments',
       intro: 'The article recommends describing concrete difficulties. One part of the app can complement that conversation:',
       items: [
-        ['Describing what the child does day to day helps interpret the report.', 'The weekly report (Premium) shows minutes of use, words and use of Communicate, with space for notes; it is not an assessment.'],
+        ['Describing what the child does day to day helps interpret the report.', 'The weekly report shows minutes of use, words and use of Communicate, with space for notes; it is not an assessment.'],
       ],
       outro: 'Talk+ does not assign codes or diagnoses and does not replace a professional’s report.',
     } },

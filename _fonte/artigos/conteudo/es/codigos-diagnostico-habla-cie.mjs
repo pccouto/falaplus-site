@@ -57,7 +57,7 @@ export default {
       title: 'Registrar el día a día para llevarlo a la consulta',
       intro: 'El artículo recomienda describir dificultades concretas. Una función de la app puede complementar esa conversación:',
       items: [
-        ['Describir lo que hace el niño en el día a día ayuda a interpretar el informe.', 'El informe semanal (Premium) muestra minutos de uso, palabras y uso de Comunicar, con espacio para notas; no es una evaluación.'],
+        ['Describir lo que hace el niño en el día a día ayuda a interpretar el informe.', 'El informe semanal muestra minutos de uso, palabras y uso de Comunicar, con espacio para notas; no es una evaluación.'],
       ],
       outro: 'Habla+ no asigna códigos ni diagnósticos y no sustituye el informe de un profesional.',
     } },

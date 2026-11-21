@@ -42,7 +42,7 @@ export default {
       "id": "exemplo"
     },
     {
-      "p": "Si interesan los animales, puedes empezar por un juego de escuchar y elegir con ese tema. Si gusta más buscar parejas, prueba Juego de Memoria. Para crear sin respuestas correctas, Jugar libre ofrece otra forma de participar. La elección directa en Juegos es Premium; el plan gratuito incluye Caminata hasta el nivel 5."
+      "p": "Si interesan los animales, puedes empezar por un juego de escuchar y elegir con ese tema. Si gusta más buscar parejas, prueba Juego de Memoria. Para crear sin respuestas correctas, Jugar libre ofrece otra forma de participar. Todos los juegos y recorridos están disponibles gratis."
     },
     {
       "h2": "¿Qué podemos concluir?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -92,7 +92,7 @@ export default {
     ],
     [
       "¿Todos los juegos son gratuitos?",
-      "No. La elección directa en Juegos es Premium; el plan gratuito permite explorar actividades."
+      "Sí. Todos los juegos y recorridos están disponibles gratis."
     ],
     [
       "¿Conviene insistir en el juego más difícil?",

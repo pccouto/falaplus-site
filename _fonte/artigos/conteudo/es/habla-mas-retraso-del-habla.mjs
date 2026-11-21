@@ -82,7 +82,7 @@ export default {
         "items": [
           [
             "Valorar imágenes y gestos como comunicación.",
-            "Comunicar tiene tarjetas con imagen y voz, sin límites en el plan gratuito."
+            "Comunicar tiene tarjetas con imagen y voz, gratis y sin límites."
           ],
           [
             "Dar tiempo, sin presión.",

@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Percurso Guiado da Fala+: preparar atividades</span>",
-  "lead": "O <strong>Percurso Guiado da Fala+</strong> permite que o adulto escolha o tema e o nível das atividades. É uma funcionalidade Premium para preparar uma proposta mais específica, em vez de depender apenas da exploração livre ou da sequência da Caminhada.",
+  "lead": "O <strong>Percurso Guiado da Fala+</strong> permite que o adulto escolha o tema e o nível das atividades. Está disponível gratuitamente para preparar uma proposta mais específica, em vez de depender apenas da exploração livre ou da sequência da Caminhada.",
   "blocks": [
     {
       "h2": "Quando escolher o Percurso Guiado da Fala+?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "O Percurso Guiado é gratuito?",
-      "É uma funcionalidade Premium."
+      "Está disponível gratuitamente."
     ],
     [
       "Quem escolhe o tema e o nível?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

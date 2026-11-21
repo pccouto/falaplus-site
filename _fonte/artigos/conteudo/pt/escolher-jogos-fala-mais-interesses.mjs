@@ -42,7 +42,7 @@ export default {
       "id": "exemplo"
     },
     {
-      "p": "Uma criança interessada em animais pode começar por um jogo de ouvir e escolher com esse tema. Se gostar mais de descobrir pares, experimente o Jogo da Memória. Se quiser criar sem respostas certas, o Brincar oferece outra forma de participação. A escolha direta do Modo Jogos é Premium; o plano gratuito permite experimentar a Caminhada até ao nível 5."
+      "p": "Uma criança interessada em animais pode começar por um jogo de ouvir e escolher com esse tema. Se gostar mais de descobrir pares, experimente o Jogo da Memória. Se quiser criar sem respostas certas, o Brincar oferece outra forma de participação. Todos os jogos e percursos estão disponíveis gratuitamente."
     },
     {
       "h2": "O que podemos concluir?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -92,7 +92,7 @@ export default {
     ],
     [
       "Todos os jogos são gratuitos?",
-      "Não. A escolha direta no Modo Jogos é Premium; existem atividades disponíveis no plano gratuito."
+      "Sim. Todos os jogos e percursos estão disponíveis gratuitamente."
     ],
     [
       "Devo insistir no jogo mais difícil?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

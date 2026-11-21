@@ -21,7 +21,7 @@ export default {
       "toc": "How should you interpret the Talk+ weekly report?"
     },
     {
-      "p": "The weekly technical report is a Premium feature. Time, activities and responses describe what happened within the app. They are not a clinical report, standardised test or overall measure of a child’s development."
+      "p": "The weekly technical report is available free of charge. Time, activities and responses describe what happened within the app. They are not a clinical report, standardised test or overall measure of a child’s development."
     },
     {
       "p": "Before comparing weeks, check whether games, levels, available time or adult assistance changed. More correct answers in a familiar game and fewer in a new challenge may reflect different contexts. A break from the app should not automatically be interpreted as lost skills."
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -87,8 +87,8 @@ export default {
   ],
   "faq": [
     [
-      "Is the weekly report Premium?",
-      "Yes. The weekly technical report is a Premium feature."
+      "Is the weekly report free?",
+      "Yes. The weekly technical report is available free of charge."
     ],
     [
       "Can adults share the PDF with school?",

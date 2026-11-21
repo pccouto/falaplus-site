@@ -58,7 +58,7 @@ export default {
       intro: 'Some ideas in the article have a parallel in app features:',
       items: [
         ['Grouping words by topic.', 'The games have more than 1,000 words across 25 topics, such as Family, Food and Routines; in the Adult Area you choose the words to practise.'],
-        ['Following progress over time.', 'The weekly PDF report (Premium) shows app usage data, which can complement your list.'],
+        ['Following progress over time.', 'The weekly PDF report shows app usage data, which can complement your list.'],
       ],
       outro: 'Talk+ does not count the words a child says or assess vocabulary. Your list and the therapist’s assessment cannot be replaced.',
     } },

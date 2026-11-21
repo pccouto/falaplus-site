@@ -56,7 +56,7 @@ export default {
       title: 'Registar o dia a dia para levar à consulta',
       intro: 'O artigo recomenda descrever dificuldades concretas. Uma função da app pode complementar essa conversa:',
       items: [
-        ['Descrever o que a criança faz no dia a dia ajuda a interpretar o relatório.', 'O relatório semanal (Premium) mostra minutos de uso, palavras e uso do Comunicar, com espaço para notas; não é uma avaliação.'],
+        ['Descrever o que a criança faz no dia a dia ajuda a interpretar o relatório.', 'O relatório semanal mostra minutos de uso, palavras e uso do Comunicar, com espaço para notas; não é uma avaliação.'],
       ],
       outro: 'A Fala+ não atribui códigos nem diagnósticos e não substitui o relatório de um profissional.',
     } },

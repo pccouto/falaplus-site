@@ -41,7 +41,7 @@ export default {
       intro: 'Algunas ideas del artículo tienen su paralelo en funciones de la app:',
       items: [
         ['La mayor parte de la práctica ocurre fuera de la sesión.', 'En el Área del Adulto se eligen las palabras y los contenidos que practicar, según los objetivos acordados con el logopeda.'],
-        ['Seguir el progreso.', 'El informe semanal en PDF (Premium) muestra datos de uso de la app, que se pueden compartir con el logopeda.'],
+        ['Seguir el progreso.', 'El informe semanal en PDF muestra datos de uso de la app, que se pueden compartir con el logopeda.'],
       ],
       outro: 'Habla+ complementa la logopedia, pero no la sustituye. El informe de la app no es una evaluación clínica.',
     } },

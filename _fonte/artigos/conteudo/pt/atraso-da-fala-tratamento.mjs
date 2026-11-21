@@ -40,7 +40,7 @@ export default {
       intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
       items: [
         ['A maior parte da prática acontece fora da sessão.', 'Na Área Adulto escolhem-se as palavras e os conteúdos a treinar, de acordo com os objetivos combinados com o terapeuta.'],
-        ['Acompanhar o progresso.', 'O relatório semanal em PDF (Premium) mostra dados de utilização da app, que podem ser partilhados com o terapeuta.'],
+        ['Acompanhar o progresso.', 'O relatório semanal em PDF mostra dados de utilização da app, que podem ser partilhados com o terapeuta.'],
       ],
       outro: 'A Fala+ complementa a terapia da fala, mas não a substitui. O relatório da app não é uma avaliação clínica.',
     } },

@@ -66,7 +66,7 @@ export default {
             ],
             [
                   "Ter a CAA sempre à mão, sem pré-requisitos.",
-                  "O Comunicar está disponível sem limites no plano gratuito."
+                  "O Comunicar está disponível gratuitamente e sem limites."
             ]
       ],
       "outro": "A escolha do sistema de CAA certo para cada criança deve ser feita com um terapeuta da fala."

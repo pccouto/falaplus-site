@@ -102,7 +102,7 @@ export default {
       "items": [
             [
                   "Usar imagens para ajudar a criança a escolher e a pedir.",
-                  "O Comunicar tem cartões com imagem e voz, organizados por temas, e está disponível sem limites no plano gratuito."
+                  "O Comunicar tem cartões com imagem e voz, organizados por temas, e está disponível gratuitamente e sem limites."
             ],
             [
                   "Valorizar sons e tentativas, sem exigir que repita.",
@@ -110,7 +110,7 @@ export default {
             ],
             [
                   "Falar com o terapeuta da fala.",
-                  "O relatório semanal (Premium) resume o tempo de uso, as palavras trabalhadas e o uso do Comunicar, com espaço para notas, para apoiar a conversa com quem acompanha a criança. Não é uma avaliação."
+                  "O relatório semanal resume o tempo de uso, as palavras trabalhadas e o uso do Comunicar, com espaço para notas, para apoiar a conversa com quem acompanha a criança. Não é uma avaliação."
             ]
       ]
     } },

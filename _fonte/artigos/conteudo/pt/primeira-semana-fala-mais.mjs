@@ -71,7 +71,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -97,8 +97,8 @@ export default {
       "Não. O foco é compreender a experiência e as preferências."
     ],
     [
-      "Posso começar sem Premium?",
-      "Sim. Pode explorar o Comunicar gratuito e outras atividades incluídas no plano gratuito."
+      "A app é totalmente gratuita?",
+      "Sim. Pode explorar o Comunicar gratuito e outras atividades incluídas gratuitamente."
     ],
     [
       "A app serve para avaliar o desenvolvimento?",
@@ -106,7 +106,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

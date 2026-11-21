@@ -71,7 +71,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",

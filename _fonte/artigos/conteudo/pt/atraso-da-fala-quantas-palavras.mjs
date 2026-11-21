@@ -57,7 +57,7 @@ export default {
       intro: 'Algumas ideias do artigo têm paralelo em funções da app:',
       items: [
         ['Organizar as palavras por temas.', 'Os jogos têm mais de 1000 palavras em 25 temas, como Família, Comida e Rotinas; na Área Adulto escolhem-se as palavras a treinar.'],
-        ['Acompanhar a evolução ao longo do tempo.', 'O relatório semanal em PDF (Premium) mostra dados de utilização da app, que podem complementar a sua lista.'],
+        ['Acompanhar a evolução ao longo do tempo.', 'O relatório semanal em PDF mostra dados de utilização da app, que podem complementar a sua lista.'],
       ],
       outro: 'A Fala+ não conta as palavras que a criança diz nem avalia o vocabulário. A sua lista e a avaliação do terapeuta são insubstituíveis.',
     } },

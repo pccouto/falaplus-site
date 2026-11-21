@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Comunicar gratuito en Habla+: primeros pasos</span>",
-  "lead": "<strong>Comunicar gratuito en Habla+</strong> ofrece tarjetas con imágenes y voz para elegir mensajes, combinar tarjetas y escuchar la frase. Permite explorar este recurso sin una suscripción Premium.",
+  "lead": "<strong>Comunicar gratuito en Habla+</strong> ofrece tarjetas con imágenes y voz para elegir mensajes, combinar tarjetas y escuchar la frase. Como el resto de la app, está disponible gratis.",
   "blocks": [
     {
       "h2": "¿Cómo probar Comunicar gratuito en Habla+?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -87,7 +87,7 @@ export default {
   ],
   "faq": [
     [
-      "¿Comunicar necesita Premium?",
+      "¿Comunicar es gratis?",
       "No. Comunicar es gratuito y sin límites."
     ],
     [

@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Comunicar gratuito na Fala+: como começar</span>",
-  "lead": "O <strong>Comunicar gratuito na Fala+</strong> disponibiliza cartões com imagem e voz para escolher mensagens, juntar cartões numa frase e ouvi-la. É uma forma de explorar a comunicação com imagens sem precisar de subscrever o Premium.",
+  "lead": "O <strong>Comunicar gratuito na Fala+</strong> disponibiliza cartões com imagem e voz para escolher mensagens, juntar cartões numa frase e ouvi-la. Tal como o resto da app, está disponível gratuitamente.",
   "blocks": [
     {
       "h2": "Como experimentar o Comunicar gratuito na Fala+?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Experimentar antes de definir uma rotina.",
-            "O plano gratuito inclui Comunicar sem limites e Caminhada até ao nível 5."
+            "Toda a Fala+ está disponível gratuitamente, sem subscrições nem compras."
           ],
           [
             "Ajustar a experiência às preferências.",
@@ -87,7 +87,7 @@ export default {
   ],
   "faq": [
     [
-      "O Comunicar precisa de Premium?",
+      "O Comunicar é gratuito?",
       "Não. O Comunicar é gratuito e sem limites."
     ],
     [
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades e planos</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>",
     "<a href=\"https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/\" target=\"_blank\" rel=\"noopener\">ASHA — Augmentative and Alternative Communication (AAC)</a>"
   ],

@@ -82,7 +82,7 @@ export default {
         "items": [
           [
             "Treat pictures and gestures as communication.",
-            "Communicate has picture and voice cards, unlimited on the free plan."
+            "Communicate has picture and voice cards, available free of charge without limits."
           ],
           [
             "Give time, without pressure.",

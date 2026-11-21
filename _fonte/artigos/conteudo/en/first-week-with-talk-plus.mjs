@@ -71,7 +71,7 @@ export default {
         "items": [
           [
             "Explore before setting a routine.",
-            "The free plan includes unlimited Communicate and Walk up to level 5."
+            "All of Talk+ is available free of charge, with no subscriptions or purchases."
           ],
           [
             "Adapt to individual preferences.",
@@ -97,8 +97,8 @@ export default {
       "No. Focus on the experience and preferences."
     ],
     [
-      "Can families start without Premium?",
-      "Yes. Explore free Communicate and other activities included in the free plan."
+      "Is the app completely free?",
+      "Yes. Every feature is available with no subscription or in-app purchases."
     ],
     [
       "Can the app assess development?",

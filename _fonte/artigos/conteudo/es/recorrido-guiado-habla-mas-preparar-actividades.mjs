@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Recorrido Guiado de Habla+: preparar actividades</span>",
-  "lead": "El <strong>Recorrido Guiado de Habla+</strong> permite al adulto elegir el tema y el nivel de las actividades. Esta función Premium ofrece un punto de partida más específico que la exploración libre o la secuencia de Caminata.",
+  "lead": "El <strong>Recorrido Guiado de Habla+</strong> permite al adulto elegir el tema y el nivel de las actividades. Esta función gratuita ofrece un punto de partida más específico que la exploración libre o la secuencia de Caminata.",
   "blocks": [
     {
       "h2": "¿Cuándo elegir el Recorrido Guiado de Habla+?",
@@ -69,7 +69,7 @@ export default {
         "items": [
           [
             "Explorar antes de establecer una rutina.",
-            "El plan gratuito incluye Comunicar sin límites y Caminata hasta el nivel 5."
+            "Todo Habla+ está disponible gratis, sin suscripciones ni compras."
           ],
           [
             "Ajustar la experiencia a las preferencias.",
@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "¿El Recorrido Guiado es gratuito?",
-      "Es una función Premium."
+      "Sí. Está disponible gratis."
     ],
     [
       "¿Quién elige el tema y el nivel?",
