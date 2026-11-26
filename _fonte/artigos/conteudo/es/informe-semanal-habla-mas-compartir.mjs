@@ -34,7 +34,8 @@ export default {
       "ol": [
         "Abre el informe en el Área del Adulto y comprueba perfil y periodo.",
         "Lee los registros junto con el contexto: compañía, ayuda y actividades elegidas.",
-        "Comparte el PDF con las personas pertinentes y plantea una pregunta concreta."
+        "Comparte el PDF con las personas pertinentes y plantea una pregunta concreta.",
+        "Si prefieres recibirlo sin abrir la app, activa «Informe semanal por correo» en Área del Adulto → Cuenta (hace falta una cuenta con correo electrónico)."
       ]
     },
     {
@@ -91,6 +92,10 @@ export default {
       "Sí. El informe técnico semanal está disponible gratis."
     ],
     [
+      "¿Puedo recibir el informe por correo?",
+      "Sí. Con una cuenta con correo electrónico, activa la opción en Área del Adulto → Cuenta: el PDF de la semana anterior llega al correo de la cuenta. Está desactivada por defecto y se puede desactivar en cualquier momento."
+    ],
+    [
       "¿Puedo compartir el PDF con la escuela?",
       "Sí, considerando los datos del niño y quién necesita recibirlos."
     ],
@@ -104,7 +109,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones y planes</a>",
+    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=es\" target=\"_blank\" rel=\"noopener\">Habla+ en Google Play</a>"
   ],
   "related": [

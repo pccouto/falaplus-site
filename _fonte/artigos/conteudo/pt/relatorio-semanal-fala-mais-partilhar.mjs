@@ -34,7 +34,8 @@ export default {
       "ol": [
         "Abra o relatório na Área Adulto e confirme o perfil e o período.",
         "Leia os registos juntamente com o contexto: companhia, ajuda e atividades escolhidas.",
-        "Partilhe o PDF apenas com quem precisa dessa informação e formule uma pergunta concreta."
+        "Partilhe o PDF apenas com quem precisa dessa informação e formule uma pergunta concreta.",
+        "Se preferir recebê-lo sem abrir a app, ligue em Área Adulto → Conta a opção «Relatório semanal por email» (precisa de uma conta com email)."
       ]
     },
     {
@@ -91,6 +92,10 @@ export default {
       "Sim. O Relatório Técnico Semanal está disponível gratuitamente."
     ],
     [
+      "Posso receber o relatório por email?",
+      "Sim. Com uma conta com email, ligue a opção em Área Adulto → Conta: o PDF da semana anterior chega ao email da conta. A opção está desligada por defeito e pode ser desligada a qualquer momento."
+    ],
+    [
       "Posso partilhar o PDF com a escola?",
       "Sim, por decisão do adulto, tendo em conta os dados da criança e os destinatários."
     ],
@@ -104,7 +109,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

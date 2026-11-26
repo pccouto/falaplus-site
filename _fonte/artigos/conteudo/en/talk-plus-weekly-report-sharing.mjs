@@ -34,7 +34,8 @@ export default {
       "ol": [
         "Open the report in the Adult Area and check the profile and period.",
         "Read records alongside context: company, help and selected activities.",
-        "Share the PDF only with appropriate recipients and ask a concrete question."
+        "Share the PDF only with appropriate recipients and ask a concrete question.",
+        "To receive it without opening the app, turn on “Weekly report by email” in Adult Area → Account (an account with an email address is needed)."
       ]
     },
     {
@@ -91,6 +92,10 @@ export default {
       "Yes. The weekly technical report is available free of charge."
     ],
     [
+      "Can I get the report by email?",
+      "Yes. With an account that has an email address, turn the option on in Adult Area → Account: the previous week’s PDF is sent to the account’s email. It is off by default and can be turned off at any time."
+    ],
+    [
       "Can adults share the PDF with school?",
       "Yes, considering the child’s information and who needs to receive it."
     ],
@@ -104,7 +109,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/en/\">Talk+ — features and plans</a>",
+    "<a href=\"https://falamais.pt/en/\">Talk+ — free features</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=en\" target=\"_blank\" rel=\"noopener\">Talk+ on Google Play</a>"
   ],
   "related": [
