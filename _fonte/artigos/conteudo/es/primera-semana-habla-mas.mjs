@@ -98,7 +98,7 @@ export default {
     ],
     [
       "¿La app es totalmente gratis?",
-      "Sí. Con Comunicar gratuito y otras actividades incluidas gratis."
+      "Sí. Todas las funciones están disponibles sin suscripción ni compras."
     ],
     [
       "¿La app evalúa el desarrollo?",
@@ -106,7 +106,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones y planes</a>",
+    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=es\" target=\"_blank\" rel=\"noopener\">Habla+ en Google Play</a>"
   ],
   "related": [

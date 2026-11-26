@@ -98,7 +98,7 @@ export default {
     ],
     [
       "A app é totalmente gratuita?",
-      "Sim. Pode explorar o Comunicar gratuito e outras atividades incluídas gratuitamente."
+      "Sim. Pode explorar todas as funcionalidades sem subscrição nem compras."
     ],
     [
       "A app serve para avaliar o desenvolvimento?",
@@ -106,7 +106,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

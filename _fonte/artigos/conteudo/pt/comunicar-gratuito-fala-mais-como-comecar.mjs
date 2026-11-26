@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "O Comunicar é gratuito?",
-      "Não. O Comunicar é gratuito e sem limites."
+      "Sim. O Comunicar e as restantes funcionalidades da app são gratuitos."
     ],
     [
       "A criança tem de falar depois de tocar?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>",
     "<a href=\"https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/\" target=\"_blank\" rel=\"noopener\">ASHA — Augmentative and Alternative Communication (AAC)</a>"
   ],

@@ -33,7 +33,7 @@ export default {
     {
       "ol": [
         "Install through the official Google Play listing and check device compatibility.",
-        "Try an activity available free of charge, show one example and allow exploration.",
+        "Try an activity, show one example and allow exploration.",
         "Explore every feature freely and adjust the experience in the Adult Area."
       ]
     },
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/en/\">Talk+ — features and plans</a>",
+    "<a href=\"https://falamais.pt/en/\">Talk+ — free features</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=en\" target=\"_blank\" rel=\"noopener\">Talk+ on Google Play</a>"
   ],
   "related": [

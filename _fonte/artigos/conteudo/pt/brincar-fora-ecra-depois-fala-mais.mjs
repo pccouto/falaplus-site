@@ -106,7 +106,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>",
     "<a href=\"https://www.naeyc.org/resources/topics/technology-and-media/resources\" target=\"_blank\" rel=\"noopener\">NAEYC — Technology and Interactive Media as Tools in Early Childhood Programs</a>"
   ],

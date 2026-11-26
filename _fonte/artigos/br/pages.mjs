@@ -15,7 +15,7 @@ function connect(root, routes) {
     if (!existsSync(file)) throw new Error('Missing locale counterpart: ' + route)
     let html = readFileSync(file, 'utf8')
     html = html.replace(/<html\b([^>]*)>/, (_, attrs) => `<html${attrs.replace(/ data-br-locale/g, '')} data-br-locale>`)
-      .replace(/home.css\?v=[^"\s]+/g, 'home.css?v=20261111d')
+      .replace(/home.css\?v=[^"\s]+/g, 'home.css?v=20261121b')
     const tag = `<link rel="alternate" hreflang="pt-BR" href="${SITE}${routes.br}">`
     html = html.replace(/\s*<link rel="alternate" hreflang="pt-BR"[^>]*>/g, '')
       .replace('</head>', `  ${tag}\n</head>`)
@@ -38,16 +38,30 @@ export function connectBrazilianAlternates(root, catalog, ui, selected, topics) 
   for (const routes of topics) connect(root, routes)
 }
 
+// Brazilian wording for the "totalmente gratuita" texts (2026-11-21) and the
+// Google Play rating block, matching the reviewed /br/ pages.
+const BR_PHRASES = [
+  ['100% gratuita', '100% grátis'], ['Tudo gratuito, sem compras', 'Tudo grátis, sem compras'],
+  ['O Fala+ é gratuita', 'O Fala+ é grátis'], ['É totalmente gratuita:', 'É totalmente grátis:'],
+  ['sem subscrições', 'sem assinaturas'], ['Ajude-nos a chegar', 'Ajude a gente a chegar'],
+  ['Não pedimos pagamentos.', 'Não cobramos nada.'], ['a melhor forma de nos apoiar', 'a melhor forma de apoiar'],
+  ['na Google Play', 'no Google Play'], ['é isso que faz outras famílias encontrarem', 'é assim que outras famílias encontram'],
+  ['«Avaliar esta app»', '«Avaliar este app»'], ['Também pode avaliar', 'Também dá para avaliar'],
+  ['por email', 'por e-mail'],
+]
+
 function localizeMarkup(html) {
   html = localizeText(html)
+  for (const [from, to] of BR_PHRASES) html = html.replaceAll(from, to)
   html = html.replace(/\b(alt|aria-label|placeholder|content)="([^"]*)"/g, (_, key, value) => `${key}="${localizeText(value)}"`)
   html = html.replace(/(href|src|poster|data-src|data-poster)="(?!\/|#|https?:|mailto:)([^"]+)"/g, '$1="/$2"')
   html = html.replace(/<html\b[^>]*>/, '<html lang="pt-BR" data-br-locale>')
-    .replace(/home.css\?v=[^"\s]+/g, 'home.css?v=20261111d')
+    .replace(/home.css\?v=[^"\s]+/g, 'home.css?v=20261121b')
     .replaceAll('content="pt_PT"', 'content="pt_BR"')
     .replaceAll('main.js?v=20261029f', 'main.js?v=20261110br')
     .replaceAll('href="/artigos/"', 'href="/br/artigos/"')
-    .replace(/href="https:\/\/play.google.com\/store\/apps\/details\?id=pt.falaplus.app[^\"]*"/g, `href="${escape(PLAY)}"`)
+    .replace(/href="https:\/\/play.google.com\/store\/apps\/details\?id=pt.falaplus.app(?![^"]*showAllReviews)[^\"]*"/g, `href="${escape(PLAY)}"`)
+    .replace(/href="https:\/\/play.google.com\/store\/apps\/details\?id=pt.falaplus.app&amp;showAllReviews=true"/g, `href="${escape(PLAY + '&showAllReviews=true')}"`)
   html = html.replace(/(<a\b[^>]*hreflang="pt-PT"[^>]*?) aria-current="page"/g, '$1')
   html = html.replace(/<a\b[^>]*hreflang="pt-BR"[^>]*>[\s\S]*?<\/a>/g, '')
   html = html.replace(/<aside class="articles-highlight"[\s\S]*?<\/aside>/, '')

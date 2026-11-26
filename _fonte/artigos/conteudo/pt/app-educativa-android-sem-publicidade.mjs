@@ -33,7 +33,7 @@ export default {
     {
       "ol": [
         "Instale a app através da ficha oficial na Google Play e confirme a compatibilidade com o dispositivo.",
-        "Comece por uma atividade disponível gratuitamente; mostre um exemplo e deixe a criança explorar.",
+        "Comece por uma atividade; mostre um exemplo e deixe a criança explorar.",
         "Explore livremente as funcionalidades e ajuste a experiência na Área Adulto."
       ]
     },
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades (tudo gratuito)</a>",
+    "<a href=\"https://falamais.pt/\">Fala+ — funcionalidades gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=pt\" target=\"_blank\" rel=\"noopener\">Fala+ na Google Play</a>"
   ],
   "related": [

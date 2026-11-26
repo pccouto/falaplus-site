@@ -13,7 +13,7 @@ export default {
     "Android"
   ],
   "h1": "<span class=\"word-highlight\">Talk+ Guided Path: plan activities with purpose</span>",
-  "lead": "<strong>Talk+ Guided Path</strong> lets adults choose an activity theme and level. This free feature offers a more specific starting point than free exploration or following the Walk sequence alone.",
+  "lead": "<strong>Talk+ Guided Path</strong> lets adults choose an activity theme and level. This free feature offers a more specific starting point than open exploration or following the Walk sequence alone.",
   "blocks": [
     {
       "h2": "When should you choose Talk+ Guided Path?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/en/\">Talk+ — features and plans</a>",
+    "<a href=\"https://falamais.pt/en/\">Talk+ — free features</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=en\" target=\"_blank\" rel=\"noopener\">Talk+ on Google Play</a>"
   ],
   "related": [

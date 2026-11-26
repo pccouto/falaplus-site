@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "¿Comunicar es gratis?",
-      "No. Comunicar es gratuito y sin límites."
+      "Sí. Comunicar y todas las demás funciones de la app son gratis."
     ],
     [
       "¿Hay que hablar después de tocar una imagen?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones y planes</a>",
+    "<a href=\"https://falamais.pt/es/\">Habla+ — funciones gratuitas</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=es\" target=\"_blank\" rel=\"noopener\">Habla+ en Google Play</a>",
     "<a href=\"https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/\" target=\"_blank\" rel=\"noopener\">ASHA — Augmentative and Alternative Communication (AAC)</a>"
   ],

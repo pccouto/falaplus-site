@@ -88,7 +88,7 @@ export default {
   "faq": [
     [
       "Is Communicate free?",
-      "No. Communicate is free and unlimited."
+      "Yes. Communicate and every other app feature are free."
     ],
     [
       "Must the child speak after selecting a picture?",
@@ -104,7 +104,7 @@ export default {
     ]
   ],
   "sources": [
-    "<a href=\"https://falamais.pt/en/\">Talk+ — features and plans</a>",
+    "<a href=\"https://falamais.pt/en/\">Talk+ — free features</a>",
     "<a href=\"https://play.google.com/store/apps/details?id=pt.falaplus.app&amp;hl=en\" target=\"_blank\" rel=\"noopener\">Talk+ on Google Play</a>",
     "<a href=\"https://www.asha.org/practice-portal/professional-issues/augmentative-and-alternative-communication/\" target=\"_blank\" rel=\"noopener\">ASHA — Augmentative and Alternative Communication (AAC)</a>"
   ],
